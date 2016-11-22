@@ -1,0 +1,23 @@
+{
+	"push":{
+		"task":[
+			{"name":"pvePower","addFn":"addPvePower","msg":"Brave Saiyans, your Energy is full. Go travel with your Heroes!","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"pvpPower","addFn":"addPvpPower","msg":"Brave Saiyans, your STA is full. Join the Arena now!","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"eatbean12","h":12,"msg":"Brave Saiyans, login to claim free Beans!","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"eatbean18","h":18,"msg":"Brave Saiyans, login to claim free Beans!","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"eatbean12","d":1,"h":12,"msg":"Brave Saiyans, login to claim free Beans!","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"eatbean18","d":1,"h":18,"msg":"Brave Saiyans, login to claim free Beans!","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"eatbean12","d":2,"h":12,"msg":"Brave Saiyans, login to claim free Beans!","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"eatbean18","d":2,"h":18,"msg":"Brave Saiyans, login to claim free Beans!","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"worldBoss","h":12,"m":25,"msg":"Beerus is coming, are you ready to fight?","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"worldBoss","d":1,"h":12,"m":25,"msg":"Beerus is coming, are you ready to fight?","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"worldBoss","d":2,"h":12,"m":25,"msg":"Beerus is coming, are you ready to fight?","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"daily","d":1,"msg":"Get Special Gear from Fortuneteller Baba!","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"daily","d":2,"msg":"Get Special Gear from Fortuneteller Baba!","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"daily","d":3,"msg":"Get Special Gear from Fortuneteller Baba!","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"logout3","d":3,"addFn":"addNow","msg":"You're finally back, come and join the adventure!","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"logout7","d":7,"addFn":"addNow","msg":"You're finally back, come and join the adventure!","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}}
+		],
+		"options":null
+	}
+}

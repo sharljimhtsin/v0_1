@@ -1,0 +1,315 @@
+<html>
+	<head>
+		<title>测试</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="view/async.js"></script>
+		<script type="text/javascript">
+			var token;
+			var userUid;
+			var interval;
+			$(document).ready(function(){
+				$('#s').click(function(){
+					if(getToken() != true){
+						setTimeout(send, 2000);
+						return ;
+					} else {
+						send();
+					}
+					//var ctime =  Math.floor(Date.now()/1000);
+				});
+				$("#i").click(function(){
+					if($(this).val() == "►" && interval == null){
+						var i = $("#interval").val();
+						//if(i <= 1) i = 1;
+						getToken();
+						var j = 0;
+						interval = setInterval(function(){
+							if(j++ > 1000){
+								clearInterval(interval);
+								interval = null;
+							} else {
+								send();
+							}
+						}, i*1000);
+						$(this).val("■")
+					} else {
+						clearInterval(interval);
+						interval = null;
+						$(this).val("►");
+					}
+				});
+				$("#st").click(function(){
+					token = $("#t").val();
+					userUid = $("#u").val();
+				});
+				$("#ct").click(function(){
+					token = null;
+					userUid = null;
+				});
+				$("#globalBattle").click(function(){
+					globalBattleTimes();
+				})
+			});
+			var send = function(callbackFn){
+				var r = $('#r').val();
+				var t = $('#t').val();
+				var u = $('#u').val();
+				var p = $('#p').val();
+				var d = $('#d').val();
+				var method = $("input[name='method']:checked").val();
+				var url = 'http://'+$('#server').val()+'/';
+				var data;
+				switch (method){
+					case "admin":
+						url += "admin?method="+r+"&host=127.0.0.1&uid="+u+"&country="+$('#server').data("country")+"&pw="+t+"&gmPW=C9DA987779C51F22";
+						data = "data="+d;
+						break;
+					case "api":
+						url += "api?method="+r+"&token="+t+"&userUid="+u+"&packet="+p;
+						data = "data="+d;
+						break;
+					case "notify":
+						url += "notify/"+r+".node";
+						data = JSON.parse(d);
+						break;
+				}
+				$.ajax({
+					url:url,
+					type:"get",
+					dataType:"jsonp",
+					data:data,
+					success:function(data){
+						console.log(data);
+						var htm = displayObj(data);
+						$('#res').html(htm);
+						if(callbackFn != undefined)callbackFn(null, data);
+					}
+				});
+
+			}
+			function displayObj(obj)
+			{
+				var reg = new RegExp(/#<(.*)>#/g);
+				htm = "";
+				for(var key in obj)
+				{
+					htm += key+": ";
+					if(typeof(obj[key]) == 'array' || typeof(obj[key]) == 'object'){
+						htm += "<br />"+displayObj(obj[key]);
+					} else {
+						var w = obj[key]+"";
+						htm += w.replace(reg,
+								function(wl){
+							var wa = wl.split("|");
+							var wr = [];
+							for(var i in wa){
+								wr.push(b.decode(wa[i].replace("#<", "").replace(">#", "")));
+							}
+							return wr.join("|");
+						});
+					}
+					htm += "<br />";
+				}
+				return htm;
+			}
+			function getToken()
+			{
+				if(token != null)
+				return true;
+				var p = $('#p').val();
+				$.ajax({
+					url:"api?method=user.getToken&token=null&userUid=null&packet="+p,
+					type:"POST",
+					dataType:"json",
+					data:"data="+$('#d').val(),
+					//data:JSON.parse(d),
+					success:function(data){
+						token = data["user.getToken"]["token"];
+						userUid = data["user.getToken"]["userUid"];
+						$('#t').val(token);
+						$('#u').val(userUid);
+					}
+				});
+				return false;
+			}
+			function globalBattle(userName, callbackFn) {
+				var heroIds = [];
+				async.series([function (cb) {
+					$('#r').val("user.getToken");
+					$('#d').val("{\"platformId\":\"uc\",\"platformUserId\":\"" + userName + "@test.com\",\"info\":1,\"serverId\":\"1\"}");
+					send(function (err, data) {
+						token = data["user.getToken"]["token"];
+						userUid = data["user.getToken"]["userUid"];
+						$('#t').val(token);
+						$('#u').val(userUid);
+						cb(null);
+					});
+				}, function (cb) {
+					$('#r').val("user.create");
+					$('#d').val("{\"userName\":\"" + userName + "\",\"selectedHeroId\":\"1\"}");
+					send(cb);
+				}, function (cb) {
+					$('#r').val("user.get");
+					//$('#d').val("{\"formation\":\"[]\"}");
+					send(function (err, data) {
+						for (var i in data["user.get"]["hero"]) {
+							var heroData = data["user.get"]["hero"][i];
+							heroIds.push(heroData["heroUid"]);
+						}
+						cb(null);
+					});
+				}, function (cb) {
+					$('#r').val("pvp.mixContest.join");
+					$('#d').val("{}");
+					send(cb);
+				}, function (cb) {
+					$('#r').val("pvp.mixContest.refreshFormation");
+					$('#d').val("{\"type\":0}");
+					send(cb);
+				}], callbackFn);
+			}
+			function globalBattleTimes(){
+				var r = Math.floor(Math.random()*10000);
+				async.timesSeries(101, function(i, cb){
+					globalBattle("name"+r+""+i, cb);
+				}, function(err, res){});
+			}
+		</script>
+	</head>
+	<body>
+	server: &nbsp;&nbsp;<select id="server"></select>&nbsp;&nbsp;<input type="radio" name="method" value="admin"/>后台<input type="radio" name="method" checked="checked" value="api">接口<input type="radio" name="method" value="notify">回调<br />
+	method: &nbsp;&nbsp;<input id="r" value="server.list" /><br />
+	userUid:&nbsp;&nbsp;<input id="u" value="4311744749" /> <input type="button" id="st" value="设置token"><br />
+	token:&nbsp;&nbsp;&nbsp;<input id="t" value="o10h3uskz1utia6t7" /> <input type="button" id="ct" value="清理token"><br />
+	packet: &nbsp;&nbsp;<input id="p" value="test_123" /><br />
+	data:&nbsp;<textarea id="d">{"platformId":"test2","platformUserId":"LoginID_3100","info":1,"serverId":"5"}</textarea><br />
+	<input id="s" type="button" value="提交" /> 挂机：每<input id="interval" type="text" value="10" style="width:30px">秒发送一次 <input id="i" type="button" value="►"><br />
+	<!--input id="globalBattle" type="button" value="武道会专用批量报名按钮" /-->
+	<div id="res"></div>
+	<script type="text/javascript">
+		/**
+		 *
+		 *  Base64 encode / decode
+		 *
+		 *  @author haitao.tu
+		 *  @date   2010-04-26
+		 *  @email  tuhaitao@foxmail.com
+		 *
+		 */
+
+		function Base64() {
+
+			// private property
+			_keyStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
+
+			// public method for encoding
+			this.encode = function (input) {
+				var output = "";
+				var chr1, chr2, chr3, enc1, enc2, enc3, enc4;
+				var i = 0;
+				input = _utf8_encode(input);
+				while (i < input.length) {
+					chr1 = input.charCodeAt(i++);
+					chr2 = input.charCodeAt(i++);
+					chr3 = input.charCodeAt(i++);
+					enc1 = chr1 >> 2;
+					enc2 = ((chr1 & 3) << 4) | (chr2 >> 4);
+					enc3 = ((chr2 & 15) << 2) | (chr3 >> 6);
+					enc4 = chr3 & 63;
+					if (isNaN(chr2)) {
+						enc3 = enc4 = 64;
+					} else if (isNaN(chr3)) {
+						enc4 = 64;
+					}
+					output = output +
+							_keyStr.charAt(enc1) + _keyStr.charAt(enc2) +
+							_keyStr.charAt(enc3) + _keyStr.charAt(enc4);
+				}
+				return output;
+			}
+
+			// public method for decoding
+			this.decode = function (input) {
+				var output = "";
+				var chr1, chr2, chr3;
+				var enc1, enc2, enc3, enc4;
+				var i = 0;
+				input = input.replace(/[^A-Za-z0-9\+\/\=]/g, "");
+				while (i < input.length) {
+					enc1 = _keyStr.indexOf(input.charAt(i++));
+					enc2 = _keyStr.indexOf(input.charAt(i++));
+					enc3 = _keyStr.indexOf(input.charAt(i++));
+					enc4 = _keyStr.indexOf(input.charAt(i++));
+					chr1 = (enc1 << 2) | (enc2 >> 4);
+					chr2 = ((enc2 & 15) << 4) | (enc3 >> 2);
+					chr3 = ((enc3 & 3) << 6) | enc4;
+					output = output + String.fromCharCode(chr1);
+					if (enc3 != 64) {
+						output = output + String.fromCharCode(chr2);
+					}
+					if (enc4 != 64) {
+						output = output + String.fromCharCode(chr3);
+					}
+				}
+				output = _utf8_decode(output);
+				return output;
+			}
+
+			// private method for UTF-8 encoding
+			_utf8_encode = function (string) {
+				string = string.replace(/\r\n/g,"\n");
+				var utftext = "";
+				for (var n = 0; n < string.length; n++) {
+					var c = string.charCodeAt(n);
+					if (c < 128) {
+						utftext += String.fromCharCode(c);
+					} else if((c > 127) && (c < 2048)) {
+						utftext += String.fromCharCode((c >> 6) | 192);
+						utftext += String.fromCharCode((c & 63) | 128);
+					} else {
+						utftext += String.fromCharCode((c >> 12) | 224);
+						utftext += String.fromCharCode(((c >> 6) & 63) | 128);
+						utftext += String.fromCharCode((c & 63) | 128);
+					}
+
+				}
+				return utftext;
+			}
+
+			// private method for UTF-8 decoding
+			_utf8_decode = function (utftext) {
+				var string = "";
+				var i = 0;
+				var c = c1 = c2 = 0;
+				while ( i < utftext.length ) {
+					c = utftext.charCodeAt(i);
+					if (c < 128) {
+						string += String.fromCharCode(c);
+						i++;
+					} else if((c > 191) && (c < 224)) {
+						c2 = utftext.charCodeAt(i+1);
+						string += String.fromCharCode(((c & 31) << 6) | (c2 & 63));
+						i += 2;
+					} else {
+						c2 = utftext.charCodeAt(i+1);
+						c3 = utftext.charCodeAt(i+2);
+						string += String.fromCharCode(((c & 15) << 12) | ((c2 & 63) << 6) | (c3 & 63));
+						i += 3;
+					}
+				}
+				return string;
+			}
+		}
+		var b = new Base64();
+	</script>
+	<script type="text/javascript">
+		var serverList = [["127.0.0.1:8900","开发服","a"],["dbztest.gt.com:8900","测试服"],["dbztest.gt.com:8906","国内越狱(测试服)"],["dbztest.gt.com:8907","国内IOS(测试服)"],["dbztest.gt.com:8908","国内安卓(测试服)"],["dbztest.gt.com:8909","台湾IOS(测试服)"],["dbztest.gt.com:8910","台湾安卓(测试服)"],["dbztest.gt.com:8911","凯英英文(测试服)"],["dbztest.gt.com:8912","北美(测试服)"],["dbztest.gt.com:8913","泰国(测试服)"],["dbztest.gt.com:8914","俄罗斯(测试服)"],["dbztest.gt.com:8915","赛亚(测试服)"],["dbztest.gt.com:8916","乐聚(测试服)"],["dbztest.gt.com:8917","巴西(测试服)"],["dbztest.gt.com:8918","越南(测试服)"],["dragonballt.gametrees.com","国内越狱"],["dragonballd.gametrees.com","国内IOS"],["dragonballf.gametrees.com","国内安卓"],["dbzhhpios.gametrees.com","台湾IOS"],["dbzhhp.gametrees.com","台湾安卓"],["dbzhhpen.gametrees.com","凯英英文"],["dbz.dbzgames.me","北美"],["dbz-df.gameforest.in.th","泰国"],["degame.opogame.com","俄罗斯"],["dbz.yeyoye.com","赛亚"],["lzgt.joyany.com","乐聚"]];
+		var html = '';
+		for(var i in serverList){
+			html += "<option value='"+serverList[i][0]+"' data-country='"+serverList[i][2]+"'>"+serverList[i][1]+"</option>";
+		}
+		$('#server').html(html);
+	</script>
+	</body>
+</html>

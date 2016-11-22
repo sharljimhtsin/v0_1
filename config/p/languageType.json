@@ -1,0 +1,16 @@
+{
+	"languageType":{
+		"type":"THAI",
+		"length":12,
+		"review":0,
+		"LoginScene":{
+			"password":"ไอดีหรือรหัสผ่านเว้นว่างไม่ได้",
+			"loginName":"ไอดี",
+			"loginFirst":"กรุณาล็อคอินก่อน",
+			"loginFail":"ตรวจสอบล้มเหลว,กรุณาล็อคอินใหม่",
+			"loginPingtai":"ล็อคอินพอร์ทัลก่อน",
+			"name":"นักท่องเที่ยว",
+			"noHistory":"ไม่มีบันทึก"
+		}
+	}
+}

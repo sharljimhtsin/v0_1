@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head><!--入口页面-->
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>管理后台</title>
+    <link rel="stylesheet" type="text/css" href="http://dragonballsrc.gametrees.com/ext/resources/css/ext-all.css" />
+    <script type="text/javascript" src="http://dragonballsrc.gametrees.com/ext/ext-all.js"></script>
+    <style type="text/css">
+        .loginicon
+        {
+            background-image: url(image/2012062119234296.gif) !important;
+        }
+        .settings
+        {
+            background-image:url(image/folder_go.png);
+        }
+        .add{background-image: url(image/add.png)}
+        .delete{background-image: url(image/delete.png)}
+        .edit{background-image: url(image/note_edit.png)}
+        .down{background-image: url(image/down.png)}
+
+
+    </style>
+    <script type="text/javascript" src="model/LHttp.js"></script>
+	<script type="text/javascript" src="view/LipiUtil.js"></script>
+	<script type="text/javascript" src="language/zh.js"></script>
+	<script type="text/javascript" src="language/en.js"></script>
+    <script type="text/javascript" src="model/ConfigLoader.js"></script>
+    <script type="text/javascript" src="view/MainView.js"></script>
+	<script type="text/javascript" src="view/NoticeView.js"></script>
+	<script type="text/javascript" src="view/ChatView.js"></script>
+    <script type="text/javascript" src="view/MailView.js"></script>
+    <script type="text/javascript" src="view/MailViewApply.js"></script>
+    <script type="text/javascript" src="view/MailViewApplyList.js"></script>
+    <script type="text/javascript" src="view/LoginView.js"></script>
+    <script type="text/javascript" src="view/UserInfo.js"></script>
+    <script type="text/javascript" src="view/TestView.js"></script>
+    <script type="text/javascript" src="view/CDKeyView.js"></script>
+    <script type="text/javascript" src="view/ShopView.js"></script>
+    <script type="text/javascript" src="view/CompensateView.js"></script>
+    <script type="text/javascript" src="view/ActivityView.js"></script>
+    <script type="text/javascript" src="view/GSData.js"></script>
+    <script type="text/javascript" src="view/CreateUser.js"></script>
+	<script type="text/javascript" src="view/AdminOperationLog.js"></script>
+	<script type="text/javascript" src="view/AnalyticView.js"></script>
+	<script type="text/javascript" src="view/RankingView.js"></script>
+	<script type="text/javascript" src="view/ServerView.js"></script>
+    <script type="text/javascript" src="view/async.js"></script>
+    <script type="text/javascript" src="platform.js"></script>
+    <script type="text/javascript" src="view/CacheView.js"></script>
+    <script type="text/javascript" src="view/LoginManager.js"></script>
+
+    <script type="text/javascript">
+        var viewDic = {};
+
+        var gData = {};
+
+        Ext.onReady(function(){
+            var uid = Ext.util.Cookies.get("uid");
+            var country = Ext.util.Cookies.get("country");
+            var pw = Ext.util.Cookies.get("pw");
+
+            if(uid != null && pw != null) {
+                LHttp.uid = uid;
+                LHttp.country = country;
+                LHttp.pw = pw;
+
+                LHttp.post("server.list", null, function(res){
+	                if (LipiUtil.errorCheck(res, "server.list") == false){
+		                return;
+	                }
+                    if (res != null) {
+                        var mList = res["server.list"];
+                        var nList = [["0", "全区"]];
+                        for (var i = 0; i < mList.length; i++ ) {
+                            nList.push([mList[i]["id"], mList[i]["id"] + "-" + mList[i]["name"]]);
+                        }
+                        gData["serverList"] = nList;
+                        MainView();
+                    } else {
+                        Ext.Msg.alert("提示", "取服务器列表");
+                    }
+                });
+            }else{
+                var loginWin = LoginView(function(res, formData){
+//                  res["level"]
+                    var mExpires = new Date(new Date().getTime() + 1000*60*60*3);//3小时过期
+                    LHttp.pw = formData["password"];
+                    LHttp.country = formData["country"];
+	                LipiUtil.lang = formData["language"];
+
+                    var mUserData = res["userData"];
+                    LHttp.uid = mUserData["uid"];
+
+                    Ext.util.Cookies.set('name', mUserData["name"], mExpires);
+                    Ext.util.Cookies.set('uid', mUserData["uid"], mExpires);
+                    Ext.util.Cookies.set('pw', formData["password"], mExpires);
+	                Ext.util.Cookies.set('country', LHttp.country, mExpires);
+	                Ext.util.Cookies.set('language', formData["language"], mExpires);
+                    loginWin.hide();
+                    LHttp.post("server.list", null, function(res) {
+                        if (res != null) {
+                            var mList = res["server.list"];
+	                        var nList = [["0", "全区"]];
+                            for (var i = 0; i < mList.length; i++ ) {
+                                nList.push([mList[i]["id"], mList[i]["id"] + "-" + mList[i]["name"]]);
+                            }
+                            gData["serverList"] = nList;
+                            MainView();
+                        } else {
+                            Ext.Msg.alert("提示", "取服务器列表");
+                        }
+                    });
+                });
+            }
+        });
+
+    </script>
+</head>
+<body>
+</body>
+</html>

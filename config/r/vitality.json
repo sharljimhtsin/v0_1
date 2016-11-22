@@ -1,0 +1,110 @@
+{
+	"vitality":{
+		"mission":[
+			{
+				"missionType":"loginCard",
+				"completeTime":1,
+				"desc":"Firma x1",
+				"addPoint":10
+			},
+			{
+				"missionType":"shake",
+				"completeTime":1,
+				"desc":"Llama a Shenron x1",
+				"addPoint":5
+			},
+			{
+				"missionType":"daily",
+				"completeTime":1,
+				"desc":"Adivinar x1",
+				"addPoint":10
+			},
+			{
+				"missionType":"map",
+				"completeTime":5,
+				"desc":"Ganar Viaje de Batalla x5",
+				"addPoint":10
+			},
+			{
+				"missionType":"eatBean",
+				"completeTime":2,
+				"desc":"Reclamar Frijol Senzu gratuito x2",
+				"addPoint":10
+			},
+			{
+				"missionType":"zillionaire",
+				"completeTime":2,
+				"desc":"Jugar el Tycoon x2",
+				"addPoint":5
+			},
+			{
+				"missionType":"bloodBattal",
+				"completeTime":1,
+				"desc":"Desafío de Puerta de Infierno x1 ",
+				"addPoint":10
+			},
+			{
+				"missionType":"activityMap",
+				"completeTime":5,
+				"desc":"Batalla del evento x5",
+				"addPoint":10
+			},
+			{
+				"missionType":"enegyBall",
+				"completeTime":5,
+				"desc":"Usa Bola de Energía x5",
+				"addPoint":10
+			},
+			{
+				"missionType":"foster",
+				"completeTime":3,
+				"desc":"Formar héroes x3",
+				"addPoint":10
+			},
+			{
+				"missionType":"worldBoss",
+				"completeTime":1,
+				"desc":"Desafiar a Bills x1",
+				"addPoint":10
+			},
+			{
+				"missionType":"consume",
+				"completeTime":100,
+				"desc":"Consumo de Gammets x100",
+				"addPoint":20
+			}
+		],
+		"reward":[
+			{
+				"needPoint":30,
+				"reward":[
+					{"id":"gold","count":20000}
+				]
+			},
+			{
+				"needPoint":50,
+				"reward":[
+					{"id":"151001","count":1}
+				]
+			},
+			{
+				"needPoint":75,
+				"reward":[
+					{"id":"170801","count":1}
+				]
+			},
+			{
+				"needPoint":90,
+				"reward":[
+					{"id":"ingot","count":30}
+				]
+			},
+			{
+				"needPoint":110,
+				"reward":[
+					{"id":"150901","count":50}
+				]
+			}
+		]
+	}
+}

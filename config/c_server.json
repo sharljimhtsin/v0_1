@@ -1,0 +1,1215 @@
+﻿{
+	"loginDB": {
+		"redis": [{
+			"port": 6379,
+			"host": "192.168.0.50",
+			"select": 0
+		},
+		{
+			"port": 6379,
+			"host": "192.168.0.153",
+			"select": 1
+		}],
+		"mysql": [{
+			"host": "192.168.0.50",
+			"user": "dragonball",
+			"password": "VGHPcj)f^vn820",
+			"port": 3306,
+			"database": "dragonlogin_c"
+		}]
+	},
+	"userToken": {
+		"redis": [{
+			"port": 6380,
+			"host": "192.168.0.153",
+			"select": 0
+		},
+		{
+			"port": 6379,
+			"host": "192.168.0.50",
+			"select": 0
+		}]
+	},
+	"redis": {
+		"list": {
+			"1": {
+				"port": 6379,
+				"host": "192.168.0.50",
+				"select": 0
+			},
+			"2": {
+				"port": 6379,
+				"host": "192.168.0.50",
+				"select": 0
+			}
+		}
+	},
+	"difficulty": {
+		"list": {
+			"1": {
+				"port": 6379,
+				"host": "192.168.0.156",
+				"select": 0
+			}
+		}
+	},
+	"dynamic": {
+		"list": {
+			"1": {
+				"port": 6379,
+				"host": "192.168.0.50",
+				"select": 0
+			},
+			"2": {
+				"port": 6379,
+				"host": "192.168.0.50",
+				"select": 0
+			},
+			"3": {
+				"port": 6380,
+				"host": "192.168.0.153",
+				"select": 0
+			}
+		}
+	},
+	"serverList": {
+		"1": {
+			"id": "1",
+			"name": "赛亚人传说",
+			"sTime": 1500202000,
+			"redis": "1",
+			"dynamic": "1",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_1"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game1"
+		},
+		"2": {
+			"id": "2",
+			"name": "比鲁斯觉醒",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_2"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game2"
+		},
+		"3": {
+			"id": "3",
+			"name": "地球争霸战",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_3"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game3"
+		},
+		"4": {
+			"id": "4",
+			"name": "超级赛亚人",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_4"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game4"
+		},
+		"5": {
+			"id": "5",
+			"name": "摩诃大冒险",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_5"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game5"
+		},
+		"6": {
+			"id": "6",
+			"name": "最强对最强",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_6"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game6"
+		},
+		"7": {
+			"id": "7",
+			"name": "击倒超战士",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_7"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game7"
+		},
+		"8": {
+			"id": "8",
+			"name": "龙拳爆发",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_8"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game8"
+		},
+		"9": {
+			"id": "9",
+			"name": "魔神城睡美人",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_9"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game9"
+		},
+		"10": {
+			"id": "10",
+			"name": "最强之道",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_10"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game10"
+		},
+		"11": {
+			"id": "11",
+			"name": "魔王复仇",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_11"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game11"
+		},
+		"12": {
+			"id": "12",
+			"name": "世界最强高手",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_12"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game12"
+		},
+		"13": {
+			"id": "13",
+			"name": "百亿能量战士",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_13"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game13"
+		},
+		"14": {
+			"id": "14",
+			"name": "赛亚人灭绝计划",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_14"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game14"
+		},
+		"15": {
+			"id": "15",
+			"name": "布玛没尾巴",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_15"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game15"
+		},
+		"16": {
+			"id": "16",
+			"name": "筋斗云",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_16"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game16"
+		},
+		"17": {
+			"id": "17",
+			"name": "火焰山牛魔王",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_17"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game17"
+		},
+		"18": {
+			"id": "18",
+			"name": "兔子头绝招",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_18"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game18"
+		},
+		"19": {
+			"id": "19",
+			"name": "龙珠被抢",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_19"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game19"
+		},
+		"20": {
+			"id": "20",
+			"name": "神龙许愿",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_20"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game20"
+		},
+		"21": {
+			"id": "21",
+			"name": "悟空大变身",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_21"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game21"
+		},
+		"22": {
+			"id": "22",
+			"name": "龟派修行",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_22"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game22"
+		},
+		"23": {
+			"id": "23",
+			"name": "天下第一武道会",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_23"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game23"
+		},
+		"24": {
+			"id": "24",
+			"name": "拼死攻防战",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_24"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game24"
+		},
+		"25": {
+			"id": "25",
+			"name": "红缎带军团",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_25"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game25"
+		},
+		"26": {
+			"id": "26",
+			"name": "马鲁斯塔毁灭",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_26"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game26"
+		},
+		"27": {
+			"id": "27",
+			"name": "企鹅村",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_27"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game27"
+		},
+		"28": {
+			"id": "28",
+			"name": "加林圣塔",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_28"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game28"
+		},
+		"29": {
+			"id": "29",
+			"name": "超圣水",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_29"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game29"
+		},
+		"30": {
+			"id": "30",
+			"name": "红绸军攻防战",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_30"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game30"
+		},
+		"31": {
+			"id": "31",
+			"name": "水晶婆婆占卜",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_31"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game31"
+		},
+		"32": {
+			"id": "32",
+			"name": "恶魔的厕所",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_32"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game32"
+		},
+		"33": {
+			"id": "33",
+			"name": "短笛大魔王",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_33"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game33"
+		},
+		"34": {
+			"id": "34",
+			"name": "传说的魔封波",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_34"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game34"
+		},
+		"35": {
+			"id": "35",
+			"name": "赛亚人来袭",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_35"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game35"
+		},
+		"36": {
+			"id": "36",
+			"name": "悟饭的修行",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_36"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game36"
+		},
+		"37": {
+			"id": "37",
+			"name": "抓住巴布鲁斯",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_37"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game37"
+		},
+		"38": {
+			"id": "38",
+			"name": "基纽特战队",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_38"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game38"
+		},
+		"39": {
+			"id": "39",
+			"name": "西之都",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "3",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_39"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game39"
+		},
+		"40": {
+			"id": "40",
+			"name": "超级赛亚人之血",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_40"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game40"
+		},
+		"41": {
+			"id": "41",
+			"name": "那美克星",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_41"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game41"
+		},
+		"42": {
+			"id": "42",
+			"name": "米饭国皇帝",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_42"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game42"
+		},
+		"43": {
+			"id": "43",
+			"name": "波仑伽的愿望",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_43"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game43"
+		},
+		"44": {
+			"id": "44",
+			"name": "实验品波杰克",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_44"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game44"
+		},
+		"45": {
+			"id": "45",
+			"name": "界王神殿",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_45"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game45"
+		},
+		"46": {
+			"id": "46",
+			"name": "悟空归来",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_46"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game46"
+		},
+		"47": {
+			"id": "47",
+			"name": "方头少年",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_47"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game47"
+		},
+		"48": {
+			"id": "48",
+			"name": "龙拳爆发",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_48"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game48"
+		},
+		"49": {
+			"id": "49",
+			"name": "地狱魔战士",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_49"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game49"
+		},
+		"50": {
+			"id": "50",
+			"name": "卡琳塔的修行",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_50"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game50"
+		},
+		"51": {
+			"id": "51",
+			"name": "天界乱斗会",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_51"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game51"
+		},
+		"52": {
+			"id": "52",
+			"name": "光之旅",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_52"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game52"
+		},
+		"53": {
+			"id": "53",
+			"name": "青之风",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_53"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game53"
+		},
+		"54": {
+			"id": "54",
+			"name": "布玛的实验室",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_54"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game54"
+		},
+		"55": {
+			"id": "55",
+			"name": "海港岛的奇遇",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_55"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game55"
+		},
+		"56": {
+			"id": "56",
+			"name": "决赛之前",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_56"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game56"
+		},
+		"57": {
+			"id": "57",
+			"name": "超神水的力量",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_57"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game57"
+		},
+		"58": {
+			"id": "58",
+			"name": "大战玛斯尔塔",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_58"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game58"
+		},
+		"59": {
+			"id": "59",
+			"name": "贝吉塔之死",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_59"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game59"
+		},
+		"60": {
+			"id": "60",
+			"name": "可怕的沙鲁",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_60"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game60"
+		},
+		"61": {
+			"id": "61",
+			"name": "小悟空的尾巴",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_61"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game61"
+		},
+		"62": {
+			"id": "62",
+			"name": "超级冲击波",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_62"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game62"
+		},
+		"63": {
+			"id": "63",
+			"name": "贝吉塔的游戏",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_63"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game63"
+		},
+		"64": {
+			"id": "64",
+			"name": "精神树果实",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_64"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game64"
+		},
+		"65": {
+			"id": "65",
+			"name": "魔人印记",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_65"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game65"
+		},
+		"66": {
+			"id": "66",
+			"name": "沙鲁外壳",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_66"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game66"
+		},
+		"67": {
+			"id": "67",
+			"name": "人造月亮",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_67"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game67"
+		},
+		"68": {
+			"id": "68",
+			"name": "互探虚实",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_68"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game68"
+		},
+		"69": {
+			"id": "69",
+			"name": "比克的决心",
+			"sTime": 1500202000,
+			"redis": "2",
+			"dynamic": "2",
+			"difficulty": "1",
+			"mysql": {
+				"host": "192.168.0.50",
+				"user": "dragonball",
+				"password": "VGHPcj)f^vn820",
+				"port": 3306,
+				"database": "dragongame_69"
+			},
+			"mongodb": "mongodb://192.168.0.164:27217/game69"
+		}
+	},
+	"configName": "a",
+	"adminDB": {
+		"host": "192.168.0.50",
+		"user": "dragonball",
+		"password": "VGHPcj)f^vn820",
+		"port": 3306,
+		"database": "dragonadmin"
+	},
+	"rabbitmq": {
+		"conn": {
+			"host": "192.168.0.86",
+			"port": 5672,
+			"login": "guest",
+			"password": "guest"
+		},
+		"option": {
+			"type": "topic",
+			"durable": true,
+			"autoDelete": false,
+			"confirm": true
+		},
+		"exchange_name": "dbz_analy_ex_topic_",
+		"routing_key_name": "#log",
+		"queue_name": "dbz_analy_que_topic_"
+	},
+	"iosDB": {
+		"mysql": [{
+			"host": "42.120.22.195",
+			"user": "lipi",
+			"password": "7bPKGSpYT5j8dAux",
+			"port": 3306,
+			"database": "dragonballios"
+		}]
+	}
+}

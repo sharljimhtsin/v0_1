@@ -1,0 +1,1085 @@
+{
+    "story":
+    {
+        "10001":
+            [
+                {
+                    "heroId":"102041",
+                    "sayText":"Yup, I won!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101008",
+                    "sayText":"Wow! You're stronger than I expected!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Hey, Mr. Sea Turtle…",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101001",
+                    "sayText":"Thanks for saving me, lil' guy!",
+                    "position":"right",
+                    "rotate":1
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"So, are you really tasty?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101001",
+                    "sayText":"What? No! I taste completely horrible! Ehehe…",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Yeah, you don't look very tasty anyway.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101008",
+                    "sayText":"Let's hit the road again!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Right!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10002":
+            [
+                {
+                    "heroId":"101011",
+                    "sayText":"Oh oh! Yamcha, are you okay?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102014",
+                    "sayText":"Ugh... I lost a tooth and my face is swollen...",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102014",
+                    "sayText":" I'll never find a girl looking like this!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102014",
+                    "sayText":"I'll be back for you!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"What a weird guy…",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10003":
+            [
+                {
+                    "heroId":"101010",
+                    "sayText":"Back to his normal self again…",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102014",
+                    "sayText":"Wow, didn't think this little guy could get so huge!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101008",
+                    "sayText":"That was amazing! Can I have his tail?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101010",
+                    "sayText":"Um. I don't think so.",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10004":
+            [
+                {
+                    "heroId":"102041",
+                    "sayText":"Master Roshi, can you teach us how to fight?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"Er…um….sure.",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"I was just kidding about moving that rock…",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"Can't believe they actually moved it.",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"These kids are impressive…",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10005":
+            [
+                {
+                    "heroId":"102042",
+                    "sayText":"Wow Goku! Great job!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Yup.",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102042",
+                    "sayText":"Master Roshi must have seen that.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Let's go find him!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102042",
+                    "sayText":"Alright!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10006":
+            [
+                {
+                    "heroId":"102002",
+                    "sayText":"Goku! Are you still alive?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"I'm OK. Just hurts a little when I laugh…",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102002",
+                    "sayText":"What a relief!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Don't worry about me! You got hurt too!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102002",
+                    "sayText":"I'm an android, I can take quite a lot.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Yeah, you look pretty tough!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102002",
+                    "sayText":"Thanks!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10007":
+            [
+                {
+                    "heroId":"103049",
+                    "sayText":"Yeeha! Hahahah!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101026",
+                    "sayText":"Hahaha! Great kick!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Ugh, I can finally move again.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Ready to continue my search for the Dragon Balls!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10008":
+            [
+                {
+                    "heroId":"102042",
+                    "sayText":"You defeated the Red Ribbon Army all by yourself?!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Yup! Some of them just ran away…",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101008",
+                    "sayText":"The scary Red Ribbon Army…",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101018",
+                    "sayText":"Destroyed, just like that…",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"I can barely believe it. Such incredible power!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10009":
+            [
+                {
+                    "heroId":"102041",
+                    "sayText":"I won! Pass me the Dragon ball.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101005",
+                    "sayText":"Alright. Just take it.",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Oh right, there's one more thing...",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101005",
+                    "sayText":"Huh?",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"!#@$#$%%&^*&*(*&($#$!@!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Hahaha!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10010":
+            [
+                {
+                    "heroId":"102024",
+                    "sayText":"The applause and praise is all for you!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"You really impressed us.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"The days of hatred and hostility are over.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"You've already taken the first step.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"You have entered a world full of light!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103016",
+                    "sayText":"Master Roshi…",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10011":
+            [
+                {
+                    "heroId":"102041",
+                    "sayText":"Oh yeah! I won!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Master Roshi, Krillin, I have revenged you both!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103009",
+                    "sayText":"What? How were you able to defeat me?",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103009",
+                    "sayText":"You really have impressive strength.",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103009",
+                    "sayText":"I swear my son will revenge me!",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10012":
+            [
+                {
+                    "heroId":"102041",
+                    "sayText":"Finally! I did it! I defeated the doll!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103021",
+                    "sayText":"Not really, the doll's energy just ran out...",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Aw… Why did you have to go and say that?",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10013":
+            [
+                {
+                    "heroId":"101034",
+                    "sayText":"Goku has won the Tournament!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"Awesome!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"Super awesome!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102011",
+                    "sayText":"It's safe now. We won!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101024",
+                    "sayText":"Goku, are you ok? You need to see a doctor!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102011",
+                    "sayText":"Don't worry bout him. I'll get him some Senzu Beans.",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Ah, thanks!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"I feel much better already!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10014":
+            [
+                {
+                    "heroId":"103015",
+                    "sayText":"Wow, what happened to Garlic Jr.?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103030",
+                    "sayText":"He fell into the Dead Zone.",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103030",
+                    "sayText":"I'm sure he's already regretting his eternal life…",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Gohan!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103001",
+                    "sayText":"Dad, you're here!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Gohan, you forgot what happened?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103001",
+                    "sayText":"I have the strongest dad in the world!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Gohan, let's go home to see your mom.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"Son Goku, one day I will defeat you!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"…Should I tell Chi-Chi Gohan saved himself?",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10015":
+            [
+                {
+                    "heroId":"104015",
+                    "sayText":"We have to stop him!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103001",
+                    "sayText":"Let's do it!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"100056",
+                    "sayText":"What?!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"Why am I the only one taking damage...",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"100056",
+                    "sayText":"You and the earth will be burnt to ashes!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"I will use the collected energy of you all!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"SPIRIT BOMB!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"100056",
+                    "sayText":"Ahh!! Son Goku!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Thanks, Piccolo!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"Actually, it's Gohan you should be thanking!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10016":
+            [
+                {
+                    "heroId":"103052",
+                    "sayText":"Best to take off your clothes before you revive.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Really? Awesome! I'm so comfortable now!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Thanks, King Kai!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Ugh… King Kai's mark looks pretty silly…",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103052",
+                    "sayText":"So sorry the coolest mark is on the back of your gi!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"See you later, King Kai!",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10017":
+            [
+                {
+                    "heroId":"103015",
+                    "sayText":"Die!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Wait, Krillin! Let him go.",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"You really think he'll change like Piccolo did?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"He's an evil Saiyan!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Let me fight with him for one more round!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"Ok, then.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"Next time, make sure you beat him, though!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"I will!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103003",
+                    "sayText":"Let me tell you, punks...",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103003",
+                    "sayText":"There will be no next time! I will eliminate you!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10018":
+            [
+                {
+                    "heroId":"103002",
+                    "sayText":"9999...10000… Nice! I'm not tired at all.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Incredible! Our practice has come to an end.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"I can now use Kaio-ken x10 at normal gravity.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103017",
+                    "sayText":"Ginyu Force! I've been waiting for you!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103036",
+                    "sayText":"I'm Recoome!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103040",
+                    "sayText":"I am Burter!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103035",
+                    "sayText":"I'm Jeice!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103039",
+                    "sayText":"Guldo!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103034",
+                    "sayText":"Ginyu Force rules! Super pose now!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10019":
+            [
+                {
+                    "heroId":"103015",
+                    "sayText":"Gohan! Vegeta can't hold for long!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"We don't have a choice. Let's fight together!  ",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103008",
+                    "sayText":"OK!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"He's too strong! We don't stand a chance!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103017",
+                    "sayText":"How can three little ants defeat a dinosaur?!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103003",
+                    "sayText":"There is a way! I will burst into Super Saiyan!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103017",
+                    "sayText":"I'll make sure to kill you first!",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10020":
+            [
+                {
+                    "heroId":"104001",
+                    "sayText":"You've got nowhere to run.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104001",
+                    "sayText":"What irony! You'll die here. And I'll be saved!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104013",
+                    "sayText":"Pretty sure I'm not gonna die!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104001",
+                    "sayText":"What are you talking about?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104013",
+                    "sayText":"It's meaningless to let you suffer!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104013",
+                    "sayText":"Must be humiliating for you!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104001",
+                    "sayText":"No! I am Frieze, the strongest warrior of all!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104001",
+                    "sayText":"I will kill you!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104013",
+                    "sayText":" You idiot!",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10021":
+            [
+                {
+                    "heroId":"103051",
+                    "sayText":"Go to hell! I'm not impressed!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103051",
+                    "sayText":"You're asking for it, kid!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"Now Gohan!!!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"Do it!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103051",
+                    "sayText":"What are you talking about? Ah no! Aw aw aw!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103001",
+                    "sayText":"Uncle Krillin! Uncle Piccolo! Where are you?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"That was close!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"The Makyo Star has been destroyed.",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10022":
+            [
+                {
+                    "heroId":"103007",
+                    "sayText":"Please keep it a secret, Mr Son.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Of course, my lips are sealed.",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"You underestimate our hearing. I heard everything.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103007",
+                    "sayText":"You've got to be kidding!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"Don't worry, I won't tell them.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103007",
+                    "sayText":"Thanks!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"No problem.",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10023":
+            [
+                {
+                    "heroId":"103015",
+                    "sayText":"Goku…",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103001",
+                    "sayText":"Dad…",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103001",
+                    "sayText":"Dad!!!!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Hurry up, get me a Senzu Bean!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Hahaha! These Beans are amazing!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"What about Vegeta?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"I don't know where he went…",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10024":
+            [
+            ],
+        "10025":
+            [
+            ],
+        "10026":
+            [
+            ],
+        "10027":
+            [
+            ],
+        "10028":
+            [
+            ],
+        "10029":
+            [
+            ],
+        "10030":
+            [
+            ],
+        "10031":
+            [
+            ],
+        "10032":
+            [
+            ],
+        "10033":
+            [
+            ],
+        "10034":
+            [
+            ],
+        "10035":
+            [
+            ],
+        "10036":
+            [
+            ],
+        "10037":
+            [
+            ],
+        "10038":
+            [
+            ],
+        "10039":
+            [
+            ],
+        "10040":
+            [
+            ],
+        "10041":
+            [
+            ],
+        "10042":
+            [
+            ],
+        "10043":
+            [
+            ],
+        "10044":
+            [
+            ],
+        "10045":
+            [
+            ],
+        "10046":
+            [
+            ],
+        "10047":
+            [
+            ],
+        "10048":
+            [
+            ],
+        "10049":
+            [
+            ],
+        "10050":
+            [
+            ]
+    }
+}

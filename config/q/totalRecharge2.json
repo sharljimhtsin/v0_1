@@ -1,0 +1,16 @@
+{
+    "totalRecharge2":{
+        "0" :{
+            "rewardpay" : 6,
+            "reward" : [{"id":"151001","count":3},{"id":"151839","count":1},{"id":"gold","count":100000}],
+            "message":"aaaaaa",
+            "rewardId" : 15
+        },
+        "1" :{
+            "rewardpay" : 8,
+            "reward" : [{"id":"151001","count":3},{"id":"151839","count":1},{"id":"gold","count":100000}],
+            "message":"aaaaaa",
+            "rewardId" : 15
+        }
+    }
+}

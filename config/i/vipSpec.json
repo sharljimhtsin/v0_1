@@ -1,0 +1,139 @@
+{
+	"vipSpec":{
+		"1":[
+			"VIP1 Capsule available for purchase",
+			"Chance to get random Super Upgrades which add 2-3 levels",
+			"Daily Energy recovery count: 1",
+			"Daily Stamina recovery count: 1",
+			"Daily Arena battle count: 5"
+		],
+		"2":[
+			"VIP2 Capsule available for purchase",
+			"Chance to get random Super Upgrades which add 2-4 levels",
+			"Daily Energy recovery count: 1",
+			"Daily Stamina recovery count: 1",
+			"Daily Arena battle count: 6",
+			"Use Gammets to clear Adventure battle count limit",
+			"(Includes all benefits from VIP1)"
+		],
+		"3":[
+			"VIP3 Capsule available for purchase",
+			"Chance to get random Super Upgrades which add 2-5 levels",
+			"Daily Energy recovery count: 1",
+			"Daily Stamina recovery count: 1",
+			"Daily Arena battle count: 7",
+			"Auto Battle function available",
+			"(Includes all benefits from VIP1-2)"
+		],
+		"4":[
+			"VIP4 Capsule available for purchase",
+			"Chance to get random Super Upgrades which add 2-6 levels",
+			"Daily Energy recovery count: 1",
+			"Daily Stamina recovery count: 1",
+			"Daily Arena battle count: 8",
+			"Max 1 Hero can receive bonus EXP from Teaching",
+			"(Includes all benefits from VIP1-3)"
+		],
+		"5":[
+			"VIP5 Capsule available for purchase",
+			"Chance to get random Super Upgrades which add 2-6 levels",
+			"Daily Energy recovery count: 2",
+			"Daily Stamina recovery count: 2",
+			"Daily Arena battle count: 9",
+			"Max 1 Hero can receive bonus EXP from Teaching",
+			"(Includes all benefits from VIP1-4)"
+		],
+		"6":[
+			"VIP6 Capsule available for purchase",
+			"Chance to get random Super Upgrades which add 2-6 levels",
+			"Daily Energy recovery count: 2",
+			"Daily Stamina recovery count: 2",
+			"Daily Arena battle count: 10",
+			"Max 2 Hero can receive bonus EXP from Teaching",
+			"Use Gammets to remove Auto Battle cooldowns",
+			"(Includes all benefits from VIP1-5)"
+		],
+		"7":[
+			"VIP7 Capsule available for purchase",
+			"Chance to get random Super Upgrades which add 2-6 levels",
+			"Daily Energy recovery count: 6",
+			"Daily Stamina recovery count: 6",
+			"Daily Arena battle count: 11",
+			"Max 3 Hero can receive bonus EXP from Teaching",
+			"(Includes all benefits from VIP1-6)"
+		],
+		"8":[
+			"VIP8 Capsule available for purchase",
+			"Chance to get random Super Upgrades which add 2-6 levels",
+			"Daily Energy recovery count: 6",
+			"Daily Stamina recovery count: 6",
+			"Daily Arena battle count: 12",
+			"Max 4 Hero can receive bonus EXP from Teaching",
+			"(Includes all benefits from VIP1-7)"
+		],
+		"9":[
+			"VIP9 Capsule available for purchase",
+			"Chance to get random Super Upgrades which add 2-6 levels",
+			"Daily Energy recovery count: 12",
+			"Daily Stamina recovery count: 12",
+			"Daily Arena battle count: 13",
+			"Max 5 Hero can receive bonus EXP from Teaching",
+			"(Includes all benefits from VIP1-8)"
+		],
+		"10":[
+			"VIP10 Capsule available for purchase",
+			"Chance to get random Super Upgrades which add 2-6 levels",
+			"Daily Energy recovery count: 12",
+			"Daily Stamina recovery count: 12",
+			"Daily Arena battle count: 14",
+			"Max 6 Hero can receive bonus EXP from Teaching",
+			"(Includes all benefits from VIP1-9)"
+		],
+		"11":[
+			"VIP11 Capsule available for purchase",
+			"Chance to get random Super Upgrades which add 2-6 levels",
+			"Daily Energy recovery count: 12",
+			"Daily Stamina recovery count: 12",
+			"Daily Arena battle count: 15",
+			"Max 6 Hero can receive bonus EXP from Teaching",
+			"(Includes all benefits from VIP1-10)"
+		],
+		"12":[
+			"VIP12 Capsule available for purchase",
+			"Chance to get random Super Upgrades which add 2-6 levels",
+			"Daily Energy recovery count: 12",
+			"Daily Stamina recovery count: 12",
+			"Daily Arena battle count: 16",
+			"Max 6 Hero can receive bonus EXP from Teaching",
+			"No cooldown for Auto Battle",
+			"(Includes all benefits from VIP1-11)"
+		],
+		"13":[
+			"VIP13 Capsule available for purchase",
+			"Chance to get random Super Upgrades which add 2-6 levels",
+			"Daily Energy recovery count: 12",
+			"Daily Stamina recovery count: 12",
+			"Daily Arena battle count: 17",
+			"Max 6 Hero can receive bonus EXP from Teaching",
+			"(Includes all benefits from VIP1-12)"
+		],
+		"14":[
+			"VIP14 Capsule available for purchase",
+			"Chance to get random Super Upgrades which add 2-6 levels",
+			"Daily Energy recovery count: 12",
+			"Daily Stamina recovery count: 12",
+			"Daily Arena battle count: 18",
+			"Max 6 Hero can receive bonus EXP from Teaching",
+			"(Includes all benefits from VIP1-13)"
+		],
+		"15":[
+			"VIP15 Capsule available for purchase",
+			"Chance to get random Super Upgrades which add 2-6 levels",
+			"Daily Energy recovery count: 12",
+			"Daily Stamina recovery count: 12",
+			"Daily Arena battle count: 19",
+			"Max 6 Hero can receive bonus EXP from Teaching",
+			"(Includes all benefits from VIP1-14)"
+		]
+	}
+}

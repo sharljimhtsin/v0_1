@@ -1,0 +1,26 @@
+{
+    "version":"5.5.2",
+    "list":{
+        "configlist":{"url":"configlist.json","version":"5.5.2","name":"configlist",
+            "serverPath":"http://dbztest.gt.com/packet/dev/configlist/"},
+
+        "material":{"url":"material.json","version":"5.5.2","name":"material",
+            "serverPath":"http://dbztest.gt.com/packet/dev/material/"},
+
+        "oui":{"url":"oui.json","version":"5.5.2","name":"oui",
+            "serverPath":"http://dbztest.gt.com/packet/dev/oui/"},
+
+        "scripts":{"url":"scripts.json","version":"5.5.2","name":"scripts",
+            "serverPath":"http://dbztest.gt.com/packet/dev/scripts/"},
+
+        "resources":{"url":"resources.json","version":"5.5.2","name":"resources",
+            "serverPath":"http://dbztest.gt.com/packet/dev/resources/"},
+
+        "root":{"url":"root.json","version":"5.5.2","name":"../",
+            "serverPath":"http://dbztest.gt.com/packet/dev/root/"}
+    },
+    "serverEntrance":"http://127.0.0.1:8900/",
+    "isDebug":0,
+    "debugPath":"http://127.0.0.1:1337/",
+    "platformId":"test2"
+}

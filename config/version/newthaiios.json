@@ -1,0 +1,39 @@
+{
+  "version": "6.5.9",
+  "list": {
+    "configlist": {
+      "url": "configlist.json",
+      "version": "6.5.8",
+      "name": "configlist",
+      "serverPath": "http://dbzsrc-df.gameforest.in.th/iossrc/v15040801/configlist/"
+    },
+    "material": {
+      "url": "material.json",
+      "version": "6.5.8",
+      "name": "material",
+      "serverPath": "http://dbzsrc-df.gameforest.in.th/iossrc/v15040801/material/"
+    },
+    "oui": {
+      "url": "oui.json",
+      "version": "6.5.8",
+      "name": "oui",
+      "serverPath": "http://dbzsrc-df.gameforest.in.th/iossrc/v15040801/oui/"
+    },
+    "scripts": {
+      "url": "scripts.json",
+      "version": "6.5.8",
+      "name": "scripts",
+      "serverPath": "http://dbzsrc-df.gameforest.in.th/iossrc/v15040801/scripts/"
+    },
+    "resources": {
+      "url": "resources.json",
+      "version": "6.5.9",
+      "name": "resources",
+      "serverPath": "http://dbzsrc-df.gameforest.in.th/iossrc/v15041701/resources/"
+    }
+  },
+  "serverEntrance": "http://dbz-df.gameforest.in.th/",
+  "isDebug": 0,
+  "debugPath": "http://127.0.0.1:1337/",
+  "platformId": "thaiios"
+}

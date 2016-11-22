@@ -1,0 +1,22 @@
+{
+	"dailyConsume":{
+		"1":{
+			"list":[
+				{
+					"pay":10,
+					"reward":[
+						{"id":"150901","count":10},
+						{"id":"ingot","count":5}
+					]
+				},
+				{
+					"pay":100,
+					"reward":[
+						{"id":"150901","count":100},
+						{"id":"ingot","count":50}
+					]
+				}
+			]
+		}
+	}
+}

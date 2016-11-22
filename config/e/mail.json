@@ -1,0 +1,26 @@
+{
+	"mail":{
+		"bloodBattleRankReward":"您的隊伍在封印地獄門中表現神勇，進入排行榜，特發排行獎勵，請點擊【領取】按鈕領取獎勵。",
+		"worldBossRankReward":"您的隊伍在比魯斯的試煉中表現神勇，進入排行榜，特發排行獎勵，請點擊【領取】按鈕領取獎勵。",
+		"worldBossLastBeatReward":"您的隊伍最終擊殺了比魯斯，特發獎勵，請點擊【領取】按鈕領取獎勵。",
+		"pvpRankDown":"您在激戰中被{0}擊敗，排名降至第{1}名。",
+		"pvpPatchLost":"您在招式搶奪中被{0}擊敗，失去了{1}。",
+		"monthCardReward":"您本次月卡共有{0}伊美加幣，{1}仙豆未領取，請點擊【領取】按鈕領取獎勵。",
+		"pvpRankDailyReward":"每日激战排名獎勵。",
+		"leagueMap":"您在聯盟副本{0}中，貢獻的傷害最高，特發獎勵，請點擊【領取】按鈕領取獎勵。",
+		"leagueMapFail":"您在聯盟副本物品競拍中失敗，歸還您{1}競拍貢獻值，請點擊【領取】按鈕收取。",
+		"leagueMapSuccess":"您在聯盟副本物品競拍中成功，請點擊【領取】按鈕領取您競拍物品。",
+		"groupPurchaseReward":"恭喜你在團購活動中獲得了第{0}個寶箱的獎勵，請點擊【領取】按鈕領取獎勵",
+		"tabletsClickReward":"恭喜你預測大界王神成功，請點擊【領取】按鈕領取獎勵。",
+		"cosmosBossRankReward":"您的隊伍在超宇宙的挑戰中表現神勇，進入排行榜，特發排行獎勵，請點擊【領取】按鈕領取獎勵。",
+		"cosmosBossLastBeatReward":"您的隊伍最終擊殺了圖菈，特發獎勵，請點擊【領取】按鈕領取獎勵。",
+		"gemCompose":" ",
+		"gemComposeReward":" ",
+		"finalRewardStr":"最終獎勵",
+		"rankRewardStr":"排名獎勵",
+		"vipClubRewardStr":"vip俱樂部獎勵",
+		"bejeweledRankReward":"恭喜您進入排行榜，特發排行獎勵，請點擊【領取】按鈕領取獎勵。",
+		"quarterCardReward":"您本次季卡未領取，還請您注意查收。",
+		"quarterCardRewardForVip":"恭喜您獲得季卡vip獎勵，請點擊【領取】按鈕領取獎勵。"
+	}
+}

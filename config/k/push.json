@@ -1,0 +1,23 @@
+{
+	"push":{
+		"task":[
+			{"name":"pvePower","addFn":"addPvePower","msg":"Хабрый Саян воин, твоя сила полностью восстановлена, твои воины уже ждут!","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"pvpPower","addFn":"addPvpPower","msg":"Храбрый Саян воин,твоя энергия полностью восстановлена, немедленно вступи в бой! ","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"eatbean12","h":12,"msg":"Храбрый Саян воин, немедленно выйди в сеть и получи бесплатные бобы!","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"eatbean18","h":18,"msg":"Храбрый Саян воин, немедленно выйди в сеть и получи бесплатные бобы!","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"eatbean12","d":1,"h":12,"msg":"Храбрый Саян воин, немедленно выйди в сеть и получи бесплатные бобы!","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"eatbean18","d":1,"h":18,"msg":"Храбрый Саян воин, немедленно выйди в сеть и получи бесплатные бобы!","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"eatbean12","d":2,"h":12,"msg":"Храбрый Саян воин, немедленно выйди в сеть и получи бесплатные бобы!","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"eatbean18","d":2,"h":18,"msg":"Храбрый Саян воин, немедленно выйди в сеть и получи бесплатные бобы!","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"worldBoss","h":12,"m":25,"msg":"Бирус приблежается, ты готов?!","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"worldBoss","d":1,"h":12,"m":25,"msg":"Бирус приблежается, ты готов?!","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"worldBoss","d":2,"h":12,"m":25,"msg":"Бирус приблежается, ты готов?!","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"daily","d":1,"msg":"Найди скутер и выбери оборудование!","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"daily","d":2,"msg":"Найди скутер и выбери оборудование!","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"daily","d":3,"msg":"Найди скутер и выбери оборудование!","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"logout3","d":3,"addFn":"addNow","msg":"Тебя так долго не было, тренировки не могут быть такими раслабленными, скорей рискни! ","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"logout7","d":7,"addFn":"addNow","msg":"Тебя так долго не было, тренировки не могут быть такими раслабленными, скорей рискни! ","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}}
+		],
+		"options":null
+	}
+}

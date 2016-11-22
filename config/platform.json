@@ -1,0 +1,702 @@
+{
+    "test2":{
+        "country":"a",
+        "serverId":1
+    },
+    "uc":{
+        "country":"a"
+    },
+    "p91":{
+        "country":"c",
+        "appId":111811,
+        "appKey":"2d6314fb2a925ac691a81be62195aa224ea80d03a06605e6"
+    },
+    "gtsinaios":{
+        "country":"c",
+        "appId":111811,
+        "appKey":"2d6314fb2a925ac691a81be62195aa224ea80d03a06605e6"
+    },
+    "ios":{
+        "country":"d"
+    },
+    "gtsinaapp":{
+        "country":"d"
+    },
+    "pp":{
+        "country":"c",
+        "appId":3025,
+        "appKey":"7f6c11bba7752b56f7990e1064ec7da1"
+    },
+    "ppzs":{
+        "country":"c",
+        "appId":4711,
+        "appKey":"0aad0fc0d16b44adf987669ebaac9df8"
+    },
+    "tb":{
+        "country":"c",
+        "appId":140323,
+        "appKey":"6Pn1p*MjZw0TI4sD6nczpWMjwG9Tf4s6"
+    },
+    "ky":{
+        "country":"c",
+        "appId":"",
+        "appKey":"e9bd0e70757bfb52164bbe358626b5a5"
+    },
+    "360":{
+        "country":"a",
+        "appId":"",
+        "appKey":"b114bab2c0a10d900aee2f42b73812fb",
+        "app_secret":"b14210088a8177c872e0851ac186c0e2"
+    },
+    "lj360": {
+        "country": "m",
+        "appId": "202423156",
+        "appKey": "15f5ed4fb84cc1fae4064a4f11aac720",
+        "app_secret": "e7254c120f6cc2f57259dd8889f3ab1f"
+    },
+    "a360":{
+        "country":"f",
+        "sinaCid":10961005
+    },
+    "gtsinaa":{
+        "country":"f",
+        "sinaCid":10961005
+    },
+    "xiaomi":{
+        "country":"f",
+        "sinaCid":10961004
+    },
+    "ljxiaomi": {
+        "country": "m",
+        "sinaCid": 10961004,
+        "appId": "2882303761517335356",
+        "appKey": "5661733588356",
+        "app_secret": "nJzMc+II6Sbdoh5Rvc0yJw=="
+    },
+    "ucweb":{
+        "country":"f",
+        "sinaCid":10961001
+    },
+    "a91":{
+        "country":"f",
+        "appId":110489,
+        "appKey":"e273449659af9f825280df75eda62977e5c8a4b56a69579c",
+        "sinaCid":10961000
+    },
+    "baidu":{
+        "country":"f",
+        "sinaCid":10961006
+    },
+    "anzhi":{
+        "country":"f",
+        "sinaCid":10961008
+    },
+    "wandoujia":{
+        "country":"f",
+        "sinaCid":10961007
+    },
+    "dcn":{
+        "country":"f",
+        "sinaCid":10961002
+    },
+    "sina":{
+        "country":"f",
+        "sinaCid":10961003
+    },
+    "yyh":{
+        "country":"f",
+        "sinaCid":10961009
+    },
+    "kingnet":{
+        "country":"e",
+        "appId":110489,
+        "appKey":"e273449659af9f825280df75eda62977e5c8a4b56a69579c"
+    },
+    "kingnetios":{
+        "country":"g",
+        "appId":110489,
+        "appKey":"e273449659af9f825280df75eda62977e5c8a4b56a69579c"
+    },
+    "kingnetenglish":{
+        "country":"h",
+        "appId":110489,
+        "appKey":"e273449659af9f825280df75eda62977e5c8a4b56a69579c"
+    },
+    "kingnetenglishios":{
+        "country":"h",
+        "appId":110489,
+        "serverId":11,
+        "appKey":"e273449659af9f825280df75eda62977e5c8a4b56a69579c"
+    },
+    "sdkkingnet": {
+        "country": "e",
+        "appId": 110489,
+        "appKey": "e273449659af9f825280df75eda62977e5c8a4b56a69579c"
+    },
+    "sdkkingnetios": {
+        "country": "g",
+        "appId": 110489,
+        "appKey": "e273449659af9f825280df75eda62977e5c8a4b56a69579c"
+    },
+    "sdkkingnetenglish": {
+        "country": "h",
+        "appId": 110489,
+        "appKey": "e273449659af9f825280df75eda62977e5c8a4b56a69579c"
+    },
+    "sdkkingnetenglishios": {
+        "country": "h",
+        "appId": 110489,
+        "serverId": 11,
+        "appKey": "e273449659af9f825280df75eda62977e5c8a4b56a69579c"
+    },
+    "sdkkenkingnetenglish":{
+        "country":"h",
+        "appId":110489,
+        "appKey":"e273449659af9f825280df75eda62977e5c8a4b56a69579c"
+    },
+    "kingnetenglishiosoffthai":{
+        "country":"h",
+        "appId":110489,
+        "appKey":"e273449659af9f825280df75eda62977e5c8a4b56a69579c"
+    },
+    "kingnetenglishoff":{
+        "country":"h",
+        "appId":110489,
+        "appKey":"e273449659af9f825280df75eda62977e5c8a4b56a69579c"
+    },
+    "kingnetenglishiosoff":{
+        "country":"h",
+        "appId":110489,
+        "appKey":"e273449659af9f825280df75eda62977e5c8a4b56a69579c"
+    },
+    "thai":{
+        "country":"j",
+        "appId":90001,
+        "appKey":"soUlxpwIosx2sxmhg",
+        "preOpen":172800
+    },
+    "thaiios":{
+        "country":"j",
+        "appId":90001,
+        "appKey":"soUlxpwIosx2sxmhg",
+        "preOpen":172800
+    },
+    "kk":{
+        "country":"f",
+        "appId":2455,
+        "appKey":"7KKs8sg2Ck8W8KW48oK0c4o8K"
+    },
+    "anfan":{
+        "country":"f",
+        "appId":334,
+        "appKey":"0839e19d9565e168c09d09adf5aec17f"
+    },
+    "haima":{
+        "country":"c"
+    },
+    "itools":{
+        "country":"c",
+        "appId":"758",
+        "appKey":"D8111E9C708C3C2670666948550F149A"
+    },
+    "jodo":{
+        "country":"f",
+        "cpid":"bjxinlang",
+        "gameid":"longzhu",
+        "channelid":"jd001",
+        "secretkey":"ad003de6e4c82870f88ddb70935b2b",
+        "serverId":1
+    },
+    "wyx":{
+        "country":"f",
+        "app_id":"20050002",
+        "access_secret":"81b2750fb0f6738c26325349b88fcced",
+        "sinaCid":10961003
+    },
+    "youku":{
+        "country": "l",
+        "sinaCid": 10961001,
+        "AppID": "1250",
+        "AppKey": "d47973b8595e5754",
+        "AppSecret": "4d005141ad39e644eb0a6ec27c1acfe7",
+        "PayKey": "d9b9c3eb00a76913a42221174678ffb9"
+    },
+    "meizu":{
+        "country": "l",
+        "sinaCid": 10961001,
+        "AppID": "2165963",
+        "AppKey": "9f6a017241ea496daa707fd3a4cb20d3",
+        "AppSecret": "NaavxDNC6HHHsIT6UzE3vfD6CdN9yphV",
+        "PayKey": "d9b9c3eb00a76913a42221174678ffb9"
+    },
+    "ljmeizu": {
+        "country": "m",
+        "sinaCid": 10961001,
+        "AppID": "2508399",
+        "AppKey": "6032c4561e7945b0811e4cf293fdfb35",
+        "AppSecret": "uJ2zYAlisOmLwRbCEH0MKfwd9PpahGaJ",
+        "PayKey": "d9b9c3eb00a76913a42221174678ffb9"
+    },
+    "yuenan": {
+        "country": "o",
+        "AppKey": "0ea800d77944a1873500c325dd62e47005593a7f5",
+        "API_KEY":"K-A175238-U00000-VEANCR-EA9C9F2DC28EE857",
+        "AppSecret": "571b075f95bf2a561839a52a1e07d39f055dab22e"
+    },
+    "yuenanlumi": {
+        "country": "o",
+        "AppID": "",
+        "PayKey": "ja%asd^d31241^asfa"
+    },
+    "yuenanlumiAlt": {
+        "country": "o",
+        "AppID": "",
+        "PayKey": "Ko15nf^HdJs^saCC"
+    },
+    "yuenanlumiCus": {
+        "country": "o",
+        "AppID": "",
+        "PayKey": "ja%asd^d31241^asfa"
+    },
+    "rus":{
+        "country":"k",
+        "appKey":"*oR#rvxYjUy59^Yu"
+    },
+    "rusios":{
+        "country":"k",
+        "appKey":"*oR#rvxYjUy59^Yu"
+    },
+    "rusen":{
+        "country":"k",
+        "appKey": "android",
+        "AppID": "2",
+        "PayKey": "22125ceaea49c68978b2c7d3b6c49b7c"
+    },
+    "rusiosen":{
+        "country":"k",
+        "appKey": "android",
+        "AppID": "2",
+        "PayKey": "22125ceaea49c68978b2c7d3b6c49b7c"
+    },
+    "i4": {
+        "country": "l",
+        "AppSecret": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQClJSCoxApaRQZLh8HoUTtbQ2nxj23cfDFYEGNQZG46oUes5fexv70S40WhVZzWiGMs8V4PXM6NeHeQ433k22OsYqPvmlX3OzYUu2GgpZ1FqWmH2JSC6rs6Tr7/0duW+cmHijdlRe0qIDW4g0H7wnJXwwXs0Jv1bMm9NkXuYa9hZQIDAQAB"
+    },
+    "lenovo": {
+        "country": "l",
+        "AppKey": "1502020826335.app.ln",
+        "AppSecret": "MTc4ODkwOTU0NDg4MTcyNDM5NUMyRjMyOTUyNEQ1ODFDMEUxNUFCMk1UWXlNVE0zT1RZd01UWTNOakEwTXpJM056Y3JNamt4TXpZek1UUXdNVE13TnpBd056a3pNalV4TURZMk1UY3pPVGd4TnpNMU5EQXpNakU1"
+    },
+    "ljlenovo": {
+        "country": "m",
+        "AppKey": "1505141388543.app.ln",
+        "AppSecret": "MIICdQIBADANBgkqhkiG9w0BAQEFAASCAl8wggJbAgEAAoGBAIwF0IRKDszXEpG44ZrK7SKOPSPf3w1IAdlRhYmLGb8bxKSDpUh/3YhCQZiyxBAs7eSZ7gPItIXqhpidaMZXgHx9cuHOA5FxHT7P1Pwn78WDuHbUuKxsgrDwtfRPSrvaKvIyw5nayrNy+8Bb9XL3z7lDgGRGTfSfpMUppDnflaOhAgMBAAECgYAVslT0GrGeZfkXoWk73hPOlfG9XFQor66xqOMjQ+2SYlAfGdMDn+SI15NogNLGmt+l24A5D+GBGq0Oet2gVjCvXn7VztwLjDyzP4BJVjbvx8UdHA8gE1Jf+3SrKE2agFLSXkdlOIr2dMJkaC0Y9IuVQNEabY2b8+OdNBa5EmpSEQJBANUhSEQEFqLBk58g2/YJsA9H1vrvYPJN1BxSXgklntaPXnCxBdJDmCj+TQb9YcEyuzaXHU3MnxctnMndfj92oPUCQQCoMANs9epGOMrFui4ZCRl+54odsbIRWY9D2RJntFt1khTAVs6fBbuTlGY75fazw33zvlCCLAnXoimRAweG7Vx9AkB/BnsfrqAfGOh26wquNU/ti4+ht5I8WA6XYrARG47zqjdLSvaBPzAtHoOiKtpcX3QdMSuR9ubK1bCgz5YzFO0RAkA9SyI0d3qllNTxMmTSYuqTwTYolDXc9NKtW1LF0Ij0VASUBA7RDXnK0u5fLfO2l6wzREx65CnCGCsl2gDIP4DRAkBEsytHaUPsWwqkf+AsatU3AJ7QKtYWoF4rsdQ1dVz0HS0JEK5F7aA6zS2Mw0l99RniBhb+YkB1/LmtpwQNnnCw"
+    },
+    "xy": {
+        "country": "l",
+        "AppId": "100005620",
+        "AppKey": "XlaQIaScjTYZzbwdNeN4ceMoJBxrYTOI",
+        "PayKey": "CY0RvehtnelHtJAbXZSiKbUg7DdHZTQo"
+    },
+    "usa": {
+        "country": "i",
+        "appKey": "9p4vj5GFR9ChvS9d"
+    },
+    "usaa": {
+        "country": "i",
+        "appKey": "9p4vj5GFR9ChvS9d"
+    },
+    "usaaoff": {
+        "country": "i",
+        "appKey": "9p4vj5GFR9ChvS9d"
+    },
+    "usaa1": {
+        "country": "i",
+        "appKey": "9p4vj5GFR9ChvS9d"
+    },
+    "usagp": {
+        "country": "i",
+        "appKey": "9p4vj5GFR9ChvS9d"
+    },
+    "usausa": {
+        "country": "i",
+        "appKey": "9p4vj5GFR9ChvS9d"
+    },
+    "usaglobal": {
+        "country": "i",
+        "appKey": "9p4vj5GFR9ChvS9d"
+    },
+    "usaaoffIns": {
+        "country": "i",
+        "appKey": "9p4vj5GFR9ChvS9d"
+    },
+    "usaazb": {
+        "country": "i",
+        "appKey": "9p4vj5GFR9ChvS9d"
+    },
+    "usabzb": {
+        "country": "i",
+        "appKey": "9p4vj5GFR9ChvS9d"
+    },
+    "usaczb": {
+        "country": "i",
+        "appKey": "9p4vj5GFR9ChvS9d"
+    },
+    "usadzb": {
+        "country": "i",
+        "appKey": "9p4vj5GFR9ChvS9d"
+    },
+    "sinawx": {
+        "country": "f",
+        "sinaCid":10961003
+    },
+    "baxi": {
+        "country": "n"
+    },
+    "baxiA": {
+        "country": "n"
+    },
+    "baxiios": {
+        "country": "n"
+    },
+    "kingnetly": {
+        "country":"h",
+        "appId":110489,
+        "appKey":"e273449659af9f825280df75eda62977e5c8a4b56a69579c"
+    },
+    "gnetop": {
+        "country":"h",
+        "appId":110489,
+        "appKey":"e273449659af9f825280df75eda62977e5c8a4b56a69579c"
+    },
+    "kyeniosly": {
+        "country":"h",
+        "appId":110489,
+        "appKey":"e273449659af9f825280df75eda62977e5c8a4b56a69579c"
+    },
+    "kythaily": {
+        "country":"p",
+        "appId":110489,
+        "appKey":"e273449659af9f825280df75eda62977e5c8a4b56a69579c"
+    },
+    "kythaixy": {
+        "country": "q",
+        "appId": 100000013,
+        "appKey": "LUJY5zXcZgftSCvyLkmbtK5v8PGl55Qj",
+        "payKey": "QQvr7j3LVFe2CCdRkQhNXnqsmt1DsCDX"
+    },
+    "kyxyzs": {
+        "country": "h",
+        "appId": 110489,
+        "appKey": "e273449659af9f825280df75eda62977e5c8a4b56a69579c"
+    },
+    "ljoppo": {
+        "country":"m",
+        "appId":3594,
+        "appKey":"C5zyS9un88OWcSwgOSsgCkSKk",
+        "pemKey":"A9712B2748ccb35F576Db42c9ad3A28b"
+    },
+    "ljyoulu": {
+        "country": "m",
+        "AppID": "10274853",
+        "AppKey": "11009007a44b1d022c90303095021999",
+        "AppSecret": "2a82f965fe4f2ecdcf198a7ef6620e43"
+    },
+    "ljhuawei": {
+        "country": "m",
+        "AppID": "10274853",
+        "PayID": "900086000021444258",
+        "PubKey": "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAMihXbH8tYaHb+4MAypKLhxGdSGP7wQC7Q6FMatLAv3H32bSP8B2w7q7N2/hO/FDD7HESfafIKaMmWruOemjxUsCAwEAAQ=="
+    },
+    "ljkuaiyong": {
+        "country": "m",
+        "AppID": "10274853",
+        "AppKey": "23ed2923e2d77cbdf1dce3717739e32a",
+        "AppSecret": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9e4C5KblLjiqYxYfrqhwQjZqWj05+4VJp/q4X9Gnn6ptYrR1s5vGyo1ExSYuYcPoet6fRj9g7NdtkcH8tyrQVTl2dne8GslUtxPmRR2vwRw34Hi/Z4vVHI0cxCMZSQhfLUb0DRrb4IKgM71VpkKkeCahvsD9TMnfvUYrEC7myUQIDAQAB"
+    },
+    "ljtbt": {
+        "country": "m",
+        "appID": "150560",
+        "appKey": "bRo2LAYk9xfUrhOEbo#1LXvkxHeUg5Ob"
+    },
+    "ljhtc": {
+        "country": "m",
+        "AppID": "2863700111546",
+        "AppKey": "",
+        "AppSecret": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC92bPsC/MDKUR34wY/3Uyfeg4Tm+5RaFxIPNi1emXIALT7xxWGgV3KeiCTjzFJClWJJWMrrC2ih3xu+mhnpENfupTi8JK9p6TOsY29xzah4xTeEO9m9mLVUYiGQUQF0Hwnj0rQBb9DEjNLc5r9ZbOfxLtpso0wV/NrMYKNkmHNoQIDAQAB"
+    },
+    "ljxyzs": {
+        "country": "m",
+        "appID": "100014355",
+        "appKey": "RdIsJllTYewICM0TFV7f60MGPA7KGC9r",
+        "payKey": "Qo2QfoxFSvzkRAMQgGgERfFlMWKjB1LV"
+    },
+    "ljguopan": {
+        "country": "m",
+        "appID": "100014355",
+        "appKey": "RdIsJllTYewICM0TFV7f60MGPA7KGC9r",
+        "payKey": "Qo2QfoxFSvzkRAMQgGgERfFlMWKjB1LV"
+    },
+    "ljjinli": {
+        "country": "m",
+        "appKey": "B1F009A3D9A047CBAB7A273A5148856D",
+        "appSecret": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6+4YWzW1LysNg1C5ksOmBL0tilxuHOClthTAmFbN7bOCVnlUrpZZ2vmuseFuV+oHOFwTrgCazDChODjXValC0uCYpnTr784OhT3PW18SHe24k2nS68zwdY7dE64jtBGO5M6C1Bl4m2wJ6Co4bTMU1zNeEgCwvQmwn0trivkIt3wIDAQAB"
+    },
+    "ljguopana": {
+        "country": "m",
+        "appID": "B1F009A3D9A047CBAB7A273A5148856D",
+        "appSecret": "0CVJNWA57Z6U4XJQEH6ER3YOVVH07I1CFCJLDV759K59FLPKN30WMU6ZKSDXNEA5"
+    },
+    "ljguopani": {
+        "country": "m",
+        "appID": "B1F009A3D9A047CBAB7A273A5148856D",
+        "appSecret": "48UJNKRISGNWAU5LKG7BF86IHDZYLCY9OCIYF9N8LD7F4WFRPX65YGUT77WM2UGQ"
+    },
+    "ljxiongmao": {
+        "country": "m",
+        "appID": "996fc018001b1e9ba6acfe057c1c92e7",
+        "appSecret": "4977617f9bd91cfd83005fc590a5e007"
+    },
+    "ljwdj": {
+        "country": "m",
+        "appID": "996fc018001b1e9ba6acfe057c1c92e7",
+        "appSecret": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCd95FnJFhPinpNiE/h4VA6bU1rzRa5+a25BxsnFX8TzquWxqDCoe4xG6QKXMXuKvV57tTRpzRo2jeto40eHKClzEgjx9lTYVb2RFHHFWio/YGTfnqIPTVpi7d7uHY+0FZ0lYL5LlW4E2+CQMxFOPRwfqGzMjs1SDlH7lVrLEVy6QIDAQAB"
+    },
+    "ljitools": {
+        "country": "m",
+        "appID": "10274853"
+    },
+    "ljhaimai": {
+        "country": "m",
+        "appID": "4a37db9c2e1d0a9c50ccda83723306ff",
+        "appKey": "dc4f4f3bcb4261fbc86599e4699f4ca4"
+    },
+    "ljhaimaa": {
+        "country": "m",
+        "appID": "17444065936a4a0db7868233079c116d",
+        "appKey": "75bc816434d77cced7d31ec6878bdee6"
+    },
+    "ljvivo": {
+        "country": "m",
+        "appID": "75bc816434d77cced7d31ec6878bdee6",
+        "appKey": "17444065936a4a0db7868233079c116d"
+    },
+    "ljanzhi": {
+        "country": "m",
+        "appKey": ""
+    },
+    "mo9": {
+        "country": "c,d,f,m,h,e,g,l",
+        "privateKey": "864d2b83fdde4339940dac7eb76641c9",
+        "pay_to_email": "jiangzhuoxi@gametrees.com",
+        "app_id": "1024zNwZVLmDlY",
+        "notify_url": "/notify/mo9.node"
+    },
+    "ger": {
+        "country": "r",
+        "appKey": "9p4vj5GFR9ChvS9d",
+        "preOpen": 172800,
+        "pay": {
+            "1": 4.99,
+            "2": 9.99,
+            "3": 19.99,
+            "4": 39.99,
+            "5": 59.99,
+            "6": 69.99,
+            "7": 79.99,
+            "8": 99.99
+        }
+    },
+    "fra": {
+        "country": "r",
+        "appKey": "9p4vj5GFR9ChvS9d",
+        "preOpen": 172800,
+        "pay": {
+            "1": 4.99,
+            "2": 9.99,
+            "3": 19.99,
+            "4": 39.99,
+            "5": 59.99,
+            "6": 69.99,
+            "7": 79.99,
+            "8": 99.99
+        }
+    },
+    "esp": {
+        "country": "r",
+        "appKey": "9p4vj5GFR9ChvS9d",
+        "preOpen": 172800,
+        "pay": {
+            "1": 4.99,
+            "2": 9.99,
+            "3": 19.99,
+            "4": 39.99,
+            "5": 59.99,
+            "6": 69.99,
+            "7": 79.99,
+            "8": 99.99
+        }
+    },
+    "gera": {
+        "country": "r",
+        "appKey": "9p4vj5GFR9ChvS9d",
+        "preOpen": 172800,
+        "pay": {
+            "1": 4.99,
+            "2": 9.99,
+            "3": 19.99,
+            "4": 39.99,
+            "5": 59.99,
+            "6": 69.99,
+            "7": 79.99,
+            "8": 99.99
+        }
+    },
+    "fraa": {
+        "country": "r",
+        "appKey": "9p4vj5GFR9ChvS9d",
+        "preOpen": 172800,
+        "pay": {
+            "1": 4.99,
+            "2": 9.99,
+            "3": 19.99,
+            "4": 39.99,
+            "5": 59.99,
+            "6": 69.99,
+            "7": 79.99,
+            "8": 99.99
+        }
+    },
+    "espa": {
+        "country": "r",
+        "appKey": "9p4vj5GFR9ChvS9d",
+        "preOpen": 172800,
+        "pay": {
+            "1": 4.99,
+            "2": 9.99,
+            "3": 19.99,
+            "4": 39.99,
+            "5": 59.99,
+            "6": 69.99,
+            "7": 79.99,
+            "8": 99.99
+        }
+    },
+    "gergp": {
+        "country": "r",
+        "appKey": "9p4vj5GFR9ChvS9d",
+        "preOpen": 172800,
+        "pay": {
+            "1": 4.99,
+            "2": 9.99,
+            "3": 19.99,
+            "4": 39.99,
+            "5": 59.99,
+            "6": 69.99,
+            "7": 79.99,
+            "8": 99.99
+        }
+    },
+    "fragp": {
+        "country": "r",
+        "appKey": "9p4vj5GFR9ChvS9d",
+        "preOpen": 172800,
+        "pay": {
+            "1": 4.99,
+            "2": 9.99,
+            "3": 19.99,
+            "4": 39.99,
+            "5": 59.99,
+            "6": 69.99,
+            "7": 79.99,
+            "8": 99.99
+        }
+    },
+    "espgp": {
+        "country": "r",
+        "appKey": "9p4vj5GFR9ChvS9d",
+        "preOpen": 172800,
+        "pay": {
+            "1": 4.99,
+            "2": 9.99,
+            "3": 19.99,
+            "4": 39.99,
+            "5": 59.99,
+            "6": 69.99,
+            "7": 79.99,
+            "8": 99.99
+        }
+    },
+    "ara": {
+        "country": "r",
+        "appKey": "9p4vj5GFR9ChvS9d",
+        "preOpen": 172800,
+        "pay": {
+            "1": 4.99,
+            "2": 9.99,
+            "3": 19.99,
+            "4": 39.99,
+            "5": 59.99,
+            "6": 69.99,
+            "7": 79.99,
+            "8": 99.99
+        }
+    },
+    "araa": {
+        "country": "r",
+        "appKey": "9p4vj5GFR9ChvS9d",
+        "preOpen": 172800,
+        "pay": {
+            "1": 4.99,
+            "2": 9.99,
+            "3": 19.99,
+            "4": 39.99,
+            "5": 59.99,
+            "6": 69.99,
+            "7": 79.99,
+            "8": 99.99
+        }
+    },
+    "aragp": {
+        "country": "r",
+        "appKey": "9p4vj5GFR9ChvS9d",
+        "preOpen": 172800,
+        "pay": {
+            "1": 4.99,
+            "2": 9.99,
+            "3": 19.99,
+            "4": 39.99,
+            "5": 59.99,
+            "6": 69.99,
+            "7": 79.99,
+            "8": 99.99
+        }
+    },
+  "RayCreator": {
+    "country": "k",
+    "appKey": "10e807145e8f15252835e2e0f12b5ed2",
+    "AppID": "2",
+    "PayKey": "22125ceaea49c68978b2c7d3b6c49b7c"
+    },
+    "MOL": {
+        "country": "h",
+        "AppID": "2",
+        "ApplicationCode":"RnEZJiH0qLP3RonAicNHTQETvp7cFHOF",
+        "SecretKey":"oKWwgFZxNim3oLKSF1hZqnWqaM71XZlX",
+        "test_ApplicationCode":"gnxX5gRgXYSR7hJRwzhacwKciV8KftBc",
+        "test_SecretKey":"GKcu5GoDuvpo7HgobeHA1bh1Fs8hCQT1",
+        "APIVersion":"v1"
+    },
+    "MyCard": {
+        "country": "h",
+        "AppID": "2",
+        "SecretKey": "gametrees",
+        "checkUrl": "https://test.b2b.mycard520.com.tw/MyBillingPay/api/TradeQuery?AuthCode=",
+        "confirmUrl": "https://test.b2b.mycard520.com.tw/MyBillingPay/api/PaymentConfirm?AuthCode="
+    },
+    "bangqu": {
+        "country": "e",
+        "AppID": "2",
+        "privateKey": "bb3c1f482728fcb73fceb14e064173e1"
+    }
+}

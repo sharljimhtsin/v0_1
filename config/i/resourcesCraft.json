@@ -1,0 +1,128 @@
+{
+	"resourcesCraft": {
+		"starProduce": 8500,
+		"commondRoom": {
+			"maxLv": 10,
+			"lv": {
+				"1": {
+					"lvUp": 2000,
+					"produce": 1000
+				},
+				"2": {
+					"lvUp": 4000,
+					"produce": 2000
+				},
+				"3": {
+					"lvUp": 8000,
+					"produce": 4000
+				},
+				"4": {
+					"lvUp": 16000,
+					"produce": 8000
+				},
+				"5": {
+					"lvUp": 30000,
+					"produce": 16000
+				},
+				"6": {
+					"lvUp": 50000,
+					"produce": 30000
+				},
+				"7": {
+					"lvUp": 80000,
+					"produce": 50000
+				},
+				"8": {
+					"lvUp": 110000,
+					"produce": 80000
+				},
+				"9": {
+					"lvUp": 140000,
+					"produce": 110000
+				},
+				"10": {
+					"produce": 140000
+				}
+			}
+		},
+		"buff": {
+			"buffs": {
+				"0": [
+					{
+						"attributeType": "attack",
+						"attribute": 0.2
+					},
+					{
+						"attributeType": "spirit",
+						"attribute": 0.2
+					}
+				],
+				"1": [
+					{
+						"attributeType": "hp",
+						"attribute": 0.2
+					},
+					{
+						"attributeType": "defence",
+						"attribute": 0.2
+					}
+				]
+			},
+			"monster": {
+				"name": "Buff Guarder",
+				"formation": ["103034", "103035", "103036", "103037", "103038", "103039", "103040", "103041"]
+			}
+		},
+		"stars":{
+			"300001":{
+				"name":"Planet Imecka",
+				"monsterName":"Imeckians",
+				"monster":"102013",
+				"monsterLv": 30
+			},
+			"300002":{
+				"name":"Earth",
+				"monsterName":"Humans",
+				"monster":"102046",
+				"monsterLv": 30
+			},
+			"300003":{
+				"name":"Planet Namek",
+				"monsterName":"Namekians",
+				"monster":"104015",
+				"monsterLv": 30
+			},
+			"300004":{
+				"name":"Planet Vegeta",
+				"monsterName":"Saiyans",
+				"monster":"103003",
+				"monsterLv": 30
+			},
+			"300005":{
+				"name":"Planet Yardrat",
+				"monsterName":"Yardratians",
+				"monster":"101030",
+				"monsterLv": 30
+			},
+			"300006":{
+				"name":"Planet Luud",
+				"monsterName":"Luudians",
+				"monster":"103014",
+				"monsterLv": 30
+			}
+		},
+		"monster": {
+			"hp":6336,
+			"attack":4053,
+			"defence":1733,
+			"spirit":6010,
+			"critDamage":0,
+			"crit":0,
+			"tough":0,
+			"dodge":0,
+			"hit":0,
+			"break":0,
+			"preventBreak":0
+		}
+	}
+}

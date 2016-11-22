@@ -1,0 +1,26 @@
+{
+	"mail":{
+		"bloodBattleRankReward":"Awesome! Your Team has entered the Hell Gate Rankings! Tap CLAIM to receive your reward.",
+		"worldBossRankReward":"Epic! Your Team has entered the God of Destruction Rankings! Tap CLAIM to receive your reward.",
+		"worldBossLastBeatReward":"Woah! You dealt the final strike to the God of Destruction! Congrats! Tap CLAIM to receive your reward.",
+		"pvpRankDown":"You were defeated by {0} in the Arena, your ranking fell to No.{1}.",
+		"pvpPatchLost":"You were defeated by {0} in a Skill Shard fight, you lost {1}.",
+		"monthCardReward":"Your Monthly Pass still has {0} Gammets, {1} Beans. Tap CLAIM to receive your reward.",
+		"pvpRankDailyReward":"Daily Arena Ranking Reward",
+		"leagueMap":"In Guild Wars {0}, you were No.1 in the DMG Ranking and won great rewards! Please click CLAIM to retrieve.",
+		"leagueMapFail":"You failed to win the Guild Wars Auction. {1} Devotion was returned to you. Please click CLAIM to retrieve.",
+		"leagueMapSuccess":"You won the Guild Wars Auction. Please click CLAIM to retrieve items.",
+		"groupPurchaseReward":"Congrats, you won {0} chests in the group buying event. Please claim your rewards.",
+		"tabletsClickReward":"Congratulations on your successful forecasting,Please claim your rewards.",
+		"cosmosBossRankReward":"Awesome! Your Team has entered the Xeno Rankings! Tap CLAIM to receive your reward.",
+		"cosmosBossLastBeatReward":"Woah! You dealt the final strike to Towa! Congrats! Tap CLAIM to receive your reward.",
+		"gemCompose":" ",
+		"gemComposeReward":" ",
+		"finalRewardStr":"Final Rewards",
+		"rankRewardStr":"Rank Rewards",
+		"vipClubRewardStr":"vip俱樂部獎勵",
+		"bejeweledRankReward":"Congrats, you are in the Garnet Game Ranking List, this is your ranking rewards, please claim it",
+		"quarterCardReward":"您本次季卡未领取，还请您注意查收。",
+		"quarterCardRewardForVip":"恭喜您获得季卡vip奖励，请点击【领取】按钮领取奖励。"
+	}
+}

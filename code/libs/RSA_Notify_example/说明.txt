@@ -1,0 +1,2 @@
+1、快用系统中保存的RSA公钥是一个字串，没有格式的，加载公钥前，请用Rsa::instance()->convert_publicKey($public_key)转一下格式，参见test.php；
+2、init.php是主处理流程，包括验签数据的组合，验签，解密。

@@ -1,0 +1,489 @@
+﻿{
+    "loginDB":{
+        "redis":[
+            {
+                "port":6379,
+                "host":"162.218.55.52",
+                "select":0
+            },
+            {
+                "port":6379,
+                "host":"162.218.55.52",
+                "select":1
+            }
+
+        ],
+        "mysql":[
+            {
+                "host":"162.218.55.53",
+                "user":"dragonball",
+                "password":"VGHPcj)f^tn782",
+                "port":3306,
+                "database":"dragonlogin_n"
+            }
+        ]
+    },
+    "redis":{
+        "list":{
+            "1":{
+                "port":6379,
+                "host":"162.218.55.52",
+                "select":0
+            }
+        }
+    },
+    "dynamic": {
+        "list": {
+            "1": {
+                "port": 6379,
+                "host": "162.218.55.52",
+                "select": 10
+            }
+        }
+    },
+    "serverList": {
+        "1": {
+            "id": "1",
+            "name": "s1-Goku",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_1"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },
+        "2": {
+            "id": "2",
+            "name": "s2-Bulma",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_2"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },
+        "3": {
+            "id": "3",
+            "name": "s3-Kuririn",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_3"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },
+        "4": {
+            "id": "4",
+            "name": "s4-Gohan",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_4"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },"5": {
+            "id": "5",
+            "name": "s5-Piccolo",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_5"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },"6": {
+            "id": "6",
+            "name": "s6-Mestre Kame",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_6"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },
+        "7": {
+            "id": "7",
+            "name": "s7-Yamcha",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_7"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },
+        "8": {
+            "id": "8",
+            "name": "s8-Tenshinhan",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_8"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },
+        "9": {
+            "id": "9",
+            "name": "s9-Vegeta",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_9"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },
+        "10": {
+            "id": "10",
+            "name": "s10-Trunks",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_10"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },
+        "11": {
+            "id": "11",
+            "name": "s11-Goten",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_11"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },
+        "12": {
+            "id": "12",
+            "name": "s12-Oolong",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_12"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },
+        "13": {
+            "id": "13",
+            "name": "s13-Pual",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_13"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },
+        "14": {
+            "id": "14",
+            "name": "s14-Freeza",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_14"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },
+        "15": {
+            "id": "15",
+            "name": "s15-Cell",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_15"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },
+        "16": {
+            "id": "16",
+            "name": "s16-Pilaf",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_16"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },
+        "17": {
+            "id": "17",
+            "name": "s17-Chichi",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_17"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },
+        "18": {
+            "id": "18",
+            "name": "s18-Mestre Karin",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_18"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },
+        "19": {
+            "id": "19",
+            "name": "s19-Lunch",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_19"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },
+        "20": {
+            "id": "20",
+            "name": "s20-Mr.Satan",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_20"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },
+        "21": {
+            "id": "21",
+            "name": "s21-Videl",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_21"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },
+        "22": {
+            "id": "22",
+            "name": "s22-Yajirobe",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_22"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },
+        "23": {
+            "id": "23",
+            "name": "s23-Chaos",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_23"
+        },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },
+        "24": {
+            "id": "24",
+            "name": "s24-Andróide 17",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_24"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },
+        "25": {
+            "id": "25",
+            "name": "s25-Goku",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_25"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },
+        "26": {
+            "id": "26",
+            "name": "s26-Goku",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_26"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },
+        "27": {
+            "id": "27",
+            "name": "s27-Goku",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_27"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },
+        "28": {
+            "id": "28",
+            "name": "s28-Goku",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_28"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },
+        "29": {
+            "id": "29",
+            "name": "s29-Goku",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_29"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        },
+        "30": {
+            "id": "30",
+            "name": "s30-Goku",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "162.218.55.53",
+                "user": "dragonball",
+                "password": "VGHPcj)f^tn782",
+                "port": 3306,
+                "database": "dragongame_30"
+            },
+            "mongodb": "mongodb://susadbzapi.gametrees.com:27017/off"
+        }
+    },
+    "configName":"n",
+    "adminDB":{
+        "host":"162.218.55.53",
+        "user":"dragonball",
+        "password":"VGHPcj)f^tn782",
+        "database":"dragonadmin"
+    },
+    "rabbitmq":{
+        "conn":{"host": "162.218.55.66", "port":5672 , "login": "guest", "password": "guest"},
+        "option":{"type": "topic", "durable": true, "autoDelete": false, "confirm": true},
+        "exchange_name":"dbz_analy_ex_topic_",
+        "routing_key_name":"#log",
+        "queue_name":"dbz_analy_que_topic_"
+    },
+    "iosDB":{
+        "mysql":[
+            {
+                "host":"162.218.55.53",
+                "user":"dragonball",
+                "password":"VGHPcj)f^tn782",
+                "port":3306,
+                "database":"dragonballios"
+            }
+        ]
+    }
+}

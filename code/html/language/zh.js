@@ -1,0 +1,2 @@
+LipiUtil.language["zh"] = {
+}

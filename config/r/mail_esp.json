@@ -1,0 +1,23 @@
+{
+	"mail_esp":{
+		"bloodBattleRankReward":"¡Impresionante! Su equipo ha entrado en el rango de Puerta del Infierno! Toque RECIBIR para recibir su bonus.",
+		"worldBossRankReward":"¡Épico! Su equipo ha entrado en el rango de Dios de la Destrucción. Toque RECIBIR para recibir su bonus.",
+		"worldBossLastBeatReward":"Usted ha llevado el golpe final al Dios de la Destrucción! ¡Enhorabuena! Toque RECIBIR para recibir su bonus.",
+		"pvpRankDown":"Usted fue derrotado por {0} en la arena, su rango cayó al No.{1}.",
+		"pvpPatchLost":"Usted fue derrotado por {0} en un Pieza  de Habilidad de Combate, perdío {1}.",
+		"monthCardReward":"Su carta mensual todavía tiene Gammets *{0}, Frijoles *{1}. Toque RECIBIR para recibir su bonus.",
+		"pvpRankDailyReward":"Bonus de rango diario en Arena",
+		"leagueMap":"En la guerra del gremio {0}, estabas No.1 en el Daño de Contribución y gana gran bonus! Por favor, haga clic en RECIBIR para recibir su bonus.",
+		"leagueMapFail":"Usted no pudo ganar la subasta de guerra del gremio. {1} devoción fue devuelto a usted. Por favor, haga clic en RECIBIR para recibir su bonus.",
+		"leagueMapSuccess":"Te has ganado la subasta de guerra del gremio. Por favor, haga clic en RECIBIR para recibir los objetos.",
+		"groupPurchaseReward":"Felicidades, usted ganó {0} cofres en el caso de compras en grupo. Por favor, haga clic en RECIBIR para recibir su bonus.",
+		"tabletsClickReward":"Felicidades por su predicción exitosa, por favor haga clic en RECIBIR para recibir su bonus.",
+		"cosmosBossRankReward":"¡Impresionante! Su equipo ha entrado en el rango! Toque RECIBIR para recibir su bonus.",
+		"cosmosBossLastBeatReward":"¡Impresionante! ¡Usted ha llevado el golpe final a Towa! ¡Enhorabuena! Toque RECIBIR para recibir su bonus.",
+		"gemCompose":"",
+		"gemComposeReward":"",
+		"finalRewardStr":"Bonus Final",
+		"rankRewardStr":"Bonus de Rango",
+		"vipClubRewardStr":"Bonus de Club VIP"
+	}
+}

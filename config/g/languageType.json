@@ -1,0 +1,16 @@
+{
+	"languageType":{
+		"type":"CHTIOS",
+		"length":6,
+		"review":0,
+		"LoginScene":{
+			"password":"帳號或密碼不能為空",
+			"loginName":"默認帳號",
+			"loginFirst":"請先登錄",
+			"loginFail":"驗證失敗，請重新登陸",
+			"loginPingtai":"請先登錄平臺",
+			"name":"遊客",
+			"noHistory":"沒有歷史記錄"
+		}
+	}
+}

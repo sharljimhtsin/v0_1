@@ -1,0 +1,2073 @@
+﻿{
+    "loginDB":{
+        "redis":[
+            {
+                "port":6379,
+                "host":"192.168.0.153",
+                "select":0
+            },
+            {
+                "port":6379,
+                "host":"192.168.0.153",
+                "select":1
+            }
+        ],
+        "mysql":[
+            {
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragonlogin_d"
+            }
+        ]
+    },
+    "userToken": {
+        "redis": [
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            }
+        ]
+    },
+    "redis":{
+        "list":{
+            "1":{
+                "port":6379,
+                "host":"192.168.0.153",
+                "select":0
+            }
+        }
+    },
+    "dynamic": {
+        "list": {
+            "1": {
+                "port": 6379,
+                "host": "192.168.0.153",
+                "select": 0
+            },
+            "2": {
+                "port": 6381,
+                "host": "192.168.0.153",
+                "select": 0
+            }
+        }
+    },
+    "serverList":{
+        "1":{
+            "id":"1",
+            "name":"孙悟空",
+	        "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_1"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame1"
+        },
+        "2":{
+            "id":"2",
+            "name":"贝吉塔",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_2"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame2"
+        },
+        "3":{
+            "id":"3",
+            "name":"龟仙人",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_3"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame3"
+        },
+        "4":{
+            "id":"4",
+            "name":"短笛",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_4"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame4"
+        },
+        "5":{
+            "id":"5",
+            "name":"孙悟饭",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_5"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame5"
+        },
+        "6":{
+            "id":"6",
+            "name":"特兰克斯",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_6"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame6"
+        },
+        "7":{
+            "id":"7",
+            "name":"孙悟天",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_7"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame7"
+        },
+        "8":{
+            "id":"8",
+            "name":"弗利萨",
+            "sTime":24013792000,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_8"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame8"
+        },
+        "9":{
+            "id":"9",
+            "name":"沙鲁",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_9"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame9"
+        },
+        "10":{
+            "id":"10",
+            "name":"人造人18号",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_10"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame10"
+        },
+        "11":{
+            "id":"11",
+            "name":"魔王达普拉",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_11"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame11"
+        },
+        "12":{
+            "id":"12",
+            "name":"悟天克斯",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_12"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame12"
+        },
+        "13":{
+            "id":"13",
+            "name":"布罗利",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_13"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame13"
+        },
+        "14":{
+            "id":"14",
+            "name":"布欧",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_14"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame14"
+        },
+        "15":{
+            "id":"15",
+            "name":"贝吉特",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_15"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame15"
+        },
+        "16":{
+            "id":"16",
+            "name":"人造人16号",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_16"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame16"
+        },
+        "17":{
+            "id":"17",
+            "name":"克维拉",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_17"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame17"
+        },
+        "18":{
+            "id":"18",
+            "name":"悟吉塔",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_18"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame18"
+        },
+        "19":{
+            "id":"19",
+            "name":"欧布",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_19"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame19"
+        },
+        "20":{
+            "id":"20",
+            "name":"东界王神",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_20"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame20"
+        },
+        "21":{
+            "id":"21",
+            "name":"比鲁斯",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_21"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame21"
+        },
+        "22":{
+            "id":"22",
+            "name":"排骨饭",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_22"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame22"
+        },
+        "23":{
+            "id":"23",
+            "name":"巴达克",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_23"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame23"
+        },
+        "24":{
+            "id":"24",
+            "name":"达列斯",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_24"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame24"
+        },
+        "25":{
+            "id":"25",
+            "name":"人造人17号",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_25"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame25"
+        },
+        "26":{
+            "id":"26",
+            "name":"孙悟天",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_26"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame26"
+        },
+        "27":{
+            "id":"27",
+            "name":"波波先生",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_27"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame27"
+        },
+        "28":{
+            "id":"28",
+            "name":"天津饭",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_28"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame28"
+        },
+        "29":{
+            "id":"29",
+            "name":"克林",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_29"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame29"
+        },
+        "30":{
+            "id":"30",
+            "name":"布尔玛",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_30"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame30"
+        },
+        "31":{
+            "id":"31",
+            "name":"魔法师巴比迪",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_31"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame31" 
+        },
+        "32":{
+            "id":"32",
+            "name":"老界王神",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_32"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame32" 
+        },
+        "33":{
+            "id":"33",
+            "name":"卡琳仙人",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_33"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame33" 
+        },
+        "34":{
+            "id":"34",
+            "name":"贝吉特",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_34"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame34"
+        },
+        "35":{
+            "id":"35",
+            "name":"克维拉",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_35"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame35"
+        },
+        "36":{
+            "id":"36",
+            "name":"杰比特",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_36"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame36"
+        },
+        "37":{
+            "id":"37",
+            "name":"蒙面塞亚超人",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_37"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame37"
+        },
+        "38":{
+            "id":"38",
+            "name":"比迪丽",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_38"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame38"
+        },
+        "39":{
+            "id":"39",
+            "name":"猪鹿蝶",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_39"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame39"
+        },
+        "40":{
+            "id":"40",
+            "name":"乐平",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_40"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame40"
+        },
+        "41":{
+            "id":"41",
+            "name":"塔布尔",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_41"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame41"
+        },
+        "42":{
+            "id":"42",
+            "name":"布拉",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_42"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame42"
+        },
+        "43":{
+            "id":"43",
+            "name":"小蝌蚪",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_43"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame43"
+        },
+        "44":{
+            "id":"44",
+            "name":"猫魔人",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_44"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame44"
+        },
+        "45":{
+            "id":"45",
+            "name":"宇宙巡警加克",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_45"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame45"
+        },
+        "46":{
+            "id":"46",
+            "name":"贝比",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_46"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame46"
+        },
+        "47":{
+            "id":"47",
+            "name":"黄金巨猿",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_47"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame47"
+        },
+        "48":{
+            "id":"48",
+            "name":"邪念波",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_48"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame48"
+        },
+        "49":{
+            "id":"49",
+            "name":"希斯得刚",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_49"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame49"
+        },
+        "50":{
+            "id":"50",
+            "name":"幽灵悟天克斯",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_50"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame50"
+        },
+        "51":{
+            "id":"51",
+            "name":"辛巴鲁",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_51"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame51"
+        },
+        "52":{
+            "id":"52",
+            "name":"弥次郎兵卫",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_52"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame52"
+        },
+        "53":{
+            "id":"53",
+            "name":"饺子",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_53"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame53"
+        },
+        "54":{
+            "id":"54",
+            "name":"桃白白",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_54"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame54"
+        },
+        "55":{
+            "id":"55",
+            "name":"鹤仙人",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_55"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame55"
+        },
+        "56":{
+            "id":"56",
+            "name":"拉蒂兹",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_56"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame56"
+        },
+        "57":{
+            "id":"57",
+            "name":"内鲁",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_57"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame57"
+        },
+        "58":{
+            "id":"58",
+            "name":"兰琪",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_58"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame58"
+        },
+        "59":{
+            "id":"59",
+            "name":"牛魔王",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_59"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame59"
+        },
+        "60":{
+            "id":"60",
+            "name":"加林仙人",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_60"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame60"
+        },
+        "61":{
+            "id":"61",
+            "name":"琪琪",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_61"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame61"
+        },
+        "62":{
+            "id":"62",
+            "name":"超级一星龙",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_62"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame62"
+        },
+        "63":{
+            "id":"63",
+            "name":"魔人布欧",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_63"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame63"
+        },
+        "64":{
+            "id":"64",
+            "name":"悟吉塔",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_64"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame64"
+        },
+        "65":{
+            "id":"65",
+            "name":"超级17号",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_65"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame65"
+        },
+        "66":{
+            "id":"66",
+            "name":"欧布",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_66"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame66"
+        },
+        "67":{
+            "id":"67",
+            "name":"布罗利",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_67"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame67"
+        },
+        "68":{
+            "id":"68",
+            "name":"利鲁将军",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_68"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame68"
+        },
+        "69":{
+            "id":"69",
+            "name":"鲁德",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_69"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame69"
+        },
+        "70":{
+            "id":"70",
+            "name":"达普拉",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_70"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame70"
+        },
+        "71":{
+            "id":"71",
+            "name":"波杰克",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_71"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame71"
+        },
+        "72":{
+            "id":"72",
+            "name":"克维拉",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_72"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame72"
+        },
+        "73":{
+            "id":"73",
+            "name":"格尔多王",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_73"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame73"
+        },
+        "74":{
+            "id":"74",
+            "name":"贝吉塔王",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_74"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame74"
+        },
+        "75":{
+            "id":"75",
+            "name":"利库姆",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_75"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame75"
+        },
+        "76":{
+            "id":"76",
+            "name":"多多利亚",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_76"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame76"
+        },"77":{
+            "id":"77",
+            "name":"古尔多",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_77"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame77"
+        },
+        "78":{
+            "id":"78",
+            "name":"萨博变身",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_78"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame78"
+        },
+        "79":{
+            "id":"79",
+            "name":"斯布比奇",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_79"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame79"
+        },"80":{
+            "id":"80",
+            "name":"塔皮欧",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_80"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame80"
+        },
+        "81":{
+            "id":"81",
+            "name":"沙扎维",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_81"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame81"
+        },
+        "82":{
+            "id":"82",
+            "name":"赛莉巴",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_82"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame82"
+        },
+        "83":{
+            "id":"83",
+            "name":"阿拉蕾",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_83"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame83"
+        },
+        "84":{
+            "id":"84",
+            "name":"博加斯",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_84"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame84"
+        },"85":{
+            "id":"85",
+            "name":"卡力克",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_85"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame85"
+        },
+        "86":{
+            "id":"86",
+            "name":"北界王",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_86"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame86"
+        },
+        "87":{
+            "id":"87",
+            "name":"齐尔德",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_87"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame87"
+        },"88":{
+            "id":"88",
+            "name":"蒙面超人",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_88"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame88"
+        },
+        "89":{
+            "id":"89",
+            "name":"皮拉夫",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_89"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame89"
+        },
+        "90":{
+            "id":"90",
+            "name":"地狱使者",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_90"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame90"
+        },
+        "91":{
+            "id":"91",
+            "name":"栽培人",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_91"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame91"
+        },
+        "92":{
+            "id":"92",
+            "name":"白将军",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_92"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame92"
+        },"93":{
+            "id":"93",
+            "name":"蝙蝠人",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_93"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame93"
+        },
+        "94":{
+            "id":"94",
+            "name":"柴巴王",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_94"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame94"
+        },
+        "95":{
+            "id":"95",
+            "name":"蓝将军",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_95"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame95"
+        },"96":{
+            "id":"96",
+            "name":"铁军曹",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_96"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame96"
+        },
+        "97":{
+            "id":"97",
+            "name":"银大佐",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_97"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame97"
+        },
+        "98":{
+            "id":"98",
+            "name":"武泰斗",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_98"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame98"
+        },
+        "99":{
+            "id":"99",
+            "name":"紫大佐",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_99"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame99"
+        },
+        "100":{
+            "id":"100",
+            "name":"剑齿虎",
+            "sTime":2401379200,
+            "redis":"1",
+            "dynamic": "1",
+            "mysql":{
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragongame_100"
+            },
+            "mongodb" :"mongodb://192.168.0.164:27217/iosgame100"
+        }
+    },
+    "configName":"a",
+    "adminDB":{
+        "host":"192.168.0.151",
+        "user":"dragonball",
+        "password":"VGHPcj)f^vn820",
+        "database":"dragonadmin"
+    },
+    "rabbitmq":{
+        "conn":{"host": "192.168.0.86", "port":5672 , "login": "guest", "password": "guest"},
+        "option":{"type": "topic", "durable": true, "autoDelete": false, "confirm": true},
+        "exchange_name":"dbz_analy_ex_topic_",
+        "routing_key_name":"#log",
+        "queue_name":"dbz_analy_que_topic_"
+    },
+    "iosDB":{
+        "mysql":[
+            {
+                "host":"192.168.0.151",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragonballios"
+            }
+        ]
+    }
+}

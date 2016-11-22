@@ -1,0 +1,39 @@
+{
+  "version": "6.3.9",
+  "list": {
+    "configlist": {
+      "url": "configlist.json",
+      "version": "6.3.9",
+      "name": "configlist",
+      "serverPath": "http://26.fb-static.kingnet.com/kythaixy/v15032601/configlist/"
+    },
+    "material": {
+      "url": "material.json",
+      "version": "6.3.9",
+      "name": "material",
+      "serverPath": "http://26.fb-static.kingnet.com/kythaixy/v15032601/material/"
+    },
+    "oui": {
+      "url": "oui.json",
+      "version": "6.3.9",
+      "name": "oui",
+      "serverPath": "http://26.fb-static.kingnet.com/kythaixy/v15032601/oui/"
+    },
+    "scripts": {
+      "url": "scripts.json",
+      "version": "6.3.9",
+      "name": "scripts",
+      "serverPath": "http://26.fb-static.kingnet.com/kythaixy/v15032601/scripts/"
+    },
+    "resources": {
+      "url": "resources.json",
+      "version": "6.3.9",
+      "name": "resources",
+      "serverPath": "http://26.fb-static.kingnet.com/kythaixy/v15032601/resources/"
+    }
+  },
+  "serverEntrance": "http://dbzthai.gametrees.com/",
+  "isDebug": 0,
+  "debugPath": "http://127.0.0.1:1337/",
+  "platformId": "kythaixy"
+}

@@ -1,0 +1,41 @@
+anfan:1419325210 | null
+anfan:1419325317 | null
+anfan:1419325327 | null
+anfan:1419325338 | null
+anfan:1419325339 | null
+anfan:1419325339 | null
+anfan:1419325339 | null
+anfan:1419325415 | null
+anfan:1419332271 | null
+anfan:1419475295 | null
+anfan:1419476625 | null
+anfan:1419488647 | null
+anfan:1419500103 | null
+anfan:1419500133 | null
+anfan:1419500133 | null
+anfan:1419500134 | null
+anfan:1419500134 | null
+anfan:1419500134 | null
+anfan:1419500134 | null
+anfan:1419500135 | null
+anfan:1419500136 | null
+anfan:1419500136 | null
+anfan:1419500151 | null
+anfan:1419501486 | null
+anfan:1419501495 | null
+anfan:1419501495 | null
+anfan:1419501495 | null
+anfan:1419501498 | null
+anfan:1419501499 | null
+anfan:1419501499 | null
+{"platformId":"test2","platformUserId":"LoginID_3102","info":"1","serverId":"5","pay_time":"1423635922740","user_info":"8673820686","buy_amount":"1","total_price":"10.0","order_id":"15021100001224901","sign":"116ec25d74a76058da97844949ddb343","product_id":"0","sign_type":"MD5","notify_time":"2015-02-11 14:25:22","pay_type":"0","trade_status":"3","cp_order_id":"86d73eabc5b9a9895e66760e4162d7c1","notify_id":"1423635922726","app_id":"2165963","product_unit":"","create_time":"1423635832616","uid":"13166507","partner_id":"13372732","product_per_price":"10.0"}
+{"ts":"1434522421","user_id":"1512","sid":"23","number":"66","amount":"3.90","role_id":"","order_id":"100000010_1512_1434522417_4258","app_extra1":"34745626807|66|1|fd48ee5b0aa4be13b050fb833d20e43b","app_extra2":"","pay_ref":"kingnet_tw","kda":"USD#100000010_1512_1434522417_4258||66|1","sig":"d364d616cfac7d52a6a789348ea0f280"}
+{"ts":"1434522421","user_id":"1512","sid":"23","number":"66","amount":"3.90","role_id":"","order_id":"100000010_1512_1434522417_4258","app_extra1":"34745626807|66|1|fd48ee5b0aa4be13b050fb833d20e43b","app_extra2":"","pay_ref":"kingnet_tw","kda":"USD#100000010_1512_1434522417_4258||66|1","sig":"d364d616cfac7d52a6a789348ea0f280"}
+{"ts":"1434522421","user_id":"1512","sid":"23","number":"66","amount":"3.90","role_id":"","order_id":"100000010_1512_1434522417_4258","app_extra1":"34745626807|66|1|fd48ee5b0aa4be13b050fb833d20e43b","app_extra2":"","pay_ref":"kingnet_tw","kda":"USD#100000010_1512_1434522417_4258||66|1","sig":"d364d616cfac7d52a6a789348ea0f280"}
+{"ts":"1434522421","user_id":"1512","sid":"23","number":"66","amount":"3.90","role_id":"","order_id":"100000010_1512_1434522417_4258","app_extra1":"34745626807|66|1|fd48ee5b0aa4be13b050fb833d20e43b","app_extra2":"","pay_ref":"kingnet_tw","kda":"USD#100000010_1512_1434522417_4258||66|1","sig":"d364d616cfac7d52a6a789348ea0f280"}
+{"ts":"1434522421","user_id":"1512","sid":"23","number":"66","amount":"3.90","role_id":"","order_id":"100000010_1512_1434522417_4258","app_extra1":"34745626807|66|1|fd48ee5b0aa4be13b050fb833d20e43b","app_extra2":"","pay_ref":"kingnet_tw","kda":"USD#100000010_1512_1434522417_4258||66|1","sig":"d364d616cfac7d52a6a789348ea0f280"}
+{"ts":"1434522421","user_id":"1512","sid":"23","number":"66","amount":"3.90","role_id":"","order_id":"100000010_1512_1434522417_4258","app_extra1":"34745626807|66|1|fd48ee5b0aa4be13b050fb833d20e43b","app_extra2":"","pay_ref":"kingnet_tw","kda":"USD#100000010_1512_1434522417_4258||66|1","sig":"d364d616cfac7d52a6a789348ea0f280"}
+null
+null
+{"ts":1442554695,"user_id":"2110703","sid":"10013","number":60,"amount":60,"role_id":"30282885081","order_id":"114606321107031442554499","kda":"NTD#114606321107031442554499|60.00|60|2525","active1":"","sig":"89c157049e4650485db557a2c9bb51ca","wp_pid":null,"product_id":"lz_tw_060","app_extra1":"79e75adade15a3c84b07ea62df82fac8","app_extra2":"","pay_ref":"applestore_tw","hash_string":"md5|kingnetpay.kingnet.com21107031001360603028288508111460632110703144255449914425546951146095"}
+{"ts":1442554695,"user_id":"2110703","sid":"10013","number":60,"amount":60,"role_id":"30282885081","order_id":"114606321107031442554499","kda":"NTD#114606321107031442554499|60.00|60|2525","active1":"","sig":"89c157049e4650485db557a2c9bb51ca","wp_pid":null,"product_id":"lz_tw_060","app_extra1":"79e75adade15a3c84b07ea62df82fac8","app_extra2":"","pay_ref":"applestore_tw","hash_string":"md5|kingnetpay.kingnet.com21107031001360603028288508111460632110703144255449914425546951146095"}

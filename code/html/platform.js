@@ -1,0 +1,2 @@
+var platformData = [["a","开发服"],["b","测试服"],["c","91IOS"],["d","APP Store"],["e","TW-Android"],["f","Android"],["g","TW-IOS"],["h","EN"],["i","EUROPE"],["j","THAI"],["k","RUS"],["l","SAIYA"],["m","乐聚"],["n","BAXI"],["o","YUENAN"],["r","SANGUO"]];//,["p","KNTHAIlY"],["q","KNTHAIXY"],
+var languageData = [["cn","中文"], ["en","English"],["de","德文"], ["fr","法语"],["es","西班牙"]];

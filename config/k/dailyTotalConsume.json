@@ -1,0 +1,31 @@
+{
+	"dailyTotalConsume":{
+		"1":{
+			"list":[
+				{
+					"pay":1000,
+					"reward":[{"id":"gold","count":350000},{"id":"150901","count":200}]
+				},
+				{
+					"pay":3000,
+					"reward":[{"id":"gold","count":500000},{"id":"150901","count":300}]
+				},
+				{
+					"pay":6000,
+					"reward":[{"id":"gold","count":1000000},{"id":"150901","count":600}]
+				},
+				{
+					"pay":10000,
+					"reward":[{"id":"170302","count":1},{"id":"150901","count":1000}]
+				},
+				{
+					"pay":30000,
+					"reward":[{"id":"170401","count":1},{"id":"150901","count":2000}]
+				}
+			],
+			"rankPersonCount":20,
+			"rankReward":[
+			]
+		}
+	}
+}

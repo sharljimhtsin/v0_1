@@ -1,0 +1,39 @@
+{
+    "version": "5.0.0",
+    "list": {
+        "configlist": {
+            "url": "configlist.json",
+            "version": "5.0.0",
+            "name": "configlist",
+            "serverPath": "http://src.dbzgames.me/v15040201/configlist/"
+        },
+        "material": {
+            "url": "material.json",
+            "version": "5.0.0",
+            "name": "material",
+            "serverPath": "http://src.dbzgames.me/v15040201/material/"
+        },
+        "oui": {
+            "url": "oui.json",
+            "version": "5.0.0",
+            "name": "oui",
+            "serverPath": "http://src.dbzgames.me/v15040201/oui/"
+        },
+        "scripts": {
+            "url": "scripts.json",
+            "version": "5.0.0",
+            "name": "scripts",
+            "serverPath": "http://src.dbzgames.me/v15040201/scripts/"
+        },
+        "resources": {
+            "url": "resources.json",
+            "version": "5.0.0",
+            "name": "resources",
+            "serverPath": "http://src.dbzgames.me/v15040201/resources/"
+        }
+    },
+    "serverEntrance": "http://dbz.dbzgames.me/",
+    "isDebug": 0,
+    "debugPath": "http://127.0.0.1:1337/",
+    "platformId": "usa"
+}

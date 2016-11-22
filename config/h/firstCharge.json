@@ -1,0 +1,6 @@
+{
+    "firstCharge":{
+        "0":{"key":"isFirstCharge"},
+        "1":{"key":"isFirstCharge"}
+    }
+}

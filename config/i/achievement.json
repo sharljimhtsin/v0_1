@@ -1,0 +1,3814 @@
+{
+	"achievement":{
+		"1":{
+			"type":"mapComplete",
+			"name":"Clear Lv {0}: {1}",
+			"content":[
+				{
+					"complete":"200510",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"200612",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"200712",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"200813",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"200914",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"201015",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"201115",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"201215",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"201316",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"201416",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"201516",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"201616",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"201716",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"201816",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"201920",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"202020",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"202120",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"202220",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"202320",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"202420",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"202520",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"202620",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"202720",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"202820",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"202920",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"203020",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"203120",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"203220",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"203320",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"203420",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"203520",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"203620",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"203720",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"203820",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"203920",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"204020",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"204120",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"204220",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"204320",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"204420",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"204520",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"204620",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"204720",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"204820",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"204920",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":"205020",
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				}
+			]
+		},
+		"2":{
+			"type":"mapTime",
+			"name":"Journey battles x{0}",
+			"content":[
+				{
+					"complete":30,
+					"desc":"Reward: Zeni x50000",
+					"reward":[{"id":"gold","count":50000}]
+				},
+				{
+					"complete":100,
+					"desc":"Reward: Zeni x50000",
+					"reward":[{"id":"gold","count":50000}]
+				},
+				{
+					"complete":500,
+					"desc":"Reward: Zeni x50000",
+					"reward":[{"id":"gold","count":50000}]
+				},
+				{
+					"complete":1000,
+					"desc":"Reward: Zeni x50000",
+					"reward":[{"id":"gold","count":50000}]
+				},
+				{
+					"complete":2000,
+					"desc":"Reward: Zeni x50000",
+					"reward":[{"id":"gold","count":50000}]
+				},
+				{
+					"complete":4000,
+					"desc":"Reward: Zeni x100000",
+					"reward":[{"id":"gold","count":100000}]
+				},
+				{
+					"complete":6000,
+					"desc":"Reward: Zeni x100000",
+					"reward":[{"id":"gold","count":100000}]
+				},
+				{
+					"complete":8000,
+					"desc":"Reward: Zeni x100000",
+					"reward":[{"id":"gold","count":100000}]
+				},
+				{
+					"complete":10000,
+					"desc":"Reward: Zeni x100000",
+					"reward":[{"id":"gold","count":100000}]
+				},
+				{
+					"complete":12000,
+					"desc":"Reward: Zeni x100000",
+					"reward":[{"id":"gold","count":100000}]
+				},
+				{
+					"complete":14000,
+					"desc":"Reward: Zeni x100000",
+					"reward":[{"id":"gold","count":100000}]
+				},
+				{
+					"complete":16000,
+					"desc":"Reward: Zeni x100000",
+					"reward":[{"id":"gold","count":100000}]
+				},
+				{
+					"complete":18000,
+					"desc":"Reward: Zeni x100000",
+					"reward":[{"id":"gold","count":100000}]
+				},
+				{
+					"complete":20000,
+					"desc":"Reward: Zeni x100000",
+					"reward":[{"id":"gold","count":100000}]
+				},
+				{
+					"complete":30000,
+					"desc":"Reward: Zeni x500000",
+					"reward":[{"id":"gold","count":500000}]
+				},
+				{
+					"complete":40000,
+					"desc":"Reward: Zeni x500000",
+					"reward":[{"id":"gold","count":500000}]
+				},
+				{
+					"complete":50000,
+					"desc":"Reward: Zeni x500000",
+					"reward":[{"id":"gold","count":500000}]
+				},
+				{
+					"complete":60000,
+					"desc":"Reward: Zeni x500000",
+					"reward":[{"id":"gold","count":500000}]
+				},
+				{
+					"complete":70000,
+					"desc":"Reward: Zeni x500000",
+					"reward":[{"id":"gold","count":500000}]
+				},
+				{
+					"complete":80000,
+					"desc":"Reward: Zeni x500000",
+					"reward":[{"id":"gold","count":500000}]
+				},
+				{
+					"complete":90000,
+					"desc":"Reward: Zeni x500000",
+					"reward":[{"id":"gold","count":500000}]
+				},
+				{
+					"complete":100000,
+					"desc":"Reward: Zeni x500000",
+					"reward":[{"id":"gold","count":500000}]
+				}
+			]
+		},
+		"3":{
+			"type":"clearMapTime",
+			"name":"Clear Journey Battle count x{0}",
+			"content":[
+				{
+					"complete":1,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":3,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":5,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":10,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":15,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":20,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":30,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":40,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":50,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":100,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":150,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":200,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":300,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":400,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":500,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":600,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":700,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":800,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":900,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":1000,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				}
+			]
+		},
+		"4":{
+			"type":"equipGet",
+			"name":"Received S Grade Gear x{0}",
+			"content":[
+				{
+					"complete":1,
+					"desc":"Reward: Lv1 Enhance Pack x1",
+					"reward":[{"id":"151839","count":1}]
+				},
+				{
+					"complete":3,
+					"desc":"Reward: Lv1 Enhance Pack x1",
+					"reward":[{"id":"151839","count":1}]
+				},
+				{
+					"complete":6,
+					"desc":"Reward: Lv1 Enhance Pack x1",
+					"reward":[{"id":"151839","count":1}]
+				},
+				{
+					"complete":9,
+					"desc":"Reward: Lv1 Enhance Pack x1",
+					"reward":[{"id":"151839","count":1}]
+				},
+				{
+					"complete":12,
+					"desc":"Reward: Lv2 Enhance Pack x1",
+					"reward":[{"id":"151840","count":1}]
+				},
+				{
+					"complete":15,
+					"desc":"Reward: Lv2 Enhance Pack x1",
+					"reward":[{"id":"151840","count":1}]
+				},
+				{
+					"complete":18,
+					"desc":"Reward: Lv2 Enhance Pack x1",
+					"reward":[{"id":"151840","count":1}]
+				},
+				{
+					"complete":21,
+					"desc":"Reward: Lv2 Enhance Pack x1",
+					"reward":[{"id":"151840","count":1}]
+				},
+				{
+					"complete":24,
+					"desc":"Reward: Lv4 Enhance Pack x1",
+					"reward":[{"id":"151842","count":1}]
+				}
+			]
+		},
+		"5":{
+			"type":"equipLevelUp",
+			"name":"Upgrade S Grade Gear to Lv{0}",
+			"content":[
+				{
+					"complete":30,
+					"desc":"Reward: Lv1 Enhance Pack x1",
+					"reward":[{"id":"151839","count":1}]
+				},
+				{
+					"complete":60,
+					"desc":"Reward: Lv1 Enhance Pack x1",
+					"reward":[{"id":"151839","count":1}]
+				},
+				{
+					"complete":90,
+					"desc":"Reward: Lv1 Enhance Pack x1",
+					"reward":[{"id":"151839","count":1}]
+				},
+				{
+					"complete":120,
+					"desc":"Reward: Lv2 Enhance Pack x1",
+					"reward":[{"id":"151840","count":1}]
+				},
+				{
+					"complete":150,
+					"desc":"Reward: Lv2 Enhance Pack x1",
+					"reward":[{"id":"151840","count":1}]
+				},
+				{
+					"complete":180,
+					"desc":"Reward: Lv2 Enhance Pack x1",
+					"reward":[{"id":"151840","count":1}]
+				},
+				{
+					"complete":210,
+					"desc":"Reward: Lv3 Enhance Pack x1",
+					"reward":[{"id":"151841","count":1}]
+				},
+				{
+					"complete":240,
+					"desc":"Reward: Lv3 Enhance Pack x1",
+					"reward":[{"id":"151841","count":1}]
+				},
+				{
+					"complete":270,
+					"desc":"Reward: Lv3 Enhance Pack x1",
+					"reward":[{"id":"151841","count":1}]
+				},
+				{
+					"complete":300,
+					"desc":"Reward: Lv4 Enhance Pack x1",
+					"reward":[{"id":"151842","count":1}]
+				}
+			]
+		},
+		"6":{
+			"type":"equipRefine",
+			"name":"Enhance S Grade Gear to Stage {0}",
+			"content":[
+				{
+					"complete":1,
+					"desc":"Reward: Zeni x45000",
+					"reward":[{"id":"gold","count":45000}]
+				},
+				{
+					"complete":2,
+					"desc":"Reward: Zeni x150K",
+					"reward":[{"id":"gold","count":150000}]
+				},
+				{
+					"complete":3,
+					"desc":"Reward: Zeni x550K",
+					"reward":[{"id":"gold","count":550000}]
+				},
+				{
+					"complete":4,
+					"desc":"Reward: Zeni x2000K",
+					"reward":[{"id":"gold","count":2000000}]
+				},
+				{
+					"complete":5,
+					"desc":"Reward: Zeni x7000K",
+					"reward":[{"id":"gold","count":7000000}]
+				},
+				{
+					"complete":6,
+					"desc":"Reward: Zeni x23000K",
+					"reward":[{"id":"gold","count":23000000}]
+				},
+				{
+					"complete":7,
+					"desc":"Reward: Zeni x70000K",
+					"reward":[{"id":"gold","count":70000000}]
+				},
+				{
+					"complete":8,
+					"desc":"Reward: Zeni x2.2亿",
+					"reward":[{"id":"gold","count":220000000}]
+				},
+				{
+					"complete":9,
+					"desc":"Reward: Zeni x5.8亿",
+					"reward":[{"id":"gold","count":580000000}]
+				},
+				{
+					"complete":10,
+					"desc":"Reward: Zeni x11亿",
+					"reward":[{"id":"gold","count":1100000000}]
+				}
+			]
+		},
+		"8":{
+			"type":"breakThrough",
+			"name":"Boost S Grade Hero to Stage {0}",
+			"content":[
+				{
+					"complete":1,
+					"desc":"Reward: Training Potion x180",
+					"reward":[{"id":"150901","count":180}]
+				},
+				{
+					"complete":2,
+					"desc":"Reward: Training Potion x240",
+					"reward":[{"id":"150901","count":240}]
+				},
+				{
+					"complete":3,
+					"desc":"Reward: Training Potion x280",
+					"reward":[{"id":"150901","count":280}]
+				},
+				{
+					"complete":4,
+					"desc":"Reward: Training Potion x320",
+					"reward":[{"id":"150901","count":320}]
+				},
+				{
+					"complete":5,
+					"desc":"Reward: Training Potion x360",
+					"reward":[{"id":"150901","count":360}]
+				},
+				{
+					"complete":6,
+					"desc":"Reward: Training Potion x400",
+					"reward":[{"id":"150901","count":400}]
+				},
+				{
+					"complete":7,
+					"desc":"Reward: Training Potion x480",
+					"reward":[{"id":"150901","count":480}]
+				},
+				{
+					"complete":8,
+					"desc":"Reward: Training Potion x560",
+					"reward":[{"id":"150901","count":560}]
+				},
+				{
+					"complete":9,
+					"desc":"Reward: Training Potion x640",
+					"reward":[{"id":"150901","count":640}]
+				},
+				{
+					"complete":10,
+					"desc":"Reward: Training Potion x720",
+					"reward":[{"id":"150901","count":720}]
+				},
+				{
+					"complete":11,
+					"desc":"Reward: Training Potion x800",
+					"reward":[{"id":"150901","count":800}]
+				},
+				{
+					"complete":12,
+					"desc":"Reward: Training Potion x880",
+					"reward":[{"id":"150901","count":880}]
+				},
+				{
+					"complete":13,
+					"desc":"Reward: Training Potion x960",
+					"reward":[{"id":"150901","count":960}]
+				},
+				{
+					"complete":14,
+					"desc":"Reward: Training Potion x1040",
+					"reward":[{"id":"150901","count":1040}]
+				},
+				{
+					"complete":15,
+					"desc":"Reward: Training Potion x1120",
+					"reward":[{"id":"150901","count":1120}]
+				},
+				{
+					"complete":16,
+					"desc":"Reward: Training Potion x1200",
+					"reward":[{"id":"150901","count":1200}]
+				},
+				{
+					"complete":17,
+					"desc":"Reward: Training Potion x1280",
+					"reward":[{"id":"150901","count":1280}]
+				},
+				{
+					"complete":18,
+					"desc":"Reward: Training Potion x1360",
+					"reward":[{"id":"150901","count":1360}]
+				},
+				{
+					"complete":19,
+					"desc":"Reward: Training Potion x1440",
+					"reward":[{"id":"150901","count":1440}]
+				},
+				{
+					"complete":20,
+					"desc":"Reward: Training Potion x1520",
+					"reward":[{"id":"150901","count":1520}]
+				},
+				{
+					"complete":21,
+					"desc":"Reward: Training Potion x1600",
+					"reward":[{"id":"150901","count":1600}]
+				},
+				{
+					"complete":22,
+					"desc":"Reward: Training Potion x1680",
+					"reward":[{"id":"150901","count":1680}]
+				},
+				{
+					"complete":23,
+					"desc":"Reward: Training Potion x1760",
+					"reward":[{"id":"150901","count":1760}]
+				},
+				{
+					"complete":24,
+					"desc":"Reward: Training Potion x1840",
+					"reward":[{"id":"150901","count":1840}]
+				},
+				{
+					"complete":25,
+					"desc":"Reward: Training Potion x1920",
+					"reward":[{"id":"150901","count":1920}]
+				},
+				{
+					"complete":26,
+					"desc":"Reward: Training Potion x2000",
+					"reward":[{"id":"150901","count":2000}]
+				},
+				{
+					"complete":27,
+					"desc":"Reward: Training Potion x2080",
+					"reward":[{"id":"150901","count":2080}]
+				},
+				{
+					"complete":28,
+					"desc":"Reward: Training Potion x2160",
+					"reward":[{"id":"150901","count":2160}]
+				},
+				{
+					"complete":29,
+					"desc":"Reward: Training Potion x2240",
+					"reward":[{"id":"150901","count":2240}]
+				},
+				{
+					"complete":30,
+					"desc":"Reward: Training Potion x2320",
+					"reward":[{"id":"150901","count":2320}]
+				},
+				{
+					"complete":31,
+					"desc":"Reward: Training Potion x2400",
+					"reward":[{"id":"150901","count":2400}]
+				},
+				{
+					"complete":32,
+					"desc":"Reward: Training Potion x2480",
+					"reward":[{"id":"150901","count":2480}]
+				},
+				{
+					"complete":33,
+					"desc":"Reward: Training Potion x2560",
+					"reward":[{"id":"150901","count":2560}]
+				},
+				{
+					"complete":34,
+					"desc":"Reward: Training Potion x2640",
+					"reward":[{"id":"150901","count":2640}]
+				},
+				{
+					"complete":35,
+					"desc":"Reward: Training Potion x2720",
+					"reward":[{"id":"150901","count":2720}]
+				},
+				{
+					"complete":36,
+					"desc":"Reward: Training Potion x2800",
+					"reward":[{"id":"150901","count":2800}]
+				},
+				{
+					"complete":37,
+					"desc":"Reward: Training Potion x2880",
+					"reward":[{"id":"150901","count":2880}]
+				},
+				{
+					"complete":38,
+					"desc":"Reward: Training Potion x2960",
+					"reward":[{"id":"150901","count":2960}]
+				},
+				{
+					"complete":39,
+					"desc":"Reward: Training Potion x3040",
+					"reward":[{"id":"150901","count":3040}]
+				},
+				{
+					"complete":40,
+					"desc":"Reward: Training Potion x3120",
+					"reward":[{"id":"150901","count":3120}]
+				},
+				{
+					"complete":41,
+					"desc":"Reward: Training Potion x3200",
+					"reward":[{"id":"150901","count":3200}]
+				},
+				{
+					"complete":42,
+					"desc":"Reward: Training Potion x3280",
+					"reward":[{"id":"150901","count":3280}]
+				},
+				{
+					"complete":43,
+					"desc":"Reward: Training Potion x3360",
+					"reward":[{"id":"150901","count":3360}]
+				},
+				{
+					"complete":44,
+					"desc":"Reward: Training Potion x3440",
+					"reward":[{"id":"150901","count":3440}]
+				},
+				{
+					"complete":45,
+					"desc":"Reward: Training Potion x3520",
+					"reward":[{"id":"150901","count":3520}]
+				},
+				{
+					"complete":46,
+					"desc":"Reward: Training Potion x3600",
+					"reward":[{"id":"150901","count":3600}]
+				},
+				{
+					"complete":47,
+					"desc":"Reward: Training Potion x3680",
+					"reward":[{"id":"150901","count":3680}]
+				},
+				{
+					"complete":48,
+					"desc":"Reward: Training Potion x3760",
+					"reward":[{"id":"150901","count":3760}]
+				},
+				{
+					"complete":49,
+					"desc":"Reward: Training Potion x3840",
+					"reward":[{"id":"150901","count":3840}]
+				},
+				{
+					"complete":50,
+					"desc":"Reward: Training Potion x3920",
+					"reward":[{"id":"150901","count":3920}]
+				},
+				{
+					"complete":51,
+					"desc":"Reward: Training Potion x4000",
+					"reward":[{"id":"150901","count":4000}]
+				}
+			]
+		},
+		"9":{
+			"type":"heroLevelUp",
+			"name":"Upgrade S Grade Hero to Lv{0}",
+			"content":[
+				{
+					"complete":20,
+					"desc":"Reward: Energy Orb x3",
+					"reward":[{"id":"152301","count":3}]
+				},
+				{
+					"complete":40,
+					"desc":"Reward: Energy Orb x8",
+					"reward":[{"id":"152301","count":8}]
+				},
+				{
+					"complete":60,
+					"desc":"Reward: Energy Orb x15",
+					"reward":[{"id":"152301","count":15}]
+				},
+				{
+					"complete":80,
+					"desc":"Reward: Energy Orb x20",
+					"reward":[{"id":"152301","count":20}]
+				},
+				{
+					"complete":100,
+					"desc":"Reward: Energy Orb x35",
+					"reward":[{"id":"152301","count":35}]
+				},
+				{
+					"complete":120,
+					"desc":"Reward: Energy Orb x80",
+					"reward":[{"id":"152301","count":80}]
+				},
+				{
+					"complete":140,
+					"desc":"Reward: Energy Orb x150",
+					"reward":[{"id":"152301","count":150}]
+				},
+				{
+					"complete":160,
+					"desc":"Reward: Energy Orb x200",
+					"reward":[{"id":"152301","count":200}]
+				},
+				{
+					"complete":180,
+					"desc":"Reward: Energy Orb x240",
+					"reward":[{"id":"152301","count":240}]
+				},
+				{
+					"complete":200,
+					"desc":"Reward: Energy Orb x280",
+					"reward":[{"id":"152301","count":280}]
+				},
+				{
+					"complete":220,
+					"desc":"Reward: Energy Orb x335",
+					"reward":[{"id":"152301","count":335}]
+				},
+				{
+					"complete":240,
+					"desc":"Reward: Energy Orb x700",
+					"reward":[{"id":"152301","count":700}]
+				},
+				{
+					"complete":260,
+					"desc":"Reward: Energy Orb x1100",
+					"reward":[{"id":"152301","count":1100}]
+				},
+				{
+					"complete":280,
+					"desc":"Reward: Energy Orb x1300",
+					"reward":[{"id":"152301","count":1300}]
+				},
+				{
+					"complete":300,
+					"desc":"Reward: Energy Orb x1500",
+					"reward":[{"id":"152301","count":1500}]
+				},
+				{
+					"complete":320,
+					"desc":"Reward: Energy Orb x1700",
+					"reward":[{"id":"152301","count":1700}]
+				},
+				{
+					"complete":340,
+					"desc":"Reward: Energy Orb x1900",
+					"reward":[{"id":"152301","count":1900}]
+				},
+				{
+					"complete":360,
+					"desc":"Reward: Energy Orb x2100",
+					"reward":[{"id":"152301","count":2100}]
+				},
+				{
+					"complete":380,
+					"desc":"Reward: Energy Orb x2300",
+					"reward":[{"id":"152301","count":2300}]
+				},
+				{
+					"complete":400,
+					"desc":"Reward: Energy Orb x2500",
+					"reward":[{"id":"152301","count":2500}]
+				}
+			]
+		},
+		"10":{
+			"type":"cardGet",
+			"name":"Received S Grade Cards x{0}",
+			"content":[
+				{
+					"complete":1,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":2,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":4,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":6,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":8,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":10,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":12,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":14,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":16,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":18,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":20,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":22,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":24,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":26,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":28,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":30,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":32,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":34,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":36,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":38,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":40,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":42,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":44,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":46,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":48,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				}
+			]
+		},
+		"11":{
+			"type":"cardLevelUp",
+			"name":"Upgrade S Grade Card to Lv{0}",
+			"content":[
+				{
+					"complete":2,
+					"desc":"Reward: Zeni x150000",
+					"reward":[{"id":"gold","count":150000}]
+				},
+				{
+					"complete":3,
+					"desc":"Reward: Zeni x150000",
+					"reward":[{"id":"gold","count":150000}]
+				},
+				{
+					"complete":4,
+					"desc":"Reward: Zeni x300000",
+					"reward":[{"id":"gold","count":300000}]
+				},
+				{
+					"complete":5,
+					"desc":"Reward: Zeni x600000",
+					"reward":[{"id":"gold","count":600000}]
+				},
+				{
+					"complete":6,
+					"desc":"Reward: Zeni x1200000",
+					"reward":[{"id":"gold","count":1200000}]
+				},
+				{
+					"complete":7,
+					"desc":"Reward: Zeni x2400000",
+					"reward":[{"id":"gold","count":2400000}]
+				},
+				{
+					"complete":8,
+					"desc":"Reward: Zeni x4800000",
+					"reward":[{"id":"gold","count":4800000}]
+				},
+				{
+					"complete":9,
+					"desc":"Reward: Zeni x9600000",
+					"reward":[{"id":"gold","count":9600000}]
+				},
+				{
+					"complete":10,
+					"desc":"Reward: Zeni x19200000",
+					"reward":[{"id":"gold","count":19200000}]
+				},
+				{
+					"complete":11,
+					"desc":"Reward: Zeni x38400000",
+					"reward":[{"id":"gold","count":38400000}]
+				},
+				{
+					"complete":12,
+					"desc":"Reward: Zeni x76800000",
+					"reward":[{"id":"gold","count":76800000}]
+				},
+				{
+					"complete":13,
+					"desc":"Reward: Zeni x153600000",
+					"reward":[{"id":"gold","count":153600000}]
+				},
+				{
+					"complete":14,
+					"desc":"Reward: Zeni x307200000",
+					"reward":[{"id":"gold","count":307200000}]
+				},
+				{
+					"complete":15,
+					"desc":"Reward: Zeni x614400000",
+					"reward":[{"id":"gold","count":614400000}]
+				},
+				{
+					"complete":16,
+					"desc":"Reward: Zeni x1228800000",
+					"reward":[{"id":"gold","count":1228800000}]
+				},
+				{
+					"complete":17,
+					"desc":"Reward: Zeni x2457600000",
+					"reward":[{"id":"gold","count":2457600000}]
+				},
+				{
+					"complete":18,
+					"desc":"Reward: Zeni x4915200000",
+					"reward":[{"id":"gold","count":4915200000}]
+				},
+				{
+					"complete":19,
+					"desc":"Reward: Zeni x9830400000",
+					"reward":[{"id":"gold","count":9830400000}]
+				},
+				{
+					"complete":20,
+					"desc":"Reward: Zeni x19660800000",
+					"reward":[{"id":"gold","count":19660800000}]
+				},
+				{
+					"complete":21,
+					"desc":"Reward: Zeni x39321600000",
+					"reward":[{"id":"gold","count":39321600000}]
+				}
+			]
+		},
+		"12":{
+			"type":"useBigRoll",
+			"name":"Use Gammets to draw Card x{0}",
+			"content":[
+				{	
+					"complete":1,
+					"desc":"Reward: Goku SS Soul x1",
+					"reward":[{"id":"104013","count":1}]
+				},	
+				{	
+					"complete":2,
+					"desc":"Reward: Goku SS Soul x1",
+					"reward":[{"id":"104013","count":1}]
+				},	
+				{	
+					"complete":5,
+					"desc":"Reward: Goku SS Soul x1",
+					"reward":[{"id":"104013","count":1}]
+				},	
+				{	
+					"complete":10,
+					"desc":"Reward: Goku SS Soul x1",
+					"reward":[{"id":"104013","count":1}]
+				},	
+				{	
+					"complete":15,
+					"desc":"Reward: Goku SS Soul x1",
+					"reward":[{"id":"104013","count":1}]
+				},	
+				{	
+					"complete":20,
+					"desc":"Reward: Goku SS Soul x1",
+					"reward":[{"id":"104013","count":1}]
+				},	
+				{	
+					"complete":25,
+					"desc":"Reward: Goku SS Soul x1",
+					"reward":[{"id":"104013","count":1}]
+				},	
+				{	
+					"complete":30,
+					"desc":"Reward: Goku SS Soul x1",
+					"reward":[{"id":"104013","count":1}]
+				},	
+				{	
+					"complete":35,
+					"desc":"Reward: Goku SS Soul x1",
+					"reward":[{"id":"104013","count":1}]
+				},	
+				{	
+					"complete":40,
+					"desc":"Reward: Goku SS Soul x1",
+					"reward":[{"id":"104013","count":1}]
+				},	
+				{	
+					"complete":45,
+					"desc":"Reward: Goku SS Soul x2",
+					"reward":[{"id":"104013","count":2}]
+				},	
+				{	
+					"complete":50,
+					"desc":"Reward: Goku SS Soul x2",
+					"reward":[{"id":"104013","count":2}]
+				},	
+				{	
+					"complete":60,
+					"desc":"Reward: Goku SS Soul x3",
+					"reward":[{"id":"104013","count":3}]
+				},	
+				{	
+					"complete":70,
+					"desc":"Reward: Goku SS Soul x3",
+					"reward":[{"id":"104013","count":3}]
+				},	
+				{	
+					"complete":80,
+					"desc":"Reward: Goku SS Soul x3",
+					"reward":[{"id":"104013","count":3}]
+				},	
+				{	
+					"complete":90,
+					"desc":"Reward: Goku SS Soul x3",
+					"reward":[{"id":"104013","count":3}]
+				},	
+				{	
+					"complete":100,
+					"desc":"Reward: Goku SS Soul x3",
+					"reward":[{"id":"104013","count":3}]
+					
+				}	
+			]
+		},
+		"13":{
+			"type":"specialTeamActivation",
+			"name":"Activate Ginyu Force slot x{0}",
+			"content":[
+				{	
+					"complete":1,
+					"desc":"Reward: Energy Orb x2",
+					"reward":[{"id":"152301","count":2}]
+				},	
+				{	
+					"complete":2,
+					"desc":"Reward: Energy Orb x3",
+					"reward":[{"id":"152301","count":3}]
+				},	
+				{	
+					"complete":4,
+					"desc":"Reward: Energy Orb x5",
+					"reward":[{"id":"152301","count":5}]
+				},	
+				{	
+					"complete":8,
+					"desc":"Reward: Energy Orb x10",
+					"reward":[{"id":"152301","count":10}]
+				},	
+				{	
+					"complete":8,
+					"desc":"Reward: Energy Orb x10",
+					"reward":[{"id":"152301","count":10}]
+				},	
+				{	
+					"complete":8,
+					"desc":"Reward: Energy Orb x10",
+					"reward":[{"id":"152301","count":10}]
+				},	
+				{	
+					"complete":8,
+					"desc":"Reward: Energy Orb x10",
+					"reward":[{"id":"152301","count":10}]
+				},	
+				{	
+					"complete":8,
+					"desc":"Reward: Energy Orb x10",
+					"reward":[{"id":"152301","count":10}]
+				},	
+				{	
+					"complete":8,
+					"desc":"Reward: Energy Orb x10",
+					"reward":[{"id":"152301","count":10}]
+				},	
+				{	
+					"complete":8,
+					"desc":"Reward: Energy Orb x10",
+					"reward":[{"id":"152301","count":10}]
+				}
+			]
+		},
+		"14":{
+			"type":"specialTeamLevelUp",
+			"name":"Upgrade Ginyu Force slot to {0}",
+			"content":[
+				{
+					"complete":0.05,
+					"desc":"Reward: Gammets x10",
+					"reward":[{"id":"ingot","count":10}]
+				},
+				{
+					"complete":0.1,
+					"desc":"Reward: Gammets x15",
+					"reward":[{"id":"ingot","count":15}]
+				},
+				{
+					"complete":0.2,
+					"desc":"Reward: Gammets x15",
+					"reward":[{"id":"ingot","count":15}]
+				},
+				{
+					"complete":0.3,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":0.4,
+					"desc":"Reward: Gammets x45",
+					"reward":[{"id":"ingot","count":45}]
+				},
+				{
+					"complete":0.5,
+					"desc":"Reward: Gammets x45",
+					"reward":[{"id":"ingot","count":45}]
+				}
+			]
+		},
+		"15":{
+			"type":"ultimateSummonTime",
+			"name":"Use Epic Call x{0}",
+			"content":[
+				{
+					"complete":1,
+					"desc":"Reward: Training Potion x10",
+					"reward":[{"id":"150901","count":10}]
+				},
+				{
+					"complete":5,
+					"desc":"Reward: Training Potion x40",
+					"reward":[{"id":"150901","count":40}]
+				},
+				{
+					"complete":10,
+					"desc":"Reward: Training Potion x40",
+					"reward":[{"id":"150901","count":40}]
+				},
+				{
+					"complete":15,
+					"desc":"Reward: Training Potion x40",
+					"reward":[{"id":"150901","count":40}]
+				},
+				{
+					"complete":20,
+					"desc":"Reward: Training Potion x40",
+					"reward":[{"id":"150901","count":40}]
+				},
+				{
+					"complete":30,
+					"desc":"Reward: Training Potion x60",
+					"reward":[{"id":"150901","count":60}]
+				},
+				{
+					"complete":40,
+					"desc":"Reward: Training Potion x60",
+					"reward":[{"id":"150901","count":60}]
+				},
+				{
+					"complete":50,
+					"desc":"Reward: Training Potion x60",
+					"reward":[{"id":"150901","count":60}]
+				},
+				{
+					"complete":60,
+					"desc":"Reward: Training Potion x60",
+					"reward":[{"id":"150901","count":60}]
+				},
+				{
+					"complete":80,
+					"desc":"Reward: Training Potion x100",
+					"reward":[{"id":"150901","count":100}]
+				},
+				{
+					"complete":100,
+					"desc":"Reward: Training Potion x100",
+					"reward":[{"id":"150901","count":100}]
+				},
+				{
+					"complete":150,
+					"desc":"Reward: Training Potion x150",
+					"reward":[{"id":"150901","count":150}]
+				},
+				{
+					"complete":200,
+					"desc":"Reward: Training Potion x150",
+					"reward":[{"id":"150901","count":150}]
+				},
+				{
+					"complete":250,
+					"desc":"Reward: Training Potion x150",
+					"reward":[{"id":"150901","count":150}]
+				},
+				{
+					"complete":300,
+					"desc":"Reward: Training Potion x150",
+					"reward":[{"id":"150901","count":150}]
+				},
+				{
+					"complete":350,
+					"desc":"Reward: Training Potion x150",
+					"reward":[{"id":"150901","count":150}]
+				},
+				{
+					"complete":400,
+					"desc":"Reward: Training Potion x150",
+					"reward":[{"id":"150901","count":150}]
+				},
+				{
+					"complete":450,
+					"desc":"Reward: Training Potion x150",
+					"reward":[{"id":"150901","count":150}]
+				},
+				{
+					"complete":500,
+					"desc":"Reward: Training Potion x150",
+					"reward":[{"id":"150901","count":150}]
+				},
+				{
+					"complete":550,
+					"desc":"Reward: Training Potion x150",
+					"reward":[{"id":"150901","count":150}]
+				},
+				{
+					"complete":600,
+					"desc":"Reward: Training Potion x150",
+					"reward":[{"id":"150901","count":150}]
+				},
+				{
+					"complete":650,
+					"desc":"Reward: Training Potion x150",
+					"reward":[{"id":"150901","count":150}]
+				},
+				{
+					"complete":700,
+					"desc":"Reward: Training Potion x150",
+					"reward":[{"id":"150901","count":150}]
+				},
+				{
+					"complete":750,
+					"desc":"Reward: Training Potion x150",
+					"reward":[{"id":"150901","count":150}]
+				},
+				{
+					"complete":800,
+					"desc":"Reward: Training Potion x150",
+					"reward":[{"id":"150901","count":150}]
+				},
+				{
+					"complete":850,
+					"desc":"Reward: Training Potion x150",
+					"reward":[{"id":"150901","count":150}]
+				},
+				{
+					"complete":900,
+					"desc":"Reward: Training Potion x150",
+					"reward":[{"id":"150901","count":150}]
+				},
+				{
+					"complete":950,
+					"desc":"Reward: Training Potion x150",
+					"reward":[{"id":"150901","count":150}]
+				},
+				{
+					"complete":1000,
+					"desc":"Reward: Training Potion x150",
+					"reward":[{"id":"150901","count":150}]
+				}
+			]
+		},
+		"16":{
+			"type":"fundBuy",
+			"name":"Purchase Gammets",
+			"content":[
+				{
+					"complete":1,
+					"desc":"Reward: Zeni x2000000",
+					"reward":[{"id":"gold","count":2000000}]
+				}
+			]
+		},
+		"17":{
+			"type":"moonCardBuy",
+			"name":"Buy Monthly Pass x{0}",
+			"content":[
+				{
+					"complete":1,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":2,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":3,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":4,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":5,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":6,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":7,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":8,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":9,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":10,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":11,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				},
+				{
+					"complete":12,
+					"desc":"Reward: Zeni x1000000",
+					"reward":[{"id":"gold","count":1000000}]
+				}
+			]
+		},
+		"18":{
+			"type":"totalLogin",
+			"name":"Login for {0} days straight",
+			"content":[
+				{
+					"complete":1,
+					"desc":"Reward: Gammets x10",
+					"reward":[{"id":"ingot","count":10}]
+				},
+				{
+					"complete":2,
+					"desc":"Reward: Gammets x10",
+					"reward":[{"id":"ingot","count":10}]
+				},
+				{
+					"complete":3,
+					"desc":"Reward: Gammets x10",
+					"reward":[{"id":"ingot","count":10}]
+				},
+				{
+					"complete":5,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":10,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":15,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":20,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":25,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":30,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":35,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":42,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":49,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":56,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":63,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":70,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":77,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":84,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":91,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":98,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":105,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":112,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":119,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":126,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":133,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":140,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":147,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":154,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":161,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":168,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":175,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":182,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":189,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":196,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":203,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":210,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":217,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":224,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":231,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":238,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":245,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":252,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":259,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":266,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":273,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":280,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":287,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":294,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":301,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":308,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":315,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":322,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":329,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":336,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":343,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":350,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":357,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":364,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				}
+			]
+		},
+		"19":{
+			"type":"pvpRankWinTime",
+			"name":"Fight in Arena and win x{0}",
+			"content":[
+				{
+					"complete":1,
+					"desc":"Reward: Arena Ticket x1",
+					"reward":[{"id":"151201","count":1}]
+				},
+				{
+					"complete":10,
+					"desc":"Reward: Arena Ticket x1",
+					"reward":[{"id":"151201","count":1}]
+				},
+				{
+					"complete":30,
+					"desc":"Reward: Arena Ticket x1",
+					"reward":[{"id":"151201","count":1}]
+				},
+				{
+					"complete":60,
+					"desc":"Reward: Arena Ticket x1",
+					"reward":[{"id":"151201","count":1}]
+				},
+				{
+					"complete":90,
+					"desc":"Reward: Arena Ticket x1",
+					"reward":[{"id":"151201","count":1}]
+				},
+				{
+					"complete":120,
+					"desc":"Reward: Arena Ticket x1",
+					"reward":[{"id":"151201","count":1}]
+				},
+				{
+					"complete":150,
+					"desc":"Reward: Arena Ticket x1",
+					"reward":[{"id":"151201","count":1}]
+				}
+			]
+		},
+		"20":{
+			"type":"pvpPatchWinTime",
+			"name":"Successfully Steal Shards x{0}",
+			"content":[
+				{
+					"complete":1,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":20,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":50,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":100,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":200,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":300,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":400,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":500,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":600,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":700,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":800,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":900,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1000,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1100,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1200,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1300,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1400,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1500,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1600,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1700,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1800,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1900,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":2000,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				}
+			]
+		},
+		"21":{
+			"type":"vipGet",
+			"name":"Reach VIP{0}",
+			"content":[
+				{
+					"complete":3,
+					"desc":"Reward: Training Potion x5",
+					"reward":[{"id":"150901","count":5}]
+				},
+				{
+					"complete":4,
+					"desc":"Reward: Training Potion x25",
+					"reward":[{"id":"150901","count":25}]
+				},
+				{
+					"complete":5,
+					"desc":"Reward: Training Potion x48",
+					"reward":[{"id":"150901","count":48}]
+				},
+				{
+					"complete":6,
+					"desc":"Reward: Training Potion x141",
+					"reward":[{"id":"150901","count":141}]
+				},
+				{
+					"complete":7,
+					"desc":"Reward: Training Potion x230",
+					"reward":[{"id":"150901","count":230}]
+				},
+				{
+					"complete":8,
+					"desc":"Reward: Training Potion x450",
+					"reward":[{"id":"150901","count":450}]
+				},
+				{
+					"complete":9,
+					"desc":"Reward: Training Potion x1320",
+					"reward":[{"id":"150901","count":1320}]
+				},
+				{
+					"complete":10,
+					"desc":"Reward: Training Potion x1370",
+					"reward":[{"id":"150901","count":1370}]
+				},
+				{
+					"complete":11,
+					"desc":"Reward: Training Potion x2940",
+					"reward":[{"id":"150901","count":2940}]
+				},
+				{
+					"complete":12,
+					"desc":"Reward: Training Potion x6150",
+					"reward":[{"id":"150901","count":6150}]
+				},
+				{
+					"complete":13,
+					"desc":"Reward: Training Potion x12000",
+					"reward":[{"id":"150901","count":12000}]
+				},
+				{
+					"complete":14,
+					"desc":"Reward: Training Potion x24000",
+					"reward":[{"id":"150901","count":24000}]
+				},
+				{
+					"complete":15,
+					"desc":"Reward: Training Potion x48000",
+					"reward":[{"id":"150901","count":48000}]
+				}
+			]
+		},
+		"22":{
+			"type":"powerBuyTime",
+			"name":"Buy Energy x{0}",
+			"content":[
+				{
+					"complete":1,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":10,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":20,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":30,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":45,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":60,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":75,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":90,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":105,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":120,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":135,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":150,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":165,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":180,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":195,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":210,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":225,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":240,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":255,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":270,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":285,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":300,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":320,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":340,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":360,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":380,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":400,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":420,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":440,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":460,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":480,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":500,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":520,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":540,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":560,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":580,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":600,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":620,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":640,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":660,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":680,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":700,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":720,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":740,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":760,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":780,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":800,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":820,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":840,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":860,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":880,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":900,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":920,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":940,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":960,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":980,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1000,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1020,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1040,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1060,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1080,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1100,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1120,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1140,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1160,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1180,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1200,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1220,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1240,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1260,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1280,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1300,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1320,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1340,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1360,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1380,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1400,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1420,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1440,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1460,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1480,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1500,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1520,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1540,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1560,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1580,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1600,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1620,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1640,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1660,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1680,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1700,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1720,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1740,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1760,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1780,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1800,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1820,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1840,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1860,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1880,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1900,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1920,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1940,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1960,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":1980,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				},
+				{
+					"complete":2000,
+					"desc":"Reward: Healing Potion x1",
+					"reward":[{"id":"151101","count":1}]
+				}
+			]
+		},
+		"23":{
+			"type":"manaBuyTime",
+			"name":"Buy Stamina x{0}",
+			"content":[
+				{
+					"complete":1,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":10,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":20,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":30,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":45,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":60,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":75,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":90,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":105,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":120,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":135,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":150,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":165,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":180,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":195,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":210,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":225,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":240,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":255,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":270,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":285,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":300,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":320,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":340,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":360,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":380,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":400,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":420,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":440,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":460,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":480,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":500,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":520,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":540,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":560,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":580,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":600,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":620,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":640,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":660,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":680,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":700,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":720,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":740,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":760,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":780,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":800,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":820,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":840,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":860,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":880,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":900,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":920,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":940,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":960,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":980,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1000,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1020,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1040,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1060,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1080,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1100,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1120,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1140,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1160,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1180,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1200,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1220,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1240,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1260,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1280,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1300,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1320,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1340,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1360,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1380,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1400,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1420,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1440,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1460,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1480,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1500,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1520,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1540,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1560,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1580,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1600,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1620,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1640,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1660,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1680,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1700,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1720,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1740,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1760,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1780,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1800,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1820,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1840,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1860,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1880,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1900,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1920,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1940,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1960,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":1980,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				},
+				{
+					"complete":2000,
+					"desc":"Reward: Bean x1",
+					"reward":[{"id":"151001","count":1}]
+				}
+			]
+		},
+		"24":{
+			"type":"skillGet",
+			"name":"Received S Grade Skills x{0}",
+			"content":[
+				{
+					"complete":1,
+					"desc":"Reward: Zeni x200000",
+					"reward":[{"id":"gold","count":200000}]
+				},
+				{
+					"complete":2,
+					"desc":"Reward: Zeni x200000",
+					"reward":[{"id":"gold","count":200000}]
+				},
+				{
+					"complete":5,
+					"desc":"Reward: Zeni x600000",
+					"reward":[{"id":"gold","count":600000}]
+				},
+				{
+					"complete":8,
+					"desc":"Reward: Zeni x600000",
+					"reward":[{"id":"gold","count":600000}]
+				},
+				{
+					"complete":16,
+					"desc":"Reward: Zeni x1600000",
+					"reward":[{"id":"gold","count":1600000}]
+				}
+			]
+		},
+		"25":{
+			"type":"skillLevelUp",
+			"name":"Upgrade S Grade Skill to Lv{0}",
+			"content":[
+				{
+					"complete":2,
+					"desc":"Reward: Zeni x80000",
+					"reward":[{"id":"gold","count":80000}]
+				},
+				{
+					"complete":3,
+					"desc":"Reward: Zeni x153600",
+					"reward":[{"id":"gold","count":153600}]
+				},
+				{
+					"complete":4,
+					"desc":"Reward: Zeni x294400",
+					"reward":[{"id":"gold","count":294400}]
+				},
+				{
+					"complete":5,
+					"desc":"Reward: Zeni x563200",
+					"reward":[{"id":"gold","count":563200}]
+				},
+				{
+					"complete":6,
+					"desc":"Reward: Zeni x1075200",
+					"reward":[{"id":"gold","count":1075200}]
+				},
+				{
+					"complete":7,
+					"desc":"Reward: Zeni x2048000",
+					"reward":[{"id":"gold","count":2048000}]
+				},
+				{
+					"complete":8,
+					"desc":"Reward: Zeni x7782400",
+					"reward":[{"id":"gold","count":7782400}]
+				},
+				{
+					"complete":9,
+					"desc":"Reward: Zeni x141955200",
+					"reward":[{"id":"gold","count":141955200}]
+				}
+			]
+		},
+		"26":{
+			"type":"playerLevelUp",
+			"name":"Reach Lv{0}",
+			"content":[
+				{
+					"complete":5,
+					"desc":"Reward: Gammets x10",
+					"reward":[{"id":"ingot","count":10}]
+				},
+				{
+					"complete":10,
+					"desc":"Reward: Gammets x15",
+					"reward":[{"id":"ingot","count":15}]
+				},
+				{
+					"complete":15,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":20,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":25,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":30,
+					"desc":"Reward: Gammets x20",
+					"reward":[{"id":"ingot","count":20}]
+				},
+				{
+					"complete":35,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":40,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":45,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":50,
+					"desc":"Reward: Gammets x30",
+					"reward":[{"id":"ingot","count":30}]
+				},
+				{
+					"complete":55,
+					"desc":"Reward: Gammets x50",
+					"reward":[{"id":"ingot","count":50}]
+				},
+				{
+					"complete":60,
+					"desc":"Reward: Gammets x50",
+					"reward":[{"id":"ingot","count":50}]
+				},
+				{
+					"complete":65,
+					"desc":"Reward: Gammets x50",
+					"reward":[{"id":"ingot","count":50}]
+				},
+				{
+					"complete":70,
+					"desc":"Reward: Gammets x50",
+					"reward":[{"id":"ingot","count":50}]
+				},
+				{
+					"complete":75,
+					"desc":"Reward: Gammets x100",
+					"reward":[{"id":"ingot","count":100}]
+				},
+				{
+					"complete":80,
+					"desc":"Reward: Gammets x100",
+					"reward":[{"id":"ingot","count":100}]
+				},
+				{
+					"complete":85,
+					"desc":"Reward: Gammets x100",
+					"reward":[{"id":"ingot","count":100}]
+				},
+				{
+					"complete":90,
+					"desc":"Reward: Gammets x100",
+					"reward":[{"id":"ingot","count":100}]
+				},
+				{
+					"complete":95,
+					"desc":"Reward: Gammets x100",
+					"reward":[{"id":"ingot","count":100}]
+				},
+				{
+					"complete":100,
+					"desc":"Reward: Gammets x100",
+					"reward":[{"id":"ingot","count":100}]
+				}
+			]
+		},
+		"27":{
+			"type":"boxOpen",
+			"name":"Open Orange Capsule x{0}",
+			"content":[
+				{
+					"complete":1,
+					"desc":"Reward: Training Potion x2",
+					"reward":[{"id":"150901","count":2}]
+				},
+				{
+					"complete":10,
+					"desc":"Reward: Training Potion x15",
+					"reward":[{"id":"150901","count":15}]
+				},
+				{
+					"complete":50,
+					"desc":"Reward: Training Potion x55",
+					"reward":[{"id":"150901","count":55}]
+				},
+				{
+					"complete":100,
+					"desc":"Reward: Training Potion x60",
+					"reward":[{"id":"150901","count":60}]
+				},
+				{
+					"complete":500,
+					"desc":"Reward: Training Potion x420",
+					"reward":[{"id":"150901","count":420}]
+				},
+				{
+					"complete":1000,
+					"desc":"Reward: Training Potion x450",
+					"reward":[{"id":"150901","count":450}]
+				},
+				{
+					"complete":1500,
+					"desc":"Reward: Training Potion x450",
+					"reward":[{"id":"150901","count":450}]
+				},
+				{
+					"complete":2000,
+					"desc":"Reward: Training Potion x450",
+					"reward":[{"id":"150901","count":450}]
+				},
+				{
+					"complete":2500,
+					"desc":"Reward: Training Potion x450",
+					"reward":[{"id":"150901","count":450}]
+				},
+				{
+					"complete":5000,
+					"desc":"Reward: Training Potion x1800",
+					"reward":[{"id":"150901","count":1800}]
+				},
+				{
+					"complete":10000,
+					"desc":"Reward: Training Potion x3000",
+					"reward":[{"id":"150901","count":3000}]
+				}
+			]
+		},
+		"28":{
+			"type":"foster",
+			"name":"Used Training Potion x{0}",
+			"content":[
+				{
+					"complete":5,
+					"desc":"Reward: Energy Orb x1",
+					"reward":[{"id":"152301","count":1}]
+				},
+				{
+					"complete":50,
+					"desc":"Reward: Energy Orb x7",
+					"reward":[{"id":"152301","count":7}]
+				},
+				{
+					"complete":100,
+					"desc":"Reward: Energy Orb x7",
+					"reward":[{"id":"152301","count":7}]
+				},
+				{
+					"complete":200,
+					"desc":"Reward: Energy Orb x10",
+					"reward":[{"id":"152301","count":10}]
+				},
+				{
+					"complete":300,
+					"desc":"Reward: Energy Orb x10",
+					"reward":[{"id":"152301","count":10}]
+				},
+				{
+					"complete":500,
+					"desc":"Reward: Energy Orb x13",
+					"reward":[{"id":"152301","count":13}]
+				},
+				{
+					"complete":1000,
+					"desc":"Reward: Energy Orb x16",
+					"reward":[{"id":"152301","count":16}]
+				},
+				{
+					"complete":1500,
+					"desc":"Reward: Energy Orb x16",
+					"reward":[{"id":"152301","count":16}]
+				},
+				{
+					"complete":2000,
+					"desc":"Reward: Energy Orb x16",
+					"reward":[{"id":"152301","count":16}]
+				},
+				{
+					"complete":2500,
+					"desc":"Reward: Energy Orb x16",
+					"reward":[{"id":"152301","count":16}]
+				},
+				{
+					"complete":3000,
+					"desc":"Reward: Energy Orb x16",
+					"reward":[{"id":"152301","count":16}]
+				},
+				{
+					"complete":3500,
+					"desc":"Reward: Energy Orb x16",
+					"reward":[{"id":"152301","count":16}]
+				},
+				{
+					"complete":4000,
+					"desc":"Reward: Energy Orb x16",
+					"reward":[{"id":"152301","count":16}]
+				},
+				{
+					"complete":4500,
+					"desc":"Reward: Energy Orb x16",
+					"reward":[{"id":"152301","count":16}]
+				},
+				{
+					"complete":5000,
+					"desc":"Reward: Energy Orb x16",
+					"reward":[{"id":"152301","count":16}]
+				},
+				{
+					"complete":10000,
+					"desc":"Reward: Energy Orb x100",
+					"reward":[{"id":"152301","count":100}]
+				},
+				{
+					"complete":15000,
+					"desc":"Reward: Energy Orb x100",
+					"reward":[{"id":"152301","count":100}]
+				},
+				{
+					"complete":20000,
+					"desc":"Reward: Energy Orb x100",
+					"reward":[{"id":"152301","count":100}]
+				},
+				{
+					"complete":30000,
+					"desc":"Reward: Energy Orb x133",
+					"reward":[{"id":"152301","count":133}]
+				},
+				{
+					"complete":40000,
+					"desc":"Reward: Energy Orb x133",
+					"reward":[{"id":"152301","count":133}]
+				},
+				{
+					"complete":50000,
+					"desc":"Reward: Energy Orb x133",
+					"reward":[{"id":"152301","count":133}]
+				},
+				{
+					"complete":60000,
+					"desc":"Reward: Energy Orb x133",
+					"reward":[{"id":"152301","count":133}]
+				},
+				{
+					"complete":70000,
+					"desc":"Reward: Energy Orb x133",
+					"reward":[{"id":"152301","count":133}]
+				},
+				{
+					"complete":80000,
+					"desc":"Reward: Energy Orb x133",
+					"reward":[{"id":"152301","count":133}]
+				},
+				{
+					"complete":90000,
+					"desc":"Reward: Energy Orb x133",
+					"reward":[{"id":"152301","count":133}]
+				},
+				{
+					"complete":100000,
+					"desc":"Reward: Energy Orb x133",
+					"reward":[{"id":"152301","count":133}]
+				}
+			]
+		},
+		"29":{
+			"type":"superWaterUse",
+			"name":"Used Holy Water x{0}",
+			"content":[
+				{
+					"complete":6,
+					"desc":"Reward: Training Potion x6",
+					"reward":[{"id":"150901","count":6}]
+				},
+				{
+					"complete":12,
+					"desc":"Reward: Training Potion x6",
+					"reward":[{"id":"150901","count":6}]
+				},
+				{
+					"complete":18,
+					"desc":"Reward: Training Potion x6",
+					"reward":[{"id":"150901","count":6}]
+				},
+				{
+					"complete":24,
+					"desc":"Reward: Training Potion x6",
+					"reward":[{"id":"150901","count":6}]
+				},
+				{
+					"complete":60,
+					"desc":"Reward: Training Potion x36",
+					"reward":[{"id":"150901","count":36}]
+				},
+				{
+					"complete":96,
+					"desc":"Reward: Training Potion x36",
+					"reward":[{"id":"150901","count":36}]
+				},
+				{
+					"complete":132,
+					"desc":"Reward: Training Potion x36",
+					"reward":[{"id":"150901","count":36}]
+				},
+				{
+					"complete":168,
+					"desc":"Reward: Training Potion x36",
+					"reward":[{"id":"150901","count":36}]
+				},
+				{
+					"complete":210,
+					"desc":"Reward: Training Potion x42",
+					"reward":[{"id":"150901","count":42}]
+				},
+				{
+					"complete":270,
+					"desc":"Reward: Training Potion x60",
+					"reward":[{"id":"150901","count":60}]
+				},
+				{
+					"complete":330,
+					"desc":"Reward: Training Potion x60",
+					"reward":[{"id":"150901","count":60}]
+				},
+				{
+					"complete":390,
+					"desc":"Reward: Training Potion x60",
+					"reward":[{"id":"150901","count":60}]
+				},
+				{
+					"complete":450,
+					"desc":"Reward: Training Potion x60",
+					"reward":[{"id":"150901","count":60}]
+				},
+				{
+					"complete":510,
+					"desc":"Reward: Training Potion x60",
+					"reward":[{"id":"150901","count":60}]
+				},
+				{
+					"complete":570,
+					"desc":"Reward: Training Potion x60",
+					"reward":[{"id":"150901","count":60}]
+				}
+			]
+		},
+		"30":{
+			"type":"getHero",
+			"name":"Received Hero: {0}",
+			"content":[
+				{
+					"complete":"104089",
+					"desc":"Reward: Mr.Satan-Evil Soul*300",
+					"reward":[{"id":"104089","count":300}]
+				},
+				{
+					"complete":"104090",
+					"desc":"Reward: Frieza-Evil Soul*300",
+					"reward":[{"id":"104090","count":300}]
+				},
+				{
+					"complete":"104091",
+					"desc":"Reward: Cell-Evil Soul*300",
+					"reward":[{"id":"104091","count":300}]
+				},
+				{
+					"complete":"104092",
+					"desc":"Reward: Cooler--Evil Soul*300",
+					"reward":[{"id":"104092","count":300}]
+				},
+				{
+					"complete":"104093",
+					"desc":"Reward: Goku--Evil Soul*300",
+					"reward":[{"id":"104093","count":300}]
+				},
+				{
+					"complete":"104094",
+					"desc":"Reward: Vegeta-Evil Soul*300",
+					"reward":[{"id":"104094","count":300}]
+				},
+				{
+					"complete":"104095",
+					"desc":"Reward: Gotenks-Evil Soul*300",
+					"reward":[{"id":"104095","count":300}]
+				},
+				{
+					"complete":"104096",
+					"desc":"Reward: Buu-Evil Soul*300",
+					"reward":[{"id":"104096","count":300}]
+				},
+				{
+					"complete":"104100",
+					"desc":"Reward: Vegeta-SS2--Evil Soul*450",
+					"reward":[{"id":"104100","count":450}]
+				},
+				{
+					"complete":"104101",
+					"desc":"Reward: Goku-SS2-Evil Soul*450",
+					"reward":[{"id":"104101","count":450}]
+				},
+				{
+					"complete":"104102",
+					"desc":"Reward: Trunks-SS2-Evil Soul*450",
+					"reward":[{"id":"104102","count":450}]
+				},
+				{
+					"complete":"104103",
+					"desc":"Reward: Gohan-SS2-Evil Soul*450",
+					"reward":[{"id":"104103","count":450}]
+				},
+				{
+					"complete":"104088",
+					"desc":"Reward: Beerus Soul*600",
+					"reward":[{"id":"104088","count":600}]
+				},
+				{
+					"complete":"104084",
+					"desc":"Reward: Whis Soul*600",
+					"reward":[{"id":"104084","count":600}]
+				},
+				{
+					"complete":"104083",
+					"desc":"Reward: Beerus(Asleep) Soul*600",
+					"reward":[{"id":"104083","count":600}]
+				},
+				{
+					"complete":"104085",
+					"desc":"Reward: Whis(Rainbow) Soul*600",
+					"reward":[{"id":"104085","count":600}]
+				},
+				{
+					"complete":"104110",
+					"desc":"Reward: Goku(SS God)  Soul*600",
+					"reward":[{"id":"104110","count":600}]
+				},
+				{
+					"complete":"104111",
+					"desc":"Reward: Vegeta(SS God) Soul*600",
+					"reward":[{"id":"104111","count":600}]
+				},
+				{
+					"complete":"104108",
+					"desc":"Reward: Shenron(Namek) Soul*600",
+					"reward":[{"id":"104108","count":600}]
+				},
+				{
+					"complete":"104109",
+					"desc":"Reward: Shenron(Earth) Soul*600",
+					"reward":[{"id":"104109","count":600}]
+				}
+			]
+		}
+	}
+}

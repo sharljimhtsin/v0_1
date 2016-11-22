@@ -1,0 +1,19 @@
+{
+    "server": {
+        "listen": 8900,
+        "isDebug":true,
+        "postData": "json",
+        "path":"./"
+    },
+    "router": {
+        "root": {"type": "static","path": "html/"},
+        "api": {"type": "rest","path": "api/","checkMethod":"checkToken.js"},
+        "admin": {"type": "rest","path": "admin/","checkMethod":"checkToken.js"},
+        "notify": {"type": "node","path": "notify/"},
+        "v":{"type":"node", "path":"v/"}
+
+    },
+    "static": {
+        "default": "dbz.html"
+    }
+}

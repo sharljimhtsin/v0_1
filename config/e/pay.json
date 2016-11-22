@@ -1,0 +1,170 @@
+{
+	"pay":
+	{
+		"firstPayRatio":2,
+		"firstPayReward":
+		{
+			"144018":1,
+			"150901":100,
+			"zeni":1000000
+		},
+		"firstPayRewardName":
+		{
+			"144018":"四星球帽X1",
+			"150901":"培養液X100",
+			"zeni":"百萬索尼"
+		},
+		"ios":
+		{
+			"1":
+			{
+				"payMoney":60,
+				"getImegga":60,
+				"getMoreImegga":0,
+				"activityImegga":1
+			},
+			"2":
+			{
+				"payMoney":300,
+				"getImegga":300,
+				"getMoreImegga":15,
+				"activityImegga":3
+			},
+			"3":
+			{
+				"payMoney":490,
+				"getImegga":490,
+				"getMoreImegga":40,
+				"activityImegga":5
+			},
+			"4":
+			{
+				"payMoney":1020,
+				"getImegga":1020,
+				"getMoreImegga":125,
+				"activityImegga":10
+			},
+			"5":
+			{
+				"payMoney":2090,
+				"getImegga":2090,
+				"getMoreImegga":315,
+				"activityImegga":20
+			},
+			"6":
+			{
+				"payMoney":2990,
+				"getImegga":2990,
+				"getMoreImegga":540,
+				"activityImegga":50
+			}
+		},
+		"android":
+		{
+			"1":
+			{
+				"payMoney":60,
+				"getImegga":60,
+				"getMoreImegga":0,
+				"activityImegga":1
+			},
+			"2":
+			{
+				"payMoney":300,
+				"getImegga":300,
+				"getMoreImegga":15,
+				"activityImegga":3
+			},
+			"3":
+			{
+				"payMoney":490,
+				"getImegga":490,
+				"getMoreImegga":40,
+				"activityImegga":5
+			},
+			"4":
+			{
+				"payMoney":1020,
+				"getImegga":1020,
+				"getMoreImegga":125,
+				"activityImegga":10
+			},
+			"5":
+			{
+				"payMoney":2090,
+				"getImegga":2090,
+				"getMoreImegga":315,
+				"activityImegga":20
+			},
+			"6":
+			{
+				"payMoney":2990,
+				"getImegga":2990,
+				"getMoreImegga":540,
+				"activityImegga":50
+			}
+		},
+		"mol": {
+			"1": {
+				"payMoney": 4.99,
+				"getImegga": 150,
+				"getMoreImegga": 0,
+				"activityImegga": 1
+			},
+			"2": {
+				"payMoney": 9.99,
+				"getImegga": 300,
+				"getMoreImegga": 15,
+				"activityImegga": 3
+			},
+			"3": {
+				"payMoney": 19.99,
+				"getImegga": 600,
+				"getMoreImegga": 30,
+				"activityImegga": 5
+			},
+			"4": {
+				"payMoney": 39.99,
+				"getImegga": 1200,
+				"getMoreImegga": 120,
+				"activityImegga": 10
+			},
+			"5": {
+				"payMoney": 59.99,
+				"getImegga": 1800,
+				"getMoreImegga": 198,
+				"activityImegga": 20
+			},
+			"6": {
+				"payMoney": 69.99,
+				"getImegga": 2100,
+				"getMoreImegga": 252,
+				"activityImegga": 50
+			},
+			"7": {
+				"payMoney": 79.99,
+				"getImegga": 2400,
+				"getMoreImegga": 312,
+				"activityImegga": 50
+			},
+			"8": {
+				"payMoney": 99.99,
+				"getImegga": 3000,
+				"getMoreImegga": 450,
+				"activityImegga": 50
+			},
+			"9": {
+				"payMoney": 770,
+				"getImegga": 28000,
+				"getMoreImegga": 0,
+				"activityImegga": 0
+			},
+			"10": {
+				"payMoney": 1540,
+				"getImegga": 58000,
+				"getMoreImegga": 0,
+				"activityImegga": 0
+			}
+		}
+	}
+}

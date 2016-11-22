@@ -1,0 +1,79 @@
+{
+	"helpSpec":{
+		"1":[	
+			"Nvl de Equipo",
+			"Su nivel es Nvl del Equipo. Determina el máximo nivel de sus héroes y equipamiento. Sus héroes no puede exceder Nvl de Equipo x4.  (Ejemplo: Si su Nvl es 25, el nivel limitado de sus héroes es 100). Nivel de Equipamietno no puede exceder Nvl de Equipo x3."],
+		"2":[	
+			"Fama de Equipo",
+			"Recoger suficiento Fama de Equipo para subir de nivel. Puede obtener equipo de la Fama  a través de batallas de Aventura y  peleas en la Arena."],
+		"3":[	
+			"Zeni",
+			"Moneda del juego. Se utiliza principalmente para sortear tarjetas, actualizar equipamiento y fusionar habilidades."],
+		"4":[	
+			"Gammets",
+			"Se obtiene por compra u obtenida de eventos. Se utiliza para reclutar a los Héroes de alta calidad y para obtener accesorios especiales."],
+		"5":[	
+			"Constitución",
+			"Se comsume en batallas de Aventura. Puede recuperar 1 punto cada media hora."],
+		"6":[	
+			"Energía ",
+			"Se comsume en la arena. Puede recuperar 1 punto cada media hora."],
+		"7":[	
+			"VIP",
+			"VIP tiene 15 niveles. Los niveles más altos obtendrán más privilegios. Compra más para subir de nivel. Usted puede ver todos los privilegios al seleccionar COMPRAR desde la pantalla principal."],
+		"8":[	
+			"Nvl de Héroe",
+			"EL nivel de Héroe determina la fuerza de un héroe. Los Héroes con mejor calidad obtienen más fuerza después de subir de nivel."],
+		"9":[	
+			"Exp de Héroe",
+			"Ganas suficiente Exp de héroe a través de batallas de Aventura y  peleas en la Arena para mejorar el nivel de tu héroe."],
+		"10":[	
+			"Calidad de Héroe",
+			"Hay 4 calidades: S, A, B y C. S es los mejores héroes de Calidad Superior tienen mejores estadísticas .."],
+		"11":[	
+			"Almas de Héroe",
+			"No se puede tener el mismo héroe dos veces. Usted puede recoger almas para revivir un héroe. Héroes de grado superior necesitan más almas."],
+		"12":[	
+			"HP",
+			"HP de Héroe.  Atrubuto Básico: Cuando llega a 0, estarás muerto."],
+		"13":[	
+			"ATQ",
+			"Ataque de Héroe.  Atrubuto Básico: Determina el daño infligido al enemigo."],
+		"14":[	
+			"DEF",
+			"Defensa de Héroe.  Atrubuto Básico: Determina la protección contra el daño."],
+		"15":[	
+			"Ki",
+			"Espíritu de Héroe.  Atrubuto Básico: Determina el importe de los daños de las competencias."],
+		"16":[	
+			"Buffs",
+			"Cualquier relación entre los héroes, equipamiento o Habilidades puede aumentar los atributos."],
+		"17":[	
+			"Equipamietno",
+			"Armas, Armaduras y Joyas que mejoran respectivamente ATQ, DEF y HP de los Héroes. Se dividen en 4 calidades: S, A, B y C."],
+		"18":[	
+			"Habilidades",
+			"Hay 4 calidades: S, A, B y C. Las Habilidades S & A  tendrán efectos especiales durante las peleas. Algunas habilidades pueden aumentar los atributos.Cada héroe tendrá 1 habilidad propia y 2 habilidades que se pueden aprender."],
+		"19":[	
+			"Ronda Normal",
+			"Las primeras 2 rondas de una batalla es 1 VS 1. Cada héroe lucha contra su oponente. Ronda 2 se inicia cuando no hay un ganador después de 5 vueltas. Si no hay un ganador después de la ronda 2, la lucha entra en la Ronda Final."],
+		"20":[	
+			"Ronda Final",
+			"En la ronda final, Espíritu y HP serán emparejados entre los oponentes. Cuando el Espíritu se agota, HP se utilizará. Cuando HP se agota, el ganador se conoce."],
+		"21":[	
+			"Reclutar",
+			"Aquí usted puede reclutar a los Héroes y comprar accesorios especiales."],
+		"22":[	
+			"Avantura",
+			"Durante tu aventura, te encontrarás con diferentes enemigos. Lucha batallas para ganar EXP, Zeni y Accesorios. Usted puede usar Gammets para borrar límite de oportunidad de Batalla."],
+		"23":[	
+			"Arena",
+			"Únete a la lucha de Arena para aumentar su rango y ganar recompensas."],
+		"24":[	
+			"Entrenamiento- Robar",
+			"Después de obtener un Fragmento de habilidad, usted puede robar otros fragmentos para crear toda una Habilidad. Seleccione [Robar] para obtener más Fragmentos (1 batalla consume 1 Energía)."],
+		"25":[	
+			"Amigos",
+			"Puede agregar amigos o vengarse de sus enemigos."]
+	}
+}

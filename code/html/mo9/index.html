@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta charset="utf-8"/>
+    <title>游付付</title>
+    <style type="text/css" media="all">
+        .contentbox {
+            width: 640px;
+            height: 1136px;
+            background: url(images/bg.jpg) 0 0 no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+
+        .contentbox .list {
+            margin: 0;
+            padding: 358px 0 0 70px;
+        }
+
+        .contentbox .list li {
+            margin: 0;
+            padding: 0 0 39px 0;
+            list-style: none;
+            width: 489px;
+            height: 71px;
+            background: url(images/bg_slct.png) 0 0 no-repeat;
+        }
+
+        .contentbox .list li select {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            width: 489px;
+            height: 71px;
+            background: none;
+            line-height: 71px;
+            font-size: 30px;
+            color: #52e9e4;
+            padding-left: 25px;
+        }
+
+        .contentbox .list li.inputbox {
+            background: url(images/bg_input.png) 0 0 no-repeat;
+        }
+
+        .contentbox .list li.inputbox input {
+            width: 489px;
+            height: 71px;
+            line-height: 71px;
+            font-size: 30px;
+            color: #52e9e4;
+            padding-left: 25px;
+            background: none;
+            border: 0;
+        }
+
+        .contentbox .list li.submitbox {
+            background: none;
+            padding: 40px 0 0 0;
+        }
+
+        .contentbox .list li.submitbox button {
+            width: 308px;
+            height: 84px;
+            background: url(images/bg_btn.png) 0 0 no-repeat;
+            border: 0;
+        }
+
+        .creditbox {
+            width: 640px;
+            height: 1136px;
+            padding-top: 300px;
+        }
+
+        .creditbox ul {
+            margin: 0;
+            padding: 0;
+            height: 420px;
+        }
+
+        .creditbox ul li {
+            width: 140px;
+            height: 84px;
+            background: url(images/bg_credit.png) 0 0 no-repeat;
+            float: left;
+            overflow: hidden;
+            text-align: center;
+            list-style: none;
+            margin: 15px 10px;
+            padding: 0;
+            color: #20fc53;
+            font-size: 24px;
+        }
+
+        .creditbox i {
+            font-style: normal;
+        }
+
+        .creditbox ul li i {
+            display: block;
+            padding: 10px 0 1px;
+            font-size: 28px;
+        }
+
+        .creditbox ul li span {
+            color: #ffcf71;
+            font-size: 19px;
+        }
+
+        .creditbox ul li.ramdomcredit {
+        }
+
+        .creditbox ul li.ramdomcredit span {
+            color: #52e9e4;
+            font-size: 24px;
+            line-height: 84px;
+        }
+
+        .creditbox ul li.packbox {
+        }
+
+        .creditbox ul li.packbox img {
+            position: absolute;
+            display: block;
+            margin: 0;
+        }
+
+        .creditbox ul li.packbox i {
+            display: block;
+            padding: 10px 0 1px;
+            font-size: 19px;
+        }
+
+        .creditbox ul li.packbox span {
+            color: #FFF;
+            font-size: 19px;
+        }
+
+        .creditbox ul li.packbox span {
+            color: #FFF;
+            font-size: 19px;
+        }
+
+        .creditbox ul li.slct {
+            background: url(images/bg_credit_select.png) 0 0 no-repeat;
+        }
+
+        .usr_info {
+            width: 370px;
+            height: 44px;
+            background: url(images/bg_text.png) 0 0 no-repeat;
+            text-align: center;
+            line-height: 44px;
+            font-size: 19px;
+            color: #52e9e4;
+            margin: 0 auto;
+            padding-bottom: 30px;
+        }
+
+        .usr_info span {
+            color: #efff41;
+        }
+
+        .usr_info span {
+            color: #efff41;
+        }
+
+        .creditbox .submitbox {
+            text-align: center;
+            padding: 30px 0 0;
+            clear: both;
+        }
+
+        .creditbox .submitbox span {
+            color: #22d74e;
+            display: block;
+            padding: 0 0 10px;
+        }
+
+        .creditbox .submitbox button {
+            width: 308px;
+            height: 84px;
+            background: url(images/btn_charge.png) 0 0 no-repeat;
+            border: 0;
+        }
+
+        .popbox {
+            position: absolute;
+            width: 640px;
+            height: 1136px;
+            background: url(images/bg_spacer_gray.png);
+            z-index: 100
+        }
+
+        .popbox .inner {
+            position: absolute;
+            width: 475px;
+            height: 301px;
+            background: url(images/bg_pop.png) 0 0 no-repeat;
+            margin: 350px 0 0 85px;
+            padding: 0;
+        }
+
+        .popbox .btn_close {
+            position: absolute;
+            width: 66px;
+            height: 59px;
+            background: url(images/bg_pop_btn.png) 0 0 no-repeat;
+            margin: 5px 0 0 403px;
+            border: 0;
+        }
+
+        .popbox .p_titie {
+            color: #26d54c;
+            font-size: 30px;
+            text-align: center;
+            padding: 5px 10px;
+            font-weight: bold;
+        }
+
+        .popbox .p_txt {
+            color: #26d54c;
+            padding: 0 20px;
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.base64.js"></script>
+    <script>
+        $.base64.utf8encode = true;
+        $.base64.utf8decode = true;
+        $.base64.raw = false;
+        var map = {
+            "p91": "http://dragonballt.gametrees.com/",
+            "ios": "http://dragonballd.gametrees.com/",
+            "ucweb": "http://dragonballf.gametrees.com/",
+            "kingnet": "http://dbzhhp.gametrees.com/",
+            "kingnetios": "http://dbzhhpios.gametrees.com/",
+            "kingnetenglish": "http://dbzhhpen.gametrees.com/",
+            "usa": "http://dbz.dbzgames.me/",
+            "lj360": "http://dragonballd.gametrees.com/",
+            "kythaixy": "http://dbzthai.gametrees.com/",
+            "baxi": "http://webdragonball.shazamgame.com/",
+            "thai": "http://dbz-df.gameforest.in.th/",
+            "i4": "http://dbz.yeyoye.com/",
+            "uc": "http://dbztest.gt.com:8900/",
+            "test": "http://183.129.161.38:8908/",
+            "test2": "http://127.0.0.1:8900/"
+        };
+        var productList = {
+            "1": {
+                "payMoney": 10,
+                "getImegga": 110,
+                "getMoreImegga": 0,
+                "activityImegga": 0,
+                "reward": {}
+            },
+            "2": {
+                "payMoney": 30,
+                "getImegga": 330,
+                "getMoreImegga": 0,
+                "activityImegga": 0,
+                "reward": {}
+            },
+            "3": {
+                "payMoney": 50,
+                "getImegga": 550,
+                "getMoreImegga": 0,
+                "activityImegga": 0,
+                "reward": {}
+            },
+            "4": {
+                "payMoney": 68,
+                "getImegga": 770,
+                "getMoreImegga": 0,
+                "activityImegga": 0,
+                "reward": {}
+            },
+            "5": {
+                "payMoney": 128,
+                "getImegga": 1480,
+                "getMoreImegga": 0,
+                "activityImegga": 0,
+                "reward": {}
+            },
+            "6": {
+                "payMoney": 500,
+                "getImegga": 5800,
+                "getMoreImegga": 0,
+                "activityImegga": 0,
+                "reward": {}
+            },
+            "7": {
+                "payMoney": 1000,
+                "getImegga": 12000,
+                "getMoreImegga": 0,
+                "activityImegga": 0,
+                "reward": {}
+            },
+            "8": {
+                "payMoney": 0,
+                "getImegga": 0,
+                "getMoreImegga": 0,
+                "activityImegga": 0,
+                "reward": {}
+            },
+            "9": {
+                "payMoney": 100,
+                "getImegga": 1250,
+                "getMoreImegga": 0,
+                "activityImegga": 0,
+                "reward": {}
+            },
+            "10": {
+                "payMoney": 200,
+                "getImegga": 2500,
+                "getMoreImegga": 0,
+                "activityImegga": 0,
+                "reward": {}
+            },
+            "11": {
+                "payMoney": 300,
+                "getImegga": 3750,
+                "getMoreImegga": 0,
+                "activityImegga": 0,
+                "reward": {}
+            }
+        };
+        var JSONData = {"platformId": "", "platformUserId": "", "info": "", "serverId": "1", "isMo9": "1"};
+        var defaultOption = {"id": "", "name": toBase64("选择游戏区服")};
+        var platformId;
+        var cityId;
+        var targetHost;
+        var userUid;
+        var userData;
+        var payMoney;
+        var productId;
+        var userToken;
+        var orderNo;
+        function test() {
+            showInfo("ABC");
+        }
+        function bindServerList(self) {
+            platformId = self.options[self.selectedIndex].value;
+            if (platformId == "") {
+                doBindServerList([defaultOption]);
+                return;
+            }
+            targetHost = map[platformId];
+            JSONData["platformId"] = platformId;
+            $.ajax({
+                url: targetHost + "api?method=server.list&token=null&userUid=null&packet=",
+                type: "POST",
+                dataType: "jsonp",
+                data: "data=" + JSON.stringify(JSONData),
+                success: function (data) {
+                    data = data["server.list"];
+                    if (data.hasOwnProperty("ERROR")) {
+                        showInfo(data["info"]);
+                    } else {
+                        doBindServerList(data["serverList"]);
+                    }
+                }
+            });
+        }
+        function doBindServerList(serverList) {
+            $("#serverList option").remove();
+            for (var i in serverList) {
+                i = serverList[i];
+                $("#serverList").append("<option value='" + i["id"] + "'>" + fromBase64(i["name"]) + "</option>");
+            }
+        }
+        function setCity(self) {
+            cityId = self.options[self.selectedIndex].value;
+            JSONData["serverId"] = cityId;
+        }
+        function checkUser() {
+            userUid = $(".inputbox").children("input")[0].value;
+            if (userUid == "") {
+                showInfo("userUid 为空");
+            } else {
+                $.ajax({
+                    url: targetHost + "v/checkUser?userUid=" + userUid,
+                    type: "POST",
+                    dataType: "jsonp",
+                    data: "data=" + JSON.stringify(JSONData),
+                    success: function (data) {
+                        if (data.hasOwnProperty("ERROR")) {
+                            showInfo(data["info"]);
+                        } else {
+                            userData = data;
+                            JSONData["platformId"] = userData["platformId"];
+                            goToBill();
+                        }
+                    }
+                });
+            }
+        }
+        function goToBill() {
+            $(".usr_info span").html(fromBase64(userData["userName"]));
+            $(".list").hide();
+            $(".creditbox").show();
+        }
+        function toggleCell(self, number, id) {
+            payMoney = number;
+            productId = id;
+            $("#cells").children("li").removeClass("slct");
+            $(self).addClass("slct");
+        }
+        function customPay(self) {
+            showInfo("暂不支持!");
+            return;
+            $(".ramdomcredit input").toggle();
+            $(".ramdomcredit span").toggle();
+            $(".ramdomcredit input").focus();
+            payMoney = self.children[1].value;
+            if (isNaN(payMoney)) {
+                showInfo("NAN");
+                $(".ramdomcredit input").focus();
+                payMoney = 0;
+            }
+        }
+        function goToPay() {
+            getToken();
+        }
+        function getToken() {
+            JSONData["platformUserId"] = userData["pUserId"];
+            $.ajax({
+                url: targetHost + "api?method=user.getToken&token=null&userUid=null&packet=",
+                type: "POST",
+                dataType: "jsonp",
+                data: "data=" + JSON.stringify(JSONData),
+                success: function (data) {
+                    data = data["user.getToken"];
+                    if (data.hasOwnProperty("ERROR")) {
+                        showInfo(data["info"]);
+                    } else {
+                        userUid = data["userUid"];
+                        userToken = data["token"];
+                        createOrder();
+                    }
+                }
+            });
+        }
+        function createOrder() {
+            if (payMoney <= 0) {
+                showInfo("档位错误");
+                return;
+            }
+            var orderData = deepCopy(JSONData);
+            orderData["platform"] = "mo9";
+            orderData["productId"] = productId;
+            orderData["productProps"] = productList[productId];
+            $.ajax({
+                url: targetHost + "api?method=orderNo.get&token=" + userToken + "&userUid=" + userUid + "&packet=",
+                type: "POST",
+                dataType: "jsonp",
+                data: "data=" + JSON.stringify(orderData),
+                success: function (data) {
+                    data = data["orderNo.get"];
+                    if (data.hasOwnProperty("ERROR")) {
+                        showInfo(data["info"]);
+                    } else {
+                        orderNo = data["orderNo"];
+                        preparePay();
+                    }
+                }
+            });
+        }
+        function preparePay() {
+            var orderData = deepCopy(JSONData);
+            orderData["orderNo"] = orderNo;
+            orderData["amount"] = payMoney;
+            orderData["item_name"] = productId;
+            orderData["userUid"] = userUid;
+            orderData["return_url"] = window.location.href;
+            orderData["host"] = targetHost;
+            $.ajax({
+                url: targetHost + "api?method=mo9.get&token=" + userToken + "&userUid=" + userUid + "&packet=",
+                type: "POST",
+                dataType: "jsonp",
+                data: "data=" + JSON.stringify(orderData),
+                success: function (data) {
+                    data = data["mo9.get"];
+                    if (data.hasOwnProperty("ERROR")) {
+                        showInfo(data["info"]);
+                    } else {
+                        doPay(data);
+                    }
+                }
+            });
+        }
+        function doPay(url) {
+            window.location.href = url;
+        }
+        function showInfo(str) {
+            if (str.indexOf("#") > 0) {
+                alert(fromBase64(str));
+            } else {
+                alert(str);
+            }
+        }
+        function toBase64(str) {
+            if (str == null || str == "") return "";
+            return "#<" + $.base64.btoa(str) + ">#";
+        }
+        function fromBase64(str) {
+            var nStr = str.replace("#<", "").replace(">#", "");
+            return $.base64.atob(nStr, true);
+        }
+        function deepCopy(obj) {
+            return JSON.parse(JSON.stringify(obj));
+        }
+    </script>
+</head>
+
+<body style="background: black none repeat scroll 0% 0%;">
+<center>
+    <div class="contentbox">
+        <div class="popbox" style="display:none">
+            <div class="inner">
+                <button class="btn_close"></button>
+                <p class="p_titie">这里是标题</p>
+
+                <p class="p_txt">这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容</p>
+            </div>
+        </div>
+        <ul class="list">
+            <li>
+                <select>
+                    <option>游付付</option>
+                </select>
+            </li>
+            <li>
+                <select onchange="bindServerList(this)">
+                    <option value="">选择游戏平台</option>
+                    <option value="p91">国内越狱(91|PP|TB|快用|安峰|海马|ITOOLS)</option>
+                    <option value="ucweb">国内安卓(360|UC|小米|91|百度|安智|豌豆荚|当乐|新浪|应用汇)</option>
+                    <!-- <option value="ios">国内IOS</option>
+                    <option value="kingnet">台湾安卓</option>
+                    <option value="kingnetios">台湾IOS</option>
+                    <option value="kingnetenglish">台湾双语</option>
+                    <option value="lj360">乐聚</option>
+                    <option value="kythaixy">铠英泰文XY</option>
+                    <option value="baxi">南美巴西</option>
+                    <option value="thai">泰文</option>
+                    <option value="i4">龙珠赛亚</option>
+                    <option value="uc">内网测试</option>
+                    <option value="test">外网测试</option>
+                    <option value="test2">LOCAL</option> -->
+                </select>
+            </li>
+            <li>
+                <select id="serverList" onchange="setCity(this)">
+                    <option value="">选择游戏区服</option>
+                </select>
+            </li>
+            <li class="inputbox">
+                <input type="text" value="填写玩家ID信息"/>
+            </li>
+            <li class="submitbox">
+                <button onclick="checkUser()"></button>
+            </li>
+        </ul>
+        <div class="creditbox" style="display:none">
+            <div class="usr_info">欢迎你，亲爱的 <span>小胖先生</span></div>
+            <ul id="cells">
+                <li onclick="toggleCell(this,10,1)"><i>￥10</i><span>130伊美加币</span></li>
+                <li onclick="toggleCell(this,30,2)"><i>￥30</i><span>390伊美加币</span></li>
+                <li onclick="toggleCell(this,50,3)"><i>￥50</i><span>650伊美加币</span></li>
+                <li class="slct" onclick="toggleCell(this,68,4)"><i>￥68</i><span>884伊美加币</span></li>
+                <li onclick="toggleCell(this,128,5)"><i>￥128</i><span>1664伊美加币</span></li>
+                <li onclick="toggleCell(this,500,6)"><i>￥500</i><span>6500伊美加币</span></li>
+                <li onclick="toggleCell(this,1000,7)"><i>￥1000</i><span>13000伊美加币</span></li>
+                <li class="ramdomcredit" onclick="toggleCell(this,0,8);customPay(this)">
+                    <span>任意金额</span>
+                    <input type="text" value="" style="display: none"></li>
+                <li class="packbox" onclick="toggleCell(this,100,9)"><img
+                        src="images/tag_sales.png"><span>100元</span><i>1300伊美加币</i>
+                </li>
+                <li class="packbox" onclick="toggleCell(this,200,10)"><img
+                        src="images/tag_sales.png"><span>200元</span><i>2600伊美加币</i>
+                </li>
+                <li class="packbox" onclick="toggleCell(this,300,11)"><img
+                        src="images/tag_sales.png"><span>300元</span><i>3900伊美加币</i>
+                </li>
+                <li onclick="toggleCell(this,-1,-1)"><i>联系客服</i><span>QQ: 1522681625</span></li>
+            </ul>
+            <div class="submitbox">
+                <span>在本页面充值将额外获得30%的伊美加币返利</span>
+                <button onclick="goToPay()"></button>
+            </div>
+        </div>
+    </div>
+</center>
+</body>
+</html>

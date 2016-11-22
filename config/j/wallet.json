@@ -1,0 +1,15 @@
+{
+	"wallet":
+	{
+		"152201":
+		{
+			"1":{"zeniCount":1000000,"prob":0.01},
+			"2":{"zeniCount":500000,"prob":0.02},
+			"3":{"zeniCount":250000,"prob":0.11},
+			"4":{"zeniCount":125000,"prob":0.2},
+			"5":{"zeniCount":62500,"prob":0.3},
+			"6":{"zeniCount":31250,"prob":0.2},
+			"7":{"zeniCount":15625,"prob":0.16}	
+		}
+	}
+}

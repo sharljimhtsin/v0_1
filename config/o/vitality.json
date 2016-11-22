@@ -1,0 +1,110 @@
+{
+	"vitality":{
+		"mission":[
+			{
+				"missionType":"loginCard",
+				"completeTime":1,
+				"desc":"Điểm danh 1 lần",
+				"addPoint":10
+			},
+			{
+				"missionType":"shake",
+				"completeTime":1,
+				"desc":"Triệu hồi Rồng Thần 1 lần",
+				"addPoint":5
+			},
+			{
+				"missionType":"daily",
+				"completeTime":1,
+				"desc":"Bói 1 lần",
+				"addPoint":10
+			},
+			{
+				"missionType":"map",
+				"completeTime":5,
+				"desc":"Qua ải mạo hiểm thắng 5 lần",
+				"addPoint":10
+			},
+			{
+				"missionType":"eatBean",
+				"completeTime":2,
+				"desc":"Nhận miễn phí Đậu Thần 2 lần",
+				"addPoint":10
+			},
+			{
+				"missionType":"zillionaire",
+				"completeTime":2,
+				"desc":"Đi lại trong Phú Ông 2 lần",
+				"addPoint":5
+			},
+			{
+				"missionType":"bloodBattal",
+				"completeTime":1,
+				"desc":"Khiêu chiến Phong Ấn Cửa Địa Ngục 1 lần",
+				"addPoint":10
+			},
+			{
+				"missionType":"activityMap",
+				"completeTime":5,
+				"desc":"Tham gia hoạt động phụ bản 5 lần",
+				"addPoint":10
+			},
+			{
+				"missionType":"enegyBall",
+				"completeTime":5,
+				"desc":"Tiêu hao 5 Cầu Năng Lượng",
+				"addPoint":10
+			},
+			{
+				"missionType":"foster",
+				"completeTime":3,
+				"desc":"Bồi dưỡng đồng hành 3 lần",
+				"addPoint":10
+			},
+			{
+				"missionType":"worldBoss",
+				"completeTime":1,
+				"desc":"Khiêu chiến Beerus 1 lần",
+				"addPoint":10
+			},
+			{
+				"missionType":"consume",
+				"completeTime":100,
+				"desc":"Tiêu hao tích lũy 100 Gammets",
+				"addPoint":20
+			}
+		],
+		"reward":[
+			{
+				"needPoint":30,
+				"reward":[
+					{"id":"gold","count":20000}
+				]
+			},
+			{
+				"needPoint":50,
+				"reward":[
+					{"id":"151001","count":1}
+				]
+			},
+			{
+				"needPoint":75,
+				"reward":[
+					{"id":"170801","count":1}
+				]
+			},
+			{
+				"needPoint":90,
+				"reward":[
+					{"id":"ingot","count":30}
+				]
+			},
+			{
+				"needPoint":110,
+				"reward":[
+					{"id":"150901","count":50}
+				]
+			}
+		]
+	}
+}

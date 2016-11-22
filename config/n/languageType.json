@@ -1,0 +1,16 @@
+{
+	"languageType":{
+		"type":"EN",
+		"length":12,
+		"review":0,
+		"LoginScene":{
+			"password":"Account or email cannot be empty",
+			"loginName":"Default Account",
+			"loginFirst":"Please login first",
+			"loginFail":"Authentication failed, please login again",
+			"loginPingtai":"Please login via platform",
+			"name":"Guest",
+			"noHistory":"No history"
+		}
+	}
+}

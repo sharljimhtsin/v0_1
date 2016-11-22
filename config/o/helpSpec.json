@@ -1,0 +1,104 @@
+{			
+	"helpSpec":{		
+		"1":[	
+			"Team Lv",
+			"Your Lv is the Team's Lv. It determines the maximum of your Heroes Lv and Gear Lv. Your Heroes cannot exceed Team Lv x4. (Example: if your Lv is 25, your Heroes' Lv limit is 100.) Gear Lv cannot  exceed your Lv x3."
+		],	
+		"2":[	
+			"Team Fame",
+			"Collect Team Fame to Level up. You can obtain Team Fame from Journey fights and the Arena."
+		],	
+		"3":[	
+			"Zeni",
+			"In-game currency. Mainly used to draw Cards, upgrade Gear and merge Skills."
+		],	
+		"4":[	
+			"Gammets",
+			"Obtained by purchasing or obtained from events. Used for calling high grade Heroes and to get special items. "
+		],	
+		"5":[	
+			"Energy",
+			"Spent in Journey battles. You can recover 1 point every half hour."
+		],	
+		"6":[	
+			"Stamina",
+			"Spent in Arena battles. You can recover 1 point every half hour."
+		],	
+		"7":[	
+			"VIP",
+			"VIP has 15 levels. Higher levels enjoy more benefits. Purchase more to level up. You can view all benefits when selecting BUY from the main screen."
+		],	
+		"8":[	
+			"Hero Lv",
+			"Hero Lv determines a Hero's power. Better grade Heroes get more power after leveling up."
+		],	
+		"9":[	
+			"Hero Exp",
+			"Gain Hero Exp from Journey battles and Arena fights to upgrade your Hero's Lv."
+		],	
+		"10":[	
+			"Hero Grade",
+			"There are 4 Grades: S, A, B and C. S is the best. Higher Grade Heroes have better stats."
+		],	
+		"11":[	
+			"Hero Souls",
+			"You cannot have the same Hero twice. You can collect Souls to revive a Hero. Higher grade Heroes need more Souls."
+		],	
+		"12":[	
+			"HP",
+			"Hero's HP. Basic Stat: when it reaches 0, you're dead."
+		],	
+		"13":[	
+			"ATK",
+			"Hero's Attack. Basic Stat: determines the damage dealt to enemy."
+		],	
+		"14":[	
+			"DEF",
+			"Hero's Defense. Basic Stat: determines protection against damage."
+		],	
+		"15":[	
+			"SPI",
+			"Hero's Spirit. Basic Stat: determines the damage amount of skills."
+		],	
+		"16":[	
+			"Buffs",
+			"Any relationship between Heroes, Gear or Skills can increase stats."
+		],	
+		"17":[	
+			"Gear",
+			"Weapons, Armor and Extras that enchance Heroes' ATK, DEF and HP. Divided into 4 Grades: S, A, B and C."
+		],	
+		"18":[	
+			"Skills",
+			"There are 4 Grades: S, A, B and C. S & A Skills will have special effects during fights. Some skills can increase stats. Every Hero will have 1 skill of its own and 2 skills that can be learned."
+		],	
+		"19":[	
+			"Normal Round",
+			"The first 2 rounds of a battle is 1 VS 1. Every Hero fights his opponent. Round 2 will start when there is no winner after 5 turns. If there is no winner after Round 2, the fight enters the Final Round."
+		],	
+		"20":[	
+			"Final Round",
+			"In the Final Round, Spirit & HP will be matched between opponents. When Spirit runs out, HP will be used. When HP runs out, the winner is known."
+		],	
+		"21":[	
+			"Call",
+			"Here you can call Heroes and buy special items."
+		],	
+		"22":[	
+			"Journey",
+			"During your Journey, you'll encounter different enemies. Fight battles to win EXP, Zeni and Items. You can use Gammets to clear the Battle Count limit."
+		],	
+		"23":[	
+			"Arena",
+			"Join Arena fights to increase your ranking and win rewards."
+		],	
+		"24":[	
+			"Train - Steal",
+			"After you get a Skill Shard, you can steal other Shards to create a whole Skill. Select [Steal] to get more Shards (1 battle consumes Energy x1)."
+		],	
+		"25":[	
+			"Friends",
+			"You can add friends or take revenge on your enemies."
+		]	
+	}		
+}			

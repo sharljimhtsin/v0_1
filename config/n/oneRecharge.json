@@ -1,0 +1,32 @@
+{
+	"oneRecharge":{
+		"1":{
+			"list":[
+				{
+					"timeLimit":2,
+					"pay":30,
+					"reward":[
+						{"id":"150901","count":10},
+						{"id":"ingot","count":5}
+					]
+				},
+				{
+					"timeLimit":2,
+					"pay":100,
+					"reward":[
+						{"id":"150901","count":100},
+						{"id":"ingot","count":50}
+					]
+				},
+				{
+					"timeLimit":2,
+					"pay":300,
+					"reward":[
+						{"id":"150901","count":100},
+						{"id":"ingot","count":50}
+					]
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+  "version": "6.6.1",
+  "list": {
+    "configlist": {
+      "url": "configlist.json",
+      "version": "6.6.1",
+      "name": "configlist",
+      "serverPath": "http://dragonballsrc.gametrees.com/p91/v15032501/configlist/"
+    },
+    "material": {
+      "url": "material.json",
+      "version": "6.6.1",
+      "name": "material",
+      "serverPath": "http://dragonballsrc.gametrees.com/p91/v15032501/material/"
+    },
+    "oui": {
+      "url": "oui.json",
+      "version": "6.6.1",
+      "name": "oui",
+      "serverPath": "http://dragonballsrc.gametrees.com/p91/v15032501/oui/"
+    },
+    "scripts": {
+      "url": "scripts.json",
+      "version": "6.6.1",
+      "name": "scripts",
+      "serverPath": "http://dragonballsrc.gametrees.com/p91/v15032501/scripts/"
+    },
+    "resources": {
+      "url": "resources.json",
+      "version": "6.6.1",
+      "name": "resources",
+      "serverPath": "http://dragonballsrc.gametrees.com/p91/v15032501/resources/"
+    }
+  },
+  "serverEntrance": "http://dragonballf.gametrees.com/",
+  "isDebug": 0,
+  "debugPath": "http://127.0.0.1:1337/",
+  "platformId": "android"
+}

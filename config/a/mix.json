@@ -1,0 +1,25 @@
+{
+	"mix":
+	{
+		"hp":
+		{
+			"levelLimit":6,
+			"attrAdd":6
+		},
+		"attack":
+		{
+			"levelLimit":20,
+			"attrAdd":3
+		},
+		"defence":
+		{
+			"levelLimit":15,
+			"attrAdd":2
+		},
+		"spirit":
+		{
+			"levelLimit":10,
+			"attrAdd":8
+		}
+	}
+}

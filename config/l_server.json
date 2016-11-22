@@ -1,0 +1,476 @@
+﻿{
+    "loginDB":{
+        "redis":[
+            {
+                "port":6379,
+                "host":"localhost",
+                "select":0
+            }
+        ],
+        "mysql":[
+            {
+                "host":"localhost",
+                "user":"dragonball",
+                "password":"VGHPc(d63@2d",
+                "port":3306,
+                "database":"dragonlogin_l"
+            }
+        ]
+    },
+    "redis":{
+        "list":{
+            "1":{
+                "port":6379,
+                "host":"localhost",
+                "select":0
+            }
+        }
+    },
+    "serverList": {
+        "1": {
+            "id": 1,
+            "name": "孙悟空",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_1"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya1"
+        },
+        "2": {
+            "id": 2,
+            "name": "布尔玛",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_2"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya2"
+        },
+        "3": {
+            "id": 3,
+            "name": "克林",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_3"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya3"
+        },
+        "4": {
+            "id": 4,
+            "name": "龟仙屋",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_4"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya4"
+        },
+        "5": {
+            "id": 5,
+            "name": "好色乌龙",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_5"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya5"
+        },
+        "6": {
+            "id": 6,
+            "name": "乐平",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_6"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya6"
+        },
+        "7": {
+            "id": 7,
+            "name": "成龙先生",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_7"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya7"
+        },
+        "8": {
+            "id": 8,
+            "name": "天下第一武道会",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_8"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya8"
+        },
+        "9": {
+            "id": 9,
+            "name": "龟派气功",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_9"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya9"
+        },
+        "10": {
+            "id": 10,
+            "name": "红绸军团",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_10"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya10"
+        },
+        "11": {
+            "id": 11,
+            "name": "龙珠争夺战",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_11"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya11"
+        },
+        "12": {
+            "id": 12,
+            "name": "玛斯鲁塔",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_12"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya12"
+        },
+        "13": {
+            "id": 13,
+            "name": "人造人8号",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_13"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya13"
+        },
+        "14": {
+            "id": 14,
+            "name": "西之都",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_14"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya14"
+        },
+        "15": {
+            "id": 15,
+            "name": "卡琳塔的修行",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_15"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya15"
+        },
+        "16": {
+            "id": 16,
+            "name": "占卜婆婆",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_16"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya16"
+        },
+        "17": {
+            "id": 17,
+            "name": "饺子",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_17"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya17"
+        },
+        "18": {
+            "id": 18,
+            "name": "天津饭",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_18"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya18"
+        },
+        "19": {
+            "id": 19,
+            "name": "比克大魔王",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_19"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya19"
+        },
+        "20": {
+            "id": 20,
+            "name": "武泰斗老师",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_20"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya20"
+        },
+        "21": {
+            "id": 21,
+            "name": "魔少年",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_21"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya21"
+        },
+        "22": {
+            "id": 22,
+            "name": "神秘沈先生",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_22"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya22"
+        },
+        "23": {
+            "id": 23,
+            "name": "短笛",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_23"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya23"
+        },
+        "24": {
+            "id": 24,
+            "name": "拉蒂兹",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_24"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya24"
+        },
+        "25": {
+            "id": 25,
+            "name": "魔贯光杀炮",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_25"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya25"
+        },
+        "26": {
+            "id": 26,
+            "name": "赛亚人来袭",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_26"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya26"
+        },
+        "27": {
+            "id": 27,
+            "name": "贝吉塔",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_27"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya27"
+        },
+        "28": {
+            "id": 28,
+            "name": "孙悟饭",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_28"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya28"
+        },
+        "29": {
+            "id": 29,
+            "name": "元气弹",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_29"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya29"
+        },
+        "30": {
+            "id": 30,
+            "name": "基纽特战队",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPc(d63@2d",
+                "port": 3306,
+                "database": "dragongame_30"
+            },
+            "mongodb": "mongodb://localhost:27017/saiya30"
+        }
+    },
+    "configName":"l",
+    "adminDB":{
+        "host":"localhost",
+        "user":"dragonball",
+        "password":"VGHPc(d63@2d",
+        "database":"dragonadmin"
+    },
+    "rabbitmq":{
+        "conn":{"host": "localhost", "port":5672 , "login": "guest", "password": "guest"},
+        "option":{"type": "topic", "durable": true, "autoDelete": false, "confirm": true},
+        "exchange_name":"dbzsy_analy_ex_topic_",
+        "routing_key_name":"#log",
+        "queue_name":"dbzsy_analy_que_topic_"
+    },
+    "iosDB":{
+        "mysql":[
+            {
+                "host":"localhost",
+                "user":"dragonball",
+                "password":"VGHPc(d63@2d",
+                "port":3306,
+                "database":"dragonballios"
+            }
+        ]
+    }
+}

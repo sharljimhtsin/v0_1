@@ -1,0 +1,1085 @@
+{
+    "story":
+    {
+        "10001":
+            [
+                {
+                    "heroId":"102041",
+                    "sayText":"A, thắng rồi",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101008",
+                    "sayText":"Tên này cường tráng quá, lớn lên chắc chắn rất giỏi, he he...",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Mr. Sea Turtle...",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101001",
+                    "sayText":"Cám ơn cậu đã cứu tôi!",
+                    "position":"right",
+                    "rotate":1
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Ngươi là quả rất ngon",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101001",
+                    "sayText":"Í!? Hoàn toàn không ngon! Khó ăn chết được! He he...",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Quả thật, nhìn có vẻ không ngon",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101008",
+                    "sayText":" --! Tóm lại chúng ta chạy trước đi",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Ừ!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10002":
+            [
+                {
+                    "heroId":"101011",
+                    "sayText":"A, Yamcha, Yamcha!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102014",
+                    "sayText":"A, rụng răng, sưng mặt rồi!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102014",
+                    "sayText":"Gương mặt đẹp trai của ông đây bị hủy rồi! Sau này làm sao tán gái!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102014",
+                    "sayText":"Ranh con chờ đó!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Cứ vậy bỏ đi, một gã kỳ lạ...",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10003":
+            [
+                {
+                    "heroId":"101010",
+                    "sayText":"A, biến lại rồi",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102014",
+                    "sayText":"Không ngờ tiểu tử này lại biến lớn như vậy",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101008",
+                    "sayText":"Đúng đó, biến rất lớn, Oolong, đưa tôi cái đuôi đó được không, he he...",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101010",
+                    "sayText":"Anh bạn, bản lĩnh đâu rồi...",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10004":
+            [
+                {
+                    "heroId":"102041",
+                    "sayText":"Vậy Master Roshi, lần này có thể dạy chúng con quyền pháp chứ",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"A... Chắc là được rồi",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"Ngay từ đầu nói di chuyển đá chỉ là trêu chọc họ",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"Không ngờ hắn tưởng thật, còn di chuyển thật nữa",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"Hai đứa bé này thật ấn tượng...",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10005":
+            [
+                {
+                    "heroId":"102042",
+                    "sayText":"Goku, làm tốt lắm!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Ừm",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102042",
+                    "sayText":"Master Roshi chắc chắn cũng nhìn thấy rồi",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Chúng ta đi tìm hắn đi!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102042",
+                    "sayText":"Ừm",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10006":
+            [
+                {
+                    "heroId":"102002",
+                    "sayText":"Goku! Cậu còn sống sao?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Không sao, chỉ hơi đau thôi...",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102002",
+                    "sayText":"Tốt quá rồi, Goku...",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Ngược lại là cậu, chẳng phải bị đánh trúng sao, có sao không?",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102002",
+                    "sayText":"Ồ, ta là Android, chút này không làm ta bị thương được",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Ôi, Android quả là rất khó đánh bại...",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102002",
+                    "sayText":"Ủa? Hi hi...",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10007":
+            [
+                {
+                    "heroId":"103049",
+                    "sayText":"Ha ha...",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101026",
+                    "sayText":"Ha ha, bay ở đó kìa",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"A, cử động được rồi",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Hồi phục rồi, hồi phục rồi!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10008":
+            [
+                {
+                    "heroId":"102042",
+                    "sayText":"Cậu nói đã hạ tất cả người của Red Ribbon Army? Một mình cậu sao?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Ừm, những người còn lại trốn hết rồi...",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101008",
+                    "sayText":"Red Ribbon Army cả cảnh sát thấy cũng tè ra quần...",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101018",
+                    "sayText":"Không ngờ bị mình ngươi diệt đội...",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"Thật không tin được... Goku đã tăng sức mạnh rồi sao...",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10009":
+            [
+                {
+                    "heroId":"102041",
+                    "sayText":"Tôi thắng rồi, đưa Ngọc Rồng cho tôi đi!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101005",
+                    "sayText":"Được, cầm lấy đi...",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Phải rồi, còn một chuyện nữa...",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101005",
+                    "sayText":"Sao?",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"!#@$#$%%&^*&*(*&($#$!@!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Ha ha, cám ơn!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10010":
+            [
+                {
+                    "heroId":"102024",
+                    "sayText":"Không sai, tiếng vỗ tay, lời chúc phúc này, đều dành cho cậu",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"Bạn đã làm mọi người vô cùng kinh ngạc",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"Ngày tháng đen tối vì thù hận đã kết thúc rồi",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"Từ hôm nay, cậu đã tiến một bước",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"Cậu đã tiến thêm một bước đến thế giới đầy ánh sáng rồi",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103016",
+                    "sayText":"Master Roshi…",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10011":
+            [
+                {
+                    "heroId":"102041",
+                    "sayText":"Thắng rồi! Tôi thắng rồi!!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Master Roshi, Krillin, tôi trả thù giúp hai người rồi!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103009",
+                    "sayText":"Sao lại như vậy, King Piccolo ta lại bị đánh bại",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103009",
+                    "sayText":"Ta chỉ có thể nói cậu rất mạnh",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103009",
+                    "sayText":"Con tôi sẽ trả thù cho tôi!",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10012":
+            [
+                {
+                    "heroId":"102041",
+                    "sayText":"Thành công rồi! Cuối cùng tôi đã nín thở được!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103021",
+                    "sayText":"Không phải vậy, là thời gian Buff của Thuốc Sinh Mệnh tới rồi.",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Nói ra làm gì...",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10013":
+            [
+                {
+                    "heroId":"101034",
+                    "sayText":"Tuyển thủ Goku đã thắng trong Đại hội võ thuật Đệ Nhất Thiên Hạ!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"Giỏi quá!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"Giỏi quá!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102011",
+                    "sayText":"Đã an toàn rồi, cuối cùng cũng phân thắng bại...",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101024",
+                    "sayText":"Goku, cậu sao vậy, tôi đưa cậu tới bệnh viện",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102011",
+                    "sayText":"Không cần lo cho tên này, ta tới tặng Đậu Thần",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"A, cám ơn!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Hồi sinh đầy máu!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10014":
+            [
+                {
+                    "heroId":"103015",
+                    "sayText":"Kami, Garlic Jr. đâu?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103030",
+                    "sayText":"Hắn rơi vào vành đai tử vong do hắn tạo ra.",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103030",
+                    "sayText":"E là hắn đã hối hận vì được bất tử...",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Gohan!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103001",
+                    "sayText":"Ba! Quả nhiên ba đến cứu con rồi!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Gohan! Cậu không còn nhớ gì sao?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103001",
+                    "sayText":"Ba tôi quả là người mạnh nhất thế giới!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Gohan, chúng ta về nhà gặp mẹ đi!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"Goku... Rồi sẽ có ngày chúng ta phân cao thấp!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Nghĩ thầm: Có nên nói Chi-Chi biết thật ra Gohan đã tự cứu...",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10015":
+            [
+                {
+                    "heroId":"104015",
+                    "sayText":"Dùng hết sức ngăn cản hắn!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103001",
+                    "sayText":"Được!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"100056",
+                    "sayText":"Cái gì?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"Tại sao có mình ta bị đòn...",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"100056",
+                    "sayText":"Các ngươi hãy cùng Trái Đất hóa thành tro đi!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Ấm quá... Ấm quá.. Cám ơn mọi người",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Spirit Bomb!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"100056",
+                    "sayText":"A... Son... Goku...!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Piccolo! Làm tốt lắm!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"Thật ra là Gohan làm tốt!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10016":
+            [
+                {
+                    "heroId":"103052",
+                    "sayText":"Trong thời gian chờ hồi sinh, hãy thay quần áo đi.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Có thể thật sao? Giỏi quá! Tôi thấy thoải mái nhiều rồi.",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Cám ơn! King Kai",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Ký hiệu Rùa của ta còn! Ký hiệu của King Kai khá ngớ ngẩn.",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103052",
+                    "sayText":"Vậy thật chẳng thú vị! Ký hiệu trên lưng là đẹp nhất!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Tạm biệt King Kai, nếu lại chết nữa tôi sẽ tìm ông!",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10017":
+            [
+                {
+                    "heroId":"103015",
+                    "sayText":"Chết đi",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Khoan đã! Krillin, xin lỗi, xin hãy để hắn đi!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"Cậu tưởng tên này sửa đổi như Piccolo sao?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"Hắn là Saiyan tà ác",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Tôi muốn tu luyện lần nữa, rồi đấu với hắn lần nữa!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"Ta biết rồi! Trái đất được như hôm nay hoàn toàn là vì nỗ lực của cậu!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"Nhưng mà Goku lần sau nhất định phải dùng thực lực mạnh ơn để hạ gục hắn!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Ta biết rồi!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103003",
+                    "sayText":"Đám rác rưởi các ngươi nhớ đó cho ta",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103003",
+                    "sayText":"Kỳ tích sẽ không xảy ra lần hai, các ngươi cứ rửa cổ chờ đó!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10018":
+            [
+                {
+                    "heroId":"103002",
+                    "sayText":"9999...10000... Tốt quá, dường như không cảm thấy mệt mỏi nữa",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Thật khiến tôi không dám tin! Tu luyện tạm dừng ở đây!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Hồi phục trọng lực ban đầu gây ra Kaio-ken gấp 10 cũng không thành vấn đề!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103017",
+                    "sayText":"Ginyu Force, ta đợi các ngươi lâu rồi!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103036",
+                    "sayText":"Recoome!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103040",
+                    "sayText":"Burter!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103035",
+                    "sayText":"Jeice!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103039",
+                    "sayText":"Guldo!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103034",
+                    "sayText":"Ginyu! Tất cả hợp thể! Đội Ginyu!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10019":
+            [
+                {
+                    "heroId":"103015",
+                    "sayText":"Gohan! Xem ra Vegeta không cầm cự được bao lâu nữa!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"Giờ chúng ta không còn lựa chọn khác, liên thủ tấn công hắn đi!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103008",
+                    "sayText":"Được!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"Hùng hồn quá, các ngươi vốn không có cơ hội thắng...",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103017",
+                    "sayText":"Dĩ nhiên rồi, các ngươi tưởng 3 con kiến hợp lại đánh bại khủng long được sao?",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103003",
+                    "sayText":"Dĩ nhiên có cách! Ba chúng ta liên thủ, huống chi tôi sắp biến thành Super Saiyan Goku!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103017",
+                    "sayText":"Ta sẽ giết ngươi trước!",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10020":
+            [
+                {
+                    "heroId":"104001",
+                    "sayText":"Trái đất này không lâu nữa sẽ nổ tung, để xem ngươi trốn đi đâu!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104001",
+                    "sayText":"Thật nực cười! Kẻ chiến thắng là ngươi lại chết trên đảo này! Còn ta lại được cứu!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104013",
+                    "sayText":"Ta nhất định sống sót cho ngươi thấy! Ta không chơi nữa!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104001",
+                    "sayText":"Ngươi nói cái gì? \"Không chơi nữa\" là sao?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104013",
+                    "sayText":"Ta nói người bị đánh gục run rẩy thật chẳng có ý nghĩa gì!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104013",
+                    "sayText":"Ngươi cứ ôm đả kích tự tôn nặng nề lê lết sống tiếp đi!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104001",
+                    "sayText":"Ta là người mạnh nhất vũ trụ, Ta là Frieza vua Vũ Trụ",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104001",
+                    "sayText":"Đúng ra ngươi... Bị ta giết mới đúng!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104013",
+                    "sayText":"Tên ngốc ngu xuẩn!",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10021":
+            [
+                {
+                    "heroId":"103051",
+                    "sayText":"Chết đi! Chết đi! Đây chẳng đáng là gì!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103051",
+                    "sayText":"Cái gì? Dám giở trò này với ta, ranh con đáng chết lại không chết!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"Nhân lúc này, Gohan!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"Ra tay!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103051",
+                    "sayText":"Ngươi nói cái gì! Lần này nguy rồi! A...",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103001",
+                    "sayText":"Chú Krillin! Chú Piccolo! Hai chú ở đâu?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"Lúc nãy quả cú đánh ngàn cân! Cũng may ngươi đã hủy Makyo!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"Lần này Makyo bị tiêu diệt rồi, họ sẽ không thể hồi sinh nữa.",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10022":
+            [
+                {
+                    "heroId":"103007",
+                    "sayText":"Mong ông Son giúp tôi giữ bí mật chuyện vừa nói",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Yên tâm, tôi rất kín miệng",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"Ngại quá, các người đã xem thường thính lực của người Namek, thật ra tôi nghe hết rồi",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103007",
+                    "sayText":"Cậu đang đùa à!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"Yên tâm đi, tôi sẽ không nói với họ",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103007",
+                    "sayText":"Làm ơn giúp giùm (='_'=)",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"Khách sáo gì chứ! = =#",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10023":
+            [
+                {
+                    "heroId":"103015",
+                    "sayText":"Go... Goku",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103001",
+                    "sayText":"Ba...",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103001",
+                    "sayText":"Ba!!!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Mau... Mau đưa ta Đậu Thần...",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Ha ha, lần này lại được Đậu Thần cứu rồi",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Piccolo đâu rồi?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"Hắn ăn Đậu Thần rồi một mình không biết đi đâu rồi",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10024":
+            [
+            ],
+        "10025":
+            [
+            ],
+        "10026":
+            [
+            ],
+        "10027":
+            [
+            ],
+        "10028":
+            [
+            ],
+        "10029":
+            [
+            ],
+        "10030":
+            [
+            ],
+        "10031":
+            [
+            ],
+        "10032":
+            [
+            ],
+        "10033":
+            [
+            ],
+        "10034":
+            [
+            ],
+        "10035":
+            [
+            ],
+        "10036":
+            [
+            ],
+        "10037":
+            [
+            ],
+        "10038":
+            [
+            ],
+        "10039":
+            [
+            ],
+        "10040":
+            [
+            ],
+        "10041":
+            [
+            ],
+        "10042":
+            [
+            ],
+        "10043":
+            [
+            ],
+        "10044":
+            [
+            ],
+        "10045":
+            [
+            ],
+        "10046":
+            [
+            ],
+        "10047":
+            [
+            ],
+        "10048":
+            [
+            ],
+        "10049":
+            [
+            ],
+        "10050":
+            [
+            ]
+    }
+}

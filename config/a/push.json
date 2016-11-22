@@ -1,0 +1,23 @@
+{
+	"push":{
+		"task":[
+			{"name":"pvePower","addFn":"addPvePower","msg":"勇敢的赛亚族战士，您的体力已完全恢复，您的战士已按耐不住了！","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"pvpPower","addFn":"addPvpPower","msg":"勇敢的赛亚族战士，您的精力已完全恢复，赶紧去激战打排位赛咯！","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"eatbean12","h":12,"msg":"勇敢的赛亚族战士，赶紧上线领取免费仙豆唷！","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"eatbean18","h":18,"msg":"勇敢的赛亚族战士，赶紧上线领取免费仙豆唷！","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"eatbean12","d":1,"h":12,"msg":"勇敢的赛亚族战士，赶紧上线领取免费仙豆唷！","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"eatbean18","d":1,"h":18,"msg":"勇敢的赛亚族战士，赶紧上线领取免费仙豆唷！","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"eatbean12","d":2,"h":12,"msg":"勇敢的赛亚族战士，赶紧上线领取免费仙豆唷！","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"eatbean18","d":2,"h":18,"msg":"勇敢的赛亚族战士，赶紧上线领取免费仙豆唷！","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"worldBoss","h":12,"m":25,"msg":"破坏神比鲁斯即将来袭，您准备好了吗！","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"worldBoss","d":1,"h":12,"m":25,"msg":"破坏神比鲁斯即将来袭，您准备好了吗！","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"worldBoss","d":2,"h":12,"m":25,"msg":"破坏神比鲁斯即将来袭，您准备好了吗！","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"daily","d":1,"msg":"找水晶婆婆占卜，装备饰品任您选哦！","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"daily","d":2,"msg":"找水晶婆婆占卜，装备饰品任您选哦！","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"daily","d":3,"msg":"找水晶婆婆占卜，装备饰品任您选哦！","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"logout3","d":3,"addFn":"addNow","msg":"您好久没来了，修行不能懈怠啊，快回来冒险吧！","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}},
+			{"name":"logout7","d":7,"addFn":"addNow","msg":"您好久没来了，修行不能懈怠啊，快回来冒险吧！","sound":"ping.aiff","payload":{"messageFrom":"Caroline"}}
+		],
+		"options":null
+	}
+}

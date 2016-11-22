@@ -1,0 +1,75 @@
+﻿{
+    "loginDB":{
+        "redis":[
+            {
+                "port":7400,
+                "host":"192.168.4.26",
+                "select":0
+            },
+            {
+                "port":7400,
+                "host":"192.168.4.26",
+                "select":0
+            }
+        ],
+        "mysql":[
+            {
+                "host":"192.168.4.26",
+                "user":"root",
+                "password":"GewgH49Z7/iWw",
+                "port":3312,
+                "database":"dragonlogin_q"
+            }
+        ]
+    },
+    "redis":{
+        "list":{
+            "1":{
+                "port":7400,
+                "host":"192.168.4.26",
+                "select":0
+            },
+            "2":{
+                "port":7400,
+                "host":"192.168.4.26",
+                "select":0
+            }
+        }
+    },
+    "serverList":{
+        "1":{
+            "id":"1",
+            "name":"超級神奇拳",
+            "sTime": 1440148800,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.26",
+                "user":"root",
+                "password":"GewgH49Z7/iWw",
+                "port":3312,
+                "database":"dbzthaixy_1"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game1thaixy"
+        }
+    },
+    "configName":"q",
+    "adminDB":{
+        "host":"192.168.4.26",
+        "user":"root",
+        "password":"GewgH49Z7/iWw",
+        "port":3312,
+        "database":"dragonadmin"
+    },
+    "rabbitmq":{
+        "conn": {
+            "host": "192.168.4.99",
+            "port": 5672,
+            "login": "guest",
+            "password": "guest"
+        },
+        "option":{"type": "topic", "durable": true, "autoDelete": false, "confirm": true},
+        "exchange_name":"dbz_analy_ex_topic_",
+        "routing_key_name":"#log",
+        "queue_name":"dbz_analy_que_topic_"
+    }
+}

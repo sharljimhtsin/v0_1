@@ -1,0 +1,23 @@
+{
+	"mail":{
+		"bloodBattleRankReward":"您的队伍在封印地狱门中表现神勇，进入排行榜，特发排行奖励，请点击【领取】按钮领取奖励。",
+		"worldBossRankReward":"您的队伍在比鲁斯的试炼中表现神勇，进入排行榜，特发排行奖励，请点击【领取】按钮领取奖励。",
+		"worldBossLastBeatReward":"您的队伍最终击杀了比鲁斯，特发奖励，请点击【领取】按钮领取奖励。",
+		"pvpRankDown":"您在激战中被{0}击败，排名降至第{1}名。",
+		"pvpPatchLost":"您在招式抢夺中被{0}击败，失去了{1}。",
+		"monthCardReward":"您本次月卡共有{0}伊美加币，{1}仙豆未领取，请点击【领取】按钮领取奖励。",
+		"pvpRankDailyReward":"每日激战排名奖励。",
+		"leagueMap":"您在联盟副本{0}中，贡献的伤害最高，特发奖励，请点击【领取】按钮领取奖励。",
+		"leagueMapFail":"您在联盟副本物品竞拍中失败，归还您{1}竞拍贡献值，请点击【领取】按钮收取。",
+		"leagueMapSuccess":"您在联盟副本物品竞拍中成功，请点击【领取】按钮领取您竞拍物品。",
+		"groupPurchaseReward":"恭喜你在团购活动中获得了第{0}个宝箱的奖励，请点击【领取】按钮领取奖励",
+		"tabletsClickReward":"恭喜你预测大界王神成功，请点击【领取】按钮领取奖励。",
+		"cosmosBossRankReward":"您的隊伍在超宇宙的挑戰中表現神勇，進入排行榜，特發排行獎勵，請點擊【領取】按鈕領取獎勵。",
+		"cosmosBossLastBeatReward":"您的隊伍最終擊殺了圖菈，特發獎勵，請點擊【領取】按鈕領取獎勵。",
+		"gemCompose":" ",
+		"gemComposeReward":" ",
+		"finalRewardStr":"最终奖励",
+		"rankRewardStr":"排名奖励",
+		"vipClubRewardStr":"vip俱乐部奖励"
+	}
+}

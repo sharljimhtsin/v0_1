@@ -1,0 +1,17 @@
+{
+    "monthCard":
+    {
+        "thirty":
+        {
+            "ingot":300,
+            "payAll":30,
+            "back":{"ingot":20, "151001":2}
+        },
+        "fifty":
+        {
+            "ingot":500,
+            "payAll":15,
+            "back":{"ingot":50, "151001":3}
+        }
+    }
+}

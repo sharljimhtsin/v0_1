@@ -1,0 +1,39 @@
+{
+  "version": "6.5.7",
+  "list": {
+    "configlist": {
+      "url": "configlist.json",
+      "version": "6.5.7",
+      "name": "configlist",
+      "serverPath": "http://dbzsrc-df.gameforest.in.th/androidsrc/v15040801/configlist/"
+    },
+    "material": {
+      "url": "material.json",
+      "version": "6.5.7",
+      "name": "material",
+      "serverPath": "http://dbzsrc-df.gameforest.in.th/androidsrc/v15040801/material/"
+    },
+    "oui": {
+      "url": "oui.json",
+      "version": "6.5.7",
+      "name": "oui",
+      "serverPath": "http://dbzsrc-df.gameforest.in.th/androidsrc/v15040801/oui/"
+    },
+    "scripts": {
+      "url": "scripts.json",
+      "version": "6.5.7",
+      "name": "scripts",
+      "serverPath": "http://dbzsrc-df.gameforest.in.th/androidsrc/v15040801/scripts/"
+    },
+    "resources": {
+      "url": "resources.json",
+      "version": "6.5.7",
+      "name": "resources",
+      "serverPath": "http://dbzsrc-df.gameforest.in.th/androidsrc/v15040801/resources/"
+    }
+  },
+  "serverEntrance": "http://dbz-df.gameforest.in.th/",
+  "isDebug": 0,
+  "debugPath": "http://127.0.0.1:1337/",
+  "platformId": "thai"
+}

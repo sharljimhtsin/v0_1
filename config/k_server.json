@@ -1,0 +1,1331 @@
+﻿{
+    "loginDB":{
+        "redis":[
+            {
+                "port":6379,
+                "host":"localhost",
+                "select":0
+            }
+        ],
+        "mysql":[
+            {
+                "host":"localhost",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragonlogin_k"
+            }
+        ]
+    },
+    "redis":{
+        "list":{
+            "1":{
+                "port":6379,
+                "host":"localhost",
+                "select":0
+            }
+        }
+    },
+    "serverList": {
+        "1": {
+            "id": 1,
+            "name": "СуперСаньян",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_1"
+            },
+            "mongodb": "mongodb://localhost:27017/rus1"
+        },
+        "2": {
+            "id": 2,
+            "name": "Будокаи",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_2"
+            },
+            "mongodb": "mongodb://localhost:27017/rus2"
+        },
+        "3": {
+            "id": 3,
+            "name": "Капсула",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_3"
+            },
+            "mongodb": "mongodb://localhost:27017/rus3"
+        },
+        "4": {
+            "id": 4,
+            "name": "Мертвая зона",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_4"
+            },
+            "mongodb": "mongodb://localhost:27017/rus4"
+        },
+        "5": {
+            "id": 5,
+            "name": "Земля",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_5"
+            },
+            "mongodb": "mongodb://localhost:27017/rus5"
+        },
+        "6": {
+            "id": 6,
+            "name": "Хвост Гоку",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_6"
+            },
+            "mongodb": "mongodb://localhost:27017/rus6"
+        },
+        "7": {
+            "id": 7,
+            "name": "Черепаха Шелл",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_7"
+            },
+            "mongodb": "mongodb://localhost:27017/rus7"
+        },
+        "8": {
+            "id": 8,
+            "name": "Месть",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_8"
+            },
+            "mongodb": "mongodb://localhost:27017/rus8"
+        },
+        "9": {
+            "id": 9,
+            "name": "Лорд Слаг",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_9"
+            },
+            "mongodb": "mongodb://localhost:27017/rus9"
+        },
+        "10": {
+            "id": 10,
+            "name": "Макян",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_10"
+            },
+            "mongodb": "mongodb://localhost:27017/rus10"
+        },
+        "11": {
+            "id": 11,
+            "name": "Ники",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_11"
+            },
+            "mongodb": "mongodb://localhost:27017/rus11"
+        },
+        "12": {
+            "id": 12,
+            "name": "Силовое Поле",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_12"
+            },
+            "mongodb": "mongodb://localhost:27017/rus12"
+        },
+        "13": {
+            "id": 13,
+            "name": "Пан",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_13"
+            },
+            "mongodb": "mongodb://localhost:27017/rus13"
+        },
+        "14": {
+            "id": 14,
+            "name": "Красная лента",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_14"
+            },
+            "mongodb": "mongodb://localhost:27017/rus14"
+        },
+        "15": {
+            "id": 15,
+            "name": "Приключения",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_15"
+            },
+            "mongodb": "mongodb://localhost:27017/rus15"
+        },
+        "16": {
+            "id": 16,
+            "name": "Ююб",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_16"
+            },
+            "mongodb": "mongodb://localhost:27017/rus16"
+        },
+        "17": {
+            "id": 17,
+            "name": "Уксус",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_17"
+            },
+            "mongodb": "mongodb://localhost:27017/rus17"
+        },
+        "18": {
+            "id": 18,
+            "name": "Фортунетеллер",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_18"
+            },
+            "mongodb": "mongodb://localhost:27017/rus18"
+        },
+        "19": {
+            "id": 19,
+            "name": "Кроличьи уши",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_19"
+            },
+            "mongodb": "mongodb://localhost:27017/rus19"
+        },
+        "20": {
+            "id": 20,
+            "name": "Яджиробе",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_20"
+            },
+            "mongodb": "mongodb://localhost:27017/rus20"
+        },
+        "21": {
+            "id": 21,
+            "name": "Подушка Булма",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_21"
+            },
+            "mongodb": "mongodb://localhost:27017/rus21"
+        },
+        "22": {
+            "id": 22,
+            "name": "Скутер",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_22"
+            },
+            "mongodb": "mongodb://localhost:27017/rus22"
+        },
+        "23": {
+            "id": 23,
+            "name": "Фрай-Пан",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_23"
+            },
+            "mongodb": "mongodb://localhost:27017/rus23"
+        },
+        "24": {
+            "id": 24,
+            "name": "Гарлик",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_24"
+            },
+            "mongodb": "mongodb://localhost:27017/rus24"
+        },
+        "25": {
+            "id": 25,
+            "name": "Рекоом",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_25"
+            },
+            "mongodb": "mongodb://localhost:27017/rus25"
+        },
+        "26": {
+            "id": 26,
+            "name": "Вайдел",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_26"
+            },
+            "mongodb": "mongodb://localhost:27017/rus26"
+        },
+        "27": {
+            "id": 27,
+            "name": "Джейс",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_27"
+            },
+            "mongodb": "mongodb://localhost:27017/rus27"
+        },
+        "28": {
+            "id": 28,
+            "name": "Каио-кен",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_28"
+            },
+            "mongodb": "mongodb://localhost:27017/rus28"
+        },
+        "29": {
+            "id": 29,
+            "name": "Корин",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_29"
+            },
+            "mongodb": "mongodb://localhost:27017/rus29"
+        },
+        "30": {
+            "id": 30,
+            "name": "Мустард",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_30"
+            },
+            "mongodb": "mongodb://localhost:27017/rus30"
+        },
+        "31": {
+            "id": 31,
+            "name": "Неко Маджин",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_31"
+            },
+            "mongodb": "mongodb://localhost:27017/rus31"
+        },
+        "32": {
+            "id": 32,
+            "name": "Гоку",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_32"
+            },
+            "mongodb": "mongodb://localhost:27017/rus32"
+        },
+        "33": {
+            "id": 33,
+            "name": "Вегета",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_33"
+            },
+            "mongodb": "mongodb://localhost:27017/rus33"
+        },
+        "34": {
+            "id": 34,
+            "name": "Капитан Гинуи",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_34"
+            },
+            "mongodb": "mongodb://localhost:27017/rus34"
+        },
+        "35": {
+            "id": 35,
+            "name": "Стволы",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_35"
+            },
+            "mongodb": "mongodb://localhost:27017/rus35"
+        },
+        "36": {
+            "id": 36,
+            "name": "Гохан",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_36"
+            },
+            "mongodb": "mongodb://localhost:27017/rus36"
+        },
+        "37": {
+            "id": 37,
+            "name": "Курилин",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_37"
+            },
+            "mongodb": "mongodb://localhost:27017/rus37"
+        },
+        "38": {
+            "id": 38,
+            "name": "Пикколо",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_38"
+            },
+            "mongodb": "mongodb://localhost:27017/rus38"
+        },
+        "39": {
+            "id": 39,
+            "name": "Андроид 8",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_39"
+            },
+            "mongodb": "mongodb://localhost:27017/rus39"
+        },
+        "40": {
+            "id": 40,
+            "name": "Фриеза",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_40"
+            },
+            "mongodb": "mongodb://localhost:27017/rus40"
+        },
+        "41": {
+            "id": 41,
+            "name": "Куриза",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_41"
+            },
+            "mongodb": "mongodb://localhost:27017/rus41"
+        },
+        "42": {
+            "id": 42,
+            "name": "Готен",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_42"
+            },
+            "mongodb": "mongodb://localhost:27017/rus42"
+        },
+        "43": {
+            "id": 43,
+            "name": "Маджин Буу",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_43"
+            },
+            "mongodb": "mongodb://localhost:27017/rus43"
+        },
+        "44": {
+            "id": 44,
+            "name": "Малыш Буу",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_44"
+            },
+            "mongodb": "mongodb://localhost:27017/rus44"
+        },
+        "45": {
+            "id": 45,
+            "name": "Супер Буу",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_45"
+            },
+            "mongodb": "mongodb://localhost:27017/rus45"
+        },
+        "46": {
+            "id": 46,
+            "name": "Бардок",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_46"
+            },
+            "mongodb": "mongodb://localhost:27017/rus46"
+        },
+        "47": {
+            "id": 47,
+            "name": "Радитс",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_47"
+            },
+            "mongodb": "mongodb://localhost:27017/rus47"
+        },
+        "48": {
+            "id": 48,
+            "name": "Андроид 17",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_48"
+            },
+            "mongodb": "mongodb://localhost:27017/rus48"
+        },
+        "49": {
+            "id": 49,
+            "name": "Андроид 18",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_49"
+            },
+            "mongodb": "mongodb://localhost:27017/rus49"
+        },
+        "50": {
+            "id": 50,
+            "name": "Броли",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_50"
+            },
+            "mongodb": "mongodb://localhost:27017/rus50"
+        },
+        "51": {
+            "id": 51,
+            "name": "Наппа",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_51"
+            },
+            "mongodb": "mongodb://localhost:27017/rus51"
+        },
+        "52": {
+            "id": 52,
+            "name": "Oкс-король",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_52"
+            },
+            "mongodb": "mongodb://localhost:27017/rus52"
+        },
+        "53": {
+            "id": 53,
+            "name": "Чаотцу",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_53"
+            },
+            "mongodb": "mongodb://localhost:27017/rus53"
+        },
+        "54": {
+            "id": 54,
+            "name": "Невозмутимый",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_54"
+            },
+            "mongodb": "mongodb://localhost:27017/rus54"
+        },
+        "55": {
+            "id": 55,
+            "name": "Яамча",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_55"
+            },
+            "mongodb": "mongodb://localhost:27017/rus55"
+        },
+        "56": {
+            "id": 56,
+            "name": "Зарбон",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_56"
+            },
+            "mongodb": "mongodb://localhost:27017/rus56"
+        },
+        "57": {
+            "id": 57,
+            "name": "Король Кай",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_57"
+            },
+            "mongodb": "mongodb://localhost:27017/rus57"
+        },
+        "58": {
+            "id": 58,
+            "name": "Чи-Чи",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_58"
+            },
+            "mongodb": "mongodb://localhost:27017/rus58"
+        },
+        "59": {
+            "id": 59,
+            "name": "Доктор Геро",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_59"
+            },
+            "mongodb": "mongodb://localhost:27017/rus59"
+        },
+        "60": {
+            "id": 60,
+            "name": "Булма",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_60"
+            },
+            "mongodb": "mongodb://localhost:27017/rus60"
+        },
+        "61": {
+            "id": 61,
+            "name": "Улун",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_61"
+            },
+            "mongodb": "mongodb://localhost:27017/rus61"
+        },
+        "62": {
+            "id": 62,
+            "name": "Тьен Шинхан",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_62"
+            },
+            "mongodb": "mongodb://localhost:27017/rus62"
+        },
+        "63": {
+            "id": 63,
+            "name": "Пуар",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_63"
+            },
+            "mongodb": "mongodb://localhost:27017/rus63"
+        },
+        "64": {
+            "id": 64,
+            "name": "ТаоПайПай",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_64"
+            },
+            "mongodb": "mongodb://localhost:27017/rus64"
+        },
+        "65": {
+            "id": 65,
+            "name": "Мистер Попо",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_65"
+            },
+            "mongodb": "mongodb://localhost:27017/rus65"
+        },
+        "66": {
+            "id": 66,
+            "name": "Беерус",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_66"
+            },
+            "mongodb": "mongodb://localhost:27017/rus66"
+        },
+        "67": {
+            "id": 67,
+            "name": "Ками",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_67"
+            },
+            "mongodb": "mongodb://localhost:27017/rus67"
+        },
+        "68": {
+            "id": 68,
+            "name": "Шенрон",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_68"
+            },
+            "mongodb": "mongodb://localhost:27017/rus68"
+        },
+        "69": {
+            "id": 69,
+            "name": "Атомный взрыв",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_69"
+            },
+            "mongodb": "mongodb://localhost:27017/rus69"
+        },
+        "70": {
+            "id": 70,
+            "name": "Взрыв луча",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_70"
+            },
+            "mongodb": "mongodb://localhost:27017/rus70"
+        },
+        "71": {
+            "id": 71,
+            "name": "Смерть Болла",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_71"
+            },
+            "mongodb": "mongodb://localhost:27017/rus71"
+        },
+        "72": {
+            "id": 72,
+            "name": "Лазерные глаза",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_72"
+            },
+            "mongodb": "mongodb://localhost:27017/rus72"
+        },
+        "73": {
+            "id": 73,
+            "name": "Луч из пальца",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_73"
+            },
+            "mongodb": "mongodb://localhost:27017/rus73"
+        },
+        "74": {
+            "id": 74,
+            "name": "Вспышка Ада",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_74"
+            },
+            "mongodb": "mongodb://localhost:27017/rus74"
+        },
+        "75": {
+            "id": 75,
+            "name": "Камехэмеха",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_75"
+            },
+            "mongodb": "mongodb://localhost:27017/rus75"
+        },
+        "76": {
+            "id": 76,
+            "name": "Свет Стрелы",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_76"
+            },
+            "mongodb": "mongodb://localhost:27017/rus76"
+        },
+        "77": {
+            "id": 77,
+            "name": "Орга Бластер",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_77"
+            },
+            "mongodb": "mongodb://localhost:27017/rus77"
+        },
+        "78": {
+            "id": 78,
+            "name": "Быстрый огонь",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_78"
+            },
+            "mongodb": "mongodb://localhost:27017/rus78"
+        },
+        "79": {
+            "id": 79,
+            "name": "Дух бомба",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_79"
+            },
+            "mongodb": "mongodb://localhost:27017/rus79"
+        },
+        "80": {
+            "id": 80,
+            "name": "Вайдер порыв",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_80"
+            },
+            "mongodb": "mongodb://localhost:27017/rus80"
+        },
+        "81": {
+            "id": 81,
+            "name": "Ластик Кэннон",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_81"
+            },
+            "mongodb": "mongodb://localhost:27017/rus81"
+        },
+        "82": {
+            "id": 82,
+            "name": "Энергия Шквал",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_82"
+            },
+            "mongodb": "mongodb://localhost:27017/rus82"
+        },
+        "83": {
+            "id": 83,
+            "name": "Кулак Занку",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_83"
+            },
+            "mongodb": "mongodb://localhost:27017/rus83"
+        },
+        "84": {
+            "id": 84,
+            "name": "Арм-брейк",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_84"
+            },
+            "mongodb": "mongodb://localhost:27017/rus84"
+        },
+        "85": {
+            "id": 85,
+            "name": "Приматы",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_85"
+            },
+            "mongodb": "mongodb://localhost:27017/rus85"
+        },
+        "86": {
+            "id": 86,
+            "name": "ГРАД Фриезы",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_86"
+            },
+            "mongodb": "mongodb://localhost:27017/rus86"
+        },
+        "87": {
+            "id": 87,
+            "name": "Перехват",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_87"
+            },
+            "mongodb": "mongodb://localhost:27017/rus87"
+        },
+        "88": {
+            "id": 88,
+            "name": "Джет Белка",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_88"
+            },
+            "mongodb": "mongodb://localhost:27017/rus88"
+        },
+        "89": {
+            "id": 89,
+            "name": "Ки Сетсе",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_89"
+            },
+            "mongodb": "mongodb://localhost:27017/rus89"
+        },
+        "90": {
+            "id": 90,
+            "name": "СветБластера",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_90"
+            },
+            "mongodb": "mongodb://localhost:27017/rus90"
+        },
+        "91": {
+            "id": 91,
+            "name": "Масенко",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "localhost",
+                "user": "dragonball",
+                "password": "VGHPcj)f^vn820",
+                "port": 3306,
+                "database": "dragongame_91"
+            },
+            "mongodb": "mongodb://localhost:27017/rus91"
+        }
+    },
+    "configName":"k",
+    "adminDB":{
+        "host":"localhost",
+        "user":"dragonball",
+        "password":"VGHPcj)f^vn820",
+        "port":3306,
+        "database":"dragonadmin"
+    },
+    "rabbitmq":{
+        "conn":{"host": "localhost", "port":5672 , "login": "guest", "password": "guest"},
+        "option":{"type": "topic", "durable": true, "autoDelete": false, "confirm": true},
+        "exchange_name":"dbz_analy_ex_topic_",
+        "routing_key_name":"#log",
+        "queue_name":"dbz_analy_que_topic_"
+    },
+    "iosDB":{
+        "mysql":[
+            {
+                "host":"localhost",
+                "user":"dragonball",
+                "password":"VGHPcj)f^vn820",
+                "port":3306,
+                "database":"dragonballios"
+            }
+        ]
+    }
+}

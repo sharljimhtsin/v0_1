@@ -1,0 +1,392 @@
+[
+    {
+        "userUid": 17196647303,
+        "city": 1,
+        "user": [
+            {
+                "userUid": 17196647303,
+                "userName": "超級弗萊亞",
+                "exp": 59542,
+                "gold": 306459,
+                "ingot": 1104,
+                "pvePower": 0,
+                "lastRecoverPvePower": 1400169771,
+                "pvpPower": 8,
+                "lastRecoverPvpPower": 1400170289,
+                "vip": 8,
+                "monthCard": "fifty",
+                "monthCardTime": 1402070400,
+                "cumulativePay": 0,
+                "momentum": 0,
+                "status": 1,
+                "createTime": 1399389416,
+                "platformId": "ios",
+                "pUserId": "kkmm73190@163.com"
+            }
+        ]
+    },
+    {
+        "userUid": 17196779865,
+        "city": 1,
+        "user": [
+            {
+                "userUid": 17196779865,
+                "userName": "离火",
+                "exp": 107089,
+                "gold": 1333802,
+                "ingot": 21458,
+                "pvePower": 0,
+                "lastRecoverPvePower": 1400170266,
+                "pvpPower": 0,
+                "lastRecoverPvpPower": 1400172584,
+                "vip": 11,
+                "monthCard": "fifty",
+                "monthCardTime": 1402156800,
+                "cumulativePay": 0,
+                "momentum": 0,
+                "status": 1,
+                "createTime": 1399564324,
+                "platformId": "ios",
+                "pUserId": "ran_raypo@163.com"
+            }
+        ]
+    },
+    {
+        "userUid": 17196648514,
+        "city": 1,
+        "user": [
+            {
+                "userUid": 17196648514,
+                "userName": "印象松岛枫",
+                "exp": 92865,
+                "gold": 1626779,
+                "ingot": 11,
+                "pvePower": 7,
+                "lastRecoverPvePower": 1400171000,
+                "pvpPower": 0,
+                "lastRecoverPvpPower": 1400169854,
+                "vip": 9,
+                "monthCard": "fifty",
+                "monthCardTime": 1401984000,
+                "cumulativePay": 0,
+                "momentum": 0,
+                "status": 1,
+                "createTime": 1399472060,
+                "platformId": "ios",
+                "pUserId": "zzj84122263@aliyun.com"
+            }
+        ]
+    },
+    {
+        "userUid": 17213439196,
+        "city": 2,
+        "user": [
+            {
+                "userUid": 17213439196,
+                "userName": "一刀喷血",
+                "exp": 92159,
+                "gold": 749147,
+                "ingot": 892,
+                "pvePower": 2,
+                "lastRecoverPvePower": 1400169326,
+                "pvpPower": 0,
+                "lastRecoverPvpPower": 1400168249,
+                "vip": 8,
+                "monthCard": "fifty",
+                "monthCardTime": 1402156800,
+                "cumulativePay": 0,
+                "momentum": 0,
+                "status": 1,
+                "createTime": 1399624291,
+                "platformId": "ios",
+                "pUserId": "2523470545@qq.com"
+            }
+        ]
+    },
+    {
+        "userUid": 17213424393,
+        "city": 2,
+        "user": [
+            {
+                "userUid": 17213424393,
+                "userName": "贝吉塔",
+                "exp": 92161,
+                "gold": 4686078,
+                "ingot": 13,
+                "pvePower": 0,
+                "lastRecoverPvePower": 1400171360,
+                "pvpPower": 0,
+                "lastRecoverPvpPower": 1400171059,
+                "vip": 9,
+                "monthCard": "fifty",
+                "monthCardTime": 1402156800,
+                "cumulativePay": 0,
+                "momentum": 0,
+                "status": 1,
+                "createTime": 1399615640,
+                "platformId": "ios",
+                "pUserId": "346016806@qq.com"
+            }
+        ]
+    },
+    {
+        "userUid": 17213509904,
+        "city": 2,
+        "user": [
+            {
+                "userUid": 17213509904,
+                "userName": "千兵衛之助",
+                "exp": 18174,
+                "gold": 3992233,
+                "ingot": 75,
+                "pvePower": 2,
+                "lastRecoverPvePower": 1400171212,
+                "pvpPower": 2,
+                "lastRecoverPvpPower": 1400138733,
+                "vip": 3,
+                "monthCard": "thirty",
+                "monthCardTime": 1402502400,
+                "cumulativePay": 0,
+                "momentum": 0,
+                "status": 1,
+                "createTime": 1399663846,
+                "platformId": "ios",
+                "pUserId": "iceskyer@qq.com"
+            }
+        ]
+    },
+    {
+        "userUid": 17263856367,
+        "city": 5,
+        "user": [
+            {
+                "userUid": 17263856367,
+                "userName": "七龙珠",
+                "exp": 17496,
+                "gold": 699898,
+                "ingot": 324,
+                "pvePower": 0,
+                "lastRecoverPvePower": 1400171862,
+                "pvpPower": 0,
+                "lastRecoverPvpPower": 1400171400,
+                "vip": 6,
+                "monthCard": "fifty",
+                "monthCardTime": 1402675200,
+                "cumulativePay": 0,
+                "momentum": 0,
+                "status": 1,
+                "createTime": 1400134308,
+                "platformId": "ios",
+                "pUserId": "371833029@qq.com"
+            }
+        ]
+    },
+    {
+        "userUid": 17213522000,
+        "city": 2,
+        "user": [
+            {
+                "userUid": 17213522000,
+                "userName": "輪回",
+                "exp": 29579,
+                "gold": 969938,
+                "ingot": 7,
+                "pvePower": 0,
+                "lastRecoverPvePower": 1400167466,
+                "pvpPower": 0,
+                "lastRecoverPvpPower": 1400167543,
+                "vip": 4,
+                "monthCard": "fifty",
+                "monthCardTime": 1402243200,
+                "cumulativePay": 0,
+                "momentum": 0,
+                "status": 1,
+                "createTime": 1399682458,
+                "platformId": "ios",
+                "pUserId": "zdygod@hotmail.com"
+            }
+        ]
+    },
+    {
+        "userUid": 17230210106,
+        "city": 3,
+        "user": [
+            {
+                "userUid": 17230210106,
+                "userName": "夜雪",
+                "exp": 35006,
+                "gold": 790225,
+                "ingot": 3666,
+                "pvePower": 5,
+                "lastRecoverPvePower": 1400171411,
+                "pvpPower": 0,
+                "lastRecoverPvpPower": 1400170889,
+                "vip": 8,
+                "monthCard": "fifty",
+                "monthCardTime": 1402329600,
+                "cumulativePay": 0,
+                "momentum": 0,
+                "status": 1,
+                "createTime": 1399706454,
+                "platformId": "ios",
+                "pUserId": "Lingye0909@gmail.com"
+            }
+        ]
+    },
+    {
+        "userUid": 17230263974,
+        "city": 3,
+        "user": [
+            {
+                "userUid": 17230263974,
+                "userName": "召 唤 兽",
+                "exp": 51087,
+                "gold": 2309671,
+                "ingot": 1099,
+                "pvePower": 7,
+                "lastRecoverPvePower": 1400172932,
+                "pvpPower": 0,
+                "lastRecoverPvpPower": 1400158800,
+                "vip": 6,
+                "monthCard": "fifty",
+                "monthCardTime": 1402329600,
+                "cumulativePay": 0,
+                "momentum": 0,
+                "status": 1,
+                "createTime": 1399748062,
+                "platformId": "ios",
+                "pUserId": "190737900@qq.com"
+            }
+        ]
+    },
+    {
+        "userUid": 17230300045,
+        "city": 3,
+        "user": [
+            {
+                "userUid": 17230300045,
+                "userName": "宝塔镇河妖",
+                "exp": 21703,
+                "gold": 7695739,
+                "ingot": 1484,
+                "pvePower": 0,
+                "lastRecoverPvePower": 1400154645,
+                "pvpPower": 9,
+                "lastRecoverPvpPower": 1400135268,
+                "vip": 6,
+                "monthCard": "fifty",
+                "monthCardTime": 1402416000,
+                "cumulativePay": 0,
+                "momentum": 0,
+                "status": 1,
+                "createTime": 1399839896,
+                "platformId": "ios",
+                "pUserId": "359536600@qq.com"
+            }
+        ]
+    },
+    {
+        "userUid": 17230257459,
+        "city": 3,
+        "user": [
+            {
+                "userUid": 17230257459,
+                "userName": "阿拉蕾GR.",
+                "exp": 60487,
+                "gold": 1079109,
+                "ingot": 4556,
+                "pvePower": 5,
+                "lastRecoverPvePower": 1400170009,
+                "pvpPower": 2,
+                "lastRecoverPvpPower": 1400170032,
+                "vip": 7,
+                "monthCard": "thirty",
+                "monthCardTime": 1402329600,
+                "cumulativePay": 0,
+                "momentum": 0,
+                "status": 1,
+                "createTime": 1399736133,
+                "platformId": "ios",
+                "pUserId": "retry999@hotmail.com"
+            }
+        ]
+    },
+    {
+        "userUid": 17213492900,
+        "city": 2,
+        "user": [
+            {
+                "userUid": 17213492900,
+                "userName": "北界王神AA",
+                "exp": 52807,
+                "gold": 92380,
+                "ingot": 2064,
+                "pvePower": 0,
+                "lastRecoverPvePower": 1400169490,
+                "pvpPower": 2,
+                "lastRecoverPvpPower": 1400170069,
+                "vip": 6,
+                "monthCard": "fifty",
+                "monthCardTime": 1402502400,
+                "cumulativePay": 0,
+                "momentum": 0,
+                "status": 1,
+                "createTime": 1399649286,
+                "platformId": "ios",
+                "pUserId": "296052@qq.com"
+            }
+        ]
+    },
+    {
+        "userUid": 17230272590,
+        "city": 3,
+        "user": [
+            {
+                "userUid": 17230272590,
+                "userName": "超五孙悟空",
+                "exp": 21801,
+                "gold": 1003295,
+                "ingot": 735,
+                "pvePower": 14,
+                "lastRecoverPvePower": 1400149367,
+                "pvpPower": 13,
+                "lastRecoverPvpPower": 1400147656,
+                "vip": 4,
+                "monthCard": "fifty",
+                "monthCardTime": 1402416000,
+                "cumulativePay": 0,
+                "momentum": 0,
+                "status": 1,
+                "createTime": 1399776684,
+                "platformId": "ios",
+                "pUserId": "82133012@qq.com"
+            }
+        ]
+    },
+    {
+        "userUid": 17213508597,
+        "city": 2,
+        "user": [
+            {
+                "userUid": 17213508597,
+                "userName": "丫嬷跌",
+                "exp": 34456,
+                "gold": 664375,
+                "ingot": 351,
+                "pvePower": 12,
+                "lastRecoverPvePower": 1400172540,
+                "pvpPower": 6,
+                "lastRecoverPvpPower": 1400139124,
+                "vip": 8,
+                "monthCard": "fifty",
+                "monthCardTime": 1402243200,
+                "cumulativePay": 0,
+                "momentum": 0,
+                "status": 1,
+                "createTime": 1399661781,
+                "platformId": "ios",
+                "pUserId": "670034718@qq.com"
+            }
+        ]
+    }
+]

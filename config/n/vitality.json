@@ -1,0 +1,110 @@
+{
+	"vitality":{
+		"mission":[
+			{
+				"missionType":"loginCard",
+				"completeTime":1,
+				"desc":"Faça Check-in uma vez",
+				"addPoint":10
+			},
+			{
+				"missionType":"shake",
+				"completeTime":1,
+				"desc":"Invoque Shenlong uma vez",
+				"addPoint":5
+			},
+			{
+				"missionType":"daily",
+				"completeTime":1,
+				"desc":"Encante uma vez",
+				"addPoint":10
+			},
+			{
+				"missionType":"map",
+				"completeTime":5,
+				"desc":"Complete fases da Jornada 5 vezes",
+				"addPoint":10
+			},
+			{
+				"missionType":"eatBean",
+				"completeTime":2,
+				"desc":"Colete Sementes grátis duas vezes",
+				"addPoint":10
+			},
+			{
+				"missionType":"zillionaire",
+				"completeTime":2,
+				"desc":"Faça a mudança Magnata duas vezes",
+				"addPoint":5
+			},
+			{
+				"missionType":"bloodBattal",
+				"completeTime":1,
+				"desc":"Desafie a Batalha do Portão do Inferno uma vez",
+				"addPoint":10
+			},
+			{
+				"missionType":"activityMap",
+				"completeTime":5,
+				"desc":"Entre em um estágio de evento 5 vezes",
+				"addPoint":10
+			},
+			{
+				"missionType":"enegyBall",
+				"completeTime":5,
+				"desc":"Use 5 Esferas do Poder",
+				"addPoint":10
+			},
+			{
+				"missionType":"foster",
+				"completeTime":3,
+				"desc":"Treine personagens 3 vezes",
+				"addPoint":10
+			},
+			{
+				"missionType":"worldBoss",
+				"completeTime":1,
+				"desc":"Desafie Beerus uma vez",
+				"addPoint":10
+			},
+			{
+				"missionType":"consume",
+				"completeTime":100,
+				"desc":"Consuma 100 Gammets",
+				"addPoint":20
+			}
+		],
+		"reward":[
+			{
+				"needPoint":30,
+				"reward":[
+					{"id":"gold","count":20000}
+				]
+			},
+			{
+				"needPoint":50,
+				"reward":[
+					{"id":"151001","count":1}
+				]
+			},
+			{
+				"needPoint":75,
+				"reward":[
+					{"id":"170801","count":1}
+				]
+			},
+			{
+				"needPoint":90,
+				"reward":[
+					{"id":"ingot","count":30}
+				]
+			},
+			{
+				"needPoint":110,
+				"reward":[
+					{"id":"150901","count":50}
+				]
+			}
+		]
+	}
+}

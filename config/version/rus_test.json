@@ -1,0 +1,23 @@
+{
+    "version":"6.2.4",
+    "list":{
+        "configlist":{"url":"configlist.json","version":"6.2.4","name":"configlist",
+            "serverPath":"http://desrc.opogame.com/v15021401/configlist/"},
+
+        "material":{"url":"material.json","version":"6.2.4","name":"material",
+            "serverPath":"http://desrc.opogame.com/v15021401/material/"},
+
+        "oui":{"url":"oui.json","version":"6.2.4","name":"oui",
+            "serverPath":"http://desrc.opogame.com/v15021401/oui/"},
+
+        "scripts":{"url":"scripts.json","version":"6.2.4","name":"scripts",
+            "serverPath":"http://desrc.opogame.com/v15021401/scripts/"},
+
+        "resources":{"url":"resources.json","version":"6.2.4","name":"resources",
+            "serverPath":"http://desrc.opogame.com/v15021401/resources/"}
+    },
+    "serverEntrance":"http://degame.opogame.com/",
+    "isDebug":0,
+    "debugPath":"http://127.0.0.1:1337/",
+    "platformId":"uc"
+}

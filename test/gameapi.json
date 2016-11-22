@@ -1,0 +1,67 @@
+{
+    "default":{
+        "url":"http://127.0.0.1:8900/api?method=${methodName}&userUid=${userUid}&token=${token}"
+    },
+    "user.getToken":{
+        "arg":{
+            "platformId":"test2",
+            "platformUserId":"L011",
+            "info":"",
+            "serverId":1
+        }
+    },
+    "user.get":{
+        "argNeed":"user.getToken"
+    },
+
+    "shop.get":{
+        "argNeed":"user.getToken"
+    },
+
+    "notice.get":{
+        "argNeed":"user.getToken"
+    },
+
+    "activityConfig.get":{
+        "argNeed":"user.getToken"
+    },
+
+    "cdkey.redeem":{
+        "argNeed":"user.getToken",
+        "arg":{
+            "cdkey":"5465186533"
+        }
+    },
+
+    "chat.send":{
+        "argNeed":"user.getToken",
+        "arg":{
+            "userName":"哈哈",
+            "msg":"同志们好！！"
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "shop.get2":{
+        "url":"http://42.120.22.195:8900/api?method=shop.get&userUid=4311744709&token=g1pdh3otwi515rce"
+    },
+
+    "battle.pve2":{
+        "url":"http://127.0.0.1:8900/api?method=battle.pve&userUid=4311744796&token=4h8p1bi9xtz2pxqs",
+        "arg":{
+            "mapId":"201115"
+        }
+    }
+
+}

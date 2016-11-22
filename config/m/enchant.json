@@ -1,0 +1,1118 @@
+{
+  "enchant": {
+    "activateCost": [
+      {
+        "id": "ingot",
+        "count": 100
+      }
+    ],
+    "freshCost": [
+      {
+        "id": "ingot",
+        "count": 100
+      }
+    ],
+    "content": [
+      {
+        "type": "attack",
+        "count": 100,
+        "prob": 0.5
+      },
+      {
+        "type": "defence",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hp",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "spirit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "crit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "tough",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "dodge",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hit",
+        "count": 80,
+        "prob": 0.9
+      },
+      {
+        "type": "break",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "preventBreak",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "critDamage",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "attack",
+        "count": 100,
+        "prob": 0.5
+      },
+      {
+        "type": "defence",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hp",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "spirit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "crit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "tough",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "dodge",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hit",
+        "count": 80,
+        "prob": 0.9
+      },
+      {
+        "type": "break",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "preventBreak",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "critDamage",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "attack",
+        "count": 100,
+        "prob": 0.5
+      },
+      {
+        "type": "defence",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hp",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "spirit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "crit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "tough",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "dodge",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hit",
+        "count": 80,
+        "prob": 0.9
+      },
+      {
+        "type": "break",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "preventBreak",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "critDamage",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "attack",
+        "count": 100,
+        "prob": 0.5
+      },
+      {
+        "type": "defence",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hp",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "spirit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "crit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "tough",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "dodge",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hit",
+        "count": 80,
+        "prob": 0.9
+      },
+      {
+        "type": "break",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "preventBreak",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "critDamage",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "attack",
+        "count": 100,
+        "prob": 0.5
+      },
+      {
+        "type": "defence",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hp",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "spirit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "crit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "tough",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "dodge",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hit",
+        "count": 80,
+        "prob": 0.9
+      },
+      {
+        "type": "break",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "preventBreak",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "critDamage",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "attack",
+        "count": 100,
+        "prob": 0.5
+      },
+      {
+        "type": "defence",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hp",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "spirit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "crit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "tough",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "dodge",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hit",
+        "count": 80,
+        "prob": 0.9
+      },
+      {
+        "type": "break",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "preventBreak",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "critDamage",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "attack",
+        "count": 100,
+        "prob": 0.5
+      },
+      {
+        "type": "defence",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hp",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "spirit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "crit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "tough",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "dodge",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hit",
+        "count": 80,
+        "prob": 0.9
+      },
+      {
+        "type": "break",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "preventBreak",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "critDamage",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "attack",
+        "count": 100,
+        "prob": 0.5
+      },
+      {
+        "type": "defence",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hp",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "spirit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "crit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "tough",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "dodge",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hit",
+        "count": 80,
+        "prob": 0.9
+      },
+      {
+        "type": "break",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "preventBreak",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "critDamage",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "attack",
+        "count": 100,
+        "prob": 0.5
+      },
+      {
+        "type": "defence",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hp",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "spirit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "crit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "tough",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "dodge",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hit",
+        "count": 80,
+        "prob": 0.9
+      },
+      {
+        "type": "break",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "preventBreak",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "critDamage",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "attack",
+        "count": 100,
+        "prob": 0.5
+      },
+      {
+        "type": "defence",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hp",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "spirit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "crit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "tough",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "dodge",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hit",
+        "count": 80,
+        "prob": 0.8
+      },
+      {
+        "type": "break",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "preventBreak",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "critDamage",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "attack",
+        "count": 100,
+        "prob": 0.5
+      },
+      {
+        "type": "defence",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hp",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "spirit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "crit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "tough",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "dodge",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hit",
+        "count": 80,
+        "prob": 0.9
+      },
+      {
+        "type": "break",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "preventBreak",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "critDamage",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "attack",
+        "count": 100,
+        "prob": 0.5
+      },
+      {
+        "type": "defence",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hp",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "spirit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "crit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "tough",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "dodge",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hit",
+        "count": 80,
+        "prob": 0.8
+      },
+      {
+        "type": "break",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "preventBreak",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "critDamage",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "attack",
+        "count": 100,
+        "prob": 0.5
+      },
+      {
+        "type": "defence",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hp",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "spirit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "crit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "tough",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "dodge",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hit",
+        "count": 80,
+        "prob": 0.9
+      },
+      {
+        "type": "break",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "preventBreak",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "critDamage",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "attack",
+        "count": 100,
+        "prob": 0.5
+      },
+      {
+        "type": "defence",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hp",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "spirit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "crit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "tough",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "dodge",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hit",
+        "count": 80,
+        "prob": 0.9
+      },
+      {
+        "type": "break",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "preventBreak",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "critDamage",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "attack",
+        "count": 100,
+        "prob": 0.5
+      },
+      {
+        "type": "defence",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hp",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "spirit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "crit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "tough",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "dodge",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hit",
+        "count": 80,
+        "prob": 0.9
+      },
+      {
+        "type": "break",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "preventBreak",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "critDamage",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "attack",
+        "count": 100,
+        "prob": 0.5
+      },
+      {
+        "type": "defence",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hp",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "spirit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "crit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "tough",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "dodge",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hit",
+        "count": 80,
+        "prob": 0.9
+      },
+      {
+        "type": "break",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "preventBreak",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "critDamage",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "attack",
+        "count": 100,
+        "prob": 0.5
+      },
+      {
+        "type": "defence",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hp",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "spirit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "crit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "tough",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "dodge",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hit",
+        "count": 80,
+        "prob": 0.9
+      },
+      {
+        "type": "break",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "preventBreak",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "critDamage",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "attack",
+        "count": 100,
+        "prob": 0.5
+      },
+      {
+        "type": "defence",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hp",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "spirit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "crit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "tough",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "dodge",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hit",
+        "count": 80,
+        "prob": 0.9
+      },
+      {
+        "type": "break",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "preventBreak",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "critDamage",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "attack",
+        "count": 100,
+        "prob": 0.5
+      },
+      {
+        "type": "defence",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hp",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "spirit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "crit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "tough",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "dodge",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hit",
+        "count": 80,
+        "prob": 0.8
+      },
+      {
+        "type": "break",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "preventBreak",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "critDamage",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "attack",
+        "count": 100,
+        "prob": 0.5
+      },
+      {
+        "type": "defence",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hp",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "spirit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "crit",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "tough",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "dodge",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "hit",
+        "count": 80,
+        "prob": 0.9
+      },
+      {
+        "type": "break",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "preventBreak",
+        "count": 80,
+        "prob": 0.5
+      },
+      {
+        "type": "critDamage",
+        "count": 80,
+        "prob": 0.5
+      }
+    ]
+  }
+}

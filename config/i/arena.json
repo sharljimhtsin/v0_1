@@ -1,0 +1,235 @@
+{
+	"arena": {
+		"double": 100,
+		"easy": {
+			"1": {
+				"hero": {
+					"id": "103016",
+					"attack": 255,
+					"defence": 374,
+					"hp": 857,
+					"spirit": 1217,
+					"dodge": 0,
+					"hit": 0,
+					"crit": 0,
+					"tough": 0,
+					"break": 0,
+					"preventBreak": 0,
+					"critDamage": 12500
+				},
+				"reward": [
+					{
+						"id": "150901",
+						"count": 50
+					},
+					{
+						"id": "152301",
+						"count": 50
+					}
+				],
+				"rewardTime": 21600,
+				"soulCount": 1
+			},
+			"2": {
+				"hero": {
+					"id": "103015",
+					"attack": 1050,
+					"defence": 1090,
+					"hp": 1755,
+					"spirit": 2626,
+					"dodge": 0,
+					"hit": 0,
+					"crit": 0,
+					"tough": 0,
+					"break": 0,
+					"preventBreak": 0,
+					"critDamage": 12500
+				},
+				"reward": [
+					{
+						"id": "150901",
+						"count": 50
+					},
+					{
+						"id": "152301",
+						"count": 50
+					}
+				],
+				"rewardTime": 21600,
+				"soulCount": 1
+			},
+			"3": {
+				"hero": {
+					"id": "103009",
+					"attack": 1357,
+					"defence": 1169,
+					"hp": 3237,
+					"spirit": 6467,
+					"dodge": 0,
+					"hit": 0,
+					"crit": 0,
+					"tough": 0,
+					"break": 0,
+					"preventBreak": 0,
+					"critDamage": 12500
+				},
+				"reward": [
+					{
+						"id": "150901",
+						"count": 50
+					},
+					{
+						"id": "152301",
+						"count": 50
+					}
+				],
+				"rewardTime": 21600,
+				"soulCount": 1
+			}
+		},
+		"normal": {
+			"1": {
+				"hero": {
+					"id": "104001",
+					"attack": 7445,
+					"defence": 5202,
+					"hp": 8845,
+					"spirit": 8665,
+					"dodge": 0,
+					"hit": 0,
+					"crit": 0,
+					"tough": 0,
+					"break": 0,
+					"preventBreak": 0,
+					"critDamage": 12500
+				},
+				"reward": [
+					{
+						"id": "150901",
+						"count": 50
+					},
+					{
+						"id": "152301",
+						"count": 50
+					}
+				],
+				"rewardTime": 21600,
+				"soulCount": 1
+			},
+			"2": {
+				"hero": {
+					"id": "104007",
+					"attack": 8189,
+					"defence": 5722,
+					"hp": 9729,
+					"spirit": 9531,
+					"dodge": 0,
+					"hit": 0,
+					"crit": 0,
+					"tough": 0,
+					"break": 0,
+					"preventBreak": 0,
+					"critDamage": 12500
+				},
+				"reward": [
+					{
+						"id": "150901",
+						"count": 50
+					},
+					{
+						"id": "152301",
+						"count": 50
+					}
+				],
+				"rewardTime": 21600,
+				"soulCount": 1
+			},
+			"3": {
+				"hero": {
+					"id": "104025",
+					"attack": 9007,
+					"defence": 6294,
+					"hp": 10701,
+					"spirit": 10484,
+					"dodge": 0,
+					"hit": 0,
+					"crit": 0,
+					"tough": 0,
+					"break": 0,
+					"preventBreak": 0,
+					"critDamage": 12500
+				},
+				"reward": [
+					{
+						"id": "150901",
+						"count": 50
+					},
+					{
+						"id": "152301",
+						"count": 50
+					}
+				],
+				"rewardTime": 21600,
+				"soulCount": 1
+			}
+		},
+		"hard": {
+			"1": {
+				"hero": {
+					"id": "104059",
+					"attack": 25219,
+					"defence": 17623,
+					"hp": 29962,
+					"spirit": 29355,
+					"dodge": 0,
+					"hit": 100000000,
+					"crit": 100,
+					"tough": 0,
+					"break": 0,
+					"preventBreak": 0,
+					"critDamage": 12500000
+				},
+				"reward": [
+					{
+						"id": "150901",
+						"count": 90
+					},
+					{
+						"id": "152301",
+						"count": 90
+					}
+				],
+				"rewardTime": 39600,
+				"soulCount": 2
+			},
+			"2": {
+				"hero": {
+					"id": "104109",
+					"attack": 70613,
+					"defence": 49344,
+					"hp": 83893,
+					"spirit": 82194,
+					"dodge": 0,
+					"hit": 100000000,
+					"crit": 100,
+					"tough": 0,
+					"break": 0,
+					"preventBreak": 0,
+					"critDamage": 12500000
+				},
+				"reward": [
+					{
+						"id": "150901",
+						"count": 200
+					},
+					{
+						"id": "152301",
+						"count": 200
+					}
+				],
+				"rewardTime": 86400,
+				"soulCount": 5
+			}
+		}
+	}
+}

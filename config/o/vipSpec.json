@@ -1,0 +1,139 @@
+{
+	"vipSpec":{
+		"1":[
+			"Có thể mua quà VIP1",
+			"Cường hóa có thể xuất hiện bạo kích, ngẫu nhiên tăng trang bị Lv2~3",
+			"Mỗi ngày được dùng 1 lần hồi thể lực thường",
+			"Mỗi ngày được dùng 1 hồi tinh lực thường",
+			"Mỗi ngày khởi tạo kịch chiến 5 lần"
+		],
+		"2":[
+			"Có thể mua quà VIP2",
+			"Cường hóa có thể xuất hiện bạo kích, ngẫu nhiên tăng trang bị Lv2~4",
+			"Mỗi ngày được dùng 1 lần hồi thể lực thường",
+			"Mỗi ngày được dùng 1 hồi tinh lực thường",
+			"Mỗi ngày khởi tạo kịch chiến 6 lần",
+			"Có thể dùng Gammets hủy số lần hạn chế ải Mạo Hiểm",
+			"(Gồm tất cả tính năng VIP1)"
+		],
+		"3":[
+			"Có thể mua quà VIP3",
+			"Cường hóa có thể xuất hiện bạo kích, ngẫu nhiên tăng trang bị Lv2~5",
+			"Mỗi ngày được dùng 1 lần hồi thể lực thường",
+			"Mỗi ngày được dùng 1 hồi tinh lực thường",
+			"Mỗi ngày khởi tạo kịch chiến 7 lần",
+			"Có thể dùng tính năng liên chiến",
+			"(Gồm tất cả tính năng VIP1~2)"
+		],
+		"4":[
+			"Có thể mua quà VIP4",
+			"Cường hóa có thể xuất hiện bạo kích, ngẫu nhiên tăng trang bị Lv2~6",
+			"Mỗi ngày được dùng 1 lần hồi thể lực thường",
+			"Mỗi ngày được dùng 1 hồi tinh lực thường",
+			"Mỗi ngày khởi tạo kịch chiến 8 lần",
+			"Đồng hành được chỉ điểm, tối đa có 1 đồng hành nhận thêm Exp",
+			"(Gồm tất cả tính năng VIP1~3)"
+		],
+		"5":[
+			"Có thể mua quà VIP5",
+			"Cường hóa có thể xuất hiện bạo kích, ngẫu nhiên tăng trang bị Lv2~6",
+			"Mỗi ngày được dùng 2 lần hồi thể lực thường",
+			"Mỗi ngày được dùng 2 hồi tinh lực thường",
+			"Mỗi ngày khởi tạo kịch chiến 9 lần",
+			"Đồng hành được chỉ điểm, tối đa có 1 đồng hành nhận thêm Exp",
+			"(Gồm tất cả tính năng VIP1~4)"
+		],
+		"6":[
+			"Có thể mua quà VIP6",
+			"Cường hóa có thể xuất hiện bạo kích, ngẫu nhiên tăng trang bị Lv2~6",
+			"Mỗi ngày được dùng 2 lần hồi thể lực thường",
+			"Mỗi ngày được dùng 2 hồi tinh lực thường",
+			"Mỗi ngày khởi tạo kịch chiến 10 lần",
+			"Đồng hành được chỉ điểm, tối đa có 2 đồng hành nhận thêm Exp",
+			"Có thể dùng Gammets hủy chờ liên chiến",
+			"(Gồm tất cả tính năng VIP1~5)"
+		],
+		"7":[
+			"Có thể mua quà VIP7",
+			"Cường hóa có thể xuất hiện bạo kích, ngẫu nhiên tăng trang bị Lv2~6",
+			"Mỗi ngày được dùng 6 lần hồi thể lực thường",
+			"Mỗi ngày được dùng 6 hồi tinh lực thường",
+			"Mỗi ngày khởi tạo kịch chiến 11 lần",
+			"Đồng hành được chỉ điểm, tối đa có 3 đồng hành nhận thêm Exp",
+			"(Gồm tất cả tính năng VIP1~6)"
+		],
+		"8":[
+			"Có thể mua quà VIP8",
+			"Cường hóa có thể xuất hiện bạo kích, ngẫu nhiên tăng trang bị Lv2~6",
+			"Mỗi ngày được dùng 6 lần hồi thể lực thường",
+			"Mỗi ngày được dùng 6 hồi tinh lực thường",
+			"Mỗi ngày khởi tạo kịch chiến 12 lần",
+			"Đồng hành được chỉ điểm, tối đa có 4 đồng hành nhận thêm Exp",
+			"(Gồm tất cả tính năng VIP1~7)"
+		],
+		"9":[
+			"Có thể mua quà VIP9",
+			"Cường hóa có thể xuất hiện bạo kích, ngẫu nhiên tăng trang bị Lv2~6",
+			"Mỗi ngày được dùng 12 lần hồi thể lực thường",
+			"Mỗi ngày được dùng 12 hồi tinh lực thường",
+			"Mỗi ngày khởi tạo kịch chiến 13 lần",
+			"Đồng hành được chỉ điểm, tối đa có 5 đồng hành nhận thêm Exp",
+			"(Gồm tất cả tính năng VIP1~8)"
+		],
+		"10":[
+			"Có thể mua quà VIP10",
+			"Cường hóa có thể xuất hiện bạo kích, ngẫu nhiên tăng trang bị Lv2~6",
+			"Mỗi ngày được dùng 12 lần hồi thể lực thường",
+			"Mỗi ngày được dùng 12 hồi tinh lực thường",
+			"Mỗi ngày khởi tạo kịch chiến 14 lần",
+			"Đồng hành được chỉ điểm, tối đa có 6 đồng hành nhận thêm Exp",
+			"(Gồm tất cả tính năng VIP1~9)"
+		],
+		"11":[
+			"Có thể mua quà VIP11",
+			"Cường hóa có thể xuất hiện bạo kích, ngẫu nhiên tăng trang bị Lv2~6",
+			"Mỗi ngày được dùng 12 lần hồi thể lực thường",
+			"Mỗi ngày được dùng 12 hồi tinh lực thường",
+			"Mỗi ngày khởi tạo kịch chiến 15 lần",
+			"Đồng hành được chỉ điểm, tối đa có 6 đồng hành nhận thêm Exp",
+			"(Gồm tất cả tính năng VIP1~10)"
+		],
+		"12":[
+			"Có thể mua quà VIP12",
+			"Cường hóa có thể xuất hiện bạo kích, ngẫu nhiên tăng trang bị Lv2~6",
+			"Mỗi ngày được dùng 12 lần hồi thể lực thường",
+			"Mỗi ngày được dùng 12 hồi tinh lực thường",
+			"Mỗi ngày khởi tạo kịch chiến 16 lần",
+			"Đồng hành được chỉ điểm, tối đa có 6 đồng hành nhận thêm Exp",
+			"Dùng tính năng liên chiến không cần chờ",
+			"(Gồm tất cả tính năng VIP1~11)"
+		],
+		"13":[
+			"Có thể mua quà VIP13",
+			"Cường hóa có thể xuất hiện bạo kích, ngẫu nhiên tăng trang bị Lv2~6",
+			"Mỗi ngày được dùng 12 lần hồi thể lực thường",
+			"Mỗi ngày được dùng 12 hồi tinh lực thường",
+			"Mỗi ngày khởi tạo kịch chiến 17 lần",
+			"Đồng hành được chỉ điểm, tối đa có 6 đồng hành nhận thêm Exp",
+			"(Gồm tất cả tính năng VIP1~12)"
+		],
+		"14":[
+			"Có thể mua quà VIP14",
+			"Cường hóa có thể xuất hiện bạo kích, ngẫu nhiên tăng trang bị Lv2~6",
+			"Mỗi ngày được dùng 12 lần hồi thể lực thường",
+			"Mỗi ngày được dùng 12 hồi tinh lực thường",
+			"Mỗi ngày khởi tạo kịch chiến 18 lần",
+			"Đồng hành được chỉ điểm, tối đa có 6 đồng hành nhận thêm Exp",
+			"(Gồm tất cả tính năng VIP1~13)"
+		],
+		"15":[
+			"Có thể mua quà VIP15",
+			"Cường hóa có thể xuất hiện bạo kích, ngẫu nhiên tăng trang bị Lv2~6",
+			"Mỗi ngày được dùng 12 lần hồi thể lực thường",
+			"Mỗi ngày được dùng 12 hồi tinh lực thường",
+			"Mỗi ngày khởi tạo kịch chiến 19 lần",
+			"Đồng hành được chỉ điểm, tối đa có 6 đồng hành nhận thêm Exp",
+			"(Gồm tất cả tính năng VIP1~14)"
+		]
+	}
+}

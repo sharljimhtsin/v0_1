@@ -1,0 +1,23 @@
+{
+	"mail_ger":{
+		"bloodBattleRankReward":"Toll! Dein Team ist in Rangliste des Höllentors vertreten! Klicke auf ABHOLEN, um deine Belohnung zu kriegen.",
+		"worldBossRankReward":"Prima! Dein Team ist in Rangliste von Gott der Zerstörung vertreten! Klicke auf ABHOLEN, um deine Belohnung zu kriegen.",
+		"worldBossLastBeatReward":"Gut gemacht! Du hast den tödlichen Schlag gegen Gott der Zerstörung versetzt! Glückwunsch, klicke auf ABHOLEN, um deine Belohnung zu kriegen.",
+		"pvpRankDown":"Du wurdest von {0} in der Arena besiegt, dein Rang fiel auf Nr.{1}.",
+		"pvpPatchLost":"Du wurdest von {0} in Fähigkeitsscherben-Kampf besiegt, {1} ging verloren.",
+		"monthCardReward":"{0} Gammets und {1} Bohnen verbleiben noch in deiner Monatskarte. Klicke auf ABHOLEN, um deine Belohnung zu kriegen.",
+		"pvpRankDailyReward":"Tägliche Arena-Rangbelohnung",
+		"leagueMap":"Du hast den 1. Platz in Schaden-Rangliste von Gildenkrieg {0} belegt. Wertvolle Belohnungen sind durch klicken auf ABHOLEN zu kriegen. ",
+		"leagueMapFail":"Du hast in der Gildenkrieg-Auktion verloren.  {1} Beiträge wurden an dich zurückgegeben. Klicke auf ABHOLEN, um sie zurückzunehmen.",
+		"leagueMapSuccess":"Du hast die Gildenkrieg-Auktion gewonnen. Klicke auf ABHOLEN, um Items zu kriegen.",
+		"groupPurchaseReward":"Glückwunsch, du hast die {0}. Truhe im Gruppenkauf-Event gewonnen. Bitte nimm deine Belohnungen rechtzeitig auf.",
+		"tabletsClickReward":"Glückwunsch zu deiner erfolgreichen Prognose. Bitte nimm deine Belohnungen rechtzeitig auf.",
+		"cosmosBossRankReward":"Prima! Dein Team ist in die Xeno-Rangliste eingegangen! Klicke auf ABHOLEN, um deine Belohnung zu kriegen.",
+		"cosmosBossLastBeatReward":"Gut gemacht! Deine Gruppe hast Towa besiegt! Klicke auf ABHOLEN, um deine Belohnung zu kriegen.",
+		"gemCompose":"",
+		"gemComposeReward":"",
+		"finalRewardStr":"Finale Belohnungen",
+		"rankRewardStr":"Rang-Belohnungen",
+		"vipClubRewardStr":"VIP Club-Belohnungen"
+	}
+}

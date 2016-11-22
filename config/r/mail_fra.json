@@ -1,0 +1,23 @@
+{
+	"mail_fra":{
+		"bloodBattleRankReward":"Impressionnant ! Ton équipe est entrée dans le Classement des Portes de l'Enfer! Appuie sur OBTENIR pour recevoir ta récompense.",
+		"worldBossRankReward":"Épique ! Ton équipe est entrée dans le Classement du Dieu de la Destruction ! Appuie sur OBTENIR pour recevoir ta récompense.",
+		"worldBossLastBeatReward":"Woah ! Tu as porté le coup final au Dieu de la Destruction ! Félicitation ! Appuie sur OBTENIR pour recevoir ta récompense.",
+		"pvpRankDown":"Tu as été battu par {0} dans l'Arène, ton rang chûte au No.{1}.",
+		"pvpPatchLost":"Tu as été battu par {0} dans un combat de Fragment de Compétence, tu as perdu {1}.",
+		"monthCardReward":"Ton Pass Mensuel a toujours {0} Gammets, {1} Haricots. Appuie sur OBTENIR pour recevoir ta récompense.",
+		"pvpRankDailyReward":"Récompense Quotidienne de Classement d'Arène",
+		"leagueMap":"Dans les Guerres de Guilde {0}, tu a été No.1 du Classement de DMG et a gagné de grosses récompenses ! Stp, Clique sur OBTENIR pour les récupérer.",
+		"leagueMapFail":"Tu n'as pas gagné l'enchère des Guerres de Guilde. {1} La dévotion t'a été retournée. Stp, Clique sur OBTENIR pour la récupérer.",
+		"leagueMapSuccess":"Tu as gagné  l'enchère des Guerres de Guilde. Stp, Clique sur OBTENIR pour recevoir les items.",
+		"groupPurchaseReward":"Félicitation, tu as gagné {0} des coffres dans l'événement d'achat de groupe. Stp, récupère tes récompenses.",
+		"tabletsClickReward":"Félicitations pour vos prévisions réussies, Stp, récupère tes récompenses.",
+		"cosmosBossRankReward":"Impressionnant ! Ton Equipe est entrée dans le Classement XENO ! Appuie sur OBTENIR pour recevoir ta récompense.",
+		"cosmosBossLastBeatReward":"Woah ! Tu as donné le dernier coup à Towa ! Félicitation ! Appuie sur OBTENIR pour recevoir ta récompense.",
+		"gemCompose":"",
+		"gemComposeReward":"",
+		"finalRewardStr":"Récompenses Finales",
+		"rankRewardStr":"Récompenses de Classement",
+		"vipClubRewardStr":"vip俱樂部獎勵"
+	}
+}

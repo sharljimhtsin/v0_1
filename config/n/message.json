@@ -1,0 +1,35 @@
+{
+	"message": {
+		"default": {
+			"0": "Cada personagem começa com 1 skill própria, sendo que aqueles de Grau mais elevado possuem skills melhores.",
+			"1": "Alcance o Lv.19 para começar a coletar Cartas e aumentar os stats dos seus personagens!",
+			"2": "Use Poções de Treino e Vigor para aumentar os stats de um personagem; Vigor é recebido quando se sobe de level.",
+			"3": "Quando as Esferas do dragão se acenderem na tela principal, clique para ter uma surpresa!",
+			"4": "O 3º turno de cada batalha é a rodada final - não há descanso até os resultados serem revelados!",
+			"5": "Alcance o Lv.11 para ativar a função Selando o Portão do Inferno, onde é possível ganhar bastante Zeni, Cápsulas e Gammets.",
+			"6": "Alcance o Lv.13 para entrar nas batalhas do Deus da Destruição, onde é possível ganhar bastante Zeni e Poções de Treino.",
+			"7": "Obtenha 3 Estrelas quando concluir uma batalha da Jornada pela primeira vez para receber o triplo de Zeni e EXP!",
+			"8": "Use Chamadas Super ou Épicas para ter uma chance maior de conseguir personagens de alto Grau.",
+			"9": "Colete Almas suficientes para aumentar os stats e Vigor de um personagem.",
+			"10": "Clique em Saiba Mais no menu principal para descobrir novas oportunidades!",
+			"11": "Um Rank maior na Arena permite obter mais pontos, que podem ser trocados por Poções de Treino.",
+			"12": "Alcance o Lv.18 para refinar seu equipamento e aumentar seus stats!",
+			"13": "A última batalha de cada estágio da Jornada tem a chance de lhe dar armaduras e armas de Grau A!",
+			"14": "Torne-se um VIP para poder comprar Pacotes especiais com skills, equipamentos, Poções de Treino, e muito mais!"
+		},
+		"userAction": {
+			"0": "Incrível! {userUid} coletou todos os Fragmentos de Skills e obteve {ID}!",
+			"1": "Ótimo! {userUid} fortaleceu {ID} para o Lv.{value}!",
+			"2": "Urra! {userUid} levou {ID} ao Lv.{value}!",
+			"4": "Muito bem! {userUid} levou {ID} ao Lv.{value}!",
+			"5": "Isso aí! {userUid} recrutou {ID} com uma super taxa de crescimento! O céu é o limite!",
+			"6": "Bum! {userUid} recebeu {ID} em uma cápsula!",
+			"7": "Que poder! {userUid} atingiu o Rank {value} na Arena!",
+			"8": "De volta à vida! {userUid} coletou Almas suficientes para ressucitar {ID}!",
+			"9": "Bola de cristal! {userUid} recebeu {ID} da Vovó Uranai!",
+			"10": "Perversão! {userUid} entregou Revistas para Adultos suficientes ao Mestre Kame para obter {ID}!",
+			"11": "Que sorte! {userUid} recebeu {ID} em um Sorteio de Cartas!",
+			"12": "Superação! {userUid} coletou Almas suficientes para reforçar {ID} ao estágio {value}!"
+		}
+	}
+}

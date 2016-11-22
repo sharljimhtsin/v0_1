@@ -1,0 +1,404 @@
+{			
+	"guide":{		
+		"1":{	
+			"words":"Você acordou, venha comigo encontrar as\nDragon Ball. Elas te darão qualquer coisa\nque você desejar! Clique em [Jornada] para\ncomeçar!,",
+			"colorChange":[]
+		},	
+		"2":{	
+			"words":"Estou morrendo de fome. Porque você não vai \naté o rio para pegar um peixe? Clique em [Lutar] para \ncomeçar. Vença para ganhar super prêmios!,",
+			"colorChange":[]
+		},	
+		"3":{	
+			"words":"Impressionante! Agora clique em [Fechar]. \nContinue vencendo batalhas para ganhar EXP e subir \no level do seu time.,",
+			"colorChange":[]
+		},	
+		"4":{	
+			"words":"Vamos encontrar mais heróis para o nosso time. \nClique em [Invocar] para recrutar poderosos guerreiros.,",
+			"colorChange":[]
+		},	
+		"5":{	
+			"words":"Canais diferentes invocarão heróis de Graus diferentes.\n Clique em [Épico] para invocar um herói.,",
+			"colorChange":[]
+		},	
+		"6":{	
+			"words":"Todos os heróis possuem um Grau: S, A, B ou C.\n Parabéns, você invocou um herói de Grau A!\n Clique em [OK] para continuar.,",
+			"colorChange":[]
+		},	
+		"7":{	
+			"words":"Clique em [Básico],",
+			"colorChange":[]
+		},	
+		"8":{	
+			"words":"Clique em [OK],",
+			"colorChange":[]
+		},	
+		"9":{	
+			"words":"Clique em [Super],",
+			"colorChange":[]
+		},	
+		"10":{	
+			"words":"Clique em [OK],",
+			"colorChange":[]
+		},	
+		"11":{	
+			"words":"Vamos adicionar esses novos heróis para o nosso time.\n Clique em [Time] para aumentar a força do seu time.,",
+			"colorChange":[]
+		},	
+		"12":{	
+			"words":"Você está vendo este espaço? Suba de level para \nabrir mais espaços! \nClique no [espaço vazio] para continuar.,",
+			"colorChange":[]
+		},	
+		"13":{	
+			"words":"Adicione o novo Herói que recrutamos para o nosso time.\n Clique no [quadrado vazio] e selecione um [Herói].,",
+			"colorChange":[]
+		},	
+		"14":{	
+			"words":"Clique para selecionar este [Herói].\n Todas as listas do jogo podem ser gerenciadas assim.,",
+			"colorChange":[]
+		},	
+		"15":{	
+			"words":"Clique em [OK] para continuar.,",
+			"colorChange":[]
+		},	
+		"16":{	
+			"words":"Nosso time acabou de ficar mais forte!\n Vamos lá encontrar as Dragon Balls!\n Clique em [Jornada]. ,",
+			"colorChange":[]
+		},	
+		"17":{	
+			"words":"Vamos lá, vamos testar nosso novo herói!\n Clique em [Lutar] para entrar na batalha.,",
+			"colorChange":[]
+		},	
+		"18":{	
+			"words":"Muito bem! Você realmente deu uma lição\n naquele carro! Clique em [Fechar].,",
+			"colorChange":[]
+		},	
+		"19":{	
+			"words":"Ei, o que é aquilo? Clique em [Aceitar].,",
+			"colorChange":[]
+		},	
+		"20":{	
+			"words":"Vamos equipar a nossa nova arma!\n Clique em [Time].,",
+			"colorChange":[]
+		},	
+		"21":{	
+			"words":"Tenha certeza que você está usando os melhores\n equipamentos para ter os melhores stats.\n Clique em [Armas] para equipar.,",
+			"colorChange":[]
+		},	
+		"22":{	
+			"words":"Clique para selecionar a [Arma].\n Use uma boa arma para aumentar seu poder de batalha.,",
+			"colorChange":[]
+		},	
+		"23":{	
+			"words":"Clique em [OK].\n Pronto, seu time já está mais forte!,",
+			"colorChange":[]
+		},	
+		"24":{	
+			"words":"Faça upgrade do seu equipamento para aumentar seus \nstats. \nClique no [Tridente].,",
+			"colorChange":[]
+		},	
+		"25":{	
+			"words":"Clique em [Upgrade].,",
+			"colorChange":[]
+		},	
+		"26":{	
+			"words":"Clique em [Upgrade] para fazer upgrade do seu \nequipamento.,",
+			"colorChange":[]
+		},	
+		"27":{	
+			"words":"Clique em [Voltar].,",
+			"colorChange":[]
+		},	
+		"28":{	
+			"words":"Quando as Dragon Balls estiverem brilhando, clique\n nelas para uma incrível surpresa!\n Tente agora!,",
+			"colorChange":[]
+		},	
+		"29":{	
+			"words":"Clique em [Fechar] para fechar a interface.,",
+			"colorChange":[]
+		},	
+		"30":{	
+			"words":"Isto é tudo que eu posso te ensinar.\n Vamos encontrar as Dragon Balls!\n Clique em [Jornada] para iniciar nossa aventura!,",
+			"colorChange":[]
+		},	
+		"2001":{	
+			"words":"Novo espaço do time destravado!\n Clique em [Time] para selecionar um Herói.,",
+			"colorChange":[]
+		},	
+		"2002":{	
+			"words":"Clique no [espaço vazio] para continuar.,",
+			"colorChange":[]
+		},	
+		"2003":{	
+			"words":"Clique no [quadrado vazio] e selecione um [Herói].,",
+			"colorChange":[]
+		},	
+		"2030":{	
+			"words":"Unir skills aumentará ainda mais o poder de batalha\n do seu time! Clique em [Time] para tentar.,",
+			"colorChange":[]
+		},	
+		"2031":{	
+			"words":"Clique na [Skill] deste Herói.,",
+			"colorChange":[]
+		},	
+		"2032":{	
+			"words":"Clique em [Unir].,",
+			"colorChange":[]
+		},	
+		"2033":{	
+			"words":"Clique na [Skill].,",
+			"colorChange":[]
+		},	
+		"2034":{	
+			"words":"Clique na [Skill].,",
+			"colorChange":[]
+		},	
+		"2035":{	
+			"words":"Clique na [Skill].,",
+			"colorChange":[]
+		},	
+		"2036":{	
+			"words":"Clique na [Skill].,",
+			"colorChange":[]
+		},	
+		"2037":{	
+			"words":"Clique em [OK].,",
+			"colorChange":[]
+		},	
+		"2201":{	
+			"words":"Novo espaço do time destravado!\n Clique em [Time].,",
+			"colorChange":[]
+		},	
+		"2202":{	
+			"words":"Clique no [espaço vazio] para continuar.,",
+			"colorChange":[]
+		},	
+		"2203":{	
+			"words":"Clique no [quadrado vazio] e selecione um [Herói].,",
+			"colorChange":[]
+		},	
+		"2301":{	
+			"words":"Você destravou a [Arena]!\n Clique em [Casa] para conferir!,",
+			"colorChange":[]
+		},	
+		"2302":{	
+			"words":"Clique na [Arena].,",
+			"colorChange":[]
+		},	
+		"2303":{	
+			"words":"Receba pontos a cada 10 minutos! Suba de Ranking \nlutando contra oponentes e ganhando pontos! \nClique em [Lutar].,",
+			"colorChange":[]
+		},	
+		"2304":{	
+			"words":"Clique em [Fechar] para continuar.,",
+			"colorChange":[]
+		},	
+		"2305":{	
+			"words":"Você pode trocar pontos por Poções de Treino.\n Clique em [Prêmios].,",
+			"colorChange":[]
+		},	
+		"2306":{	
+			"words":"Clique em [Trocar] para receber Poções de Treino.,",
+			"colorChange":[]
+		},	
+		"2307":{	
+			"words":"Poções de Treino alteram os stats dos seus Heróis!\n Clique em [Casa] para testar.,",
+			"colorChange":[]
+		},	
+		"2308":{	
+			"words":"Clique em [Heróis].,",
+			"colorChange":[]
+		},	
+		"2309":{	
+			"words":"Clique em [Treinar].,",
+			"colorChange":[]
+		},	
+		"2310":{	
+			"words":"Clique em [Treinar] para treinar 1 vez.\n Clique em [Aceitar] para salvar.\n Clique em [Cancelar] para sair do treinamento.,",
+			"colorChange":[]
+		},	
+		"2401":{	
+			"words":"Você destravou uma nova função!\n Clique em [Casa].,",
+			"colorChange":[]
+		},	
+		"2402":{	
+			"words":"Clique em [Sintetizar].,",
+			"colorChange":[]
+		},	
+		"2403":{	
+			"words":"Sintetize heróis ou Almas de heróis para aumentar seus stats!,",
+			"colorChange":[]
+		},	
+		"2404":{	
+			"words":"Clique para selecionar a [Alma].,",
+			"colorChange":[]
+		},	
+		"2405":{	
+			"words":"Clique em [OK].\n Sintetizado com sucesso!,",
+			"colorChange":[]
+		},	
+		"2501":{	
+			"words":"Você destravou uma nova função!\n Clique em [Treinar].,",
+			"colorChange":[]
+		},	
+		"2601":{	
+			"words":"Você destravou uma nova função!\n Clique em [Treinar].,",
+			"colorChange":[]
+		},	
+		"2701":{	
+			"words":"Novo espaço do time destravado!\n Clique em [Time].,",
+			"colorChange":[]
+		},	
+		"2702":{	
+			"words":"Clique no [espaço vazio] para continuar.,",
+			"colorChange":[]
+		},	
+		"2703":{	
+			"words":"Clique no [quadrado vazio] e selecione um [Herói].,",
+			"colorChange":[]
+		},	
+		"2704":{	
+			"words":"Você destravou uma nova função!\n Clique em [Treinar].,",
+			"colorChange":[]
+		},	
+		"2705":{	
+			"words":"Clique em [Inferno].,",
+			"colorChange":[]
+		},	
+		"2706":{	
+			"words":"Cliquem em [Começar] para continuar.,",
+			"colorChange":[]
+		},	
+		"2707":{	
+			"words":"Você pode escolher um stat bônus baseado\n na sua pontuação anterior.\n Escolha [ATK Bônus].,",
+			"colorChange":[]
+		},	
+		"2708":{	
+			"words":"Existem 3 dificuldades.\n Escolha uma para [Começar].,",
+			"colorChange":[]
+		},	
+		"2801":{	
+			"words":"Você destravou uma nova função!\n Clique em [Aprender].,",
+			"colorChange":[]
+		},	
+		"2802":{	
+			"words":"Clique em [Almas].,",
+			"colorChange":[]
+		},	
+		"2803":{	
+			"words":"Clique no [quadrado vazio] e selecione um [Herói].,",
+			"colorChange":[]
+		},	
+		"2804":{	
+			"words":"Selecione um [Herói],",
+			"colorChange":[]
+		},	
+		"2805":{	
+			"words":"Clique em [OK].,",
+			"colorChange":[]
+		},	
+		"2806":{	
+			"words":"Clique na [Esfera de Força] à esquerda.,",
+			"colorChange":[]
+		},	
+		"2807":{	
+			"words":"Quando a barra estiver cheia, clique\n em [ADICIONAR PODER] para\n ganhar uma alma com upgrade.,",
+			"colorChange":[]
+		},	
+		"2901":{	
+			"words":"Você destravou uma nova função!\n Clique em [Casa].,",
+			"colorChange":[]
+		},	
+		"2902":{	
+			"words":"Clique para ver a [Força Gingyu].,",
+			"colorChange":[]
+		},	
+		"2903":{	
+			"words":"Clique no [espaço vazio] para continuar.,",
+			"colorChange":[]
+		},	
+		"2904":{	
+			"words":"Clique em [OK].,",
+			"colorChange":[]
+		},	
+		"2905":{	
+			"words":"Coloque um Herói no espaço para aumentar\n os stats de todos os membros do seu time.,",
+			"colorChange":[]
+		},	
+		"2906":{	
+			"words":"Se o herói na Força Ginyu tiver um Buff\n com algum membro do time, este Buff será ativado.,",
+			"colorChange":[]
+		},	
+		"2907":{	
+			"words":"Clique no [espaço vazio] para escolher um herói.,",
+			"colorChange":[]
+		},	
+		"2908":{	
+			"words":"Use o [Logotipo Ginyu] para melhorar a porcentagem dos stats.\n Clique em [Upgrade] para testar.,",
+			"colorChange":[]
+		},	
+		"2909":{	
+			"words":"Vamos fazer upgrade desta porcentagem!\n Clique no [espaço] para fazer o upgrade!,",
+			"colorChange":[]
+		},	
+		"2910":{	
+			"words":"Clique em [OK].,",
+			"colorChange":[]
+		},	
+		"3001":{	
+			"words":"Você destravou uma nova função!\n Clique em [Casa].,",
+			"colorChange":[]
+		},	
+		"3002":{	
+			"words":"Clique em [Cartas].,",
+			"colorChange":[]
+		},	
+		"3003":{	
+			"words":"Clique em [Sorteio Grátis] para ganhar uma carta.\n Clique em [x10] para jogar 10 vezes.,",
+			"colorChange":[]
+		},	
+		"3004":{	
+			"words":"Clique em [Casa].,",
+			"colorChange":[]
+		},	
+		"3005":{	
+			"words":"Selecione um [Herói].,",
+			"colorChange":[]
+		},	
+		"3006":{	
+			"words":"Clique em [Cartas Shenlong].,",
+			"colorChange":[]
+		},	
+		"3007":{	
+			"words":"Você pode equipar suas cartas aqui.\n O primeiro espaço abre quando seu\n herói atinge o [Lv50].,",
+			"colorChange":[]
+		},	
+		"3008":{	
+			"words":"Você pode fazer upgrade das cartas para\n ganhar mais stats. Clique em [Casa].,",
+			"colorChange":[]
+		},	
+		"3009":{	
+			"words":"Clique em [Cartas].,",
+			"colorChange":[]
+		},	
+		"3010":{	
+			"words":"Clique em [Reforço].,",
+			"colorChange":[]
+		},	
+		"3011":{	
+			"words":"Clique em [Level Up].,",
+			"colorChange":[]
+		},	
+		"3012":{	
+			"words":"Use outras [Cartas] para aumentar os\n pontos da carta.,",
+			"colorChange":[]
+		},	
+		"3013":{	
+			"words":"Clique em [OK] para salvar o novo número\n de pontos. Atinja o número total de pontos para\n subir de level.,",
+			"colorChange":[]
+		},	
+		"3014":{	
+			"words":"Aumente o level dos [Heróis] para equipar mais cartas.\n  Lute na [Jornada] para ganhar EXP!,",
+			"colorChange":[]
+		}	
+	}		
+}			

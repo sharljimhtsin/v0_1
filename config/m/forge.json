@@ -1,0 +1,66 @@
+{
+  "forge": {
+    "151501": {
+      "id": 151501,
+      "count": 3,
+      "item": [
+        {
+          "id": "151001",
+          "count": 3,
+          "type": "heroSoul"
+        },
+        {
+          "id": "151201",
+          "count": 3,
+          "type": "hero"
+        },
+        {
+          "id": "gold",
+          "count": 10000,
+          "type": "debris"
+        },
+        {
+          "id": "150302",
+          "count": 5,
+          "type": "skill"
+        },
+        {
+          "id": "150402",
+          "count": 5,
+          "type": "equipment"
+        }
+      ]
+    },
+    "151601": {
+      "id": 151601,
+      "count": 10,
+      "item": [
+        {
+          "id": "151001",
+          "count": 3,
+          "type": "item"
+        },
+        {
+          "id": "151201",
+          "count": 3,
+          "type": "item"
+        },
+        {
+          "id": "gold",
+          "count": 10000,
+          "type": "gold"
+        },
+        {
+          "id": "150302",
+          "count": 5,
+          "type": "ingot"
+        },
+        {
+          "id": "150402",
+          "count": 5,
+          "type": "item"
+        }
+      ]
+    }
+  }
+}

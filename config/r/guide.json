@@ -1,0 +1,404 @@
+{
+	"guide": {
+		"1": {
+			"words": "Bueno, ¡ya estás arriba! Puedes ayudar a encontrar las bolas de dragón. ¡\nToque [Viaje] para empezar!",
+			"colorChange": []
+		},
+		"2": {
+			"words": "Tan hambriento! ¿Por qué no vas a tomar un \n pez de río? ¡Toque [Lucha] para empezar! \n Ganar batalla para conseguir bonus bueno!",
+			"colorChange": []
+		},
+		"3": {
+			"words": "¡Buen trabajo! \nATiempo pulse [Cerrar]. Continuar a ganar peleas de EXP y \n aumenter el nivel de su equipo!",
+			"colorChange": []
+		},
+		"4": {
+			"words": "Vamos a buscar algunos héroes de nuestro equipo. \nToque [Convocar] para reclutar a poderosos guerreros del dragón \n a tu equipo.",
+			"colorChange": []
+		},
+		"5": {
+			"words": "Diferentes Canales dan diferente héroe fuerte. \n Toque [ÉPICO] para reclutar a un héroe.",
+			"colorChange": []
+		},
+		"6": {
+			"words": "Todos los héroes tienen Grado: S, A, B y C.¡\nFelicidades! Usted nombró Héroe de Grado A! \nPulse [OK] para continuar.",
+			"colorChange": []
+		},
+		"7": {
+			"words": "Pulse [Básico].",
+			"colorChange": []
+		},
+		"8": {
+			"words": "Pulse [OK].",
+			"colorChange": []
+		},
+		"9": {
+			"words": "Pulse [SUPER].",
+			"colorChange": []
+		},
+		"10": {
+			"words": "Pulse [OK].",
+			"colorChange": []
+		},
+		"11": {
+			"words": "Añadir este nuevo héroe de nuestro equipo. \nPulse [Equipo] para aumentar la fuerza de su equipo.",
+			"colorChange": []
+		},
+		"12": {
+			"words": "¿Usted ve esta ranura? Aumenta nivel para desbloquear más \nranura. \nPulse la [ranura vacía] para continuar.",
+			"colorChange": []
+		},
+		"13": {
+			"words": "ATiempo añadir sus nuevos héroes a su equipo. \nPulse la [ranura vacía] y seleccione buenos [Héroes].",
+			"colorChange": []
+		},
+		"14": {
+			"words": "Pulse para seleccionar a los [Héroes]. \nTodas listas en este juego se pueden gestionar.",
+			"colorChange": []
+		},
+		"15": {
+			"words": "Pulse [OK] para continuar.",
+			"colorChange": []
+		},
+		"16": {
+			"words": "Nuestro equipo se ha vuelto más fuerte. ¡Vamos a conseguir esas bolas de dragón! \nPulse [Viaje].,",
+			"colorChange": []
+		},
+		"17": {
+			"words": "Bueno, ¡Novato! Vamos a probar su fuerza, \nPulse [Lucha] para entrar en batalla.",
+			"colorChange": []
+		},
+		"18": {
+			"words": "¡Buen trabajo! Usted aprendió esta lección en un coche. \nPulse [Cerrar",
+			"colorChange": []
+		},
+		"19": {
+			"words": "Oye, ¿qué es? \nPulse [Aceptar].",
+			"colorChange": []
+		},
+		"20": {
+			"words": "¡Vamos a equipar nuestra nueva arma! \nPulse [Equipo].",
+			"colorChange": []
+		},
+		"21": {
+			"words": "¡Tenga cuidado para equipar siempre el mejor equipo para las mejores estadísticas! \nPulse [Armas] para equipar engranaje.",
+			"colorChange": []
+		},
+		"22": {
+			"words": "Pulse para seleccionar una buena [arma].  \nEquipar con una buena arma para aumentar su punto de fuerza.",
+			"colorChange": []
+		},
+		"23": {
+			"words": "Pulse [OK]. \nLa arma aumenta el punto de fuerza de su equipo.",
+			"colorChange": []
+		},
+		"24": {
+			"words": "Fortalecer el equipamiento para mejorar atributo, \nHaga clic en [Tridente",
+			"colorChange": []
+		},
+		"25": {
+			"words": "Haga clic en [Fortalecer]",
+			"colorChange": []
+		},
+		"26": {
+			"words": "Haga clic en [Fortalecer] para mejorar el equipamiento",
+			"colorChange": []
+		},
+		"27": {
+			"words": "Haga clic en [Volver]",
+			"colorChange": []
+		},
+		"28": {
+			"words": "Cuando las bolas de dragón iluminan, pulse para obtener bonus sorpresa! \n¡Inténtalo aTiempo!",
+			"colorChange": []
+		},
+		"29": {
+			"words": "Pulse [√] para cerrar.",
+			"colorChange": []
+		},
+		"30": {
+			"words": "Eso es todo lo que se puede enseñar. \n¡ATiempo vamos a encontrar estas bolas de dragón! \n¡Pulse en [Viaje] para ir a la aventura!",
+			"colorChange": []
+		},
+		"2001": {
+			"words": "Se ha desbloqueado el ranura del nuevo miembro. \nPulse en [Equipo].",
+			"colorChange": []
+		},
+		"2002": {
+			"words": "Selecciona vacío [Espacio].",
+			"colorChange": []
+		},
+		"2003": {
+			"words": "Pulse la tecla [cuadrado] para seleccionar un héroe.",
+			"colorChange": []
+		},
+		"2030": {
+			"words": "Combinar Habilidades para aumentar el punto de fuerza de su equipo. \nPulse [Equipo] para probar.",
+			"colorChange": []
+		},
+		"2031": {
+			"words": "Pulse la tecla [Habilidad] de este héroe. ",
+			"colorChange": []
+		},
+		"2032": {
+			"words": "Pulse [Fundirse].",
+			"colorChange": []
+		},
+		"2033": {
+			"words": "Selecciona [Habilidad].",
+			"colorChange": []
+		},
+		"2034": {
+			"words": "Selecciona [Habilidad].",
+			"colorChange": []
+		},
+		"2035": {
+			"words": "Selecciona [Habilidad].",
+			"colorChange": []
+		},
+		"2036": {
+			"words": "Selecciona [Habilidad].",
+			"colorChange": []
+		},
+		"2037": {
+			"words": "Pulse [OK].",
+			"colorChange": []
+		},
+		"2201": {
+			"words": "Se ha desbloqueado el ranura del nuevo miembro. \nPulse en [Equipo].",
+			"colorChange": []
+		},
+		"2202": {
+			"words": "Selecciona vacío [Espacio].",
+			"colorChange": []
+		},
+		"2203": {
+			"words": "Pulse la tecla [cuadrado] para seleccionar un héroe.",
+			"colorChange": []
+		},
+		"2301": {
+			"words": "¡Muy bien! Has desbloqueado la [Arena]. \n¡Vamos a ver! Toque [Menú].",
+			"colorChange": []
+		},
+		"2302": {
+			"words": "Haga clic en [Arena]",
+			"colorChange": []
+		},
+		"2303": {
+			"words": "Usted puede recibir puntos cada 10 minutos. \nDesafía con otros jugadores, se puede subir su rango y obtener más puntos! Toque [Desafiar]",
+			"colorChange": []
+		},
+		"2304": {
+			"words": "Haz clic para continuar",
+			"colorChange": []
+		},
+		"2305": {
+			"words": "Usted puede canjear pociones con sus puntos. \nToque [Bonus] para probarlo.",
+			"colorChange": []
+		},
+		"2306": {
+			"words": "Toque [Canjear] para recibir pociones.",
+			"colorChange": []
+		},
+		"2307": {
+			"words": "Los pociones pueden alterar sus héroes. Vamos a darle una oportunidad!  \nToque [Menú].",
+			"colorChange": []
+		},
+		"2308": {
+			"words": "Toque [Héroe].",
+			"colorChange": []
+		},
+		"2309": {
+			"words": "Toque [Formar].",
+			"colorChange": []
+		},
+		"2310": {
+			"words": "Toque [Formar] para formar 1 vez. \nPulse [Aceptar] o [Salir] para finalizar la formación.",
+			"colorChange": []
+		},
+		"2401": {
+			"words": "¡Felicidades! Has desbloqueado una nueva función! \nPulse [Menú].",
+			"colorChange": []
+		},
+		"2402": {
+			"words": "Toque [Sintetizar].",
+			"colorChange": []
+		},
+		"2403": {
+			"words": "Sintetizar Héroes o Almas para aumentar atributo.  Toque [Promocionar]. ",
+			"colorChange": []
+		},
+		"2404": {
+			"words": "Pulse para seleccionar [Almas].",
+			"colorChange": []
+		},
+		"2405": {
+			"words": "Pulse [OK] \nSintetizar con éxito, \nlas almas elegidas fueron consumido.",
+			"colorChange": []
+		},
+		"2501": {
+			"words": "¡Felicidades!  Has desbloqueado una nueva función! \nPulse [Ensayo].",
+			"colorChange": []
+		},
+		"2601": {
+			"words": "Buen trabajo! Has desbloqueado una nueva función! \nPulse [Ensayo].",
+			"colorChange": []
+		},
+		"2701": {
+			"words": "Se ha desbloqueado la nueva ranura del miembro,  \nPulse [Equipo].",
+			"colorChange": []
+		},
+		"2702": {
+			"words": "Selecciona vacío [Espacio].",
+			"colorChange": []
+		},
+		"2703": {
+			"words": "Pulse la tecla [cuadrado] para seleccionar un héroe.",
+			"colorChange": []
+		},
+		"2704": {
+			"words": "Impresionante! Has desbloqueado una nueva función! \nPulse [Ensayo].",
+			"colorChange": []
+		},
+		"2705": {
+			"words": "Seleccione la ficha [Sellar].",
+			"colorChange": []
+		},
+		"2706": {
+			"words": "Pulse [Menú] para continuar.",
+			"colorChange": []
+		},
+		"2707": {
+			"words": "Basado en su última estrella total, puede elegir un bonus de atributo. \nSeleccione [Bonus de ATQ].",
+			"colorChange": []
+		},
+		"2708": {
+			"words": "Hay 3 niveles de dificultad. \nSeleccione un nivel en [Menú] para luchar.",
+			"colorChange": []
+		},
+		"2801": {
+			"words": "¡Felicidades!  Has desbloqueado una nueva función. \nPulse [Práctica].",
+			"colorChange": []
+		},
+		"2802": {
+			"words": "Seleccione la ficha [Alma]",
+			"colorChange": []
+		},
+		"2803": {
+			"words": "Toque en el [plaza vacía] para elegir un héroe.",
+			"colorChange": []
+		},
+		"2804": {
+			"words": "Seleccione un [Héroe].",
+			"colorChange": []
+		},
+		"2805": {
+			"words": "Pulse [OK].",
+			"colorChange": []
+		},
+		"2806": {
+			"words": "Toque en el [Bola de Energía] a la izquierda.",
+			"colorChange": []
+		},
+		"2807": {
+			"words": "Cuando la energía está llena, \nPulse [Añadir energía] para obtener el alma mejorada. ",
+			"colorChange": []
+		},
+		"2901": {
+			"words": "¡Muy bien! Has desbloqueado una nueva función. \nPulse [Menú].",
+			"colorChange": []
+		},
+		"2902": {
+			"words": "Pulse para ver [Fuerza Ginyu].",
+			"colorChange": []
+		},
+		"2903": {
+			"words": "Toque en el vacío [Espacio].",
+			"colorChange": []
+		},
+		"2904": {
+			"words": "Pulse [OK].",
+			"colorChange": []
+		},
+		"2905": {
+			"words": "Coloque un héroe en la ranura para aumentar los atributos de todos los miembros del equipo",
+			"colorChange": []
+		},
+		"2906": {
+			"words": "Si el héroe en la Fuerza tiene conexión de destino con cualquier miembro del equipo, el bonus será activado.",
+			"colorChange": []
+		},
+		"2907": {
+			"words": "Toque en el vacío [Espacio] para elegir un héroe.",
+			"colorChange": []
+		},
+		"2908": {
+			"words": "Puede utilizar [Logos Ginyu] para mejorar la tasa de bonus de atributo. \nPulse [Actualización] para probarlo.",
+			"colorChange": []
+		},
+		"2909": {
+			"words": "Vamos a actualizar la tasa de atributo añadido! \nPulse el [Espacio] para actualizar.",
+			"colorChange": []
+		},
+		"2910": {
+			"words": "Pulse [OK].",
+			"colorChange": []
+		},
+		"3001": {
+			"words": "¡Muy bien! Has desbloqueado una nueva función! \nPulse [Menú].",
+			"colorChange": []
+		},
+		"3002": {
+			"words": "Toque [Tarjetas].",
+			"colorChange": []
+		},
+		"3003": {
+			"words": "Toque [Recoger gratis] para obtener una tarjeta.  \nPulse [x10] para dibujar 10 veces",
+			"colorChange": []
+		},
+		"3004": {
+			"words": "Seleccione [Menú].",
+			"colorChange": []
+		},
+		"3005": {
+			"words": "Seleccione un [Héroe].",
+			"colorChange": []
+		},
+		"3006": {
+			"words": "Toque [Tarjetas Shenron].",
+			"colorChange": []
+		},
+		"3007": {
+			"words": "Aquí puedes equipar tus tarjetas. \nLa primera ranura se abre cuando su héroe llega a Nvl.50.",
+			"colorChange": []
+		},
+		"3008": {
+			"words": "Las tarjetas pueden ser actualizados para un mejor atributo, \nPulse [Menú].",
+			"colorChange": []
+		},
+		"3009": {
+			"words": "Toque [Tarjeta].",
+			"colorChange": []
+		},
+		"3010": {
+			"words": "Toque [Baraja].",
+			"colorChange": []
+		},
+		"3011": {
+			"words": "Toque [Subir el nivel].",
+			"colorChange": []
+		},
+		"3012": {
+			"words": "Utilice otras [Tarjetas] para aumentar los puntos de la Tarjeta.",
+			"colorChange": []
+		},
+		"3013": {
+			"words": "Pulse [OK] para guardar nuevo puntos.  Alcanzó EXP total para subir el nivel.",
+			"colorChange": []
+		},
+		"3014": {
+			"words": "Subir el nivel de Héroe para equipar más tarjetas. ¡Vamos a luchar [Viaje] batallas para ganar EXP!",
+			"colorChange": []
+		}
+	}
+}

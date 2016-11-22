@@ -1,0 +1,26 @@
+{
+	"mail":{
+		"bloodBattleRankReward":"Demais! Seu time entrou no Ranking do portão do Inferno! Clique em OBTER para receber seu prêmio.",
+		"worldBossRankReward":"Épico! Seu time entrou no Ranking do Beus da Destruição! Clique em OBTER para receber seu prêmio.",
+		"worldBossLastBeatReward":"Inacreditável! Você acertou o golpe final no Deus da Destruição! Parabéns! Clique em OBTER para receber seu prêmio.",
+		"pvpRankDown":"{0} te derrotou na Arena, e você caiu para a posição {1}.",
+		"pvpPatchLost":"{0} te derrotou em uma luta de Fragmento de Skill, e você perdeu {1}.",
+		"monthCardReward":"Seu Vale Mensal ainda possui {0} Gammets e {1} Sementes. Clique em OBTER para receber seu prêmio.",
+		"pvpRankDailyReward":"Prêmio Diário do Ranking da Arena",
+		"leagueMap":"Durante a Guerra de Guildas {0}, você ficou em primeiro lugar no Ranking de Dano, tendo direito a grandes recompensas! Clique em OBTER para receber.",
+		"leagueMapFail":"Você não venceu o Leilão da Guerra de Guildas, e {1} pontos de Devoção lhe foram devolvidos. Clique em OBTER para receber.",
+		"leagueMapSuccess":"Você venceu o Leilão da Guerra de Guildas! Clique em OBTER para retirar os itens.",
+		"groupPurchaseReward":"Parabéns! Você ganhou {0} baús no evento de compra em grupo. Retire as suas recompensas.",
+		"tabletsClickReward":"Parabéns! Você fez uma previsão bem-sucedida. Retire as suas recompensas.",
+		"cosmosBossRankReward":"Fantástico! Seu time entrou no Ranking Xeno! Clique em OBTER para receber seu prêmio.",
+		"cosmosBossLastBeatReward":"Magnífico! Você acertou o golpe final em Towa! Clique em OBTER para receber seu prêmio.",
+		"gemCompose":" ",
+		"gemComposeReward":" ",
+		"finalRewardStr":"Prêmios Finais",
+		"rankRewardStr":"Prêmios de Rank",
+		"vipClubRewardStr":"vip俱乐部奖励",
+		"bejeweledRankReward":"恭喜您进入排行榜，特发排行奖励，请点击【领取】按钮领取奖励。",
+		"quarterCardReward":"您本次季卡未领取，还请您注意查收。",
+		"quarterCardRewardForVip":"恭喜您获得季卡vip奖励，请点击【领取】按钮领取奖励。"
+	}
+}

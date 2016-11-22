@@ -1,0 +1,35 @@
+{
+	"message": {
+		"default": {
+			"0": "Mỗi đồng hành đều có kỹ năng thiên phú, đồng hành phẩm chất càng cao, kỹ năng thiên phú cũng càng cao",
+			"1": "Đội đạt Lv19 sẽ mở rút thẻ, rút được Mảnh có thể cường hóa đồng hành",
+			"2": "Đồng hành sau khi tăng cấp sẽ tăng tiềm lực, dùng Thuốc bồi dưỡng có thể thêm tiềm lực vào thuộc tính của đồng hành",
+			"3": "Khi Ngọc Rồng ở giao diện chính phát sáng, nhấn vào sẽ xuất hiện bất ngờ",
+			"4": "Chiến đấu vào hiệp 3 sẽ thực sự vào quyết đấu, chưa phân thắng bại chưa thôi",
+			"5": "Đội đạt Lv11, có thể thông qua lịch luyện vào Phong Ấn Cổng Địa Ngục, thông qua Phong Ấn Cổng Địa Ngục, có thể nhận nhiều Zeni, Capsule và Gammet",
+			"6": "Đội đạt Lv13, có thể thông qua lịch luyện vào Thí Luyện Thần Hủy Diệt, thông qua Thí Luyện Thần Hủy Diệt, có thể nhận nhiều Zeni và Thuốc bồi dưỡng",
+			"7": "Trong mạo hiểm, khi lần đầu nhận đánh giá 3 sao, nhận Exp đội, Exp đồng hành và Zeni x3",
+			"8": "Khi tuyển đồng hành, có thể tuyển được đồng hành nhiều phẩm chất, triệu hồi cấp càng cao, càng có khả năng triệu hồi được đồng hành phẩm chất cao",
+			"9": "Trong danh sách hồn phách, đồng hành có đủ hồn phách có thể tiến hành đột phá, tăng tiềm lực",
+			"10": "Bình thường cần tra xem tu luyện, nhiều hoạt động đặc sắc đang chờ bạn",
+			"11": "Hạng kịch chiến càng cao, nhận điểm càng nhiều, có thể dùng điểm đổi Thuốc bồi dưỡng",
+			"12": "Đội đạt Lv18, mở tinh luyện trang bị, có thể cường hóa trang bị",
+			"13": "Phía sau ải Mạo Hiểm có thể rơi phòng cụ và vũ khí cấp A",
+			"14": "Sau khi thành VIP, có thể vào Shop Quà mua quà, kỹ năng, trang bị, Thuốc bồi dưỡng cấp tương ứng"
+		},
+		"userAction": {
+			"0": "{userUid} thu thập thành công tất cả mảnh, ghép kỹ năng {ID}",
+			"1": "{userUid} cường hóa thành công {ID} đến Lv{value}",
+			"2": "{userUid} tăng cấp thành công {ID} đến Lv{value}",
+			"4": "{userUid} tăng cấp thành công {ID} đến Lv{value}",
+			"5": "{userUid} thành công triệu hồi được đồng hành {ID} trong các đồng hành, đồng hành này khi chào đời có lực chiến rất cao, tiềm lực vô cùng",
+			"6": "{userUid} thật may mắn, từ Capsule nhận {ID}",
+			"7": "{userUid} nỗ lực không ngừng, trong kịch chiến tăng đến hạng {value}",
+			"8": "{userUid} nỗ lực không ngừng, thu thập hồn phách thành công, triệu hồi được {ID}",
+			"9": "{userUid} ở Crystal Balls may mắn nhận {ID}",
+			"10": "{userUid} nỗ lực không ngừng, thu thập Dirty Magazines, ở chỗ Roshi đổi được {ID}",
+			"11": "{userUid} ở rút thẻ may mắn nhận {ID}",
+			"12": "{userUid} nỗ lực không ngừng, thu thập hồn phách, đột phá {ID} đến bậc {value}"
+		}
+	}
+}

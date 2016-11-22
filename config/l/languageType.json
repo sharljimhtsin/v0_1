@@ -1,0 +1,16 @@
+{
+	"languageType":{
+		"type":"CHS",
+		"length":6,
+		"review":0,
+		"LoginScene":{
+			"password":"账号或密码不能为空",
+			"loginName":"默认账号",
+			"loginFirst":"请先登录",
+			"loginFail":"验证失败，请重新登陆",
+			"loginPingtai":"请先登录平台",
+			"name":"游客",
+			"noHistory":"没有历史记录"
+		}
+	}
+}

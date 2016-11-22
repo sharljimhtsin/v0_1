@@ -1,0 +1,35 @@
+{
+	"message": {
+		"default": {
+			"0": "Cada héroe viene con una habilidad propia, los héroes de mejor calidad tienen mejores habilidades.",
+			"1": "Al llegar al Nvl.19, se puede comenzar a recoger las tarjetas para aumentar los atributos de sus Héroes",
+			"2": "Usar pociones y potencia para aumentar el atributo de un héroe. Un héroe recibe potencia al subir de nivel.",
+			"3": "Cuando las bolas de dragón se brillan en la interfaz principal, pulse en ellos para una sorpresa genial.",
+			"4": "La tercera ronda de cada batalla es la ronda final, sin descanso antes de que se conozcan los resultados.",
+			"5": "Llegar al Nvl.11 para sellar la puerta del infierno donde se puede ganar un montón de Zeni, Cápsulas y Gammets.",
+			"6": "Llegar al Nvl.13 para entrar en la prueba de Dios de destrucción donde se puede ganar un montón de Zeni y Pociones de formación.",
+			"7": "Consigue 3 Estrellas al despejar una batalla Viaje por primera vez para recibir EXP x3 y Zeni x3.",
+			"8": "Usando mejor invocación tendrá una mayor probabilidad de obtener Héroes de alta calidad.",
+			"9": "Recoge suficientes almas para un héroe se puede impulsar los atributos y aumentar potenica.",
+			"10": "Compruebe Práctica desde el menú principal a menudo por tener más eventos de diversión.",
+			"11": "Cunado el rango es más alto en la Arena tendrán más puntos que pueden ser canjeados por pociones.",
+			"12": "Llegar al Nvl.18 para refinar equipamiento y fortalecerlo.",
+			"13": "La última batalla en cada etapa del trayecto podría dar un accesorio del grado A y las armas.",
+			"14": "Hazte VIP para poder comprar paquetes de regalos especiales con Habilidad, Equipamiento,  Pociones y mucho más."
+		},
+		"userAction": {
+			"0": "¡Impresionante! {userUid} ha recogido todas las Piezas de Habilidad y ganó {ID}!",
+			"1": "¡Buen trabajo! ¡{userUid} ha mejorado {ID} al Nvl.{value}!",
+			"2": "¡Muy bien! ¡{userUid} ha mejorado {ID} al Nvl.{value}!",
+			"4": "¡Muy bien! ¡{userUid} ha mejorado {ID} al Nvl.{value}!",
+			"5": "¡Muy bien! ¡{userUid} ha reclutado {ID} con una super alta tasa de crecer! ¡El cielo es el límite!",
+			"6": "¡Boom! ¡{userUid} ha recibido {ID} de una cápsula!",
+			"7": "¡Súper guerrero {userUid} ha alcanzado No.{value} en el Rango de Arena!",
+			"8": "¡Detrás de los muertos! {userUid} recogido suficientes almas para revivir {ID}!",
+			"9": "¡Uranai Baba! {userUid} recibió {ID} desde Uranai Baba!",
+			"10": "¡{userUid} entregó Roshi suficientes Revistas Pornográficas para conseguir {ID}!",
+			"11": "¡Súper suerte! {userUid} recibió {ID} desde la tarjeta de lotería!",
+			"12": "¡{userUid} ha recogido suficientes almas para avanzar {ID} a la etapa {value}!"
+		}
+	}
+}

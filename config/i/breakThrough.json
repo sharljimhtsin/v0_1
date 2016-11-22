@@ -1,0 +1,2548 @@
+{
+	"breakThrough": {
+		"1": {
+			"heroStar": 1,
+			"1": {
+				"breakThroughCount": 1,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 0.5
+			},
+			"2": {
+				"breakThroughCount": 2,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 1
+			},
+			"3": {
+				"breakThroughCount": 3,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 1.5
+			},
+			"4": {
+				"breakThroughCount": 4,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 2
+			},
+			"5": {
+				"breakThroughCount": 5,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 2.5
+			},
+			"6": {
+				"breakThroughCount": 6,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 3
+			},
+			"7": {
+				"breakThroughCount": 7,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 3.5
+			},
+			"8": {
+				"breakThroughCount": 8,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 4
+			},
+			"9": {
+				"breakThroughCount": 9,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 4.5
+			},
+			"10": {
+				"breakThroughCount": 10,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 5
+			},
+			"11": {
+				"breakThroughCount": 11,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 5.5
+			},
+			"12": {
+				"breakThroughCount": 12,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 6
+			},
+			"13": {
+				"breakThroughCount": 13,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 6.5
+			},
+			"14": {
+				"breakThroughCount": 14,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 7
+			},
+			"15": {
+				"breakThroughCount": 15,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 7.5
+			},
+			"16": {
+				"breakThroughCount": 16,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 8
+			},
+			"17": {
+				"breakThroughCount": 17,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 8.5
+			},
+			"18": {
+				"breakThroughCount": 18,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 9
+			},
+			"19": {
+				"breakThroughCount": 19,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 9.5
+			},
+			"20": {
+				"breakThroughCount": 20,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 10
+			},
+			"21": {
+				"breakThroughCount": 21,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 10.5
+			},
+			"22": {
+				"breakThroughCount": 22,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 11
+			},
+			"23": {
+				"breakThroughCount": 23,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 11.5
+			},
+			"24": {
+				"breakThroughCount": 24,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 12
+			},
+			"25": {
+				"breakThroughCount": 25,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 12.5
+			},
+			"26": {
+				"breakThroughCount": 26,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 13
+			},
+			"27": {
+				"breakThroughCount": 27,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 13.5
+			},
+			"28": {
+				"breakThroughCount": 28,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 14
+			},
+			"29": {
+				"breakThroughCount": 29,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 14.5
+			},
+			"30": {
+				"breakThroughCount": 30,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 15
+			}
+		},
+		"2": {
+			"heroStar": 2,
+			"1": {
+				"breakThroughCount": 1,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 1
+			},
+			"2": {
+				"breakThroughCount": 2,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 2
+			},
+			"3": {
+				"breakThroughCount": 3,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 3
+			},
+			"4": {
+				"breakThroughCount": 4,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 4
+			},
+			"5": {
+				"breakThroughCount": 5,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 5
+			},
+			"6": {
+				"breakThroughCount": 6,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 6
+			},
+			"7": {
+				"breakThroughCount": 7,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 7
+			},
+			"8": {
+				"breakThroughCount": 8,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 8
+			},
+			"9": {
+				"breakThroughCount": 9,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 9
+			},
+			"10": {
+				"breakThroughCount": 10,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 10
+			},
+			"11": {
+				"breakThroughCount": 11,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 11
+			},
+			"12": {
+				"breakThroughCount": 12,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 12
+			},
+			"13": {
+				"breakThroughCount": 13,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 13
+			},
+			"14": {
+				"breakThroughCount": 14,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 14
+			},
+			"15": {
+				"breakThroughCount": 15,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 15
+			},
+			"16": {
+				"breakThroughCount": 16,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 16
+			},
+			"17": {
+				"breakThroughCount": 17,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 17
+			},
+			"18": {
+				"breakThroughCount": 18,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 18
+			},
+			"19": {
+				"breakThroughCount": 19,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 19
+			},
+			"20": {
+				"breakThroughCount": 20,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 20
+			},
+			"21": {
+				"breakThroughCount": 21,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 21
+			},
+			"22": {
+				"breakThroughCount": 22,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 22
+			},
+			"23": {
+				"breakThroughCount": 23,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 23
+			},
+			"24": {
+				"breakThroughCount": 24,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 24
+			},
+			"25": {
+				"breakThroughCount": 25,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 25
+			},
+			"26": {
+				"breakThroughCount": 26,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 26
+			},
+			"27": {
+				"breakThroughCount": 27,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 27
+			},
+			"28": {
+				"breakThroughCount": 28,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 28
+			},
+			"29": {
+				"breakThroughCount": 29,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 29
+			},
+			"30": {
+				"breakThroughCount": 30,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 30
+			}
+		},
+		"3": {
+			"heroStar": 3,
+			"1": {
+				"breakThroughCount": 1,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 1.5
+			},
+			"2": {
+				"breakThroughCount": 2,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 3
+			},
+			"3": {
+				"breakThroughCount": 3,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 4.5
+			},
+			"4": {
+				"breakThroughCount": 4,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 6
+			},
+			"5": {
+				"breakThroughCount": 5,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 7.5
+			},
+			"6": {
+				"breakThroughCount": 6,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 9
+			},
+			"7": {
+				"breakThroughCount": 7,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 10.5
+			},
+			"8": {
+				"breakThroughCount": 8,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 12
+			},
+			"9": {
+				"breakThroughCount": 9,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 13.5
+			},
+			"10": {
+				"breakThroughCount": 10,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 15
+			},
+			"11": {
+				"breakThroughCount": 11,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 16.5
+			},
+			"12": {
+				"breakThroughCount": 12,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 18
+			},
+			"13": {
+				"breakThroughCount": 13,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 19.5
+			},
+			"14": {
+				"breakThroughCount": 14,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 21
+			},
+			"15": {
+				"breakThroughCount": 15,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 22.5
+			},
+			"16": {
+				"breakThroughCount": 16,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 24
+			},
+			"17": {
+				"breakThroughCount": 17,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 25.5
+			},
+			"18": {
+				"breakThroughCount": 18,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 27
+			},
+			"19": {
+				"breakThroughCount": 19,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 28.5
+			},
+			"20": {
+				"breakThroughCount": 20,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 30
+			},
+			"21": {
+				"breakThroughCount": 21,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 31.5
+			},
+			"22": {
+				"breakThroughCount": 22,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 33
+			},
+			"23": {
+				"breakThroughCount": 23,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 34.5
+			},
+			"24": {
+				"breakThroughCount": 24,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 36
+			},
+			"25": {
+				"breakThroughCount": 25,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 37.5
+			},
+			"26": {
+				"breakThroughCount": 26,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 39
+			},
+			"27": {
+				"breakThroughCount": 27,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 40.5
+			},
+			"28": {
+				"breakThroughCount": 28,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 42
+			},
+			"29": {
+				"breakThroughCount": 29,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 43.5
+			},
+			"30": {
+				"breakThroughCount": 30,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 45
+			}
+		},
+		"4": {
+			"heroStar": 4,
+			"1": {
+				"breakThroughCount": 1,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 3
+			},
+			"2": {
+				"breakThroughCount": 2,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 6
+			},
+			"3": {
+				"breakThroughCount": 3,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 9
+			},
+			"4": {
+				"breakThroughCount": 4,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 12
+			},
+			"5": {
+				"breakThroughCount": 5,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 15
+			},
+			"6": {
+				"breakThroughCount": 6,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 18
+			},
+			"7": {
+				"breakThroughCount": 7,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 21
+			},
+			"8": {
+				"breakThroughCount": 8,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 24
+			},
+			"9": {
+				"breakThroughCount": 9,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 27
+			},
+			"10": {
+				"breakThroughCount": 10,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 30
+			},
+			"11": {
+				"breakThroughCount": 11,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 33
+			},
+			"12": {
+				"breakThroughCount": 12,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 36
+			},
+			"13": {
+				"breakThroughCount": 13,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 39
+			},
+			"14": {
+				"breakThroughCount": 14,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 42
+			},
+			"15": {
+				"breakThroughCount": 15,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 45
+			},
+			"16": {
+				"breakThroughCount": 16,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 48
+			},
+			"17": {
+				"breakThroughCount": 17,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 51
+			},
+			"18": {
+				"breakThroughCount": 18,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 54
+			},
+			"19": {
+				"breakThroughCount": 19,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 57
+			},
+			"20": {
+				"breakThroughCount": 20,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 60
+			},
+			"21": {
+				"breakThroughCount": 21,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 63
+			},
+			"22": {
+				"breakThroughCount": 22,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 66
+			},
+			"23": {
+				"breakThroughCount": 23,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 69
+			},
+			"24": {
+				"breakThroughCount": 24,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 72
+			},
+			"25": {
+				"breakThroughCount": 25,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 75
+			},
+			"26": {
+				"breakThroughCount": 26,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 78
+			},
+			"27": {
+				"breakThroughCount": 27,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 81
+			},
+			"28": {
+				"breakThroughCount": 28,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 84
+			},
+			"29": {
+				"breakThroughCount": 29,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 87
+			},
+			"30": {
+				"breakThroughCount": 30,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 90
+			},
+			"31": {
+				"breakThroughCount": 31,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 93
+			},
+			"32": {
+				"breakThroughCount": 32,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 96
+			},
+			"33": {
+				"breakThroughCount": 33,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 99
+			},
+			"34": {
+				"breakThroughCount": 34,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 102
+			},
+			"35": {
+				"breakThroughCount": 35,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 105
+			},
+			"36": {
+				"breakThroughCount": 36,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 108
+			},
+			"37": {
+				"breakThroughCount": 37,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 111
+			},
+			"38": {
+				"breakThroughCount": 38,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 114
+			},
+			"39": {
+				"breakThroughCount": 39,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 117
+			},
+			"40": {
+				"breakThroughCount": 40,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 120
+			},
+			"41": {
+				"breakThroughCount": 41,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 123
+			},
+			"42": {
+				"breakThroughCount": 42,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 126
+			},
+			"43": {
+				"breakThroughCount": 43,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 129
+			},
+			"44": {
+				"breakThroughCount": 44,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 132
+			},
+			"45": {
+				"breakThroughCount": 45,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 135
+			},
+			"46": {
+				"breakThroughCount": 46,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 138
+			},
+			"47": {
+				"breakThroughCount": 47,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 141
+			},
+			"48": {
+				"breakThroughCount": 48,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 144
+			},
+			"49": {
+				"breakThroughCount": 49,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 147
+			},
+			"50": {
+				"breakThroughCount": 50,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 150
+			},
+			"51": {
+				"breakThroughCount": 51,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 153
+			},
+			"52": {
+				"breakThroughCount": 52,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 156
+			},
+			"53": {
+				"breakThroughCount": 53,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 159
+			},
+			"54": {
+				"breakThroughCount": 54,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 162
+			},
+			"55": {
+				"breakThroughCount": 55,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 165
+			},
+			"56": {
+				"breakThroughCount": 56,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 168
+			},
+			"57": {
+				"breakThroughCount": 57,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 171
+			},
+			"58": {
+				"breakThroughCount": 58,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 174
+			},
+			"59": {
+				"breakThroughCount": 59,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 177
+			},
+			"60": {
+				"breakThroughCount": 60,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 180
+			}
+		},
+		"5": {
+			"heroStar": 5,
+			"1": {
+				"breakThroughCount": 1,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 3
+			},
+			"2": {
+				"breakThroughCount": 2,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 6
+			},
+			"3": {
+				"breakThroughCount": 3,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 9
+			},
+			"4": {
+				"breakThroughCount": 4,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 12
+			},
+			"5": {
+				"breakThroughCount": 5,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 15
+			},
+			"6": {
+				"breakThroughCount": 6,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 18
+			},
+			"7": {
+				"breakThroughCount": 7,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 21
+			},
+			"8": {
+				"breakThroughCount": 8,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 24
+			},
+			"9": {
+				"breakThroughCount": 9,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 27
+			},
+			"10": {
+				"breakThroughCount": 10,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 30
+			},
+			"11": {
+				"breakThroughCount": 11,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 33
+			},
+			"12": {
+				"breakThroughCount": 12,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 36
+			},
+			"13": {
+				"breakThroughCount": 13,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 39
+			},
+			"14": {
+				"breakThroughCount": 14,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 42
+			},
+			"15": {
+				"breakThroughCount": 15,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 45
+			},
+			"16": {
+				"breakThroughCount": 16,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 48
+			},
+			"17": {
+				"breakThroughCount": 17,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 51
+			},
+			"18": {
+				"breakThroughCount": 18,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 54
+			},
+			"19": {
+				"breakThroughCount": 19,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 57
+			},
+			"20": {
+				"breakThroughCount": 20,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 60
+			},
+			"21": {
+				"breakThroughCount": 21,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 63
+			},
+			"22": {
+				"breakThroughCount": 22,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 66
+			},
+			"23": {
+				"breakThroughCount": 23,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 69
+			},
+			"24": {
+				"breakThroughCount": 24,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 72
+			},
+			"25": {
+				"breakThroughCount": 25,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 75
+			},
+			"26": {
+				"breakThroughCount": 26,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 78
+			},
+			"27": {
+				"breakThroughCount": 27,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 81
+			},
+			"28": {
+				"breakThroughCount": 28,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 84
+			},
+			"29": {
+				"breakThroughCount": 29,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 87
+			},
+			"30": {
+				"breakThroughCount": 30,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 90
+			},
+			"31": {
+				"breakThroughCount": 31,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 93
+			},
+			"32": {
+				"breakThroughCount": 32,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 96
+			},
+			"33": {
+				"breakThroughCount": 33,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 99
+			},
+			"34": {
+				"breakThroughCount": 34,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 102
+			},
+			"35": {
+				"breakThroughCount": 35,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 105
+			},
+			"36": {
+				"breakThroughCount": 36,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 108
+			},
+			"37": {
+				"breakThroughCount": 37,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 111
+			},
+			"38": {
+				"breakThroughCount": 38,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 114
+			},
+			"39": {
+				"breakThroughCount": 39,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 117
+			},
+			"40": {
+				"breakThroughCount": 40,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 120
+			},
+			"41": {
+				"breakThroughCount": 41,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 123
+			},
+			"42": {
+				"breakThroughCount": 42,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 126
+			},
+			"43": {
+				"breakThroughCount": 43,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 129
+			},
+			"44": {
+				"breakThroughCount": 44,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 132
+			},
+			"45": {
+				"breakThroughCount": 45,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 135
+			},
+			"46": {
+				"breakThroughCount": 46,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 138
+			},
+			"47": {
+				"breakThroughCount": 47,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 141
+			},
+			"48": {
+				"breakThroughCount": 48,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 144
+			},
+			"49": {
+				"breakThroughCount": 49,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 147
+			},
+			"50": {
+				"breakThroughCount": 50,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 150
+			},
+			"51": {
+				"breakThroughCount": 51,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 153
+			},
+			"52": {
+				"breakThroughCount": 52,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 156
+			},
+			"53": {
+				"breakThroughCount": 53,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 159
+			},
+			"54": {
+				"breakThroughCount": 54,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 162
+			},
+			"55": {
+				"breakThroughCount": 55,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 165
+			},
+			"56": {
+				"breakThroughCount": 56,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 168
+			},
+			"57": {
+				"breakThroughCount": 57,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 171
+			},
+			"58": {
+				"breakThroughCount": 58,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 174
+			},
+			"59": {
+				"breakThroughCount": 59,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 177
+			},
+			"60": {
+				"breakThroughCount": 60,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 180
+			}
+		},
+		"6": {
+			"heroStar": 6,
+			"1": {
+				"breakThroughCount": 1,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 3
+			},
+			"2": {
+				"breakThroughCount": 2,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 6
+			},
+			"3": {
+				"breakThroughCount": 3,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 9
+			},
+			"4": {
+				"breakThroughCount": 4,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 12
+			},
+			"5": {
+				"breakThroughCount": 5,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 15
+			},
+			"6": {
+				"breakThroughCount": 6,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 18
+			},
+			"7": {
+				"breakThroughCount": 7,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 21
+			},
+			"8": {
+				"breakThroughCount": 8,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 24
+			},
+			"9": {
+				"breakThroughCount": 9,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 27
+			},
+			"10": {
+				"breakThroughCount": 10,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 30
+			},
+			"11": {
+				"breakThroughCount": 11,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 33
+			},
+			"12": {
+				"breakThroughCount": 12,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 36
+			},
+			"13": {
+				"breakThroughCount": 13,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 39
+			},
+			"14": {
+				"breakThroughCount": 14,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 42
+			},
+			"15": {
+				"breakThroughCount": 15,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 45
+			},
+			"16": {
+				"breakThroughCount": 16,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 48
+			},
+			"17": {
+				"breakThroughCount": 17,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 51
+			},
+			"18": {
+				"breakThroughCount": 18,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 54
+			},
+			"19": {
+				"breakThroughCount": 19,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 57
+			},
+			"20": {
+				"breakThroughCount": 20,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 60
+			},
+			"21": {
+				"breakThroughCount": 21,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 63
+			},
+			"22": {
+				"breakThroughCount": 22,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 66
+			},
+			"23": {
+				"breakThroughCount": 23,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 69
+			},
+			"24": {
+				"breakThroughCount": 24,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 72
+			},
+			"25": {
+				"breakThroughCount": 25,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 75
+			},
+			"26": {
+				"breakThroughCount": 26,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 78
+			},
+			"27": {
+				"breakThroughCount": 27,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 81
+			},
+			"28": {
+				"breakThroughCount": 28,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 84
+			},
+			"29": {
+				"breakThroughCount": 29,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 87
+			},
+			"30": {
+				"breakThroughCount": 30,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 90
+			},
+			"31": {
+				"breakThroughCount": 31,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 93
+			},
+			"32": {
+				"breakThroughCount": 32,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 96
+			},
+			"33": {
+				"breakThroughCount": 33,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 99
+			},
+			"34": {
+				"breakThroughCount": 34,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 102
+			},
+			"35": {
+				"breakThroughCount": 35,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 105
+			},
+			"36": {
+				"breakThroughCount": 36,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 108
+			},
+			"37": {
+				"breakThroughCount": 37,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 111
+			},
+			"38": {
+				"breakThroughCount": 38,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 114
+			},
+			"39": {
+				"breakThroughCount": 39,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 117
+			},
+			"40": {
+				"breakThroughCount": 40,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 120
+			},
+			"41": {
+				"breakThroughCount": 41,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 123
+			},
+			"42": {
+				"breakThroughCount": 42,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 126
+			},
+			"43": {
+				"breakThroughCount": 43,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 129
+			},
+			"44": {
+				"breakThroughCount": 44,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 132
+			},
+			"45": {
+				"breakThroughCount": 45,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 135
+			},
+			"46": {
+				"breakThroughCount": 46,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 138
+			},
+			"47": {
+				"breakThroughCount": 47,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 141
+			},
+			"48": {
+				"breakThroughCount": 48,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 144
+			},
+			"49": {
+				"breakThroughCount": 49,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 147
+			},
+			"50": {
+				"breakThroughCount": 50,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 150
+			},
+			"51": {
+				"breakThroughCount": 51,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 153
+			},
+			"52": {
+				"breakThroughCount": 52,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 156
+			},
+			"53": {
+				"breakThroughCount": 53,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 159
+			},
+			"54": {
+				"breakThroughCount": 54,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 162
+			},
+			"55": {
+				"breakThroughCount": 55,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 165
+			},
+			"56": {
+				"breakThroughCount": 56,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 168
+			},
+			"57": {
+				"breakThroughCount": 57,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 171
+			},
+			"58": {
+				"breakThroughCount": 58,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 174
+			},
+			"59": {
+				"breakThroughCount": 59,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 177
+			},
+			"60": {
+				"breakThroughCount": 60,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 180
+			}
+		},
+		"7": {
+			"heroStar": 7,
+			"1": {
+				"breakThroughCount": 1,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 3
+			},
+			"2": {
+				"breakThroughCount": 2,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 6
+			},
+			"3": {
+				"breakThroughCount": 3,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 9
+			},
+			"4": {
+				"breakThroughCount": 4,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 12
+			},
+			"5": {
+				"breakThroughCount": 5,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 15
+			},
+			"6": {
+				"breakThroughCount": 6,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 18
+			},
+			"7": {
+				"breakThroughCount": 7,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 21
+			},
+			"8": {
+				"breakThroughCount": 8,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 24
+			},
+			"9": {
+				"breakThroughCount": 9,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 27
+			},
+			"10": {
+				"breakThroughCount": 10,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 30
+			},
+			"11": {
+				"breakThroughCount": 11,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 33
+			},
+			"12": {
+				"breakThroughCount": 12,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 36
+			},
+			"13": {
+				"breakThroughCount": 13,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 39
+			},
+			"14": {
+				"breakThroughCount": 14,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 42
+			},
+			"15": {
+				"breakThroughCount": 15,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 45
+			},
+			"16": {
+				"breakThroughCount": 16,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 48
+			},
+			"17": {
+				"breakThroughCount": 17,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 51
+			},
+			"18": {
+				"breakThroughCount": 18,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 54
+			},
+			"19": {
+				"breakThroughCount": 19,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 57
+			},
+			"20": {
+				"breakThroughCount": 20,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 60
+			},
+			"21": {
+				"breakThroughCount": 21,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 63
+			},
+			"22": {
+				"breakThroughCount": 22,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 66
+			},
+			"23": {
+				"breakThroughCount": 23,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 69
+			},
+			"24": {
+				"breakThroughCount": 24,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 72
+			},
+			"25": {
+				"breakThroughCount": 25,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 75
+			},
+			"26": {
+				"breakThroughCount": 26,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 78
+			},
+			"27": {
+				"breakThroughCount": 27,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 81
+			},
+			"28": {
+				"breakThroughCount": 28,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 84
+			},
+			"29": {
+				"breakThroughCount": 29,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 87
+			},
+			"30": {
+				"breakThroughCount": 30,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 90
+			},
+			"31": {
+				"breakThroughCount": 31,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 93
+			},
+			"32": {
+				"breakThroughCount": 32,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 96
+			},
+			"33": {
+				"breakThroughCount": 33,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 99
+			},
+			"34": {
+				"breakThroughCount": 34,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 102
+			},
+			"35": {
+				"breakThroughCount": 35,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 105
+			},
+			"36": {
+				"breakThroughCount": 36,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 108
+			},
+			"37": {
+				"breakThroughCount": 37,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 111
+			},
+			"38": {
+				"breakThroughCount": 38,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 114
+			},
+			"39": {
+				"breakThroughCount": 39,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 117
+			},
+			"40": {
+				"breakThroughCount": 40,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 120
+			},
+			"41": {
+				"breakThroughCount": 41,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 123
+			},
+			"42": {
+				"breakThroughCount": 42,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 126
+			},
+			"43": {
+				"breakThroughCount": 43,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 129
+			},
+			"44": {
+				"breakThroughCount": 44,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 132
+			},
+			"45": {
+				"breakThroughCount": 45,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 135
+			},
+			"46": {
+				"breakThroughCount": 46,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 138
+			},
+			"47": {
+				"breakThroughCount": 47,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 141
+			},
+			"48": {
+				"breakThroughCount": 48,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 144
+			},
+			"49": {
+				"breakThroughCount": 49,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 147
+			},
+			"50": {
+				"breakThroughCount": 50,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 150
+			},
+			"51": {
+				"breakThroughCount": 51,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 153
+			},
+			"52": {
+				"breakThroughCount": 52,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 156
+			},
+			"53": {
+				"breakThroughCount": 53,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 159
+			},
+			"54": {
+				"breakThroughCount": 54,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 162
+			},
+			"55": {
+				"breakThroughCount": 55,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 165
+			},
+			"56": {
+				"breakThroughCount": 56,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 168
+			},
+			"57": {
+				"breakThroughCount": 57,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 171
+			},
+			"58": {
+				"breakThroughCount": 58,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 174
+			},
+			"59": {
+				"breakThroughCount": 59,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 177
+			},
+			"60": {
+				"breakThroughCount": 60,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 180
+			}
+		},
+		"99": {
+			"heroStar": 99,
+			"1": {
+				"breakThroughCount": 1,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 3
+			},
+			"2": {
+				"breakThroughCount": 2,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 6
+			},
+			"3": {
+				"breakThroughCount": 3,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 9
+			},
+			"4": {
+				"breakThroughCount": 4,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 12
+			},
+			"5": {
+				"breakThroughCount": 5,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 15
+			},
+			"6": {
+				"breakThroughCount": 6,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 18
+			},
+			"7": {
+				"breakThroughCount": 7,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 21
+			},
+			"8": {
+				"breakThroughCount": 8,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 24
+			},
+			"9": {
+				"breakThroughCount": 9,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 27
+			},
+			"10": {
+				"breakThroughCount": 10,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 30
+			},
+			"11": {
+				"breakThroughCount": 11,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 33
+			},
+			"12": {
+				"breakThroughCount": 12,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 36
+			},
+			"13": {
+				"breakThroughCount": 13,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 39
+			},
+			"14": {
+				"breakThroughCount": 14,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 42
+			},
+			"15": {
+				"breakThroughCount": 15,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 45
+			},
+			"16": {
+				"breakThroughCount": 16,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 48
+			},
+			"17": {
+				"breakThroughCount": 17,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 51
+			},
+			"18": {
+				"breakThroughCount": 18,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 54
+			},
+			"19": {
+				"breakThroughCount": 19,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 57
+			},
+			"20": {
+				"breakThroughCount": 20,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 60
+			},
+			"21": {
+				"breakThroughCount": 21,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 63
+			},
+			"22": {
+				"breakThroughCount": 22,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 66
+			},
+			"23": {
+				"breakThroughCount": 23,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 69
+			},
+			"24": {
+				"breakThroughCount": 24,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 72
+			},
+			"25": {
+				"breakThroughCount": 25,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 75
+			},
+			"26": {
+				"breakThroughCount": 26,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 78
+			},
+			"27": {
+				"breakThroughCount": 27,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 81
+			},
+			"28": {
+				"breakThroughCount": 28,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 84
+			},
+			"29": {
+				"breakThroughCount": 29,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 87
+			},
+			"30": {
+				"breakThroughCount": 30,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 90
+			},
+			"31": {
+				"breakThroughCount": 31,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 93
+			},
+			"32": {
+				"breakThroughCount": 32,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 96
+			},
+			"33": {
+				"breakThroughCount": 33,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 99
+			},
+			"34": {
+				"breakThroughCount": 34,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 102
+			},
+			"35": {
+				"breakThroughCount": 35,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 105
+			},
+			"36": {
+				"breakThroughCount": 36,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 108
+			},
+			"37": {
+				"breakThroughCount": 37,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 111
+			},
+			"38": {
+				"breakThroughCount": 38,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 114
+			},
+			"39": {
+				"breakThroughCount": 39,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 117
+			},
+			"40": {
+				"breakThroughCount": 40,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 120
+			},
+			"41": {
+				"breakThroughCount": 41,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 123
+			},
+			"42": {
+				"breakThroughCount": 42,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 126
+			},
+			"43": {
+				"breakThroughCount": 43,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 129
+			},
+			"44": {
+				"breakThroughCount": 44,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 132
+			},
+			"45": {
+				"breakThroughCount": 45,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 135
+			},
+			"46": {
+				"breakThroughCount": 46,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 138
+			},
+			"47": {
+				"breakThroughCount": 47,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 141
+			},
+			"48": {
+				"breakThroughCount": 48,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 144
+			},
+			"49": {
+				"breakThroughCount": 49,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 147
+			},
+			"50": {
+				"breakThroughCount": 50,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 150
+			},
+			"51": {
+				"breakThroughCount": 51,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 153
+			},
+			"52": {
+				"breakThroughCount": 52,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 156
+			},
+			"53": {
+				"breakThroughCount": 53,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 159
+			},
+			"54": {
+				"breakThroughCount": 54,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 162
+			},
+			"55": {
+				"breakThroughCount": 55,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 165
+			},
+			"56": {
+				"breakThroughCount": 56,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 168
+			},
+			"57": {
+				"breakThroughCount": 57,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 171
+			},
+			"58": {
+				"breakThroughCount": 58,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 174
+			},
+			"59": {
+				"breakThroughCount": 59,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 177
+			},
+			"60": {
+				"breakThroughCount": 60,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 180
+			},
+			"61": {
+				"breakThroughCount": 61,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 183
+			},
+			"62": {
+				"breakThroughCount": 62,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 186
+			},
+			"63": {
+				"breakThroughCount": 63,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 189
+			},
+			"64": {
+				"breakThroughCount": 64,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 192
+			},
+			"65": {
+				"breakThroughCount": 65,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 195
+			},
+			"66": {
+				"breakThroughCount": 66,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 198
+			},
+			"67": {
+				"breakThroughCount": 67,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 201
+			},
+			"68": {
+				"breakThroughCount": 68,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 204
+			},
+			"69": {
+				"breakThroughCount": 69,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 207
+			},
+			"70": {
+				"breakThroughCount": 70,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 210
+			},
+			"71": {
+				"breakThroughCount": 71,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 213
+			},
+			"72": {
+				"breakThroughCount": 72,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 216
+			},
+			"73": {
+				"breakThroughCount": 73,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 219
+			},
+			"74": {
+				"breakThroughCount": 74,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 222
+			},
+			"75": {
+				"breakThroughCount": 75,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 225
+			},
+			"76": {
+				"breakThroughCount": 76,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 228
+			},
+			"77": {
+				"breakThroughCount": 77,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 231
+			},
+			"78": {
+				"breakThroughCount": 78,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 234
+			},
+			"79": {
+				"breakThroughCount": 79,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 237
+			},
+			"80": {
+				"breakThroughCount": 80,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 240
+			},
+			"81": {
+				"breakThroughCount": 81,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 243
+			},
+			"82": {
+				"breakThroughCount": 82,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 246
+			},
+			"83": {
+				"breakThroughCount": 83,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 249
+			},
+			"84": {
+				"breakThroughCount": 84,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 252
+			},
+			"85": {
+				"breakThroughCount": 85,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 255
+			},
+			"86": {
+				"breakThroughCount": 86,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 258
+			},
+			"87": {
+				"breakThroughCount": 87,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 261
+			},
+			"88": {
+				"breakThroughCount": 88,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 264
+			},
+			"89": {
+				"breakThroughCount": 89,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 267
+			},
+			"90": {
+				"breakThroughCount": 90,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 270
+			}
+		}
+	}
+}

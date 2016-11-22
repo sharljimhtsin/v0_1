@@ -1,0 +1,139 @@
+{
+	"vipSpec":{
+		"1":[
+			"Se puede comprar el Paquete de VIP1",
+			"Hay probabilidad de obtener Súper Fortalecer aleatorio que subir 2-3 niveles",
+			"Recuperación de Energía diaria: 1,",
+			"Recuperación de Vitalidad diaria: 1,",
+			"Batallas diarias en la Arena: 5,"
+		],
+		"2":[
+			"Se puede comprar el Paquete de VIP2",
+			"Hay probabilidad de obtener Súper Fortalecer aleatorio que subir 2-4 niveles",
+			"Recuperación de Energía diaria: 1,",
+			"Recuperación de Vitalidad diaria: 1,",
+			"Batallas diarias en la Arena: 6,",
+			"Utilice Gammets para limpiar el límite de etapa en la Batalla de Aventura,",
+			"(Incluyen todas las funciones de VIP1)"
+		],
+		"3":[
+			"Se puede comprar el Paquete de VIP3",
+			"Hay probabilidad de obtener Súper Fortalecer aleatorio que subir 2-5 niveles",
+			"Recuperación de Energía diaria: 1,",
+			"Recuperación de Vitalidad diaria: 1,",
+			"Batallas diarias en la Arena: 7,",
+			"Auto Batalla disponible",
+			"(Incluyen todas las funciones de VIP1-2)"
+		],
+		"4":[
+			"Se puede comprar el Paquete de VIP4",
+			"Hay probabilidad de obtener Súper Fortalecer aleatorio que subir 2-6 niveles",
+			"Recuperación de Energía diaria: 1,",
+			"Recuperación de Vitalidad diaria: 1,",
+			"Batallas diarias en la Arena: 8,",
+			"Máx. 1 héroes pueden recibir EXP de bonus",
+			"(Incluyen todas las funciones de VIP1-3)"
+		],
+		"5":[
+			"Se puede comprar el Paquete de VIP5",
+			"Hay probabilidad de obtener Súper Fortalecer aleatorio que subir 2-6 niveles",
+			"Recuperación de Energía diaria: 2,",
+			"Recuperación de Vitalidad diaria: 2,",
+			"Batallas diarias en la Arena: 9,",
+			"Máx. 1 héroes pueden recibir EXP de bonus",
+			"(Incluyen todas las funciones de VIP1-4)"
+		],
+		"6":[
+			"Se puede comprar el Paquete de VIP6",
+			"Hay probabilidad de obtener Súper Fortalecer aleatorio que subir 2-6 niveles",
+			"Recuperación de Energía diaria: 2,",
+			"Recuperación de Vitalidad diaria: 2,",
+			"Batallas diarias en la Arena: 10,",
+			"Máx. 2 héroes pueden recibir EXP de bonus",
+			"Utilice Gammets para limpiar el tiempo de recuperación de Auto Batalla",
+			"(Incluyen todas las funciones de VIP1-5)"
+		],
+		"7":[
+			"Se puede comprar el Paquete de VIP7",
+			"Hay probabilidad de obtener Súper Fortalecer aleatorio que subir 2-6 niveles",
+			"Recuperación de Energía diaria: 6,",
+			"Recuperación de Vitalidad diaria: 6,",
+			"Batallas diarias en la Arena: 11,",
+			"Máx. 3 héroes pueden recibir EXP de bonus",
+			"(Incluyen todas las funciones de VIP1-6)"
+		],
+		"8":[
+			"Se puede comprar el Paquete de VIP8",
+			"Hay probabilidad de obtener Súper Fortalecer aleatorio que subir 2-6 niveles",
+			"Recuperación de Energía diaria: 6,",
+			"Recuperación de Vitalidad diaria: 6,",
+			"Batallas diarias en la Arena: 12,",
+			"Máx. 4 héroes pueden recibir EXP de bonus",
+			"(Incluyen todas las funciones de VIP1-7)"
+		],
+		"9":[
+			"Se puede comprar el Paquete de VIP9",
+			"Hay probabilidad de obtener Súper Fortalecer aleatorio que subir 2-6 niveles",
+			"Recuperación de Energía diaria: 12,",
+			"Recuperación de Vitalidad diaria: 12,",
+			"Batallas diarias en la Arena: 13,",
+			"Máx. 5 héroes pueden recibir EXP de bonus",
+			"(Incluyen todas las funciones de VIP1-8)"
+		],
+		"10":[
+			"Se puede comprar el Paquete de VIP10",
+			"Hay probabilidad de obtener Súper Fortalecer aleatorio que subir 2-6 niveles",
+			"Recuperación de Energía diaria: 12,",
+			"Recuperación de Vitalidad diaria: 12,",
+			"Batallas diarias en la Arena: 14,",
+			"Máx. 6 héroes pueden recibir EXP de bonus",
+			"(Incluyen todas las funciones de VIP1-9)"
+		],
+		"11":[
+			"Se puede comprar el Paquete de VIP11",
+			"Hay probabilidad de obtener Súper Fortalecer aleatorio que subir 2-6 niveles",
+			"Recuperación de Energía diaria: 12,",
+			"Recuperación de Vitalidad diaria: 12,",
+			"Batallas diarias en la Arena: 15,",
+			"Máx. 6 héroes pueden recibir EXP de bonus",
+			"(Incluyen todas las funciones de VIP1-10)"
+		],
+		"12":[
+			"Se puede comprar el Paquete de VIP12",
+			"Hay probabilidad de obtener Súper Fortalecer aleatorio que subir 2-6 niveles",
+			"Recuperación de Energía diaria: 12,",
+			"Recuperación de Vitalidad diaria: 12,",
+			"Batallas diarias en la Arena: 16,",
+			"Máx. 6 héroes pueden recibir EXP de bonus",
+			"Sin tiempo de recuperación de Auto Batalla",
+			"(Incluyen todas las funciones de VIP1-11)"
+		],
+		"13":[
+			"Se puede comprar el Paquete de VIP13",
+			"Hay probabilidad de obtener Súper Fortalecer aleatorio que subir 2-6 niveles",
+			"Recuperación de Energía diaria: 12,",
+			"Recuperación de Vitalidad diaria: 12,",
+			"Batallas diarias en la Arena: 17,",
+			"Máx. 6 héroes pueden recibir EXP de bonus",
+			"(Incluyen todas las funciones de VIP1-12)"
+		],
+		"14":[
+			"Se puede comprar el Paquete de VIP14",
+			"Hay probabilidad de obtener Súper Fortalecer aleatorio que subir 2-6 niveles",
+			"Recuperación de Energía diaria: 12,",
+			"Recuperación de Vitalidad diaria: 12,",
+			"Batallas diarias en la Arena: 18,",
+			"Máx. 6 héroes pueden recibir EXP de bonus",
+			"(Incluyen todas las funciones de VIP1-13)"
+		],
+		"15":[
+			"Se puede comprar el Paquete de VIP15",
+			"Hay probabilidad de obtener Súper Fortalecer aleatorio que subir 2-6 niveles",
+			"Recuperación de Energía diaria: 12,",
+			"Recuperación de Vitalidad diaria: 12,",
+			"Batallas diarias en la Arena: 19,",
+			"Máx. 6 héroes pueden recibir EXP de bonus",
+			"(Incluyen todas las funciones de VIP1-14)"
+		]
+	}
+}

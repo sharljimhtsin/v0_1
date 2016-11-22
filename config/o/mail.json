@@ -1,0 +1,26 @@
+{
+	"mail":{
+		"bloodBattleRankReward":"Đội của bạn Phong Ấn Cửa Địa Ngục biểu hiện thần dũng, vào bảng xếp hạng nhận quà, hãy nhấn nút [Nhận].",
+		"worldBossRankReward":"Đội của bạn ở Thí Luyện Beerus biểu hiện thần dũng, vào bảng xếp hạng nhận quà, hãy nhấn nút [Nhận].",
+		"worldBossLastBeatReward":"Đội của bạn cuối cùng đã hạ Beerus, được phát quà, hãy nhấn nút [Nhận].",
+		"pvpRankDown":"Bạn ở Kịch Chiến bị {0} tiêu diệt, giảm xuống hạng {1}.",
+		"pvpPatchLost":"Bạn ở Cướp Chiêu Thức bị {0} tiêu diệt, đã mất {1}.",
+		"monthCardReward":"Thẻ tháng lần này bạn có {0} Gammets, {1} Đậu Thần chưa nhận, hãy nhấn nút [Nhận].",
+		"pvpRankDailyReward":"Quà hạng Kịch Chiến hàng ngày.",
+		"leagueMap":"Bạn ở phụ bản Liên Minh {0}, cống hiến sát thương cao nhất, được phát quà, hãy nhấn nút [Nhận].",
+		"leagueMapFail":"Bạn ở phụ bản Liên Minh đấu giá vật phẩm thất bại, trả bạn {1} điểm cống hiến đấu giá, hãy nhấn nút [Nhận].",
+		"leagueMapSuccess":"Bạn ở phụ bản Liên Minh đấu giá vật phẩm thành công, hãy nhấn nút [Nhận].",
+		"groupPurchaseReward":"Chúc mừng bạn ở mua nhóm nhận rương quà thứ {0}, hãy nhấn nút [Nhận]",
+		"tabletsClickReward":"Chúc mừng bạn dự đoán Grand Supreme Kai thành công, hãy nhấn nút [Nhận].",
+		"cosmosBossRankReward":"Đội của bạn ở khiêu chiến Siêu Vũ Trụ biểu hiện thần dũng, vào bảng xếp hạng, được phát quà hạng, hãy nhấn nút [Nhận].",
+		"cosmosBossLastBeatReward":"Đội của bạn cuối cùng đã hạ Towa, được phát quà, hãy nhấn nút [Nhận].",
+		"gemCompose":" ",
+		"gemComposeReward":" ",
+		"finalRewardStr":"Quà cuối cùng",
+		"rankRewardStr":"Quà xếp hạng",
+		"vipClubRewardStr":"Phần thưởng CLB vip",
+		"bejeweledRankReward":"恭喜您进入排行榜，特发排行奖励，请点击【领取】按钮领取奖励。",
+		"quarterCardReward":"您本次季卡未领取，还请您注意查收。",
+		"quarterCardRewardForVip":"恭喜您获得季卡vip奖励，请点击【领取】按钮领取奖励。"
+	}
+}

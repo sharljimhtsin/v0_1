@@ -1,0 +1,35 @@
+{
+	"message": {
+		"default": {
+			"0": "Every Hero comes with 1 Skill of its own, higher Grade Heroes have better Skills.",
+			"1": "Reach Lv19 to start collecting Cards to increase your Heroes' stats!",
+			"2": "Use Training Potions and Vigor to increase a Hero's stats. A Hero receives Vigor when leveling up.",
+			"3": "When the Dragon Balls on the main screen light up, tap them for a cool surprise!",
+			"4": "The 3rd Round of each battle is the final round, no resting before the results are known!",
+			"5": "Reach Lv11 to Seal the Hell Gates where you can win lots of Zeni, Capsules and Gammets.",
+			"6": "Reach Lv13 to enter the God of Destruction battles where you can win lots of Zeni and Training Potions.",
+			"7": "Get 3 Stars when clearing a Journey battle for the first time to receive EXP x3 and Zeni x3!",
+			"8": "Using Super or Epic Calls will have a higher chance of delivering high Grade Heroes.",
+			"9": "Collect enough Souls for a Hero to Boost stats and increase Vigor.",
+			"10": "Check LEARN from the main menu often for goodies and fun events!",
+			"11": "A higher Arena ranking gives out more points which can be swapped for Training Potions.",
+			"12": "Reach Lv18 to Refine your Gear and increase its stats!",
+			"13": "The last battle in each Journey stage might give out A Grade Armor and Weapons!",
+			"14": "Become VIP to be able to buy special Gift Packs with Skills, Gear, Training Potions and more!"
+		},
+		"userAction": {
+			"0": "Awesome! {userUid} has collected all Skills Shards and gained {ID}!",
+			"1": "Great job! {userUid} has upgraded {ID} to Lv{value}!",
+			"2": "Booyah! {userUid} has leveled up {ID} to Lv{value}!",
+			"4": "Alright! {userUid} has leveled up {ID} to Lv{value}!",
+			"5": "Oh yeah! {userUid} has recruited {ID} with a super high grow rate! The sky is the limit!",
+			"6": "Boom! {userUid} has received {ID} from a Capsule!",
+			"7": "Super warrior {userUid} has reached Rank No.{value} in the Arena!",
+			"8": "Back from the dead! {userUid} collected enough Souls to revive {ID}!",
+			"9": "Crystal Balls! {userUid} received {ID} from Fortuneteller Baba!",
+			"10": "Nosebleed! {userUid} handed Roshi enough Dirty Magazines to get {ID}!",
+			"11": "Super lucky! {userUid} received {ID} from a Card draw!",
+			"12": "Breakthrough! {userUid} collected enough Souls to Boost {ID} to Stage {value}!"
+		}
+	}
+}

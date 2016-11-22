@@ -1,0 +1,9 @@
+{
+    "gua":{
+        "0":{"openCost":10},
+        "1":{"openCost":50},
+        "2":{"openCost":150},
+        "3":{"openCost":300},
+        "4":{"openCost":500}
+    }
+}

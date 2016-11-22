@@ -1,0 +1,43 @@
+<component name="libraryTable">
+  <library name="Node.js Core Modules" type="javaScript">
+    <properties>
+      <option name="frameworkName" value="node_modules" />
+      <option name="frameworkVersion" value="" />
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/node_modules/adm-zip" />
+        <item url="file://$PROJECT_DIR$/node_modules/async" />
+        <item url="file://$PROJECT_DIR$/node_modules/amqp" />
+        <item url="file://$PROJECT_DIR$/node_modules/crypto" />
+        <item url="file://$PROJECT_DIR$/node_modules/node-rsa" />
+        <item url="file://$PROJECT_DIR$/node_modules/mysql" />
+        <item url="file://$PROJECT_DIR$/node_modules/ursa" />
+        <item url="file://$PROJECT_DIR$/node_modules/formidable" />
+        <item url="file://$PROJECT_DIR$/node_modules/node-zip-master" />
+        <item url="file://$PROJECT_DIR$/node_modules/redis" />
+        <item url="file://$PROJECT_DIR$/node_modules/node-native-zip" />
+        <item url="file://$PROJECT_DIR$/node_modules/debug" />
+        <item url="file://$PROJECT_DIR$/node_modules/hzip" />
+        <item url="file://$PROJECT_DIR$/node_modules/apn" />
+        <item url="file://$PROJECT_DIR$/node_modules/mongoose" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/node_modules/adm-zip" />
+      <root url="file://$PROJECT_DIR$/node_modules/async" />
+      <root url="file://$PROJECT_DIR$/node_modules/amqp" />
+      <root url="file://$PROJECT_DIR$/node_modules/crypto" />
+      <root url="file://$PROJECT_DIR$/node_modules/node-rsa" />
+      <root url="file://$PROJECT_DIR$/node_modules/mysql" />
+      <root url="file://$PROJECT_DIR$/node_modules/ursa" />
+      <root url="file://$PROJECT_DIR$/node_modules/formidable" />
+      <root url="file://$PROJECT_DIR$/node_modules/node-zip-master" />
+      <root url="file://$PROJECT_DIR$/node_modules/redis" />
+      <root url="file://$PROJECT_DIR$/node_modules/node-native-zip" />
+      <root url="file://$PROJECT_DIR$/node_modules/debug" />
+      <root url="file://$PROJECT_DIR$/node_modules/hzip" />
+      <root url="file://$PROJECT_DIR$/node_modules/apn" />
+      <root url="file://$PROJECT_DIR$/node_modules/mongoose" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,70 @@
+﻿{
+    "loginDB":{
+        "redis":[
+            {
+                "port":6379,
+                "host":"dbztest.gt.com",
+                "select":0
+            }
+        ],
+        "mysql":[
+            {
+                "host":"dbztest.gt.com",
+                "user":"admin",
+                "password":"zxw000123",
+                "port":3306,
+                "database":"dragonlogin_o"
+            }
+        ]
+    },
+    "redis":{
+        "list":{
+            "1":{
+                "port":6379,
+                "host":"dbztest.gt.com",
+                "select":0
+            }
+        }
+    },
+    "serverList": {
+        "1": {
+            "id": "1",
+            "name": "18yuenan",
+            "sTime": 2401379200,
+            "redis": "1",
+            "mysql": {
+                "host": "dbztest.gt.com",
+                "user": "admin",
+                "password": "zxw000123",
+                "port": 3306,
+                "database": "dragongame_18"
+            },
+            "mongodb": "mongodb://dbztest.gt.com:27017/test18"
+        }
+    },
+    "configName":"o",
+    "adminDB":{
+        "host":"dbztest.gt.com",
+        "user":"admin",
+        "password":"zxw000123",
+        "database":"dragonadmin"
+    },
+    "rabbitmq":{
+        "conn":{"host": "dbztest.gt.com", "port":5672 , "login": "guest", "password": "guest"},
+        "option":{"type": "topic", "durable": true, "autoDelete": false, "confirm": true},
+        "exchange_name":"dbzsy_analy_ex_topic_",
+        "routing_key_name":"#log",
+        "queue_name":"dbzsy_analy_que_topic_"
+    },
+    "iosDB":{
+        "mysql":[
+            {
+                "host":"dbztest.gt.com",
+                "user":"admin",
+                "password":"zxw000123",
+                "port":3306,
+                "database":"dragonballios"
+            }
+        ]
+    }
+}

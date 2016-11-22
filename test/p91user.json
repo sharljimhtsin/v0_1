@@ -1,0 +1,106 @@
+[
+    {
+        "userUid": 12901679150,
+        "city": 1,
+        "user": [
+            {
+                "userUid": 12901679150,
+                "monthCardTime": 1402070400,
+                "cumulativePay": 0,
+                "userName": "精枪啃西瓜",
+                "exp": 926227,
+                "gold": 13687021,
+                "ingot": 44840,
+                "pvePower": 0,
+                "lastRecoverPvePower": 1400170176,
+                "pvpPower": 0,
+                "lastRecoverPvpPower": 1400157773,
+                "vip": 13,
+                "monthCard": "fifty",
+                "momentum": 0,
+                "status": 1,
+                "createTime": 1393489825,
+                "platformId": "p91",
+                "pUserId": "631444746"
+            }
+        ]
+    },
+    {
+        "userUid": 12952030289,
+        "city": 4,
+        "user": [
+            {
+                "userUid": 12952030289,
+                "userName": "花花",
+                "exp": 717347,
+                "gold": 15248218,
+                "ingot": 9647,
+                "pvePower": 7,
+                "lastRecoverPvePower": 1400164304,
+                "pvpPower": 0,
+                "lastRecoverPvpPower": 1400164810,
+                "vip": 13,
+                "monthCard": "fifty",
+                "monthCardTime": 1401120000,
+                "cumulativePay": 0,
+                "momentum": 0,
+                "status": 1,
+                "createTime": 1395976464,
+                "platformId": "p91",
+                "pUserId": "656904150"
+            }
+        ]
+    },
+    {
+        "userUid": 13019126979,
+        "city": 8,
+        "user": [
+            {
+                "userUid": 13019126979,
+                "userName": "召唤兽",
+                "exp": 67806,
+                "gold": 427604,
+                "ingot": 183,
+                "pvePower": 11,
+                "lastRecoverPvePower": 1400156892,
+                "pvpPower": 7,
+                "lastRecoverPvpPower": 1400156484,
+                "vip": 5,
+                "monthCard": "fifty",
+                "monthCardTime": 1401897600,
+                "cumulativePay": 0,
+                "momentum": 0,
+                "status": 1,
+                "createTime": 1399277792,
+                "platformId": "ky",
+                "pUserId": "s536169a32ea69"
+            }
+        ]
+    },
+    {
+        "userUid": 12968803964,
+        "city": 5,
+        "user": [
+            {
+                "userUid": 12968803964,
+                "monthCardTime": 1401811200,
+                "cumulativePay": 0,
+                "userName": "ken悟饭",
+                "exp": 333674,
+                "gold": 61286059,
+                "ingot": 164536,
+                "pvePower": 0,
+                "lastRecoverPvePower": 1400168685,
+                "pvpPower": 0,
+                "lastRecoverPvpPower": 1400169066,
+                "vip": 13,
+                "monthCard": "fifty",
+                "momentum": 0,
+                "status": 1,
+                "createTime": 1396679650,
+                "platformId": "pp",
+                "pUserId": "13529347"
+            }
+        ]
+    }
+]

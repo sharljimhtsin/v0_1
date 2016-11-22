@@ -1,0 +1,39 @@
+{
+    "version": "3.0.0",
+    "list": {
+        "configlist": {
+            "url": "configlist.json",
+            "version": "3.0.0",
+            "name": "configlist",
+            "serverPath": "http://dbztest.gt.com/packet/yuenan/configlist/"
+        },
+        "material": {
+            "url": "material.json",
+            "version": "3.0.0",
+            "name": "material",
+            "serverPath": "http://dbztest.gt.com/packet/yuenan/material/"
+        },
+        "oui": {
+            "url": "oui.json",
+            "version": "3.0.0",
+            "name": "oui",
+            "serverPath": "http://dbztest.gt.com/packet/yuenan/oui/"
+        },
+        "scripts": {
+            "url": "scripts.json",
+            "version": "3.0.0",
+            "name": "scripts",
+            "serverPath": "http://dbztest.gt.com/packet/yuenan/scripts/"
+        },
+        "resources": {
+            "url": "resources.json",
+            "version": "3.0.0",
+            "name": "resources",
+            "serverPath": "http://dbztest.gt.com/packet/yuenan/resources/"
+        }
+    },
+    "serverEntrance": "http://dbztest.gt.com:8918/",
+    "isDebug": 0,
+    "debugPath": "http://127.0.0.1:1337/",
+    "platformId": "uc"
+}

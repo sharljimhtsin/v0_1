@@ -1,0 +1,24 @@
+{
+    "version":"1.0",
+    "list":{
+        "configlist":{"url":"configlist.json","version":"0.0.6","name":"configlist",
+            "serverPath":"http://127.0.0.1:8900/configlist/"},
+
+        "material":{"url":"material.json","version":"0.0.6","name":"material",
+            "serverPath":"http://127.0.0.1:8900/material/"},
+
+        "oui":{"url":"oui.json","version":"0.0.6","name":"oui",
+            "serverPath":"http://127.0.0.1:8900/oui/"},
+
+        "scripts":{"url":"scripts.json","version":"0.0.6","name":"scripts",
+            "serverPath":"http://127.0.0.1:8900/scripts/"},
+
+        "resources":{"url":"resources.json","version":"0.0.6","name":"resources",
+            "serverPath":"http://127.0.0.1:8900/resources/"}
+    },
+    "serverEntrance":"http://127.0.0.1:8900/",
+    "isDebug":1,
+    "debugPath":"http://127.0.0.1:1337/",
+    "platformId":"test2",
+    "defaultLoginId":"L009"
+}

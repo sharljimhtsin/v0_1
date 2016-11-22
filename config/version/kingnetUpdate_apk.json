@@ -1,0 +1,14 @@
+{
+    "default":{
+        "verCode": 1,
+        "verName": "dragonball-kingnet",
+        "size":69206016,
+        "downUrl":"http://shouji.360tpcdn.com/140614/e196e555799b9cc8afcc04a35918b212/com.gametrees.dragonballz_360_2.apk"
+    },
+    "com.dragonball.fi" : {
+        "verCode": 1,
+        "verName": "dragonball-kingnet",
+        "size":69206016,
+        "downUrl":"http://shouji.360tpcdn.com/140614/e196e555799b9cc8afcc04a35918b212/com.gametrees.dragonballz_360_2.apk"
+    }
+}

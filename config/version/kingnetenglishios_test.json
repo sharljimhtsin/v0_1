@@ -1,0 +1,39 @@
+{
+  "version": "6.0.12",
+  "list": {
+    "configlist": {
+      "url": "configlist.json",
+      "version": "6.0.11",
+      "name": "configlist",
+      "serverPath": "http://26.fb-static.kingnet.com/en_ios/v15040201/configlist/"
+    },
+    "material": {
+      "url": "material.json",
+      "version": "6.0.11",
+      "name": "material",
+      "serverPath": "http://26.fb-static.kingnet.com/en_ios/v15040201/material/"
+    },
+    "oui": {
+      "url": "oui.json",
+      "version": "6.0.11",
+      "name": "oui",
+      "serverPath": "http://26.fb-static.kingnet.com/en_ios/v15040201/oui/"
+    },
+    "scripts": {
+      "url": "scripts.json",
+      "version": "6.0.12",
+      "name": "scripts",
+      "serverPath": "http://26.fb-static.kingnet.com/en_ios/v15040202/scripts/"
+    },
+    "resources": {
+      "url": "resources.json",
+      "version": "6.0.11",
+      "name": "resources",
+      "serverPath": "http://26.fb-static.kingnet.com/en_ios/v15040201/resources/"
+    }
+  },
+  "serverEntrance": "http://dbzhhpen.gametrees.com/",
+  "isDebug": 0,
+  "debugPath": "http://127.0.0.1:1337/",
+  "platformId": "kingnetenglishios"
+}

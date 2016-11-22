@@ -1,0 +1,532 @@
+{
+    "loginDB":{
+        "redis":[
+            {
+                "port":6403,
+                "host":"192.168.4.4",
+                "select":0
+            },
+            {
+                "port":6403,
+                "host":"192.168.4.4",
+                "select":0
+            }
+        ],
+        "mysql":[
+            {
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dragonlogin_h"
+            }
+        ]
+    },
+    "redis":{
+        "list":{
+            "1":{
+                "port":6403,
+                "host":"192.168.4.4",
+                "select":0
+            },
+            "2":{
+                "port":6403,
+                "host":"192.168.4.4",
+                "select":0
+            }
+        }
+    },
+    "serverList":{
+        "1":{
+            "id":"1",
+            "name":"Kamehameha",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_1"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game1english"
+        },
+        "2":{
+            "id":"2",
+            "name":"Wolf Fist",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_2"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game2english"
+        },
+        "3":{
+            "id":"3",
+            "name":"Regeneration",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_3"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game3english"
+        },
+        "4":{
+            "id":"4",
+            "name":"Big Bang",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_4"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game4english"
+        },
+        "5":{
+            "id":"5",
+            "name":"Tri-Beam",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_5"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game5english"
+        },
+        "6":{
+            "id":"6",
+            "name":"Energy Shield",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_6"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game6english"
+        },
+        "7":{
+            "id":"7",
+            "name":"Spirit Bomb",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_7"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game7english"
+        },
+        "8":{
+            "id":"8",
+            "name":"Champion Belt",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_8"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game8english"
+        },
+        "9":{
+            "id":"9",
+            "name":"Nimbus",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_9"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game9english"
+        },
+        "10":{
+            "id":"10",
+            "name":"Hover",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_10"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game10english"
+        },
+        "11":{
+            "id":"11",
+            "name":"Beans",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_11"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game11english"
+        },
+        "12":{
+            "id":"12",
+            "name":"Son Gear",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_12"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game12english"
+        },
+        "13":{
+            "id":"13",
+            "name":"Capsule",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_13"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game13english"
+        },
+        "14":{
+            "id":"14",
+            "name":"Death Ball",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_14"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game14english"
+        },
+        "15":{
+            "id":"15",
+            "name":"Dark Sword",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_15"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game15english"
+        },
+        "16":{
+            "id":"16",
+            "name":"Bansho Fan",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_16"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game16english"
+        },
+        "17":{
+            "id":"17",
+            "name":"Kai Robes",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_17"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game17english"
+        },
+        "18":{
+            "id":"18",
+            "name":"Shining Sword",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_18"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game18english"
+        },
+        "19":{
+            "id":"19",
+            "name":"Rebirth",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_19"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game19english"
+        },
+        "20":{
+            "id":"20",
+            "name":"Cross Arm Dive",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_20"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game20english"
+        },
+        "21":{
+            "id":"21",
+            "name":"Kaio-ken",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_21"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game21english"
+        },
+        "22":{
+            "id":"22",
+            "name":"Final Flash",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_22"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game22english"
+        },
+        "23":{
+            "id":"23",
+            "name":"Jan-KEN Fist",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_23"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game23english"
+        },
+        "24":{
+            "id":"24",
+            "name":"Budokai",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_24"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game24english"
+        },
+        "25":{
+            "id":"25",
+            "name":"Revenge",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_25"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game25english"
+        },
+        "26":{
+            "id":"26",
+            "name":"Eraser Cannon",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_26"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game26english"
+        },
+        "27":{
+            "id":"27",
+            "name":"xsouls",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_27"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game27english"
+        },
+        "28":{
+            "id":"28",
+            "name":"Rush Attack",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_28"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game28english"
+        },
+        "29":{
+            "id":"29",
+            "name":"Brutal Destruction",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_29"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game29english"
+        },
+        "30":{
+            "id":"30",
+            "name":"Beerus",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_30"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game30english"
+        },
+        "31":{
+            "id":"31",
+            "name":"Wish",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_31"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game31english"
+        },
+        "32":{
+            "id":"32",
+            "name":"Shenron",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_32"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game32english"
+        },
+        "33":{
+            "id":"33",
+            "name":"Spiritual Attack",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_33"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game33english"
+        },
+        "34":{
+            "id":"34",
+            "name":"Universal Capsule",
+            "sTime":1601379200,
+            "redis":"1",
+            "mysql":{
+                "host":"192.168.4.32",
+                "user":"root",
+                "password":"HDSmbjBIPBFPc",
+                "port":3312,
+                "database":"dbzen_34"
+            },
+            "mongodb" :"mongodb://192.168.4.98:27017/game34english"
+        }
+    },
+    "configName":"h",
+    "adminDB":{
+        "host":"192.168.4.32",
+        "user":"root",
+        "password":"HDSmbjBIPBFPc",
+        "port":3312,
+        "database":"dragonadmin"
+    },
+    "rabbitmq":{
+        "conn":{"host": "192.168.4.99", "port":5672 , "login": "guest", "password": "guest"},
+        "option":{"type": "topic", "durable": true, "autoDelete": false, "confirm": true},
+        "exchange_name":"dbz_analy_ex_topic_",
+        "routing_key_name":"#log",
+        "queue_name":"dbz_analy_que_topic_"
+    }
+}

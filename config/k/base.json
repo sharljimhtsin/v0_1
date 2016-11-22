@@ -1,0 +1,37 @@
+{
+    "base":{
+        "initUser":{
+            "gold":1000,
+            "ingot":0,
+            "pvePower":30,
+            "pvpPower":12,
+	    "pvpRankPoint":10000,
+	    "lv":1,
+	    "vip":0,
+	    "list":[
+                {"id":"151814","count":1},
+                {"id":"121006","count":1},
+		{"id":"170201","count":1},
+		{"id":"170201","count":1},
+		{"id":"170201","count":1},
+		{"id":"112003","isPatch":1,"count":1}
+            ]
+        },
+        "optionalHero":{
+            "1":{
+                "heroId":"103006",
+                "exp":0
+            },
+            "2":{
+                "heroId":"103001",
+                "exp":0
+            },
+            "3":{
+                "heroId":"103020",
+                "exp":0
+            }
+        },
+	"guideLoot":"121006"
+    }
+}
+

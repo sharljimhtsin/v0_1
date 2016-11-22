@@ -1,0 +1,17 @@
+{
+    "server": {
+        "listen": 8889,
+        "isDebug":true,
+        "postData": "json",
+        "path":"./"
+    },
+    "router": {
+        "root": {"type": "static","path": "alice/"},
+        "api": {"type": "rest","path": "api/","checkMethod":"checkToken.js"},
+        "admin": {"type": "rest","path": "admin/","checkMethod":"checkToken.js"},
+        "config": {"type": "config","path": "clientConfig/"}
+    },
+    "static": {
+        "default": "dbz.html"
+    }
+}

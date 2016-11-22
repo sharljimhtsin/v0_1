@@ -1,0 +1,1182 @@
+{
+    "loginDB":{
+        "redis":[
+            {
+                "port":6379,
+                "host":"10.57.20.26",
+                "select":0
+            }
+        ],
+        "mysql":[
+            {
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragonlogin_i"
+            }
+        ]
+    },
+    "redis":{
+        "list":{
+            "1":{
+                "port":6379,
+                "host":"10.57.20.26",
+                "select":0
+            },
+            "2":{
+                "port":6379,
+                "host":"10.57.20.28",
+                "select":0
+            }
+        }
+    },
+    "serverList":{
+        "1":{
+            "id":"1",
+            "name":"superSaiyan",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_1"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game1"
+        },
+        "2":{
+            "id":"2",
+            "name":"GoKu",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_2"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game2"
+        },
+        "3":{
+            "id":"3",
+            "name":"Vegeta",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_3"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game3"
+        },
+        "4":{
+            "id":"4",
+            "name":"Gohan",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_4"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game4"
+        },
+        "5":{
+            "id":"5",
+            "name":"Frieza",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_5"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game5"
+        },
+        "6":{
+            "id":"6",
+            "name":"Goten",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_6"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game6"
+        },
+        "7": {
+            "id":"7",
+            "name":"Capt Ginyu",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_7"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game7"
+        },
+        "8": {
+            "id":"8",
+            "name":"Trunks",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_8"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game8"
+        },
+        "9": {
+            "id":"9",
+            "name":"Dr.Gero",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_9"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game9"
+        },
+        "10": {
+            "id":"10",
+            "name":"Piccolo",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_10"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game10"
+        },
+        "11": {
+            "id":"11",
+            "name":"Android 8",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_11"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game11"
+        },
+        "12": {
+            "id":"12",
+            "name":"Android 18",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_12"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game12"
+        },
+        "13": {
+            "id":"13",
+            "name":"Majin Buu",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_13"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game13"
+        },
+        "14": {
+            "id":"14",
+            "name":"Kid Buu",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_14"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game14"
+        },
+        "15": {
+            "id":"15",
+            "name":"Super Buu",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_15"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game15"
+        },
+        "16": {
+            "id":"16",
+            "name":"Bardock",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_16"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game16"
+        },
+        "17": {
+            "id":"17",
+            "name":"Raditz",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_17"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game17"
+        },
+        "18": {
+            "id":"18",
+            "name":"Yamcha",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_18"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game18"
+        },
+        "19": {
+            "id":"19",
+            "name":"Kuriza",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_19"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game19"
+        },
+        "20": {
+            "id":"20",
+            "name":"Broly",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_20"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game20"
+        },
+        "21": {
+            "id":"21",
+            "name":"Nappa",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_21"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game21"
+        },
+        "22": {
+            "id":"22",
+            "name":"Ox-King",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_22"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game22"
+        },
+        "23": {
+            "id":"23",
+            "name":"Chiaotzu",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_23"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game23"
+        },
+        "24": {
+            "id":"24",
+            "name":"King Cold",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_24"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game24"
+        },
+        "25": {
+            "id":"25",
+            "name":"Cooler ",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_25"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game25"
+        },
+        "26": {
+            "id":"26",
+            "name":"Android 17",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_26"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game26"
+        },
+        "27": {
+            "id":"27",
+            "name":"Zarbon",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_27"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game27"
+        },
+        "28": {
+            "id":"28",
+            "name":"King Kai",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_28"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game28"
+        },
+        "29": {
+            "id":"29",
+            "name":"Puar",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_29"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game29"
+        },
+        "30": {
+            "id":"30",
+            "name":"Krillin",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_30"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game30"
+        },
+        "31": {
+            "id":"31",
+            "name":"Bulma",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_31"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game31"
+        },
+        "32": {
+            "id":"32",
+            "name":"Mr.Cell",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_32"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game32"
+        },
+        "33": {
+            "id":"33",
+            "name":"Oolong",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_33"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game33"
+        },
+        "34": {
+            "id":"34",
+            "name":"Turtle Hermit",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_34"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game34"
+        },
+        "35": {
+            "id":"35",
+            "name":"Tien Shinhan",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_35"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game35"
+        },
+        "36": {
+            "id":"36",
+            "name":"Chi-Chi",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_36"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game36"
+        },
+        "37": {
+            "id":"37",
+            "name":"Tao Pai Pai",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_37"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game37"
+        },
+        "38": {
+            "id":"38",
+            "name":"Mr.Popo",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port": 3306,
+                "database":"dragongame_38"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game38 "
+        },
+        "39": {
+            "id":"39",
+            "name":"Beerus",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_39"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game39"
+        },
+        "40": {
+            "id":"40",
+            "name":"Kami",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_40"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game40"
+        },
+        "41": {
+            "id":"41",
+            "name":"Shenron",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_41"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game41"
+        },
+        "42":{
+            "id":"42",
+            "name":"Atomic Blast",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_42"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game42"
+        },
+        "43":{
+            "id":"43",
+            "name":"Bang Beam",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_43"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game43"
+        },
+        "44":{
+            "id":"44",
+            "name":"Crazy Fist",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_44"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game44"
+        },
+        "45":{
+            "id":"45",
+            "name":"Death Ball",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_45"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game45"
+        },
+        "46":{
+            "id":"46",
+            "name":"Eye Laser",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_46"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game46"
+        },
+        "47":{
+            "id":"47",
+            "name":"Finger Beam",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_47"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game47"
+        },
+        "48":{
+            "id":"48",
+            "name":"Guilty Flash",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_48"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game48"
+        },
+        "49":{
+            "id":"49",
+            "name":"Hell's Flash",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_49"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game49"
+        },
+        "50":{
+            "id":"50",
+            "name":"Infinite Break",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_50"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game50"
+        },
+        "51":{
+            "id":"51",
+            "name":"Justice Kick",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_51"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game51"
+        },
+        "52":{
+            "id":"52",
+            "name":"Kamehameha",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_52"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game52"
+        },
+        "53":{
+            "id":"53",
+            "name":"Light Arrow",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_53"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game53"
+        },
+        "54":{
+            "id":"54",
+            "name":"Monster Crush",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_54"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game54"
+        },
+        "55":{
+            "id":"55",
+            "name":"Nova Strike",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_55"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game55"
+        },
+        "56":{
+            "id":"56",
+            "name":"Orga Blaster",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_56"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game56"
+        },
+        "57":{
+            "id":"57",
+            "name":"Perfect Barrier",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_57"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game57"
+        },
+        "58":{
+            "id":"58",
+            "name":"Quick Blast",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_58"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game58"
+        },
+        "59":{
+            "id":"59",
+            "name":"Rapid Fire",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_59"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game59"
+        },
+        "60":{
+            "id":"60",
+            "name":"Spirit Bomb",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_60"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game60"
+        },
+        "61":{
+            "id":"61",
+            "name":"Trick Buster",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_61"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game61"
+        },
+        "62":{
+            "id":"62",
+            "name":"Energy Squall",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_62"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game62"
+        },
+        "63":{
+            "id":"63",
+            "name":"Videl Rush",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_63"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game63"
+        },
+        "64":{
+            "id":"64",
+            "name":"Wolf Fang Fist",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_64"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game64"
+        },
+        "65":{
+            "id":"65",
+            "name":"Eraser Cannon",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_65"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game65"
+        },
+        "66":{
+            "id":"66",
+            "name":"Ultimate Blitz",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_66"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game66"
+        },
+        "67":{
+            "id":"67",
+            "name":"Zanku Fist",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_67"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game67"
+        },
+        "68":{
+            "id":"68",
+            "name":"Arm Break",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_68"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game68"
+        },
+        "69":{
+            "id":"69",
+            "name":"Burst Rush",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_69"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game69"
+        },
+        "70":{
+            "id":"70",
+            "name":"Crusher Ball",
+            "sTime":1601379200,
+            "redis":"2",
+            "dynamic":"1",
+            "difficulty":"1",
+            "mysql":{
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragongame_70"
+            },
+            "mongodb" :"mongodb://10.57.20.26:27017/game70"
+        }
+    },
+    "configName":"i",
+    "adminDB":{
+        "host":"10.57.20.28",
+        "user":"dragonball",
+        "password":"VGHPcg)f^vn821",
+        "port":3306,
+        "database":"dragonadmin"
+    },
+    "rabbitmq":{
+        "conn":{"host": "10.57.20.26", "port":5672 , "login": "guest", "password": "guest"},
+        "option":{"type": "topic", "durable": true, "autoDelete": false, "confirm": true},
+        "exchange_name":"dbz_analy_ex_topic_",
+        "routing_key_name":"#log",
+        "queue_name":"dbz_analy_que_topic_"
+    },
+    "iosDB":{
+        "mysql":[
+            {
+                "host":"10.57.20.28",
+                "user":"dragonball",
+                "password":"VGHPcg)f^vn821",
+                "port":3306,
+                "database":"dragonballios"
+            }
+        ]
+    }
+}

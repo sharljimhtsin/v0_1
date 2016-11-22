@@ -1,0 +1,180 @@
+{
+    "loginDB":{
+        "redis":[
+            {
+                "port":6379,
+                "host":"dbztest.gt.com",
+                "select":0
+            },
+            {
+                "port":6379,
+                "host":"dbztest.gt.com",
+                "select":0
+            }
+        ],
+        "mysql":[
+            {
+                "host":"dbztest.gt.com",
+                "user":"admin",
+                "password":"zxw000123",
+                "port":3306,
+                "database":"dragonlogin_a"
+            }
+        ]
+    },
+    "userToken": {
+        "redis": [
+            {
+                "port": 6379,
+                "host": "dbztest.gt.com",
+                "select": 0
+            },
+            {
+                "port": 6379,
+                "host": "dbztest.gt.com",
+                "select": 0
+            }
+        ]
+    },
+    "redis":{
+        "list":{
+            "1":{
+                "port":6379,
+                "host":"dbztest.gt.com",
+                "select":1
+            },
+            "2":{
+                "port":6379,
+                "host":"dbztest.gt.com",
+                "select":2
+            },
+            "3":{
+                "port":6379,
+                "host":"dbztest.gt.com",
+                "select":3
+            },
+            "4":{
+                "port":6379,
+                "host":"dbztest.gt.com",
+                "select":4
+            },
+            "5":{
+                "port":6379,
+                "host":"dbztest.gt.com",
+                "select":5
+            }
+        }
+    },
+    "dynamic": {
+        "list": {
+            "1": {
+                "port": 6379,
+                "host": "dbztest.gt.com",
+                "select": 10
+            }
+        }
+    },
+    "serverList":{
+        "1":{
+            "id":"1",
+            "name":"开发1",
+            "redis":"1",
+            "dynamic": "1",
+            "sTime":1500202000,
+            "mysql":{
+                "host":"dbztest.gt.com",
+                "user":"admin",
+                "password":"zxw000123",
+                "port":3306,
+                "database":"dragongame_1"
+            },
+            "mongodb" :"mongodb://dbztest.gt.com:27017/dev1"
+        },
+        "2":{
+            "id":"2",
+            "name":"开发2",
+            "redis":"2",
+            "dynamic": "1",
+            "sTime":1500202000,
+            "mysql":{
+                "host":"dbztest.gt.com",
+                "user":"admin",
+                "password":"zxw000123",
+                "port":3306,
+                "database":"dragongame_2"
+            },
+            "mongodb" :"mongodb://dbztest.gt.com:27017/dev2"
+        },
+        "3":{
+            "id":"3",
+            "name":"开发3",
+            "redis":"3",
+            "dynamic": "1",
+            "sTime":1500202000,
+            "mysql":{
+                "host":"dbztest.gt.com",
+                "user":"admin",
+                "password":"zxw000123",
+                "port":3306,
+                "database":"dragongame_3"
+            },
+            "mongodb" :"mongodb://dbztest.gt.com:27017/dev3"
+        },
+        "4":{
+            "id":"4",
+            "name":"开发4",
+            "redis":"4",
+            "dynamic": "1",
+            "sTime":1500202000,
+            "mysql":{
+                "host":"dbztest.gt.com",
+                "user":"admin",
+                "password":"zxw000123",
+                "port":3306,
+                "database":"dragongame_4"
+            },
+            "mongodb" :"mongodb://dbztest.gt.com:27017/dev4"
+        },
+        "5":{
+            "id":"5",
+            "name":"开发5",
+            "redis":"5",
+            "dynamic": "1",
+            "sTime":1500202000,
+            "mysql":{
+                "host":"dbztest.gt.com",
+                "user":"admin",
+                "password":"zxw000123",
+                "port":3306,
+                "database":"dragongame_5"
+            },
+            "mongodb" :"mongodb://dbztest.gt.com:27017/dev5"
+        }
+    },
+    "configName":"a",
+    "adminDB":{
+        "host":"dbztest.gt.com",
+        "user":"admin",
+        "password":"zxw000123",
+        "port":3306,
+        "database":"dragonadmin"
+    },
+    "rabbitmq":{
+        "conn":{"host": "172.24.3.80", "port":5672 , "login": "guest", "password": "guest"},
+        "option":{"type": "topic", "durable": true, "autoDelete": false, "confirm": true},
+        "exchange_name":"dbz_analy_ex_topic_",
+        "routing_key_name":"#log",
+        "queue_name":"dbz_analy_que_topic_"
+    },
+    "iosDB":{
+        "mysql":[
+            {
+                "host":"dbztest.gt.com",
+                "user":"admin",
+                "password":"zxw000123",
+                "port":3306,
+                "database":"dragonballios"
+            }
+        ]
+    }
+}

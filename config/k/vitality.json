@@ -1,0 +1,110 @@
+{
+	"vitality":{
+		"mission":[
+			{
+				"missionType":"loginCard",
+				"completeTime":1,
+				"desc":"Войти х1",
+				"addPoint":10
+			},
+			{
+				"missionType":"shake",
+				"completeTime":1,
+				"desc":"Вызвать Шенрон х1",
+				"addPoint":5
+			},
+			{
+				"missionType":"daily",
+				"completeTime":1,
+				"desc":"Очаровать х1",
+				"addPoint":10
+			},
+			{
+				"missionType":"map",
+				"completeTime":5,
+				"desc":"Пройдено стадии х5",
+				"addPoint":10
+			},
+			{
+				"missionType":"eatBean",
+				"completeTime":2,
+				"desc":"Забрать беспл. Бобы х2",
+				"addPoint":10
+			},
+			{
+				"missionType":"zillionaire",
+				"completeTime":2,
+				"desc":"Кости летающей тучки x2",
+				"addPoint":5
+			},
+			{
+				"missionType":"bloodBattal",
+				"completeTime":1,
+				"desc":"Драться у Врат Ада х1",
+				"addPoint":10
+			},
+			{
+				"missionType":"activityMap",
+				"completeTime":5,
+				"desc":"Драться в Кампаниях х5",
+				"addPoint":10
+			},
+			{
+				"missionType":"enegyBall",
+				"completeTime":5,
+				"desc":"Тратить Сферы Силы х5",
+				"addPoint":10
+			},
+			{
+				"missionType":"foster",
+				"completeTime":3,
+				"desc":"Тренировать Героев х3",
+				"addPoint":10
+			},
+			{
+				"missionType":"worldBoss",
+				"completeTime":1,
+				"desc":"Драться с Бирус х1",
+				"addPoint":10
+			},
+			{
+				"missionType":"consume",
+				"completeTime":100,
+				"desc":"Потратить Гаметы х100",
+				"addPoint":20
+			}
+		],
+		"reward":[
+			{
+				"needPoint":30,
+				"reward":[
+					{"id":"gold","count":20000}
+				]
+			},
+			{
+				"needPoint":50,
+				"reward":[
+					{"id":"151001","count":1}
+				]
+			},
+			{
+				"needPoint":75,
+				"reward":[
+					{"id":"170801","count":1}
+				]
+			},
+			{
+				"needPoint":90,
+				"reward":[
+					{"id":"ingot","count":30}
+				]
+			},
+			{
+				"needPoint":110,
+				"reward":[
+					{"id":"150901","count":50}
+				]
+			}
+		]
+	}
+}

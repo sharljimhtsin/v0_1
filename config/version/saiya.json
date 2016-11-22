@@ -1,0 +1,23 @@
+{
+    "version":"3.0.0",
+    "list":{
+        "configlist":{"url":"configlist.json","version":"3.0.0","name":"configlist",
+            "serverPath":"http://dragonballsrc.gametrees.com/p91/v15020502/configlist/"},
+
+        "material":{"url":"material.json","version":"3.0.0","name":"material",
+            "serverPath":"http://dragonballsrc.gametrees.com/p91/v15020502/material/"},
+
+        "oui":{"url":"oui.json","version":"3.0.0","name":"oui",
+            "serverPath":"http://dragonballsrc.gametrees.com/p91/v15020502/oui/"},
+
+        "scripts":{"url":"scripts.json","version":"3.0.0","name":"scripts",
+            "serverPath":"http://dragonballsrc.gametrees.com/p91/v15020502/scripts/"},
+
+        "resources":{"url":"resources.json","version":"3.0.0","name":"resources",
+            "serverPath":"http://dragonballsrc.gametrees.com/p91/v15020502/resources/"}
+    },
+    "serverEntrance":"http://dbz.yeyoye.com",
+    "isDebug":0,
+    "debugPath":"http://127.0.0.1:1337/",
+    "platformId":"saiya"
+}

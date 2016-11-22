@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON 查看器</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="ext/resources/css/ext-all.css" />
+    <script type="text/javascript" src="ext/ext-all.js"></script>
+    <script type="text/javascript" src="dview/JSONView.js"></script>
+
+    <style type="text/css">
+
+        .objectIcon {
+            background-image:url(dview/images/object.gif);
+        }
+
+        .x-grid-tree-node-expanded .objectIcon {
+            background-image:url(dview/images/object.gif);
+        }
+
+        .arrayIcon {
+            background-image:url(dview/images/array.gif);
+        }
+
+        .x-grid-tree-node-expanded .arrayIcon {
+            background-image:url(dview/images/array.gif);
+        }
+
+        .blueIcon {
+            background-image:url(dview/images/blue.gif);
+        }
+
+        .x-grid-tree-node-expanded .blueIcon {
+            background-image:url(dview/images/blue.gif);
+        }
+
+        .greenIcon {
+            background-image:url(dview/images/green.gif);
+        }
+
+        .x-grid-tree-node-expanded .greenIcon {
+            background-image:url(dview/images/green.gif);
+        }
+
+        .blueText {
+            color: #204A87;
+        }
+
+        .greenText {
+            color: #4E9A06;
+        }
+
+        .jsonKey { color: #7b2392;}
+        .jsonStringItem { color: #238f5e;}
+        .jsonNumberItem { color: #0533ff;}
+        .jsonNullItem {color: #00189d; }
+    </style>
+
+    <script type="text/javascript">
+        var viewDic = {};
+
+
+        Ext.onReady(function(){
+
+            //文本视图
+            var dvTextPanel = Ext.create('Ext.ux.DvJsonText',{
+                title:"文本视图",
+                header:false,
+                titleAlign:"center"
+            });
+
+            //树组件
+            var dvTreePanel = Ext.create('Ext.ux.DvJsonTree', {
+                border:true,
+                region:"west",
+                width:400,
+                heigth:'auto',
+                split:true,
+                rootVisible: true
+            });
+
+            //表格组件
+            var dvJsonGrid = Ext.create('Ext.ux.DvJsonGrid',{
+                region:"center",
+                heigth:'auto'
+            });
+
+
+            var textView =  Ext.create("Ext.panel.Panel",{
+                title: '文本视图',
+                layout:"fit",
+                items:[dvTextPanel]
+            });
+
+            //树视图
+            var treeView = Ext.create("Ext.panel.Panel",{
+                title: '树结构视图',
+                layout:"border",
+                width:"100%",
+                items:[
+                    dvTreePanel,
+                    dvJsonGrid
+                ]
+            });
+
+
+            //JSON显示的 accordion面板
+            var viewPanel = Ext.create("Ext.panel.Panel",{
+                layout:"accordion",
+                width:"100%",
+                height:"100%",
+                region:"center",
+                items:[
+                    textView,
+                    treeView
+                ]
+            });
+
+            //树视图展开处理
+            treeView.addListener("expand",function(){
+                var jsonObj = dvTextPanel.getJSONObj();
+                dvTreePanel.loadJSON(jsonObj);
+            });
+
+
+//            dvTextPanel.addListener('jsonComp',function(json){
+//                dvTreePanel.loadJSON(json);
+//            });
+
+            //树节点单击，同步数据到表格
+            dvTreePanel.addListener('itemclick',function(view,re) {
+                var mJsonData = re.data.jsonData;
+                dvJsonGrid.setJsonData(mJsonData);
+            });
+
+            var restClient = Ext.create(Ext.panel.Panel,{
+                width:"100%",
+                region:"north",
+                border:false,
+                height:28,
+                tbar:[
+                    {"text":"",enableToggle:true,toggleHandler:function(arg){
+                        if (arg.pressed == false ) {
+                            restClient.setHeight(28);
+                        } else {
+                            restClient.setHeight(150);
+                        }
+                    }},
+                    "->",
+                    {"text":"关于"}
+                ],
+                items:[
+                ]
+            });
+
+            var page = Ext.create('Ext.Viewport',{
+                layout:"border",
+                width:"100%",
+                height:"100%",
+                items:[
+                    restClient,
+                    viewPanel
+                ]
+            });
+
+        });
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

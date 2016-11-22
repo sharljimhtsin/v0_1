@@ -1,0 +1,6 @@
+{
+    "kingnetSwitch":{
+        "offerArr":["packet_seven_1" , "packet_seven_2"],
+        "kingNetChargeArr":["packet_six_1" , "packet_five_1" ,"packet_five_2" ,"packet_seven_2"]
+    }
+}

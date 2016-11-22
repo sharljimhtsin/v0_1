@@ -1,0 +1,110 @@
+{
+	"vitality":{
+		"mission":[
+			{
+				"missionType":"loginCard",
+				"completeTime":1,
+				"desc":"Sign in x1",
+				"addPoint":10
+			},
+			{
+				"missionType":"shake",
+				"completeTime":1,
+				"desc":"Call Shenron x1",
+				"addPoint":5
+			},
+			{
+				"missionType":"daily",
+				"completeTime":1,
+				"desc":"Enchant x1",
+				"addPoint":10
+			},
+			{
+				"missionType":"map",
+				"completeTime":5,
+				"desc":"Win Journey Battles x5",
+				"addPoint":10
+			},
+			{
+				"missionType":"eatBean",
+				"completeTime":2,
+				"desc":"Claim free Beans x2",
+				"addPoint":10
+			},
+			{
+				"missionType":"zillionaire",
+				"completeTime":2,
+				"desc":"Nimbus Travels roll dice x2",
+				"addPoint":5
+			},
+			{
+				"missionType":"bloodBattal",
+				"completeTime":1,
+				"desc":"Fight the Hell Gates x1",
+				"addPoint":10
+			},
+			{
+				"missionType":"activityMap",
+				"completeTime":5,
+				"desc":"Fight Loot Wars x5",
+				"addPoint":10
+			},
+			{
+				"missionType":"enegyBall",
+				"completeTime":5,
+				"desc":"Use Power Spheres x5",
+				"addPoint":10
+			},
+			{
+				"missionType":"foster",
+				"completeTime":3,
+				"desc":"Train Heroes x5",
+				"addPoint":10
+			},
+			{
+				"missionType":"worldBoss",
+				"completeTime":1,
+				"desc":"Fight Beerus x1",
+				"addPoint":10
+			},
+			{
+				"missionType":"consume",
+				"completeTime":100,
+				"desc":"Spend Gammets x100",
+				"addPoint":20
+			}
+		],
+		"reward":[
+			{
+				"needPoint":30,
+				"reward":[
+					{"id":"gold","count":20000}
+				]
+			},
+			{
+				"needPoint":50,
+				"reward":[
+					{"id":"151001","count":1}
+				]
+			},
+			{
+				"needPoint":75,
+				"reward":[
+					{"id":"170801","count":1}
+				]
+			},
+			{
+				"needPoint":90,
+				"reward":[
+					{"id":"ingot","count":30}
+				]
+			},
+			{
+				"needPoint":110,
+				"reward":[
+					{"id":"150901","count":50}
+				]
+			}
+		]
+	}
+}

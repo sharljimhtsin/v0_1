@@ -1,0 +1,740 @@
+{
+	"heroStar": {
+		"0": {
+			"damageAdd": 0,
+			"damageReduce": 0,
+			"soul": 55,
+			"price": [{"id": "gold", "count": 35295131}],
+			"detail": {
+				"0": {
+					"damageAdd": 0,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 25},
+						{"id": "156002", "count": 25}
+					]
+				},
+				"1": {
+					"damageAdd": 0.01,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 37},
+						{"id": "156002", "count": 37}
+					]
+				},
+				"2": {
+					"damageAdd": 0.02,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 50},
+						{"id": "156002", "count": 50}
+					]
+				},
+				"3": {
+					"damageAdd": 0.03,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 63},
+						{"id": "156002", "count": 63}
+					]
+				},
+				"4": {
+					"damageAdd": 0.04,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 75},
+						{"id": "156002", "count": 75}
+					]
+				},
+				"5": {
+					"damageAdd": 0.05,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 88},
+						{"id": "156002", "count": 88}
+					]
+				},
+				"6": {
+					"damageAdd": 0.06,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 100},
+						{"id": "156002", "count": 100}
+					]
+				},
+				"7": {
+					"damageAdd": 0.07,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 0},
+						{"id": "156002", "count": 0}
+					]
+				}
+			}
+		},
+		"1": {
+			"damageAdd": 0.1,
+			"damageReduce": 0,
+			"soul": 83,
+			"price": [{"id": "gold", "count": 52942697}],
+			"detail": {
+				"0": {
+					"damageAdd": 0,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 37},
+						{"id": "156002", "count": 37}
+					]
+				},
+				"1": {
+					"damageAdd": 0,
+					"damageReduce": 0.01,
+					"price": [
+						{"id": "156001", "count": 56},
+						{"id": "156002", "count": 56}
+					]
+				},
+				"2": {
+					"damageAdd": 0,
+					"damageReduce": 0.02,
+					"price": [
+						{"id": "156001", "count": 75},
+						{"id": "156002", "count": 75}
+					]
+				},
+				"3": {
+					"damageAdd": 0,
+					"damageReduce": 0.03,
+					"price": [
+						{"id": "156001", "count": 94},
+						{"id": "156002", "count": 94}
+					]
+				},
+				"4": {
+					"damageAdd": 0,
+					"damageReduce": 0.04,
+					"price": [
+						{"id": "156001", "count": 113},
+						{"id": "156002", "count": 113}
+					]
+				},
+				"5": {
+					"damageAdd": 0,
+					"damageReduce": 0.05,
+					"price": [
+						{"id": "156001", "count": 132},
+						{"id": "156002", "count": 132}
+					]
+				},
+				"6": {
+					"damageAdd": 0,
+					"damageReduce": 0.06,
+					"price": [
+						{"id": "156001", "count": 151},
+						{"id": "156002", "count": 151}
+					]
+				},
+				"7": {
+					"damageAdd": 0,
+					"damageReduce": 0.07,
+					"price": [
+						{"id": "156001", "count": 0},
+						{"id": "156002", "count": 0}
+					]
+				}
+			}
+		},
+		"2": {
+			"damageAdd": 0.1,
+			"damageReduce": 0.1,
+			"soul": 110,
+			"price": [{"id": "gold", "count": 79414045}],
+			"detail": {
+				"0": {
+					"damageAdd": 0,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 56},
+						{"id": "156002", "count": 56}
+					]
+				},
+				"1": {
+					"damageAdd": 0.01,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 85},
+						{"id": "156002", "count": 85}
+					]
+				},
+				"2": {
+					"damageAdd": 0.02,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 113},
+						{"id": "156002", "count": 113}
+					]
+				},
+				"3": {
+					"damageAdd": 0.03,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 141},
+						{"id": "156002", "count": 141}
+					]
+				},
+				"4": {
+					"damageAdd": 0.04,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 170},
+						{"id": "156002", "count": 170}
+					]
+				},
+				"5": {
+					"damageAdd": 0.05,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 198},
+						{"id": "156002", "count": 198}
+					]
+				},
+				"6": {
+					"damageAdd": 0.06,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 226},
+						{"id": "156002", "count": 226}
+					]
+				},
+				"7": {
+					"damageAdd": 0.07,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 0},
+						{"id": "156002", "count": 0}
+					]
+				}
+			}
+		},
+		"3": {
+			"damageAdd": 0.2,
+			"damageReduce": 0.1,
+			"soul": 138,
+			"price": [{"id": "gold", "count": 119121068}],
+			"detail": {
+				"0": {
+					"damageAdd": 0,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 85},
+						{"id": "156002", "count": 85}
+					]
+				},
+				"1": {
+					"damageAdd": 0,
+					"damageReduce": 0.01,
+					"price": [
+						{"id": "156001", "count": 127},
+						{"id": "156002", "count": 127}
+					]
+				},
+				"2": {
+					"damageAdd": 0,
+					"damageReduce": 0.02,
+					"price": [
+						{"id": "156001", "count": 170},
+						{"id": "156002", "count": 170}
+					]
+				},
+				"3": {
+					"damageAdd": 0,
+					"damageReduce": 0.03,
+					"price": [
+						{"id": "156001", "count": 212},
+						{"id": "156002", "count": 212}
+					]
+				},
+				"4": {
+					"damageAdd": 0,
+					"damageReduce": 0.04,
+					"price": [
+						{"id": "156001", "count": 255},
+						{"id": "156002", "count": 255}
+					]
+				},
+				"5": {
+					"damageAdd": 0,
+					"damageReduce": 0.05,
+					"price": [
+						{"id": "156001", "count": 297},
+						{"id": "156002", "count": 297}
+					]
+				},
+				"6": {
+					"damageAdd": 0,
+					"damageReduce": 0.06,
+					"price": [
+						{"id": "156001", "count": 340},
+						{"id": "156002", "count": 340}
+					]
+				},
+				"7": {
+					"damageAdd": 0,
+					"damageReduce": 0.07,
+					"price": [
+						{"id": "156001", "count": 0},
+						{"id": "156002", "count": 0}
+					]
+				}
+			}
+		},
+		"4": {
+			"damageAdd": 0.2,
+			"damageReduce": 0.2,
+			"soul": 166,
+			"price": [{"id": "gold", "count": 178681602}],
+			"detail": {
+				"0": {
+					"damageAdd": 0,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 127},
+						{"id": "156002", "count": 127}
+					]
+				},
+				"1": {
+					"damageAdd": 0.01,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 191},
+						{"id": "156002", "count": 191}
+					]
+				},
+				"2": {
+					"damageAdd": 0.02,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 255},
+						{"id": "156002", "count": 255}
+					]
+				},
+				"3": {
+					"damageAdd": 0.03,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 319},
+						{"id": "156002", "count": 319}
+					]
+				},
+				"4": {
+					"damageAdd": 0.04,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 382},
+						{"id": "156002", "count": 382}
+					]
+				},
+				"5": {
+					"damageAdd": 0.05,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 446},
+						{"id": "156002", "count": 446}
+					]
+				},
+				"6": {
+					"damageAdd": 0.06,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 510},
+						{"id": "156002", "count": 510}
+					]
+				},
+				"7": {
+					"damageAdd": 0.07,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 0},
+						{"id": "156002", "count": 0}
+					]
+				}
+			}
+		},
+		"5": {
+			"damageAdd": 0.3,
+			"damageReduce": 0.2,
+			"soul": 193,
+			"price": [{"id": "gold", "count": 268022404}],
+			"detail": {
+				"0": {
+					"damageAdd": 0,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 191},
+						{"id": "156002", "count": 191}
+					]
+				},
+				"1": {
+					"damageAdd": 0,
+					"damageReduce": 0.01,
+					"price": [
+						{"id": "156001", "count": 287},
+						{"id": "156002", "count": 287}
+					]
+				},
+				"2": {
+					"damageAdd": 0,
+					"damageReduce": 0.02,
+					"price": [
+						{"id": "156001", "count": 382},
+						{"id": "156002", "count": 382}
+					]
+				},
+				"3": {
+					"damageAdd": 0,
+					"damageReduce": 0.03,
+					"price": [
+						{"id": "156001", "count": 478},
+						{"id": "156002", "count": 478}
+					]
+				},
+				"4": {
+					"damageAdd": 0,
+					"damageReduce": 0.04,
+					"price": [
+						{"id": "156001", "count": 574},
+						{"id": "156002", "count": 574}
+					]
+				},
+				"5": {
+					"damageAdd": 0,
+					"damageReduce": 0.05,
+					"price": [
+						{"id": "156001", "count": 670},
+						{"id": "156002", "count": 670}
+					]
+				},
+				"6": {
+					"damageAdd": 0,
+					"damageReduce": 0.06,
+					"price": [
+						{"id": "156001", "count": 765},
+						{"id": "156002", "count": 765}
+					]
+				},
+				"7": {
+					"damageAdd": 0,
+					"damageReduce": 0.07,
+					"price": [
+						{"id": "156001", "count": 0},
+						{"id": "156002", "count": 0}
+					]
+				}
+			}
+		},
+		"6": {
+			"damageAdd": 0.3,
+			"damageReduce": 0.3,
+			"soul": 221,
+			"price": [{"id": "gold", "count": 402033606}],
+			"detail": {
+				"0": {
+					"damageAdd": 0,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 287},
+						{"id": "156002", "count": 287}
+					]
+				},
+				"1": {
+					"damageAdd": 0.01,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 430},
+						{"id": "156002", "count": 430}
+					]
+				},
+				"2": {
+					"damageAdd": 0.02,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 574},
+						{"id": "156002", "count": 574}
+					]
+				},
+				"3": {
+					"damageAdd": 0.03,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 717},
+						{"id": "156002", "count": 717}
+					]
+				},
+				"4": {
+					"damageAdd": 0.04,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 861},
+						{"id": "156002", "count": 861}
+					]
+				},
+				"5": {
+					"damageAdd": 0.05,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 1005},
+						{"id": "156002", "count": 1005}
+					]
+				},
+				"6": {
+					"damageAdd": 0.06,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 1148},
+						{"id": "156002", "count": 1148}
+					]
+				},
+				"7": {
+					"damageAdd": 0.07,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 0},
+						{"id": "156002", "count": 0}
+					]
+				}
+			}
+		},
+		"7": {
+			"damageAdd": 0.45,
+			"damageReduce": 0.3,
+			"soul": 249,
+			"price": [{"id": "gold", "count": 603050409}],
+			"detail": {
+				"0": {
+					"damageAdd": 0,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 430},
+						{"id": "156002", "count": 430}
+					]
+				},
+				"1": {
+					"damageAdd": 0,
+					"damageReduce": 0.01,
+					"price": [
+						{"id": "156001", "count": 646},
+						{"id": "156002", "count": 646}
+					]
+				},
+				"2": {
+					"damageAdd": 0,
+					"damageReduce": 0.02,
+					"price": [
+						{"id": "156001", "count": 861},
+						{"id": "156002", "count": 861}
+					]
+				},
+				"3": {
+					"damageAdd": 0,
+					"damageReduce": 0.03,
+					"price": [
+						{"id": "156001", "count": 1076},
+						{"id": "156002", "count": 1076}
+					]
+				},
+				"4": {
+					"damageAdd": 0,
+					"damageReduce": 0.04,
+					"price": [
+						{"id": "156001", "count": 1292},
+						{"id": "156002", "count": 1292}
+					]
+				},
+				"5": {
+					"damageAdd": 0,
+					"damageReduce": 0.05,
+					"price": [
+						{"id": "156001", "count": 1507},
+						{"id": "156002", "count": 1507}
+					]
+				},
+				"6": {
+					"damageAdd": 0,
+					"damageReduce": 0.06,
+					"price": [
+						{"id": "156001", "count": 1722},
+						{"id": "156002", "count": 1722}
+					]
+				},
+				"7": {
+					"damageAdd": 0,
+					"damageReduce": 0.07,
+					"price": [
+						{"id": "156001", "count": 0},
+						{"id": "156002", "count": 0}
+					]
+				}
+			}
+		},
+		"8": {
+			"damageAdd": 0.45,
+			"damageReduce": 0.45,
+			"soul": 276,
+			"price": [{"id": "gold", "count": 904575613}],
+			"detail": {
+				"0": {
+					"damageAdd": 0,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 646},
+						{"id": "156002", "count": 646}
+					]
+				},
+				"1": {
+					"damageAdd": 0.01,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 969},
+						{"id": "156002", "count": 969}
+					]
+				},
+				"2": {
+					"damageAdd": 0.02,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 1292},
+						{"id": "156002", "count": 1292}
+					]
+				},
+				"3": {
+					"damageAdd": 0.03,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 1615},
+						{"id": "156002", "count": 1615}
+					]
+				},
+				"4": {
+					"damageAdd": 0.04,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 1938},
+						{"id": "156002", "count": 1938}
+					]
+				},
+				"5": {
+					"damageAdd": 0.05,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 2261},
+						{"id": "156002", "count": 2261}
+					]
+				},
+				"6": {
+					"damageAdd": 0.06,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 2584},
+						{"id": "156002", "count": 2584}
+					]
+				},
+				"7": {
+					"damageAdd": 0.07,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 0},
+						{"id": "156002", "count": 0}
+					]
+				}
+			}
+		},
+		"9": {
+			"damageAdd": 0.6,
+			"damageReduce": 0.45,
+			"soul": 304,
+			"price": [{"id": "gold", "count": 1356863420}],
+			"detail": {
+				"0": {
+					"damageAdd": 0,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 969},
+						{"id": "156002", "count": 969}
+					]
+				},
+				"1": {
+					"damageAdd": 0,
+					"damageReduce": 0.01,
+					"price": [
+						{"id": "156001", "count": 1453},
+						{"id": "156002", "count": 1453}
+					]
+				},
+				"2": {
+					"damageAdd": 0,
+					"damageReduce": 0.02,
+					"price": [
+						{"id": "156001", "count": 1938},
+						{"id": "156002", "count": 1938}
+					]
+				},
+				"3": {
+					"damageAdd": 0,
+					"damageReduce": 0.03,
+					"price": [
+						{"id": "156001", "count": 2422},
+						{"id": "156002", "count": 2422}
+					]
+				},
+				"4": {
+					"damageAdd": 0,
+					"damageReduce": 0.04,
+					"price": [
+						{"id": "156001", "count": 2907},
+						{"id": "156002", "count": 2907}
+					]
+				},
+				"5": {
+					"damageAdd": 0,
+					"damageReduce": 0.05,
+					"price": [
+						{"id": "156001", "count": 3392},
+						{"id": "156002", "count": 3392}
+					]
+				},
+				"6": {
+					"damageAdd": 0,
+					"damageReduce": 0.06,
+					"price": [
+						{"id": "156001", "count": 3876},
+						{"id": "156002", "count": 3876}
+					]
+				},
+				"7": {
+					"damageAdd": 0,
+					"damageReduce": 0.07,
+					"price": [
+						{"id": "156001", "count": 0},
+						{"id": "156002", "count": 0}
+					]
+				}
+			}
+		},
+		"10": {
+			"damageAdd": 0.6,
+			"damageReduce": 0.6,
+			"soul": 0,
+			"price": [{"id": "gold", "count": 0}],
+			"detail": {
+				"0": {
+					"damageAdd": 0,
+					"damageReduce": 0,
+					"price": [
+						{"id": "156001", "count": 0},
+						{"id": "156002", "count": 0}
+					]
+				}
+			}
+		}
+	}
+}

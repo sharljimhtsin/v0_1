@@ -1,0 +1,139 @@
+{
+	"vipSpec":{
+		"1":[
+			"VIP1 Capsula Dísp para recarga",
+			"pode obter Super upgrade aleatório que add 2-3 lv",
+			"Recuperação de Energia diária: 1",
+			"Recuperação de Vigor diário: 1",
+			"Contagem Diário de Batalhas: 5"
+		],
+		"2":[
+			"VIP2 Capsula Dísp para recarga",
+			"pode obter Super upgrade aleatório que add 2-4 lv",
+			"Recuperação de Energia diária: 1",
+			"Recuperação de Vigor diário: 1",
+			"Contagem Diário de Batalhas: 6",
+			"Use Gammets para zerar o contador de Batalhas",
+			"(Inclui todos benefícios do  VIP1)"
+		],
+		"3":[
+			"VIP3 Capsula Dísp para recarga",
+			"pode obter Super upgrade aleatório que add 2-5 lv",
+			"Recuperação de Energia diária: 1",
+			"Recuperação de Vigor diário: 1",
+			"Contagem Diário de Batalhas: 7",
+			"Auto-Batalha Dísponível",
+			"(Inclui todos benefícios do  VIP1-2)"
+		],
+		"4":[
+			"VIP4 Capsula Dísp para recarga",
+			"pode obter Super upgrade aleatório que add 2-6 lv",
+			"Recuperação de Energia diária: 1",
+			"Recuperação de Vigor diário: 1",
+			"Contagem Diário de Batalhas: 8",
+			"Max 1 Personagem pode receber EXP bônus do aprendizado",
+			"(Inclui todos benefícios do  VIP1-3)"
+		],
+		"5":[
+			"VIP5 Capsula Dísp para recarga",
+			"pode obter Super upgrade aleatório que add 2-6 lv",
+			"Recuperação de Energia diária: 2",
+			"Recuperação de Vigor diário: 2",
+			"Contagem Diário de Batalhas: 9",
+			"Max 1 Personagem pode receber EXP bônus do aprendizado",
+			"(Inclui todos benefícios do  VIP1-4)"
+		],
+		"6":[
+			"VIP6 Capsula Dísp para recarga",
+			"pode obter Super upgrade aleatório que add 2-6 lv",
+			"Recuperação de Energia diária: 2",
+			"Recuperação de Vigor diário: 2",
+			"Contagem Diário de Batalhas: 10",
+			"Max 2 Personagem pode receber EXP bônus do aprendizado",
+			"Use Gammets para zerar o tempo de recarga de Auto-Batalhas",
+			"(Inclui todos benefícios do  VIP1-5)"
+		],
+		"7":[
+			"VIP7 Capsula Dísp para recarga",
+			"pode obter Super upgrade aleatório que add 2-6 lv",
+			"Recuperação de Energia diária: 6",
+			"Recuperação de Vigor diário: 6",
+			"Contagem Diário de Batalhas: 11",
+			"Max 3 Personagem pode receber EXP bônus do aprendizado",
+			"(Inclui todos benefícios do  VIP1-6)"
+		],
+		"8":[
+			"VIP8 Capsula Dísp para recarga",
+			"pode obter Super upgrade aleatório que add 2-6 lv",
+			"Recuperação de Energia diária: 6",
+			"Recuperação de Vigor diário: 6",
+			"Contagem Diário de Batalhas: 12",
+			"Max 4 Personagem pode receber EXP bônus do aprendizado",
+			"(Inclui todos benefícios do  VIP1-7)"
+		],
+		"9":[
+			"VIP9 Capsula Dísp para recarga",
+			"pode obter Super upgrade aleatório que add 2-6 lv",
+			"Recuperação de Energia diária: 12",
+			"Recuperação de Vigor diário: 12",
+			"Contagem Diário de Batalhas: 13",
+			"Max 5 Personagem pode receber EXP bônus do aprendizado",
+			"(Inclui todos benefícios do  VIP1-8)"
+		],
+		"10":[
+			"VIP10 Capsula Dísp para recarga",
+			"pode obter Super upgrade aleatório que add 2-6 lv",
+			"Recuperação de Energia diária: 12",
+			"Recuperação de Vigor diário: 12",
+			"Contagem Diário de Batalhas: 14",
+			"Max 6 Personagem pode receber EXP bônus do aprendizado",
+			"(Inclui todos benefícios do  VIP1-9)"
+		],
+		"11":[
+			"VIP11 Capsula Dísp para recarga",
+			"pode obter Super upgrade aleatório que add 2-6 lv",
+			"Recuperação de Energia diária: 12",
+			"Recuperação de Vigor diário: 12",
+			"Contagem Diário de Batalhas: 15",
+			"Max 6 Personagem pode receber EXP bônus do aprendizado",
+			"(Inclui todos benefícios do  VIP1-10)"
+		],
+		"12":[
+			"VIP12 Capsula Dísp para recarga",
+			"pode obter Super upgrade aleatório que add 2-6 lv",
+			"Recuperação de Energia diária: 12",
+			"Recuperação de Vigor diário: 12",
+			"Contagem Diário de Batalhas: 16",
+			"Max 6 Personagem pode receber EXP bônus do aprendizado",
+			"Sem tempo de recarga para Auto-Batalha",
+			"(Inclui todos benefícios do  VIP1-11)"
+		],
+		"13":[
+			"VIP13 Capsula Dísp para recarga",
+			"pode obter Super upgrade aleatório que add 2-6 lv",
+			"Recuperação de Energia diária: 12",
+			"Recuperação de Vigor diário: 12",
+			"Contagem Diário de Batalhas: 17",
+			"Max 6 Personagem pode receber EXP bônus do aprendizado",
+			"(Inclui todos benefícios do  VIP1-12)"
+		],
+		"14":[
+			"VIP14 Capsula Dísp para recarga",
+			"pode obter Super upgrade aleatório que add 2-6 lv",
+			"Recuperação de Energia diária: 12",
+			"Recuperação de Vigor diário: 12",
+			"Contagem Diário de Batalhas: 18",
+			"Max 6 Personagem pode receber EXP bônus do aprendizado",
+			"(Inclui todos benefícios do  VIP1-13)"
+		],
+		"15":[
+			"VIP15 Capsula Dísp para recarga",
+			"pode obter Super upgrade aleatório que add 2-6 lv",
+			"Recuperação de Energia diária: 12",
+			"Recuperação de Vigor diário: 12",
+			"Contagem Diário de Batalhas: 19",
+			"Max 6 Personagem pode receber EXP bônus do aprendizado",
+			"(Inclui todos benefícios do  VIP1-14)"
+		]
+	}
+}

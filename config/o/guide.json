@@ -1,0 +1,404 @@
+{			
+	"guide":{		
+		"1":{	
+			"words":"Bạn tỉnh rồi, hãy cùng tôi đi tìm Ngọc Rồng có\nthể thực hiện tất cả nguyện vọng!\nNhấn Mạo Hiểm, ải Mạo Hiểm là nguồn nhận Exp chính.",
+			"colorChange":[]
+		},	
+		"2":{	
+			"words":"Đói cả ngày, trong rừng cũng không có gì ăn\nbạn ra sông bắt cá đi. Nhấn Chiến,\nChiến thắng còn nhận trang bị, Vàng, Hồn phách, Mảnh chiêu thức.",
+			"colorChange":[]
+		},	
+		"3":{	
+			"words":"Ồ, bạn giỏi quá, dẫn bạn theo là lựa chọn sáng suốt.\nNhấn Đóng, duy trì chiến thắng mới liên tục\ntăng Exp và cấp đồng hành.",
+			"colorChange":[]
+		},	
+		"4":{	
+			"words":"Hãy đánh thức đồng hành đang ngủ.\nNhấn Đổi, để thêm nhiều chiến sĩ Ngọc Rồng mạnh \nhơn tham gia vào Đội bạn.",
+			"colorChange":[]
+		},	
+		"5":{	
+			"words":"Triệu hồi càng mạnh tỷ lệ thức tỉnh chiến sĩ mạnh càng cao,\nhãy nhấn Triệu hồi lần cuối thức tỉnh đồng hành.",
+			"colorChange":[]
+		},	
+		"6":{	
+			"words":"Căn cứ năng lực chia đồng hành làm 4 loại từ mạnh đến yếu \nS, A, B, C,chúc mừng bạn thành công thức tỉnh đồng \nhành cấp A,nhấn Xác nhận.",
+			"colorChange":[]
+		},	
+		"7":{	
+			"words":"Nhấn Triệu hồi sơ",
+			"colorChange":[]
+		},	
+		"8":{	
+			"words":"Nhấn Xác nhận",
+			"colorChange":[]
+		},	
+		"9":{	
+			"words":"Nhấn Triệu hồi cao",
+			"colorChange":[]
+		},	
+		"10":{	
+			"words":"Nhấn Xác nhận",
+			"colorChange":[]
+		},	
+		"11":{	
+			"words":"Đồng hành mới thức tỉnh cần gia nhập đội bạn,\nnhấn Đội, để tăng thực lực đội.",
+			"colorChange":[]
+		},	
+		"12":{	
+			"words":"Có thấy vị trí này chưa, tăng cấp có thể mở khóa\ntrận hình nhiều hơn, nhấn ô trống ra trận.",
+			"colorChange":[]
+		},	
+		"13":{	
+			"words":"Bố trí đồng hành đã đánh thức vào trận hình, mới \nđược tham chiến.Nhấn ô trống, chọn đồng hành ra trận",
+			"colorChange":[]
+		},	
+		"14":{	
+			"words":"Nhấn chọn đồng hành này,\nsau này các danh sách khác đều thao tác vậy",
+			"colorChange":[]
+		},	
+		"15":{	
+			"words":"Nhấn Xác nhận, có thể phái đồng hành vừa thức tỉnh ra trận.",
+			"colorChange":[]
+		},	
+		"16":{	
+			"words":"Thực lực đội bạn đã mạnh hơn,\nChúng ta hãy bắt đầu tìm Ngọc Rồng.\nNhấn Mạo Hiểm",
+			"colorChange":[]
+		},	
+		"17":{	
+			"words":"Để kiểm tra thực lực của bạ, chúng ta hãy thử so tài,\nnhấn Chiến, vào đấu.",
+			"colorChange":[]
+		},	
+		"18":{	
+			"words":"Không ngờ chứ, tôi cũng không độc chiến,\nnhấn Đóng",
+			"colorChange":[]
+		},	
+		"19":{	
+			"words":"Không ngờ bạn dám ra tay với phụ nữ, hừm! \nThôi xem như đã đạt điều kiện.\nỦa, đó là gì, nhấn nhận",
+			"colorChange":[]
+		},	
+		"20":{	
+			"words":"Hãy trang bị vũ khí nhận được cho đồng hành trong đội,\nnhấn Đội",
+			"colorChange":[]
+		},	
+		"21":{	
+			"words":"Đồng hành có vũ khí thích hợp mới phát\nhuy lực chiến mạnh hơn,\nnhấn ô trang bị, chọn trang bị đồng hành dùng",
+			"colorChange":[]
+		},	
+		"22":{	
+			"words":"Nhấn chọn Vũ khí,\nvũ khí thích hợp có thể tăng cao lực chiến đồng hành.",
+			"colorChange":[]
+		},	
+		"23":{	
+			"words":"Nhấn Xác nhận,\nvũ khí này sẽ phá huy lực chiến nên có.",
+			"colorChange":[]
+		},	
+		"24":{	
+			"words":"Cường hóa trang bị có thể tăng thuộc tính trang bị,\nnhấn Đinh Ba",
+			"colorChange":[]
+		},	
+		"25":{	
+			"words":"Nhấn Cường hóa",
+			"colorChange":[]
+		},	
+		"26":{	
+			"words":"Nhấn nút Cường hóa để cường hóa trang bị",
+			"colorChange":[]
+		},	
+		"27":{	
+			"words":"Nhấn Về",
+			"colorChange":[]
+		},	
+		"28":{	
+			"words":"Khi Ngọc Rồng ở trang chính phát sáng,\n nhấn có thể nhận quà thần bí!\nGiờ nhấn Ngọc Rồng",
+			"colorChange":[]
+		},	
+		"29":{	
+			"words":"Nhấn √ đóng giao diện",
+			"colorChange":[]
+		},	
+		"30":{	
+			"words":"Nhấn Mạo Hiểm, tôi chỉ dẫn đến đây thôi,\nchúng ta mau lên đường, muộn quá người khác sẽ tìm \nthấy Ngọc Rồng trước.",
+			"colorChange":[]
+		},	
+		"2001":{	
+			"words":"Mở khóa ô đồng hành mới, nhấn Đội",
+			"colorChange":[]
+		},	
+		"2002":{	
+			"words":"Nhấn Ô đồng hành",
+			"colorChange":[]
+		},	
+		"2003":{	
+			"words":"Nhấn Khu phát sáng chọn đồng hành",
+			"colorChange":[]
+		},	
+		"2030":{	
+			"words":"Học tuyệt chiêu tăng cao lực chiến đồng hành,\n hãy mau thử đi!Nhấn Đội",
+			"colorChange":[]
+		},	
+		"2031":{	
+			"words":"Nhấn tuyệt chiêu của đồng hành này",
+			"colorChange":[]
+		},	
+		"2032":{	
+			"words":"Nhấn Học",
+			"colorChange":[]
+		},	
+		"2033":{	
+			"words":"Chọn Nguyên liệu",
+			"colorChange":[]
+		},	
+		"2034":{	
+			"words":"Chọn Nguyên liệu",
+			"colorChange":[]
+		},	
+		"2035":{	
+			"words":"Chọn Nguyên liệu",
+			"colorChange":[]
+		},	
+		"2036":{	
+			"words":"Chọn Nguyên liệu",
+			"colorChange":[]
+		},	
+		"2037":{	
+			"words":"Nhấn Xác nhận",
+			"colorChange":[]
+		},	
+		"2201":{	
+			"words":"Mở khóa ô đồng hành mới, nhấn Đội",
+			"colorChange":[]
+		},	
+		"2202":{	
+			"words":"Nhấn Ô đồng hành",
+			"colorChange":[]
+		},	
+		"2203":{	
+			"words":"Nhấn Khu phát sáng chọn đồng hành",
+			"colorChange":[]
+		},	
+		"2301":{	
+			"words":"Mở khóa tính năng mới [Kịch Chiến]\nNhấn Trang đầu xem",
+			"colorChange":[]
+		},	
+		"2302":{	
+			"words":"Nhấn Kịch Chiến",
+			"colorChange":[]
+		},	
+		"2303":{	
+			"words":"Cứ 10 phút nhận điểm tương ứng với hạng\nKhiêu chiến người chơi khác tăng hạng có\nthể nhận thêm điểm Nhấn Khiêu chiến",
+			"colorChange":[]
+		},	
+		"2304":{	
+			"words":"Nhấn tiếp tục",
+			"colorChange":[]
+		},	
+		"2305":{	
+			"words":"Điểm dùng đổi Thuốc bồi dưỡng,\nmau nhấn Quà đổi!",
+			"colorChange":[]
+		},	
+		"2306":{	
+			"words":"Nhấn Đổi nhận Thuốc bồi dưỡng",
+			"colorChange":[]
+		},	
+		"2307":{	
+			"words":"Thuốc bồi dưỡng có thể sửa thuộc tính đồng hành,\nhãy thử bồi dưỡng đồng hành!\nNhấn Trang đầu",
+			"colorChange":[]
+		},	
+		"2308":{	
+			"words":"Nhấn Đồng hành",
+			"colorChange":[]
+		},	
+		"2309":{	
+			"words":"Nhấn Bồi dưỡng vào giao diện bồi dưỡng",
+			"colorChange":[]
+		},	
+		"2310":{	
+			"words":"Nhấn Bồi dưỡng bồi dưỡng 1 lần\nnhấn Nhận hoặc Bỏ hoàn thành bồi dưỡng",
+			"colorChange":[]
+		},	
+		"2401":{	
+			"words":"Đã mở tính năng mới,\nnhấn Trang đầu",
+			"colorChange":[]
+		},	
+		"2402":{	
+			"words":"Nhấn Dung hợp",
+			"colorChange":[]
+		},	
+		"2403":{	
+			"words":"Dung hợp đồng hành hoặc hồn phách sẽ tăng thộc tính,\n nhấn Tăng",
+			"colorChange":[]
+		},	
+		"2404":{	
+			"words":"Nhấn chọn Hồn phách để dung hợp",
+			"colorChange":[]
+		},	
+		"2405":{	
+			"words":"Nhấn Xác nhận\ndung hợp thành công, hồn phách đã dung hợp sẽ biến mất",
+			"colorChange":[]
+		},	
+		"2501":{	
+			"words":"Chúc mừng mở khóa mới thành công!\nNhấn Lịch luyện",
+			"colorChange":[]
+		},	
+		"2601":{	
+			"words":"Chúc mừng mở khóa mới thành công!\nNhấn Lịch luyện",
+			"colorChange":[]
+		},	
+		"2701":{	
+			"words":"Đã mở khóa ô đồng hành mới, nhấn Đội",
+			"colorChange":[]
+		},	
+		"2702":{	
+			"words":"Nhấn Ô đồng hành",
+			"colorChange":[]
+		},	
+		"2703":{	
+			"words":"Nhấn Khu phát sáng chọn đồng hành",
+			"colorChange":[]
+		},	
+		"2704":{	
+			"words":"Chúc mừng mở khóa mới thành công!\nNhấn Lịch luyện",
+			"colorChange":[]
+		},	
+		"2705":{	
+			"words":"Nhấn logo Phong Ấn",
+			"colorChange":[]
+		},	
+		"2706":{	
+			"words":"Nhấn Bắt đầu phong ấn",
+			"colorChange":[]
+		},	
+		"2707":{	
+			"words":"Căn cứ lần trước Phong Ấn nhận số sao, \ncó thẻ chọn tăng 1 thuộc tính,\nnhấn chọn Tăng tấn công",
+			"colorChange":[]
+		},	
+		"2708":{	
+			"words":"Có 3 mức, tăng dần từ trái qua phải,\nhãy chọn 1 mức Bắt đầu phong ấn!",
+			"colorChange":[]
+		},	
+		"2801":{	
+			"words":"Đã mở khóa tính năng mới\nnhấn Tu luyện xem",
+			"colorChange":[]
+		},	
+		"2802":{	
+			"words":"Nhấn Tiến cấp",
+			"colorChange":[]
+		},	
+		"2803":{	
+			"words":"Nhấn Vị trí phát sáng vào danh sách đồng hành",
+			"colorChange":[]
+		},	
+		"2804":{	
+			"words":"Nhấn Chọn đồng hành",
+			"colorChange":[]
+		},	
+		"2805":{	
+			"words":"Nhấn Xác nhận",
+			"colorChange":[]
+		},	
+		"2806":{	
+			"words":"Nhấn Cầu Năng Lượng nạp năng lượng cho đồng hành\n",
+			"colorChange":[]
+		},	
+		"2807":{	
+			"words":"Khi năng lượng đầy nhấn Bổ sung năng lượng \nlà có thể nhận linh hồn đồng hành tiến cấp!",
+			"colorChange":[]
+		},	
+		"2901":{	
+			"words":"Chúc mừng mở khóa mới thành công!\nNhấn Trang đầu xem",
+			"colorChange":[]
+		},	
+		"2902":{	
+			"words":"Nhấn xem Đội Đặc Nhiệm",
+			"colorChange":[]
+		},	
+		"2903":{	
+			"words":"Nhấn mở khóa Ô đặc chiến",
+			"colorChange":[]
+		},	
+		"2904":{	
+			"words":"Nhấn Xác nhận",
+			"colorChange":[]
+		},	
+		"2905":{	
+			"words":"Đặt đồng hành vào Đội Đặc Nhiệm,\ncó thể 100% tăng tỷ lệ thuộc tính nhất định cho \nđồng hành ra trận",
+			"colorChange":[]
+		},	
+		"2906":{	
+			"words":"Nếu đồng hành trong Đội Đặc Nhiệm và đồng hành\n ra trận có duyên phận,duyên phận của đồng\n hành ra trận cũng sẽ kích hoạt",
+			"colorChange":[]
+		},	
+		"2907":{	
+			"words":"Nhấn Ô đặc chiến có thể chọn đồng hành vào Đội Đặc Nhiệm",
+			"colorChange":[]
+		},	
+		"2908":{	
+			"words":"Dùng Huy chương chiến đội cường hóa Đội Đặc \nNhiệm tăng % thuộc tính nhấn Cường hóa\n xem tăng hiện tại",
+			"colorChange":[]
+		},	
+		"2909":{	
+			"words":"Hiện tại hãy cường hóa Đội Đặc Nhiệm 1 lần!\nNhấn Ô thuộc tính để cường hóa",
+			"colorChange":[]
+		},	
+		"2910":{	
+			"words":"Nhấn Xác nhận",
+			"colorChange":[]
+		},	
+		"3001":{	
+			"words":"Chúc mừng mở khóa tính năng mới,\nnhấn Trang đầu xem",
+			"colorChange":[]
+		},	
+		"3002":{	
+			"words":"Nhấn Mảnh",
+			"colorChange":[]
+		},	
+		"3003":{	
+			"words":"Nhấn Thu thập miễn phí nhận mảnh\nnhấn 10 lần có thể liên tục thu thập mảnh 10 lần",
+			"colorChange":[]
+		},	
+		"3004":{	
+			"words":"Nhấn Trang đầu",
+			"colorChange":[]
+		},	
+		"3005":{	
+			"words":"Nhấn chọn đồng hành",
+			"colorChange":[]
+		},	
+		"3006":{	
+			"words":"Nhấn Mảnh Rồng Thần",
+			"colorChange":[]
+		},	
+		"3007":{	
+			"words":"Mảnh Rồng Thần có thể trang bị ở đây,\nÔ mảnh thứ nhất cần đồng hành Lv50 mở khóa",
+			"colorChange":[]
+		},	
+		"3008":{	
+			"words":"Có thể cường hóa mảnh nhận thêm thuộc tính,\nnhấn Trang đầu",
+			"colorChange":[]
+		},	
+		"3009":{	
+			"words":"Nhấn Mảnh",
+			"colorChange":[]
+		},	
+		"3010":{	
+			"words":"Nhấn Thu thập mảnh",
+			"colorChange":[]
+		},	
+		"3011":{	
+			"words":"Nhấn Tăng cấp",
+			"colorChange":[]
+		},	
+		"3012":{	
+			"words":"Chọn Mảnh làm nguyên liệu, cung cấp Exp cho mảnh cần tăng cấp",
+			"colorChange":[]
+		},	
+		"3013":{	
+			"words":"Nhấn Xác nhận, mảnh nhận Exp,\nkhi Exp đầy sẽ tăng cấp mảnh",
+			"colorChange":[]
+		},	
+		"3014":{	
+			"words":"Tăng cấp đồng hành có thể trang bị thêm mảnh\nmau đi Mạo Hiểm!",
+			"colorChange":[]
+		}	
+	}		
+}

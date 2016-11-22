@@ -1,0 +1,1085 @@
+{
+    "story":
+    {
+        "10001":
+            [
+                {
+                    "heroId":"102041",
+                    "sayText":"Да, я выиграл!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101008",
+                    "sayText":"Вау! Ты сильнее, чем я ожидал!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Эй, ??Мистер Морская черепаха...",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101001",
+                    "sayText":"Спасибо за мое спасение, мальчик!",
+                    "position":"right",
+                    "rotate":1
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Итак, ты действительно вкусный?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101001",
+                    "sayText":"Что? Нет! На вкус я просто ужасен! Эхехе...",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Да, ты определенно не выглядишь вкусной.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101008",
+                    "sayText":"Давай отправимся в путь!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Верно!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10002":
+            [
+                {
+                    "heroId":"101011",
+                    "sayText":"Оох! Ямча, ты в порядке?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102014",
+                    "sayText":"Тьфу ... Я потерял зуб, и мое лицо опухает ...",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102014",
+                    "sayText":"Ты испортил мое лицо! Я никогда не найду себе девушку!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102014",
+                    "sayText":"Я вернусь за тобой!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Какой странный парень…",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10003":
+            [
+                {
+                    "heroId":"101010",
+                    "sayText":"Вернулся в свое нормальное состояние.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102014",
+                    "sayText":"Ничего себе, не думал, что этот маленький парень мог стать настолько огромным!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101008",
+                    "sayText":"Можно мне его милый маленький хвостик?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101010",
+                    "sayText":"Хм. Я так не думаю.",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10004":
+            [
+                {
+                    "heroId":"102041",
+                    "sayText":"Мастер Роши, Вы можете научить нас как бороться?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"Э-э... Гм... Конечно.",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"Я пошутил по поводу того, что надо подвинуть эту скалу...",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"Не могу поверить, что они на самом деле перенесли ее.",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"Эти дети впечатляют...",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10005":
+            [
+                {
+                    "heroId":"102042",
+                    "sayText":"Ничего себе, Гоку! Отличная работа!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Ага.",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102042",
+                    "sayText":"Мастер Роши, наверное, видел это.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Давай найдем его!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102042",
+                    "sayText":"Хорошо!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10006":
+            [
+                {
+                    "heroId":"102002",
+                    "sayText":"Гоку! Ты все еще жив?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Я в порядке. Просто немного больно, когда я смеюсь...",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102002",
+                    "sayText":"Какое облегчение!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Не беспокойся обо мне! Ты тоже пострадал!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102002",
+                    "sayText":"Я андроид, я могу поднять довольно много.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Да, ты выглядишь довольно сильным!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102002",
+                    "sayText":"Ну и дела! Эй, ??эй, эй!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10007":
+            [
+                {
+                    "heroId":"103049",
+                    "sayText":"Уеааа! Ахахаха!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101026",
+                    "sayText":"Ах-ха. Он летит туда!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Тьфу, я снова могу двигаться.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Я снова вернулся!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10008":
+            [
+                {
+                    "heroId":"102042",
+                    "sayText":"Ты победил армию Красной Ленты в одиночку?!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Ага! Некоторые из них просто убежали...",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101008",
+                    "sayText":"Армия красной ленты боялась...",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101018",
+                    "sayText":"Уничтожена, просто так ...",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"Я с трудом могу в это поверить. Такая невероятная сила!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10009":
+            [
+                {
+                    "heroId":"102041",
+                    "sayText":"Я выиграл! Отдай мне Драконий Жемчуг.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101005",
+                    "sayText":"Хорошо. Просто возьми его.",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Да, есть еще одна вещь...",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101005",
+                    "sayText":"А?",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"!#@$#$%%&^*&*(*&($#$!@!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Ахаха! Спасибо!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10010":
+            [
+                {
+                    "heroId":"102024",
+                    "sayText":"Мы аплодируем и поздравляем тебя!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"Ты действительно произвел на нас впечатление.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"Дни ненависти и вражды закончились.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"Ты уже сделал первый шаг.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"Ты открыл мир, полный света!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103016",
+                    "sayText":"Мастер Роши ...",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10011":
+            [
+                {
+                    "heroId":"102041",
+                    "sayText":"О, да! Я выиграл!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Мастер Роши, Криллин, я отомстил за вас обоих!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103009",
+                    "sayText":"Что? Как ты смог победить меня?",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103009",
+                    "sayText":"Думаю, ты действительно очень силен.",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103009",
+                    "sayText":"Не имеет значения... Хотя, мой сын будет мстить мне.",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10012":
+            [
+                {
+                    "heroId":"102041",
+                    "sayText":"Наконец! Сейчас я смогу скрыть свое дыхание!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103021",
+                    "sayText":"Не совсем так. Время Бафа истекло.",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"Don't expose this cruel truth",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10013":
+            [
+                {
+                    "heroId":"101034",
+                    "sayText":"Гоку является чемпионом Турнира!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"Потрясающе!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"Супер удивительно!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102011",
+                    "sayText":"Сейчас это безопасно. Мы выиграли..",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101024",
+                    "sayText":"Гоку, ты в порядке? Тебе необходимо обратиться к врачу!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102011",
+                    "sayText":"Не волнуйся насчет этого парнишки. Я получу ему несколько Зензу Бобы.",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Спасибо!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Я вернулся!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10014":
+            [
+                {
+                    "heroId":"103015",
+                    "sayText":"Ничего себе, что случилось с Гарликом младший?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103030",
+                    "sayText":"Он упал в смертельной зоне.",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103030",
+                    "sayText":"Я уверен, что он уже пожалел о своей вечной жизни...",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Гохан!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103001",
+                    "sayText":"Отец, ты здесь!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Гохан, Ты можешь вспомнить, что случилось?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103001",
+                    "sayText":"У меня сильнейший отец в мире!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Гохан, пойдем домой, чтобы увидеть твою маму.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"Сон Гоку, в один прекрасный день я смогу тебя победить!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"...Мне сообщить Чи-Чи о том, что Гохан спасся?",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10015":
+            [
+                {
+                    "heroId":"104015",
+                    "sayText":"Мы должны остановить его!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103001",
+                    "sayText":"Давай сделаем это!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"100056",
+                    "sayText":"Что?!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"Почему я один получил урон...",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"100056",
+                    "sayText":"Вы и Земля сгорите дотла!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Я чувствую ваш дух. Спасибо вам всем!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Призрачная бомба!!!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"100056",
+                    "sayText":"Аах!! Сон Гоку!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Хорошая работа, Пикколо!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"Вообще-то, это Гохан сделал хорошую работу!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10016":
+            [
+                {
+                    "heroId":"103052",
+                    "sayText":"Сними одежду перед возрождением.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"В самом деле? Потрясающе! Мне так комфортно сейчас!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Спасибо, Король Кай!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Моя Черепаха кандзи все еще здесь! Оценка Короля Кая довольно глупа...",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103052",
+                    "sayText":"Простите! Ваша оценка потрясающая!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Увидимся позже, король Кай! Если я снова умру, я буду искать тебя!",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10017":
+            [
+                {
+                    "heroId":"103015",
+                    "sayText":"Умри!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Подожди, Крилин! Прошу тебя! Пожалуйста, пусть он уйдет.",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"Ты действительно думаешь, что он изменится, как Пиколло?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"Он злой Саян!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Позвольте мне попрактиковаться и сразиться с ним еще в одном раунде!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"Отлично. Благодаря вам Земля прожила еще один день.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"В следующий раз, убедитесь, что вы победили его!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Я буду!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103003",
+                    "sayText":"Послушайте, шпана...",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103003",
+                    "sayText":"Этого больше не повторится! Я уничтожу тебя!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10018":
+            [
+                {
+                    "heroId":"103002",
+                    "sayText":"9999 ... 10000 ... Отличо! Я вообще не устал!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Невероятно! Наша практика подошла к концу.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Теперь при нормальной тяжести я могу использовать Каио-кен x10.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103017",
+                    "sayText":"Гинуи Силы, вы, наконец, здесь. Я ждал вас!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103036",
+                    "sayText":"Я Рекум!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103040",
+                    "sayText":"Я Бартер!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103035",
+                    "sayText":"Я Джейс!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103039",
+                    "sayText":"Гулдо!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103034",
+                    "sayText":"Гинуи сила рулит! А теперь супер поза, Гинуи!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10019":
+            [
+                {
+                    "heroId":"103015",
+                    "sayText":"Гохан! Вегета долго не удержит!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"У нас нет выбора. Давайте бороться вместе!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103008",
+                    "sayText":"Хорошо!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"Он слишком силен! Мы не выстоим!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103017",
+                    "sayText":"Как три маленьких муравья победили динозавра?!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103003",
+                    "sayText":"Существует способ! Я вошел в супер Сайуань!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103017",
+                    "sayText":"Я прослежу, чтобы тебя убили первым!",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10020":
+            [
+                {
+                    "heroId":"104001",
+                    "sayText":"Эта планета взорвется! Тебе некуда бежать.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104001",
+                    "sayText":"Какая ирония! Ты умрешь здесь и я буду спасен!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104013",
+                    "sayText":"Я уверен, что выживу! Подожди немного и увидишь!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104001",
+                    "sayText":"О чем ты говоришь?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104013",
+                    "sayText":"Победа над трусом бессмыслена.",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104013",
+                    "sayText":"Ты будшь жить с упавшим самомнением!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104001",
+                    "sayText":"Я император Фриеза, самый сильный во всей вселенной!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104001",
+                    "sayText":"Ты должен был умереть от моей руки!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104013",
+                    "sayText":"? Ты идиот!",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10021":
+            [
+                {
+                    "heroId":"103051",
+                    "sayText":"Иди к черту! Я не впечатлен!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103051",
+                    "sayText":"Что?! Ты сам напросился, парень!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"Сейчас, Гохан!!!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"Сделай это!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103051",
+                    "sayText":"О чем ты говоришь? Ах нет! Ай ай ай!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103001",
+                    "sayText":"Дядя Криллин! Дядя Пикколо! Вы где?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"Это было близко!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"Звезда Макуо была уничтожена. Они больше не смогут возродиться!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10022":
+            [
+                {
+                    "heroId":"103007",
+                    "sayText":"Пожалуйста, держите это в секрете, господин Сон.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Конечно, мои губы запечатаны.",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"Ты недооцениваешь наш слух. Я слышал все.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103007",
+                    "sayText":"Ты должно быть шутишь!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"Не волнуйся, я не скажу им.",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103007",
+                    "sayText":"Пожалуйста, не...",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"Не играй мило!",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10023":
+            [
+                {
+                    "heroId":"103015",
+                    "sayText":"Гоку...",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103001",
+                    "sayText":"Отец...",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103001",
+                    "sayText":"Отец!!!!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Скорее, принеси мне Сензу Бобы!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"Хахаха! Эти бобы восхитительны!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"А как насчет овощей?",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"Я не знаю, куда он пошел после того, как съел Сензу Бобы.",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10024":
+            [
+            ],
+        "10025":
+            [
+            ],
+        "10026":
+            [
+            ],
+        "10027":
+            [
+            ],
+        "10028":
+            [
+            ],
+        "10029":
+            [
+            ],
+        "10030":
+            [
+            ],
+        "10031":
+            [
+            ],
+        "10032":
+            [
+            ],
+        "10033":
+            [
+            ],
+        "10034":
+            [
+            ],
+        "10035":
+            [
+            ],
+        "10036":
+            [
+            ],
+        "10037":
+            [
+            ],
+        "10038":
+            [
+            ],
+        "10039":
+            [
+            ],
+        "10040":
+            [
+            ],
+        "10041":
+            [
+            ],
+        "10042":
+            [
+            ],
+        "10043":
+            [
+            ],
+        "10044":
+            [
+            ],
+        "10045":
+            [
+            ],
+        "10046":
+            [
+            ],
+        "10047":
+            [
+            ],
+        "10048":
+            [
+            ],
+        "10049":
+            [
+            ],
+        "10050":
+            [
+            ]
+    }
+}
