@@ -353,22 +353,24 @@ function getUserTeamDataByUserId(userUid,userData,listData,callBackFun){//listHe
     };
     var towerAdd = function (formationId) {
         var returnHero = returnData[formationId];
+        var defaultHero = defaultHeroFormation[formationId];
         for (var i in towerData) {
             if (parseInt(i) > 0) {
                 i = towerData[i];
-                returnHero["attack"] += (i["attack"] ? i["attack"] : 0);
-                returnHero["defence"] += (i["defence"] ? i["defence"] : 0);
-                returnHero["hp"] += (i["hp"] ? i["hp"] : 0);
-                returnHero["spirit"] += (i["spirit"] ? i["spirit"] : 0);
+                returnHero["attack"] += (i["attack"] ? i["attack"] : 0) * defaultHero["attack"];
+                returnHero["defence"] += (i["defence"] ? i["defence"] : 0) * defaultHero["defence"];
+                returnHero["hp"] += (i["hp"] ? i["hp"] : 0) * defaultHero["hp"];
+                returnHero["spirit"] += (i["spirit"] ? i["spirit"] : 0) * defaultHero["spirit"];
             }
         }
     };
     var bufferAdd = function (formationId) {
         var returnHero = returnData[formationId];
-        returnHero["attack"] += (bufferData["attack"] ? bufferData["attack"] : 0);
-        returnHero["defence"] += (bufferData["defence"] ? bufferData["defence"] : 0);
-        returnHero["hp"] += (bufferData["hp"] ? bufferData["hp"] : 0);
-        returnHero["spirit"] += (bufferData["spirit"] ? bufferData["spirit"] : 0);
+        var defaultHero = defaultHeroFormation[formationId];
+        returnHero["attack"] += (bufferData["attack"] ? bufferData["attack"] : 0) * defaultHero["attack"];
+        returnHero["defence"] += (bufferData["defence"] ? bufferData["defence"] : 0) * defaultHero["defence"];
+        returnHero["hp"] += (bufferData["hp"] ? bufferData["hp"] : 0) * defaultHero["hp"];
+        returnHero["spirit"] += (bufferData["spirit"] ? bufferData["spirit"] : 0) * defaultHero["spirit"];
     };
     async.series([
         function(callBack){//取七星阵队伍
