@@ -303,6 +303,23 @@ function refreshTowerBonus(userUid, leagueUid, key, callbackFn) {
     var resourceNow;
     var needRefresh = false;
     async.series([function (cb) {
+        getConfig(userUid, function (err, res) {
+            if (err) {
+                cb(err);
+            } else {
+                if (res != null) {
+                    var sTime = res[0];
+                    if (sTime + 86400 * 5.8 < jutil.now()) {
+                        cb("skip");// reach deedLine
+                    } else {
+                        cb();
+                    }
+                } else {
+                    cb("configError");
+                }
+            }
+        });
+    }, function (cb) {
         getTeamActivated(userUid, leagueUid, 0, key, function (err, res) {
             tower = res;
             cb(err);
@@ -332,7 +349,8 @@ function refreshTowerBonus(userUid, leagueUid, key, callbackFn) {
             cb(); // no need update
         }
     }], function (err, res) {
-        callbackFn(err == "NULL" ? null : err);
+        console.log("refresh Tower Bonus", err, res);
+        callbackFn();
     });
 }
 
@@ -1246,6 +1264,23 @@ function refreshManorBonus(userUid, index, key, callbackFn) {
     var configData = configManager.createConfig(userUid);
     var resourcesCraft = configData.getConfig("resourcesCraft");
     async.series([function (cb) {
+        getConfig(userUid, function (err, res) {
+            if (err) {
+                cb(err);
+            } else {
+                if (res != null) {
+                    var sTime = res[0];
+                    if (sTime + 86400 * 5.8 < jutil.now()) {
+                        cb("skip");// reach deedLine
+                    } else {
+                        cb();
+                    }
+                } else {
+                    cb("configError");
+                }
+            }
+        });
+    }, function (cb) {
         getManor(userUid, index, key, function (err, res) {
             manor = res;
             cb(err);
