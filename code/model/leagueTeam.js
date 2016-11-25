@@ -1261,8 +1261,11 @@ function refreshManorBonusAll(userUid, len, key, callbackFn) {
 function refreshManorBonus(userUid, index, key, callbackFn) {
     var manor;
     var scoreAdd = 0;
+    var resourceNow = 0;
+    var resourceAdd = 0;
     var configData = configManager.createConfig(userUid);
     var resourcesCraft = configData.getConfig("resourcesCraft");
+    var currentConfig;
     async.series([function (cb) {
         getConfig(userUid, function (err, res) {
             if (err) {
@@ -1273,6 +1276,7 @@ function refreshManorBonus(userUid, index, key, callbackFn) {
                     if (sTime + 86400 * 5.8 < jutil.now()) {
                         cb("skip");// reach deedLine
                     } else {
+                        currentConfig = res[2];
                         cb();
                     }
                 } else {
@@ -1290,7 +1294,8 @@ function refreshManorBonus(userUid, index, key, callbackFn) {
             var lastBonusTime = manor["lastBonusTime"];
             var multiplex = (jutil.now() - lastBonusTime) / 600;
             if (multiplex > 1) {
-                scoreAdd = multiplex * resourcesCraft["starProduce"];
+                resourceAdd = multiplex * resourcesCraft["starProduce"];
+                scoreAdd = multiplex * currentConfig["manorScore"];
                 cb();
             } else {
                 cb("skip"); // skip due to less than 1
@@ -1301,6 +1306,13 @@ function refreshManorBonus(userUid, index, key, callbackFn) {
     }, function (cb) {
         manor["lastBonusTime"] = jutil.now();
         setManor(userUid, index, manor, key, cb);
+    }, function (cb) {
+        getTeamResource(userUid, manor["leagueUid"], key, function (err, res) {
+            resourceNow = res;
+            cb(err);
+        });
+    }, function (cb) {
+        setTeamResource(userUid, manor["leagueUid"], parseInt(resourceNow) + parseInt(resourceAdd), key, cb);
     }, function (cb) {
         async.eachSeries(manor["owner"], function (user, uCb) {
             var scoreNow = 0;
