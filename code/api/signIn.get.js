@@ -13,11 +13,9 @@ exports.start = function(postData, response, query) {
     var userUid = query["userUid"];
     var signInData = null; // 签到数据
     var gRes = {};
-
     var F_DAY_MASK = 0; // 以前
     var T_DAY_MASK = 1; // 今天
     var B_DAY_MASK = 2; // 以后
-
     async.series([
         function(cb) { // 获取数据
             signInMod.getData(userUid, function(err, res){
@@ -32,11 +30,8 @@ exports.start = function(postData, response, query) {
             var date = new Date(jutil.now() * 1000);
             var curMonth = date.getMonth() + 1;
             var curDate = date.getDate();
-
             gRes["month"] = curMonth; // 当前月份，用于前端选择配置
-
             var attrMap = {};
-
             var monthConfig = signInData["monthConfig"];
             var signInCount = signInData["signInCount"];
             var getMask = signInData["getMask"]; // getMask < 2 表示今天有可能可以领取，等于2表示已经领取
@@ -46,11 +41,11 @@ exports.start = function(postData, response, query) {
             for (var key in monthConfig) {
                 if (monthConfig.hasOwnProperty(key)) {
                     var nKey = key - 0;
-                    if (nKey < signInCount) {
+                    if (nKey < curDate) {
                         attrMap[key] = {
                             "dayMask" : F_DAY_MASK
                         };
-                    } else if (nKey == signInCount) {
+                    } else if (nKey == curDate) {
                         if (getMask == 0) {
                             attrMap[key] = {
                                 "dayMask" : F_DAY_MASK
@@ -63,7 +58,7 @@ exports.start = function(postData, response, query) {
                             tKey = key;
                         }
                     } else {
-                        if (nKey != (signInCount + 1)) {
+                        if (nKey != (curDate + 1)) {
                             attrMap[key] = {
                                 "dayMask" : B_DAY_MASK
                             };
@@ -100,7 +95,6 @@ exports.start = function(postData, response, query) {
                     }
                 }
             }
-
             gRes["attrMap"] = attrMap;
             gRes["signInCount"] = signInCount;
             cb(null);

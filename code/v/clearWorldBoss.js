@@ -2,7 +2,6 @@
  * Created by xiazhengxin on 2015/10/10 18:55.
  */
 
-var platformConfig = require("../../config/platform");
 var jutil = require("../utils/jutil");
 var async = require("async");
 var redis = require("../../code/alien/db/redis");
@@ -11,7 +10,7 @@ function start(postData, response, query) {
     var countryList = ['i'];
     async.forEachSeries(countryList, function (country, forCb) {
         console.log(country, 'start');
-        var serverList = require("../config/" + country + "_server.json")["serverList"];
+        var serverList = require("../../config/" + country + "_server.json")["serverList"];
         var cityList = [];
         for (var city in serverList) {
             cityList.push(city);

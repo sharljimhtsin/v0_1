@@ -21,6 +21,9 @@ exports.start = function(postData, response, query) {
     var rwCnt = null;
     var signInData = null;
     var canDouble = false;
+    var date = new Date(jutil.now() * 1000);
+    var curMonth = date.getMonth() + 1;
+    var curDate = date.getDate();
 
     async.series([
         function(cb) { // 获取数据
@@ -40,12 +43,12 @@ exports.start = function(postData, response, query) {
             var newVipLv = signInData["newVipLv"];
 
             if (getMask == 0) { // 今天没领过，可以领取
-                rwCfg = monthConfig[signInCount + 1];
+                rwCfg = monthConfig[curDate];
                 canDouble = true;
                 cb(null);
                 return;
             } else if (getMask == 1) { // 今天领过，判断VIP双倍
-                var todayRwCfg = monthConfig[signInCount];
+                var todayRwCfg = monthConfig[curDate];
                 if (todayRwCfg["isDouble"] == 1) {
                     var dVipLv = todayRwCfg["doubleVip"];
                     if (oldVipLv < dVipLv && newVipLv >= dVipLv) {
@@ -55,14 +58,9 @@ exports.start = function(postData, response, query) {
                     }
                 }
             }
-
             cb("alreadyGet");
         },
         function(cb) { // 更新数据
-            var date = new Date(jutil.now() * 1000);
-            var curMonth = date.getMonth() + 1;
-            var curDate = date.getDate();
-
             var oldVipLv = signInData["oldVipLv"];
             var newVipLv = signInData["newVipLv"];
             var signInCount = signInData["signInCount"];
@@ -89,13 +87,7 @@ exports.start = function(postData, response, query) {
             } else { // 已经领过了，现在领取VIP双倍
                 getMask = 2;
             }
-
-            signInMod.updateData(userUid, curMonth, curDate, signInCount, getMask, newVipLv, function(err, res){
-                if (err) cb(err);
-                else {
-                    cb(null);
-                }
-            });
+            signInMod.updateData(userUid, curMonth, curDate, signInCount, getMask, newVipLv, cb);
         },
         function(cb) { // 发放奖励
             __rwHandler(userUid, rwId, rwCnt, function(err, res){

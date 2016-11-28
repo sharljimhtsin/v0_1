@@ -164,7 +164,7 @@ function start(postData, response, query) {
             async.forEachSeries(material, function(itm, callback) {
                 if (itm["need"] > 0) {
                     item.updateItem(userUid, itm["id"], 0-itm["need"], function (err, res) {
-                        mongoStats.expendStats( itm["id"], userUid, "127.0.0.1", null, mongoStats.E_PATCH_COMPOSE, 1);
+                        mongoStats.expendStats(itm["id"], userUid, "127.0.0.1", null, mongoStats.E_PATCH_COMPOSE, itm["need"]);
                         patchItem.push(res);
                         callback(err, null);
                     });

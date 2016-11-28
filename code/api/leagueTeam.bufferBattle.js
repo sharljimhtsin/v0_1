@@ -20,6 +20,7 @@ function start(postData, response, query) {
     var index = postData["index"];
     var leagueUid = "";
     var sTime = 0;
+    var seconds;
     var key;
     var buffer;
     var userData = {};
@@ -33,6 +34,7 @@ function start(postData, response, query) {
                 if (res != null) {
                     sTime = res[0];
                     key = res[2]["key"];
+                    seconds = res[2]["bufferExpire"];
                     if (sTime >= jutil.now() || sTime + 86400 * 4.8 >= jutil.now() || jutil.now() >= sTime + 86400 * 5.8) {
                         cb("timeNotMatch");
                     } else {
@@ -130,7 +132,7 @@ function start(postData, response, query) {
             battleCb();
         }], function (err, res) {
             if (isWin) {
-                lt.changeBufferOwner(userUid, leagueUid, battleResult, index, key, cb);
+                lt.changeBufferOwner(userUid, leagueUid, battleResult, seconds, index, key, cb);
             } else {
                 lt.unlockBuffer(userUid, index, key, cb);
             }

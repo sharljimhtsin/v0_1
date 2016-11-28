@@ -163,7 +163,7 @@ function getTeamFreezing(userUid, leagueUid, key, callbackFn) {
     });
 }
 
-function setTeamBuff(userUid, leagueUid, bufferId, key, callbackFn) {
+function setTeamBuff(userUid, leagueUid, seconds, bufferId, key, callbackFn) {
     var nowData;
     async.series([function (cb) {
         checkLeaderJoin(userUid, leagueUid, key, function (err, res) {
@@ -177,7 +177,7 @@ function setTeamBuff(userUid, leagueUid, bufferId, key, callbackFn) {
             cb("dataError");
         }
     }, function (cb) {
-        var buffObj = {"id": bufferId, "TTL": jutil.now() + 3600};
+        var buffObj = {"id": bufferId, "TTL": jutil.now() + seconds};
         nowData["buff"] = buffObj;
         redis.loginFromUserUid(userUid).h(getRedisKey(TAG, "Join", "", key)).setJSON(leagueUid, nowData, cb);
     }], callbackFn);
@@ -993,7 +993,7 @@ function unlockBuffer(userUid, index, key, callbackFn) {
     }], callbackFn);
 }
 
-function changeBufferOwner(userUid, leagueUid, roundData, index, key, callbackFn) {
+function changeBufferOwner(userUid, leagueUid, roundData, seconds, index, key, callbackFn) {
     var buffer;
     var leagueData;
     async.series([function (changeCb) {
@@ -1019,7 +1019,7 @@ function changeBufferOwner(userUid, leagueUid, roundData, index, key, callbackFn
             changeCb("dataError");
         }
     }, function (changeCb) {
-        setTeamBuff(userUid, leagueUid, index, key, changeCb);
+        setTeamBuff(userUid, leagueUid, seconds, index, key, changeCb);
     }], callbackFn);
 }
 
