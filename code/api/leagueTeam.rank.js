@@ -63,6 +63,55 @@ function start(postData, response, query) {
             returnData["rankList"] = res;
             cb(err);
         });
+    }, function (cb) {
+        async.eachSeries(returnData["rankList"], function (lg, rankCb) {
+            var userList = [];
+            async.series([function (memberCb) {
+                lt.getTeamRewardStatus(userUid, lg["leagueUid"], key, function (err, res) {
+                    if (res && res == 1) {
+                        memberCb("SKIP");
+                    } else {
+                        memberCb(err);
+                    }
+                });
+            }, function (memberCb) {
+                league.getMembers(lg["userUid"], lg["leagueUid"], function (err, res) {
+                    userList = res;
+                    memberCb(err);
+                });
+            }, function (memberCb) {
+                async.eachSeries(Object.keys(userList), function (userId, userCb) {
+                    async.eachSeries(lg["reward"], function (reward, rewardCb) {
+                        var score = 0;
+                        async.series([function (innerCb) {
+                            lt.checkMemberJoin(userId, lg["leagueUid"], key, function (err, res) {
+                                if (res) {
+                                    innerCb(err);
+                                } else if (err) {
+                                    innerCb(err);
+                                } else {
+                                    lt.memberJoin(userId, lg["leagueUid"], key, innerCb);
+                                }
+                            });
+                        }, function (innerCb) {
+                            lt.getScore(userId, lg["leagueUid"], key, function (err, res) {
+                                score = res;
+                                innerCb(err);
+                            });
+                        }, function (innerCb) {
+                            lt.modifyScore(userId, lg["leagueUid"], parseInt(score) + parseInt(reward["count"]), key, innerCb);
+                        }], rewardCb);
+                    }, userCb);
+                }, memberCb);
+            }, function (memberCb) {
+                lt.setTeamRewardStatus(userUid, lg["leagueUid"], 1, key, memberCb);
+            }], function (err, res) {
+                rankCb(err == "SKIP" ? null : err, res);
+            });
+        }, function (err, res) {
+            console.log("SEND RANK REWARD", err, res);
+            cb();
+        });
     }], function (err) {
         if (err) {
             response.echo(TAG, jutil.errorInfo(err));

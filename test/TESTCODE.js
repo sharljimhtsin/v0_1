@@ -237,6 +237,11 @@ var bList = {
  }
 };
 
+var date = new Date(jutil.now() * 1000);
+var curMonth = date.getMonth() + 1;
+var curDate = date.getDate();
+console.log(curMonth,curDate);
+
 for (var a in aList) {
  for (var b in bList) {
   if (bList[b]["heroUid"] == aList[a]["heroUid"]) {
@@ -250,7 +255,7 @@ var fs = require('fs');
 require("../code/alien/log/console");
 console.log(fs.existsSync("./../../../script.md"));
 console.log(fs.existsSync("_cron"));
-console.log(b,jutil.day(),bitUtil.parseUserUid("39946551327"));
+console.log(b,jutil.day(),bitUtil.parseUserUid("78081163352  "));
 return;
 var aaaa = {"a":"b"};
 console.log(aaaa);

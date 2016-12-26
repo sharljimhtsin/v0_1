@@ -18,6 +18,9 @@
 		"gemComposeReward":"",
 		"finalRewardStr":"Finale Belohnungen",
 		"rankRewardStr":"Rang-Belohnungen",
-		"vipClubRewardStr":"VIP Club-Belohnungen"
+		"vipClubRewardStr":"Vip Club Belohnung",
+		"bejeweledRankReward":"Gratulieren!!!! Sie sind im Rang gewesen. Hier ist die Belohnung. Bitte klicken Sie  【Abholen】,um die Belohnung zu erhalten.",
+		"quarterCardReward":"Sie haben die Saisonkarte nicht abgeholt, bitte prüfen Sie.",
+		"quarterCardRewardForVip":"Gratulieren!!! Sie haben die Vip Belohnung der Saisonkarte erhalten. Bitte klicken Sie【Abholen】,um die Belohnung zu erhalten."
 	}
 }

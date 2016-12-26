@@ -163,5 +163,7 @@
 	"noRewardToGet":"没有可以领取的奖励",
 	"quarterCardReward":"您本次季卡未領取，還請您注意查收。",
 	"quarterCardRewardForVip":"恭喜您获得季卡vip奖励，请点击【领取】按钮领取奖励。",
-	"goldNotEnough":"索尼不足"
+	"goldNotEnough":"索尼不足",
+	"typeError":"相同类型的宝石只能装备一个",
+	"timeOver":"挑战次数已经用完"
 }

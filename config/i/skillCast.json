@@ -3483,7 +3483,7 @@
 		"114101":{
 			"ID":"114101",
 			"type":11,
-			"des":"",
+			"des":"Botamo has the ability to nullify damage against him, increasing his defence.",
 			"atlasShow":0,
 			"star":4,
 			"skillType":3,
@@ -3502,12 +3502,12 @@
 			"maxProb":0,
 			"probAdd":0,
 			"probIni":0,
-			"name":"终极守护"
+			"name":"Damage Nullification"
 		},
 		"114102":{
 			"ID":"114102",
 			"type":11,
-			"des":"",
+			"des":"Magetta possess powerful magma inside his body which he can spit out in streams. Magetta could increase the power of his Lava Spit by cooling the magma and solidifying it.",
 			"atlasShow":0,
 			"star":4,
 			"skillType":12,
@@ -3526,12 +3526,12 @@
 			"maxProb":0,
 			"probAdd":0,
 			"probIni":0,
-			"name":"溶液供给"
+			"name":"Lava Spit"
 		},
 		"114103":{
 			"ID":"114103",
 			"type":11,
-			"des":"在闪时的作用下，任何攻击都会是致命一击",
+			"des":"With Time-Skip,Hitto attcks his opponent's vital spots, allowing him to take down his opponents without much effort ",
 			"atlasShow":0,
 			"star":4,
 			"skillType":1,
@@ -3550,12 +3550,12 @@
 			"maxProb":40000,
 			"probAdd":8000,
 			"probIni":5000,
-			"name":"死亡莲华"
+			"name":"Vital Point Attack"
 		},
 		"114104":{
 			"ID":"114104",
 			"type":11,
-			"des":"使时间冻结零点几秒，大大提升赢取战斗的机会",
+			"des":"Hitto can manipulate time and stop it for a tenth of a second. In that time, he moves freely to block and counterattack, usually going for the vitals.",
 			"atlasShow":0,
 			"star":4,
 			"skillType":2,
@@ -3574,12 +3574,12 @@
 			"maxProb":0,
 			"probAdd":0,
 			"probIni":0,
-			"name":"闪时"
+			"name":"Time-Skip"
 		},
 		"114105":{
 			"ID":"114105",
 			"type":11,
-			"des":"可以让十二个宇宙在一瞬间全部消失，尘归尘，土归土，净化一切生灵",
+			"des":"the power to instantly wipe out anything in the blink of an eye.",
 			"atlasShow":0,
 			"star":4,
 			"skillType":1,
@@ -3598,12 +3598,12 @@
 			"maxProb":40000,
 			"probAdd":8000,
 			"probIni":5000,
-			"name":"净世之光"
+			"name":"Wipe Out"
 		},
 		"114106":{
 			"ID":"114106",
 			"type":11,
-			"des":"全王的愤怒光环，可以短时间内大大提升自身能力",
+			"des":"The angry halo of Zen-Oh, can boost his power instantly.",
 			"atlasShow":0,
 			"star":4,
 			"skillType":2,
@@ -3622,7 +3622,7 @@
 			"maxProb":0,
 			"probAdd":0,
 			"probIni":0,
-			"name":"全王之怒"
+			"name":"Zen-Oh's Angry"
 		},
 		"114107":{
 			"ID":"114107",

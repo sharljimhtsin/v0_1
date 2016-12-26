@@ -4835,8 +4835,8 @@
 		},
 		"104120":{
 			"ID":"104120",
-			"name":"波塔莫",
-			"des":"象帕挑选的第六宇宙最强战士之一",
+			"name":"Botamo",
+			"des":"He is chosen by Champa to be one of the five strongest fighters in Universe 6.",
 			"type":10,
 			"atlasShow":0,
 			"talentSkill":"114101",
@@ -4872,8 +4872,8 @@
 		},
 		"104121":{
 			"ID":"104121",
-			"name":"马盖塔",
-			"des":"象帕挑选的第六宇宙最强战士之一",
+			"name":"Magetta",
+			"des":"He is chosen by Champa to be one of the five strongest fighters in Universe 6.",
 			"type":10,
 			"atlasShow":0,
 			"talentSkill":"114102",
@@ -4909,8 +4909,8 @@
 		},
 		"104122":{
 			"ID":"104122",
-			"name":"希特",
-			"des":"第六宇宙不苟言笑的杀手，给人一种神秘的感觉。",
+			"name":"Hitto",
+			"des":"He is a quiet and mysterious killer in Universe 6",
 			"type":10,
 			"atlasShow":0,
 			"talentSkill":"114103",
@@ -4950,8 +4950,8 @@
 		},
 		"104123":{
 			"ID":"104123",
-			"name":"全王",
-			"des":"十二个宇宙的最高统治者，有权换掉破坏神,拥有毁天灭地的能力",
+			"name":"Zen-Oh",
+			"des":"Zen-Oh's attendant, he is powerful and he serves the Zen-Oh.",
 			"type":10,
 			"atlasShow":0,
 			"talentSkill":"114105",
@@ -4992,7 +4992,7 @@
 		"104124":{
 			"ID":"104124",
 			"name":"库莱萌",
-			"des":"全王的仆人，拥有极强的战斗能力，常年辅佐在全王的左右",
+			"des":"Zen-Oh's attendant, he is powerful and he serves the Zen-Oh.",
 			"type":10,
 			"atlasShow":0,
 			"talentSkill":"114106",

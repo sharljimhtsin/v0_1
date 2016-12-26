@@ -14,6 +14,7 @@ var league = require("../model/league");
 var user = require("../model/user");
 var battleModel = require("../model/battle");
 var title = require("../model/titleModel");
+var login = require("../model/login");
 var activityConfig = require("../model/activityConfig");
 var leagueDragon = require("../model/leagueDragon");
 var activityData = require("../model/activityData");
@@ -64,7 +65,13 @@ function setUserData(userUid, data, callbackFn) {
 
 // 會長報名
 function leaderJoin(userUid, leagueUid, key, callbackFn) {
-    var defaultData = {"contribution": 0, "resource": 0, "freezingTime": 0, "buff": {"id": 0, "TTL": 0}};
+    var defaultData = {
+        "contribution": 0,
+        "resource": 0,
+        "freezingTime": 0,
+        "buff": {"id": 0, "TTL": 0},
+        "rewardStatus": 0
+    };
     redis.loginFromUserUid(userUid).h(getRedisKey(TAG, "Join", "", key)).setJSON(leagueUid, defaultData, callbackFn);
 }
 
@@ -94,6 +101,31 @@ function setTeamContribution(userUid, leagueUid, point, key, callbackFn) {
 function getTeamContribution(userUid, leagueUid, key, callbackFn) {
     checkLeaderJoin(userUid, leagueUid, key, function (err, res) {
         callbackFn(err, res ? res["contribution"] : null);
+    });
+}
+
+function setTeamRewardStatus(userUid, leagueUid, rewardStatus, key, callbackFn) {
+    var nowData;
+    async.series([function (cb) {
+        checkLeaderJoin(userUid, leagueUid, key, function (err, res) {
+            nowData = res;
+            cb(err);
+        });
+    }, function (cb) {
+        if (nowData && nowData.hasOwnProperty("rewardStatus")) {
+            cb();
+        } else {
+            cb("dataError");
+        }
+    }, function (cb) {
+        nowData["rewardStatus"] = rewardStatus;
+        redis.loginFromUserUid(userUid).h(getRedisKey(TAG, "Join", "", key)).setJSON(leagueUid, nowData, cb);
+    }], callbackFn);
+}
+
+function getTeamRewardStatus(userUid, leagueUid, key, callbackFn) {
+    checkLeaderJoin(userUid, leagueUid, key, function (err, res) {
+        callbackFn(err, res ? res["rewardStatus"] : null);
     });
 }
 
@@ -1064,6 +1096,7 @@ function getManors(userUid, len, key, callbackFn) {//获取所有领地数据
 }
 
 function getManor(userUid, index, key, callbackFn) {//获取领地数据
+    index = index ? index : 1;//FIXME
     var configData = configManager.createConfig(userUid);
     var resourcesCraft = configData.getConfig("resourcesCraft");
     redis.loginFromUserUid(userUid).h(getRedisKey(TAG, "Manor", "", key)).getJSON(index, function (err, res) {
@@ -1469,10 +1502,32 @@ function getRank(userUid, leagueUid, key, callbackFn) {
         }
     });
 }
+
+function getLeague(country, leagueUid, callbackFn) {
+    var leagueData;
+    login.getServerCitys(country, 0, function (err, res) {
+        async.eachSeries(res, function (city, cityCb) {
+            var userUid = bitUtil.createUserUid(country, city, 1);
+            league.getLeague(userUid, leagueUid, function (err, res) {
+                if (err || res == null) {
+                    cityCb(err);
+                } else {
+                    leagueData = res;
+                    leagueData["userUid"] = userUid;
+                    cityCb("SKIP");
+                }
+            });
+        }, function (err) {
+            callbackFn(err == "SKIP" ? null : err, leagueData);
+        });
+    })
+}
+
 //排行榜
 function getRankList(userUid, currentConfig, key, callbackFn) {
     var rankList = [];
-    redis.loginFromUserUid(userUid).z(getRedisKey(TAG, "Rank", "", key)).revrange(0, 9, "WITHSCORES", function (err, res) {
+    var country = bitUtil.parseUserUid(userUid)[0];
+    redis.loginFromUserUid(userUid).z(getRedisKey(TAG, "Rank", "", key)).revrange(0, 19, "WITHSCORES", function (err, res) {
         if (res && res.length > 0) {
             var c = 0;
             var leagueUid;
@@ -1480,6 +1535,7 @@ function getRankList(userUid, currentConfig, key, callbackFn) {
             var leagueType;
             var leagueScore;
             var reward;
+            var userUid;
             async.eachSeries(res, function (item, rankCb) {
                 c++;
                 if (c % 2 == 0) {
@@ -1487,9 +1543,10 @@ function getRankList(userUid, currentConfig, key, callbackFn) {
                     var number = bitUtil.rightShift(item - 0, 24);
                     leagueScore = number;
                     async.series([function (selectCb) {
-                        league.getLeague(userUid, leagueUid, function (err, res) {
+                        getLeague(country, leagueUid, function (err, res) {
                             leagueName = res["leagueName"];
                             leagueType = res["type"];
+                            userUid = res["userUid"];
                             selectCb(err);
                         });
                     }, function (selectCb) {
@@ -1507,6 +1564,7 @@ function getRankList(userUid, currentConfig, key, callbackFn) {
                         rankList.push(jutil.deepCopy({
                             "top": top,
                             "leagueUid": leagueUid,
+                            "userUid": userUid,
                             "name": leagueName,
                             "resource": leagueScore,
                             "type": leagueType,
@@ -1586,3 +1644,5 @@ exports.setFightingManor = setFightingManor;
 exports.getFightingManor = getFightingManor;
 exports.setTargetManor = setTargetManor;
 exports.getTargetManor = getTargetManor;
+exports.getTeamRewardStatus = getTeamRewardStatus;
+exports.setTeamRewardStatus = setTeamRewardStatus;

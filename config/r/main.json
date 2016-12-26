@@ -275,7 +275,7 @@
 		"budokai_open":5,
 		"mixBuDoKai_open":5,
 		"gravity_open":20,
-		"gem_open":"notOpen",
+		"gem_open":21,
 		"difZone_open":10,
 		"residual_chapter":8,
 		"active_map2":7,

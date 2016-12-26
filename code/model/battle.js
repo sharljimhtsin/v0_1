@@ -28,6 +28,7 @@ var title = require("../model/titleModel");
 var gravity = require("../model/gravity");
 var leagueDragon = require("../model/leagueDragon");
 var bahamutWish = require("../model/bahamutWish");
+var noble = require("../model/noble");
 
 function getUserTeamDataByUserId(userUid,userData,listData,callBackFun){//listHero,listSkill,listEquip,listFormation,
     var configData = configManager.createConfig(userUid);
@@ -45,6 +46,7 @@ function getUserTeamDataByUserId(userUid,userData,listData,callBackFun){//listHe
     var starData = listData["starData"];
     var towerData = listData["towerData"];
     var bufferData = listData["bufferData"];
+    var nobleList = listData["nobleList"];
     var cardConfig = configData.getConfig("card");
     var mixConfig = configData.getConfig("mix");
     var mainConfig = configData.getConfig("main");
@@ -371,6 +373,18 @@ function getUserTeamDataByUserId(userUid,userData,listData,callBackFun){//listHe
         returnHero["defence"] += (bufferData["defence"] ? bufferData["defence"] : 0) * defaultHero["defence"];
         returnHero["hp"] += (bufferData["hp"] ? bufferData["hp"] : 0) * defaultHero["hp"];
         returnHero["spirit"] += (bufferData["spirit"] ? bufferData["spirit"] : 0) * defaultHero["spirit"];
+    };
+    var nobleAdd = function (formationId) {
+        var returnHero = returnData[formationId];
+        returnHero["attack"] += (nobleList["attack"] ? nobleList["attack"] : 0);
+        returnHero["defence"] += (nobleList["defence"] ? nobleList["defence"] : 0);
+        returnHero["hp"] += (nobleList["hp"] ? nobleList["hp"] : 0);
+        returnHero["spirit"] += (nobleList["spirit"] ? nobleList["spirit"] : 0);
+        returnHero["dodge"] += (nobleList["dodge"] ? nobleList["dodge"] : 0);
+        returnHero["crit"] += (nobleList["crit"] ? nobleList["crit"] : 0);
+        returnHero["hit"] += (nobleList["hit"] ? nobleList["hit"] : 0);
+        returnHero["preventBreak"] += (nobleList["preventBreak"] ? nobleList["preventBreak"] : 0);
+        returnHero["break"] += (nobleList["break"] ? nobleList["break"] : 0);
     };
     async.series([
         function(callBack){//取七星阵队伍
@@ -733,6 +747,13 @@ function getUserTeamDataByUserId(userUid,userData,listData,callBackFun){//listHe
                 }
             }
             callBack(null, null);
+        }, function (callBack) {
+            if (nobleList) {
+                for (var key in defaultHeroFormation) {
+                    nobleAdd(key);
+                }
+            }
+            callBack(null, null);
         }
     ], function (err, res) {
         if (err) {
@@ -799,10 +820,7 @@ function getBattleNeedData(userId,callback){
             });
         },
         function(callBack){
-            //var configData = configManager.createConfig(userId);
-            //var gravityConfig = configData.getConfig('gravityTrain');
             var gravityList = {};
-
             var baseV = ["hpp","attackp","defencep","spiritp"];
             gravity.getHeroList(userId, function(err, res){
                 for(var j in res){
@@ -811,13 +829,18 @@ function getBattleNeedData(userId,callback){
                         res[j][baseV[i]] = res[j][baseV[i]]/10000;
                     }
                     for(var i = 1; i < res[j]["bigVigour"]-0; i++){
-                        //if(gravityConfig["effect"][i]["isBuff"] == "1")
                         res[j]["gravityEffect"].push(i);
                     }
                     gravityList[res[j]["heroUid"]] = res[j];
                 }
                 returnData["gravityList"] = gravityList;
                 callBack(null, null);
+            });
+        },
+        function (callBack) {
+            noble.getAddition(userId, function (err, res) {
+                returnData["nobleList"] = res;
+                callBack();
             });
         }
     ],function(err,res){

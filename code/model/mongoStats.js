@@ -53,6 +53,8 @@ function expendStats(dropId, userUid, userIP, userInfo, statsId, count, level, t
 exports.dropStats = dropStats;
 exports.expendStats = expendStats;
 
+exports.E_HERO_REC = 111111; //购买道具
+
 //////////////元宝消耗类别
 exports.E_ITEM = 100001; //购买道具
 exports.E_PACK = 100002; //购买礼包
@@ -874,3 +876,16 @@ exports.E_INTEBATTLE9 = 4100009;//积分擂台赛金币消耗
 
 exports.PVPTOPCROSS1 = 4110002;//跨服竞技场购买次数金币消耗
 exports.PVPTOPCROSS2 = 4110001;//跨服竞技场排行奖励掉落
+
+exports.HERO_RECRUIT = 5000001;//跨服竞技场排行奖励掉落
+
+exports.NOBLE1 = 5010001;//爵位系统金币消耗
+exports.NOBLE2 = 5010002;//爵位系统索尼消耗
+exports.NOBLE3 = 5020001;//绝地反击索尼获得
+exports.NOBLE4 = 5020002;//绝地反击道具掉落
+exports.NOBLE5 = 5010003;//爵位系统道具消耗
+exports.NOBLE6 = 5020003;//绝地反击副本1参与次数
+exports.NOBLE7 = 5020004;//绝地反击副本2参与次数
+exports.NOBLE8 = 5020005;//绝地反击副本3参与次数
+exports.NOBLE9 = 5020006;//绝地反击副本4参与次数
+exports.NOBLE10 = 5020007;//绝地反击副本5参与次数

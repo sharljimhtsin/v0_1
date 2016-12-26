@@ -15226,7 +15226,7 @@
 			"ID":"161659",
 			"type":16,
 			"yuanType":"and",
-			"name":"随君出征",
+			"name":"Champa",
 			"value":"0.45",
 			"attrType":"defence",
 			"relationIds":[
@@ -15259,7 +15259,7 @@
 			"ID":"161662",
 			"type":16,
 			"yuanType":"and",
-			"name":"相辅相成",
+			"name":"Master Roshi（Muscle）",
 			"value":"0.7",
 			"attrType":"hp",
 			"relationIds":[
@@ -15270,7 +15270,7 @@
 			"ID":"161663",
 			"type":16,
 			"yuanType":"or",
-			"name":"黑色大衣",
+			"name":"Black Coat",
 			"value":"0.24",
 			"attrType":"defence",
 			"relationIds":[
@@ -15281,7 +15281,7 @@
 			"ID":"161664",
 			"type":16,
 			"yuanType":"or",
-			"name":"超人腰带",
+			"name":"Superman Belt",
 			"value":"0.23",
 			"attrType":"attack",
 			"relationIds":[
@@ -15292,7 +15292,7 @@
 			"ID":"161665",
 			"type":16,
 			"yuanType":"or",
-			"name":"黑色皮鞋",
+			"name":"Black Shoes",
 			"value":"0.26",
 			"attrType":"defence",
 			"relationIds":[
@@ -15303,7 +15303,7 @@
 			"ID":"161666",
 			"type":16,
 			"yuanType":"or",
-			"name":"闪时",
+			"name":"Time-Skip",
 			"value":"0.25",
 			"attrType":"attack",
 			"relationIds":[
@@ -15314,7 +15314,7 @@
 			"ID":"161667",
 			"type":16,
 			"yuanType":"and",
-			"name":"轻松制胜",
+			"name":"Easy Win",
 			"value":"0.26",
 			"attrType":"attack",
 			"relationIds":[
@@ -15326,7 +15326,7 @@
 			"ID":"161668",
 			"type":16,
 			"yuanType":"and",
-			"name":"随君出征",
+			"name":"Champa",
 			"value":"0.26",
 			"attrType":"defence",
 			"relationIds":[
@@ -15337,7 +15337,7 @@
 			"ID":"161669",
 			"type":16,
 			"yuanType":"or",
-			"name":"彩色服饰",
+			"name":"Colored Gear",
 			"value":"0.3",
 			"attrType":"defence",
 			"relationIds":[
@@ -15348,7 +15348,7 @@
 			"ID":"161670",
 			"type":16,
 			"yuanType":"or",
-			"name":"黄色袖套",
+			"name":"Yellow Sleeves",
 			"value":"0.25",
 			"attrType":"attack",
 			"relationIds":[
@@ -15359,7 +15359,7 @@
 			"ID":"161671",
 			"type":16,
 			"yuanType":"or",
-			"name":"彩色皮鞋",
+			"name":"Colored Shoes",
 			"value":"0.3",
 			"attrType":"defence",
 			"relationIds":[
@@ -15370,7 +15370,7 @@
 			"ID":"161672",
 			"type":16,
 			"yuanType":"or",
-			"name":"全王之怒",
+			"name":"Zen-Oh's Angry",
 			"value":"0.25",
 			"attrType":"attack",
 			"relationIds":[
@@ -15381,7 +15381,7 @@
 			"ID":"161673",
 			"type":16,
 			"yuanType":"and",
-			"name":"统治宇宙",
+			"name":"Ruling",
 			"value":"0.25",
 			"attrType":"attack",
 			"relationIds":[
@@ -15404,7 +15404,7 @@
 			"ID":"161675",
 			"type":16,
 			"yuanType":"and",
-			"name":"王的仆人",
+			"name":"Boss",
 			"value":"0.4",
 			"attrType":"attack",
 			"relationIds":[
@@ -15415,7 +15415,7 @@
 			"ID":"161676",
 			"type":16,
 			"yuanType":"and",
-			"name":"攻守兼备",
+			"name":"Expert",
 			"value":"0.37",
 			"attrType":"attack",
 			"relationIds":[
@@ -15426,7 +15426,7 @@
 			"ID":"161677",
 			"type":16,
 			"yuanType":"and",
-			"name":"如虎添翼",
+			"name":"Assitance",
 			"value":"0.33",
 			"attrType":"attack",
 			"relationIds":[

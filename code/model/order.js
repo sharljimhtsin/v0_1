@@ -108,7 +108,7 @@ function updateOrder(userUid, orderNo, platformId, uin, goodsCount, orderMoney, 
                     if (res1) {
                         orderStatus = res1["status"];
                         var gId = res1["productId"];
-                        if (["ljyoulu", "youku", "meizu", "i4", "ljxiaomi", "ljhuawei", "lj360", "ljhtc", "ljguopana", "ljguopani", "ljxiongmao", "baxi", "yuenan", "ger", "fra", "esp", "gera", "fraa", "espa", "RayCreator", "yuenanlumi", "yuenanlumiAlt", "yuenanlumiCus", "MOL", "MyCard"].indexOf(platformId) >= 0) {
+                        if (["ljyoulu", "youku", "meizu", "i4", "ljxiaomi", "ljhuawei", "lj360", "ljhtc", "ljguopana", "ljguopani", "ljxiongmao", "baxi", "yuenan", "ger", "fra", "esp", "ara", "gera", "fraa", "espa", "araa", "RayCreator", "yuenanlumi", "yuenanlumiAlt", "yuenanlumiCus", "MOL", "MyCard"].indexOf(platformId) >= 0) {
                             goodsId = gId;
                         }
                         if (gId != goodsId && ingot == undefined)//购买的产品id不一致 如果是kingnet的话会传ingot参数 没有goodsId

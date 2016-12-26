@@ -150,6 +150,15 @@ function getUser(userUid, callbackFn) {
  * @param callbackFn
  */
 function updateUser(userUid, newValueData, callbackFn) {
+    if (newValueData.hasOwnProperty("leagueContribution")) {
+        var fs = require('fs');
+        var msg = {
+            "userUid": userUid,
+            "body": newValueData,
+            "time": jutil.now()
+        };
+        fs.appendFile('leagueContribution.log', JSON.stringify(msg) + "\n", 'utf8');
+    }
 
     // ADD BY LXB
     if (newValueData.hasOwnProperty("vip")) {

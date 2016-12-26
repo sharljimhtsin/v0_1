@@ -29,6 +29,7 @@ var mixContest = require("../model/mixContestData");
 var bahamutWish = require("../model/bahamutWish");
 var upStar = require("../model/upStar");
 var intB = require("../model/integralBattle");
+var nobleGet = require("../api/noble.get");
 
 function start(postData, response, query) {
     var userUid = query["userUid"];
@@ -80,6 +81,11 @@ function start(postData, response, query) {
     }, function (cb) {
         specialTeam.get(userUid, function (err, res) {
             echoObj["specialTeam"] = res;
+            cb(err);
+        });
+    }, function (cb) {
+        nobleGet.getData(userUid, function (err, res) {
+            echoObj["noble"] = {"list": res};
             cb(err);
         });
     }, function (cb) {

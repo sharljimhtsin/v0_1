@@ -691,6 +691,13 @@ function getDailyReward(userUid, callbackFn) {
                             callbackFn(err);
                         } else {// 领取成功
                             redis.user(userUid).l(_getGSRedisKey("", "dailyReward")).del();
+                            var fs = require('fs');
+                            var msg = {
+                                "time": jutil.now(),
+                                "userUid": userUid,
+                                "checkDailyKey": checkDailyKey
+                            };
+                            fs.appendFile('tablet.log', JSON.stringify(msg) + "\n", 'utf8');
                             callbackFn(null, {"reward": forEachRes, "resultData": resultData});
                         }
                     });
@@ -888,6 +895,15 @@ function tabletsTaskDailyReward(country, callBackFn) {
                                         "reward": recDailyReward
                                     };
                                     redis.user(recUserUid).l(_getGSRedisKey("", "dailyReward")).rightPush(JSON.stringify(recRedisValue), function (err, res) {
+                                        var fs = require('fs');
+                                        var msg = {
+                                            "time": jutil.now(),
+                                            "recUserUid": recUserUid,
+                                            "err": err,
+                                            "res": res,
+                                            "recRedisValue": recRedisValue
+                                        };
+                                        fs.appendFile('tablet.log', JSON.stringify(msg) + "\n", 'utf8');
                                         if (jutil.now() >= activityEtime) {//活动结束后，奖励有效期为7天
                                             redis.user(recUserUid).l(_getGSRedisKey("", "dailyReward")).expire(604800);//保存7天
                                         }

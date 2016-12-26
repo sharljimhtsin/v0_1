@@ -15,6 +15,7 @@ var modelUtil = require("../model/modelUtil");
 var activityConfig = require("../model/activityConfig");
 var mongoStats = require("../model/mongoStats");
 var formation = require("../model/formation");
+var forgeData = require("../model/forgeData");
 
 function start(postData, response, query) {
     var userUid = query["userUid"];
@@ -85,32 +86,6 @@ function start(postData, response, query) {
                     }
                 });
             }, function (cb) {
-                var error = null;
-                var i, j;
-                var items = {};
-                for (i in itemList) {
-                    items[itemList[i]["id"]] = itemList[i]["count"];
-                }
-                for (i in itemList) {
-                    var itemId = itemList[i]["id"] + "";
-                    if (itemId.substr(0, 2) != 15 || itemId.substr(0, 2) != 10) {
-                        var itemUids = [];
-                        for (j in itemList[i]["id"]) {
-                            if (itemUids.indexOf(itemList[i]["id"][j]) != -1)continue;
-                            itemUids.push(itemList[i]["id"][j]);
-                            items[itemId]--;
-                        }
-                    } else {
-                        items[itemId] -= itemList[i]["count"];
-                    }
-                }
-                for (i in items) {
-                    if (items[i]["count"] > 0) {
-                        error = "postError";
-                    }
-                }
-                cb(error);
-            }, function (cb) {
                 smith.getUserData(userUid, sTime, function (err, res) {
                     if (err) {
                         cb(err);
@@ -178,9 +153,19 @@ function start(postData, response, query) {
                     }
                 });
             }, function (cb) {
-                smith.checkItem(userUid, itemList, cb);
+                forgeData.checkForgeElement(userUid, itemList, cb);
             }, function (cb) {
-                smith.processItem(userUid, itemList, cb);
+                var caoLinJian = [];
+                async.eachSeries(itemList, function (item, eCb) {
+                    forgeData.expendItem(userUid, item["id"], item["type"] ? item["type"] : "", item["count"], function (err, res) {
+                        res["count"] = res["number"];
+                        caoLinJian.push(res);
+                        eCb(err);
+                    });
+                }, function (err, res) {
+                    returnData["itemData"] = caoLinJian;
+                    cb(err);
+                });
             }, function (cb) {
                 userData["arg"][index]++;
                 smith.setUserData(userUid, userData, cb);

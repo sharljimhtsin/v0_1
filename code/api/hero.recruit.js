@@ -6,11 +6,12 @@
  */
 
 var jutil = require("../utils/jutil");
-//var configData = require("../model/configData");
 var configManager = require("../config/configManager");
 var heroSoul = require("../model/heroSoul");
 var hero = require("../model/hero");
 var gameModel = require("../model/gameModel");
+var mongoStats = require("../model/mongoStats");
+var stats = require("../model/stats");
 var user = require("../model/user");
 var item = require("../model/item");
 var async = require("async");
@@ -33,7 +34,7 @@ function start(postData, response, query) {
     var itemNum = 0;
     var configData = configManager.createConfig(userUid);
     var newHeroData;
-    var heroConfig = configData.getConfig("hero");//soulCount
+    var heroConfig = configData.getConfig("hero");
     var needSoulCount = (heroConfig[heroId] != null)?(heroConfig[heroId]["soulCount"]-0):99999;
     var soulCount = 0;
 
@@ -78,10 +79,13 @@ function start(postData, response, query) {
             }
         });
     }, function(cb){
-        heroSoul.addHeroSoul(userUid,heroId,-needSoulCount+itemNum,cb);//heroSoul.addHeroSoul
+        heroSoul.addHeroSoul(userUid,heroId,-needSoulCount+itemNum,cb);
     }, function(cb){
         if(itemNum > 0){
-            item.updateItem(userUid,itemId,-itemNum,cb);//heroSoul.addHeroSoul
+            item.updateItem(userUid, itemId, -itemNum, function (err, res) {
+                mongoStats.expendStats(itemId, userUid, "127.0.0.1", null, mongoStats.HERO_RECRUIT, itemNum);
+                cb(err);
+            });
         } else {
             cb(null);
         }
@@ -97,6 +101,7 @@ function start(postData, response, query) {
                         } else {
                             if (res == null) return;
                             gameModel.addNews(userUid, gameModel.HERO_RECRUIT, res["userName"], heroId, 0);
+                            stats.events(userUid, "127.0.0.1", res, mongoStats.E_HERO_REC, heroId, jutil.now());
                         }
                     });
                 }
@@ -104,7 +109,7 @@ function start(postData, response, query) {
                 newHeroData["soulCount"] = needSoulCount-itemNum;
                 cb(null);
             }
-        });//hero.addHero
+        });
     }], function(err, res){
         if(err){
             response.echo("hero.recruit", jutil.errorInfo(err));

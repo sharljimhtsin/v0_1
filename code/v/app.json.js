@@ -123,7 +123,7 @@ function start(postData, response, query) {
          103.242.168.71--WIFI网络
          */
         var gtIp = ["101.95.167.238", "180.168.107.74", "103.242.168.71", "210.65.163.107", "180.168.107.76", "180.168.133.34", "43.225.36.109"];
-        if (udid != null && whitelist.indexOf(udid) != -1 || gtIp.indexOf(ip) != -1) {
+        if ((udid != null && whitelist.indexOf(udid) != -1) || gtIp.indexOf(ip) != -1) {
             pName = p + "_test";
             isTest = true;
         } else {

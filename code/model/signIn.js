@@ -15,10 +15,6 @@ exports = module.exports = new function(){
     var VAR_KEY = "signInKey";
     var VA_KEY_2 = "signInVIP";
 
-    var date = new Date(jutil.now() * 1000);
-    var curMonth = date.getMonth() + 1;
-    var curDate = date.getDate();
-
     /* ------------------------------------------------------------------------ */
 
     function getMonth(number) {
@@ -87,6 +83,9 @@ exports = module.exports = new function(){
                 });
             },
             function(cb) { // 获取本月奖励配置
+                var date = new Date(jutil.now() * 1000);
+                var curMonth = date.getMonth() + 1;
+                var curDate = date.getDate();
                 var configMgr = configManager.createConfig(userUid);
                 var signConfig = configMgr.getConfig("signIn") || {};
                 gRes["monthConfig"] = signConfig[curMonth] || {};
@@ -164,7 +163,7 @@ exports = module.exports = new function(){
                 if (getMask == 0) {
                     canGetNum = 1;
                 } else if (getMask == 1) {
-                    var todayRwCfg = monthConfig[curDate];
+                    var todayRwCfg = monthConfig[signInCount];
                     if (todayRwCfg["isDouble"] == 1) {
                         var dVipLv = todayRwCfg["doubleVip"];
                         if (oldVipLv < dVipLv && newVipLv >= dVipLv) {

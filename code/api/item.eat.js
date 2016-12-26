@@ -151,6 +151,21 @@ function start(postData, response, query) {
                             }
                         });
                         break;
+                    case 61:
+                        user.getUserDataFiled(userUid, "momentum", function (err, res) {
+                            if (err) {
+                                next(err);
+                            } else {
+                                if (res == null) {
+                                    var newValue = addValue;
+                                } else {
+                                    var newValue = addValue + parseInt(res);
+                                }
+                                resultUserData = {"momentum": newValue};
+                                user.updateUser(userUid, resultUserData, next);
+                            }
+                        });
+                        break;
                     default :
                         next("typeError");
                         break;

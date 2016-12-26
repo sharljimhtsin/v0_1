@@ -20,15 +20,11 @@ function start(postData, response, query, authorize) {
         response.echo("user.modify", jutil.errorInfo("postError"));
         return;
     }
-    admin.addOneOperationLog("userInfo",query,postData);
+    admin.addOneOperationLog("userInfo", query, postData);
     var userUid = postData["userUid"];
     var userData = postData["userData"];
     var mCountry = query["country"];
-
-//    if (mCountry != "a" && mCountry != "b") {
-//        response.echo("user.modify", {"ERROR":"不允许更改"});
-//        return;
-//    }
+    delete userData["momentum"];
     user.updateUser(userUid, userData, function(err, res) {
         if (err) response.echo("user.modify", {"ERROR":"用户数据更改出错"});
         else {

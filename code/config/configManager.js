@@ -42,6 +42,9 @@ Config.prototype.getConfigLanguage = function (name, userUid, callBackFun) {
                     case "esp":
                         name = "achievement_esp";
                         break;
+                    case "ara":
+                        name = "achievement_ara";
+                        break;
                     default:
                         name = "achievement";
                         break;

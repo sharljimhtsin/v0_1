@@ -60,6 +60,15 @@ exports.start = function(postData, response, query){
                 configItem["name"] = configItem["name"+language] == undefined?configItem["name"]:configItem["name"+language];
                 configItem["desc"] = configItem["desc"+language] == undefined?configItem["desc"]:configItem["desc"+language];
 
+                configItem["nameara"] = configItem["name"];
+                configItem["descara"] = configItem["desc"];
+                configItem["nameesp"] = configItem["name"];
+                configItem["descesp"] = configItem["desc"];
+                configItem["nameger"] = configItem["name"];
+                configItem["descger"] = configItem["desc"];
+                configItem["namefra"] = configItem["name"];
+                configItem["descfra"] = configItem["desc"];
+
                 switch (configItem["type"]) {
                     case "equipDefineAny":
                     case "equipDefineSpecify":

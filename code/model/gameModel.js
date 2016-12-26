@@ -7,11 +7,6 @@
 
 var redis = require("../alien/db/redis");
 
-
-
-
-
-
 /**
  * 添加滚动信息项
  * @param newsId 信息项ID
@@ -26,7 +21,6 @@ function addNews(userUid, newsId, userName, propsId, value) {
     obj["ID"] = propsId;
     obj["value"] = value || 0;
     var objStr = JSON.stringify(obj);
-
     redis.domain(userUid).l("news").leftPush(objStr, function(err, res) {
         if ( res != null && res > 30) {
             redis.domain(userUid).l("news").trim(0, 30);
@@ -48,17 +42,11 @@ function getNews(userUid, callbackFn) {
     });
 }
 
-
-
-
 exports.EQUIP_UPGRADE = 1; //装备强化
 exports.SKILL_UPGRADE = 2;//技能强化
 exports.SUMMON = 5;
 exports.BOX = 6;
 exports.HERO_RECRUIT = 8; //魂魄转生
 exports.HERO_BREAK = 12;//突破
-
-
-
 exports.addNews = addNews;
 exports.getNews = getNews;

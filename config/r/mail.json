@@ -18,9 +18,9 @@
 		"gemComposeReward":"",
 		"finalRewardStr":"Bonus Final",
 		"rankRewardStr":"Bonus de Rango",
-		"vipClubRewardStr":"Bonus de Club VIP",
-		"bejeweledRankReward":"恭喜您进入排行榜，特发排行奖励，请点击【领取】按钮领取奖励。",
-		"quarterCardReward":"您本次季卡未领取，还请您注意查收。",
-		"quarterCardRewardForVip":"恭喜您获得季卡vip奖励，请点击【领取】按钮领取奖励。"
+		"vipClubRewardStr":"Recompensas del Club VIP",
+		"bejeweledRankReward":"Felicidades! Habeis entrado en el rango, haz click en【Recibir】para obetener las recompensas.",
+		"quarterCardReward":"No ha recibido las recompensas de la tarjeta Vip de este trimestre, por favor compruebelo.",
+		"quarterCardRewardForVip":"Felicidades! Ha recibido las recompensas de tu tarjeta Vip de este trimestre, haga click en el botón para recibirlas."
 	}
 }

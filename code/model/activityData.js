@@ -76,6 +76,10 @@ exports.LEAGUETEAM = 62;//联盟战-leagueTeam
 exports.INTEGRALBATTLE = 63;//擂台积分赛
 exports.UPSTAR = 64;//升星
 exports.PVPTOPCROSS = 65;//跨服激戰
+exports.DAILY_SIGNIN = 66;//跨服激戰
+exports.NOBLE = 67;//跨服激戰
+exports.NOBLE_MAP = 68;//跨服激戰
+
 
 /**
  * 取活动的数据, 返回格式

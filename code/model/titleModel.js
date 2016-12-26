@@ -1805,40 +1805,44 @@ function __checkCosmosBossRankTitles(userUid, titleCfg, ids, ids2, rank, callbac
  */
 function getTitlesPoint(userUid, callbackFn) {
     var point = 0;
-    redis.user(userUid).s("titleGetPoints").getObj(function (err, res) {
-        //res = null;
-        if (err) {
-            callbackFn(point);
-        } else {
-            if (res != null) {
-                point = res;
-                callbackFn(point)
+    async.series([function (cb) {
+        redis.user(userUid).s("titleGetPoints").getObj(function (err, res) {
+            if (err) {
+                cb();
             } else {
-                // 计算
-                getAllTitle(userUid, function(err, res){
-                    if (err || res == null) {
-                        callbackFn(point);
-                    } else {
-                        var configData = configManager.createConfig(userUid);
-                        var titleCfg = configData.getConfig("title");
-
-                        for (var key in res) {
-                            if (res.hasOwnProperty(key)) {
-                                var sTitleInfo = res[key];
-                                point += __getTitlePoint(res, sTitleInfo, titleCfg);
+                if (res != null) {
+                    point = res;
+                    cb()
+                } else {
+                    // 计算
+                    getAllTitle(userUid, function (err, res) {
+                        if (err || res == null) {
+                            cb();
+                        } else {
+                            var configData = configManager.createConfig(userUid);
+                            var titleCfg = configData.getConfig("title");
+                            for (var key in res) {
+                                if (res.hasOwnProperty(key)) {
+                                    var sTitleInfo = res[key];
+                                    point += __getTitlePoint(res, sTitleInfo, titleCfg);
+                                }
                             }
+                            // 保存
+                            redis.user(userUid).s("titleGetPoints").setObjex(86400, point, function (err, res) {
+                                cb();
+                            });
                         }
-
-                        var titleArr = res;
-
-                        // 保存
-                        redis.user(userUid).s("titleGetPoints").setObjex(86400, point, function (err, res) {
-                            callbackFn(point);
-                        });
-                    }
-                });
+                    });
+                }
             }
-        }
+        });
+    }, function (cb) {
+        user.getUserDataFiled(userUid, "momentum", function (err, res) {
+            point += parseInt(res);
+            cb();
+        });
+    }], function (err, res) {
+        callbackFn(point);
     });
 }
 

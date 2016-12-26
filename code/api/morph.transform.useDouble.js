@@ -47,8 +47,8 @@ function start(postData, response, query) {
             if (err) {
                 cb(err);
             } else {
-                if (res == null) {
-                    cb(null);
+                if (res == null || res["totalTime"] == null || res["startTime"] == null) {
+                    cb();
                 } else {
                     if (res["totalTime"] < jutil.now() - res["startTime"]) {
                         isAppend = false;
@@ -85,7 +85,7 @@ function start(postData, response, query) {
                 items = {
                     "id": res["id"],
                     "coolTime": res["totalTime"] - (jutil.now() - res["startTime"])
-                }
+                };
                 cb();
             }
         });

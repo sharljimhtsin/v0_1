@@ -138,7 +138,7 @@ function UserInfo() {
                         {fieldLabel: "精力倒计时", name: "lastRecoverPvpPower", xtype: 'hidden'},
                         {fieldLabel: "VIP", name: "vip", xtype: 'numberfield'},
                         {fieldLabel: "累计充值", name: "cumulativePay", xtype: 'numberfield'},
-                        {fieldLabel: "势", name: "momentum", xtype: 'numberfield'},
+                        {fieldLabel: "先手值", name: "momentum", xtype: 'numberfield'},
                         {fieldLabel: "服", name: "city", disabled: true}
                     ]
                 }
@@ -253,7 +253,7 @@ function UserInfo() {
             {text: LipiUtil.t("精力"), dataIndex: "pvpPower", flex: 0.2},
             {text: LipiUtil.t("VIP"), dataIndex: "vip", flex: 0.2},
             {text: LipiUtil.t("累充"), dataIndex: "cumulativePay", flex: 0.3},
-            {text: LipiUtil.t("势"), dataIndex: "momentum", flex: 0.2},
+            {text: LipiUtil.t("先手值"), dataIndex: "momentum", flex: 0.2},
             {text: LipiUtil.t("服"), dataIndex: "city", flex: 0.2},
             {xtype:"actioncolumn","text":LipiUtil.t("功能"),align:"center",flex: 0.8,items:[
                 {    //攻能：1.修改基本信息

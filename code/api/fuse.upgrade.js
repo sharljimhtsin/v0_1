@@ -40,7 +40,6 @@ function start(postData, response, query) {
     var heroSoulList = postData["heroSoulList"];
     var heroList = postData["heroList"];
     var soulType = postData["type"];
-    var mixConifg = configData.getConfig("mix");
     var mixExpGiveConfig = configData.getConfig("mixExpGive");
     var mixNeedExpConfig = configData.getConfig("mixNeedExp");
     var heroConfig = configData.getConfig("hero");
@@ -196,7 +195,7 @@ function start(postData, response, query) {
                     fuseData[expField] = currentFuseExp;
                     fuseData[levelField] = fuseExpToLevel(mixNeedExpConfig, currentFuseExp, currentFuseLel);
                     resultFuseData = fuseData;
-                    if (fuseData[levelField] > gUserLevel + 1) { //超过用户最高等级
+                    if (fuseData[levelField] > gUserLevel + 1 || fuseData[levelField] == -1) { //超过用户最高等级
                         cb("levelOverflow");
                     } else {
                         fuse.updateFuse(userUid,fuseData,function(err,res) {
@@ -265,12 +264,14 @@ function getDefaultFuseData(userUid) {
 }
 
 function fuseExpToLevel(config, exp, lel) {
-    for (var i = 0; i < 999; i++) {
+    var lastLevel = -1;
+    for (var i = 0; i <= 150; i++) {
         var itemValue = config[i];
         if (itemValue == null) return lel;
         if (exp < itemValue) return i;
+        //lastLevel = i;
     }
-    return lel;
+    return lastLevel;
 }
 
 

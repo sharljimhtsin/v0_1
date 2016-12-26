@@ -163,5 +163,7 @@
 	"noRewardToGet":"沒有可以領取的獎勵",
 	"quarterCardReward":"您本次季卡未領取，還請您注意查收。",
 	"quarterCardRewardForVip":"恭喜您獲得季卡vip獎勵，請點擊【領取】按鈕領取獎勵。",
-	"goldNotEnough":"索尼不足"
+	"goldNotEnough":"索尼不足",
+	"typeError":"相同類型的寶石只能裝備一個",
+	"timeOver":"挑戰次數已經用完"
 }

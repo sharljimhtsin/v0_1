@@ -194,7 +194,7 @@ function getMembers(userUid,leagueUid,callbackFn){
  * @param callbackFn
  */
 function getMember(userUid,leagueUid,memberUserUid,callbackFn){
-    this.getMembers(userUid,leagueUid,function(err,res){
+    getMembers(userUid,leagueUid,function(err,res){
         if(err){
             callbackFn(err);
         } else if(res == null || res[memberUserUid] == undefined){
@@ -207,7 +207,7 @@ function getMember(userUid,leagueUid,memberUserUid,callbackFn){
 }
 
 function checkMember(userUid,leagueUid,memberUserUid,callbackFn){
-    this.getMembers(userUid,leagueUid,function(err,res){
+    getMembers(userUid,leagueUid,function(err,res){
         if(err){
             callbackFn(err);
         } else if(res == null || res[memberUserUid] == undefined){
@@ -225,7 +225,7 @@ function checkMember(userUid,leagueUid,memberUserUid,callbackFn){
  * @param callbackFn
  */
 function getMemberNum(userUid,leagueUid,callbackFn){
-    this.getMembers(userUid,leagueUid,function(err,res){
+    getMembers(userUid,leagueUid,function(err,res){
         if(err){
             callbackFn(err);
         }else{

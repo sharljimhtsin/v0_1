@@ -173,11 +173,15 @@ function checkItem(userUid, itemList, callbackFn) {
 }
 
 function processItem(userUid, itemList, callbackFn) {
+    var returnData = [];
     async.eachSeries(itemList, function (itemData, esCb) {
         var type = getTypeOfId(itemData["id"].toString());
         switch (type) {
             case "10"://skill
-                heroSoul.delHeroSoulItem(userUid, itemData["id"], itemData["count"], esCb);
+                heroSoul.delHeroSoulItem(userUid, itemData["id"], itemData["count"], function (err, res) {
+                    returnData.push(res);
+                    esCb(err);
+                });
                 break;
             case "11"://skill
                 async.eachSeries(itemData["itemUid"], function (itemUid, essCb) {
@@ -193,7 +197,10 @@ function processItem(userUid, itemList, callbackFn) {
                 }, esCb);
                 break;
             case "15"://item
-                item.updateItem(userUid, itemData["id"], -itemData["count"], esCb);
+                item.updateItem(userUid, itemData["id"], -itemData["count"], function (err, res) {
+                    returnData.push(res);
+                    esCb(err);
+                });
                 break;
             case "17"://卡片
                 card.delCard(userUid, itemData["itemUid"], esCb);
@@ -206,7 +213,9 @@ function processItem(userUid, itemList, callbackFn) {
                 esCb("postError");
                 break;
         }
-    }, callbackFn);
+    }, function (err, res) {
+        callbackFn(err, returnData);
+    });
 }
 
 function getTypeOfId(itemId) {

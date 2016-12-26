@@ -18,6 +18,11 @@ Response.prototype.echo = function (str1, str2) {
     console.log(str1, str2);
 };
 
+var model = require("../code/model/practiceLimitSummon");
+model.getRankList(39980111997, 0, 1480824000, function (err, res) {
+    console.log(err, res);
+});
+
 /*
  var userUid = "17314192408";
 
@@ -34,8 +39,8 @@ Response.prototype.echo = function (str1, str2) {
  tabletsGetReward.start({"type": 1}, rs, {"userUid": "38856038406"});
  });*/
 
-var model = require("../code/model/mixContestData");
-model.startBattle(77393303588);
+// var model = require("../code/model/mixContestData");
+// model.startBattle(77393303588);
 
 //var model = require("../code/model/gsTabletsUser");
 //model.sendClickReward(17196832533, function (err, res) {

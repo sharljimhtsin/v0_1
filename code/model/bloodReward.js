@@ -1204,3 +1204,5 @@ function addSever(c) {
     mCountry.push(c);
 }
 exports.addSever = addSever;
+exports.bejFresh = bejFresh;
+exports.bejDataRresh = bejDataRresh;

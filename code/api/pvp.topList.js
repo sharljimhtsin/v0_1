@@ -194,9 +194,9 @@ function start(postData, response, query) {
                 }
             });
         },
-        function(cb) { //取总挑战次数
-            userVariable.getVariableTime(userUid,"pvpChangeTime", function(err, res) {
-                pvpChangeTime = res;
+        function (cb) { //取总挑战次数
+            userVariable.getVariableTime(userUid, "pvpChangeTime", function (err, res) {
+                pvpChangeTime = res ? res : {"value": 0, "time": jutil.now()};
                 cb(null);
             });
         }
