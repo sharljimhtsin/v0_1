@@ -56,10 +56,9 @@ exports.start = function(postData, response, query){
         },
         function(cb) {
             async.eachSeries(Object.keys(currentConfig), function(key, esCb){
-                var configItem = currentConfig[key];
-                configItem["name"] = configItem["name"+language] == undefined?configItem["name"]:configItem["name"+language];
-                configItem["desc"] = configItem["desc"+language] == undefined?configItem["desc"]:configItem["desc"+language];
-
+                var configItem = jutil.deepCopy(currentConfig[key]);
+                configItem["name"] = configItem["name" + language] == undefined ? configItem["name"] : configItem["name" + language];
+                configItem["desc"] = configItem["desc" + language] == undefined ? configItem["desc"] : configItem["desc" + language];
                 configItem["nameara"] = configItem["name"];
                 configItem["descara"] = configItem["desc"];
                 configItem["nameesp"] = configItem["name"];

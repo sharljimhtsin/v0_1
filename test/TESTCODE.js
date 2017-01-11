@@ -255,7 +255,7 @@ var fs = require('fs');
 require("../code/alien/log/console");
 console.log(fs.existsSync("./../../../script.md"));
 console.log(fs.existsSync("_cron"));
-console.log(b,jutil.day(),bitUtil.parseUserUid("78081163352  "));
+console.log(b,jutil.day(),bitUtil.parseUserUid("42932895782"));
 return;
 var aaaa = {"a":"b"};
 console.log(aaaa);

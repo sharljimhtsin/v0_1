@@ -156,6 +156,9 @@ function getUserTeamDataByUserId(userUid,userData,listData,callBackFun){//listHe
                         case 46:
                             targetHero["preventBreak"] += itemData["typeValue"];//破招
                             break;
+                        case 63:
+                            targetHero["critDamage"] += itemData["typeValue"];//破招
+                            break;
                     }
                 }
             }

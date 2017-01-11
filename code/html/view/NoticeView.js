@@ -163,6 +163,7 @@ function NoticeView() {
     }
 
     var viewTable = Ext.create("Ext.grid.Panel", {
+        selModel: Ext.create('Ext.selection.CheckboxModel'),
         store: noticeStore,
         y: 0,
         tbar: [
@@ -175,6 +176,30 @@ function NoticeView() {
             {xtype: 'button', text: LipiUtil.t('添加公告'), iconCls: "add", handler: function () {
                 showWindow("添加公告");
             }},
+            {
+                xtype: 'button', text: LipiUtil.t('删除公告'), iconCls: "settings", handler: function () {
+                var selectionArray = viewTable.getSelectionModel().getSelection();
+                if (selectionArray == null || selectionArray.length <= 0) {
+                    Ext.Msg.alert("提示", "需要选中一条公告");
+                } else {
+                    var loadMask = Ext.create(Ext.LoadMask, Ext.getBody(), {msg: "请求中..."});
+                    var uidArr = [];
+                    for (var i in selectionArray) {
+                        if (!Ext.Array.contains(uidArr, selectionArray[i].data.id)) {
+                            uidArr.push(selectionArray[i].data.id);
+                        }
+                    }
+                    loadMask.show();
+                    var mCity = Ext.getCmp('cityA')["value"];
+                    LHttp.post("notice.batchdel", {"ids": uidArr, "city": mCity}, function (data) {
+                        loadMask.hide();
+                        if (LipiUtil.errorCheck(data, "notice.batchdel") == false) return;
+                        Ext.Msg.alert("提示", "删除成功!");
+                        getNotices(mCity);
+                    });
+                }
+            }
+            },
             {xtype: 'button', text: LipiUtil.t('拷贝所有公告到指定分区'), iconCls: "add", handler: function () {
                 var city = Ext.getCmp("cityA").value;
                 var cData = {};

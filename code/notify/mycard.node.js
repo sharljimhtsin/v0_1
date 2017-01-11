@@ -67,7 +67,7 @@ function start(postData, response, query) {
                 }
             }, null, null, MyCardTradeNo);
         }, function (cb) {
-            redis.login(country).h("mycard").get(args[1], function (err, res) {
+            redis.login(country).h("mycard").get(args[0], function (err, res) {
                 token = res;
                 cb(err);
             });
@@ -133,6 +133,7 @@ function start(postData, response, query) {
             req.end();
         }], function (err, res) {
             if (err) {
+                console.log(err);
                 response.end(JSON.stringify({"status": "failed", "desc": "未找到订单"}), "utf-8");
             } else {
                 response.end(JSON.stringify({"status": "success", "desc": "通知成功"}), "utf-8");

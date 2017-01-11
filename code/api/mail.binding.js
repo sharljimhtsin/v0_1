@@ -70,9 +70,10 @@ function start(postData, response, query) {
                         mailBinding.check(userUid,verifyList,verifyList["mailIP"],function(err,res){
                             if(err)cb(err);
                             else {
-                                if(res != null && res == 1){//未绑定
+                                if (res != null && res == 1) {//未绑定
                                     T = true;
-                                }else{
+                                    cb(null);
+                                } else {
                                     cb(null);
                                 }
                             }

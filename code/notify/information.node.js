@@ -20,6 +20,8 @@ function start(postData, response, query) {
         return;
     }
 
+    serverP = serverP.split(",")[0];//Error: Cannot find module '../../../config/c,d,f,m,h,e,g,l_server.json'
+
     login.getServerList(serverP, 0, function(err, res) {
         var mServerData = [];
         for(var i in res){

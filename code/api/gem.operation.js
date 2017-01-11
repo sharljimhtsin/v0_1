@@ -227,5 +227,5 @@ function start(postData, response, query) {
     }
 }
 
-var gemArr = [37,38,39,40,41,42,43,44,45,46];
+var gemArr = [37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 63];
 exports.start = start;
