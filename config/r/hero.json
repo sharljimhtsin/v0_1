@@ -4509,8 +4509,8 @@
 		},
 		"104112":{
 			"ID":"104112",
-			"name":"贝比(超级形态一)",
-			"des":"贝比被完全激怒，进化为超级形态",
+			"name":"Baby-Forma I",
+			"des":"Baby se enfada y se transforma",
 			"type":10,
 			"atlasShow":0,
 			"talentSkill":"114036",
@@ -4550,8 +4550,8 @@
 		},
 		"104113":{
 			"ID":"104113",
-			"name":"贝比(超级形态二)",
-			"des":"贝比进一步进化，变成超级形态二",
+			"name":"Baby-Forma II",
+			"des":"Baby evoluciona y alcanza esta forma",
 			"type":10,
 			"atlasShow":0,
 			"talentSkill":"114036",
@@ -4591,8 +4591,8 @@
 		},
 		"104114":{
 			"ID":"104114",
-			"name":"贝比(附身形态)",
-			"des":"贝比施放附身后的状态",
+			"name":"Baby (Poseido)",
+			"des":"Despues de la posesión, Baby alcanza la forma ultima",
 			"type":10,
 			"atlasShow":0,
 			"talentSkill":"114036",

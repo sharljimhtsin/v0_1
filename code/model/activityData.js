@@ -79,6 +79,9 @@ exports.PVPTOPCROSS = 65;//跨服激戰
 exports.DAILY_SIGNIN = 66;//跨服激戰
 exports.NOBLE = 67;//跨服激戰
 exports.NOBLE_MAP = 68;//跨服激戰
+exports.UPSTAREQUIP = 69;//升星
+exports.UPSTAREQUIPREFINE = 70;//升星
+exports.UPSTARRECYCLE = 71;//升星
 
 
 /**

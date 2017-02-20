@@ -3219,7 +3219,7 @@
 		"114090":{
 			"ID":"114090",
 			"type":11,
-			"des":"神龍可以實現你的任何願望",
+			"des":"Shenron puede realizar tu Deseo",
 			"atlasShow":0,
 			"star":4,
 			"skillType":13,
@@ -3238,12 +3238,12 @@
 			"maxProb":0,
 			"probAdd":0,
 			"probIni":0,
-			"name":"許願"
+			"name":"Deseo"
 		},
 		"114091":{
 			"ID":"114091",
 			"type":11,
-			"des":"神龍可以實現你的任何願望",
+			"des":"Shenron puede realizar tu Deseo",
 			"atlasShow":0,
 			"star":4,
 			"skillType":14,
@@ -3262,12 +3262,12 @@
 			"maxProb":0,
 			"probAdd":0,
 			"probIni":0,
-			"name":"強力許願"
+			"name":"Deseo Fuerte"
 		},
 		"114092":{
 			"ID":"114092",
 			"type":11,
-			"des":"超賽神形態的貝吉塔放出的閃光彈，非常狂暴",
+			"des":"Explosión brutal utilizado por Vegeta en forma Dios",
 			"atlasShow":0,
 			"star":4,
 			"skillType":1,
@@ -3286,12 +3286,12 @@
 			"maxProb":40000,
 			"probAdd":10000,
 			"probIni":25000,
-			"name":"狂暴閃光彈"
+			"name":"Flash de Furia"
 		},
 		"114093":{
 			"ID":"114093",
 			"type":11,
-			"des":"超賽神形態的孫悟空放出的神龜衝擊波，非常極致",
+			"des":"Kamehameha Ultra utilizado por Goku en forma Dios",
 			"atlasShow":0,
 			"star":4,
 			"skillType":0,
@@ -3310,12 +3310,12 @@
 			"maxProb":70000,
 			"probAdd":25000,
 			"probIni":50000,
-			"name":"極致神龜衝擊波"
+			"name":"Ultra Kamehameha"
 		},
 		"114094":{
 			"ID":"114094",
 			"type":11,
-			"des":"使用後整個人物已經超神，地上最強攻擊BUFF",
+			"des":"Uno de los ataques más poderosos de la tierra",
 			"atlasShow":0,
 			"star":4,
 			"skillType":2,
@@ -3334,12 +3334,12 @@
 			"maxProb":0,
 			"probAdd":0,
 			"probIni":0,
-			"name":"吸收神境"
+			"name":"Ultra Absorber"
 		},
 		"114095":{
 			"ID":"114095",
 			"type":11,
-			"des":"攻击会从拳头中飞出一条金龙，大大增加攻击力",
+			"des":"Puño epico, como un dragon dorado",
 			"atlasShow":0,
 			"star":4,
 			"skillType":2,
@@ -3358,12 +3358,12 @@
 			"maxProb":0,
 			"probAdd":0,
 			"probIni":0,
-			"name":"龙拳爆发"
+			"name":"Puño de Dragon"
 		},
 		"114096":{
 			"ID":"114096",
 			"type":11,
-			"des":"芭朵斯在制造虚幻的空间后学习到敌方的本领后，找到弱点后给予的致命一击",
+			"des":"Vados posee poderes de manipulation de materia despues de crear un espacio irreal, encuentra las debilidades del enemigo y acerta un golpe mortal.",
 			"atlasShow":0,
 			"star":4,
 			"skillType":1,
@@ -3382,12 +3382,12 @@
 			"maxProb":40000,
 			"probAdd":10000,
 			"probIni":25000,
-			"name":"镜花水月"
+			"name":"Manipulation de Materia"
 		},
 		"114097":{
 			"ID":"114097",
 			"type":11,
-			"des":"象帕放出绝招，挥手之间就能毁灭星球",
+			"des":"Habilidad ultima de Champa, destruye planeta con solo golpear la superficie.",
 			"atlasShow":0,
 			"star":4,
 			"skillType":1,
@@ -3406,12 +3406,12 @@
 			"maxProb":40000,
 			"probAdd":10000,
 			"probIni":25000,
-			"name":"狱空破"
+			"name":"Esfera de Destrucción"
 		},
 		"114098":{
 			"ID":"114098",
 			"type":11,
-			"des":"使用强大法力预知未来提前判断对手出招，能大大增加自身攻击",
+			"des":"Predice la Habilidad que el adversario v aa utilizar, aumentando entonces su propio ataque.",
 			"atlasShow":0,
 			"star":4,
 			"skillType":2,
@@ -3430,12 +3430,12 @@
 			"maxProb":0,
 			"probAdd":0,
 			"probIni":0,
-			"name":"预言之术"
+			"name":"Gran Profecía"
 		},
 		"114099":{
 			"ID":"114099",
 			"type":11,
-			"des":"史上最强控制好气，突破斩万魂，超神碎天穹",
+			"des":"Siendo el KI más poderoso, puede explotar almas.",
 			"atlasShow":0,
 			"star":4,
 			"skillType":0,
@@ -3454,12 +3454,12 @@
 			"maxProb":50000,
 			"probAdd":25000,
 			"probIni":50000,
-			"name":"掌碎天穹"
+			"name":"Explosión Destructiva"
 		},
 		"114100":{
 			"ID":"114100",
 			"type":11,
-			"des":"超神灵魂注入，漠视一切的能量产生",
+			"des":"Induce almas sagradas, ignora otras energías.",
 			"atlasShow":0,
 			"star":4,
 			"skillType":3,
@@ -3478,7 +3478,7 @@
 			"maxProb":0,
 			"probAdd":0,
 			"probIni":0,
-			"name":"灵魂燃烧"
+			"name":"Alma Ardiente"
 		},
 		"114101":{
 			"ID":"114101",
@@ -3502,7 +3502,7 @@
 			"maxProb":0,
 			"probAdd":0,
 			"probIni":0,
-			"name":"终极守护"
+			"name":"Anulación de Daño"
 		},
 		"114102":{
 			"ID":"114102",
@@ -3526,12 +3526,12 @@
 			"maxProb":0,
 			"probAdd":0,
 			"probIni":0,
-			"name":"溶液供给"
+			"name":"Escupitajo de Lava"
 		},
 		"114103":{
 			"ID":"114103",
 			"type":11,
-			"des":"在闪时的作用下，任何攻击都会是致命一击",
+			"des":"Con salto de Tiempo, Hit ataca los puntos vitales de sus oponentes, permitiendole vencerlos sin gran esfuerzo",
 			"atlasShow":0,
 			"star":4,
 			"skillType":1,
@@ -3550,12 +3550,12 @@
 			"maxProb":40000,
 			"probAdd":8000,
 			"probIni":5000,
-			"name":"死亡莲华"
+			"name":"Ataque Punto Vital"
 		},
 		"114104":{
 			"ID":"114104",
 			"type":11,
-			"des":"使时间冻结零点几秒，大大提升赢取战斗的机会",
+			"des":"Hit puede manipular el tiempo y pararlo durante una decima de segundo. En ese tiempo, se mueve libremente para bloquear y contraatacar.",
 			"atlasShow":0,
 			"star":4,
 			"skillType":2,
@@ -3574,12 +3574,12 @@
 			"maxProb":0,
 			"probAdd":0,
 			"probIni":0,
-			"name":"闪时"
+			"name":"Salto Tiempo"
 		},
 		"114105":{
 			"ID":"114105",
 			"type":11,
-			"des":"可以让十二个宇宙在一瞬间全部消失，尘归尘，土归土，净化一切生灵",
+			"des":"El poder de aniquilar instantániamente cualquier cosa en un guiño de ojo.",
 			"atlasShow":0,
 			"star":4,
 			"skillType":1,
@@ -3598,12 +3598,12 @@
 			"maxProb":40000,
 			"probAdd":8000,
 			"probIni":5000,
-			"name":"净世之光"
+			"name":"Aniquilar"
 		},
 		"114106":{
 			"ID":"114106",
 			"type":11,
-			"des":"全王的愤怒光环，可以短时间内大大提升自身能力",
+			"des":"El aro de furia de Zen'ô, aumenta su poder instantániamente.",
 			"atlasShow":0,
 			"star":4,
 			"skillType":2,
@@ -3622,7 +3622,7 @@
 			"maxProb":0,
 			"probAdd":0,
 			"probIni":0,
-			"name":"全王之怒"
+			"name":"Furia de Zen'ô"
 		},
 		"114107":{
 			"ID":"114107",
@@ -3646,7 +3646,7 @@
 			"maxProb":0,
 			"probAdd":0,
 			"probIni":0,
-			"name":"曙光之泉"
+			"name":"Fuente del Alba"
 		},
 		"114108":{
 			"ID":"114108",
@@ -3670,7 +3670,7 @@
 			"maxProb":0,
 			"probAdd":0,
 			"probIni":0,
-			"name":"暗黑护体"
+			"name":"Cuidado de la Sombra"
 		},
 		"119001":{
 			"ID":"119001",

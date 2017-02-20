@@ -7,9 +7,7 @@
  */
 var fs = require("fs");
 var resolve = require("path").resolve;
-var platformConfig = require("../../config/platform");
 var redis = require("../alien/db/redis");
-
 var appJSON = {
     "version": "0.0.1",
     "list": {
@@ -42,13 +40,10 @@ var appJSON = {
     "isDebug": 1,
     "debugPath": "http://127.0.0.1:1337/",
     "platformId": "p91"
-}
-
+};
 
 var appJSONStr = JSON.stringify(appJSON, null, 2);
-
 var whitelist = null;
-
 var stringCache = {};
 var _time = 0;
 
@@ -84,7 +79,7 @@ var _platformList = {
     "kythaixy": ["kythaixy"],
     "baxi": ["baxi", "baxiA", "baxiios"],
     "saiya": ["meizu", "youku", "lenovo", "i4", "xyzs"],
-    "usa": ["usa", "usaa", "usaa1", "usagp", "usaaoff", "usausa", "usaglobal", "usaaoffIns", "usaazb", "usabzb", "usaczb", "usadzb"],
+    "usa": ["usa", "usaa", "usaa1", "usagp", "usaaoff", "usausa", "usaglobal", "usaaoffIns", "usaazb", "usabzb", "usaczb", "usadzb", "usaezb", "usaaoffnew"],
     "leju": ["ljxyzs", "ljoppo", "ljmi", "ljxiongmao", "lj360", "ljhtc", "ljlenovo", "ljmeizu", "ljguopan", "ljguopana", "ljguopani", "ljhuawei", "ljkuaiyong", "ljxiaomi", "ljyoulu", "ljtbt", "ljjinli", "ljwdj", "ljitools", "ljhaimai", "ljhaimaa", "ljvivo", "ljanzhi"],
     "yuenan": ["yuenan", "yuenanlumi"],
     "ger": ["ger", "gera", "gergp"],
@@ -104,6 +99,7 @@ function start(postData, response, query) {
         udid = "";
     }
     var p = query["p"];
+    var h = query["h"] ? true : false;//https tag
     var lpath = getPname(query, "");
     var cacheName = "";
 
@@ -137,7 +133,7 @@ function start(postData, response, query) {
             var inList = false;
             for (var file in _platformList) {
                 if (_platformList[file].indexOf(p) != -1) {
-                    echoString = version(isTest, p, lpath + file);
+                    echoString = version(isTest, p, lpath + file, h);
                     stringCache[cacheName] = echoString;
                     inList = true;
                 }
@@ -160,18 +156,25 @@ function getPname(query, lpath) {
     return lpath;
 }
 
-function version(isTest, p, file) {
+function version(isTest, p, file, isHttps) {
     var mPath = "../../config/version/" + file + ".json";
     if (isTest == true) {
         mPath = "../../config/version/" + file + "_test.json";
     }
     mPath = resolve(__dirname, mPath);
     var echoString = fs.readFileSync(mPath, "utf-8");
-
     try {
         var jsonObj = JSON.parse(echoString);
         jsonObj["platformId"] = p;
         echoString = JSON.stringify(jsonObj, null, 2);
+        // 是否使用HTTPS
+        var https = ["usaezb"];
+        if (https.indexOf(p) == -1) {
+            echoString = echoString.replace(/https/g, "http");
+        }
+        if (isHttps) {
+            echoString = echoString.replace(/http/g, "https");
+        }
     } catch (error) {
         echoString = appJSONStr;
     }

@@ -25,6 +25,8 @@ var title = require("../model/titleModel");
 var leagueDragon = require("../model/leagueDragon");
 var catalystData = require("../model/catalystData");
 var upStar = require("../model/upStar");
+var upStarEquip = require("../model/upStarEquip");
+var upStarEquipRefine = require("../model/upStarEquipRefine");
 
 /**
  * @param userUid 用户ID
@@ -516,6 +518,8 @@ function getPvpTopFormation(userUid, callbackFn) {
     var equipPicked = null;
     var columnPicked = null;
     var starData = null;
+    var starEquipData = null;
+    var starEquipRefineData = null;
     async.series([
 
         function (cb) {
@@ -540,6 +544,18 @@ function getPvpTopFormation(userUid, callbackFn) {
         function (cb) {
             upStar.getStarData(userUid, function (err, res) {
                 starData = res;
+                cb(err);
+            });
+        },
+        function (cb) {
+            upStarEquip.getAddition(userUid, function (err, res) {
+                starEquipData = res;
+                cb(err);
+            });
+        },
+        function (cb) {
+            upStarEquipRefine.getAddition(userUid, function (err, res) {
+                starEquipRefineData = res;
                 cb(err);
             });
         },
@@ -594,8 +610,8 @@ function getPvpTopFormation(userUid, callbackFn) {
                 if (err) cb("dbError");
                 else {
                     var equips = res;
-                    //组织洗练属性
                     for (var uid in equips) {
+                        //组织洗练属性
                         if (equipPicked.hasOwnProperty(uid)) {
                             columnPicked = equipPicked[uid];
                             var propertyUpgraded = {};
@@ -606,6 +622,18 @@ function getPvpTopFormation(userUid, callbackFn) {
                             equips[uid]["equipAddValue"] = propertyUpgraded;
                         } else {
                             equips[uid]["equipAddValue"] = {};
+                        }
+                        //装备升星加成
+                        if (starEquipData.hasOwnProperty(uid)) {
+                            equips[uid]["equipStarAddValue"] = starEquipData[uid];
+                        } else {
+                            equips[uid]["equipStarAddValue"] = {};
+                        }
+                        //装备精炼加成
+                        if (starEquipRefineData.hasOwnProperty(uid)) {
+                            equips[uid]["equipStarRefineAddValue"] = starEquipRefineData[uid];
+                        } else {
+                            equips[uid]["equipStarRefineAddValue"] = {"attack": 0, "defence": 0, "hp": 0, "level": 1};
                         }
                     }
                     equipInfo = {};
@@ -670,7 +698,8 @@ function getPvpTopFormation(userUid, callbackFn) {
             });
         }
     ], function (err) {
-        var PvpTopFormation = {"userInfo": userInfo,
+        var PvpTopFormation = {
+            "userInfo": userInfo,
             "formation": formationInfo,
             "hero": heroInfo,
             "equip": equipInfo,
@@ -679,7 +708,8 @@ function getPvpTopFormation(userUid, callbackFn) {
             "integrationData": integrationInfo,
             "dragonData": dragonData,
             "starData": starData,
-            "specialTeam": specialTeamInfo};
+            "specialTeam": specialTeamInfo
+        };
         callbackFn(err, PvpTopFormation);
     });
 }

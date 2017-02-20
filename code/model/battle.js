@@ -29,6 +29,8 @@ var gravity = require("../model/gravity");
 var leagueDragon = require("../model/leagueDragon");
 var bahamutWish = require("../model/bahamutWish");
 var noble = require("../model/noble");
+var upStarEquip = require("../model/upStarEquip");
+var upStarEquipRefine = require("../model/upStarEquipRefine");
 
 function getUserTeamDataByUserId(userUid,userData,listData,callBackFun){//listHero,listSkill,listEquip,listFormation,
     var configData = configManager.createConfig(userUid);
@@ -47,6 +49,8 @@ function getUserTeamDataByUserId(userUid,userData,listData,callBackFun){//listHe
     var towerData = listData["towerData"];
     var bufferData = listData["bufferData"];
     var nobleList = listData["nobleList"];
+    var starEquipList = listData["starEquipList"];
+    var starEquipRefineList = listData["starEquipRefineList"];
     var cardConfig = configData.getConfig("card");
     var mixConfig = configData.getConfig("mix");
     var mainConfig = configData.getConfig("main");
@@ -388,6 +392,46 @@ function getUserTeamDataByUserId(userUid,userData,listData,callBackFun){//listHe
         returnHero["hit"] += (nobleList["hit"] ? nobleList["hit"] : 0);
         returnHero["preventBreak"] += (nobleList["preventBreak"] ? nobleList["preventBreak"] : 0);
         returnHero["break"] += (nobleList["break"] ? nobleList["break"] : 0);
+    };
+    var starEquipAdd = function (formationId) {
+        var returnHero = returnData[formationId];
+        var formationHero = formationList[formationId];
+        if (starEquipList && starEquipList.hasOwnProperty(formationHero["equip1"])) {
+            var tmpObj = starEquipList[formationHero["equip1"]];
+            for (var key in tmpObj) {
+                returnHero[key] += tmpObj[key];
+            }
+        } else if (starEquipList && starEquipList.hasOwnProperty(formationHero["equip2"])) {
+            var tmpObj = starEquipList[formationHero["equip2"]];
+            for (var key in tmpObj) {
+                returnHero[key] += tmpObj[key];
+            }
+        } else if (starEquipList && starEquipList.hasOwnProperty(formationHero["equip3"])) {
+            var tmpObj = starEquipList[formationHero["equip3"]];
+            for (var key in tmpObj) {
+                returnHero[key] += tmpObj[key];
+            }
+        }
+    };
+    var starEquipRefineAdd = function (formationId) {
+        var returnHero = returnData[formationId];
+        var formationHero = formationList[formationId];
+        if (starEquipRefineList && starEquipRefineList.hasOwnProperty(formationHero["equip1"])) {
+            var tmpObj = starEquipRefineList[formationHero["equip1"]];
+            for (var key in tmpObj) {
+                returnHero[key] += tmpObj[key];
+            }
+        } else if (starEquipRefineList && starEquipRefineList.hasOwnProperty(formationHero["equip2"])) {
+            var tmpObj = starEquipRefineList[formationHero["equip2"]];
+            for (var key in tmpObj) {
+                returnHero[key] += tmpObj[key];
+            }
+        } else if (starEquipRefineList && starEquipRefineList.hasOwnProperty(formationHero["equip3"])) {
+            var tmpObj = starEquipRefineList[formationHero["equip3"]];
+            for (var key in tmpObj) {
+                returnHero[key] += tmpObj[key];
+            }
+        }
     };
     async.series([
         function(callBack){//取七星阵队伍
@@ -757,6 +801,20 @@ function getUserTeamDataByUserId(userUid,userData,listData,callBackFun){//listHe
                 }
             }
             callBack(null, null);
+        }, function (callBack) {
+            if (starEquipList) {
+                for (var key in defaultHeroFormation) {
+                    starEquipAdd(key);
+                }
+            }
+            callBack(null, null);
+        }, function (callBack) {
+            if (starEquipRefineList) {
+                for (var key in defaultHeroFormation) {
+                    starEquipRefineAdd(key);
+                }
+            }
+            callBack(null, null);
         }
     ], function (err, res) {
         if (err) {
@@ -843,6 +901,18 @@ function getBattleNeedData(userId,callback){
         function (callBack) {
             noble.getAddition(userId, function (err, res) {
                 returnData["nobleList"] = res;
+                callBack();
+            });
+        },
+        function (callBack) {
+            upStarEquip.getAddition(userId, function (err, res) {
+                returnData["starEquipList"] = res;
+                callBack();
+            });
+        },
+        function (callBack) {
+            upStarEquipRefine.getAddition(userId, function (err, res) {
+                returnData["starEquipRefineList"] = res;
                 callBack();
             });
         }

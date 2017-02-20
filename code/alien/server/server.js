@@ -37,6 +37,7 @@ function start(isWork, masterPort) {
                 var ip = getClientIp(request);
                 ip = ip.split(",")[0];
                 query["clientIp"] = ip;
+                query["isIOS"] = isIOS(request);
                 router.route(pathname, response, query, postData, request);
             });
 		}
@@ -48,7 +49,7 @@ function start(isWork, masterPort) {
         return httpServer;
     } else {
         var mPort = config["server"]["listen"];//端口
-        httpServer.listen(mPort)
+        httpServer.listen(mPort);
         return httpServer;
     }
 }
@@ -115,6 +116,10 @@ function getClientIp(req) {
         req.connection.remoteAddress ||
         req.socket.remoteAddress ||
         req.connection.socket.remoteAddress;
+};
+
+function isIOS(req) {
+    return req.headers['user-agent'] ? (req.headers['user-agent'].indexOf("Mac OS X") != -1) : false;
 };
 
 /**

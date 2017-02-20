@@ -35,15 +35,24 @@ var mail = require("../model/mail");
 var quarterCard = require("../model/quarterCard");
 var monthCard = require("../model/monthCard");
 
-function addOrder(orderNo, userId,productId, callbackFn, order_id) {
-    order_id = order_id==undefined?'':order_id;
+function addOrder(orderNo, userId, productId, callbackFn, order_id) {
+    order_id = order_id == undefined ? '' : order_id;
     var sql = "INSERT INTO payOrder SET ?";
-    var insertData = {"orderNo":orderNo, "userUid":userId,"productId":productId,"createTime":jutil.now(),"order_id":order_id};
-    mysql.game(userId).query(sql, insertData, function(err, res) {
+    var insertData = {
+        "orderNo": orderNo,
+        "userUid": userId,
+        "productId": productId,
+        "createTime": jutil.now(),
+        "order_id": order_id
+    };
+    mysql.game(userId).query(sql, insertData, function (err, res) {
         if (err) {
             console.log(err.stack);
             callbackFn(err);
-        } else callbackFn(null, {"orderNo":orderNo});
+        } else {
+            //redis.loginFromUserUid(userId).h("myCardOrder").set(orderNo.substr(0,20), orderNo + "_" + userId);
+            callbackFn(null, {"orderNo": orderNo});
+        }
     });
 }
 

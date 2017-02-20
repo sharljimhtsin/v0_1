@@ -578,7 +578,9 @@ var _platformIdCode = {
     "gtsinaa": 146,
     "gtsinaapp": 147,
     "gtsinaios": 148,
-    "usadzb": 149
+    "usadzb": 149,
+    "usaezb": 150,
+    "usaaoffnew": 151
 };
 /**
  *  平台ID码

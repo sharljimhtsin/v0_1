@@ -52,7 +52,11 @@ function start(postData, response, query) {
         console.log("md5Sign:" + signStr, md5Sign);
         response.end(JSON.stringify({"ret" : -5 , "msg" : "加密验证失败"}), "utf-8");
     }else {
-        product_id = product_id=="0"?1:product_id;
+        product_id = product_id == "0" ? 1 : product_id;
+        //特殊处理北美档位非法格式
+        if (isNaN(product_id)) {
+            product_id = product_id.substr(product_id.length - 1, 1);
+        }
         async.series([
             function(cb) {//过滤订单号
                 if(order_id == ""){

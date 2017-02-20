@@ -41,13 +41,18 @@ function start(postData, response, query) {
     signStr = encodeURIComponent(signStr);
     var hash = crypto.createHash('sha256').update(signStr).digest('hex');
     response.writeHead(200, {'Content-Type': 'text/plain', "charset": "utf-8"});
-    var args = FacTradeSeq.split("_");
     var token;
     var checkUrl = platformConfig[NAME]["checkUrl"];
     var confirmUrl = platformConfig[NAME]["confirmUrl"];
     if (hash == Hash && ReturnCode == 1 && PayResult == 3) {
         console.log("sign matched");
         async.series([function (cb) {
+            redis.login(country).h("myCardOrder").get(FacTradeSeq, function (err, res) {
+                FacTradeSeq = res;
+                cb(err);
+            });
+        }, function (cb) {
+            var args = FacTradeSeq.split("_");
             order.updateOrder(args[1], args[0], NAME, appId, Amount, Amount, 1, "", "", JSON.stringify(postData), function (err, res) {
                 if (res == 1) {
                     console.log("order update ok");

@@ -236,7 +236,19 @@ var bList = {
   "card6": 0
  }
 };
-
+var a = '[111,222]';
+var aObj = JSON.parse(a);
+console.log(aObj);
+console.log(aObj[0]);
+console.log(bitUtil.parseUserUid("39896220097"));
+var product_id = "0000001111";
+console.log(product_id.indexOf("5"));
+return;
+if(isNaN(product_id)){
+ product_id = product_id.substr(product_id.length-1,1);
+}
+console.log(product_id);
+return;
 var date = new Date(jutil.now() * 1000);
 var curMonth = date.getMonth() + 1;
 var curDate = date.getDate();
@@ -251,11 +263,21 @@ for (var a in aList) {
   }
  }
 }
+console.log(bitUtil.parseUserUid("39644561446"));
+// 是否使用HTTPS
+var echoString = "httpshttphttpshttphttpshttp";
+var p = "usaaoffnew";
+var https = ["usaaoffnew"];
+if (https.indexOf(p) == -1) {
+ echoString = echoString.replace(/https/g, "http");
+}
+console.log(echoString);
+return;
 var fs = require('fs');
 require("../code/alien/log/console");
 console.log(fs.existsSync("./../../../script.md"));
 console.log(fs.existsSync("_cron"));
-console.log(b,jutil.day(),bitUtil.parseUserUid("42932895782"));
+console.log(b,jutil.day(),bitUtil.parseUserUid("39460024069"));
 return;
 var aaaa = {"a":"b"};
 console.log(aaaa);
@@ -265,7 +287,7 @@ console.log(aaaa);
 console.error("caonima");
 console.log("hahaha","rinima");
 var a = bitUtil.createUserUid("d",255,1234);
-var b = bitUtil.createUserUid("c",255,1234);+
+var b = bitUtil.createUserUid("c",255,1234);
 console.log(a,b);
 var json = JSON.parse('{"1":"2"}');
 console.log(json["1"],86400 * 2.5,86400 * 2);

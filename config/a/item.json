@@ -10604,6 +10604,66 @@
 			"salePrice":0,
 			"activeId":"0",
 			"dailyUseTime":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+		},
+		"156401":{
+			"ID":"156401",
+			"type":15,
+			"name":"初级精炼石",
+			"des":"",
+			"star":1,
+			"frame":1,
+			"itemType":64,
+			"typeValue":5,
+			"ownMaxNum":0,
+			"levelLimit":0,
+			"salePrice":0,
+			"activeId":"0",
+			"dailyUseTime":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+		},
+		"156402":{
+			"ID":"156402",
+			"type":15,
+			"name":"中级精炼石",
+			"des":"",
+			"star":2,
+			"frame":1,
+			"itemType":64,
+			"typeValue":10,
+			"ownMaxNum":0,
+			"levelLimit":0,
+			"salePrice":0,
+			"activeId":"0",
+			"dailyUseTime":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+		},
+		"156403":{
+			"ID":"156403",
+			"type":15,
+			"name":"高级精炼石",
+			"des":"",
+			"star":3,
+			"frame":1,
+			"itemType":64,
+			"typeValue":25,
+			"ownMaxNum":0,
+			"levelLimit":0,
+			"salePrice":0,
+			"activeId":"0",
+			"dailyUseTime":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+		},
+		"156404":{
+			"ID":"156404",
+			"type":15,
+			"name":"极品精炼石",
+			"des":"",
+			"star":4,
+			"frame":1,
+			"itemType":64,
+			"typeValue":50,
+			"ownMaxNum":0,
+			"levelLimit":0,
+			"salePrice":0,
+			"activeId":"0",
+			"dailyUseTime":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 		}
 	}
 }

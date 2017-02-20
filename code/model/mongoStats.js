@@ -889,3 +889,9 @@ exports.NOBLE7 = 5020004;//绝地反击副本2参与次数
 exports.NOBLE8 = 5020005;//绝地反击副本3参与次数
 exports.NOBLE9 = 5020006;//绝地反击副本4参与次数
 exports.NOBLE10 = 5020007;//绝地反击副本5参与次数
+
+exports.UPSTAR1 = 5110002;//装备升星金币消耗
+exports.UPSTAR2 = 5120001;//装备回收金币消耗
+exports.UPSTAR3 = 5120002;//装备回收道具获得
+exports.UPSTAR4 = 5100001;//装备精炼道具消耗
+exports.UPSTAR5 = 5110001;//装备升星道具消耗

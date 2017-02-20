@@ -14796,7 +14796,7 @@
 			"ID":"161620",
 			"type":16,
 			"yuanType":"or",
-			"name":"龍爪",
+			"name":"Garras de Dragón",
 			"value":"0.25",
 			"attrType":"attack",
 			"relationIds":[
@@ -14818,7 +14818,7 @@
 			"ID":"161622",
 			"type":16,
 			"yuanType":"and",
-			"name":"主角",
+			"name":"Protagonista",
 			"value":"0.25",
 			"attrType":"defence",
 			"relationIds":[
@@ -14829,7 +14829,7 @@
 			"ID":"161623",
 			"type":16,
 			"yuanType":"and",
-			"name":"神龍",
+			"name":"Shenron",
 			"value":"0.24",
 			"attrType":"defence",
 			"relationIds":[
@@ -14840,7 +14840,7 @@
 			"ID":"161624",
 			"type":16,
 			"yuanType":"and",
-			"name":"神龍",
+			"name":"Shenron",
 			"value":"0.24",
 			"attrType":"defence",
 			"relationIds":[
@@ -14851,7 +14851,7 @@
 			"ID":"161625",
 			"type":16,
 			"yuanType":"or",
-			"name":"吸收神境",
+			"name":"Ultra Absorber",
 			"value":"0.2",
 			"attrType":"defence",
 			"relationIds":[
@@ -14884,7 +14884,7 @@
 			"ID":"161628",
 			"type":16,
 			"yuanType":"and",
-			"name":"超神",
+			"name":"Más que Dios",
 			"value":"0.23",
 			"attrType":"defence",
 			"relationIds":[
@@ -14895,7 +14895,7 @@
 			"ID":"161629",
 			"type":16,
 			"yuanType":"and",
-			"name":"超神",
+			"name":"Más que Dios",
 			"value":"0.23",
 			"attrType":"defence",
 			"relationIds":[
@@ -14917,7 +14917,7 @@
 			"ID":"161631",
 			"type":16,
 			"yuanType":"and",
-			"name":"進化",
+			"name":"Evolution",
 			"value":"0.2",
 			"attrType":"defence",
 			"relationIds":[
@@ -14928,7 +14928,7 @@
 			"ID":"161632",
 			"type":16,
 			"yuanType":"and",
-			"name":"進化",
+			"name":"Evolution",
 			"value":"0.2",
 			"attrType":"defence",
 			"relationIds":[
@@ -14939,7 +14939,7 @@
 			"ID":"161633",
 			"type":16,
 			"yuanType":"and",
-			"name":"普通形態",
+			"name":"Forma Normal",
 			"value":"0.25",
 			"attrType":"attack",
 			"relationIds":[
@@ -14950,7 +14950,7 @@
 			"ID":"161634",
 			"type":16,
 			"yuanType":"and",
-			"name":"黃金巨猿",
+			"name":"Ozaru Dorado",
 			"value":"0.25",
 			"attrType":"attack",
 			"relationIds":[
@@ -14961,7 +14961,7 @@
 			"ID":"161635",
 			"type":16,
 			"yuanType":"and",
-			"name":"超級形態",
+			"name":"Super Forma",
 			"value":"0.25",
 			"attrType":"attack",
 			"relationIds":[
@@ -14972,7 +14972,7 @@
 			"ID":"161636",
 			"type":16,
 			"yuanType":"and",
-			"name":"進化",
+			"name":"Evolution",
 			"value":"0.25",
 			"attrType":"attack",
 			"relationIds":[
@@ -14983,7 +14983,7 @@
 			"ID":"161637",
 			"type":16,
 			"yuanType":"or",
-			"name":"龙拳爆发",
+			"name":"Puño Dragón",
 			"value":"0.22",
 			"attrType":"attack",
 			"relationIds":[
@@ -14994,7 +14994,7 @@
 			"ID":"161638",
 			"type":16,
 			"yuanType":"and",
-			"name":"能量进阶",
+			"name":"Boost d'energía",
 			"value":"0.23",
 			"attrType":"defence",
 			"relationIds":[
@@ -15005,7 +15005,7 @@
 			"ID":"161639",
 			"type":16,
 			"yuanType":"and",
-			"name":"能量进阶",
+			"name":"Boost d'energía",
 			"value":"0.23",
 			"attrType":"defence",
 			"relationIds":[
@@ -15016,7 +15016,7 @@
 			"ID":"161640",
 			"type":16,
 			"yuanType":"and",
-			"name":"协同作战",
+			"name":"Buffs",
 			"value":"0.22",
 			"attrType":"defence",
 			"relationIds":[
@@ -15027,7 +15027,7 @@
 			"ID":"161641",
 			"type":16,
 			"yuanType":"and",
-			"name":"协同作战",
+			"name":"Buffs",
 			"value":"0.22",
 			"attrType":"defence",
 			"relationIds":[
@@ -15038,7 +15038,7 @@
 			"ID":"161642",
 			"type":16,
 			"yuanType":"or",
-			"name":"绿色服饰",
+			"name":"Ropa Verde",
 			"value":"0.23",
 			"attrType":"defence",
 			"relationIds":[
@@ -15049,7 +15049,7 @@
 			"ID":"161643",
 			"type":16,
 			"yuanType":"or",
-			"name":"芭朵斯权杖",
+			"name":"Cetro",
 			"value":"0.24",
 			"attrType":"attack",
 			"relationIds":[
@@ -15060,7 +15060,7 @@
 			"ID":"161644",
 			"type":16,
 			"yuanType":"or",
-			"name":"发髻",
+			"name":"Horquilla",
 			"value":"0.22",
 			"attrType":"attack",
 			"relationIds":[
@@ -15071,7 +15071,7 @@
 			"ID":"161645",
 			"type":16,
 			"yuanType":"or",
-			"name":"预知未来",
+			"name":"Divinación",
 			"value":"0.21",
 			"attrType":"defence",
 			"relationIds":[
@@ -15104,7 +15104,7 @@
 			"ID":"161648",
 			"type":16,
 			"yuanType":"or",
-			"name":"加大破坏服",
+			"name":"Collar GRande",
 			"value":"0.22",
 			"attrType":"defence",
 			"relationIds":[
@@ -15115,7 +15115,7 @@
 			"ID":"161649",
 			"type":16,
 			"yuanType":"or",
-			"name":"金色手镯",
+			"name":"Brazaletes Dorados",
 			"value":"0.26",
 			"attrType":"attack",
 			"relationIds":[
@@ -15126,7 +15126,7 @@
 			"ID":"161650",
 			"type":16,
 			"yuanType":"or",
-			"name":"神秘腰带",
+			"name":"Cinturón",
 			"value":"0.23",
 			"attrType":"attack",
 			"relationIds":[
@@ -15137,7 +15137,7 @@
 			"ID":"161651",
 			"type":16,
 			"yuanType":"and",
-			"name":"孪生兄弟",
+			"name":"Hermanos Gemelos",
 			"value":"0.25",
 			"attrType":"defence",
 			"relationIds":[
@@ -15159,7 +15159,7 @@
 			"ID":"161653",
 			"type":16,
 			"yuanType":"or",
-			"name":"传说护手",
+			"name":"Equipamiento Legendario",
 			"value":"0.27",
 			"attrType":"spirit",
 			"relationIds":[
@@ -15170,7 +15170,7 @@
 			"ID":"161654",
 			"type":16,
 			"yuanType":"or",
-			"name":"灰色服饰",
+			"name":"Ropa Gris",
 			"value":"0.26",
 			"attrType":"defence",
 			"relationIds":[
@@ -15181,7 +15181,7 @@
 			"ID":"161655",
 			"type":16,
 			"yuanType":"or",
-			"name":"能量耳环",
+			"name":"Pendiente d'Energía",
 			"value":"0.28",
 			"attrType":"spirit",
 			"relationIds":[
@@ -15192,7 +15192,7 @@
 			"ID":"161656",
 			"type":16,
 			"yuanType":"or",
-			"name":"灵魂燃烧",
+			"name":"Alma Ardiente",
 			"value":"0.26",
 			"attrType":"defence",
 			"relationIds":[
@@ -15203,7 +15203,7 @@
 			"ID":"161657",
 			"type":16,
 			"yuanType":"and",
-			"name":"与神比肩",
+			"name":"Más que Dios",
 			"value":"0.25",
 			"attrType":"defence",
 			"relationIds":[
@@ -15215,7 +15215,7 @@
 			"ID":"161658",
 			"type":16,
 			"yuanType":"and",
-			"name":"极限突破",
+			"name":"Transformar",
 			"value":"0.28",
 			"attrType":"spirit",
 			"relationIds":[
@@ -15226,7 +15226,7 @@
 			"ID":"161659",
 			"type":16,
 			"yuanType":"and",
-			"name":"随君出征",
+			"name":"Champa",
 			"value":"0.45",
 			"attrType":"defence",
 			"relationIds":[
@@ -15259,7 +15259,7 @@
 			"ID":"161662",
 			"type":16,
 			"yuanType":"and",
-			"name":"相辅相成",
+			"name":"Maestro Roshi (100% de Poder)",
 			"value":"0.7",
 			"attrType":"hp",
 			"relationIds":[
@@ -15270,7 +15270,7 @@
 			"ID":"161663",
 			"type":16,
 			"yuanType":"or",
-			"name":"黑色大衣",
+			"name":"Abrigo Negro",
 			"value":"0.24",
 			"attrType":"defence",
 			"relationIds":[
@@ -15281,7 +15281,7 @@
 			"ID":"161664",
 			"type":16,
 			"yuanType":"or",
-			"name":"超人腰带",
+			"name":"Cinturón de Superman",
 			"value":"0.23",
 			"attrType":"attack",
 			"relationIds":[
@@ -15292,7 +15292,7 @@
 			"ID":"161665",
 			"type":16,
 			"yuanType":"or",
-			"name":"黑色皮鞋",
+			"name":"Zapatos Negros",
 			"value":"0.26",
 			"attrType":"defence",
 			"relationIds":[
@@ -15303,7 +15303,7 @@
 			"ID":"161666",
 			"type":16,
 			"yuanType":"or",
-			"name":"闪时",
+			"name":"Salto Tiempo",
 			"value":"0.25",
 			"attrType":"attack",
 			"relationIds":[
@@ -15314,7 +15314,7 @@
 			"ID":"161667",
 			"type":16,
 			"yuanType":"and",
-			"name":"轻松制胜",
+			"name":"Victoria Facil",
 			"value":"0.26",
 			"attrType":"attack",
 			"relationIds":[
@@ -15326,7 +15326,7 @@
 			"ID":"161668",
 			"type":16,
 			"yuanType":"and",
-			"name":"随君出征",
+			"name":"Champa",
 			"value":"0.26",
 			"attrType":"defence",
 			"relationIds":[
@@ -15337,7 +15337,7 @@
 			"ID":"161669",
 			"type":16,
 			"yuanType":"or",
-			"name":"彩色服饰",
+			"name":"Equipamiento de Color",
 			"value":"0.3",
 			"attrType":"defence",
 			"relationIds":[
@@ -15348,7 +15348,7 @@
 			"ID":"161670",
 			"type":16,
 			"yuanType":"or",
-			"name":"黄色袖套",
+			"name":"Mangas Amarillas",
 			"value":"0.25",
 			"attrType":"attack",
 			"relationIds":[
@@ -15359,7 +15359,7 @@
 			"ID":"161671",
 			"type":16,
 			"yuanType":"or",
-			"name":"彩色皮鞋",
+			"name":"Zapatos de Color",
 			"value":"0.3",
 			"attrType":"defence",
 			"relationIds":[
@@ -15370,7 +15370,7 @@
 			"ID":"161672",
 			"type":16,
 			"yuanType":"or",
-			"name":"全王之怒",
+			"name":"Furia de Zen'ô",
 			"value":"0.25",
 			"attrType":"attack",
 			"relationIds":[
@@ -15381,7 +15381,7 @@
 			"ID":"161673",
 			"type":16,
 			"yuanType":"and",
-			"name":"统治宇宙",
+			"name":"Decisión",
 			"value":"0.25",
 			"attrType":"attack",
 			"relationIds":[
@@ -15404,7 +15404,7 @@
 			"ID":"161675",
 			"type":16,
 			"yuanType":"and",
-			"name":"王的仆人",
+			"name":"Boss",
 			"value":"0.4",
 			"attrType":"attack",
 			"relationIds":[
@@ -15415,7 +15415,7 @@
 			"ID":"161676",
 			"type":16,
 			"yuanType":"and",
-			"name":"攻守兼备",
+			"name":"Experto",
 			"value":"0.37",
 			"attrType":"attack",
 			"relationIds":[
@@ -15426,7 +15426,7 @@
 			"ID":"161677",
 			"type":16,
 			"yuanType":"and",
-			"name":"如虎添翼",
+			"name":"Asistencia",
 			"value":"0.33",
 			"attrType":"attack",
 			"relationIds":[
@@ -15437,7 +15437,7 @@
 			"ID":"161678",
 			"type":16,
 			"yuanType":"and",
-			"name":"血之源泉",
+			"name":"Origen de la Sangre",
 			"value":"0.5",
 			"attrType":"hp",
 			"relationIds":[
@@ -15448,7 +15448,7 @@
 			"ID":"161679",
 			"type":16,
 			"yuanType":"and",
-			"name":"缘来似水",
+			"name":"Margen del Agua",
 			"value":"0.5",
 			"attrType":"hp",
 			"relationIds":[
@@ -15459,7 +15459,7 @@
 			"ID":"161680",
 			"type":16,
 			"yuanType":"and",
-			"name":"缘来似水",
+			"name":"Margen del Agua",
 			"value":"0.4",
 			"attrType":"defence",
 			"relationIds":[
@@ -15470,7 +15470,7 @@
 			"ID":"161681",
 			"type":16,
 			"yuanType":"and",
-			"name":"铜墙铁壁",
+			"name":"Muro de Acero",
 			"value":"0.4",
 			"attrType":"defence",
 			"relationIds":[
