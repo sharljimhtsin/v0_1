@@ -580,7 +580,8 @@ var _platformIdCode = {
     "gtsinaios": 148,
     "usadzb": 149,
     "usaezb": 150,
-    "usaaoffnew": 151
+    "usaaoffnew": 151,
+    "iosOfficial": 152
 };
 /**
  *  平台ID码

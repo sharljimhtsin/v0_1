@@ -92,6 +92,7 @@ function start(postData,response,query) {
         case "p91":
             checkFn = require("../controller/uc").check;
             break;
+        case "iosOfficial":
         case "ios":
             checkFn = require("../controller/ios").check;
             break;

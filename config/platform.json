@@ -16,11 +16,14 @@
         "appId":111811,
         "appKey":"2d6314fb2a925ac691a81be62195aa224ea80d03a06605e6"
     },
-    "ios":{
-        "country":"d"
+    "ios": {
+        "country": "d"
     },
-    "gtsinaapp":{
-        "country":"d"
+    "gtsinaapp": {
+        "country": "d"
+    },
+    "iosOfficial": {
+        "country": "d"
     },
     "pp":{
         "country":"c",

@@ -68,7 +68,7 @@ var _time = 0;
 var _platformList = {
     "android": ["a91", "a360", "anzhi", "baidu", "dcn", "sina", "ucweb", "wandoujia", "xiaomi", "yyh", "kk", "anfan", "wyx", "gtsinaa"],//兼容三個版本文件從同一個服務器取的問題。
     "p91": ["p91", "pp", "ppzs", "tb", "ky", "haima", "itools"],
-    "ios": ["ios", "gtsinaapp", "gtsinaios"],//兼容三個版本文件從同一個服務器取的問題。
+    "ios": ["ios", "gtsinaapp", "gtsinaios", "iosOfficial"],//兼容三個版本文件從同一個服務器取的問題。
     "kingnet": ["kingnet", "sdkkingnet", "bangqu"],
     "kingnetios": ["kingnetios", "sdkkingnetios"],
     "kingnetenglish": ["kingnetenglish", "kingnetenglishoff", "kingnetly", "kyxyzs", "sdkkingnetenglish"],

@@ -124,7 +124,7 @@ function start(postData, response, query) {
             cb(err);
         });
     }, function (cb) {
-        recycleData[costData["id"]] = (costData["count"] * -1) + parseInt(recycleData[costData["id"]]);
+        recycleData[costData["id"]] = (costData["count"] * -1) + parseInt(recycleData.hasOwnProperty(costData["id"]) ? recycleData[costData["id"]] : 0);
         mongoStats.expendStats(costData["id"], userUid, "127.0.0.1", userObj, mongoStats.UPSTAR2, costData["count"]);
         var ids = Object.keys(recycleData);
         async.eachSeries(ids, function (id, eaCb) {
