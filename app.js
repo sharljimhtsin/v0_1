@@ -16,36 +16,34 @@ var masterPort = childArgv[1];
 var mConfigPath = require.resolve("./appConfig.json");
 var fs = require("fs");
 require("./code/alien/log/console");//載入自定義日志
-
-server.setPath(path.resolve(mConfigPath,'../code/'));
+var noConcurrencyList = {};
+server.setPath(path.resolve(mConfigPath, '../code/'));
 server.setConfig(appConfig);
-if(fs.existsSync("./cron")){
-    var serverlist = fs.readFileSync("./cron","utf8").split(",");
-    serverlist.pop();
+if (fs.existsSync("./cron")) {
+    var serverList = fs.readFileSync("./cron", "utf8").split(",");
+    serverList.pop();
     var cron = require("./code/utils/Cron");
-    for(var i in serverlist){
-        cron.addSever(serverlist[i]);
+    for (var i in serverList) {
+        cron.addSever(serverList[i]);
     }
     require("./code/model/bloodReward");
 }
-process["httpServer"] = server.start(isWork, masterPort);
+process["httpServer"] = server.start(isWork, masterPort, noConcurrencyList);
 
 //进程出错时处理
 if (cluster.isWorker) {
-    process.on('uncaughtException', function(err) {
+    process.on('uncaughtException', function (err) {
         console.error(err.stack);
         cluster.worker.disconnect();
     });
 
-
-    cluster.worker.on('disconnect', function() {
+    cluster.worker.on('disconnect', function () {
         // 工作进程断开了连接
-        setTimeout(function() {
+        setTimeout(function () {
             process.exit(1);
         }, 30000);
     });
 }
-
 
 
 //是否是子进程

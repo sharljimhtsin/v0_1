@@ -580,8 +580,8 @@
 				"45":[{"id":"ingot","count":1088}]
 			}
 		},
-		"orderPractice":["eatBean","signIn","daily","enegyBall","monthCard","monopoly","teach","worldBossTeach","bejeweled"],
-		"orderActivity":["luckyConvert","blackSmith","cashCow","limitSummon","practiceCross","fire","scratch","morphPromo","wheel","tribute","messiah","gemCompose","smashEgg","regress","dailyMustRecharge","forge","cosmosEvaluation","rechargeRanking","consumeRanking","doubleFeast","groupPurchase","groupPurchase2","scoreMall","timeLimitActivity","finPlanNewUser","achievement","financialPlan","redRibbon","vitality","luckySeven","costListActivity","alchemy","vipActivity","totalRecharge","dailyTotalRecharge","totalConsume","dailyTotalConsume","oneRecharge","oneRecharge2","oneRecharge3","oneRecharge4","levelUpReward","ctLogin","timeLimitShop","fund","growSign","dailyConsume","review"],
+		"orderPractice":["catalyst","eatBean","signIn","daily","enegyBall","monthCard","monopoly","bahamutWish","teach","worldBossTeach","bejeweled"],
+		"orderActivity":["luckyConvert","blackSmith","cashCow","limitSummon","practiceCross","fire","scratch","morphPromo","wheel","tribute","messiah","gemCompose","smashEgg","regress","dailyMustRecharge","forge","cosmosEvaluation","rechargeRanking","consumeRanking","doubleFeast","groupPurchase","groupPurchase2","scoreMall","timeLimitActivity","finPlanNewUser","achievement","financialPlan","redRibbon","vitality","luckySeven","costListActivity","alchemy","vipActivity","totalRecharge","dailyTotalRecharge","totalConsume","dailyTotalConsume","oneRecharge","oneRecharge2","oneRecharge3","oneRecharge4","levelUpReward","ctLogin","timeLimitShop","fund","growSign","dailyConsume","review","paradiseSearch","practiceEndorse"],
 		"financialPlanNewUser":{
 			"price":1000,
 			"days":3,

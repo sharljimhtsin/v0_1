@@ -253,6 +253,7 @@
 			}
 		},
 		"experienceOpen":7,
+		"recycleOpen":7,
 		"patchLootProb":0.2,
 		"patchLootProbReduce":0.005,
 		"equipSaleRatio":0.0133,

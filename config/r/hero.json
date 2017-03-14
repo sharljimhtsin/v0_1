@@ -4427,8 +4427,8 @@
 		},
 		"104110":{
 			"ID":"104110",
-			"name":"孙悟空(超赛神)",
-			"des":"孙悟空变成超级赛亚人神的形态",
+			"name":"Goku SS Azul",
+			"des":"Goku en la forma de Super Saiyajin Dios Super Saiyajin",
 			"type":10,
 			"atlasShow":0,
 			"talentSkill":"114093",
@@ -4468,8 +4468,8 @@
 		},
 		"104111":{
 			"ID":"104111",
-			"name":"贝吉塔(超赛神)",
-			"des":"贝吉塔变成超级赛亚人神的形态",
+			"name":"Vegeta SS Azul",
+			"des":"Vegeta en la forma de Super Saiyajin Dios Super Saiyanjin",
 			"type":10,
 			"atlasShow":0,
 			"talentSkill":"114092",
@@ -5099,6 +5099,43 @@
 			"yuan":[
 				"161680",
 				"161681"
+			]
+		},
+		"104127":{
+			"ID":"104127",
+			"name":"Monaca",
+			"des":"El guerrero más poderoso del universo, jaja",
+			"type":10,
+			"atlasShow":0,
+			"talentSkill":"114004",
+			"baseExp":144,
+			"star":99,
+			"frame":99,
+			"handId":"common",
+			"attack":23,
+			"defence":24,
+			"hp":23,
+			"spirit":545,
+			"attackAdd":1,
+			"defenceAdd":1,
+			"hpAdd":1,
+			"spiritAdd":18,
+			"crit":0,
+			"tough":0,
+			"dodge":0,
+			"hit":0,
+			"break":0,
+			"preventBreak":0,
+			"critDamage":12500,
+			"retreatType":"dodge",
+			"retreatBase":42,
+			"retreatAdd":8,
+			"soulCount":30, 
+			"potential":0,
+			"potentialAdd":20, 
+			"yuan":[
+				"160124",
+				"160129"
 			]
 		},
 		"103001":{

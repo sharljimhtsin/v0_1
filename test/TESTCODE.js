@@ -240,7 +240,7 @@ var a = '[111,222]';
 var aObj = JSON.parse(a);
 console.log(aObj);
 console.log(aObj[0]);
-console.log(bitUtil.parseUserUid("39896220097"));
+console.log(bitUtil.parseUserUid("38671485006"));
 var product_id = "0000001111";
 console.log(product_id.indexOf("5"));
 return;

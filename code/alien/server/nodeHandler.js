@@ -11,11 +11,8 @@ var Log = require("../log/Log");
 function start(filePath, response, query, postData, request) {
     var jsPath = filePath + ".js";
     var isExists = fs.existsSync(jsPath);
-
-
     if (isExists) {
         var module = require(filePath + ".js");
-
         if (module.start != null) {
             module.start(postData, response, query);
         }

@@ -5101,6 +5101,43 @@
 				"161681"
 			]
 		},
+		"104127":{
+			"ID":"104127",
+			"name":"莫纳卡",
+			"des":"The morst powerful fighter in the universe,haha",
+			"type":10,
+			"atlasShow":0,
+			"talentSkill":"114004",
+			"baseExp":144,
+			"star":99,
+			"frame":99,
+			"handId":"common",
+			"attack":23,
+			"defence":24,
+			"hp":23,
+			"spirit":545,
+			"attackAdd":1,
+			"defenceAdd":1,
+			"hpAdd":1,
+			"spiritAdd":18,
+			"crit":0,
+			"tough":0,
+			"dodge":0,
+			"hit":0,
+			"break":0,
+			"preventBreak":0,
+			"critDamage":12500,
+			"retreatType":"dodge",
+			"retreatBase":42,
+			"retreatAdd":8,
+			"soulCount":30, 
+			"potential":0,
+			"potentialAdd":20, 
+			"yuan":[
+				"160124",
+				"160129"
+			]
+		},
 		"103001":{
 			"ID":"103001",
 			"name":"โกฮัง",

@@ -14,34 +14,35 @@ var serverConfig;
  * @param config 服务器的配置 侦听端口，路径等
  * @param handle 处理器,对于某些路径需要单独处理函数的情况
  */
-function start(isWork, masterPort) {
+function start(isWork, masterPort, noConcurrencyList) {
     var config = serverConfig;
-	function onRequest(request,response) {
-		var urlParse = url.parse(request.url,true);
-		var pathname = urlParse.pathname;
-		var query = urlParse.query;
 
-        if(query["uploadMode"] == "upload") { //如果前端有uploadMode标记，则读取要上传的文件
+    function onRequest(request, response) {
+        var urlParse = url.parse(request.url, true);
+        var pathname = urlParse.pathname;
+        var query = urlParse.query;
+
+        if (query["uploadMode"] == "upload") { //如果前端有uploadMode标记，则读取要上传的文件
             var form = new formidable.IncomingForm();
-            form.parse(request, function(error, fields, files) {
+            form.parse(request, function (error, fields, files) {
                 var postData = {};
-                for(var dataKey in query) {
+                for (var dataKey in query) {
                     postData[dataKey] = query[dataKey];
                 }
                 postData['files'] = files;
-
-                router.route(pathname,response,query,postData,request);
+                router.route(pathname, response, query, postData, request);
             });
         } else {
-            _getPostObj(request,query, function(postData) {
+            _getPostObj(request, query, function (postData) {
                 var ip = getClientIp(request);
                 ip = ip.split(",")[0];
                 query["clientIp"] = ip;
                 query["isIOS"] = isIOS(request);
-                router.route(pathname, response, query, postData, request);
+                router.route(pathname, response, query, postData, request, noConcurrencyList);
             });
-		}
-	}
+        }
+    }
+
     var httpServer = http.createServer(onRequest);//创建服务器
     httpServer.timeout = 20000;
     if (isWork == true) {
@@ -55,18 +56,18 @@ function start(isWork, masterPort) {
 }
 
 //取得post上来的数据
-function _getPostObj(request,query,fn) {
+function _getPostObj(request, query, fn) {
     var postDataStr = '';
     var postData = null;
     request.setEncoding("utf8");
 
-    request.addListener("data", function(postDataChunk) {
+    request.addListener("data", function (postDataChunk) {
         postDataStr += postDataChunk;
     });
 
-    request.addListener("end", function() {
+    request.addListener("end", function () {
         if (postDataStr != "") {
-            postDataStr = postDataStr.replace(/\'/g,"");
+            postDataStr = postDataStr.replace(/\'/g, "");
             var postDataObj = qs.parse(postDataStr);
 
             if (serverConfig["server"]["postData"] === "json") { //如果postData设置为json则取post中的data为post数据，忽略其它
@@ -85,7 +86,7 @@ function _getPostObj(request,query,fn) {
             } else {
                 postData = postDataObj;
             }
-        } else if(serverConfig["server"]["isDebug"] === true) {//debug模式下把get请求中的postData的参数转成post数据
+        } else if (serverConfig["server"]["isDebug"] === true) {//debug模式下把get请求中的postData的参数转成post数据
             if (query["postData"] != null) {
                 var queryDataStr = query["postData"];
                 queryDataStr = queryDataStr.replace(/\'/g, "");
@@ -116,11 +117,11 @@ function getClientIp(req) {
         req.connection.remoteAddress ||
         req.socket.remoteAddress ||
         req.connection.socket.remoteAddress;
-};
+}
 
 function isIOS(req) {
     return req.headers['user-agent'] ? (req.headers['user-agent'].indexOf("Mac OS X") != -1) : false;
-};
+}
 
 /**
  * 设置服务器配置

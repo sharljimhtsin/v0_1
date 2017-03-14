@@ -66,7 +66,7 @@ var _time = 0;
  * 德语-"ger"，法语-"fra"，西班牙语-"esp"，越南-"yuenan"
  */
 var _platformList = {
-    "android": ["a91", "a360", "anzhi", "baidu", "dcn", "sina", "ucweb", "wandoujia", "xiaomi", "yyh", "kk", "anfan", "wyx", "gtsinaa"],//兼容三個版本文件從同一個服務器取的問題。
+    "android": ["a91", "a360", "anzhi", "baidu", "dcn", "sina", "ucweb", "wandoujia", "xiaomi", "yyh", "kk", "anfan", "wyx", "gtsinaa", "a185"],//兼容三個版本文件從同一個服務器取的問題。
     "p91": ["p91", "pp", "ppzs", "tb", "ky", "haima", "itools"],
     "ios": ["ios", "gtsinaapp", "gtsinaios", "iosOfficial"],//兼容三個版本文件從同一個服務器取的問題。
     "kingnet": ["kingnet", "sdkkingnet", "bangqu"],
@@ -79,7 +79,7 @@ var _platformList = {
     "kythaixy": ["kythaixy"],
     "baxi": ["baxi", "baxiA", "baxiios"],
     "saiya": ["meizu", "youku", "lenovo", "i4", "xyzs"],
-    "usa": ["usa", "usaa", "usaa1", "usagp", "usaaoff", "usausa", "usaglobal", "usaaoffIns", "usaazb", "usabzb", "usaczb", "usadzb", "usaezb", "usaaoffnew"],
+    "usa": ["usa", "usaa", "usaa1", "usagp", "usaaoff", "usausa", "usaglobal", "usaaoffIns", "usaazb", "usabzb", "usaczb", "usadzb", "usaezb", "usaaoffnew", "usafzb"],
     "leju": ["ljxyzs", "ljoppo", "ljmi", "ljxiongmao", "lj360", "ljhtc", "ljlenovo", "ljmeizu", "ljguopan", "ljguopana", "ljguopani", "ljhuawei", "ljkuaiyong", "ljxiaomi", "ljyoulu", "ljtbt", "ljjinli", "ljwdj", "ljitools", "ljhaimai", "ljhaimaa", "ljvivo", "ljanzhi"],
     "yuenan": ["yuenan", "yuenanlumi"],
     "ger": ["ger", "gera", "gergp"],

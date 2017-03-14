@@ -65,5 +65,6 @@
 {"url":"gravityTrain.json","type":"json","name":"gravityTrain","key":"3eb7518aaed2d5d52969e50df4467f23"},
 {"url":"push.json","type":"json","name":"push","key":"171e02a14950ebb29a05352f54f1dd87"},
 {"url":"gem.json","type":"json","name":"gem","key":"b27cb7bea970e6388f0b712c80c07248"},
+{"url":"dragonBuff.json","type":"json","name":"dragonBuff","key":"xxxx"},
 {"url":"cosmosBoss.json","type":"json","name":"cosmosBoss","key":"02e48dad78d37990329338378ce0bac4"}
 ]

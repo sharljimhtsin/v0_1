@@ -401,12 +401,14 @@ function getUserTeamDataByUserId(userUid,userData,listData,callBackFun){//listHe
             for (var key in tmpObj) {
                 returnHero[key] += tmpObj[key];
             }
-        } else if (starEquipList && starEquipList.hasOwnProperty(formationHero["equip2"])) {
+        }
+        if (starEquipList && starEquipList.hasOwnProperty(formationHero["equip2"])) {
             var tmpObj = starEquipList[formationHero["equip2"]];
             for (var key in tmpObj) {
                 returnHero[key] += tmpObj[key];
             }
-        } else if (starEquipList && starEquipList.hasOwnProperty(formationHero["equip3"])) {
+        }
+        if (starEquipList && starEquipList.hasOwnProperty(formationHero["equip3"])) {
             var tmpObj = starEquipList[formationHero["equip3"]];
             for (var key in tmpObj) {
                 returnHero[key] += tmpObj[key];
@@ -421,12 +423,14 @@ function getUserTeamDataByUserId(userUid,userData,listData,callBackFun){//listHe
             for (var key in tmpObj) {
                 returnHero[key] += tmpObj[key];
             }
-        } else if (starEquipRefineList && starEquipRefineList.hasOwnProperty(formationHero["equip2"])) {
+        }
+        if (starEquipRefineList && starEquipRefineList.hasOwnProperty(formationHero["equip2"])) {
             var tmpObj = starEquipRefineList[formationHero["equip2"]];
             for (var key in tmpObj) {
                 returnHero[key] += tmpObj[key];
             }
-        } else if (starEquipRefineList && starEquipRefineList.hasOwnProperty(formationHero["equip3"])) {
+        }
+        if (starEquipRefineList && starEquipRefineList.hasOwnProperty(formationHero["equip3"])) {
             var tmpObj = starEquipRefineList[formationHero["equip3"]];
             for (var key in tmpObj) {
                 returnHero[key] += tmpObj[key];

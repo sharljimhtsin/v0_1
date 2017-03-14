@@ -67,5 +67,6 @@
 {"url":"push.json","type":"json","name":"push","key":"171e02a14950ebb29a05352f54f1dd87"},
 {"url":"gem.json","type":"json","name":"gem","key":"b27cb7bea970e6388f0b712c80c07248"},
 {"url":"starCraft.json","type":"json","name":"starCraft","key":"xxxx"},
+{"url":"equipXiaohang.json","type":"json","name":"equipXiaohang","key":"xxxx"},
 {"url":"cosmosBoss.json","type":"json","name":"cosmosBoss","key":"02e48dad78d37990329338378ce0bac4"}
 ]

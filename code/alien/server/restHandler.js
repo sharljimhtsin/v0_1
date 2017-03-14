@@ -5,7 +5,7 @@ var fs = require("fs");
 var Log = require("../log/Log");
 var jutil = require("../../utils/jutil");
 
-function start(filePath, restConfig, response, query, postData, request) {
+function start(filePath, restConfig, response, query, postData, request, noConcurrencyList) {
     var ip = request.headers['x-forwarded-for'] ||
         request.connection.remoteAddress ||
         request.socket.remoteAddress || "127.0.0.1";
@@ -19,7 +19,7 @@ function start(filePath, restConfig, response, query, postData, request) {
         response.write("Please use the method");
         response.end();
     } else {
-        var timeOut = setTimeout(function(){
+        var timeOut = setTimeout(function () {
             var userUid = "";
             if (query != null && query["userUid"] != null) {
                 userUid = query["userUid"];
@@ -53,17 +53,22 @@ function start(filePath, restConfig, response, query, postData, request) {
                                 response.writeHead(200, {'Content-Type': 'text/plain'});
                                 response.write("method not exist!");
                                 response.end();
+                            } else if (noConcurrencyList.hasOwnProperty(query["method"] + query["userUid"])) {
+                                response.writeHead(200, {'Content-Type': 'text/plain'});
+                                response.write("server is busy!");
+                                response.end();
                             } else {
-                                res.start(postData, new PackageResponse(response, queryMethod, postData, query, request), query);
+                                res.start(postData, new PackageResponse(response, queryMethod, postData, query, request), query, noConcurrencyList);
                             }
                         });
                     } else {
                         clearTimeout(timeOut);
                         response.writeHead(200, {'Content-Type': 'text/plain'});
-                        if(query != '' && query["callback"] != undefined)
-                            response.write(query["callback"]+'('+res+')');
-                        else
+                        if (query && query["callback"] != undefined) {
+                            response.write(query["callback"] + '(' + res + ')');
+                        } else {
                             response.write(res);
+                        }
                         response.end();
                     }
                 });
@@ -91,13 +96,8 @@ function getModule(filePath, callbackFn) {
 }
 
 function requireModule(filePath, callbackFn) {
-//    try{
     var aModule = require(filePath);
     callbackFn(null, aModule);
-//    }catch(err){
-//        console.log("restHandler", err);
-//        callbackFn(err, null);
-//    }
 }
 
 function PackageResponse(response, queryMethod, postData, query, request) {
@@ -119,7 +119,7 @@ function PackageResponse(response, queryMethod, postData, query, request) {
     if (this.query != null && this.query["token"] != null) {
         token = this.query["token"];
     }
-    this.timeOut = setTimeout(function(){
+    this.timeOut = setTimeout(function () {
         var echoData = {};
         echoData[queryMethod] = {"ERROR": "serverTimeout", "info": "server Timeout"};
         response.end(JSON.stringify(echoData), "utf-8");
@@ -157,9 +157,8 @@ PackageResponse.prototype.echo = function (name, data) {
     this.response.writeHead(200, {"Content-Type": "text/plain", "charset": "utf-8"});
 //    this.response.write(JSON.stringify(echoData));
     var respnoseString = JSON.stringify(echoData);
-    //console.log(respnoseString);
-    if(this.query != '' && this.query.callback != undefined)
-        this.response.end(this.query.callback+'('+respnoseString+')', "utf-8");
+    if (this.query && this.query.callback != undefined)
+        this.response.end(this.query.callback + '(' + respnoseString + ')', "utf-8");
     else
         this.response.end(respnoseString, "utf-8");
     var mResponseTime = Date.now() - this.time;
@@ -179,22 +178,19 @@ PackageResponse.prototype.echo = function (name, data) {
             logObj["heroGetExp"] = data["heroGetExp"];
             logObj["drop"] = data["drop"];
             respnoseString = JSON.stringify(logObj);
-        } //battle.pvp
+        }
 
         Log.sys("responseTime", this.ip, this.queryMethod, mResponseTime, userUid, this.postData, respnoseString);
     } else {
         Log.sys("responseTime", this.ip, this.queryMethod, mResponseTime, userUid, this.postData, "......");
     }
-}
-
+};
 
 
 PackageResponse.prototype.echoString = function (name, stringData) {
     var echoData = '{"' + name + '" :' + stringData + '}';
     this.response.writeHead(200, {"Content-Type": "text/plain"});
-//    this.response.write(echoData);
     this.response.end(echoData, "utf-8");
-
     var mResponseTime = Date.now() - this.time;
     var userUid = "";
     if (this.query != null && this.query["userUid"] != null) {
@@ -202,50 +198,6 @@ PackageResponse.prototype.echoString = function (name, stringData) {
     }
     clearTimeout(this.timeOut);
     Log.sys("responseTime", this.ip, this.queryMethod, mResponseTime, userUid, this.postData, "......");
-
-}
-
-
-//
-//
-//
-//
-//
-//
-//
-//
-//function _start(modulePath,checkTokenFn,query,postData,response)
-//{
-//    var mUserId = query["userId"];
-//    var mToken = query["token"];
-//    if(mToken != null && mToken != null)
-//    {
-//        checkTokenFn(mUserId,mToken,function(isSuccess){
-//            if(isSuccess) {
-//                try{
-//                    var aAPI = require("../" + modulePath);
-//                }catch(err){
-//                    jutil.echoError("method_error",response);
-//                    return;
-//                }
-//                aAPI.start(postData,response,mUserId);
-//            }else{
-//                jutil.echoError("token.invalid",response);
-//            }
-//        });
-//    }else if(query["method"] == "user.getToken"){
-//        try{
-//            var aAPI = require("../" + modulePath);
-//        }catch(err){
-//            console.log(err);
-//            jutil.echoError("method_error",response);
-//            return;
-//        }
-//        aAPI.start(postData,response,mUserId);
-//    }else{
-//        jutil.echoError("need_token_and_userId",response);
-//    }
-//}
-
+};
 
 exports.start = start;

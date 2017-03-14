@@ -73,5 +73,6 @@
     {"url":"dragonBuff.json","type":"json","name":"dragonBuff","key":"xxxx"},
     {"url":"YffCharge.json","type":"json","name":"YffCharge","key":"xxxx"},
     {"url":"heroStar.json","type":"json","name":"heroStar","key":"xxxx"},
-    {"url":"pvpRankCross.json","type":"json","name":"pvpRankCross","key":"xxxx"}
+    {"url":"pvpRankCross.json","type":"json","name":"pvpRankCross","key":"xxxx"},
+    {"url":"nobility.json","type":"json","name":"nobility","key":"xxxx"}
 ]

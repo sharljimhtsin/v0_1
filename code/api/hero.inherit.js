@@ -21,10 +21,13 @@ var userVariable = require("../model/userVariable");
 var gal = require("../model/gallants");//巡游活动
 var upStar = require("../model/upStar");
 var modelUtil = require("../model/modelUtil");
+var fs = require('fs');
 
 
-function start(postData, response, query) {
+function start(postData, response, query, noConcurrencyList) {
+    noConcurrencyList[query["method"] + query["userUid"]] = "1";
     if (jutil.postCheck(postData, "itemId", "heroUid", "targetHeroUid") == false) {
+        delete noConcurrencyList[query["method"] + query["userUid"]];
         response.echo("hero.inherit", jutil.errorInfo("postError"));
         return;
     }
@@ -37,6 +40,7 @@ function start(postData, response, query) {
     var itemConfig = configData.getConfig("item");
     var inheritItemConfig = itemConfig[itemId];
     if (inheritItemConfig == null || inheritItemConfig["itemType"] != 8) { //无效道具
+        delete noConcurrencyList[query["method"] + query["userUid"]];
         response.echo("hero.inherit", jutil.errorInfo("configError"));
         return;
     }
@@ -82,30 +86,33 @@ function start(postData, response, query) {
         },
         function (cb) { //验证是否有传功丹
             itemModel.getItem(userUid, itemId, function (err, res) {
-                if (err) cb("dbError");
-                else {
+                if (err) {
+                    cb("dbError");
+                } else {
                     var itemData = res;
                     if (itemData == null || itemData["number"] < 1) {
                         cb("noItem");
                     } else {
-                        cb(null);
+                        cb();
                     }
                 }
             });
         },
         function (cb) { //取user最高等级
             user.getUser(userUid, function (err, res) {
-                if (err || res == null) cb("dbError");
-                else {
+                if (err || res == null) {
+                    cb("dbError");
+                } else {
                     gUserData = res;
-                    cb(null);
+                    cb();
                 }
             });
         },
         function (cb) { //验证散功的hero 不存在编队中
             formation.getUserFormation(userUid, function (err, res) {
-                if (err) cb("dbError");
-                else {
+                if (err) {
+                    cb("dbError");
+                } else {
                     var formationList = res;
                     var isBreak = false;
                     for (var key in formationList) {
@@ -114,17 +121,22 @@ function start(postData, response, query) {
                             break;
                         }
                     }
-                    if (isBreak) cb("canNotInherited");
-                    else cb(null);
+                    if (isBreak) {
+                        cb("canNotInherited");
+                    } else {
+                        cb();
+                    }
                 }
             });
         },
         function (cb) { //取得巡游列表，防止编队中的hero被融合
             gal.getUserData(userUid, function (err, res) {
-                if (err || res == null) cb("dbError");
-                else {
-                    if (res["arg"] == undefined)cb(null);
-                    else {
+                if (err || res == null) {
+                    cb("dbError");
+                } else {
+                    if (res["arg"] == undefined) {
+                        cb();
+                    } else {
                         var galList = res["arg"];
                         for (var a in galList) {
                             for (var b in galList[a]) {
@@ -132,17 +144,19 @@ function start(postData, response, query) {
                                 galHeroIdList.push(mItem["heroId"]);
                             }
                         }
-                        cb(null);
+                        cb();
                     }
                 }
             });
         },
         function (cb) {//巡游
             hero.getHero(userUid, function (err, res) {
-                if (err || res == null) cb("dbError");
-                else {
-                    if (galHeroIdList == null)cb(null);
-                    else {
+                if (err || res == null) {
+                    cb("dbError");
+                } else {
+                    if (galHeroIdList == null) {
+                        cb();
+                    } else {
                         var isBreak = false;
                         for (var k in res) {
                             for (var i in galHeroIdList) {
@@ -155,8 +169,11 @@ function start(postData, response, query) {
                                 }
                             }
                         }
-                        if (isBreak) cb("canNotInherited");
-                        else cb(null);
+                        if (isBreak) {
+                            cb("canNotInherited");
+                        } else {
+                            cb();
+                        }
                     }
                 }
             });
@@ -174,15 +191,19 @@ function start(postData, response, query) {
                             break;
                         }
                     }
-                    if (isBreak) cb("canNotInherited");
-                    else cb(null);
+                    if (isBreak) {
+                        cb("canNotInherited");
+                    } else {
+                        cb();
+                    }
                 }
             });
         },
         function (cb) { //取hero
             hero.getHero(userUid, function (err, res) {
-                if (err) cb("dbError");
-                else {
+                if (err) {
+                    cb("dbError");
+                } else {
                     var heroList = res;
                     var heroData = heroList[heroUid]; //散功hero数据
                     var targetHeroData = heroList[targetHeroUid]; //接受经验hero数据
@@ -238,7 +259,7 @@ function start(postData, response, query) {
                         gTargetHeroNewExp = targetHeroNewExp;
                         gTargetHeroNewLevel = targetHeroNewLevel;
                         gTargetHeroBreak = targetHeroBreak;
-                        cb(null);
+                        cb();
                     }
                 }
             });
@@ -250,7 +271,7 @@ function start(postData, response, query) {
         },
         function (cb) { //更改传功丹数据
             itemModel.updateItem(userUid, itemId, -1, function (err, res) {
-                var userIP = '127.0.0.1';//response.response.socket.remoteAddress;
+                var userIP = '127.0.0.1';
                 mongoStats.expendStats(itemId, userUid, userIP, gUserData, mongoStats.INHERIT, 1);
                 cb(err);
             });
@@ -263,11 +284,11 @@ function start(postData, response, query) {
                     else {
                         mongoStats.dropStats("150901", userUid, "127.0.0.1", gUserData, mongoStats.INHERIT, returnedTrainedItem, 1);
                         returnedTrainItemData = res;
-                        cb(null);
+                        cb();
                     }
                 });
             } else {
-                cb(null);
+                cb();
             }
         },
         function (cb) { //更新目标hero 的经验和等级
@@ -277,9 +298,10 @@ function start(postData, response, query) {
                 "break": gTargetHeroBreak,
                 "potential": gPotential
             }, function (err, res) {
-                if (err) cb("dbError");
-                else {
-                    cb(null);
+                if (err) {
+                    cb("dbError");
+                } else {
+                    cb();
                 }
             });
         },
@@ -288,7 +310,7 @@ function start(postData, response, query) {
                 if (err) {
                     cb(err);
                 } else if (res == null) {
-                    cb(null);
+                    cb();
                 } else {
                     gravityData = res;
                     gravity.getHeroData(userUid, targetHeroUid, function (err, res) {
@@ -297,10 +319,10 @@ function start(postData, response, query) {
                             cb(err);
                         } else if (res["bigVigour"] < gravityData["bigVigour"] || (res["bigVigour"] == gravityData["bigVigour"] && res["vigour"] < gravityData["vigour"])) {
                             gravityData["heroUid"] = targetHeroUid;
-                            cb(null);
+                            cb();
                         } else {
                             gravityData = null;
-                            cb(null);
+                            cb();
                         }
                     });
                 }
@@ -313,12 +335,12 @@ function start(postData, response, query) {
                         cb(err);
                     } else {
                         gravity.delHeroData(userUid, [heroUid], function (err, res) {
-                            cb(null);
+                            cb();
                         });
                     }
                 });
             } else {
-                cb(null);
+                cb();
             }
         },
         function (cb) {//更新指点
@@ -331,28 +353,30 @@ function start(postData, response, query) {
                             cb(err);
                         else {
                             returnedTeachData.push(res);
-                            if (returnedTeachData.length == length)
-                                cb(null);
+                            if (returnedTeachData.length == length) {
+                                cb();
+                            }
                         }
                     });
                 }
             } else {
-                cb(null);
+                cb();
             }
         },
         function (cb) {//更新魂魄
             if (!isNew && returnedHeroSoul) {
+                fs.appendFile('inherit.log', userUid + "\n" + heroId + "\n" + jutil.now() + "\n" + JSON.stringify(returnedHeroSoul) + "\n", 'utf8');
                 heroSoul.addHeroSoul(userUid, heroId, returnedHeroSoul, function (err, res) {
                     if (err)
                         cb(err);
                     else {
                         mongoStats.dropStats(heroId, userUid, "127.0.0.1", gUserData, mongoStats.INHERIT, returnedHeroSoul, 1);
                         returnedHeroSoulData = res;
-                        cb(null);
+                        cb();
                     }
                 });
             } else {
-                cb(null);
+                cb();
             }
         },
         function (cb) {
@@ -396,17 +420,20 @@ function start(postData, response, query) {
             userVariable.setVariable(userUid, "inheritStatus", 0, function (a, b) {
             });
         }
-        if (err) response.echo("hero.inherit", jutil.errorInfo(err));
-        else {
+        if (err) {
+            delete noConcurrencyList[query["method"] + query["userUid"]];
+            response.echo("hero.inherit", jutil.errorInfo(err));
+        } else {
             gTargetHeroData = jutil.copyObject(gTargetHeroData);
             gTargetHeroData["exp"] = gTargetHeroNewExp;
             gTargetHeroData["level"] = gTargetHeroNewLevel;
             gTargetHeroData["break"] = gTargetHeroBreak;
             gravityData = jutil.copyObject(gravityData);
             var baseV = ["hpp", "attackp", "defencep", "spiritp"];
-            for (var j in baseV)
+            for (var j in baseV){
                 gravityData[baseV[j]] /= 10000;
-
+            }
+            delete noConcurrencyList[query["method"] + query["userUid"]];
             response.echo("hero.inherit", {
                 "newHeroData": gTargetHeroData,
                 "del": heroUid,

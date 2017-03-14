@@ -61,6 +61,11 @@
         "country":"f",
         "sinaCid":10961005
     },
+    "a185": {
+        "country": "f",
+        "SecretKey": "101f250c25ffd4bcc3c4e0b17c62422b",
+        "AppID": 267
+    },
     "gtsinaa":{
         "country":"f",
         "sinaCid":10961005
@@ -354,8 +359,12 @@
         "appKey": "9p4vj5GFR9ChvS9d"
     },
     "usaaoffnew": {
-      "country": "i",
-      "appKey": "9p4vj5GFR9ChvS9d"
+        "country": "i",
+        "appKey": "9p4vj5GFR9ChvS9d"
+    },
+    "usafzb": {
+        "country": "i",
+        "appKey": "9p4vj5GFR9ChvS9d"
     },
     "sinawx": {
         "country": "f",

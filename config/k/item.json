@@ -10664,6 +10664,21 @@
 			"salePrice":0,
 			"activeId":"0",
 			"dailyUseTime":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+		},
+		"153689":{
+			"ID":"153689",
+			"type":15,
+			"name":"顽皮小丑",
+			"des":"愚人节活动道具，用于兑换稀有奖励",
+			"star":4,
+			"frame":1,
+			"itemType":36,
+			"typeValue":0,
+			"ownMaxNum":0,
+			"levelLimit":0,
+			"salePrice":0,
+			"activeId":"0",
+			"dailyUseTime":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 		}
 	}
 }

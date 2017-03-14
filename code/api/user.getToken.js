@@ -61,6 +61,7 @@ function start(postData,response,query) {
             break;
         case "a91":
         case "a360":
+        case "a185":
         case "ucweb":
         case "xiaomi":
         case "sina":
@@ -271,7 +272,7 @@ function start(postData,response,query) {
                     if(["kingnetenglishios", "kingnetenglishiosoff", "kingnetenglishoff", "kingnetly", "kyxyzs", "gnetop", "kyeniosly","kingnetenglishiosoffthai"].indexOf(platformId) != -1) {
                         platformId = "kingnetenglish";
                     }
-                    if (["usaa", "usaaoff", "usaa1", "usagp", "usausa", "usaglobal", "usaaoffIns", "usaazb", "usabzb", "usaczb", "usadzb", "usaezb", "usaaoffnew"].indexOf(platformId) != -1) {
+                    if (["usaa", "usaaoff", "usaa1", "usagp", "usausa", "usaglobal", "usaaoffIns", "usaazb", "usabzb", "usaczb", "usadzb", "usaezb", "usaaoffnew", "usafzb"].indexOf(platformId) != -1) {
                         platformId = "usa";
                     }
                     if(["yuenan", "yuenanlumi"].indexOf(platformId) != -1) {
