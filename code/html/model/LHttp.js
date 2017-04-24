@@ -83,6 +83,12 @@ Ext.define('LHttp', {
                     case 'r':
                         port = 8921;
                         break;
+                    case 's':
+                        port = 8922;
+                        break;
+                    case 't':
+                        port = 8923;
+                        break;
                 }
                 mUrl = "http://"+host+":"+port+LHttp.url+method+"&host="+host;
             }

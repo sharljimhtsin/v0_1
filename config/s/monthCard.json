@@ -3,15 +3,15 @@
     {
         "thirty":
         {
-            "ingot":300,
+            "ingot":9000,
             "payAll":30,
-            "back":{"ingot":20, "151001":2}
+            "back":{"ingot":1500, "151001":5}
         },
         "fifty":
         {
-            "ingot":500,
-            "payAll":250,
-            "back":{"ingot":50, "151001":3}
+            "ingot":45000,
+            "payAll":100,
+            "back":{"ingot":1500, "151001":5}
         }
     }
 }

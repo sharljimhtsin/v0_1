@@ -12,37 +12,35 @@
 			"reward":{
 				"3":{
 					"level":3,
-					"rewardImegga":50,
-					"rewardVipLevel":1
+					"rewardImegga":500
 				},
 				"5":{
 					"level":5,
-					"rewardImegga":60
+					"rewardImegga":600
 				},
 				"10":{	
 					"level":10,
-					"rewardImegga":100,
-					"rewardVipLevel":2
+					"rewardImegga":1000
 				},
 				"15":{
 					"level":15,
-					"rewardImegga":150
+					"rewardImegga":1500
 				},
 				"20":{
 					"level":20,
-					"rewardImegga":200
+					"rewardImegga":2000
 				},
 				"25":{
 					"level":25,
-					"rewardImegga":250
+					"rewardImegga":2500
 				},
 				"30":{
 					"level":30,
-					"rewardImegga":300
+					"rewardImegga":3000
 				},
 				"35":{
 					"level":35,
-					"rewardImegga":500				
+					"rewardImegga":5000				
 				}
 			}
 		},
@@ -543,51 +541,51 @@
 			}
 		},
 		"fund":{
-			"imeggaCost":1000,
+			"imeggaCost":9000,
 			"vipNeed":3,
 			"reward":{
-				"15":[{"id":"ingot","count":350}],
-				"20":[{"id":"ingot","count":450}],
-				"25":[{"id":"ingot","count":600}],
-				"30":[{"id":"ingot","count":700}],
-				"35":[{"id":"ingot","count":800}],
-				"40":[{"id":"ingot","count":900}],
-				"45":[{"id":"ingot","count":1088}]
+				"15":[{"id":"ingot","count":5000}],
+				"20":[{"id":"ingot","count":6000}],
+				"25":[{"id":"ingot","count":10000}],
+				"30":[{"id":"ingot","count":15000}],
+				"35":[{"id":"ingot","count":20000}],
+				"40":[{"id":"ingot","count":25000}],
+				"45":[{"id":"ingot","count":30000}]
 			}
 		},
-		"orderPractice":["eatBean","signIn","daily","enegyBall","monopoly","monthCard","teach","worldBossTeach"],
-		"orderActivity":["luckyConvert","cashCow","limitSummon","practiceCross","fire","scratch","morphPromo","wheel","tribute","messiah","gemCompose","smashEgg","regress","dailyMustRecharge","forge","cosmosEvaluation","rechargeRanking","consumeRanking","doubleFeast","groupPurchase","groupPurchase2","scoreMall","timeLimitActivity","finPlanNewUser","achievement","financialPlan","redRibbon","vitality","luckySeven","costListActivity","alchemy","vipActivity","totalRecharge","dailyTotalRecharge","totalConsume","dailyTotalConsume","oneRecharge","oneRecharge2","oneRecharge3","oneRecharge4","levelUpReward","ctLogin","timeLimitShop","fund","growSign","dailyConsume","review"],
+		"orderPractice":["quarterCard","eatBean","signIn","daily","enegyBall","monopoly","bahamutWish","monthCard","teach","worldBossTeach","practiceSlots","gallants","heheda","friend"],
+		"orderActivity":["luckyConvert","cashCow","limitSummon","practiceCross","fire","scratch","morphPromo","wheel","tribute","messiah","gemCompose","smashEgg","regress","dailyMustRecharge","forge","cosmosEvaluation","rechargeRanking","consumeRanking","doubleFeast","groupPurchase","groupPurchase2","groupPurchase3","scoreMall","timeLimitActivity","finPlanNewUser","achievement","financialPlan","redRibbon","vitality","luckySeven","costListActivity","alchemy","vipActivity","totalRecharge","dailyTotalRecharge","totalConsume","dailyTotalConsume","oneRecharge","oneRecharge2","oneRecharge3","oneRecharge4","levelUpReward","ctLogin","timeLimitShop","fund","growSign","dailyConsume","review","paradiseSearch","practiceEndorse","practiceDarker","slots"],
 		"financialPlanNewUser":{
-			"price":1000,
+			"price":9000,
 			"days":3,
 			"reward":{
 				"1":[
-					{"id":"ingot","count":188},
-					{"id":"gold","count":100000}
+					{"id":"ingot","count":1888},
+					{"id":"gold","count":1000000}
 				],
 				"2":[
-					{"id":"ingot","count":208},
-					{"id":"gold","count":100000}
+					{"id":"ingot","count":2888},
+					{"id":"gold","count":1000000}
 				],
 				"3":[
-					{"id":"ingot","count":218},
-					{"id":"gold","count":200000}
+					{"id":"ingot","count":4111},
+					{"id":"gold","count":2000000}
 				],
 				"4":[
-					{"id":"ingot","count":238},
-					{"id":"gold","count":200000}
+					{"id":"ingot","count":4888},
+					{"id":"gold","count":2000000}
 				],
 				"5":[
-					{"id":"ingot","count":268},
-					{"id":"gold","count":300000}
+					{"id":"ingot","count":6111},
+					{"id":"gold","count":3000000}
 				],
 				"6":[
-					{"id":"ingot","count":312},
-					{"id":"gold","count":300000}
+					{"id":"ingot","count":6888},
+					{"id":"gold","count":3000000}
 				],
 				"7":[
-					{"id":"ingot","count":568},
-					{"id":"gold","count":600000}
+					{"id":"ingot","count":8888},
+					{"id":"gold","count":6000000}
 				]
 			}
 		}

@@ -4,73 +4,73 @@
 			{
 				"missionType":"loginCard",
 				"completeTime":1,
-				"desc":"ล็อคอิน1ครั้ง",
+				"desc":"签到1次",
 				"addPoint":10
 			},
 			{
 				"missionType":"shake",
 				"completeTime":1,
-				"desc":"ขอพรมังกร1ครั้ง",
+				"desc":"召唤神龙1次",
 				"addPoint":5
 			},
 			{
 				"missionType":"daily",
 				"completeTime":1,
-				"desc":"ทำนายดวง1ครั้ง",
+				"desc":"占卜1次",
 				"addPoint":10
 			},
 			{
 				"missionType":"map",
 				"completeTime":5,
-				"desc":"ลงด่านชนะ5ครั้ง",
+				"desc":"闯关冒险胜利5次",
 				"addPoint":10
 			},
 			{
 				"missionType":"eatBean",
 				"completeTime":2,
-				"desc":"รับถั่วเซียนฟรี2ครั้ง",
+				"desc":"领取免费仙豆2次",
 				"addPoint":10
 			},
 			{
 				"missionType":"zillionaire",
 				"completeTime":2,
-				"desc":"เล่นทอยเต๋า2ครั้ง",
+				"desc":"在大富翁中行走2次",
 				"addPoint":5
 			},
 			{
 				"missionType":"bloodBattal",
 				"completeTime":1,
-				"desc":"ผนึกปรโลก1ครั้ง",
+				"desc":"挑战封印地狱门1次",
 				"addPoint":10
 			},
 			{
 				"missionType":"activityMap",
 				"completeTime":5,
-				"desc":"ลงดันเจี้ยน5ครั้ง",
+				"desc":"参加活动副本5次",
 				"addPoint":10
 			},
 			{
 				"missionType":"enegyBall",
 				"completeTime":5,
-				"desc":"ใช้ผลึกโซล5ชิ้น",
+				"desc":"消耗能量球5个",
 				"addPoint":10
 			},
 			{
 				"missionType":"foster",
 				"completeTime":3,
-				"desc":"ปรับจุดสหาย3ครั้ง",
+				"desc":"培养伙伴3次",
 				"addPoint":10
 			},
 			{
 				"missionType":"worldBoss",
 				"completeTime":1,
-				"desc":"ลงสังเวียนบิลส์1ครั้ง",
+				"desc":"挑战比鲁斯1次",
 				"addPoint":10
 			},
 			{
 				"missionType":"consume",
 				"completeTime":100,
-				"desc":"ใช้จ่ายสะสม100โกลด์",
+				"desc":"累计消费100伊美加币",
 				"addPoint":20
 			}
 		],
@@ -78,7 +78,7 @@
 			{
 				"needPoint":30,
 				"reward":[
-					{"id":"gold","count":20000}
+					{"id":"gold","count":200000}
 				]
 			},
 			{
@@ -96,7 +96,7 @@
 			{
 				"needPoint":90,
 				"reward":[
-					{"id":"ingot","count":30}
+					{"id":"ingot","count":300}
 				]
 			},
 			{

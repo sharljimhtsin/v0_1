@@ -65,6 +65,14 @@
 	{"url":"languageType.json","type":"json","name":"languageType","key":"xxxx"},
 	{"url":"gravityTrain.json","type":"json","name":"gravityTrain","key":"xxxx"},
 	{"url":"push.json","type":"json","name":"push","key":"xxxx"},
-    {"url":"cosmosBoss.json","type":"json","name":"cosmosBoss","key":"xxxx"}
-	
+    {"url":"gem.json","type":"json","name":"gem","key":"xxxx"},
+    {"url":"cosmosBoss.json","type":"json","name":"cosmosBoss","key":"xxxx"},
+    {"url":"morphEvolve.json","type":"json","name":"morphEvolve","key":"xxxx"},
+	{"url":"morphTransform.json","type":"json","name":"morphTransform","key":"xxxx"},
+	{"url":"starCraft.json","type":"json","name":"starCraft","key":"xxxx"},
+    {"url":"dragonBuff.json","type":"json","name":"dragonBuff","key":"xxxx"},
+    {"url":"YffCharge.json","type":"json","name":"YffCharge","key":"xxxx"},
+    {"url":"heroStar.json","type":"json","name":"heroStar","key":"xxxx"},
+    {"url":"pvpRankCross.json","type":"json","name":"pvpRankCross","key":"xxxx"},
+    {"url":"nobility.json","type":"json","name":"nobility","key":"xxxx"}
 ]

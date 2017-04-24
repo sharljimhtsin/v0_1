@@ -1,1034 +1,1085 @@
 {
-"story":{
-"10001":[
-{
-"heroId":"102041",
-"sayText":"เย้ ชนะแล้ว",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"101008",
-"sayText":"เธอนี่ตัวเล็กแต่แข็งแรงจัง แถมยังมีพละกำลังอีกด้วย…",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"102041",
-"sayText":"เต่าทะเล…",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"101001",
-"sayText":"ขอบคุณที่ช่วยชีวิตครับ ขอบคุณจริงๆ",
-"position":"right",
-"rotate":1
-},
-{
-"heroId":"102041",
-"sayText":"นายหน่ะอร่อยจริงๆรึเปล่า",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"101001",
-"sayText":"หา！？ไม่อร่อยหรอกครับ！ไม่อร่อยเลย！！แหะๆ…",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"102041",
-"sayText":"นั่นสิน่ะ ท่าทางคงไม่อร่อย",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"101008",
-"sayText":"- -！ งั้นพวกเราไปกันต่อเถอะ",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"102041",
-"sayText":"อืม！",
-"position":"left",
-"rotate":0
-}
-],
-"10002":[
-{
-"heroId":"101011",
-"sayText":"อ๊ะ ท่านยามุชา ท่านยามุชา！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"102014",
-"sayText":"แก！！ฟันฉันหัก！！ฝากไว้ก่อนเถอะ！！",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"102014",
-"sayText":"ใบหน้าสุดหล่อของฉัน！อภัยให้ไม่ได้！",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"102014",
-"sayText":"ไอ้เด็กนั่นร้ายกาจไม่ใช่เล่น！！",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"102041",
-"sayText":"เจ้าหมอนั่น แปลกคนแฮะ…",
-"position":"left",
-"rotate":0
-}
-],
-"10003":[
-{
-"heroId":"101010",
-"sayText":"เฮ้อ คืนร่างอีกแล้ว…",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"102014",
-"sayText":"ไม่น่าเชื่อเลยว่าเจ้านั่นจะแปลงร่างได้",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"101008",
-"sayText":"ระหว่างนี้ถ้าอูลอนทำตัวมีประโยชน์ ฉันจะให้กางเกงใน…",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"101010",
-"sayText":"จริงน่ะ สัญญาแล้วน่ะ…",
-"position":"right",
-"rotate":0
-}
-],
-"10004":[
-{
-"heroId":"102041",
-"sayText":"ปู่ครับ ปู่ครับ สอนวิชาให้พวกผมได้แล้วใช่มั้ยฮะ",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"102024",
-"sayText":"อืมม์…ก็…งั้นละนะ",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"102024",
-"sayText":"ว่าแต่ที่ให้เคลื่อนหินแค่ล้อเล่นตะหาก",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"102024",
-"sayText":"คิดไม่ถึงเลยว่าจะเคลื่อนก้อนหินได้จริง",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"102024",
-"sayText":"เจ้าพวกนี้นี่มันเหลือเชื่อจริงจริ๊ง…",
-"position":"right",
-"rotate":0
-}
-],
-"10005":[
-{
-"heroId":"102042",
-"sayText":"โกคู ยอดไปเลย！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"102041",
-"sayText":"อืมม์",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"102042",
-"sayText":"ท่านผู้เฒ่าเต่าก็น่าจะมองดูอยู่แน่",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"102041",
-"sayText":"งั้นพวกเราไปหาปู่กัน~！",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"102042",
-"sayText":"อืมม์",
-"position":"left",
-"rotate":0
-}
-],
-"10006":[
-{
-"heroId":"102002",
-"sayText":"โกคู！ไม่เป็นไรใช่มั่ยครับ！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"102041",
-"sayText":"ไม่เป็นไร แค่นิดหน่อยเอง…",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"102002",
-"sayText":"เยี่ยมไปเลย โกคู~~",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"102041",
-"sayText":"ว่าแต่เจ้าหนะ ที่โดนไปเมื่อกี้ไม่เป็นไรใช่มั่ย",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"102002",
-"sayText":"ครับ ผมเป็นมนุษย์ดัดแปลง บาดแผลแค่นี้สบายมากครับ",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"102041",
-"sayText":"มนุษย์ดัดแปลงนี่ยอดไปเลยแฮะ~~",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"102002",
-"sayText":"ก็น่ะครับ？ฮาๆๆๆๆๆ…",
-"position":"left",
-"rotate":0
-}
-],
-"10007":[
-{
-"heroId":"103049",
-"sayText":"ดีจร้า…",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"101026",
-"sayText":"แฮะๆ ก็ไม่เท่าไหร่หรอกน่ะ",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"102041",
-"sayText":"เย้ เรดาร์ใช้ได้แล้ว",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"102041",
-"sayText":"ขอบคุณฮ่ะ！ขอบคุณฮ่ะ！",
-"position":"left",
-"rotate":0
-}
-],
-"10008":[
-{
-"heroId":"102042",
-"sayText":"จัดการพวกโบว์แดงจนหมด！？คนเดียวเนี่ยน่ะ？",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"102041",
-"sayText":"อือ！ไอ้พวกที่เหลือเผ่นแน่บไปหมดเลยละ~",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"101008",
-"sayText":"กองทัพที่แม้แต่ตำรวจยังกลัว…",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"101018",
-"sayText":"แต่กลับถูกเด็กคนเดียวจัดการ…",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"102024",
-"sayText":"ไม่อยากจะเชื่อ…คนรึเปล่าเนี่ย…",
-"position":"left",
-"rotate":0
-}
-],
-"10009":[
-{
-"heroId":"102041",
-"sayText":"ชนะแล้ว ส่งดราก้อนบอลมา",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"101005",
-"sayText":"นะ นี่จ้ะ…",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"102041",
-"sayText":"แหะ แหะ ขอเสื้อผ้าด้วยสิ~",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"101005",
-"sayText":"อ๊ะ？",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"102041",
-"sayText":"ว้าว พอดีตัวเป๊ะเลยแฮะ!",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"102041",
-"sayText":"ขอบใจหลาย",
-"position":"left",
-"rotate":0
-}
-],
-"10010":[
-{
-"heroId":"102024",
-"sayText":"ฝีมือเจ้าร้ายกาจปานนี้ทำไมถึงไม่ใช้ในทางที่ถูกต้องหละ",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"102024",
-"sayText":"ทำไมถึงเดินไปในทางที่ชั่วร้าย",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"102024",
-"sayText":"วิชาของเจ้ามันกำลังร้องไห้อยู่น่ะ",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"102024",
-"sayText":"ตัดสายสัมพันธ์กับเซียนกระเรียนซะเถอะ",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"102024",
-"sayText":"แล้วลองก้าวออกมาสู่โลกที่เต็มไปด้วยแสงสว่างบ้างเถอะ",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103016",
-"sayText":"พูดจาไร้สาระสิ้นดี…",
-"position":"right",
-"rotate":0
-}
-],
-"10011":[
-{
-"heroId":"102041",
-"sayText":"เจ๋งเป้ง！ชนะแล้ว！！！！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"102041",
-"sayText":"เราแก้แค้นให้ผู้เฒ่าเต่ากับคุริรินสำเร็จแล้ว！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103009",
-"sayText":"ทำไมเป็นยังงี้ พิคโกโร่คนนี้โดนเล่นงาน",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"103009",
-"sayText":"หึหึ แต่อย่านึกน่ะว่าพวกปีศาจจะสูญพันธ์",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"103009",
-"sayText":"สักวันลูกข้าจะช่วยแก้แค้นแทนข้า！",
-"position":"right",
-"rotate":0
-}
-],
-"10012":[
-{
-"heroId":"102041",
-"sayText":"เงียบสงบดั่งท้องฟ้า！แหมมันยากจัง！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103021",
-"sayText":"เอางี้ ทำจิตให้ว่างเปล่า แล้วก็เคลื่อนไหวดุจสายฟ้า",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"102041",
-"sayText":"โอ้โห…",
-"position":"left",
-"rotate":0
-}
-],
-"10013":[
-{
-"heroId":"101034",
-"sayText":"ซุนโกคูเป็นผู้ชนะเลิศในศึกครั้งนี้ครับ！！！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103015",
-"sayText":"ไชโย！",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"102024",
-"sayText":"ยอดไปเลย！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"102011",
-"sayText":"เฮ้อ ปลอดภัยสักที รู้แพ้ชนะจนได้…",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"101024",
-"sayText":"เป็นไงบ้างโกคู ฉันจะรับพาไปโรงพยาบาลเดี๋ยวนี้",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"102011",
-"sayText":"ไม่ต้องเป็นห่วง ฉันเอาถั่วเซียนมาด้วย",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"103002",
-"sayText":"ขะ ขอบใจ",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103002",
-"sayText":"ย่ะฮู้ พลังเต็มเปี่ยมเลย~~~~！！！",
-"position":"left",
-"rotate":0
-}
-],
-"10014":[
-{
-"heroId":"103015",
-"sayText":"พระเจ้าครับ กาลิคจูเนียร์หละ？",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103030",
-"sayText":"ถูกพลังของโกฮังกระเด็นเข้าไปในเดธโซนอีกครั้ง",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"103030",
-"sayText":"ดูท่าทางชีวิตอมตะที่ได้มาก็คงจะไร้ประโยชน์…",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"103002",
-"sayText":"โกฮัง ลูก！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103001",
-"sayText":"พ่อฮะ！พ่อมาช่วยผมจริงๆด้วย！",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"103002",
-"sayText":"โกฮัง！ลูกจำอะไรไม่ได้เลยรึ？",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103001",
-"sayText":"ผมจำได้แค่ว่าพ่อของผมสุดยอดไปเลย！",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"103002",
-"sayText":"งั้นพวกเรากลับไปหาแม่กันเถอะ！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"104015",
-"sayText":"โกคู…สักวันข้าจะต้องสู้กับเจ้าให้รู้แพ้รู้ชนะ！",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"103002",
-"sayText":"นี่เราจะบอกจีจี้ดีไม่น้าาเรื่องที่โกฮังเป็นคนช่วยเราไว้…",
-"position":"left",
-"rotate":0
-}
-],
-"10015":[
-{
-"heroId":"104015",
-"sayText":"ใช้พลังทั้งหมดจัดการมัน！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103001",
-"sayText":"ครับ！",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"100056",
-"sayText":"อะไรกัน？！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103015",
-"sayText":"ทำไมฉันถึงโดนอยู่คนเดียว…",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"100056",
-"sayText":"พวกเจ้าจงแหลกไปพร้อมกับโลกใบนี้ซะ！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103002",
-"sayText":"ขะ..ขอบ...คุณจริงๆ",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"103002",
-"sayText":"บอลเก็งกิ！！",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"100056",
-"sayText":"แก~~~~！！！ซุน~~โก~คู！！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103002",
-"sayText":"พิคโกโร่~ยอดไปเลย！",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"104015",
-"sayText":"ที่จริงแล้วเป็นฝีมือโกฮัง！",
-"position":"left",
-"rotate":0
-}
-],
-"10016":[
-{
-"heroId":"103052",
-"sayText":"ในช่วงที่รอฟื้นคืนชีพ ฉันจะทำชุดให้ใหม่แล้วกัน",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103002",
-"sayText":"จริงหรือครับ？ยอดไปเลย！รู้สึกตัวเบาขึ้นแฮะ",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"103002",
-"sayText":"ขอบใจมาก！ท่านจ้าวพิภพ！",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"103002",
-"sayText":"สัญลักษณ์ใหม่ที่ด้านหลังก็เท่ไปเลยแฮะ",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"103052",
-"sayText":"มันแหงอยู่แล้ว！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103002",
-"sayText":"ลาก่อนท่านจ้าวพิภพ ไว้ผมจะมาเยี่ยมใหม่น้าาา！",
-"position":"right",
-"rotate":0
-}
-],
-"10017":[
-{
-"heroId":"103015",
-"sayText":"ตายซะแก",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103002",
-"sayText":"หยุดก่อน！คุริริน ขอโทษน่ะ ปล่อยหมอนั่นไปเถอะ",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"103015",
-"sayText":"จะบ้าเรอะโกคู นายคิดว่าเจ้านี่อาจจะเปลี่ยนใจหรอ？",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103015",
-"sayText":"มันไม่ใช่คนประเภทนั้นหรอกน่ะ",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103002",
-"sayText":"ฉันก็แค่อยากฝึกฝนแล้วค่อยต่อสู้กับเบจิต้าอีกครั้ง！",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"103015",
-"sayText":"เข้าใจละ นายอยู่ในฐานะที่เอาแต่ใจตัวเองได้！เพราะโลกนี้อยู่ได้ก็เพราะนาย！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103015",
-"sayText":"แต่ก็ดีเหมือนกัน คราวหน้าอัดมันให้แหลกไปเลยนะ！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103002",
-"sayText":"อือ！",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"103003",
-"sayText":"ฝากไว้ก่อนเถอะไอ้พวกขยะ",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103003",
-"sayText":"คราวหน้าจะไม่มีปาฏิหารย์สำหรับพวกแกอีกแล้ว！",
-"position":"left",
-"rotate":0
-}
-],
-"10018":[
-{
-"heroId":"103002",
-"sayText":"9999...10000...ยอดไปเลยแฮะ ไม่รู้สึกเหนื่อยเลย",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103002",
-"sayText":"เหลือเชื่อยิ่งนัก！เอาหละการฝึกก็สิ้นสุดเท่านี้！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103002",
-"sayText":"พลังเท่านี้ถ้าลองใช้หมัดไคโอ10เท่าคงไม่มีปัญหาแน่！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103017",
-"sayText":"ในที่สุดหน่วยรบกินิวก็มาถึง！กำลังรออยู่เลย！",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"103036",
-"sayText":"รีคูม！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103040",
-"sayText":"บาต้า！",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"103035",
-"sayText":"จีส！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103039",
-"sayText":"กลูโด้！",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"103034",
-"sayText":"กินิว！พวกเรามาแล้ว！หน่วยรบกินิว！",
-"position":"left",
-"rotate":0
-}
-],
-"10019":[
-{
-"heroId":"103015",
-"sayText":"โกฮัง！ดูท่าแล้วเบจิต้าคงต้านเอาไว้ได้ไม่นาน！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103015",
-"sayText":"พวกเราเองก็ไม่มีทางเลือกแล้ว ต้องร่วมมือกัน！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103008",
-"sayText":"ได้！",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"103015",
-"sayText":"แข็งแกร่งมาก！หรือพวกเราจะแพ้…",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103017",
-"sayText":"แหงอยู่แล้วแหละ พวกเจ้าคิดว่าจะทำอะไรพวกมันได้？",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"103003",
-"sayText":"ได้แน่นอน！พวกเราสามคนร่วมมือกัน ส่วนผมก็จะแปลงเป็นSS！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103017",
-"sayText":"งั้นศพแรกเริ่มจากเจ้านี่แล้วกัน！",
-"position":"right",
-"rotate":0
-}
-],
-"10020":[
-{
-"heroId":"104001",
-"sayText":"อีกไม่นานดาวดวงนี้จะระเบิดเป็นจุณ ดูสิว่าแกจะหนีไปไหนรอด！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"104001",
-"sayText":"น่าสมเพช！ถึงแกจะชนะแต่คิดว่าจะรอดเรอะ！ฉันต่างหากที่รอด！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"104013",
-"sayText":"ฉันจะอยู่รอดให้ดู！เลิกเล่นเท่านี้เถอะ！",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"104001",
-"sayText":"แก...พูดอะไรน่ะ...？เลิกเล่นอะไรกัน？",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"104013",
-"sayText":"ฉันหมายความว่าต่อให้สู้ต่อไปก็ไร้ความหมาย！",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"104013",
-"sayText":"แกจงมีชีวิตอยู่ในอวกาศนี้ให้ยืนยาวน่ะมันดีกว่า！",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"104001",
-"sayText":"หนอยแก ฉันน่ะฟริสเซอร์ผู้เป็นหนึ่งในจักรวาล！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"104001",
-"sayText":"เจ้าหน่ะ…น่าจะถูกข้าฆ่าตายไปแล้วหนิ！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"104013",
-"sayText":"แก เจ้างั้งเอ๊ย！",
-"position":"right",
-"rotate":0
-}
-],
-"10021":[
-{
-"heroId":"103051",
-"sayText":"ตายซะ！！ตายซะ！！นี่มันไม่เท่าไหร่หรอกน่ะ！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103051",
-"sayText":"อะไรกัน？！บังอาจเล่นไม้นี้กับข้า แกน่ะแก！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103015",
-"sayText":"ตอนนี้แหละ โกฮัง！",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"104015",
-"sayText":"ลงมื่อเลย！！",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103051",
-"sayText":"อะไรน่ะ！！แย่แล้ว！อ๊าก~อ๊าก~อ๊าก~！！！",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"103001",
-"sayText":"ลุงคุริริน！！ลุงพิคโกโร่！！พวกท่านอยู่ไหน？",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103015",
-"sayText":"เมื่อกี้เกือบไปแล้ว！ดีที่เจ้าจัดการไว้ทัน！",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"104015",
-"sayText":"ครั้งนี้พวกมันโดนกำจัดจนราบคาบ คงไม่มีปัญหาอีกแล้ว",
-"position":"left",
-"rotate":0
-}
-],
-"10022":[
-{
-"heroId":"103007",
-"sayText":"เรื่องเมื่อกี้ที่พูดขอให้คุณโกคูเก็บไว้เป็นความลับ",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103002",
-"sayText":"ไม่มีปัญหา ฉันไม่พูดหรอก",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"104015",
-"sayText":"ขอโทษน่ะ ดูเหมือนพวกแกจะลืมอะไรไป ข้าหนะได้ยินเรื่องทั้งหมด",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103007",
-"sayText":"แหม ลืมเรื่องนี้ไปเลยแฮะO_O!!",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"104015",
-"sayText":"แต่วางใจได้ ข้าน่ะไม่ได้เป็นคนชอบพูดหรอก",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103007",
-"sayText":"งั้นก็ขอความกรุณาด้วยครับ(='_'=)",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"104015",
-"sayText":"วางใจได้！ = =#",
-"position":"left",
-"rotate":0
-}
-],
-"10023":[
-{
-"heroId":"103015",
-"sayText":"โก…โกคู….",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103001",
-"sayText":"พ่อครับ……",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"103001",
-"sayText":"พ่อ！！！！",
-"position":"right",
-"rotate":0
-},
-{
-"heroId":"103002",
-"sayText":"เร็วเข้า….รีบส่งถั่วเซียนมาให้ข้า…..",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103002",
-"sayText":"ถั่วเซียนช่วยชีวิตไว้อีกแล้วสิน่ะ",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103002",
-"sayText":"ว่าแต่เบจิต้าหละ？",
-"position":"left",
-"rotate":0
-},
-{
-"heroId":"103015",
-"sayText":"พอเค้ากินถั่วเซียนก็หายตัวไปเลย",
-"position":"right",
-"rotate":0
-}
-],
-"10024":[
-],
-"10025":[
-],
-"10026":[
-],
-"10027":[
-],
-"10028":[
-],
-"10029":[
-],
-"10030":[
-],
-"10031":[
-],
-"10032":[
-],
-"10033":[
-],
-"10034":[
-],
-"10035":[
-],
-"10036":[
-],
-"10037":[
-],
-"10038":[
-],
-"10039":[
-],
-"10040":[
-],
-"10041":[
-],
-"10042":[
-],
-"10043":[
-],
-"10044":[
-],
-"10045":[
-],
-"10046":[
-],
-"10047":[
-],
-"10048":[
-],
-"10049":[
-],
-"10050":[
-]
-}
+    "story":
+    {
+        "10001":
+            [
+                {
+                    "heroId":"102041",
+                    "sayText":"啊，赢啦",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101008",
+                    "sayText":"这小家伙好强壮啊，长大了一定很棒，诶嘿嘿…",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"海龟先生…",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101001",
+                    "sayText":"小兄弟你救了我一命，谢谢你",
+                    "position":"right",
+                    "rotate":1
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"你真的很好吃嘛",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101001",
+                    "sayText":"哎！？完全不好吃！难吃得要死！！诶嘿嘿嘿嘿…",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"确实啊，看起来就不好吃",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101008",
+                    "sayText":" - -！ 总之我们先走吧",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"嗯！",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10002":
+            [
+                {
+                    "heroId":"101011",
+                    "sayText":"啊，乐平大人乐平大人！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102014",
+                    "sayText":"啊！！牙掉了！！脸肿了！！",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102014",
+                    "sayText":"本大爷的俊脸被毁了！以后还怎么把妹！",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102014",
+                    "sayText":"死孩子你给我等着！！",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"就这么走了啊，奇怪的家伙…",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10003":
+            [
+                {
+                    "heroId":"101010",
+                    "sayText":"啊，变回来了…",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102014",
+                    "sayText":"没想到这小家伙居然能变这么大",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101008",
+                    "sayText":"是呀，变得好大，乌龙，那根尾巴能给我吗，诶嘿嘿…",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101010",
+                    "sayText":"同学，你的节操呢…",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10004":
+            [
+                {
+                    "heroId":"102041",
+                    "sayText":"呐，龟仙人爷爷，这下可以教我们拳法了吧",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"嗯…啊…应该可以了",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"一开始说移动石头只是逗他们",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"没想到他们当真了，而且还真移动了",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"这俩熊孩子真是流弊啊…",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10005":
+            [
+                {
+                    "heroId":"102042",
+                    "sayText":"悟空，干的好啊！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"嗯",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102042",
+                    "sayText":"武天老师也一定看到了",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"我们去找他吧~！",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102042",
+                    "sayText":"嗯",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10006":
+            [
+                {
+                    "heroId":"102002",
+                    "sayText":"孙悟空！你还活着吗！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"没事，就是有点疼…",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102002",
+                    "sayText":"太好了，孙悟空~~",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"倒是你，不是被打中了吗，不要紧吗",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102002",
+                    "sayText":"嗯，我是人造人，这点程度是伤不了人造人的",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"嗯，人造人还真是开挂呢~~",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102002",
+                    "sayText":"咦？诶嘿嘿嘿嘿…",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10007":
+            [
+                {
+                    "heroId":"103049",
+                    "sayText":"咪哈哈哈…",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101026",
+                    "sayText":"呀哈，在那里飞呢",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"啊，可以动了",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"恢复了！恢复了！",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10008":
+            [
+                {
+                    "heroId":"102042",
+                    "sayText":"你说你打倒了红绸军所有人！？就你一个人？",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"嗯！剩下的人都逃走了~",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101008",
+                    "sayText":"连警察都吓尿的红绸军…",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101018",
+                    "sayText":"竟然被你一个人灭团了…",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"竟然有这种事…悟空你开挂了吧…",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10009":
+            [
+                {
+                    "heroId":"102041",
+                    "sayText":"我赢了，把龙珠给我吧",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101005",
+                    "sayText":"是，请拿吧…",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"对了，还有一件事情~",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101005",
+                    "sayText":"嗯？",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"!#@$#$%%&^*&*(*&($#$!@!",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"哈哈，多谢啦",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10010":
+            [
+                {
+                    "heroId":"102024",
+                    "sayText":"没错，这些掌声，这些祝福，全是人们为你而发出的",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"你带给了人们心灵上的震撼",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"憎恨与敌意带给你的黑暗日子已经结束了",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"从今天开始，你已经踏出了第一步",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"你已经伸出了踏进那充满光明世界的第一步了",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103016",
+                    "sayText":"武天老师…",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10011":
+            [
+                {
+                    "heroId":"102041",
+                    "sayText":"赢了！我赢了！！！！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"龟仙人爷爷，克林，我替你们报仇了！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103009",
+                    "sayText":"怎么会这样，我短笛大魔王居然会被打败",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103009",
+                    "sayText":"我只能说你确实很流弊",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103009",
+                    "sayText":"但是不做死就不会死，我儿子一定会替我报仇的！",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10012":
+            [
+                {
+                    "heroId":"102041",
+                    "sayText":"成功了！我终于能隐藏气息了！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103021",
+                    "sayText":"才不是那样，是生命之水的Buff时间到了而已",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102041",
+                    "sayText":"人艰不拆…",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10013":
+            [
+                {
+                    "heroId":"101034",
+                    "sayText":"孙悟空选手天下第一武道会优胜！！！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"好棒！",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102024",
+                    "sayText":"太棒了！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102011",
+                    "sayText":"已经安全了，总算分出胜负来了…",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"101024",
+                    "sayText":"悟空，你怎么样了，我马上把你送到医院去",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"102011",
+                    "sayText":"不用担心这家伙，我来送仙豆了",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"啊，谢谢你",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"满血复活~~~~！！！",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10014":
+            [
+                {
+                    "heroId":"103015",
+                    "sayText":"天神，卡力克二世人呢？",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103030",
+                    "sayText":"他掉进自己制造的死亡地带里去了。",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103030",
+                    "sayText":"恐怕他已经后悔获得永恒的生命了…",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"悟饭！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103001",
+                    "sayText":"爸爸！你果然来救我了！",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"悟饭！你完全不记得了么？",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103001",
+                    "sayText":"我爸爸果然是全世界最强的人！",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"悟饭，我们回家去见妈妈吧！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"孙悟空…总有一天我要和你分出高下！",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"心想：要不要告诉琪琪其实是悟饭救了自己…",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10015":
+            [
+                {
+                    "heroId":"104015",
+                    "sayText":"使出全力阻止他！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103001",
+                    "sayText":"是！",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"100056",
+                    "sayText":"什么？！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"为什么只有我挨打…",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"100056",
+                    "sayText":"你们就跟地球一起化为灰烬吧！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"好暖和...好暖和...谢谢你们",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"元气弹！！",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"100056",
+                    "sayText":"啊~~~~！！！孙~~悟~空！！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"短笛~干得好！",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"其实是悟饭干的好！",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10016":
+            [
+                {
+                    "heroId":"103052",
+                    "sayText":"等待复活的这段时间，把你的衣服换掉吧。",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"真的可以吗？好棒啊！我感觉轻松好多啊。",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"谢谢你了！界王大人！",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"我的龟字标记还在唉！界王的标志逊毙了。",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103052",
+                    "sayText":"那真不好意思了，背上的标记最漂亮了！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"再见了界王大人，如果又死了我还会来找你的！",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10017":
+            [
+                {
+                    "heroId":"103015",
+                    "sayText":"去死吧",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"等一等！克林，对不起，求求你让他走吧",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"你以为这个家伙会像短笛一样洗心革面？",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"他是个邪恶的赛亚人",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"我想再修行一次，再跟他战斗一次！求求你！",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"我知道了，你绝对有资格任性！地球能有今天完全是因为你的努力！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"可是悟空你下一次一定要以更强的实力来打倒他！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"我会的！",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103003",
+                    "sayText":"你们这群垃圾给我记住",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103003",
+                    "sayText":"奇迹不会发生第二次的，你们洗好脖子等着吧！",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10018":
+            [
+                {
+                    "heroId":"103002",
+                    "sayText":"9999...10000...太好了，几乎感觉不到疲倦",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"真是令我不敢相信啊！修行到此告一段落！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"恢复原来的重力后使出10倍界王拳也没问题！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103017",
+                    "sayText":"终于到了，基纽特种部队！我等你们好久了！",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103036",
+                    "sayText":"利库姆！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103040",
+                    "sayText":"巴特！",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103035",
+                    "sayText":"吉斯！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103039",
+                    "sayText":"古尔多！",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103034",
+                    "sayText":"基纽！全体合体！基纽特战队！",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10019":
+            [
+                {
+                    "heroId":"103015",
+                    "sayText":"悟饭！看样子贝吉塔他一定撑不了多久！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"我们现在没有别的选择，联手攻击他吧！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103008",
+                    "sayText":"好！",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"好强大的气！我们根本没有胜算嘛…",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103017",
+                    "sayText":"那当然了，你们以为三只蚂蚁联合起来能打倒恐龙么？",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103003",
+                    "sayText":"当然有办法！我们三个联手，何况我就要变成超级赛亚人了！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103017",
+                    "sayText":"我就从你这个家伙杀起！",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10020":
+            [
+                {
+                    "heroId":"104001",
+                    "sayText":"这个星球再过不久就要爆炸了，我看你往哪里逃！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104001",
+                    "sayText":"真是太讽刺了！战胜的你死在这个鸟地方！而我却可以得救！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104013",
+                    "sayText":"我一定会活下去给你看的！我不玩了！",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104001",
+                    "sayText":"你说...什么...？“不玩了”是什么意思？",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104013",
+                    "sayText":"我说打倒吓的发抖的人一点意义也没有！",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104013",
+                    "sayText":"你就带着大受打击的自尊心苟延残喘的活下去吧！",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104001",
+                    "sayText":"我是宇宙中最强的人，我是宇宙帝王弗利萨！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104001",
+                    "sayText":"你应该…被我杀死才对！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104013",
+                    "sayText":"你这个愚蠢的大笨蛋！",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10021":
+            [
+                {
+                    "heroId":"103051",
+                    "sayText":"去死吧！！去死吧！！这个算不了什么！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103051",
+                    "sayText":"什么？！竟然给我玩这种把戏，该死不死的小家伙！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"趁现在，悟饭！",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"下手！！",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103051",
+                    "sayText":"你说什么！！这下糟了！啊~啊~啊~！！！",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103001",
+                    "sayText":"小林叔叔！！短笛叔叔！！你们在哪啊？",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"刚才还真是千钧一发啊！幸好你毁灭了魔凶星！",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"这回魔凶星彻底毁灭了，他们再也不会复活了。",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10022":
+            [
+                {
+                    "heroId":"103007",
+                    "sayText":"刚才说的事情还请孙先生替我保密",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"没问题，我的口风很紧",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"不好意思，你们低估了那美克星人的听力，其实我全听见了",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103007",
+                    "sayText":"我了个去，不了个是吧O_O!!",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"放心吧，我平时都不刁他们，不会跟他们说的",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103007",
+                    "sayText":"那就拜托啦(='_'=)",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"104015",
+                    "sayText":"卖什么萌！ = =#",
+                    "position":"left",
+                    "rotate":0
+                }
+            ],
+        "10023":
+            [
+                {
+                    "heroId":"103015",
+                    "sayText":"悟…悟空….",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103001",
+                    "sayText":"爸爸……",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103001",
+                    "sayText":"爸爸！！！！",
+                    "position":"right",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"快….快给我个仙豆…..",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"哈哈，这次又被仙豆救了啊",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103002",
+                    "sayText":"话说贝吉塔人呢？",
+                    "position":"left",
+                    "rotate":0
+                },
+                {
+                    "heroId":"103015",
+                    "sayText":"他吃了仙豆后就一个人不知道去哪了",
+                    "position":"right",
+                    "rotate":0
+                }
+            ],
+        "10024":
+            [
+            ],
+        "10025":
+            [
+            ],
+        "10026":
+            [
+            ],
+        "10027":
+            [
+            ],
+        "10028":
+            [
+            ],
+        "10029":
+            [
+            ],
+        "10030":
+            [
+            ],
+        "10031":
+            [
+            ],
+        "10032":
+            [
+            ],
+        "10033":
+            [
+            ],
+        "10034":
+            [
+            ],
+        "10035":
+            [
+            ],
+        "10036":
+            [
+            ],
+        "10037":
+            [
+            ],
+        "10038":
+            [
+            ],
+        "10039":
+            [
+            ],
+        "10040":
+            [
+            ],
+        "10041":
+            [
+            ],
+        "10042":
+            [
+            ],
+        "10043":
+            [
+            ],
+        "10044":
+            [
+            ],
+        "10045":
+            [
+            ],
+        "10046":
+            [
+            ],
+        "10047":
+            [
+            ],
+        "10048":
+            [
+            ],
+        "10049":
+            [
+            ],
+        "10050":
+            [
+            ]
+    }
 }

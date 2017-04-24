@@ -40,7 +40,7 @@ function getPracticeList(userUid,callbackFn) {
         signIn, getFinancialPlanActivity, redRibbon, vitality, achievement, doubleFeast, groupPurchase, groupPurchase2, groupPurchase3, scoreMall, rechargeRanking,
         consumeRanking, cosmosEvaluation, cosmosLeague, forge, regress, dailyMustRecharge, smashEgg, gemCompose, practiceCross, messiah, tribute, wheel,
         vipClub, morphPromo, scratch, fire, catalyst, limitSummon, growSign, cashCow, luckyConvert, paradiseSearch, practiceEndorse, practiceDarker, slots,
-        blackSmith, rebateShop, mailBinding, bejeweled, quarterCard, pvpTopCross
+        blackSmith, rebateShop, mailBinding, bejeweled, quarterCard, pvpTopCross, foolishWheel
     ];//leagueTeam,gallants
     /*
     * doubleFeast--双节活动（za）;scoreMall--积分商城（za）;rechargeRanking--充值排行榜(za);consumeRanking--充值排行榜(za)
@@ -273,6 +273,23 @@ function pvpTopCross(userUid, callbackFn) {
                 callbackFn(null, ["pvpTopCross", true, null]);
             } else {
                 callbackFn(null, ["pvpTopCross", false, null]);
+            }
+        }
+    });
+}
+
+/*
+ * 愚人节转盘活动入口
+ * */
+function foolishWheel(userUid, callbackFn) {
+    activityConfig.getConfig(userUid, "foolishWheel", function (err, res) {
+        if (err || res == null) {
+            callbackFn(null, ["foolishWheel", false, null]);
+        } else {
+            if (res[0]) {
+                callbackFn(null, ["foolishWheel", true, null]);
+            } else {
+                callbackFn(null, ["foolishWheel", false, null]);
             }
         }
     });

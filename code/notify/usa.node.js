@@ -34,6 +34,10 @@ function start(postData, response, query) {
     var extent = postData["extent"];
     var signStr = "amount="+amount+"&number="+number+"&product_id="+product_id+"&platform_id="+platform_id+"&order_id="+order_id+"&uin="+uin+"&server_id="+server_id;
 
+    if (platform_id == "usaa") {
+        response.end(JSON.stringify({"ret": -7, "msg": "參數錯誤"}), "utf-8");
+        return;
+    }
 
     var key = platformConfig[platform_id]["appKey"]; //密钥
     var md5Sign = crypto.createHash('md5').update(signStr,"utf8").digest('hex');

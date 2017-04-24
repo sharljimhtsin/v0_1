@@ -4,49 +4,49 @@
 			"1":{
 				"1":{
 					"id":"ingot",
-					"count":100
+					"count":500
 				},
 				"2":{
 					"id":"ingot",
-					"count":100
+					"count":500
 				},
 				"3":{
 					"id":"ingot",
-					"count":200
+					"count":500
 				},
 				"4":{
 					"id":"ingot",
-					"count":300
+					"count":500
 				},
 				"5":{
 					"id":"ingot",
-					"count":400
+					"count":500
 				}
 			},
 			"2":{
 				"0":{
 					"id":"ingot",
-					"count":200
+					"count":500
 				},
 				"1":{
 					"id":"ingot",
-					"count":200
+					"count":500
 				},
 				"2":{
 					"id":"ingot",
-					"count":200
+					"count":500
 				}
 			}
 		},
 		"totalTime":{
-			"0":6,
-			"1":6,
+			"0":10,
+			"1":10,
 			"2":24
 		},
 		"frozenTime":48,
 		"rewardCount":{
-			"0":1,
-			"1":1,
+			"0":10,
+			"1":10,
 			"2":1
 		},
 		"rewardCountAlt":{

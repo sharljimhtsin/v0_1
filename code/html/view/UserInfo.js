@@ -431,6 +431,7 @@ function UserInfo() {
             {text: LipiUtil.t("卡牌3"), dataIndex: "card3", flex: 1},
             {text: LipiUtil.t("卡牌4"), dataIndex: "card4", flex: 1},
             {text: LipiUtil.t("卡牌5"), dataIndex: "card5", flex: 1},
+            {text: LipiUtil.t("卡牌6"), dataIndex: "card6", flex: 1},
             {xtype:"actioncolumn","text":LipiUtil.t("删除"),align:"center",items:[
                 {
                     iconCls:"delete",

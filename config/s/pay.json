@@ -4,132 +4,125 @@
 		"firstPayRatio":2,
 		"firstPayReward":
 		{
-			"104052":30,
-			"150901":100,
-			"zeni":1000000
+			"ingot":0,
+			"zeni":0,
+			"153102":0
 		},
 		"firstPayRewardName":
 		{
-			"104052":"โกคู(ยาโดแร็ต)",
-			"150901":"ลิควิดX100",
-			"zeni":"เซนี่1ล้าน"
+			"ingot":"无",
+			"zeni":"无",
+			"153102":"无"
 		},
 		"ios":
 		{
 			"1":
 			{
-				"payMoney":50,
-				"getImegga":100,
+				"payMoney":6,
+				"getImegga":1800,
 				"getMoreImegga":0,
-				"activityImegga":1
+				"activityImegga":0
 			},
 			"2":
 			{
-				"payMoney":100,
-				"getImegga":200,
+				"payMoney":30,
+				"getImegga":9000,
 				"getMoreImegga":0,
-				"activityImegga":3
+				"activityImegga":0
 			},
 			"3":
 			{
-				"payMoney":300,
-				"getImegga":600,
-				"getMoreImegga":0,
-				"activityImegga":5
+				"payMoney":68,
+				"getImegga":20400,
+				"getMoreImegga":10200,
+				"activityImegga":0
 			},
 			"4":
 			{
-				"payMoney":500,
-				"getImegga":1000,
-				"getMoreImegga":0,
-				"activityImegga":10
+				"payMoney":198,
+				"getImegga":59400,
+				"getMoreImegga":29700,
+				"activityImegga":0
 			},
 			"5":
 			{
-				"payMoney":1000,
-				"getImegga":2000,
-				"getMoreImegga":0,
-				"activityImegga":20
+				"payMoney":328,
+				"getImegga":98400,
+				"getMoreImegga":49200,
+				"activityImegga":0
 			},
 			"6":
 			{
-				"payMoney":2000,
-				"getImegga":4000,
-				"getMoreImegga":0,
-				"activityImegga":50
-			},
-			"7":
-			{
-				"payMoney":3500,
-				"getImegga":7000,
-				"getMoreImegga":0,
-				"activityImegga":100
-			},
-			"8":
-			{
-				"payMoney":5000,
-				"getImegga":10000,
-				"getMoreImegga":0,
-				"activityImegga":100
+				"payMoney":648,
+				"getImegga":194400,
+				"getMoreImegga":97200,
+				"activityImegga":0
 			}
 		},
 		"android":
 		{
 			"1":
 			{
-				"payMoney":50,
-				"getImegga":100,
+				"payMoney":10,
+				"getImegga":3000,
 				"getMoreImegga":0,
-				"activityImegga":1
+				"activityImegga":0
 			},
 			"2":
 			{
-				"payMoney":100,
-				"getImegga":200,
+				"payMoney":50,
+				"getImegga":22500,
 				"getMoreImegga":0,
-				"activityImegga":3
+				"activityImegga":0
 			},
 			"3":
 			{
-				"payMoney":300,
-				"getImegga":600,
+				"payMoney":100,
+				"getImegga":45000,
 				"getMoreImegga":0,
-				"activityImegga":5
+				"activityImegga":0
 			},
 			"4":
 			{
-				"payMoney":500,
-				"getImegga":1000,
+				"payMoney":200,
+				"getImegga":90000,
 				"getMoreImegga":0,
-				"activityImegga":10
+				"activityImegga":0
 			},
 			"5":
 			{
-				"payMoney":1000,
-				"getImegga":2000,
+				"payMoney":300,
+				"getImegga":135000,
 				"getMoreImegga":0,
-				"activityImegga":20
+				"activityImegga":0
 			},
 			"6":
 			{
-				"payMoney":2000,
-				"getImegga":4000,
+				"payMoney":500,
+				"getImegga":225000,
 				"getMoreImegga":0,
-				"activityImegga":50
+				"activityImegga":0
 			},
 			"7":
 			{
-				"payMoney":3500,
-				"getImegga":7000,
+				"payMoney":800,
+				"getImegga":360000,
 				"getMoreImegga":0,
-				"activityImegga":100
+				"activityImegga":0
 			},
 			"8":
 			{
-				"payMoney":5000,
-				"getImegga":10000,
+				"payMoney":1000,
+				"getImegga":450000,
 				"getMoreImegga":0,
-				"activityImegga":100
+				"activityImegga":0
+			},
+			"9":
+			{
+				"payMoney":1500,
+				"getImegga":675000,
+				"getMoreImegga":0,
+				"activityImegga":0
 			}
 		}
 	}

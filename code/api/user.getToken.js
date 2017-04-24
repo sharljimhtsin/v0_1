@@ -61,7 +61,6 @@ function start(postData,response,query) {
             break;
         case "a91":
         case "a360":
-        case "a185":
         case "ucweb":
         case "xiaomi":
         case "sina":
@@ -70,6 +69,16 @@ function start(postData,response,query) {
         case "dcn":
         case "yyh":
         case "wandoujia":
+        case "a185":
+        case "185":
+        case "185ios":
+        case "a8":
+        case "3733":
+        case "cc":
+        case "dm":
+        case "damai":
+        case "1sdk":
+        case "pyw":
             checkFn = require("../controller/uc").check;
             break;
         case "uc":
@@ -219,6 +228,9 @@ function start(postData,response,query) {
         case "bangqu":
             checkFn = require("../controller/uc").check;
             break;
+        case "usaa":
+            checkFn = require("../controller/uc").check;
+            break;
         default :
             checkFn = require("../controller/uc").check;
             break;
@@ -249,8 +261,9 @@ function start(postData,response,query) {
     async.series( [
         function(cb) { //验证帐号有效性
             checkFn(platformUserId, info, function(err, res) {
-                if (err) cb("accountInvalid");
-                else {
+                if (err) {
+                    cb("accountInvalid");
+                } else {
                     if (res != null && res["platformUserId"] != null) {
                         platformUserId = res["platformUserId"];
                     }
@@ -272,13 +285,13 @@ function start(postData,response,query) {
                     if(["kingnetenglishios", "kingnetenglishiosoff", "kingnetenglishoff", "kingnetly", "kyxyzs", "gnetop", "kyeniosly","kingnetenglishiosoffthai"].indexOf(platformId) != -1) {
                         platformId = "kingnetenglish";
                     }
-                    if (["usaa", "usaaoff", "usaa1", "usagp", "usausa", "usaglobal", "usaaoffIns", "usaazb", "usabzb", "usaczb", "usadzb", "usaezb", "usaaoffnew", "usafzb"].indexOf(platformId) != -1) {
+                    if (["usaa", "usaaoff", "usaa1", "usagp", "usausa", "usaglobal", "usaaoffIns", "usaazb", "usabzb", "usaczb", "usadzb", "usaezb", "usaaoffnew", "usafzb", "usagzb", "usaagp"].indexOf(platformId) != -1) {
                         platformId = "usa";
                     }
                     if(["yuenan", "yuenanlumi"].indexOf(platformId) != -1) {
                         platformId = "yuenan";
                     }
-                    cb(null);
+                    cb();
                 }
             });
         },

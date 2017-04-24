@@ -3711,62 +3711,62 @@
                 {
                     "complete":"104089",
                     "desc":"Récomp.:Mr. Satan-Coffre Démon.*1",
-                    "reward":[{"id":"104089","count":2245},{"id":"124050","count":1},{"id":"134056","count":1},{"id":"144057","count":1}]
+                    "reward":[{"id":"104089","count":450},{"id":"124050","count":1},{"id":"134056","count":1},{"id":"144057","count":1}]
                 },
                 {
                     "complete":"104090",
                     "desc":"Récomp.:Freezer-Coffre Démon.*1",
-                    "reward":[{"id":"104090","count":2245},{"id":"124051","count":1},{"id":"134057","count":1},{"id":"144058","count":1}]
+                    "reward":[{"id":"104090","count":450},{"id":"124051","count":1},{"id":"134057","count":1},{"id":"144058","count":1}]
                 },
                 {
                     "complete":"104091",
                     "desc":"Récomp.:Cell-Coffre Démon.*1",
-                    "reward":[{"id":"104091","count":2245},{"id":"124052","count":1},{"id":"134058","count":1},{"id":"144059","count":1}]
+                    "reward":[{"id":"104091","count":450},{"id":"124052","count":1},{"id":"134058","count":1},{"id":"144059","count":1}]
                 },
                 {
                     "complete":"104092",
                     "desc":"Récomp.:Cooler-Coffre Démon.*1",
-                    "reward":[{"id":"104092","count":2245},{"id":"124051","count":1},{"id":"134059","count":1},{"id":"144058","count":1}]
+                    "reward":[{"id":"104092","count":450},{"id":"124051","count":1},{"id":"134059","count":1},{"id":"144058","count":1}]
                 },
                 {
                     "complete":"104093",
                     "desc":"Récomp.:Goku-Coffre Démon.*1",
-                    "reward":[{"id":"104093","count":2245},{"id":"124053","count":1},{"id":"134056","count":1},{"id":"144060","count":1}]
+                    "reward":[{"id":"104093","count":450},{"id":"124053","count":1},{"id":"134056","count":1},{"id":"144060","count":1}]
                 },
                 {
                     "complete":"104094",
                     "desc":"Récomp.:Vegeta-Coffre Démon.*1",
-                    "reward":[{"id":"104094","count":2245},{"id":"124054","count":1},{"id":"134060","count":1},{"id":"144061","count":1}]
+                    "reward":[{"id":"104094","count":450},{"id":"124054","count":1},{"id":"134060","count":1},{"id":"144061","count":1}]
                 },
                 {
                     "complete":"104095",
                     "desc":"Récomp.:Gotenks-Coffre Démon.*1",
-                    "reward":[{"id":"104095","count":2245},{"id":"124053","count":1},{"id":"134061","count":1},{"id":"144060","count":1}]
+                    "reward":[{"id":"104095","count":450},{"id":"124053","count":1},{"id":"134061","count":1},{"id":"144060","count":1}]
                 },
                 {
                     "complete":"104096",
                     "desc":"Récomp.:Buu-Coffre Démon.*1",
-                    "reward":[{"id":"104096","count":2245},{"id":"124055","count":1},{"id":"134062","count":1},{"id":"144062","count":1}]
+                    "reward":[{"id":"104096","count":450},{"id":"124055","count":1},{"id":"134062","count":1},{"id":"144062","count":1}]
                 },
                 {
                     "complete":"104100",
                     "desc":"Récomp.:Vegita-SS2-Coffre Démon.*1",
-                    "reward":[{"id":"104100","count":2245},{"id":"124054","count":1},{"id":"134060","count":1},{"id":"144061","count":1}]
+                    "reward":[{"id":"104100","count":450},{"id":"124054","count":1},{"id":"134060","count":1},{"id":"144061","count":1}]
                 },
                 {
                     "complete":"104101",
                     "desc":"Récomp.:Goku-SS2-Coffre Démon.*1",
-                    "reward":[{"id":"104101","count":2245},{"id":"124053","count":1},{"id":"134056","count":1},{"id":"144060","count":1}]
+                    "reward":[{"id":"104101","count":450},{"id":"124053","count":1},{"id":"134056","count":1},{"id":"144060","count":1}]
                 },
                 {
                     "complete":"104102",
                     "desc":"Récomp.:Trunks-SS2-Coffre Démon.*1",
-                    "reward":[{"id":"104102","count":2245},{"id":"124054","count":1},{"id":"134066","count":1},{"id":"144065","count":1}]
+                    "reward":[{"id":"104102","count":450},{"id":"124054","count":1},{"id":"134066","count":1},{"id":"144065","count":1}]
                 },
                 {
                     "complete":"104103",
                     "desc":"Récomp.:Gohan-SS2-Coffre Démon.*1",
-                    "reward":[{"id":"104103","count":2245},{"id":"124054","count":1},{"id":"134056","count":1},{"id":"144060","count":1}]
+                    "reward":[{"id":"104103","count":450},{"id":"124054","count":1},{"id":"134056","count":1},{"id":"144060","count":1}]
                 }
             ]
         }

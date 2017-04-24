@@ -2,20 +2,20 @@
         "signIn":{
                 "1":{
                          "1":{
-                                  "rewardId":"gold",
-                                  "rewardCount":10000,
-                                  "doubleVip":3,
+                                  "rewardId":"152501",
+                                  "rewardCount":20,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "2":{
                                   "rewardId":"ingot",
-                                  "rewardCount":20,
+                                  "rewardCount":400,
                                   "isDouble":0
                          },
                          "3":{
-                                  "rewardId":"150303",
-                                  "rewardCount":5,
-                                  "doubleVip":3,
+                                  "rewardId":"104040",
+                                  "rewardCount":120,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "4":{
@@ -26,24 +26,24 @@
                          "5":{
                                   "rewardId":"151501",
                                   "rewardCount":3,
-                                  "doubleVip":4,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "6":{
                                   "rewardId":"gold",
-                                  "rewardCount":20000,
-                                  "doubleVip":4,
+                                  "rewardCount":200000,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "7":{
                                   "rewardId":"ingot",
-                                  "rewardCount":40,
+                                  "rewardCount":800,
                                   "isDouble":0
                          },
                          "8":{
                                   "rewardId":"150901",
                                   "rewardCount":50,
-                                  "doubleVip":5,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "9":{
@@ -54,18 +54,18 @@
                          "10":{
                                   "rewardId":"151001",
                                   "rewardCount":3,
-                                  "doubleVip":5,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "11":{
                                   "rewardId":"gold",
-                                  "rewardCount":30000,
+                                  "rewardCount":300000,
                                   "doubleVip":6,
                                   "isDouble":1
                          },
                          "12":{
                                   "rewardId":"ingot",
-                                  "rewardCount":60,
+                                  "rewardCount":1200,
                                   "isDouble":0
                          },
                          "13":{
@@ -87,13 +87,13 @@
                          },
                          "16":{
                                   "rewardId":"gold",
-                                  "rewardCount":50000,
+                                  "rewardCount":500000,
                                   "doubleVip":7,
                                   "isDouble":1
                          },
                          "17":{
                                   "rewardId":"ingot",
-                                  "rewardCount":80,
+                                  "rewardCount":1600,
                                   "isDouble":0
                          },
                          "18":{
@@ -115,13 +115,13 @@
                          },
                          "21":{
                                   "rewardId":"gold",
-                                  "rewardCount":100000,
+                                  "rewardCount":1000000,
                                   "doubleVip":9,
                                   "isDouble":1
                          },
                          "22":{
                                   "rewardId":"ingot",
-                                  "rewardCount":100,
+                                  "rewardCount":2000,
                                   "isDouble":0
                          },
                          "23":{
@@ -143,13 +143,13 @@
                          },
                          "26":{
                                   "rewardId":"gold",
-                                  "rewardCount":200000,
+                                  "rewardCount":2000000,
                                   "doubleVip":10,
                                   "isDouble":1
                          },
                          "27":{
                                   "rewardId":"ingot",
-                                  "rewardCount":150,
+                                  "rewardCount":3000,
                                   "isDouble":0
                          },
                          "28":{
@@ -177,20 +177,20 @@
                 },
                 "2":{
                          "1":{
-                                  "rewardId":"gold",
-                                  "rewardCount":10000,
-                                  "doubleVip":3,
+                                  "rewardId":"152501",
+                                  "rewardCount":20,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "2":{
                                   "rewardId":"ingot",
-                                  "rewardCount":20,
+                                  "rewardCount":400,
                                   "isDouble":0
                          },
                          "3":{
-                                  "rewardId":"150303",
-                                  "rewardCount":5,
-                                  "doubleVip":3,
+                                  "rewardId":"104040",
+                                  "rewardCount":120,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "4":{
@@ -201,24 +201,24 @@
                          "5":{
                                   "rewardId":"151501",
                                   "rewardCount":3,
-                                  "doubleVip":4,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "6":{
                                   "rewardId":"gold",
-                                  "rewardCount":20000,
-                                  "doubleVip":4,
+                                  "rewardCount":200000,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "7":{
                                   "rewardId":"ingot",
-                                  "rewardCount":40,
+                                  "rewardCount":800,
                                   "isDouble":0
                          },
                          "8":{
                                   "rewardId":"150901",
                                   "rewardCount":50,
-                                  "doubleVip":5,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "9":{
@@ -229,18 +229,18 @@
                          "10":{
                                   "rewardId":"151001",
                                   "rewardCount":3,
-                                  "doubleVip":5,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "11":{
                                   "rewardId":"gold",
-                                  "rewardCount":30000,
+                                  "rewardCount":300000,
                                   "doubleVip":6,
                                   "isDouble":1
                          },
                          "12":{
                                   "rewardId":"ingot",
-                                  "rewardCount":60,
+                                  "rewardCount":1200,
                                   "isDouble":0
                          },
                          "13":{
@@ -262,13 +262,13 @@
                          },
                          "16":{
                                   "rewardId":"gold",
-                                  "rewardCount":50000,
+                                  "rewardCount":500000,
                                   "doubleVip":7,
                                   "isDouble":1
                          },
                          "17":{
                                   "rewardId":"ingot",
-                                  "rewardCount":80,
+                                  "rewardCount":1600,
                                   "isDouble":0
                          },
                          "18":{
@@ -290,13 +290,13 @@
                          },
                          "21":{
                                   "rewardId":"gold",
-                                  "rewardCount":100000,
+                                  "rewardCount":1000000,
                                   "doubleVip":9,
                                   "isDouble":1
                          },
                          "22":{
                                   "rewardId":"ingot",
-                                  "rewardCount":100,
+                                  "rewardCount":2000,
                                   "isDouble":0
                          },
                          "23":{
@@ -318,13 +318,13 @@
                          },
                          "26":{
                                   "rewardId":"gold",
-                                  "rewardCount":200000,
+                                  "rewardCount":2000000,
                                   "doubleVip":10,
                                   "isDouble":1
                          },
                          "27":{
                                   "rewardId":"ingot",
-                                  "rewardCount":150,
+                                  "rewardCount":3000,
                                   "isDouble":0
                          },
                          "28":{
@@ -335,20 +335,20 @@
                 },
                 "3":{
                          "1":{
-                                  "rewardId":"gold",
-                                  "rewardCount":10000,
-                                  "doubleVip":3,
+                                  "rewardId":"152501",
+                                  "rewardCount":20,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "2":{
                                   "rewardId":"ingot",
-                                  "rewardCount":20,
+                                  "rewardCount":400,
                                   "isDouble":0
                          },
                          "3":{
-                                  "rewardId":"150303",
-                                  "rewardCount":5,
-                                  "doubleVip":3,
+                                  "rewardId":"104040",
+                                  "rewardCount":120,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "4":{
@@ -359,24 +359,24 @@
                          "5":{
                                   "rewardId":"151501",
                                   "rewardCount":3,
-                                  "doubleVip":4,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "6":{
                                   "rewardId":"gold",
-                                  "rewardCount":20000,
-                                  "doubleVip":4,
+                                  "rewardCount":200000,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "7":{
                                   "rewardId":"ingot",
-                                  "rewardCount":40,
+                                  "rewardCount":800,
                                   "isDouble":0
                          },
                          "8":{
                                   "rewardId":"150901",
                                   "rewardCount":50,
-                                  "doubleVip":5,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "9":{
@@ -387,18 +387,18 @@
                          "10":{
                                   "rewardId":"151001",
                                   "rewardCount":3,
-                                  "doubleVip":5,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "11":{
                                   "rewardId":"gold",
-                                  "rewardCount":30000,
+                                  "rewardCount":300000,
                                   "doubleVip":6,
                                   "isDouble":1
                          },
                          "12":{
                                   "rewardId":"ingot",
-                                  "rewardCount":60,
+                                  "rewardCount":1200,
                                   "isDouble":0
                          },
                          "13":{
@@ -420,13 +420,13 @@
                          },
                          "16":{
                                   "rewardId":"gold",
-                                  "rewardCount":50000,
+                                  "rewardCount":500000,
                                   "doubleVip":7,
                                   "isDouble":1
                          },
                          "17":{
                                   "rewardId":"ingot",
-                                  "rewardCount":80,
+                                  "rewardCount":1600,
                                   "isDouble":0
                          },
                          "18":{
@@ -448,13 +448,13 @@
                          },
                          "21":{
                                   "rewardId":"gold",
-                                  "rewardCount":100000,
+                                  "rewardCount":1000000,
                                   "doubleVip":9,
                                   "isDouble":1
                          },
                          "22":{
                                   "rewardId":"ingot",
-                                  "rewardCount":100,
+                                  "rewardCount":2000,
                                   "isDouble":0
                          },
                          "23":{
@@ -476,13 +476,13 @@
                          },
                          "26":{
                                   "rewardId":"gold",
-                                  "rewardCount":200000,
+                                  "rewardCount":2000000,
                                   "doubleVip":10,
                                   "isDouble":1
                          },
                          "27":{
                                   "rewardId":"ingot",
-                                  "rewardCount":150,
+                                  "rewardCount":3000,
                                   "isDouble":0
                          },
                          "28":{
@@ -510,20 +510,20 @@
                 },
                 "4":{
                          "1":{
-                                  "rewardId":"gold",
-                                  "rewardCount":10000,
-                                  "doubleVip":3,
+                                  "rewardId":"152501",
+                                  "rewardCount":20,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "2":{
                                   "rewardId":"ingot",
-                                  "rewardCount":20,
+                                  "rewardCount":400,
                                   "isDouble":0
                          },
                          "3":{
-                                  "rewardId":"150303",
-                                  "rewardCount":5,
-                                  "doubleVip":3,
+                                  "rewardId":"104040",
+                                  "rewardCount":120,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "4":{
@@ -534,24 +534,24 @@
                          "5":{
                                   "rewardId":"151501",
                                   "rewardCount":3,
-                                  "doubleVip":4,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "6":{
                                   "rewardId":"gold",
-                                  "rewardCount":20000,
-                                  "doubleVip":4,
+                                  "rewardCount":200000,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "7":{
                                   "rewardId":"ingot",
-                                  "rewardCount":40,
+                                  "rewardCount":800,
                                   "isDouble":0
                          },
                          "8":{
                                   "rewardId":"150901",
                                   "rewardCount":50,
-                                  "doubleVip":5,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "9":{
@@ -562,18 +562,18 @@
                          "10":{
                                   "rewardId":"151001",
                                   "rewardCount":3,
-                                  "doubleVip":5,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "11":{
                                   "rewardId":"gold",
-                                  "rewardCount":30000,
+                                  "rewardCount":300000,
                                   "doubleVip":6,
                                   "isDouble":1
                          },
                          "12":{
                                   "rewardId":"ingot",
-                                  "rewardCount":60,
+                                  "rewardCount":1200,
                                   "isDouble":0
                          },
                          "13":{
@@ -595,13 +595,13 @@
                          },
                          "16":{
                                   "rewardId":"gold",
-                                  "rewardCount":50000,
+                                  "rewardCount":500000,
                                   "doubleVip":7,
                                   "isDouble":1
                          },
                          "17":{
                                   "rewardId":"ingot",
-                                  "rewardCount":80,
+                                  "rewardCount":1600,
                                   "isDouble":0
                          },
                          "18":{
@@ -623,13 +623,13 @@
                          },
                          "21":{
                                   "rewardId":"gold",
-                                  "rewardCount":100000,
+                                  "rewardCount":1000000,
                                   "doubleVip":9,
                                   "isDouble":1
                          },
                          "22":{
                                   "rewardId":"ingot",
-                                  "rewardCount":100,
+                                  "rewardCount":2000,
                                   "isDouble":0
                          },
                          "23":{
@@ -651,13 +651,13 @@
                          },
                          "26":{
                                   "rewardId":"gold",
-                                  "rewardCount":200000,
+                                  "rewardCount":2000000,
                                   "doubleVip":10,
                                   "isDouble":1
                          },
                          "27":{
                                   "rewardId":"ingot",
-                                  "rewardCount":150,
+                                  "rewardCount":3000,
                                   "isDouble":0
                          },
                          "28":{
@@ -679,20 +679,20 @@
                 },
                 "5":{
                          "1":{
-                                  "rewardId":"gold",
-                                  "rewardCount":10000,
-                                  "doubleVip":3,
+                                  "rewardId":"152501",
+                                  "rewardCount":20,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "2":{
                                   "rewardId":"ingot",
-                                  "rewardCount":20,
+                                  "rewardCount":400,
                                   "isDouble":0
                          },
                          "3":{
-                                  "rewardId":"150303",
-                                  "rewardCount":5,
-                                  "doubleVip":3,
+                                  "rewardId":"104040",
+                                  "rewardCount":120,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "4":{
@@ -703,24 +703,24 @@
                          "5":{
                                   "rewardId":"151501",
                                   "rewardCount":3,
-                                  "doubleVip":4,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "6":{
                                   "rewardId":"gold",
-                                  "rewardCount":20000,
-                                  "doubleVip":4,
+                                  "rewardCount":200000,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "7":{
                                   "rewardId":"ingot",
-                                  "rewardCount":40,
+                                  "rewardCount":800,
                                   "isDouble":0
                          },
                          "8":{
                                   "rewardId":"150901",
                                   "rewardCount":50,
-                                  "doubleVip":5,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "9":{
@@ -731,18 +731,18 @@
                          "10":{
                                   "rewardId":"151001",
                                   "rewardCount":3,
-                                  "doubleVip":5,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "11":{
                                   "rewardId":"gold",
-                                  "rewardCount":30000,
+                                  "rewardCount":300000,
                                   "doubleVip":6,
                                   "isDouble":1
                          },
                          "12":{
                                   "rewardId":"ingot",
-                                  "rewardCount":60,
+                                  "rewardCount":1200,
                                   "isDouble":0
                          },
                          "13":{
@@ -764,13 +764,13 @@
                          },
                          "16":{
                                   "rewardId":"gold",
-                                  "rewardCount":50000,
+                                  "rewardCount":500000,
                                   "doubleVip":7,
                                   "isDouble":1
                          },
                          "17":{
                                   "rewardId":"ingot",
-                                  "rewardCount":80,
+                                  "rewardCount":1600,
                                   "isDouble":0
                          },
                          "18":{
@@ -792,13 +792,13 @@
                          },
                          "21":{
                                   "rewardId":"gold",
-                                  "rewardCount":100000,
+                                  "rewardCount":1000000,
                                   "doubleVip":9,
                                   "isDouble":1
                          },
                          "22":{
                                   "rewardId":"ingot",
-                                  "rewardCount":100,
+                                  "rewardCount":2000,
                                   "isDouble":0
                          },
                          "23":{
@@ -820,13 +820,13 @@
                          },
                          "26":{
                                   "rewardId":"gold",
-                                  "rewardCount":200000,
+                                  "rewardCount":2000000,
                                   "doubleVip":10,
                                   "isDouble":1
                          },
                          "27":{
                                   "rewardId":"ingot",
-                                  "rewardCount":150,
+                                  "rewardCount":3000,
                                   "isDouble":0
                          },
                          "28":{
@@ -854,20 +854,20 @@
                 },
                 "6":{
                          "1":{
-                                  "rewardId":"gold",
-                                  "rewardCount":10000,
-                                  "doubleVip":3,
+                                  "rewardId":"152501",
+                                  "rewardCount":20,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "2":{
                                   "rewardId":"ingot",
-                                  "rewardCount":20,
+                                  "rewardCount":400,
                                   "isDouble":0
                          },
                          "3":{
-                                  "rewardId":"150303",
-                                  "rewardCount":5,
-                                  "doubleVip":3,
+                                  "rewardId":"104040",
+                                  "rewardCount":120,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "4":{
@@ -878,24 +878,24 @@
                          "5":{
                                   "rewardId":"151501",
                                   "rewardCount":3,
-                                  "doubleVip":4,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "6":{
                                   "rewardId":"gold",
-                                  "rewardCount":20000,
-                                  "doubleVip":4,
+                                  "rewardCount":200000,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "7":{
                                   "rewardId":"ingot",
-                                  "rewardCount":40,
+                                  "rewardCount":800,
                                   "isDouble":0
                          },
                          "8":{
                                   "rewardId":"150901",
                                   "rewardCount":50,
-                                  "doubleVip":5,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "9":{
@@ -906,18 +906,18 @@
                          "10":{
                                   "rewardId":"151001",
                                   "rewardCount":3,
-                                  "doubleVip":5,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "11":{
                                   "rewardId":"gold",
-                                  "rewardCount":30000,
+                                  "rewardCount":300000,
                                   "doubleVip":6,
                                   "isDouble":1
                          },
                          "12":{
                                   "rewardId":"ingot",
-                                  "rewardCount":60,
+                                  "rewardCount":1200,
                                   "isDouble":0
                          },
                          "13":{
@@ -939,13 +939,13 @@
                          },
                          "16":{
                                   "rewardId":"gold",
-                                  "rewardCount":50000,
+                                  "rewardCount":500000,
                                   "doubleVip":7,
                                   "isDouble":1
                          },
                          "17":{
                                   "rewardId":"ingot",
-                                  "rewardCount":80,
+                                  "rewardCount":1600,
                                   "isDouble":0
                          },
                          "18":{
@@ -967,13 +967,13 @@
                          },
                          "21":{
                                   "rewardId":"gold",
-                                  "rewardCount":100000,
+                                  "rewardCount":1000000,
                                   "doubleVip":9,
                                   "isDouble":1
                          },
                          "22":{
                                   "rewardId":"ingot",
-                                  "rewardCount":100,
+                                  "rewardCount":2000,
                                   "isDouble":0
                          },
                          "23":{
@@ -995,13 +995,13 @@
                          },
                          "26":{
                                   "rewardId":"gold",
-                                  "rewardCount":200000,
+                                  "rewardCount":2000000,
                                   "doubleVip":10,
                                   "isDouble":1
                          },
                          "27":{
                                   "rewardId":"ingot",
-                                  "rewardCount":150,
+                                  "rewardCount":3000,
                                   "isDouble":0
                          },
                          "28":{
@@ -1023,20 +1023,20 @@
                 },
                 "7":{
                          "1":{
-                                  "rewardId":"gold",
-                                  "rewardCount":10000,
-                                  "doubleVip":3,
+                                  "rewardId":"152501",
+                                  "rewardCount":20,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "2":{
                                   "rewardId":"ingot",
-                                  "rewardCount":20,
+                                  "rewardCount":400,
                                   "isDouble":0
                          },
                          "3":{
-                                  "rewardId":"150303",
-                                  "rewardCount":5,
-                                  "doubleVip":3,
+                                  "rewardId":"104040",
+                                  "rewardCount":120,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "4":{
@@ -1047,24 +1047,24 @@
                          "5":{
                                   "rewardId":"151501",
                                   "rewardCount":3,
-                                  "doubleVip":4,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "6":{
                                   "rewardId":"gold",
-                                  "rewardCount":20000,
-                                  "doubleVip":4,
+                                  "rewardCount":200000,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "7":{
                                   "rewardId":"ingot",
-                                  "rewardCount":40,
+                                  "rewardCount":800,
                                   "isDouble":0
                          },
                          "8":{
                                   "rewardId":"150901",
                                   "rewardCount":50,
-                                  "doubleVip":5,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "9":{
@@ -1075,18 +1075,18 @@
                          "10":{
                                   "rewardId":"151001",
                                   "rewardCount":3,
-                                  "doubleVip":5,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "11":{
                                   "rewardId":"gold",
-                                  "rewardCount":30000,
+                                  "rewardCount":300000,
                                   "doubleVip":6,
                                   "isDouble":1
                          },
                          "12":{
                                   "rewardId":"ingot",
-                                  "rewardCount":60,
+                                  "rewardCount":1200,
                                   "isDouble":0
                          },
                          "13":{
@@ -1108,13 +1108,13 @@
                          },
                          "16":{
                                   "rewardId":"gold",
-                                  "rewardCount":50000,
+                                  "rewardCount":500000,
                                   "doubleVip":7,
                                   "isDouble":1
                          },
                          "17":{
                                   "rewardId":"ingot",
-                                  "rewardCount":80,
+                                  "rewardCount":1600,
                                   "isDouble":0
                          },
                          "18":{
@@ -1136,13 +1136,13 @@
                          },
                          "21":{
                                   "rewardId":"gold",
-                                  "rewardCount":100000,
+                                  "rewardCount":1000000,
                                   "doubleVip":9,
                                   "isDouble":1
                          },
                          "22":{
                                   "rewardId":"ingot",
-                                  "rewardCount":100,
+                                  "rewardCount":2000,
                                   "isDouble":0
                          },
                          "23":{
@@ -1164,13 +1164,13 @@
                          },
                          "26":{
                                   "rewardId":"gold",
-                                  "rewardCount":200000,
+                                  "rewardCount":2000000,
                                   "doubleVip":10,
                                   "isDouble":1
                          },
                          "27":{
                                   "rewardId":"ingot",
-                                  "rewardCount":150,
+                                  "rewardCount":3000,
                                   "isDouble":0
                          },
                          "28":{
@@ -1198,20 +1198,20 @@
                 },
                 "8":{
                          "1":{
-                                  "rewardId":"gold",
-                                  "rewardCount":10000,
-                                  "doubleVip":3,
+                                  "rewardId":"152501",
+                                  "rewardCount":20,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "2":{
                                   "rewardId":"ingot",
-                                  "rewardCount":20,
+                                  "rewardCount":400,
                                   "isDouble":0
                          },
                          "3":{
-                                  "rewardId":"150303",
-                                  "rewardCount":5,
-                                  "doubleVip":3,
+                                  "rewardId":"104040",
+                                  "rewardCount":120,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "4":{
@@ -1222,24 +1222,24 @@
                          "5":{
                                   "rewardId":"151501",
                                   "rewardCount":3,
-                                  "doubleVip":4,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "6":{
                                   "rewardId":"gold",
-                                  "rewardCount":20000,
-                                  "doubleVip":4,
+                                  "rewardCount":200000,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "7":{
                                   "rewardId":"ingot",
-                                  "rewardCount":40,
+                                  "rewardCount":800,
                                   "isDouble":0
                          },
                          "8":{
                                   "rewardId":"150901",
                                   "rewardCount":50,
-                                  "doubleVip":5,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "9":{
@@ -1250,18 +1250,18 @@
                          "10":{
                                   "rewardId":"151001",
                                   "rewardCount":3,
-                                  "doubleVip":5,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "11":{
                                   "rewardId":"gold",
-                                  "rewardCount":30000,
+                                  "rewardCount":300000,
                                   "doubleVip":6,
                                   "isDouble":1
                          },
                          "12":{
                                   "rewardId":"ingot",
-                                  "rewardCount":60,
+                                  "rewardCount":1200,
                                   "isDouble":0
                          },
                          "13":{
@@ -1283,13 +1283,13 @@
                          },
                          "16":{
                                   "rewardId":"gold",
-                                  "rewardCount":50000,
+                                  "rewardCount":500000,
                                   "doubleVip":7,
                                   "isDouble":1
                          },
                          "17":{
                                   "rewardId":"ingot",
-                                  "rewardCount":80,
+                                  "rewardCount":1600,
                                   "isDouble":0
                          },
                          "18":{
@@ -1311,13 +1311,13 @@
                          },
                          "21":{
                                   "rewardId":"gold",
-                                  "rewardCount":100000,
+                                  "rewardCount":1000000,
                                   "doubleVip":9,
                                   "isDouble":1
                          },
                          "22":{
                                   "rewardId":"ingot",
-                                  "rewardCount":100,
+                                  "rewardCount":2000,
                                   "isDouble":0
                          },
                          "23":{
@@ -1339,13 +1339,13 @@
                          },
                          "26":{
                                   "rewardId":"gold",
-                                  "rewardCount":200000,
+                                  "rewardCount":2000000,
                                   "doubleVip":10,
                                   "isDouble":1
                          },
                          "27":{
                                   "rewardId":"ingot",
-                                  "rewardCount":150,
+                                  "rewardCount":3000,
                                   "isDouble":0
                          },
                          "28":{
@@ -1373,20 +1373,20 @@
                 },
                 "9":{
                          "1":{
-                                  "rewardId":"gold",
-                                  "rewardCount":10000,
-                                  "doubleVip":3,
+                                  "rewardId":"152501",
+                                  "rewardCount":20,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "2":{
                                   "rewardId":"ingot",
-                                  "rewardCount":20,
+                                  "rewardCount":400,
                                   "isDouble":0
                          },
                          "3":{
-                                  "rewardId":"150303",
-                                  "rewardCount":5,
-                                  "doubleVip":3,
+                                  "rewardId":"104040",
+                                  "rewardCount":120,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "4":{
@@ -1397,24 +1397,24 @@
                          "5":{
                                   "rewardId":"151501",
                                   "rewardCount":3,
-                                  "doubleVip":4,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "6":{
                                   "rewardId":"gold",
-                                  "rewardCount":20000,
-                                  "doubleVip":4,
+                                  "rewardCount":200000,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "7":{
                                   "rewardId":"ingot",
-                                  "rewardCount":40,
+                                  "rewardCount":800,
                                   "isDouble":0
                          },
                          "8":{
                                   "rewardId":"150901",
                                   "rewardCount":50,
-                                  "doubleVip":5,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "9":{
@@ -1425,18 +1425,18 @@
                          "10":{
                                   "rewardId":"151001",
                                   "rewardCount":3,
-                                  "doubleVip":5,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "11":{
                                   "rewardId":"gold",
-                                  "rewardCount":30000,
+                                  "rewardCount":300000,
                                   "doubleVip":6,
                                   "isDouble":1
                          },
                          "12":{
                                   "rewardId":"ingot",
-                                  "rewardCount":60,
+                                  "rewardCount":1200,
                                   "isDouble":0
                          },
                          "13":{
@@ -1458,13 +1458,13 @@
                          },
                          "16":{
                                   "rewardId":"gold",
-                                  "rewardCount":50000,
+                                  "rewardCount":500000,
                                   "doubleVip":7,
                                   "isDouble":1
                          },
                          "17":{
                                   "rewardId":"ingot",
-                                  "rewardCount":80,
+                                  "rewardCount":1600,
                                   "isDouble":0
                          },
                          "18":{
@@ -1486,13 +1486,13 @@
                          },
                          "21":{
                                   "rewardId":"gold",
-                                  "rewardCount":100000,
+                                  "rewardCount":1000000,
                                   "doubleVip":9,
                                   "isDouble":1
                          },
                          "22":{
                                   "rewardId":"ingot",
-                                  "rewardCount":100,
+                                  "rewardCount":2000,
                                   "isDouble":0
                          },
                          "23":{
@@ -1514,13 +1514,13 @@
                          },
                          "26":{
                                   "rewardId":"gold",
-                                  "rewardCount":200000,
+                                  "rewardCount":2000000,
                                   "doubleVip":10,
                                   "isDouble":1
                          },
                          "27":{
                                   "rewardId":"ingot",
-                                  "rewardCount":150,
+                                  "rewardCount":3000,
                                   "isDouble":0
                          },
                          "28":{
@@ -1542,20 +1542,20 @@
                 },
                 "10":{
                          "1":{
-                                  "rewardId":"gold",
-                                  "rewardCount":10000,
-                                  "doubleVip":3,
+                                  "rewardId":"152501",
+                                  "rewardCount":20,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "2":{
                                   "rewardId":"ingot",
-                                  "rewardCount":20,
+                                  "rewardCount":400,
                                   "isDouble":0
                          },
                          "3":{
-                                  "rewardId":"150303",
-                                  "rewardCount":5,
-                                  "doubleVip":3,
+                                  "rewardId":"104040",
+                                  "rewardCount":120,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "4":{
@@ -1566,24 +1566,24 @@
                          "5":{
                                   "rewardId":"151501",
                                   "rewardCount":3,
-                                  "doubleVip":4,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "6":{
                                   "rewardId":"gold",
-                                  "rewardCount":20000,
-                                  "doubleVip":4,
+                                  "rewardCount":200000,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "7":{
                                   "rewardId":"ingot",
-                                  "rewardCount":40,
+                                  "rewardCount":800,
                                   "isDouble":0
                          },
                          "8":{
                                   "rewardId":"150901",
                                   "rewardCount":50,
-                                  "doubleVip":5,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "9":{
@@ -1594,18 +1594,18 @@
                          "10":{
                                   "rewardId":"151001",
                                   "rewardCount":3,
-                                  "doubleVip":5,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "11":{
                                   "rewardId":"gold",
-                                  "rewardCount":30000,
+                                  "rewardCount":300000,
                                   "doubleVip":6,
                                   "isDouble":1
                          },
                          "12":{
                                   "rewardId":"ingot",
-                                  "rewardCount":60,
+                                  "rewardCount":1200,
                                   "isDouble":0
                          },
                          "13":{
@@ -1627,13 +1627,13 @@
                          },
                          "16":{
                                   "rewardId":"gold",
-                                  "rewardCount":50000,
+                                  "rewardCount":500000,
                                   "doubleVip":7,
                                   "isDouble":1
                          },
                          "17":{
                                   "rewardId":"ingot",
-                                  "rewardCount":80,
+                                  "rewardCount":1600,
                                   "isDouble":0
                          },
                          "18":{
@@ -1655,13 +1655,13 @@
                          },
                          "21":{
                                   "rewardId":"gold",
-                                  "rewardCount":100000,
+                                  "rewardCount":1000000,
                                   "doubleVip":9,
                                   "isDouble":1
                          },
                          "22":{
                                   "rewardId":"ingot",
-                                  "rewardCount":100,
+                                  "rewardCount":2000,
                                   "isDouble":0
                          },
                          "23":{
@@ -1683,13 +1683,13 @@
                          },
                          "26":{
                                   "rewardId":"gold",
-                                  "rewardCount":200000,
+                                  "rewardCount":2000000,
                                   "doubleVip":10,
                                   "isDouble":1
                          },
                          "27":{
                                   "rewardId":"ingot",
-                                  "rewardCount":150,
+                                  "rewardCount":3000,
                                   "isDouble":0
                          },
                          "28":{
@@ -1717,20 +1717,20 @@
                 },
                 "11":{
                          "1":{
-                                  "rewardId":"gold",
-                                  "rewardCount":10000,
-                                  "doubleVip":3,
+                                  "rewardId":"152501",
+                                  "rewardCount":20,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "2":{
                                   "rewardId":"ingot",
-                                  "rewardCount":20,
+                                  "rewardCount":400,
                                   "isDouble":0
                          },
                          "3":{
-                                  "rewardId":"150303",
-                                  "rewardCount":5,
-                                  "doubleVip":3,
+                                  "rewardId":"104040",
+                                  "rewardCount":120,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "4":{
@@ -1741,24 +1741,24 @@
                          "5":{
                                   "rewardId":"151501",
                                   "rewardCount":3,
-                                  "doubleVip":4,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "6":{
                                   "rewardId":"gold",
-                                  "rewardCount":20000,
-                                  "doubleVip":4,
+                                  "rewardCount":200000,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "7":{
                                   "rewardId":"ingot",
-                                  "rewardCount":40,
+                                  "rewardCount":800,
                                   "isDouble":0
                          },
                          "8":{
                                   "rewardId":"150901",
                                   "rewardCount":50,
-                                  "doubleVip":5,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "9":{
@@ -1769,18 +1769,18 @@
                          "10":{
                                   "rewardId":"151001",
                                   "rewardCount":3,
-                                  "doubleVip":5,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "11":{
                                   "rewardId":"gold",
-                                  "rewardCount":30000,
+                                  "rewardCount":300000,
                                   "doubleVip":6,
                                   "isDouble":1
                          },
                          "12":{
                                   "rewardId":"ingot",
-                                  "rewardCount":60,
+                                  "rewardCount":1200,
                                   "isDouble":0
                          },
                          "13":{
@@ -1802,13 +1802,13 @@
                          },
                          "16":{
                                   "rewardId":"gold",
-                                  "rewardCount":50000,
+                                  "rewardCount":500000,
                                   "doubleVip":7,
                                   "isDouble":1
                          },
                          "17":{
                                   "rewardId":"ingot",
-                                  "rewardCount":80,
+                                  "rewardCount":1600,
                                   "isDouble":0
                          },
                          "18":{
@@ -1830,13 +1830,13 @@
                          },
                          "21":{
                                   "rewardId":"gold",
-                                  "rewardCount":100000,
+                                  "rewardCount":1000000,
                                   "doubleVip":9,
                                   "isDouble":1
                          },
                          "22":{
                                   "rewardId":"ingot",
-                                  "rewardCount":100,
+                                  "rewardCount":2000,
                                   "isDouble":0
                          },
                          "23":{
@@ -1858,13 +1858,13 @@
                          },
                          "26":{
                                   "rewardId":"gold",
-                                  "rewardCount":200000,
+                                  "rewardCount":2000000,
                                   "doubleVip":10,
                                   "isDouble":1
                          },
                          "27":{
                                   "rewardId":"ingot",
-                                  "rewardCount":150,
+                                  "rewardCount":3000,
                                   "isDouble":0
                          },
                          "28":{
@@ -1886,20 +1886,20 @@
                 },
                 "12":{
                          "1":{
-                                  "rewardId":"gold",
-                                  "rewardCount":10000,
-                                  "doubleVip":3,
+                                  "rewardId":"152501",
+                                  "rewardCount":20,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "2":{
                                   "rewardId":"ingot",
-                                  "rewardCount":20,
+                                  "rewardCount":400,
                                   "isDouble":0
                          },
                          "3":{
-                                  "rewardId":"150303",
-                                  "rewardCount":5,
-                                  "doubleVip":3,
+                                  "rewardId":"104040",
+                                  "rewardCount":120,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "4":{
@@ -1910,24 +1910,24 @@
                          "5":{
                                   "rewardId":"151501",
                                   "rewardCount":3,
-                                  "doubleVip":4,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "6":{
                                   "rewardId":"gold",
-                                  "rewardCount":20000,
-                                  "doubleVip":4,
+                                  "rewardCount":200000,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "7":{
                                   "rewardId":"ingot",
-                                  "rewardCount":40,
+                                  "rewardCount":800,
                                   "isDouble":0
                          },
                          "8":{
                                   "rewardId":"150901",
                                   "rewardCount":50,
-                                  "doubleVip":5,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "9":{
@@ -1938,18 +1938,18 @@
                          "10":{
                                   "rewardId":"151001",
                                   "rewardCount":3,
-                                  "doubleVip":5,
+                                  "doubleVip":6,
                                   "isDouble":1
                          },
                          "11":{
                                   "rewardId":"gold",
-                                  "rewardCount":30000,
+                                  "rewardCount":300000,
                                   "doubleVip":6,
                                   "isDouble":1
                          },
                          "12":{
                                   "rewardId":"ingot",
-                                  "rewardCount":60,
+                                  "rewardCount":1200,
                                   "isDouble":0
                          },
                          "13":{
@@ -1971,13 +1971,13 @@
                          },
                          "16":{
                                   "rewardId":"gold",
-                                  "rewardCount":50000,
+                                  "rewardCount":500000,
                                   "doubleVip":7,
                                   "isDouble":1
                          },
                          "17":{
                                   "rewardId":"ingot",
-                                  "rewardCount":80,
+                                  "rewardCount":1600,
                                   "isDouble":0
                          },
                          "18":{
@@ -1999,13 +1999,13 @@
                          },
                          "21":{
                                   "rewardId":"gold",
-                                  "rewardCount":100000,
+                                  "rewardCount":1000000,
                                   "doubleVip":9,
                                   "isDouble":1
                          },
                          "22":{
                                   "rewardId":"ingot",
-                                  "rewardCount":100,
+                                  "rewardCount":2000,
                                   "isDouble":0
                          },
                          "23":{
@@ -2027,13 +2027,13 @@
                          },
                          "26":{
                                   "rewardId":"gold",
-                                  "rewardCount":200000,
+                                  "rewardCount":2000000,
                                   "doubleVip":10,
                                   "isDouble":1
                          },
                          "27":{
                                   "rewardId":"ingot",
-                                  "rewardCount":150,
+                                  "rewardCount":3000,
                                   "isDouble":0
                          },
                          "28":{

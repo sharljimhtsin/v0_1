@@ -77,13 +77,13 @@ function _getPostObj(request, query, fn) {
                         postData = JSON.parse(postDataObjData);
                     } catch (err) {
                         postData = postDataObj;
-                        console.error("server.js ---------" + postDataObjData, err.stack);
                         fs.appendFile('jsonError.log', jutil.now() + " | " + err + " | " + postDataObjData + "\n", 'utf8');
                     }
                 } else {
                     postData = postDataObj;
                 }
             } else {
+                //TODO support HTTP_RAW_POST_DATA JSON
                 postData = postDataObj;
             }
         } else if (serverConfig["server"]["isDebug"] === true) {//debug模式下把get请求中的postData的参数转成post数据
@@ -93,7 +93,6 @@ function _getPostObj(request, query, fn) {
                 try {
                     postData = JSON.parse(queryDataStr);
                 } catch (error) {
-                    console.error(error.stack);
                     fs.appendFile('jsonError.log', jutil.now() + " | " + error + " | " + queryDataStr + "\n", 'utf8');
                 }
             }
@@ -104,7 +103,6 @@ function _getPostObj(request, query, fn) {
             try {
                 postData = JSON.parse(queryDataStr);
             } catch (error) {
-                console.error(error.stack);
                 fs.appendFile('jsonError.log', jutil.now() + " | " + error + " | " + queryDataStr + "\n", 'utf8');
             }
         }

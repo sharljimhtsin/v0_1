@@ -10679,6 +10679,66 @@
 			"salePrice":0,
 			"activeId":"0",
 			"dailyUseTime":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+		},
+		"153690":{
+			"ID":"153690",
+			"type":15,
+			"name":"抽獎券",
+			"des":"",
+			"star":4,
+			"frame":1,
+			"itemType":36,
+			"typeValue":0,
+			"ownMaxNum":0,
+			"levelLimit":0,
+			"salePrice":0,
+			"activeId":"0",
+			"dailyUseTime":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+		},
+		"153691":{
+			"ID":"153691",
+			"type":15,
+			"name":"金幣",
+			"des":"",
+			"star":4,
+			"frame":1,
+			"itemType":36,
+			"typeValue":0,
+			"ownMaxNum":0,
+			"levelLimit":0,
+			"salePrice":0,
+			"activeId":"0",
+			"dailyUseTime":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+		},
+		"153692":{
+			"ID":"153692",
+			"type":15,
+			"name":"銀幣",
+			"des":"",
+			"star":4,
+			"frame":1,
+			"itemType":36,
+			"typeValue":0,
+			"ownMaxNum":0,
+			"levelLimit":0,
+			"salePrice":0,
+			"activeId":"0",
+			"dailyUseTime":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+		},
+		"153693":{
+			"ID":"153693",
+			"type":15,
+			"name":"銅幣",
+			"des":"",
+			"star":4,
+			"frame":1,
+			"itemType":36,
+			"typeValue":0,
+			"ownMaxNum":0,
+			"levelLimit":0,
+			"salePrice":0,
+			"activeId":"0",
+			"dailyUseTime":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 		}
 	}
 }

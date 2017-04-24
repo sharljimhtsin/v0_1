@@ -4,7 +4,7 @@
 			"type":"getItem",
 			"level":"easy",
 			"powerCost":1,
-			"name":"ผลึกโซล-ง่าย",
+			"name":"能量球-简单",
 			"timeLimit":18,
 			"imeggaCost":{
 				"1":0,
@@ -259,7 +259,7 @@
 			"type":"getItem",
 			"level":"normal",
 			"powerCost":1,
-			"name":"ผลึกโซล-ธรรมดา",
+			"name":"能量球-普通",
 			"timeLimit":18,
 			"imeggaCost":{
 				"1":0,
@@ -476,7 +476,7 @@
 			"type":"getItem",
 			"level":"hard",
 			"powerCost":1,
-			"name":"ผลึกโซล-ยาก",
+			"name":"能量球-困难",
 			"timeLimit":18,
 			"imeggaCost":{
 				"1":0,
@@ -755,7 +755,7 @@
 			"type":"getGold",
 			"level":"hard",
 			"powerCost":0,
-			"name":"เงินเซนี่",
+			"name":"索尼本",
 			"timeLimit":12,
 			"imeggaCost":{
 				"1":0,

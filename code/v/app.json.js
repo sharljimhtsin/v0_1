@@ -66,7 +66,7 @@ var _time = 0;
  * 德语-"ger"，法语-"fra"，西班牙语-"esp"，越南-"yuenan"
  */
 var _platformList = {
-    "android": ["a91", "a360", "anzhi", "baidu", "dcn", "sina", "ucweb", "wandoujia", "xiaomi", "yyh", "kk", "anfan", "wyx", "gtsinaa", "a185"],//兼容三個版本文件從同一個服務器取的問題。
+    "android": ["a91", "a360", "anzhi", "baidu", "dcn", "sina", "ucweb", "wandoujia", "xiaomi", "yyh", "kk", "anfan", "wyx", "gtsinaa"],//兼容三個版本文件從同一個服務器取的問題。
     "p91": ["p91", "pp", "ppzs", "tb", "ky", "haima", "itools"],
     "ios": ["ios", "gtsinaapp", "gtsinaios", "iosOfficial"],//兼容三個版本文件從同一個服務器取的問題。
     "kingnet": ["kingnet", "sdkkingnet", "bangqu"],
@@ -79,7 +79,7 @@ var _platformList = {
     "kythaixy": ["kythaixy"],
     "baxi": ["baxi", "baxiA", "baxiios"],
     "saiya": ["meizu", "youku", "lenovo", "i4", "xyzs"],
-    "usa": ["usa", "usaa", "usaa1", "usagp", "usaaoff", "usausa", "usaglobal", "usaaoffIns", "usaazb", "usabzb", "usaczb", "usadzb", "usaezb", "usaaoffnew", "usafzb"],
+    "usa": ["usa", "usaa", "usaa1", "usagp", "usaaoff", "usausa", "usaglobal", "usaaoffIns", "usaazb", "usabzb", "usaczb", "usadzb", "usaezb", "usaaoffnew", "usafzb", "usagzb", "usaagp"],
     "leju": ["ljxyzs", "ljoppo", "ljmi", "ljxiongmao", "lj360", "ljhtc", "ljlenovo", "ljmeizu", "ljguopan", "ljguopana", "ljguopani", "ljhuawei", "ljkuaiyong", "ljxiaomi", "ljyoulu", "ljtbt", "ljjinli", "ljwdj", "ljitools", "ljhaimai", "ljhaimaa", "ljvivo", "ljanzhi"],
     "yuenan": ["yuenan", "yuenanlumi"],
     "ger": ["ger", "gera", "gergp"],
@@ -87,7 +87,9 @@ var _platformList = {
     "fra": ["fra", "fraa", "fragp"],
     "ara": ["ara", "araa", "aragp"],
     "rus": ["rus", "rusen"],
-    "rusios": ["rusios", "rusiosen"]
+    "rusios": ["rusios", "rusiosen"],
+    "185": ["a185", "185", "185ios"],
+    "lianyun": ["3733", "cc", "a8", "dm", "damai", "1sdk", "pyw"]
 };
 
 function start(postData, response, query) {
@@ -166,9 +168,14 @@ function version(isTest, p, file, isHttps) {
     try {
         var jsonObj = JSON.parse(echoString);
         jsonObj["platformId"] = p;
+        var tag = attachUpdateTag(p);
+        if (tag[0]) {
+            jsonObj["version"] = tag[1]["version"];
+            jsonObj["isView"] = tag[1]["tag"];
+        }
         echoString = JSON.stringify(jsonObj, null, 2);
         // 是否使用HTTPS
-        var https = ["usaezb"];
+        var https = ["usaezb", "185", "185ios"];
         if (https.indexOf(p) == -1) {
             echoString = echoString.replace(/https/g, "http");
         }
@@ -187,6 +194,18 @@ function clear() {
     var whitelistFile = fs.readFileSync(mPath, "utf-8");
     whitelist = JSON.parse(whitelistFile);
     stringCache = {};
+}
+
+function attachUpdateTag(p) {
+    var updateTag = {};
+    var mPath = resolve(__dirname, "../../config/version/updateTag.json");
+    var updateTagFile = fs.readFileSync(mPath, "utf-8");
+    updateTag = JSON.parse(updateTagFile);
+    if (updateTag.hasOwnProperty(p)) {
+        return [true, updateTag[p]];
+    } else {
+        return [false, 0];
+    }
 }
 
 

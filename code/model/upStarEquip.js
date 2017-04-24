@@ -23,6 +23,7 @@ function getConfig(userUid, cb) {
 
 function checkIfEnough(userUid, element, cb) {
     element["id"] = element["id"].toString();
+    element["count"] = parseInt(element["count"]);
     if (element["id"] == "ingot") {
         user.getUserDataFiled(userUid, "ingot", function (err, res) {
             if (err) {

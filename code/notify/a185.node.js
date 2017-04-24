@@ -10,7 +10,7 @@ var crypto = require('crypto');
 var async = require("async");
 
 function start(postData, response, query) {
-    var NAME = "a185";
+    var NAME = "185";
     fs.appendFile('payOrder.log', NAME + ":" + jutil.now() + " | " + JSON.stringify(postData) + "\n" + JSON.stringify(query) + "\n", 'utf8');
     console.log(NAME + "...POST...." + JSON.stringify(postData));
     console.log(NAME + "...GET...." + JSON.stringify(query));

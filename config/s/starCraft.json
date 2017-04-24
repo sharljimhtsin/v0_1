@@ -13,7 +13,7 @@
             "rewardEnd":907200
         },
         "openLeagueLv":10,
-        "openDragonLv":10,
+        "openDragonLv":2,
         "winTimes":2,
         "maxWinTimes":4,
         "winTimesPay":{
@@ -41,75 +41,75 @@
         "prayExp":100,
         "stars":{
             "300001":{
-                "name":"ดาวอิเม็กกะ",
+                "name":"伊美加行星",
                 "reward":[{"id":"ingot","count":500}],
-                "monsterName":"ชาวอิเม็กกะ",
+                "monsterName":"伊美加星人",
                 "monster":"102013"
             },
             "300002":{
-                "name":"โลก",
+                "name":"地球",
                 "reward":[{"id":"gold","count":5000000}],
-                "monsterName":"ชาวโลก",
+                "monsterName":"地球人",
                 "monster":"102046"
             },
             "300003":{
-                "name":"ดาวนาเม็ก",
+                "name":"那美克星",
                 "reward":[{"id":"150901","count":250}],
-                "monsterName":"ชาวนาเม็ก",
+                "monsterName":"那美克星人",
                 "monster":"104015"
             },
             "300004":{
-                "name":"ดาวเบจิต้า",
+                "name":"贝吉塔星",
                 "reward":[{"id":"ingot","count":300}],
-                "monsterName":"ชาวไซย่า",
+                "monsterName":"赛亚人",
                 "monster":"103003"
             },
             "300005":{
-                "name":"ดาวยาโดแร็ต",
+                "name":"亚特拉德星",
                 "reward":[{"id":"gold","count":3000000}],
-                "monsterName":"ชาวยาโดแร็ต",
+                "monsterName":"亚特拉德星人",
                 "monster":"101030"
             },
             "300006":{
-                "name":"ดาวรู้ด",
+                "name":"路德行星",
                 "reward":[{"id":"150901","count":150}],
-                "monsterName":"ชาวรู้ด",
+                "monsterName":"路德行星人",
                 "monster":"103014"
             },
             "300007":{
-                "name":"ดาวไจแอนท์",
+                "name":"巨大行星",
                 "reward":[{"id":"ingot","count":200}],
-                "monsterName":"มังกร4ดาว",
+                "monsterName":"四星龙",
                 "monster":"104061"
             },
             "300008":{
-                "name":"ดาวเกลโบ",
+                "name":"加尔波行星",
                 "reward":[{"id":"ingot","count":100}],
-                "monsterName":"ปลาดุกยักษ์",
+                "monsterName":"滋那玛",
                 "monster":"101004"
             },
             "300009":{
-                "name":"ดาวบีเฮย์",
+                "name":"毕黑星球",
                 "reward":[{"id":"gold","count":2000000}],
-                "monsterName":"โมม่า",
+                "monsterName":"魔马",
                 "monster":"100082"
             },
             "300010":{
-                "name":"ดาวดีเซิร์ท",
+                "name":"沙漠星球",
                 "reward":[{"id":"gold","count":1000000}],
-                "monsterName":"มังกร5ดาว",
+                "monsterName":"五星龙",
                 "monster":"104070"
             },
             "300011":{
-                "name":"ดาวโพลาริส",
+                "name":"冷冻行星",
                 "reward":[{"id":"150901","count":100}],
-                "monsterName":"มังกร2ดาว",
+                "monsterName":"二星龙",
                 "monster":"104063"
             },
             "300012":{
-                "name":"ดวงจันทร์",
+                "name":"月球",
                 "reward":[{"id":"150901","count":50}],
-                "monsterName":"ก้อนหิน",
+                "monsterName":"石头",
                 "monster":"100003"
             }
         },

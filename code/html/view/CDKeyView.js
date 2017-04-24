@@ -15,22 +15,23 @@ function CDKeyView(){
     var platformComboboxStore = Ext.create("Ext.data.ArrayStore",{
         fields:["value","text"],
         data:[
-            ["0","所有平台"],
-            ["test2","开发版本"],
-            ["uc","测试版本"],
-            ["p91","91IOS"],
-            ["PP","PP助手"],
-            ["tongbutui","同步推"],
-            ["kuaiyong","快用"],
-            ["a360","360"],
-            ["xiaomi","小米"],
-            ["ucweb","UCWEB"],
-            ["a91","91Android"],
-            ["baidu","百度"],
-            ["anzhi","安智"],
-            ["wandoujia","豌豆夹"],
-            ["OPPO","OPPO"],
-            ["dcn","当乐"]
+            ["0", "所有平台"],
+            ["test2", "开发版本"],
+            ["uc", "测试版本"],
+            ["p91", "91IOS"],
+            ["PP", "PP助手"],
+            ["tongbutui", "同步推"],
+            ["kuaiyong", "快用"],
+            ["a360", "360"],
+            ["xiaomi", "小米"],
+            ["ucweb", "UCWEB"],
+            ["a91", "91Android"],
+            ["baidu", "百度"],
+            ["anzhi", "安智"],
+            ["wandoujia", "豌豆夹"],
+            ["OPPO", "OPPO"],
+            ["185", "185"],
+            ["dcn", "当乐"]
         ]
     });
 

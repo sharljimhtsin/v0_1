@@ -166,7 +166,7 @@ function start(postData, response, query, callBack) {
                     modelUtil.addDropItemToDB(item["id"], item["count"] * -1, userUid, 1, 1, function (err, res) {
                         switch (item["id"]) {
                             case "ingot":
-                                mongoStats.expendStats(item["id"], userUid, "127.0.0.1", userObj, mongoStats.UPSTAR1, item["count"]);
+                                mongoStats.expendStats(item["id"], userUid, "localhost", userObj, mongoStats.UPSTAR1, item["count"]);
                                 break;
                             default:
                                 mongoStats.expendStats(item["id"], userUid, "127.0.0.1", userObj, mongoStats.UPSTAR5, item["count"]);
@@ -218,7 +218,7 @@ function start(postData, response, query, callBack) {
         cb();
     }], function (err, res) {
         // 是否需要回调
-        if (callBack) {
+        if (callBack && typeof(callBack) == "function") {
             callBack(err, res, {
                 "userData": userData,
                 "starData": singleData

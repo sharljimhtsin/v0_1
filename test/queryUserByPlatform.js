@@ -30,7 +30,7 @@ async.forEachSeries(countryList, function (country, forCb) {
                     //mysql.game(null, country, city).end(queueCb); // if no db connect request later
                 }
             });
-        }, function (queueCb) {
+        }, function (queueCb) {// for small data
             async.eachSeries(dataSwap, function (item, uCb) {
                 var rowArr = [];
                 rowArr.push(country);
@@ -51,6 +51,26 @@ async.forEachSeries(countryList, function (country, forCb) {
             }, function (err, res) {
                 queueCb(err);
             });
+        }, function (queueCb) {// for huge data
+            for (var i in dataSwap) {
+                var item = dataSwap[i];
+                var rowArr = [];
+                rowArr.push(country);
+                rowArr.push(city);
+                rowArr.push(item["userUid"]);
+                rowArr.push(item["userName"]);
+                rowArr.push(item["lv"]);
+                rowArr.push(item["gold"]);
+                rowArr.push(item["ingot"]);
+                rowArr.push(item["vip"]);
+                rowArr.push(item["platformId"]);
+                rowArr.push(item["pUserId"]);
+                rowArr.push(item["createTime"]);
+                rowArr.push(item["time"]);
+                csv += rowArr.join(",");
+                csv += "\n";
+            }
+            queueCb();
         }], function (err, res) {
             console.log(country, city, 'end');
             cb(err);

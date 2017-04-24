@@ -160,7 +160,7 @@ function start(postData, response, query, callBack) {
                     eaCb(err);
                 } else if (isOk) {
                     modelUtil.addDropItemToDB(item["id"], item["count"] * -1, userUid, 1, 1, function (err, res) {
-                        mongoStats.expendStats(item["id"], userUid, "127.0.0.1", userObj, mongoStats.UPSTAR4, item["count"]);
+                        mongoStats.expendStats(item["id"], userUid, item["id"] == "ingot" ? "localhost" : "127.0.0.1", userObj, mongoStats.UPSTAR4, item["count"]);
                         userData.push(res);
                         if (recycleData.hasOwnProperty(item["id"])) {
                             recycleData[item["id"]] = parseInt(recycleData[item["id"]]) + parseInt(item["count"]);
@@ -203,7 +203,7 @@ function start(postData, response, query, callBack) {
         cb();
     }], function (err, res) {
         // 是否需要回调
-        if (callBack) {
+        if (callBack && typeof(callBack) == "function") {
             callBack(err, res, {
                 "userData": userData,
                 "starData": singleData

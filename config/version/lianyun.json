@@ -1,0 +1,39 @@
+{
+	"version": "6.0.105",
+	"list": {
+		"configlist": {
+			"url": "configlist.json",
+			"version": "6.0.105",
+			"name": "configlist",
+			"serverPath": "http://dbztest.gt.com/packet/lianyun/configlist/"
+		},
+		"material": {
+			"url": "material.json",
+			"version": "6.0.105",
+			"name": "material",
+			"serverPath": "http://dbztest.gt.com/packet/lianyun/material/"
+		},
+		"oui": {
+			"url": "oui.json",
+			"version": "6.0.105",
+			"name": "oui",
+			"serverPath": "http://dbztest.gt.com/packet/lianyun/oui/"
+		},
+		"scripts": {
+			"url": "scripts.json",
+			"version": "6.0.105",
+			"name": "scripts",
+			"serverPath": "http://dbztest.gt.com/packet/lianyun/scripts/"
+		},
+		"resources": {
+			"url": "resources.json",
+			"version": "6.0.105",
+			"name": "resources",
+			"serverPath": "http://dbztest.gt.com/packet/lianyun/resources/"
+		}
+	},
+	"serverEntrance": "http://dbztest.gt.com:8923/",
+	"isDebug": 0,
+	"debugPath": "http://127.0.0.1:1337/",
+	"platformId": "uc"
+}

@@ -583,7 +583,18 @@ var _platformIdCode = {
     "usaaoffnew": 151,
     "iosOfficial": 152,
     "a185": 153,
-    "usafzb": 154
+    "usafzb": 154,
+    "185": 155,
+    "a8": 156,
+    "3733": 157,
+    "cc": 158,
+    "185ios": 159,
+    "usagzb": 160,
+    "usaagp": 161,
+    "damai": 162,
+    "dm": 163,
+    "1sdk": 164,
+    "pyw": 165
 };
 /**
  *  平台ID码

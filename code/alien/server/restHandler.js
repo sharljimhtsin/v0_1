@@ -58,7 +58,8 @@ function start(filePath, restConfig, response, query, postData, request, noConcu
                                 response.write("server is busy!");
                                 response.end();
                             } else {
-                                res.start(postData, new PackageResponse(response, queryMethod, postData, query, request), query, noConcurrencyList);
+                                noConcurrencyList[query["method"] + query["userUid"]] = "1";// put 1 for avoid concurrency
+                                res.start(postData, new PackageResponse(response, queryMethod, postData, query, request, noConcurrencyList), query, noConcurrencyList);
                             }
                         });
                     } else {
@@ -100,7 +101,7 @@ function requireModule(filePath, callbackFn) {
     callbackFn(null, aModule);
 }
 
-function PackageResponse(response, queryMethod, postData, query, request) {
+function PackageResponse(response, queryMethod, postData, query, request, noConcurrencyList) {
     this.ip = request.headers['x-forwarded-for'] ||
         request.connection.remoteAddress ||
         request.socket.remoteAddress || "127.0.0.1";
@@ -111,6 +112,7 @@ function PackageResponse(response, queryMethod, postData, query, request) {
     this.response = response;
     this.postData = postData;
     this.query = query;
+    this.noConcurrencyList = noConcurrencyList;
     var userUid = "";
     if (this.query != null && this.query["userUid"] != null) {
         userUid = this.query["userUid"];
@@ -152,15 +154,12 @@ var filterList = [
 PackageResponse.prototype.echo = function (name, data) {
     var echoData = {};
     echoData[name] = data;
-    //停服代码
-    //echoData = jutil.errorInfo("serverStop");
     this.response.writeHead(200, {"Content-Type": "text/plain", "charset": "utf-8"});
-//    this.response.write(JSON.stringify(echoData));
-    var respnoseString = JSON.stringify(echoData);
+    var responseString = JSON.stringify(echoData);
     if (this.query && this.query.callback != undefined)
-        this.response.end(this.query.callback + '(' + respnoseString + ')', "utf-8");
+        this.response.end(this.query.callback + '(' + responseString + ')', "utf-8");
     else
-        this.response.end(respnoseString, "utf-8");
+        this.response.end(responseString, "utf-8");
     var mResponseTime = Date.now() - this.time;
 
     var userUid = "";
@@ -177,13 +176,13 @@ PackageResponse.prototype.echo = function (name, data) {
             logObj["updateUser"] = data["updateUser"];
             logObj["heroGetExp"] = data["heroGetExp"];
             logObj["drop"] = data["drop"];
-            respnoseString = JSON.stringify(logObj);
+            responseString = JSON.stringify(logObj);
         }
-
-        Log.sys("responseTime", this.ip, this.queryMethod, mResponseTime, userUid, this.postData, respnoseString);
+        Log.sys("responseTime", this.ip, this.queryMethod, mResponseTime, userUid, this.postData, responseString);
     } else {
         Log.sys("responseTime", this.ip, this.queryMethod, mResponseTime, userUid, this.postData, "......");
     }
+    delete this.noConcurrencyList[this.query["method"] + this.query["userUid"]];// delete the tag when done
 };
 
 
@@ -198,6 +197,7 @@ PackageResponse.prototype.echoString = function (name, stringData) {
     }
     clearTimeout(this.timeOut);
     Log.sys("responseTime", this.ip, this.queryMethod, mResponseTime, userUid, this.postData, "......");
+    delete this.noConcurrencyList[this.query["method"] + this.query["userUid"]];// delete the tag when done
 };
 
 exports.start = start;

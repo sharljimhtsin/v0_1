@@ -30,23 +30,15 @@ function start(postData, response, query) {
     var firstChargeKey = "firstCharge";
     var isFirstCharge = true;
     async.series([
-//        function(cb) {//判断前后端配置属性是否一致
-//            var payConfig = configData.getConfig("pay")[platform][productId];
-//            var isConsistent = true;
-//            for (var key in payConfig) {
-//                if (payConfig[key] != productProps[key]) {
-//                    isConsistent = false;
-//                    break;
-//                }
-//            }
-//            if (!isConsistent)
-//                cb("configError");
-//            else
-//                cb(null);
-//        },
-
-        function(cb) {//addOrder
-            order.addOrder(orderNo, userUid,productId, function(err, res) {
+        function (cb) {
+            if (platform == "usaa") {
+                cb("ERR");
+            } else {
+                cb();
+            }
+        },
+        function (cb) {
+            order.addOrder(orderNo, userUid, productId, function (err, res) {
                 if (err)
                     cb("dbError");
                 else {

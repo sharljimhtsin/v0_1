@@ -1,53 +1,39 @@
 {
 	"enegyBall":{
-		"104034":{
+		"104013":{
 			"clickNeedBall":5,
 			"crit":0.2,
-			"getSoulNeedBall":180,
-			"originalHero":"104034",
-			"targetSoul":"104073"
-		},
-		"103025":{
-			"clickNeedBall":5,
-			"crit":0.2,
-			"getSoulNeedBall":144,
-			"originalHero":"103025",
-			"targetSoul":"104022"
+			"getSoulNeedBall":96,
+			"originalHero":"104013",
+			"targetSoul":"104034"
 		},
 		"104001":{
 			"clickNeedBall":5,
 			"crit":0.2,
-			"getSoulNeedBall":108,
+			"getSoulNeedBall":96,
 			"originalHero":"104001",
 			"targetSoul":"104010"
+		},
+		"104010":{
+			"clickNeedBall":5,
+			"crit":0.2,
+			"getSoulNeedBall":96,
+			"originalHero":"104010",
+			"targetSoul":"104012"
 		},
 		"102013":{
 			"clickNeedBall":5,
 			"crit":0.2,
-			"getSoulNeedBall":108,
+			"getSoulNeedBall":120,
 			"originalHero":"102013",
 			"targetSoul":"104009"
 		},
-		"103009":{
+		"104016":{
 			"clickNeedBall":5,
 			"crit":0.2,
-			"getSoulNeedBall":72,
-			"originalHero":"103009",
-			"targetSoul":"104015"
-		},
-		"103046":{
-			"clickNeedBall":5,
-			"crit":0.2,
-			"getSoulNeedBall":72,
-			"originalHero":"103046",
-			"targetSoul":"104038"
-		},
-		"103017":{
-			"clickNeedBall":5,
-			"crit":0.2,
-			"getSoulNeedBall":108,
-			"originalHero":"103017",
-			"targetSoul":"104001"
+			"getSoulNeedBall":60,
+			"originalHero":"104016",
+			"targetSoul":"104033"
 		},
 		"104005":{
 			"clickNeedBall":5,
@@ -66,8 +52,15 @@
 		"104014":{
 			"clickNeedBall":5,
 			"crit":0.2,
-			"getSoulNeedBall":60,
+			"getSoulNeedBall":96,
 			"originalHero":"104014",
+			"targetSoul":"104035"
+		},
+		"104035":{
+			"clickNeedBall":5,
+			"crit":0.2,
+			"getSoulNeedBall":120,
+			"originalHero":"104035",
 			"targetSoul":"104032"
 		},
 		"104004":{
@@ -126,19 +119,26 @@
 			"originalHero":"103001",
 			"targetSoul":"103008"
 		},
-		"103006":{
-			"clickNeedBall":5,
-			"crit":0.2,
-			"getSoulNeedBall":60,
-			"originalHero":"103006",
-			"targetSoul":"103007"
-		},
 		"103007":{
 			"clickNeedBall":5,
 			"crit":0.2,
 			"getSoulNeedBall":60,
 			"originalHero":"103007",
+			"targetSoul":"104017"
+		},
+		"103006":{
+			"clickNeedBall":5,
+			"crit":0.2,
+			"getSoulNeedBall":60,
+			"originalHero":"103006",
 			"targetSoul":"104019"
+		},
+		"104019":{
+			"clickNeedBall":5,
+			"crit":0.2,
+			"getSoulNeedBall":60,
+			"originalHero":"104019",
+			"targetSoul":"104017"
 		},
 		"104028":{
 			"clickNeedBall":5,
@@ -161,12 +161,40 @@
 			"originalHero":"104040",
 			"targetSoul":"104026"
 		},
-		"104026":{
+		"103005":{
 			"clickNeedBall":5,
 			"crit":0.2,
 			"getSoulNeedBall":60,
-			"originalHero":"104026",
-			"targetSoul":"104027"
+			"originalHero":"103005",
+			"targetSoul":"104018"
+		},
+		"104021":{
+			"clickNeedBall":5,
+			"crit":0.2,
+			"getSoulNeedBall":60,
+			"originalHero":"104021",
+			"targetSoul":"104020"
+		},
+		"104023":{
+			"clickNeedBall":5,
+			"crit":0.2,
+			"getSoulNeedBall":60,
+			"originalHero":"104023",
+			"targetSoul":"104024"
+		},
+		"104075":{
+			"clickNeedBall":5,
+			"crit":0.1,
+			"getSoulNeedBall":150,
+			"originalHero":"104075",
+			"targetSoul":"104082"
+		},
+		"104076":{
+			"clickNeedBall":5,
+			"crit":0.1,
+			"getSoulNeedBall":150,
+			"originalHero":"104076",
+			"targetSoul":"104081"
 		}
 	}
 }

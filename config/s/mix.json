@@ -3,7 +3,7 @@
 	{
 		"hp":
 		{
-			"levelLimit":5,
+			"levelLimit":6,
 			"attrAdd":6
 		},
 		"attack":

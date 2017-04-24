@@ -62,16 +62,16 @@ function start(postData, response, query, authorize) {
                         var payMoney = postData["payMoney"];
                         var ingot = undefined;
                         if (payMoney - 0 > 0) {
-                            ingot = getImegga = payMoney*12;
-                        } else if(goodsConfig == null || goodsConfig == undefined) {
+                            ingot = getImegga = payMoney * 12;
+                        } else if (goodsConfig == null || goodsConfig == undefined) {
                             esCb("configError");
-                            return ;
+                            return;
                         } else {
                             payMoney = goodsConfig["payMoney"];
-                            getImegga = goodsConfig["getImegga"]+goodsConfig["getMoreImegga"];
+                            getImegga = goodsConfig["getImegga"] + goodsConfig["getMoreImegga"];
                         }
                         order.updateOrder(userUid, orderNo, platformId, "test", getImegga, payMoney, 1, "", productId, "", function (err, res) {
-                            if (res == 1){
+                            if (res == 1) {
                                 esCb(null);
                             } else
                                 esCb(err);

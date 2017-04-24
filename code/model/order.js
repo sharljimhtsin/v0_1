@@ -9,7 +9,6 @@ var variable = require("../model/userVariable");
 var configManager = require("../config/configManager");
 var activityConfig = require("../model/activityConfig");
 var activityData = require("../model/activityData");
-var item = require("../model/item");
 var equipment = require("../model/equipment");
 var jutil = require("../utils/jutil");
 var practiceRecharge = require("../model/practiceRecharge");
@@ -34,6 +33,7 @@ var redis = require("../alien/db/redis");
 var mail = require("../model/mail");
 var quarterCard = require("../model/quarterCard");
 var monthCard = require("../model/monthCard");
+var foolishWheel = require("../model/foolishWheel");
 
 function addOrder(orderNo, userId, productId, callbackFn, order_id) {
     order_id = order_id == undefined ? '' : order_id;
@@ -117,7 +117,7 @@ function updateOrder(userUid, orderNo, platformId, uin, goodsCount, orderMoney, 
                     if (res1) {
                         orderStatus = res1["status"];
                         var gId = res1["productId"];
-                        if (["ljyoulu", "youku", "meizu", "i4", "ljxiaomi", "ljhuawei", "lj360", "ljhtc", "ljguopana", "ljguopani", "ljxiongmao", "baxi", "yuenan", "ger", "fra", "esp", "ara", "gera", "fraa", "espa", "araa", "RayCreator", "yuenanlumi", "yuenanlumiAlt", "yuenanlumiCus", "MOL", "MyCard", "a185"].indexOf(platformId) >= 0) {
+                        if (["ljyoulu", "youku", "meizu", "i4", "ljxiaomi", "ljhuawei", "lj360", "ljhtc", "ljguopana", "ljguopani", "ljxiongmao", "baxi", "yuenan", "ger", "fra", "esp", "ara", "gera", "fraa", "espa", "araa", "RayCreator", "yuenanlumi", "yuenanlumiAlt", "yuenanlumiCus", "MOL", "MyCard", "a185", "a8", "3733", "cc", "185", "185ios", "dm", "damai", "1sdk", "pyw"].indexOf(platformId) >= 0) {
                             goodsId = gId;
                         }
                         if (gId != goodsId && ingot == undefined)//购买的产品id不一致 如果是kingnet的话会传ingot参数 没有goodsId
@@ -424,11 +424,15 @@ function updateOrder(userUid, orderNo, platformId, uin, goodsCount, orderMoney, 
                     newIngot = 0;
                     console.log("元宝错误 。。。。。。", addAmount, userIngot);
                 }
-                var newUserData = {"ingot":newIngot,"gold":parseInt(userGold) + (addGold - 0),"vip":newVipLevel};
-                user.updateUser(userUid, newUserData, function(err, res) {
-                    if (err) {console.log("updateUser failed!");cb("dbError");}
-                    else {
-                        {console.log("updateUser 啦!!!!!");cb(null);}
+                var newUserData = {"ingot": newIngot, "gold": parseInt(userGold) + (addGold - 0), "vip": newVipLevel};
+                user.updateUser(userUid, newUserData, function (err, res) {
+                    console.log(err, newUserData);
+                    if (err) {
+                        console.log("updateUser failed!");
+                        cb("dbError");
+                    } else {
+                        console.log("updateUser 啦!!!!!");
+                        cb(null);
                     }
                 });
             } else {
@@ -847,7 +851,6 @@ function updateOrder(userUid, orderNo, platformId, uin, goodsCount, orderMoney, 
                 cb(null);
             }
         },
-
         function(cb) {//理财
             if (orderStatus != 1) {
                 var chargeType;
@@ -877,6 +880,41 @@ function updateOrder(userUid, orderNo, platformId, uin, goodsCount, orderMoney, 
                 cb(null);
             }
         },
+        function (cb) {
+            if (orderStatus != 1) {
+                var chargeType;
+                if (platformId == "ios" || platformId == "kingnetios" || platformId == "thaiios")
+                    chargeType = "ios";
+                else if (platformId == "kyxyzs")
+                    chargeType = "kyxyzs1";
+                else if (platformId == "mo9")
+                    chargeType = "mo9";
+                else if (platformId == "MOL")
+                    chargeType = "mol";
+                else if (platformId == "yuenanlumiAlt")
+                    chargeType = "lumi";
+                else
+                    chargeType = "android";
+
+                var goodsConfig = payConfig[chargeType][goodsId];
+                var singleIngot = goodsConfig == undefined ? 0 : goodsConfig["getImegga"];
+                if (ingot != undefined)
+                    singleIngot = ingot;
+                if (country == "g")//kingnetios
+                    singleIngot = goodsCount;
+                foolishWheel.payWithReward(userUid, singleIngot, function (err, res) {
+                    if (err) {
+                        console.log("愚人节转盘活动充值错误！");
+                        cb();
+                    } else {
+                        console.log("更新愚人节转盘活动充值成功!");
+                        cb();
+                    }
+                });
+            } else {
+                cb();
+            }
+        },
         function(cb) {//更新玩家充值记录
             if (orderStatus != 1) {
                 monthCard.isWork(userUid, function (err, res, obj) {
@@ -900,7 +938,6 @@ function updateOrder(userUid, orderNo, platformId, uin, goodsCount, orderMoney, 
                 cb(null);
             }
         },
-
         function(cb) {//更新订单状态
             if (orderStatus != 1) {
                 var sql = "UPDATE payOrder SET ? WHERE orderNo = " + mysql.escape(orderNo);
@@ -934,7 +971,6 @@ function updateOrder(userUid, orderNo, platformId, uin, goodsCount, orderMoney, 
                 cb(null);
             }
         },
-
         function(cb){//更新充值成功标识
             userVariable.setVariableTime(userUid,"chargeSuccessFlag",1,jutil.now(),function(err,res){
                 if (err) console.error(userUid, 1, jutil.now(), err.stack);

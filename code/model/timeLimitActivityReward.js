@@ -1443,6 +1443,64 @@ exports = module.exports = new function() {
         });
     };
 
+    function foolishWheelPlay(userUid, times, callbackFn) {
+        var configObj;
+        async.series([
+            // 获取配置
+            function (cb) {
+                getConfigObj(userUid, function (err, res) {
+                    configObj = res;
+                    cb(err);
+                });
+            },
+            function (cb) {
+                var foolishWheelConfig;
+                if (configObj.hasOwnProperty("foolishWheel")) {
+                    foolishWheelConfig = configObj["foolishWheel"];
+                }
+                if (foolishWheelConfig && foolishWheelConfig.length > 0) {
+                    var subFoolishWheelConfig = foolishWheelConfig[0];
+                    var key = subFoolishWheelConfig["key"];
+                    queryData(userUid, key, function (err, res) {
+                        if (err) {
+                            cb(err);
+                        } else {
+                            // 检查数据过期
+                            res = res || {};
+                            var updateTime = res["updateTime"] || 0;
+                            if (updateTime < _sTime) {
+                                res = {};
+                            }
+                            var dbData = res["data"] || {};
+                            var foolishWheelTimes = dbData["numUsed"] || 0;
+                            var foolishWheelTimesNew = foolishWheelTimes + times;
+                            var canGetList = dbData["cGetList"] || {};
+                            async.eachSeries(Object.keys(foolishWheelConfig), function (key, esCb) {
+                                // 检查满足
+                                subFoolishWheelConfig = foolishWheelConfig[key];
+                                var count = subFoolishWheelConfig["count"];
+                                if (foolishWheelTimes < count && foolishWheelTimesNew >= count) {
+                                    // 加入可领取列表
+                                    canGetList[count] = 1;
+                                }
+                                esCb();
+                            }, function () {
+                                // 更新数据
+                                dbData["cGetList"] = canGetList;
+                                dbData["numUsed"] = foolishWheelTimesNew;
+                                updateData(userUid, key, dbData, cb);
+                            });
+                        }
+                    });
+                } else {
+                    cb();
+                }
+            }
+        ], callbackFn);
+    }
+
+    this.foolishWheelPlay = foolishWheelPlay;
+
     /**
      * LUCK777x1
      * @param userUid

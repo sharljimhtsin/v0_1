@@ -236,13 +236,29 @@ var bList = {
   "card6": 0
  }
 };
+var qs = require("querystring");
+var obj = {"{\"order_id\":\"1493023742906385757\",\"mem_id\":\"105757\",\"app_id\":\"60125\",\"money\":\"10.00\",\"order_status\":\"2\",\"paytime\":\"1493023742\",\"attach\":\"85916123139_95902371651e0f631c69f01a96023447_1\",\"sign\":\"ed6f7089273642c668fbd4649f63b031\"}":""};
+var obj2 = {"order_id":"1493023742906385757","mem_id":"105757","app_id":"60125","money":"10.00","order_status":"2","paytime":"1493023742","attach":"85916123139_95902371651e0f631c69f01a96023447_1","sign":"ed6f7089273642c668fbd4649f63b031"};
+console.log(JSON.stringify(qs.parse(JSON.stringify(obj2))));
+return;
+console.log(JSON.parse(Object.keys(obj)[0]));
+for(var hehe in bList){
+ console.log(hehe);
+}
+console.log(bitUtil.parseUserUid("38889588413"));
+return;
 var a = '[111,222]';
 var aObj = JSON.parse(a);
 console.log(aObj);
 console.log(aObj[0]);
-console.log(bitUtil.parseUserUid("38671485006"));
+console.log(bitUtil.parseUserUid("77779186278"));
 var product_id = "0000001111";
 console.log(product_id.indexOf("5"));
+var aa = {"1":""};
+delete aa["2"];
+console.log(aa);
+delete aa["1"];
+console.log(aa);
 return;
 if(isNaN(product_id)){
  product_id = product_id.substr(product_id.length-1,1);
@@ -263,7 +279,7 @@ for (var a in aList) {
   }
  }
 }
-console.log(bitUtil.parseUserUid("39644561446"));
+console.log(bitUtil.parseUserUid("26625442674"));
 // 是否使用HTTPS
 var echoString = "httpshttphttpshttphttpshttp";
 var p = "usaaoffnew";

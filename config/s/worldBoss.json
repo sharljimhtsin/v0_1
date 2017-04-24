@@ -17,7 +17,7 @@
 		"reviveBuffAttackAdd":0.2,
 		"openHours":12,
 		"openMinutes":30,
-		"bossName":"บิลส์",
+		"bossName":"比鲁斯",
 		"bossIcon":"104041",
 		"bg":"101",
 		"attackReward":
@@ -31,7 +31,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -46,7 +46,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -61,7 +61,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -76,7 +76,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -91,7 +91,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -106,7 +106,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -121,7 +121,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -136,7 +136,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -151,7 +151,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -166,7 +166,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -181,7 +181,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -196,7 +196,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -211,7 +211,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -226,7 +226,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -241,7 +241,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -256,7 +256,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -271,7 +271,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -286,7 +286,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -301,7 +301,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -316,7 +316,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -331,7 +331,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -346,7 +346,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -361,7 +361,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -376,7 +376,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -391,7 +391,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -406,7 +406,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -421,7 +421,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -436,7 +436,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -451,7 +451,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -466,7 +466,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -481,7 +481,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -496,7 +496,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -511,7 +511,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":3
@@ -526,7 +526,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					"150901":1
@@ -541,7 +541,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -556,7 +556,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -571,7 +571,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -586,7 +586,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -601,7 +601,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -616,7 +616,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -631,7 +631,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -646,7 +646,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -661,7 +661,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -676,7 +676,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -691,7 +691,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -706,7 +706,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -721,7 +721,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -736,7 +736,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -751,7 +751,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -766,7 +766,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -781,7 +781,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -796,7 +796,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -811,7 +811,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -826,7 +826,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -841,7 +841,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -856,7 +856,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -871,7 +871,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -886,7 +886,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -901,7 +901,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -916,7 +916,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -931,7 +931,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -946,7 +946,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -961,7 +961,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -976,7 +976,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -991,7 +991,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -1006,7 +1006,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -1021,7 +1021,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -1036,7 +1036,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -1051,7 +1051,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -1066,7 +1066,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -1081,7 +1081,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -1096,7 +1096,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -1111,7 +1111,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -1126,7 +1126,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -1141,7 +1141,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -1156,7 +1156,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -1171,7 +1171,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -1186,7 +1186,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -1201,7 +1201,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -1216,7 +1216,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -1231,7 +1231,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -1246,7 +1246,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -1261,7 +1261,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -1276,7 +1276,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -1291,7 +1291,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -1306,7 +1306,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -1321,7 +1321,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -1336,7 +1336,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -1351,7 +1351,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					
@@ -1366,7 +1366,7 @@
 					"bigDamageRatio":0.5,
 					"littleDamageRatio":0.1
 				},
-				"worldBossTeachProb":0.1,
+				"worldBossTeachProb":0.15,
 				"itemReward":
 				{
 					

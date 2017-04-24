@@ -138,6 +138,12 @@ exports.start = function(postData, response, query){
                             esCb(null);
                         });
                         break;
+                    case "foolishWheel":
+                        __buildFoolishItem(userUid, configItem, sTime, function (res) {
+                            gRes.itemList.push(res);
+                            esCb();
+                        });
+                        break;
                     default :
                         __buildDefault(userUid, configItem, sTime, function(res){
                             gRes.itemList.push(res);
@@ -354,6 +360,10 @@ function __buildSummonTimeItem(userUid, configItem, sTime, callbackFn) {
  * @private
  */
 function __buildLucky777Item(userUid, configItem, sTime, callbackFn) {
+    __buildBrothUsedItem(userUid, configItem, sTime, callbackFn);
+}
+
+function __buildFoolishItem(userUid, configItem, sTime, callbackFn) {
     __buildBrothUsedItem(userUid, configItem, sTime, callbackFn);
 }
 

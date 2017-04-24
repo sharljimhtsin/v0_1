@@ -6,12 +6,10 @@
  */
 
 var jutil = require("../utils/jutil");
-//var platform = require("../model/platform");
 var user = require("../model/user");
 var hero = require("../model/hero");
 var formation = require("../model/formation");
 var async = require("async");
-//var configData = require("../model/configData");
 var userVariable = require("../model/userVariable");
 var configManager = require("../config/configManager");
 var pvptop = require("../model/pvptop");
@@ -33,6 +31,7 @@ function start(postData, response, query) {
     var pUserId = "";
 
     var newHeroData;
+    var userData;
 
     userName = jutil.filterWord(userName);
     if (userName == false) {
@@ -87,15 +86,19 @@ function start(postData, response, query) {
                 }
             });
         },
-//        function(callbackFn) { //更新platform用户的状态
-//            platform.updateUserStatus(userUid,1,function(err,res) {
-//                if (err) {
-//                    callbackFn(new jutil.JError("userInvalid"),null);
-//                } else {
-//                    callbackFn(null,null);
-//                }
-//            });
-//        },
+        function (callbackFn) { //更新platform用户的状态
+            user.getUser(userUid, function (err, res) {
+                userData = res;
+                callbackFn(err);
+            })
+        },
+        // function (callbackFn) {
+        //     userData.monthCardTime = jutil.todayTime() + 86400 * 30 * 12 * 10;//过期时间
+        //     var userUpdate = {'monthCard': "fifty", 'monthCardTime': userData.monthCardTime};
+        //     user.updateUser(userUid, userUpdate, function (err, res) {
+        //         callbackFn(err);
+        //     });
+        // },
         function(callbackFn) { //添加主选hero
             var optionalHero = configData.getConfig("base")["optionalHero"];
             var selectedObj = optionalHero[selectedHeroId];
@@ -167,18 +170,11 @@ function start(postData, response, query) {
 
     ],function(err,value) {
         console.log(err,value);
-//        response.echo("user.create",jutil.errorInfo("userInvalid"));//创建失败
         if (err) {
-//            console.error("user.create", err.stack);
             response.echo("user.create",jutil.errorInfo(err.info));//创建失败
         } else {
-
-
-
             var userIP = response.response.socket.remoteAddress;
-//            console.log({"result":1});
             response.echo("user.create",{"result":1});
-
             stats.userCreate(userUid, userIP, null);
         }
     });

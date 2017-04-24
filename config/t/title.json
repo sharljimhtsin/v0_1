@@ -5,10 +5,10 @@
 		{
 			"id":"210001",
 			"type":0,
-			"name":"นักผจญภัย",
+			"name":"奇妙旅程",
 			"howGet":"mapCross",
 			"firstPointPerLevel":10,
-			"howGetText":"ผ่านxxด่าน：{0}-{1}",
+			"howGetText":"通关  {0} - {1}",
 			"mapCrossToLevel":
 			{
 				"1":"200510",
@@ -63,10 +63,10 @@
 		{
 			"id":"210002",
 			"type":0,
-			"name":"เจ้ายุทธภพ",
+			"name":"武道至尊",
 			"howGet":"pvpRank",
 			"firstPointPerLevel":10,
-			"howGetText":"ประลองติดอันดับที่{0}",
+			"howGetText":"参加激战排名达到{0}名",
 			"getRankToLevel":
 			{
 				"1":10000,
@@ -174,10 +174,10 @@
 		{
 			"id":"210003",
 			"type":1,
-			"name":"จอมปราชญ์",
+			"name":"至尊至贵",
 			"howGet":"vip",
 			"firstPointPerLevel":0.05,
-			"howGetText":"VIPถึงระดับ{0}",
+			"howGetText":"VIP等级达到{0}级",
 			"effect":["210001"],
 			"vipToLevel":
 			{
@@ -202,10 +202,10 @@
 		{
 			"id":"210004",
 			"type":0,
-			"name":"เวทย์ผสาน",
+			"name":"日锻月炼",
 			"howGet":"patchToSkill",
 			"firstPointPerLevel":10,
-			"howGetText":"รวมสกิลถึง{0}ครั้ง",
+			"howGetText":"拼合招式数量达到{0}",
 			"SkillCountToLevel":
 			{
 				"1":10,
@@ -224,10 +224,10 @@
 		{
 			"id":"210005",
 			"type":0,
-			"name":"ดวลเดือด",
+			"name":"久经沙场",
 			"howGet":"bloodBattleCount",
 			"firstPointPerLevel":10,
-			"howGetText":"ผนึกปรโลกถึง{0}ครั้ง",
+			"howGetText":"参与封印地狱门的次数达到{0}",
 			"bloodBattleCountToLevel":
 			{
 				"1":1,
@@ -246,10 +246,10 @@
 		{
 			"id":"210006",
 			"type":2,
-			"name":"เทพนักดวล",
+			"name":"独一无二",
 			"howGet":"bloodBattleRank",
 			"firstPointPerLevel":0.7,
-			"howGetText":"ผนึกปรโลกเมื่อวานได้อันดับ1",
+			"howGetText":"参与封印地狱门，并获得排行榜第1名\n该称号在发放封印地狱门奖励时获得",
 			"failureHours":0,
 			"failureMinuts":0,
 			"effect":["210005"],
@@ -259,10 +259,10 @@
 		{
 			"id":"210007",
 			"type":2,
-			"name":"จ้าวปฐพี",
+			"name":"万夫莫当",
 			"howGet":"bloodBattleRank",
 			"firstPointPerLevel":0.6,
-			"howGetText":"ผนึกปรโลกเมื่อวานได้อันดับ2",
+			"howGetText":"参与封印地狱门，并获得排行榜第2名\n该称号在发放封印地狱门奖励时获得",
 			"failureHours":0,
 			"failureMinuts":0,
 			"effect":["210005"],
@@ -272,12 +272,12 @@
 		{
 			"id":"210008",
 			"type":2,
-			"name":"จอมพิชิต",
+			"name":"名列前茅",
 			"howGet":"bloodBattleRank",
 			"firstPointPerLevel":0.5,
 			"failureHours":0,
 			"failureMinuts":0,
-			"howGetText":"ผนึกปรโลกเมื่อวานได้อันดับ3",
+			"howGetText":"参与封印地狱门，并获得排行榜第3名\n该称号在发放封印地狱门奖励时获得",
 			"effect":["210005"],
 			"getRank":[3]
 		},
@@ -285,12 +285,12 @@
 		{
 			"id":"210009",
 			"type":2,
-			"name":"ภูตเวหา",
+			"name":"凤毛麟角",
 			"howGet":"bloodBattleRank",
 			"firstPointPerLevel":0.4,
 			"failureHours":0,
 			"failureMinuts":0,
-			"howGetText":"ผนึกปรโลกเมื่อวานได้อันดับ4",
+			"howGetText":"参与封印地狱门，并获得排行榜第4名\n该称号在发放封印地狱门奖励时获得",
 			"effect":["210005"],
 			"getRank":[4]
 		},
@@ -298,12 +298,12 @@
 		{
 			"id":"210010",
 			"type":2,
-			"name":"ทูตพิฆาต",
+			"name":"卓尔不群",
 			"howGet":"bloodBattleRank",
 			"firstPointPerLevel":0.3,
 			"failureHours":0,
 			"failureMinuts":0,
-			"howGetText":"ผนึกปรโลกเมื่อวานได้อันดับ5",
+			"howGetText":"参与封印地狱门，并获得排行榜第5名\n该称号在发放封印地狱门奖励时获得",
 			"effect":["210005"],
 			"getRank":[5]
 		},
@@ -311,25 +311,25 @@
 		{
 			"id":"210011",
 			"type":2,
-			"name":"พรตอเวจี",
+			"name":"出类拔萃",
 			"howGet":"bloodBattleRank",
 			"firstPointPerLevel":0.2,
 			"failureHours":0,
 			"failureMinuts":0,
 			"effect":["210005"],
-			"howGetText":"ผนึกปรโลกเมื่อวานได้อันดับ6-10",
+			"howGetText":"参与封印地狱门，并获得排行榜第6-10名\n该称号在发放封印地狱门奖励时获得",
 			"getRank":[6,7,8,9,10]
 		},
 		"210012":
 		{
 			"id":"210012",
 			"type":2,
-			"name":"นักมนตรา",
+			"name":"超群绝伦",
 			"howGet":"bloodBattleRank",
 			"firstPointPerLevel":0.1,
 			"failureHours":0,
 			"failureMinuts":0,
-			"howGetText":"ผนึกปรโลกเมื่อวานได้อันดับ11-20",
+			"howGetText":"参与封印地狱门，并获得排行榜第11-20名\n该称号在发放封印地狱门奖励时获得",
 			"effect":["210005"],
 			"getRank":[11,12,13,14,15,16,17,18,19,20]
 		},
@@ -337,10 +337,10 @@
 		{
 			"id":"210013",
 			"type":0,
-			"name":"ท้าสังเวียน",
+			"name":"龙珠战士",
 			"howGet":"worldBossCount",
 			"firstPointPerLevel":10,
-			"howGetText":"ลงสังเวียนถึง{0}ครั้ง",
+			"howGetText":"参与比鲁斯的试炼的次数达到{0}次",
 			"worldBossCountToLevel":
 			{
 				"1":1,
@@ -355,14 +355,23 @@
 				"10":60
 			}
 		},
+		"210014":
+		{
+			"id":"210014",
+			"type":0,
+			"name":"微博达人",
+			"howGetText":"绑定微博（暂未开放）",
+			"howGet":"microBlog",
+			"firstPointPerLevel":100
+		},
 		"210015":
 		{
 			"id":"210015",
 			"type":0,
-			"name":"สมานฉันท์",
+			"name":"同心协力",
 			"howGet":"friendCount",
 			"firstPointPerLevel":50,
-			"howGetText":"มีเพื่อนถึง{0}คน",
+			"howGetText":"好友数量达到{0}",
 			"friendCountToLevel":
 			{
 				"1":1,
@@ -374,10 +383,10 @@
 		{
 			"id":"210016",
 			"type":3,
-			"name":"จิตพิฆาต",
+			"name":"绝杀",
 			"failureHours":12,
 			"failureMinuts":30,
-			"howGetText":"ผู้พิชิตดาบสุดท้ายในสังเวียนเมื่อวาน",
+			"howGetText":"参与比鲁斯的试炼并最终极杀比鲁斯",
 			"howGet":"worldBossLastBeat",
 			"firstPointPerLevel":50
 		},
@@ -385,10 +394,10 @@
 		{
 			"id":"210017",
 			"type":2,
-			"name":"เทพสังเวียน",
+			"name":"天下第一",
 			"howGet":"worldBossRank",
 			"firstPointPerLevel":0.5,
-			"howGetText":"สังเวียนบิลส์เมื่อวานได้อันดับ1",
+			"howGetText":"参与比鲁斯的试炼，并获得排行榜第1名",
 			"failureHours":12,
 			"failureMinuts":30,
 			"effect":["210013"],
@@ -398,9 +407,9 @@
 		{
 			"id":"210018",
 			"type":2,
-			"name":"จ้าวบรรลังค์",
+			"name":"无坚不摧",
 			"howGet":"worldBossRank",
-			"howGetText":"สังเวียนบิลส์เมื่อวานได้อันดับ2",
+			"howGetText":"参与比鲁斯的试炼，并获得排行榜第2名",
 			"firstPointPerLevel":0.4,
 			"failureHours":12,
 			"failureMinuts":30,
@@ -411,12 +420,12 @@
 		{
 			"id":"210019",
 			"type":2,
-			"name":"จอมทรราช",
+			"name":"覆海移山",
 			"howGet":"worldBossRank",
 			"firstPointPerLevel":0.3,
 			"failureHours":12,
 			"failureMinuts":30,
-			"howGetText":"สังเวียนบิลส์เมื่อวานได้อันดับ3",
+			"howGetText":"参与比鲁斯的试炼，并获得排行榜第3名",
 			"effect":["210013"],
 			"getRank":[3]
 		},
@@ -424,12 +433,12 @@
 		{
 			"id":"210020",
 			"type":2,
-			"name":"ภูตจักรวาล",
+			"name":"大显神通",
 			"howGet":"worldBossRank",
 			"firstPointPerLevel":0.2,
 			"failureHours":12,
 			"failureMinuts":30,
-			"howGetText":"สังเวียนบิลส์เมื่อวานได้อันดับ4-5",
+			"howGetText":"参与比鲁斯的试炼，并获得排行榜第4-5名",
 			"effect":["210013"],
 			"getRank":[4,5]
 		},
@@ -437,23 +446,23 @@
 		{
 			"id":"210021",
 			"type":2,
-			"name":"ทูตคิมหันต์",
+			"name":"初露锋芒",
 			"howGet":"worldBossRank",
 			"firstPointPerLevel":0.1,
 			"failureHours":12,
 			"failureMinuts":30,
 			"effect":["210013"],
-			"howGetText":"สังเวียนบิลส์เมื่อวานได้อันดับ6-10",
+			"howGetText":"参与比鲁斯的试炼，并获得排行榜第6-10名",
 			"getRank":[6,7,8,9,10]
 		},
 		"210022":
 		{
 			"id":"210022",
 			"type":0,
-			"name":"นักรบซีโนเวิร์ส",
+			"name":"超宇宙战士",
 			"howGet":"cosmosBossCount",
 			"firstPointPerLevel":10,
-			"howGetText":"เข้าร่วมศึกซีโนเวิร์สถึง{0}ครั้ง",
+			"howGetText":"参与超宇宙的挑战的次数达到{0}次",
 			"cosmosBossCountToLevel":
 			{
 				"1":1,
@@ -472,10 +481,10 @@
 		{
 			"id":"210023",
 			"type":3,
-			"name":"ดาบสุดท้าย",
+			"name":"最后一击",
 			"failureHours":18,
 			"failureMinuts":30,
-			"howGetText":"เข้าร่วมศึกและฆ่าโทว่าได้ในดาบสุดท้าย",
+			"howGetText":"参与超宇宙的挑战并最终极杀图菈",
 			"howGet":"cosmosBossLastBeat",
 			"firstPointPerLevel":50
 		},
@@ -483,10 +492,10 @@
 		{
 			"id":"210024",
 			"type":2,
-			"name":"จ้าวสมรภูมิ",
+			"name":"无双",
 			"howGet":"cosmosBossRank",
 			"firstPointPerLevel":0.5,
-			"howGetText":"เข้าร่วมศึกซีโนเวิร์สและได้อันดับ1",
+			"howGetText":"参与超宇宙的挑战，并获得排行榜第1名",
 			"failureHours":18,
 			"failureMinuts":30,
 			"effect":["210022"],
@@ -496,9 +505,9 @@
 		{
 			"id":"210025",
 			"type":2,
-			"name":"ยอดนักรบ",
+			"name":"战无不胜",
 			"howGet":"cosmosBossRank",
-			"howGetText":"เข้าร่วมศึกซีโนเวิร์สและได้อันดับ2",
+			"howGetText":"参与超宇宙的挑战，并获得排行榜第2名",
 			"firstPointPerLevel":0.4,
 			"failureHours":18,
 			"failureMinuts":30,
@@ -509,12 +518,12 @@
 		{
 			"id":"210026",
 			"type":2,
-			"name":"ผู้พิทักษ์",
+			"name":"攻无不克",
 			"howGet":"cosmosBossRank",
 			"firstPointPerLevel":0.3,
 			"failureHours":18,
 			"failureMinuts":30,
-			"howGetText":"เข้าร่วมศึกซีโนเวิร์สและได้อันดับ3",
+			"howGetText":"参与超宇宙的挑战，并获得排行榜第3名",
 			"effect":["210022"],
 			"getRank":[3]
 		},
@@ -522,12 +531,12 @@
 		{
 			"id":"210027",
 			"type":2,
-			"name":"นักพิชิต",
+			"name":"威震八方",
 			"howGet":"cosmosBossRank",
 			"firstPointPerLevel":0.2,
 			"failureHours":18,
 			"failureMinuts":30,
-			"howGetText":"เข้าร่วมศึกซีโนเวิร์สและได้อันดับ4-5",
+			"howGetText":"参与超宇宙的挑战，并获得排行榜第4-5名",
 			"effect":["210022"],
 			"getRank":[4,5]
 		},
@@ -535,13 +544,13 @@
 		{
 			"id":"210028",
 			"type":2,
-			"name":"กำลังเสริม",
+			"name":"锋芒毕露",
 			"howGet":"cosmosBossRank",
 			"firstPointPerLevel":0.1,
 			"failureHours":18,
 			"failureMinuts":30,
 			"effect":["210022"],
-			"howGetText":"เข้าร่วมศึกซีโนเวิร์สและได้อันดับ6-10",
+			"howGetText":"参与超宇宙的挑战，并获得排行榜第6-10名",
 			"getRank":[6,7,8,9,10]
 		}
 	}

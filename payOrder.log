@@ -39,3 +39,41 @@ null
 null
 {"ts":1442554695,"user_id":"2110703","sid":"10013","number":60,"amount":60,"role_id":"30282885081","order_id":"114606321107031442554499","kda":"NTD#114606321107031442554499|60.00|60|2525","active1":"","sig":"89c157049e4650485db557a2c9bb51ca","wp_pid":null,"product_id":"lz_tw_060","app_extra1":"79e75adade15a3c84b07ea62df82fac8","app_extra2":"","pay_ref":"applestore_tw","hash_string":"md5|kingnetpay.kingnet.com21107031001360603028288508111460632110703144255449914425546951146095"}
 {"ts":1442554695,"user_id":"2110703","sid":"10013","number":60,"amount":60,"role_id":"30282885081","order_id":"114606321107031442554499","kda":"NTD#114606321107031442554499|60.00|60|2525","active1":"","sig":"89c157049e4650485db557a2c9bb51ca","wp_pid":null,"product_id":"lz_tw_060","app_extra1":"79e75adade15a3c84b07ea62df82fac8","app_extra2":"","pay_ref":"applestore_tw","hash_string":"md5|kingnetpay.kingnet.com21107031001360603028288508111460632110703144255449914425546951146095"}
+3733:1490344111 | null
+{"clientIp":"::ffff:127.0.0.1","isIOS":false}
+3733:1490344129 | {"order_no":"2017032301433620542","game_order_no":"e734f4b78df074bf2ef0adc7caa6a8a5#1","uid":"10255","pay_money":"10.00","service_id":"1013","pid":"105","paystatus":"1","time":"1490247880","sign":"2ac1fa4c40b94061b102a794e6778678","user_id":"1","game_id":"10010","clientIp":"119.23.27.167"}
+{"clientIp":"::ffff:127.0.0.1","isIOS":false}
+3733:1490344136 | {"order_no":"2017032301433620542","game_order_no":"e734f4b78df074bf2ef0adc7caa6a8a5#1","uid":"10255","pay_money":"10.00","service_id":"1013","pid":"105","paystatus":"1","time":"1490247880","sign":"2ac1fa4c40b94061b102a794e6778678","user_id":"1","game_id":"10010","clientIp":"119.23.27.167"}
+{"clientIp":"::ffff:127.0.0.1","isIOS":false}
+3733:1490344142 | {"order_no":"2017032301433620542","game_order_no":"e734f4b78df074bf2ef0adc7caa6a8a5#1","uid":"10255","pay_money":"10.00","service_id":"1013","pid":"105","paystatus":"1","time":"1490247880","sign":"2ac1fa4c40b94061b102a794e6778678","user_id":"1","game_id":"10010","clientIp":"119.23.27.167"}
+{"clientIp":"::ffff:127.0.0.1","isIOS":false}
+3733:1490344171 | {"order_no":"2017032301433620542","game_order_no":"e734f4b78df074bf2ef0adc7caa6a8a5#1","uid":"10255","pay_money":"10.00","service_id":"1013","pid":"105","paystatus":"1","time":"1490247880","sign":"2ac1fa4c40b94061b102a794e6778678","user_id":"1","game_id":"10010","clientIp":"119.23.27.167"}
+{"clientIp":"::ffff:127.0.0.1","isIOS":false}
+3733:1490344207 | {"order_no":"2017032301433620542","game_order_no":"e734f4b78df074bf2ef0adc7caa6a8a5#1","uid":"10255","pay_money":"10.00","service_id":"1013","pid":"105","paystatus":"1","time":"1490247880","sign":"2ac1fa4c40b94061b102a794e6778678","user_id":"1","game_id":"10010","clientIp":"119.23.27.167"}
+{"clientIp":"::ffff:127.0.0.1","isIOS":false}
+3733:1490344298 | {"{\"order_no\":\"2017032301433620542\",\"game_order_no\":\"e734f4b78df074bf2ef0adc7caa6a8a5#1\",\"uid\":\"10255\",\"pay_money\":\"10.00\",\"service_id\":\"1013\",\"pid\":\"105\",\"paystatus\":\"1\",\"time\":\"1490247880\",\"sign\":\"2ac1fa4c40b94061b102a794e6778678\",\"user_id\":\"1\",\"game_id\":\"10010\",\"clientIp\":\"119.23.27.167\"}":""}
+{"clientIp":"::ffff:127.0.0.1","isIOS":false}
+3733:1490344319 | {"order_no":"2017032301433620542","game_order_no":"e734f4b78df074bf2ef0adc7caa6a8a5#1","uid":"10255","pay_money":"10.00","service_id":"1013","pid":"105","paystatus":"1","time":"1490247880","sign":"2ac1fa4c40b94061b102a794e6778678","user_id":"1","game_id":"10010","clientIp":"119.23.27.167"}
+{"clientIp":"::ffff:127.0.0.1","isIOS":false}
+3733:1490346783 | null
+{"clientIp":"::ffff:127.0.0.1","isIOS":false}
+3733:1490346784 | null
+{"clientIp":"::ffff:127.0.0.1","isIOS":false}
+3733:1490346784 | null
+{"clientIp":"::ffff:127.0.0.1","isIOS":false}
+cc:1490346795 | null
+{"clientIp":"::ffff:127.0.0.1","isIOS":false}
+cc:1490346796 | null
+{"clientIp":"::ffff:127.0.0.1","isIOS":false}
+cc:1490346797 | null
+{"clientIp":"::ffff:127.0.0.1","isIOS":false}
+cc:1490346798 | null
+{"clientIp":"::ffff:127.0.0.1","isIOS":false}
+cc:1490346798 | null
+{"clientIp":"::ffff:127.0.0.1","isIOS":false}
+cc:1490346799 | null
+{"clientIp":"::ffff:127.0.0.1","isIOS":false}
+cc:1490346800 | null
+{"clientIp":"::ffff:127.0.0.1","isIOS":false}
+cc:1490346800 | null
+{"clientIp":"::ffff:127.0.0.1","isIOS":false}

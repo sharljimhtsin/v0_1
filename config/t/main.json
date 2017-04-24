@@ -12,85 +12,323 @@
 			{
 				"buyTime":1,
 				"costType":"imegga",
-				"cost":130,
-				"buyPoint":30
+				"cost":50,
+				"buyPoint":8
 			},
 			"2":
 			{
 				"buyTime":2,
 				"costType":"imegga",
-				"cost":210,
-				"buyPoint":30
+				"cost":50,
+				"buyPoint":8
 			},
 			"3":
 			{
 				"buyTime":3,
 				"costType":"imegga",
-				"cost":300,
-				"buyPoint":30
+				"cost":50,
+				"buyPoint":8
 			},
 			"4":
 			{
 				"buyTime":4,
 				"costType":"imegga",
-				"cost":300,
-				"buyPoint":30
+				"cost":100,
+				"buyPoint":8
 			},
 			"5":
 			{
 				"buyTime":5,
 				"costType":"imegga",
-				"cost":300,
-				"buyPoint":30
+				"cost":150,
+				"buyPoint":8
 			},
 			"6":
 			{
 				"buyTime":6,
 				"costType":"imegga",
-				"cost":480,
-				"buyPoint":30
+				"cost":200,
+				"buyPoint":8
 			},
 			"7":
 			{
 				"buyTime":7,
 				"costType":"imegga",
-				"cost":750,
-				"buyPoint":30
+				"cost":250,
+				"buyPoint":8
 			},
 			"8":
 			{
 				"buyTime":8,
 				"costType":"imegga",
-				"cost":750,
-				"buyPoint":30
+				"cost":300,
+				"buyPoint":8
 			},
 			"9":
 			{
 				"buyTime":9,
 				"costType":"imegga",
-				"cost":750,
-				"buyPoint":30
+				"cost":350,
+				"buyPoint":8
 			},
 			"10":
 			{
 				"buyTime":10,
 				"costType":"imegga",
-				"cost":750,
-				"buyPoint":30
+				"cost":400,
+				"buyPoint":8
 			},
 			"11":
 			{
 				"buyTime":11,
 				"costType":"imegga",
-				"cost":750,
-				"buyPoint":30
+				"cost":400,
+				"buyPoint":8
 			},
 			"12":
 			{
 				"buyTime":12,
 				"costType":"imegga",
-				"cost":750,
-				"buyPoint":30
+				"cost":400,
+				"buyPoint":8
+			},
+			"13":
+			{
+				"buyTime":13,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"14":
+			{
+				"buyTime":14,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"15":
+			{
+				"buyTime":15,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"16":
+			{
+				"buyTime":16,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"17":
+			{
+				"buyTime":17,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"18":
+			{
+				"buyTime":18,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"19":
+			{
+				"buyTime":19,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"20":
+			{
+				"buyTime":20,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"21":
+			{
+				"buyTime":21,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"22":
+			{
+				"buyTime":22,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"23":
+			{
+				"buyTime":23,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"24":
+			{
+				"buyTime":24,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"25":
+			{
+				"buyTime":25,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"26":
+			{
+				"buyTime":26,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"27":
+			{
+				"buyTime":27,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"28":
+			{
+				"buyTime":28,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"29":
+			{
+				"buyTime":29,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"30":
+			{
+				"buyTime":30,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"31":
+			{
+				"buyTime":31,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"32":
+			{
+				"buyTime":32,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"33":
+			{
+				"buyTime":33,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"34":
+			{
+				"buyTime":34,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"35":
+			{
+				"buyTime":35,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"36":
+			{
+				"buyTime":36,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"37":
+			{
+				"buyTime":37,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"38":
+			{
+				"buyTime":38,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"39":
+			{
+				"buyTime":39,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"40":
+			{
+				"buyTime":40,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"41":
+			{
+				"buyTime":41,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"42":
+			{
+				"buyTime":42,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"43":
+			{
+				"buyTime":22,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"44":
+			{
+				"buyTime":44,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"45":
+			{
+				"buyTime":45,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
+			},
+			"46":
+			{
+				"buyTime":46,
+				"costType":"imegga",
+				"cost":400,
+				"buyPoint":8
 			}
 		},
 		"manaBuy":
@@ -99,85 +337,323 @@
 			{
 				"buyTime":1,
 				"costType":"imegga",
-				"cost":130,
-				"buyPoint":30
+				"cost":20,
+				"buyPoint":8
 			},
 			"2":
 			{
 				"buyTime":2,
 				"costType":"imegga",
-				"cost":210,
-				"buyPoint":30
+				"cost":40,
+				"buyPoint":8
 			},
 			"3":
 			{
 				"buyTime":3,
 				"costType":"imegga",
-				"cost":300,
-				"buyPoint":30
+				"cost":40,
+				"buyPoint":8
 			},
 			"4":
 			{
 				"buyTime":4,
 				"costType":"imegga",
-				"cost":300,
-				"buyPoint":30
+				"cost":40,
+				"buyPoint":8
 			},
 			"5":
 			{
 				"buyTime":5,
 				"costType":"imegga",
-				"cost":300,
-				"buyPoint":30
+				"cost":40,
+				"buyPoint":8
 			},
 			"6":
 			{
 				"buyTime":6,
 				"costType":"imegga",
-				"cost":480,
-				"buyPoint":30
+				"cost":40,
+				"buyPoint":8
 			},
 			"7":
 			{
 				"buyTime":7,
 				"costType":"imegga",
-				"cost":750,
-				"buyPoint":30
+				"cost":80,
+				"buyPoint":8
 			},
 			"8":
 			{
 				"buyTime":8,
 				"costType":"imegga",
-				"cost":750,
-				"buyPoint":30
+				"cost":80,
+				"buyPoint":8
 			},
 			"9":
 			{
 				"buyTime":9,
 				"costType":"imegga",
-				"cost":750,
-				"buyPoint":30
+				"cost":80,
+				"buyPoint":8
 			},
 			"10":
 			{
 				"buyTime":10,
 				"costType":"imegga",
-				"cost":750,
-				"buyPoint":30
+				"cost":80,
+				"buyPoint":8
 			},
 			"11":
 			{
 				"buyTime":11,
 				"costType":"imegga",
-				"cost":750,
-				"buyPoint":30
+				"cost":80,
+				"buyPoint":8
 			},
 			"12":
 			{
 				"buyTime":12,
 				"costType":"imegga",
-				"cost":750,
-				"buyPoint":30
+				"cost":80,
+				"buyPoint":8
+			},
+			"13":
+			{
+				"buyTime":13,
+				"costType":"imegga",
+				"cost":80,
+				"buyPoint":8
+			},
+			"14":
+			{
+				"buyTime":14,
+				"costType":"imegga",
+				"cost":80,
+				"buyPoint":8
+			},
+			"15":
+			{
+				"buyTime":15,
+				"costType":"imegga",
+				"cost":80,
+				"buyPoint":8
+			},
+			"16":
+			{
+				"buyTime":16,
+				"costType":"imegga",
+				"cost":80,
+				"buyPoint":8
+			},
+			"17":
+			{
+				"buyTime":17,
+				"costType":"imegga",
+				"cost":80,
+				"buyPoint":8
+			},
+			"18":
+			{
+				"buyTime":18,
+				"costType":"imegga",
+				"cost":80,
+				"buyPoint":8
+			},
+			"19":
+			{
+				"buyTime":19,
+				"costType":"imegga",
+				"cost":80,
+				"buyPoint":8
+			},
+			"20":
+			{
+				"buyTime":20,
+				"costType":"imegga",
+				"cost":80,
+				"buyPoint":8
+			},
+			"21":
+			{
+				"buyTime":21,
+				"costType":"imegga",
+				"cost":80,
+				"buyPoint":8
+			},
+			"22":
+			{
+				"buyTime":22,
+				"costType":"imegga",
+				"cost":200,
+				"buyPoint":8
+			},
+			"23":
+			{
+				"buyTime":23,
+				"costType":"imegga",
+				"cost":200,
+				"buyPoint":8
+			},
+			"24":
+			{
+				"buyTime":24,
+				"costType":"imegga",
+				"cost":200,
+				"buyPoint":8
+			},
+			"25":
+			{
+				"buyTime":25,
+				"costType":"imegga",
+				"cost":200,
+				"buyPoint":8
+			},
+			"26":
+			{
+				"buyTime":26,
+				"costType":"imegga",
+				"cost":200,
+				"buyPoint":8
+			},
+			"27":
+			{
+				"buyTime":27,
+				"costType":"imegga",
+				"cost":200,
+				"buyPoint":8
+			},
+			"28":
+			{
+				"buyTime":28,
+				"costType":"imegga",
+				"cost":200,
+				"buyPoint":8
+			},
+			"29":
+			{
+				"buyTime":29,
+				"costType":"imegga",
+				"cost":200,
+				"buyPoint":8
+			},
+			"30":
+			{
+				"buyTime":30,
+				"costType":"imegga",
+				"cost":200,
+				"buyPoint":8
+			},
+			"31":
+			{
+				"buyTime":31,
+				"costType":"imegga",
+				"cost":200,
+				"buyPoint":8
+			},
+			"32":
+			{
+				"buyTime":32,
+				"costType":"imegga",
+				"cost":200,
+				"buyPoint":8
+			},
+			"33":
+			{
+				"buyTime":33,
+				"costType":"imegga",
+				"cost":200,
+				"buyPoint":8
+			},
+			"34":
+			{
+				"buyTime":34,
+				"costType":"imegga",
+				"cost":200,
+				"buyPoint":8
+			},
+			"35":
+			{
+				"buyTime":35,
+				"costType":"imegga",
+				"cost":200,
+				"buyPoint":8
+			},
+			"36":
+			{
+				"buyTime":36,
+				"costType":"imegga",
+				"cost":200,
+				"buyPoint":8
+			},
+			"37":
+			{
+				"buyTime":37,
+				"costType":"imegga",
+				"cost":200,
+				"buyPoint":8
+			},
+			"38":
+			{
+				"buyTime":38,
+				"costType":"imegga",
+				"cost":200,
+				"buyPoint":8
+			},
+			"39":
+			{
+				"buyTime":39,
+				"costType":"imegga",
+				"cost":200,
+				"buyPoint":8
+			},
+			"40":
+			{
+				"buyTime":40,
+				"costType":"imegga",
+				"cost":200,
+				"buyPoint":8
+			},
+			"41":
+			{
+				"buyTime":41,
+				"costType":"imegga",
+				"cost":200,
+				"buyPoint":8
+			},
+			"42":
+			{
+				"buyTime":42,
+				"costType":"imegga",
+				"cost":200,
+				"buyPoint":8
+			},
+			"43":
+			{
+				"buyTime":22,
+				"costType":"imegga",
+				"cost":200,
+				"buyPoint":8
+			},
+			"44":
+			{
+				"buyTime":44,
+				"costType":"imegga",
+				"cost":200,
+				"buyPoint":8
+			},
+			"45":
+			{
+				"buyTime":45,
+				"costType":"imegga",
+				"cost":200,
+				"buyPoint":8
+			},
+			"46":
+			{
+				"buyTime":46,
+				"costType":"imegga",
+				"cost":200,
+				"buyPoint":8
 			}
 		},
 		"kaiooImprovementCost":
@@ -267,17 +743,20 @@
 		"catalystOpen": 1,
 		"activityMapOpen":7,
 		"zeniMapOpen":7,
-		"specialTeamOpen":15,
-		"specialTeamOpen2":15,
-		"specialTeamOpen3":"notOpen",
+		"specialTeamOpen1":15,
+		"specialTeamOpen2":15000,
+		"specialTeamOpen3":15000,
+	  	"specialTeamOpen4":15000,
 		"timeLimitShopOpen":1,
 		"leagueOpen":10,
 		"budokai_open":5,
 		"mixBuDoKai_open":5,
-		"gravity_open":20,
-		"gem_open":"notOpen",
-		"difZone_open":10,
+		"gravity_open":20000,
+		"gem_open":100000,
+		"difZone_open":10000,
+	  	"scorepvp_open":40,
 		"residual_chapter":8,
+		"desperado_open":2000,
 		"active_map2":7,
 		"successiveBattleCd":300,
 		"clearSuccessiveBattleCost":1,
@@ -314,6 +793,7 @@
 			"budokaiBattle":0,
 			"mixBuDoKaiBattle":0
 		},
+		"allFullStarReward":10,
 		"music":
 		{
 			"login":"login.mp3",

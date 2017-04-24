@@ -2,7 +2,7 @@
 	"player":{
 		"1":{
 			"playerLevel":1,
-			"needPlayerExp":65,
+			"needPlayerExp":130,
 			"getPlayerExp":10,
 			"getHeroExp":30,
 			"rewardZeniLevelUp":0,
@@ -13,22 +13,22 @@
 		},
 		"2":{
 			"playerLevel":2,
-			"needPlayerExp":40,
+			"needPlayerExp":150,
 			"getPlayerExp":11,
 			"getHeroExp":31,
 			"rewardZeniLevelUp":12600,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":3,
 			"skillPatch":"112002",
 			"worldBossTeachLevel":5
 		},
 		"3":{
 			"playerLevel":3,
-			"needPlayerExp":40,
+			"needPlayerExp":160,
 			"getPlayerExp":12,
 			"getHeroExp":36,
 			"rewardZeniLevelUp":13000,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"rewardOtherLevelUp":[
 				{"id":"112005","count":1},
 				{"id":"112006","count":1},
@@ -41,33 +41,33 @@
 		},
 		"4":{
 			"playerLevel":4,
-			"needPlayerExp":45,
+			"needPlayerExp":170,
 			"getPlayerExp":13,
 			"getHeroExp":40,
 			"rewardZeniLevelUp":13500,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":4,
 			"skillPatch":"112004",
 			"worldBossTeachLevel":5
 		},
 		"5":{
 			"playerLevel":5,
-			"needPlayerExp":50,
+			"needPlayerExp":180,
 			"getPlayerExp":14,
 			"getHeroExp":44,
 			"rewardZeniLevelUp":14100,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":4,
 			"skillPatch":"112005",
 			"worldBossTeachLevel":5
 		},
 		"6":{
 			"playerLevel":6,
-			"needPlayerExp":100,
+			"needPlayerExp":390,
 			"getPlayerExp":15,
 			"getHeroExp":47,
 			"rewardZeniLevelUp":14800,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"rewardOtherLevelUp":[
 				{"id":"103001","count":1}
 			],
@@ -77,66 +77,66 @@
 		},
 		"7":{
 			"playerLevel":7,
-			"needPlayerExp":100,
+			"needPlayerExp":410,
 			"getPlayerExp":16,
 			"getHeroExp":50,
 			"rewardZeniLevelUp":15600,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":4,
 			"skillPatch":"112001",
 			"worldBossTeachLevel":5
 		},
 		"8":{
 			"playerLevel":8,
-			"needPlayerExp":170,
+			"needPlayerExp":660,
 			"getPlayerExp":17,
 			"getHeroExp":55,
 			"rewardZeniLevelUp":16500,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":4,
 			"skillPatch":"112002",
 			"worldBossTeachLevel":5
 		},
 		"9":{
 			"playerLevel":9,
-			"needPlayerExp":220,
+			"needPlayerExp":870,
 			"getPlayerExp":17,
 			"getHeroExp":59,
 			"rewardZeniLevelUp":17500,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":4,
 			"skillPatch":"112003",
 			"worldBossTeachLevel":5
 		},
 		"10":{
 			"playerLevel":10,
-			"needPlayerExp":230,
+			"needPlayerExp":920,
 			"getPlayerExp":18,
 			"getHeroExp":63,
 			"rewardZeniLevelUp":18600,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":4,
 			"skillPatch":"113004",
 			"worldBossTeachLevel":5
 		},
 		"11":{
 			"playerLevel":11,
-			"needPlayerExp":310,
+			"needPlayerExp":1150,
 			"getPlayerExp":18,
 			"getHeroExp":66,
 			"rewardZeniLevelUp":19800,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":5,
 			"skillPatch":"113005",
 			"worldBossTeachLevel":5
 		},
 		"12":{
 			"playerLevel":12,
-			"needPlayerExp":370,
+			"needPlayerExp":1220,
 			"getPlayerExp":19,
 			"getHeroExp":72,
 			"rewardZeniLevelUp":21100,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"rewardOtherLevelUp":[
 				{"id":"152301","count":5}
 			],
@@ -146,33 +146,33 @@
 		},
 		"13":{
 			"playerLevel":13,
-			"needPlayerExp":500,
+			"needPlayerExp":1460,
 			"getPlayerExp":19,
 			"getHeroExp":77,
 			"rewardZeniLevelUp":22500,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":5,
 			"skillPatch":"113007",
 			"worldBossTeachLevel":5
 		},
 		"14":{
 			"playerLevel":14,
-			"needPlayerExp":600,
+			"needPlayerExp":1540,
 			"getPlayerExp":20,
 			"getHeroExp":85,
 			"rewardZeniLevelUp":24000,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":5,
 			"skillPatch":"113008",
 			"worldBossTeachLevel":8
 		},
 		"15":{
 			"playerLevel":15,
-			"needPlayerExp":840,
+			"needPlayerExp":1790,
 			"getPlayerExp":20,
 			"getHeroExp":91,
 			"rewardZeniLevelUp":25600,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"rewardOtherLevelUp":[
 				{"id":"152401","count":2}
 			],
@@ -182,44 +182,44 @@
 		},
 		"16":{
 			"playerLevel":16,
-			"needPlayerExp":1030,
+			"needPlayerExp":1880,
 			"getPlayerExp":21,
 			"getHeroExp":99,
 			"rewardZeniLevelUp":27300,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":6,
 			"skillPatch":"113010",
 			"worldBossTeachLevel":14
 		},
 		"17":{
 			"playerLevel":17,
-			"needPlayerExp":1350,
+			"needPlayerExp":2150,
 			"getPlayerExp":21,
 			"getHeroExp":107,
 			"rewardZeniLevelUp":29100,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":6,
 			"skillPatch":"113011",
 			"worldBossTeachLevel":17
 		},
 		"18":{
 			"playerLevel":18,
-			"needPlayerExp":1640,
+			"needPlayerExp":2250,
 			"getPlayerExp":22,
 			"getHeroExp":115,
 			"rewardZeniLevelUp":31000,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":6,
 			"skillPatch":"113012",
 			"worldBossTeachLevel":20
 		},
 		"19":{
 			"playerLevel":19,
-			"needPlayerExp":2100,
+			"needPlayerExp":2530,
 			"getPlayerExp":22,
 			"getHeroExp":123,
 			"rewardZeniLevelUp":33000,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":6,
 			"skillPatch":"113013",
 			"worldBossTeachLevel":23
@@ -230,7 +230,7 @@
 			"getPlayerExp":23,
 			"getHeroExp":131,
 			"rewardZeniLevelUp":35100,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":6,
 			"skillPatch":"113014",
 			"worldBossTeachLevel":26
@@ -241,7 +241,7 @@
 			"getPlayerExp":23,
 			"getHeroExp":141,
 			"rewardZeniLevelUp":37300,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":7,
 			"skillPatch":"113015",
 			"worldBossTeachLevel":29
@@ -252,7 +252,7 @@
 			"getPlayerExp":24,
 			"getHeroExp":150,
 			"rewardZeniLevelUp":39600,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":7,
 			"skillPatch":"113016",
 			"worldBossTeachLevel":32
@@ -263,7 +263,7 @@
 			"getPlayerExp":24,
 			"getHeroExp":161,
 			"rewardZeniLevelUp":42000,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":7,
 			"skillPatch":"113006",
 			"worldBossTeachLevel":35
@@ -274,7 +274,7 @@
 			"getPlayerExp":25,
 			"getHeroExp":171,
 			"rewardZeniLevelUp":44500,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":7,
 			"skillPatch":"113007",
 			"worldBossTeachLevel":38
@@ -285,7 +285,7 @@
 			"getPlayerExp":25,
 			"getHeroExp":182,
 			"rewardZeniLevelUp":47100,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":7,
 			"skillPatch":"113008",
 			"worldBossTeachLevel":41
@@ -296,7 +296,7 @@
 			"getPlayerExp":26,
 			"getHeroExp":192,
 			"rewardZeniLevelUp":49800,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113009",
 			"worldBossTeachLevel":44
@@ -307,7 +307,7 @@
 			"getPlayerExp":26,
 			"getHeroExp":204,
 			"rewardZeniLevelUp":68600,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113010",
 			"worldBossTeachLevel":47
@@ -318,7 +318,7 @@
 			"getPlayerExp":27,
 			"getHeroExp":215,
 			"rewardZeniLevelUp":71100,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113016",
 			"worldBossTeachLevel":50
@@ -329,7 +329,7 @@
 			"getPlayerExp":27,
 			"getHeroExp":226,
 			"rewardZeniLevelUp":98100,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113017",
 			"worldBossTeachLevel":53
@@ -340,7 +340,7 @@
 			"getPlayerExp":28,
 			"getHeroExp":238,
 			"rewardZeniLevelUp":101200,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113002",
 			"worldBossTeachLevel":56
@@ -351,7 +351,7 @@
 			"getPlayerExp":28,
 			"getHeroExp":250,
 			"rewardZeniLevelUp":129600,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113004",
 			"worldBossTeachLevel":59
@@ -362,7 +362,7 @@
 			"getPlayerExp":29,
 			"getHeroExp":275,
 			"rewardZeniLevelUp":158400,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113005",
 			"worldBossTeachLevel":62
@@ -373,7 +373,7 @@
 			"getPlayerExp":29,
 			"getHeroExp":303,
 			"rewardZeniLevelUp":187400,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113006",
 			"worldBossTeachLevel":65
@@ -384,7 +384,7 @@
 			"getPlayerExp":30,
 			"getHeroExp":334,
 			"rewardZeniLevelUp":215500,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113007",
 			"worldBossTeachLevel":68
@@ -395,7 +395,7 @@
 			"getPlayerExp":30,
 			"getHeroExp":368,
 			"rewardZeniLevelUp":241700,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113008",
 			"worldBossTeachLevel":71
@@ -406,7 +406,7 @@
 			"getPlayerExp":31,
 			"getHeroExp":405,
 			"rewardZeniLevelUp":264400,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113009",
 			"worldBossTeachLevel":74
@@ -417,7 +417,7 @@
 			"getPlayerExp":31,
 			"getHeroExp":446,
 			"rewardZeniLevelUp":274100,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113010",
 			"worldBossTeachLevel":77
@@ -428,7 +428,7 @@
 			"getPlayerExp":32,
 			"getHeroExp":491,
 			"rewardZeniLevelUp":282900,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113011",
 			"worldBossTeachLevel":80
@@ -439,7 +439,7 @@
 			"getPlayerExp":32,
 			"getHeroExp":541,
 			"rewardZeniLevelUp":290900,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113012",
 			"worldBossTeachLevel":83
@@ -450,7 +450,7 @@
 			"getPlayerExp":33,
 			"getHeroExp":596,
 			"rewardZeniLevelUp":297600,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113013",
 			"worldBossTeachLevel":86
@@ -461,7 +461,7 @@
 			"getPlayerExp":33,
 			"getHeroExp":656,
 			"rewardZeniLevelUp":303200,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113014",
 			"worldBossTeachLevel":89
@@ -472,7 +472,7 @@
 			"getPlayerExp":34,
 			"getHeroExp":722,
 			"rewardZeniLevelUp":305000,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113015",
 			"worldBossTeachLevel":92
@@ -483,7 +483,7 @@
 			"getPlayerExp":34,
 			"getHeroExp":795,
 			"rewardZeniLevelUp":335900,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113016",
 			"worldBossTeachLevel":95
@@ -494,7 +494,7 @@
 			"getPlayerExp":35,
 			"getHeroExp":875,
 			"rewardZeniLevelUp":369600,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113017",
 			"worldBossTeachLevel":98
@@ -505,7 +505,7 @@
 			"getPlayerExp":35,
 			"getHeroExp":963,
 			"rewardZeniLevelUp":406800,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113002",
 			"worldBossTeachLevel":101
@@ -516,7 +516,7 @@
 			"getPlayerExp":36,
 			"getHeroExp":1060,
 			"rewardZeniLevelUp":447800,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113004",
 			"worldBossTeachLevel":104
@@ -527,7 +527,7 @@
 			"getPlayerExp":36,
 			"getHeroExp":1166,
 			"rewardZeniLevelUp":492600,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113005",
 			"worldBossTeachLevel":107
@@ -538,7 +538,7 @@
 			"getPlayerExp":37,
 			"getHeroExp":1283,
 			"rewardZeniLevelUp":542000,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113006",
 			"worldBossTeachLevel":110
@@ -549,7 +549,7 @@
 			"getPlayerExp":37,
 			"getHeroExp":1412,
 			"rewardZeniLevelUp":596500,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113007",
 			"worldBossTeachLevel":113
@@ -560,7 +560,7 @@
 			"getPlayerExp":38,
 			"getHeroExp":1554,
 			"rewardZeniLevelUp":656500,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113008",
 			"worldBossTeachLevel":116
@@ -571,7 +571,7 @@
 			"getPlayerExp":38,
 			"getHeroExp":1586,
 			"rewardZeniLevelUp":670000,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113009",
 			"worldBossTeachLevel":119
@@ -582,7 +582,7 @@
 			"getPlayerExp":39,
 			"getHeroExp":1618,
 			"rewardZeniLevelUp":683500,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113010",
 			"worldBossTeachLevel":122
@@ -593,7 +593,7 @@
 			"getPlayerExp":39,
 			"getHeroExp":1651,
 			"rewardZeniLevelUp":697400,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113011",
 			"worldBossTeachLevel":125
@@ -604,7 +604,7 @@
 			"getPlayerExp":40,
 			"getHeroExp":1658,
 			"rewardZeniLevelUp":711800,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113012",
 			"worldBossTeachLevel":128
@@ -615,7 +615,7 @@
 			"getPlayerExp":40,
 			"getHeroExp":1719,
 			"rewardZeniLevelUp":726200,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113013",
 			"worldBossTeachLevel":131
@@ -626,7 +626,7 @@
 			"getPlayerExp":41,
 			"getHeroExp":1754,
 			"rewardZeniLevelUp":740900,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113014",
 			"worldBossTeachLevel":134
@@ -637,7 +637,7 @@
 			"getPlayerExp":41,
 			"getHeroExp":1790,
 			"rewardZeniLevelUp":756100,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113017",
 			"worldBossTeachLevel":137
@@ -648,7 +648,7 @@
 			"getPlayerExp":42,
 			"getHeroExp":1826,
 			"rewardZeniLevelUp":771400,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113002",
 			"worldBossTeachLevel":140
@@ -659,7 +659,7 @@
 			"getPlayerExp":42,
 			"getHeroExp":1863,
 			"rewardZeniLevelUp":787000,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113004",
 			"worldBossTeachLevel":143
@@ -670,7 +670,7 @@
 			"getPlayerExp":43,
 			"getHeroExp":1901,
 			"rewardZeniLevelUp":803000,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113005",
 			"worldBossTeachLevel":146
@@ -681,7 +681,7 @@
 			"getPlayerExp":43,
 			"getHeroExp":1940,
 			"rewardZeniLevelUp":819500,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113006",
 			"worldBossTeachLevel":149
@@ -692,7 +692,7 @@
 			"getPlayerExp":44,
 			"getHeroExp":1979,
 			"rewardZeniLevelUp":836000,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113007",
 			"worldBossTeachLevel":152
@@ -703,7 +703,7 @@
 			"getPlayerExp":44,
 			"getHeroExp":2019,
 			"rewardZeniLevelUp":852900,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113008",
 			"worldBossTeachLevel":155
@@ -714,7 +714,7 @@
 			"getPlayerExp":45,
 			"getHeroExp":2060,
 			"rewardZeniLevelUp":870200,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113009",
 			"worldBossTeachLevel":158
@@ -725,7 +725,7 @@
 			"getPlayerExp":45,
 			"getHeroExp":2102,
 			"rewardZeniLevelUp":887900,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113010",
 			"worldBossTeachLevel":161
@@ -736,7 +736,7 @@
 			"getPlayerExp":46,
 			"getHeroExp":2145,
 			"rewardZeniLevelUp":906100,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113011",
 			"worldBossTeachLevel":164
@@ -747,7 +747,7 @@
 			"getPlayerExp":46,
 			"getHeroExp":2188,
 			"rewardZeniLevelUp":924300,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113012",
 			"worldBossTeachLevel":167
@@ -758,7 +758,7 @@
 			"getPlayerExp":47,
 			"getHeroExp":2232,
 			"rewardZeniLevelUp":942800,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113013",
 			"worldBossTeachLevel":170
@@ -769,7 +769,7 @@
 			"getPlayerExp":47,
 			"getHeroExp":2277,
 			"rewardZeniLevelUp":961900,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113014",
 			"worldBossTeachLevel":173
@@ -780,7 +780,7 @@
 			"getPlayerExp":48,
 			"getHeroExp":2323,
 			"rewardZeniLevelUp":981300,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113015",
 			"worldBossTeachLevel":176
@@ -791,7 +791,7 @@
 			"getPlayerExp":48,
 			"getHeroExp":2370,
 			"rewardZeniLevelUp":1001100,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113016",
 			"worldBossTeachLevel":179
@@ -802,7 +802,7 @@
 			"getPlayerExp":49,
 			"getHeroExp":2418,
 			"rewardZeniLevelUp":1021400,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113017",
 			"worldBossTeachLevel":182
@@ -813,7 +813,7 @@
 			"getPlayerExp":49,
 			"getHeroExp":2467,
 			"rewardZeniLevelUp":1042100,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113002",
 			"worldBossTeachLevel":185
@@ -824,7 +824,7 @@
 			"getPlayerExp":50,
 			"getHeroExp":2517,
 			"rewardZeniLevelUp":1063200,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113004",
 			"worldBossTeachLevel":188
@@ -835,7 +835,7 @@
 			"getPlayerExp":50,
 			"getHeroExp":2568,
 			"rewardZeniLevelUp":1084800,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113005",
 			"worldBossTeachLevel":191
@@ -846,7 +846,7 @@
 			"getPlayerExp":51,
 			"getHeroExp":2620,
 			"rewardZeniLevelUp":1106700,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113006",
 			"worldBossTeachLevel":194
@@ -857,7 +857,7 @@
 			"getPlayerExp":51,
 			"getHeroExp":2673,
 			"rewardZeniLevelUp":1129100,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113007",
 			"worldBossTeachLevel":197
@@ -868,7 +868,7 @@
 			"getPlayerExp":52,
 			"getHeroExp":2727,
 			"rewardZeniLevelUp":1151900,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113008",
 			"worldBossTeachLevel":200
@@ -879,7 +879,7 @@
 			"getPlayerExp":52,
 			"getHeroExp":2782,
 			"rewardZeniLevelUp":1175200,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113009",
 			"worldBossTeachLevel":203
@@ -890,7 +890,7 @@
 			"getPlayerExp":53,
 			"getHeroExp":2838,
 			"rewardZeniLevelUp":1198800,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113010",
 			"worldBossTeachLevel":206
@@ -901,7 +901,7 @@
 			"getPlayerExp":53,
 			"getHeroExp":2895,
 			"rewardZeniLevelUp":1222900,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113011",
 			"worldBossTeachLevel":209
@@ -912,7 +912,7 @@
 			"getPlayerExp":54,
 			"getHeroExp":2953,
 			"rewardZeniLevelUp":1247400,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113012",
 			"worldBossTeachLevel":212
@@ -923,7 +923,7 @@
 			"getPlayerExp":54,
 			"getHeroExp":3013,
 			"rewardZeniLevelUp":1272700,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113013",
 			"worldBossTeachLevel":215
@@ -934,7 +934,7 @@
 			"getPlayerExp":55,
 			"getHeroExp":3074,
 			"rewardZeniLevelUp":1298500,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"113014",
 			"worldBossTeachLevel":218
@@ -945,7 +945,7 @@
 			"getPlayerExp":55,
 			"getHeroExp":3136,
 			"rewardZeniLevelUp":1324700,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114007",
 			"worldBossTeachLevel":221
@@ -956,7 +956,7 @@
 			"getPlayerExp":56,
 			"getHeroExp":3199,
 			"rewardZeniLevelUp":1351300,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114008",
 			"worldBossTeachLevel":224
@@ -967,7 +967,7 @@
 			"getPlayerExp":56,
 			"getHeroExp":3263,
 			"rewardZeniLevelUp":1378300,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114009",
 			"worldBossTeachLevel":227
@@ -978,7 +978,7 @@
 			"getPlayerExp":57,
 			"getHeroExp":3329,
 			"rewardZeniLevelUp":1406200,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114010",
 			"worldBossTeachLevel":230
@@ -989,7 +989,7 @@
 			"getPlayerExp":57,
 			"getHeroExp":3396,
 			"rewardZeniLevelUp":1434500,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114011",
 			"worldBossTeachLevel":233
@@ -1000,7 +1000,7 @@
 			"getPlayerExp":58,
 			"getHeroExp":3464,
 			"rewardZeniLevelUp":1463200,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114012",
 			"worldBossTeachLevel":236
@@ -1011,7 +1011,7 @@
 			"getPlayerExp":58,
 			"getHeroExp":3534,
 			"rewardZeniLevelUp":1492800,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114013",
 			"worldBossTeachLevel":239
@@ -1022,7 +1022,7 @@
 			"getPlayerExp":59,
 			"getHeroExp":3605,
 			"rewardZeniLevelUp":1522800,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114014",
 			"worldBossTeachLevel":242
@@ -1033,7 +1033,7 @@
 			"getPlayerExp":59,
 			"getHeroExp":3678,
 			"rewardZeniLevelUp":1553600,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114007",
 			"worldBossTeachLevel":245
@@ -1044,7 +1044,7 @@
 			"getPlayerExp":60,
 			"getHeroExp":3752,
 			"rewardZeniLevelUp":1584900,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114008",
 			"worldBossTeachLevel":248
@@ -1055,7 +1055,7 @@
 			"getPlayerExp":60,
 			"getHeroExp":3828,
 			"rewardZeniLevelUp":1617000,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114009",
 			"worldBossTeachLevel":251
@@ -1066,7 +1066,7 @@
 			"getPlayerExp":61,
 			"getHeroExp":3905,
 			"rewardZeniLevelUp":1649500,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114010",
 			"worldBossTeachLevel":254
@@ -1077,7 +1077,7 @@
 			"getPlayerExp":61,
 			"getHeroExp":3984,
 			"rewardZeniLevelUp":1682900,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114011",
 			"worldBossTeachLevel":257
@@ -1088,7 +1088,7 @@
 			"getPlayerExp":62,
 			"getHeroExp":4064,
 			"rewardZeniLevelUp":1716700,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114012",
 			"worldBossTeachLevel":260
@@ -1099,7 +1099,7 @@
 			"getPlayerExp":62,
 			"getHeroExp":4146,
 			"rewardZeniLevelUp":1751300,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114013",
 			"worldBossTeachLevel":263
@@ -1110,7 +1110,7 @@
 			"getPlayerExp":63,
 			"getHeroExp":4229,
 			"rewardZeniLevelUp":1786400,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114014",
 			"worldBossTeachLevel":266
@@ -1121,7 +1121,7 @@
 			"getPlayerExp":63,
 			"getHeroExp":4312,
 			"rewardZeniLevelUp":1821500,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114014",
 			"worldBossTeachLevel":269
@@ -1132,7 +1132,7 @@
 			"getPlayerExp":64,
 			"getHeroExp":4395,
 			"rewardZeniLevelUp":1856600,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114007",
 			"worldBossTeachLevel":272
@@ -1143,7 +1143,7 @@
 			"getPlayerExp":64,
 			"getHeroExp":4478,
 			"rewardZeniLevelUp":1891700,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114008",
 			"worldBossTeachLevel":275
@@ -1154,7 +1154,7 @@
 			"getPlayerExp":65,
 			"getHeroExp":4561,
 			"rewardZeniLevelUp":1926800,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114009",
 			"worldBossTeachLevel":278
@@ -1165,7 +1165,7 @@
 			"getPlayerExp":65,
 			"getHeroExp":4644,
 			"rewardZeniLevelUp":1961900,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114010",
 			"worldBossTeachLevel":281
@@ -1176,7 +1176,7 @@
 			"getPlayerExp":66,
 			"getHeroExp":4727,
 			"rewardZeniLevelUp":1997000,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114011",
 			"worldBossTeachLevel":284
@@ -1187,7 +1187,7 @@
 			"getPlayerExp":66,
 			"getHeroExp":4810,
 			"rewardZeniLevelUp":2032100,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114012",
 			"worldBossTeachLevel":287
@@ -1198,7 +1198,7 @@
 			"getPlayerExp":67,
 			"getHeroExp":4893,
 			"rewardZeniLevelUp":2067200,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114013",
 			"worldBossTeachLevel":290
@@ -1209,7 +1209,7 @@
 			"getPlayerExp":67,
 			"getHeroExp":4976,
 			"rewardZeniLevelUp":2102300,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114014",
 			"worldBossTeachLevel":293
@@ -1220,7 +1220,7 @@
 			"getPlayerExp":68,
 			"getHeroExp":5059,
 			"rewardZeniLevelUp":2137400,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114007",
 			"worldBossTeachLevel":296
@@ -1231,7 +1231,7 @@
 			"getPlayerExp":68,
 			"getHeroExp":5142,
 			"rewardZeniLevelUp":2172500,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114008",
 			"worldBossTeachLevel":299
@@ -1242,7 +1242,7 @@
 			"getPlayerExp":69,
 			"getHeroExp":5225,
 			"rewardZeniLevelUp":2207600,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114009",
 			"worldBossTeachLevel":302
@@ -1253,7 +1253,7 @@
 			"getPlayerExp":69,
 			"getHeroExp":5308,
 			"rewardZeniLevelUp":2242700,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114010",
 			"worldBossTeachLevel":305
@@ -1264,7 +1264,7 @@
 			"getPlayerExp":70,
 			"getHeroExp":5391,
 			"rewardZeniLevelUp":2277800,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114011",
 			"worldBossTeachLevel":308
@@ -1275,7 +1275,7 @@
 			"getPlayerExp":70,
 			"getHeroExp":5474,
 			"rewardZeniLevelUp":2312900,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114012",
 			"worldBossTeachLevel":311
@@ -1286,7 +1286,7 @@
 			"getPlayerExp":71,
 			"getHeroExp":5557,
 			"rewardZeniLevelUp":2348000,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114013",
 			"worldBossTeachLevel":314
@@ -1297,7 +1297,7 @@
 			"getPlayerExp":71,
 			"getHeroExp":5640,
 			"rewardZeniLevelUp":2383100,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114014",
 			"worldBossTeachLevel":317
@@ -1308,7 +1308,7 @@
 			"getPlayerExp":72,
 			"getHeroExp":5723,
 			"rewardZeniLevelUp":2418200,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114007",
 			"worldBossTeachLevel":320
@@ -1319,7 +1319,7 @@
 			"getPlayerExp":72,
 			"getHeroExp":5806,
 			"rewardZeniLevelUp":2453300,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114008",
 			"worldBossTeachLevel":323
@@ -1330,7 +1330,7 @@
 			"getPlayerExp":73,
 			"getHeroExp":5889,
 			"rewardZeniLevelUp":2488400,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114009",
 			"worldBossTeachLevel":326
@@ -1341,7 +1341,7 @@
 			"getPlayerExp":73,
 			"getHeroExp":5972,
 			"rewardZeniLevelUp":2523500,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114010",
 			"worldBossTeachLevel":329
@@ -1352,7 +1352,7 @@
 			"getPlayerExp":74,
 			"getHeroExp":6055,
 			"rewardZeniLevelUp":2558600,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114011",
 			"worldBossTeachLevel":332
@@ -1363,7 +1363,7 @@
 			"getPlayerExp":74,
 			"getHeroExp":6138,
 			"rewardZeniLevelUp":2593700,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114012",
 			"worldBossTeachLevel":335
@@ -1374,7 +1374,7 @@
 			"getPlayerExp":75,
 			"getHeroExp":6221,
 			"rewardZeniLevelUp":2628800,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114013",
 			"worldBossTeachLevel":338
@@ -1385,7 +1385,7 @@
 			"getPlayerExp":75,
 			"getHeroExp":6304,
 			"rewardZeniLevelUp":2663900,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114014",
 			"worldBossTeachLevel":341
@@ -1396,7 +1396,7 @@
 			"getPlayerExp":76,
 			"getHeroExp":6387,
 			"rewardZeniLevelUp":2699000,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114007",
 			"worldBossTeachLevel":344
@@ -1407,7 +1407,7 @@
 			"getPlayerExp":76,
 			"getHeroExp":6470,
 			"rewardZeniLevelUp":2734100,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114008",
 			"worldBossTeachLevel":347
@@ -1418,7 +1418,7 @@
 			"getPlayerExp":77,
 			"getHeroExp":6553,
 			"rewardZeniLevelUp":2769200,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114009",
 			"worldBossTeachLevel":350
@@ -1429,7 +1429,7 @@
 			"getPlayerExp":77,
 			"getHeroExp":6636,
 			"rewardZeniLevelUp":2804300,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114010",
 			"worldBossTeachLevel":353
@@ -1440,7 +1440,7 @@
 			"getPlayerExp":78,
 			"getHeroExp":6719,
 			"rewardZeniLevelUp":2839400,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114011",
 			"worldBossTeachLevel":356
@@ -1451,7 +1451,7 @@
 			"getPlayerExp":78,
 			"getHeroExp":6802,
 			"rewardZeniLevelUp":2874500,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114012",
 			"worldBossTeachLevel":359
@@ -1462,7 +1462,7 @@
 			"getPlayerExp":79,
 			"getHeroExp":6885,
 			"rewardZeniLevelUp":2909600,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114013",
 			"worldBossTeachLevel":362
@@ -1473,7 +1473,7 @@
 			"getPlayerExp":79,
 			"getHeroExp":6968,
 			"rewardZeniLevelUp":2944700,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114014",
 			"worldBossTeachLevel":365
@@ -1484,7 +1484,7 @@
 			"getPlayerExp":80,
 			"getHeroExp":7051,
 			"rewardZeniLevelUp":2979800,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114007",
 			"worldBossTeachLevel":368
@@ -1495,7 +1495,7 @@
 			"getPlayerExp":80,
 			"getHeroExp":7134,
 			"rewardZeniLevelUp":3014900,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114008",
 			"worldBossTeachLevel":371
@@ -1506,7 +1506,7 @@
 			"getPlayerExp":81,
 			"getHeroExp":7217,
 			"rewardZeniLevelUp":3050000,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114009",
 			"worldBossTeachLevel":374
@@ -1517,7 +1517,7 @@
 			"getPlayerExp":81,
 			"getHeroExp":7300,
 			"rewardZeniLevelUp":3085100,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114010",
 			"worldBossTeachLevel":377
@@ -1528,7 +1528,7 @@
 			"getPlayerExp":82,
 			"getHeroExp":7383,
 			"rewardZeniLevelUp":3120200,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114011",
 			"worldBossTeachLevel":380
@@ -1539,7 +1539,7 @@
 			"getPlayerExp":82,
 			"getHeroExp":7466,
 			"rewardZeniLevelUp":3155300,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114012",
 			"worldBossTeachLevel":383
@@ -1550,7 +1550,7 @@
 			"getPlayerExp":83,
 			"getHeroExp":7549,
 			"rewardZeniLevelUp":3190400,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114013",
 			"worldBossTeachLevel":386
@@ -1561,7 +1561,7 @@
 			"getPlayerExp":83,
 			"getHeroExp":7632,
 			"rewardZeniLevelUp":3225500,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114014",
 			"worldBossTeachLevel":389
@@ -1572,7 +1572,7 @@
 			"getPlayerExp":84,
 			"getHeroExp":7715,
 			"rewardZeniLevelUp":3260600,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114007",
 			"worldBossTeachLevel":392
@@ -1583,7 +1583,7 @@
 			"getPlayerExp":84,
 			"getHeroExp":7798,
 			"rewardZeniLevelUp":3295700,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114008",
 			"worldBossTeachLevel":395
@@ -1594,7 +1594,7 @@
 			"getPlayerExp":85,
 			"getHeroExp":7881,
 			"rewardZeniLevelUp":3330800,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114009",
 			"worldBossTeachLevel":398
@@ -1605,7 +1605,7 @@
 			"getPlayerExp":85,
 			"getHeroExp":7964,
 			"rewardZeniLevelUp":3365900,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114010",
 			"worldBossTeachLevel":401
@@ -1616,7 +1616,7 @@
 			"getPlayerExp":86,
 			"getHeroExp":8047,
 			"rewardZeniLevelUp":3401000,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114011",
 			"worldBossTeachLevel":404
@@ -1627,7 +1627,7 @@
 			"getPlayerExp":86,
 			"getHeroExp":8130,
 			"rewardZeniLevelUp":3436100,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114012",
 			"worldBossTeachLevel":407
@@ -1638,7 +1638,7 @@
 			"getPlayerExp":87,
 			"getHeroExp":8213,
 			"rewardZeniLevelUp":3471200,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114013",
 			"worldBossTeachLevel":410
@@ -1649,7 +1649,7 @@
 			"getPlayerExp":87,
 			"getHeroExp":8296,
 			"rewardZeniLevelUp":3506300,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114014",
 			"worldBossTeachLevel":413
@@ -1660,7 +1660,7 @@
 			"getPlayerExp":88,
 			"getHeroExp":8379,
 			"rewardZeniLevelUp":3541400,
-			"rewardImeggaLevelUp":10,
+			"rewardImeggaLevelUp":100,
 			"formationSize":8,
 			"skillPatch":"114007",
 			"worldBossTeachLevel":416

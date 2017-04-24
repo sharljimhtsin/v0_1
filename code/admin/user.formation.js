@@ -72,31 +72,45 @@ function start(postData, response, query, authorize) {
                 if (err || res == null){
                     callback("没有此用户", res);
                 } else {
-                    for(var i in res){
-                        var data = {"formationUid":res[i].formationUid, "hero":"", "skill2":"", "skill3":"", "equip1":"", "equip2":"", "card1":"", "card2":"", "card3":"", "card4":"", "card5":""};
-                        if(res[i].heroUid != 0 && heroData[res[i].heroUid] != undefined)
+                    for (var i in res) {
+                        var data = {
+                            "formationUid": res[i].formationUid,
+                            "hero": "",
+                            "skill2": "",
+                            "skill3": "",
+                            "equip1": "",
+                            "equip2": "",
+                            "card1": "",
+                            "card2": "",
+                            "card3": "",
+                            "card4": "",
+                            "card5": "",
+                            "card6": ""
+                        };
+                        if (res[i].heroUid != 0 && heroData[res[i].heroUid] != undefined)
                             data["hero"] = heroConfig[heroData[res[i].heroUid].heroId].name;
-                        if(res[i].skill2 != 0 && skillData[res[i].skill2] != undefined)
+                        if (res[i].skill2 != 0 && skillData[res[i].skill2] != undefined)
                             data["skill2"] = skillConfig[skillData[res[i].skill2].skillId].name;
-                        if(res[i].skill3 != 0 && skillData[res[i].skill3] != undefined)
+                        if (res[i].skill3 != 0 && skillData[res[i].skill3] != undefined)
                             data["skill3"] = skillConfig[skillData[res[i].skill3].skillId].name;
-                        if(res[i].equip1 != 0 && equipmentData[res[i].equip1] != undefined)
+                        if (res[i].equip1 != 0 && equipmentData[res[i].equip1] != undefined)
                             data["equip1"] = equipConfig[equipmentData[res[i].equip1].equipmentId].name;
-                        if(res[i].equip2 != 0 && equipmentData[res[i].equip2] != undefined)
+                        if (res[i].equip2 != 0 && equipmentData[res[i].equip2] != undefined)
                             data["equip2"] = equipConfig[equipmentData[res[i].equip2].equipmentId].name;
-                        if(res[i].equip3 != 0 && equipmentData[res[i].equip3] != undefined)
+                        if (res[i].equip3 != 0 && equipmentData[res[i].equip3] != undefined)
                             data["equip3"] = equipConfig[equipmentData[res[i].equip3].equipmentId].name;
-                        if(res[i].card1 != 0 && cardData[res[i].card1] != undefined)
-                            data["card1"] = cardConfig[cardData[res[i].card1].cardId].name;
-                        if(res[i].card2 != 0 && cardData[res[i].card2] != undefined)
-                            data["card2"] = cardConfig[cardData[res[i].card2].cardId].name;
-                        if(res[i].card3 != 0 && cardData[res[i].card3] != undefined)
-                            data["card3"] = cardConfig[cardData[res[i].card3].cardId].name;
-                        if(res[i].card4 != 0 && cardData[res[i].card4] != undefined)
-                            data["card4"] = cardConfig[cardData[res[i].card4].cardId].name;
-                        if(res[i].card5 != 0 && cardData[res[i].card5] != undefined)
-                            data["card5"] = cardConfig[cardData[res[i].card5].cardId].name;
-                            //data["hero"] = heroConfig[heroData[res[i].heroUid].heroId];
+                        if (res[i].card1 != 0 && cardData[res[i].card1] != undefined)
+                            data["card1"] = cardConfig[cardData[res[i].card1].cardId].name + cardData[res[i].card1].cardId;
+                        if (res[i].card2 != 0 && cardData[res[i].card2] != undefined)
+                            data["card2"] = cardConfig[cardData[res[i].card2].cardId].name + cardData[res[i].card2].cardId;
+                        if (res[i].card3 != 0 && cardData[res[i].card3] != undefined)
+                            data["card3"] = cardConfig[cardData[res[i].card3].cardId].name + cardData[res[i].card3].cardId;
+                        if (res[i].card4 != 0 && cardData[res[i].card4] != undefined)
+                            data["card4"] = cardConfig[cardData[res[i].card4].cardId].name + cardData[res[i].card4].cardId;
+                        if (res[i].card5 != 0 && cardData[res[i].card5] != undefined)
+                            data["card5"] = cardConfig[cardData[res[i].card5].cardId].name + cardData[res[i].card5].cardId;
+                        if (res[i].card6 != 0 && cardData[res[i].card6] != undefined)
+                            data["card6"] = cardConfig[cardData[res[i].card6].cardId].name + cardData[res[i].card6].cardId;
                         datas.push(data);
                     }
                     callback(null, null);

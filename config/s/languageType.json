@@ -1,16 +1,16 @@
 {
 	"languageType":{
-		"type":"THAI",
-		"length":12,
+		"type":"CHS",
+		"length":6,
 		"review":0,
 		"LoginScene":{
-			"password":"ไอดีหรือรหัสผ่านเว้นว่างไม่ได้",
-			"loginName":"ไอดี",
-			"loginFirst":"กรุณาล็อคอินก่อน",
-			"loginFail":"ตรวจสอบล้มเหลว,กรุณาล็อคอินใหม่",
-			"loginPingtai":"ล็อคอินพอร์ทัลก่อน",
-			"name":"นักท่องเที่ยว",
-			"noHistory":"ไม่มีบันทึก"
+			"password":"账号或密码不能为空",
+			"loginName":"默认账号",
+			"loginFirst":"请先登录",
+			"loginFail":"验证失败，请重新登陆",
+			"loginPingtai":"请先登录平台",
+			"name":"游客",
+			"noHistory":"没有历史记录"
 		}
 	}
 }

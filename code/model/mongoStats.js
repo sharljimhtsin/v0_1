@@ -28,7 +28,7 @@ function expendStats(dropId, userUid, userIP, userInfo, statsId, count, level, t
     level = level||1;
     type = type||'';
     stats.expendStats(dropId, userUid, userIP, userInfo, statsId, count, level, type);
-    if(dropId + "" == "ingot") {
+    if (dropId + "" == "ingot" && userIP != "localhost") {
         // 累积消费活动
         P_TotalConsume.addRecord(userUid, count, function(err,res){});
         // 每日累计消费
@@ -895,3 +895,12 @@ exports.UPSTAR2 = 5120001;//装备回收金币消耗
 exports.UPSTAR3 = 5120002;//装备回收道具获得
 exports.UPSTAR4 = 5100001;//装备精炼道具消耗
 exports.UPSTAR5 = 5110001;//装备升星道具消耗
+
+exports.FOOLISH1 = 5200001;//节日转盘单抽参与人数
+exports.FOOLISH2 = 5200002;//节日转盘十连抽参与人数
+exports.FOOLISH3 = 5200008;//节日刷新商店金币消耗
+exports.FOOLISH4 = 5200003;//节日转盘成就道具获得
+exports.FOOLISH5 = 5200004;//节日转盘商店道具获得
+exports.FOOLISH6 = 5200005;//节日转转盘道具获得
+exports.FOOLISH7 = 5200006;//节日转转盘道具消耗
+exports.FOOLISH8 = 5200007;//节日商店兑换消耗

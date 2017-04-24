@@ -226,6 +226,15 @@ exports.start = function(postData, response, query){
                         });
                         break;
 
+                    case "foolishWheel":
+                        __getFoolishReward(userUid, sTime, configArr, rcvObj, function (err, res) {
+                            if (!err && res) {
+                                gRes.updateList = res;
+                            }
+                            cb();
+                        });
+                        break;
+
                     default :
                         cb("TYPE ERROR");
                         break;
@@ -536,6 +545,10 @@ function __getItemUsedSpecifyReward(userUid, sTime, configArr, paramObj, callbac
  * @private
  */
 function __getLucky777Reward(userUid, sTime, configArr, paramObj, callbackFn) {
+    __getBrothUseReward(userUid, sTime, configArr, paramObj, callbackFn);
+}
+
+function __getFoolishReward(userUid, sTime, configArr, paramObj, callbackFn) {
     __getBrothUseReward(userUid, sTime, configArr, paramObj, callbackFn);
 }
 

@@ -15,8 +15,10 @@ var user = require("../model/user");
 var TAG = "upStar.equip.recycle";
 var DEBUG = true;
 
-function start(postData, response, query) {
+function start(postData, response, query, noConcurrencyList) {
+    noConcurrencyList[query["method"] + query["userUid"]] = "1";
     if (jutil.postCheck(postData, "equipmentUid") == false) {
+        delete noConcurrencyList[query["method"] + query["userUid"]];
         response.echo(TAG, jutil.errorInfo("postError"));
         return;
     }
@@ -117,7 +119,15 @@ function start(postData, response, query) {
             cb();
         }
     }, function (cb) {
-        upStarRecycle.checkIfEnough(userUid, costData, cb);
+        upStarRecycle.checkIfEnough(userUid, costData, function (err, isOk) {
+            if (err) {
+                cb(err);
+            } else if (isOk) {
+                cb();
+            } else {
+                cb("not enough");
+            }
+        });
     }, function (cb) {
         user.getUser(userUid, function (err, res) {
             userObj = res;
@@ -183,8 +193,10 @@ function start(postData, response, query) {
         cb();
     }], function (err, res) {
         if (err) {
+            delete noConcurrencyList[query["method"] + query["userUid"]];
             response.echo(TAG, jutil.errorInfo(err));
         } else {
+            delete noConcurrencyList[query["method"] + query["userUid"]];
             response.echo(TAG, {
                 "userData": userData,
                 "returnData": returnData,

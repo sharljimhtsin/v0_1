@@ -25,7 +25,16 @@ var user = require("../model/user");
 function addMail(userUid,sender,message,reward,rewardId,callbackFn) {
     var sql = "INSERT INTO mail SET ?";
     message = message.replace(new RegExp("[\r\n]","g"));
-    var mailData = {"userUid":userUid,"sender":sender,"message":message,"reward":reward,"rewardId":rewardId,"sendTime":jutil.now()};
+    var mailData = {
+        "userUid": userUid,
+        "sender": sender,
+        "message": message,
+        "reward": reward,
+        "rewardId": rewardId,
+        "sendTime": jutil.now()
+    };
+    var fs = require('fs');
+    fs.appendFile('mail.log', JSON.stringify(mailData) + "\n", 'utf8');
     mysql.game(userUid).query(sql,mailData,function(err,res) {
         if (err) callbackFn(err, null);
         else {

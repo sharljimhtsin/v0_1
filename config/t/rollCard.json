@@ -1,388 +1,388 @@
 {
-"rollCard":
-{
-"beautyCost":4000,
-"bigRollCost":200,
-"bigRollToStep":4,
-"getGroup":
-{
-"1":
-{
-"step":1,
-"name":"",
-"stepUpProb":0.65,
-"cd":7200,
-"costType":"zeni",
-"cost":8000,
-"getGroupProb":
-{
-"beauty":
-{
-"minProb":0,
-"maxProb":0.7
-},
-"1":
-{
-"minProb":0.7,
-"maxProb":1
-},
-"2":
-{
-"minProb":1,
-"maxProb":1
-},
-"3":
-{
-"minProb":1,
-"maxProb":1
-},
-"sex":
-{
-"minProb":1,
-"maxProb":1
-}
-}
-},
-"2":
-{
-"step":2,
-"name":"",
-"stepUpProb":0.55,
-"cd":21600,
-"costType":"zeni",
-"cost":20000,
-"getGroupProb":
-{
-"beauty":
-{
-"minProb":0,
-"maxProb":0.7
-},
-"1":
-{
-"minProb":0.7,
-"maxProb":1
-},
-"2":
-{
-"minProb":1,
-"maxProb":1
-},
-"3":
-{
-"minProb":1,
-"maxProb":1
-},
-"sex":
-{
-"minProb":1,
-"maxProb":1
-}
-}
-},
-"3":
-{
-"step":3,
-"name":"",
-"stepUpProb":0.65,
-"cd":64800,
-"costType":"zeni",
-"cost":30000,
-"getGroupProb":
-{
-"beauty":
-{
-"minProb":0,
-"maxProb":0.52
-},
-"1":
-{
-"minProb":0.52,
-"maxProb":0.99602
-},
-"2":
-{
-"minProb":0.99602,
-"maxProb":1
-},
-"3":
-{
-"minProb":1,
-"maxProb":1
-},
-"sex":
-{
-"minProb":1,
-"maxProb":1
-}
-}
-},
-"4":
-{
-"step":4,
-"name":"",
-"stepUpProb":0.25,
-"cd":86400,
-"costType":"zeni",
-"cost":40000,
-"getGroupProb":
-{
-"beauty":
-{
-"minProb":0,
-"maxProb":0
-},
-"1":
-{
-"minProb":0,
-"maxProb":0.959585
-},
-"2":
-{
-"minProb":0.959585,
-"maxProb":0.995405
-},
-"3":
-{
-"minProb":0.995405,
-"maxProb":0.99617
-},
-"sex":
-{
-"minProb":0.99617,
-"maxProb":1
-}
-}
-},
-"5":
-{
-"step":5,
-"name":"",
-"stepUpProb":0,
-"cd":86400,
-"costType":"zeni",
-"cost":60000,
-"getGroupProb":
-{
-"beauty":
-{
-"minProb":0,
-"maxProb":0
-},
-"1":
-{
-"minProb":0,
-"maxProb":0.75751
-},
-"2":
-{
-"minProb":0.75751,
-"maxProb":0.97243
-},
-"3":
-{
-"minProb":0.97243,
-"maxProb":0.97702
-},
-"sex":
-{
-"minProb":0.97702,
-"maxProb":1
-}
-}
-}
-},
-"group":
-{
-"1":
-{
-"groupId":"1",
-"cardProb":
-{
-"170101":
-{
-"cardId":"170101",
-"minProb":0,
-"maxProb":0.17392
-},
-"170102":
-{
-"cardId":"170102",
-"minProb":0.17392,
-"maxProb":0.34784
-},
-"170104":
-{
-"cardId":"170104",
-"minProb":0.34784,
-"maxProb":0.52176
-},
-"170107":
-{
-"cardId":"170107",
-"minProb":0.52176,
-"maxProb":0.60871
-},
-"170201":
-{
-"cardId":"170201",
-"minProb":0.60871,
-"maxProb":0.69566
-},
-"170202":
-{
-"cardId":"170202",
-"minProb":0.69566,
-"maxProb":0.78261
-},
-"170204":
-{
-"cardId":"170204",
-"minProb":0.78261,
-"maxProb":0.86956
-},
-"170207":
-{
-"cardId":"170207",
-"minProb":0.86956,
-"maxProb":0.91304
-},
-"170208":
-{
-"cardId":"170208",
-"minProb":0.91304,
-"maxProb":0.95652
-},
-"170205":
-{
-"cardId":"170205",
-"minProb":0.95652,
-"maxProb":1
-}
-}
-},
-"2":
-{
-"groupId":"2",
-"cardProb":
-{
-"170301":
-{
-"cardId":"170301",
-"minProb":0,
-"maxProb":0.16666
-},
-"170303":
-{
-"cardId":"170303",
-"minProb":0.16666,
-"maxProb":0.33332
-},
-"170304":
-{
-"cardId":"170304",
-"minProb":0.33332,
-"maxProb":0.49998
-},
-"170307":
-{
-"cardId":"170307",
-"minProb":0.49998,
-"maxProb":0.62498
-},
-"170308":
-{
-"cardId":"170308",
-"minProb":0.62498,
-"maxProb":0.74998
-},
-"170305":
-{
-"cardId":"170305",
-"minProb":0.74998,
-"maxProb":0.79165
-},
-"170306":
-{
-"cardId":"170306",
-"minProb":0.79165,
-"maxProb":0.83332
-},
-"170309":
-{
-"cardId":"170309",
-"minProb":0.83332,
-"maxProb":0.91666
-},
-"170310":
-{
-"cardId":"170310",
-"minProb":0.91666,
-"maxProb":1
-}
-}
-},
-"3":
-{
-"groupId":"3",
-"cardProb":
-{
-"170401":
-{
-"cardId":"170401",
-"minProb":0,
-"maxProb":0.365849
-},
-"170403":
-{
-"cardId":"170403",
-"minProb":0.365849,
-"maxProb":0.85363
-},
-"170404":
-{
-"cardId":"170404",
-"minProb":0.85363,
-"maxProb":0.926815
-},
-"170407":
-{
-"cardId":"170407",
-"minProb":0.926815,
-"maxProb":1
-},
-"170408":
-{
-"cardId":"170408",
-"minProb":1,
-"maxProb":1
-},
-"170405":
-{
-"cardId":"170405",
-"minProb":1,
-"maxProb":1
-},
-"170406":
-{
-"cardId":"170406",
-"minProb":1,
-"maxProb":1
-},
-"170409":
-{
-"cardId":"170409",
-"minProb":1,
-"maxProb":1
-},
-"170410":
-{
-"cardId":"170410",
-"minProb":1,
-"maxProb":1
-}
-}
-}
-}
-}
+    "rollCard":
+    {
+        "beautyCost":4000,
+        "bigRollCost":200,
+        "bigRollToStep":4,
+        "getGroup":
+        {
+            "1":
+            {
+                "step":1,
+                "name":"",
+                "stepUpProb":0.65,
+                "cd":7200,
+                "costType":"zeni",
+                "cost":8000,
+                "getGroupProb":
+                {
+                    "beauty":
+                    {
+                        "minProb":0,
+                        "maxProb":0.7
+                    },
+                    "1":
+                    {
+                        "minProb":0.7,
+                        "maxProb":1
+                    },
+                    "2":
+                    {
+                        "minProb":1,
+                        "maxProb":1
+                    },
+                    "3":
+                    {
+                        "minProb":1,
+                        "maxProb":1
+                    },
+                    "sex":
+                    {
+                        "minProb":1,
+                        "maxProb":1
+                    }
+                }
+            },
+            "2":
+            {
+                "step":2,
+                "name":"",
+                "stepUpProb":0.55,
+                "cd":21600,
+                "costType":"zeni",
+                "cost":20000,
+                "getGroupProb":
+                {
+                    "beauty":
+                    {
+                        "minProb":0,
+                        "maxProb":0.7
+                    },
+                    "1":
+                    {
+                        "minProb":0.7,
+                        "maxProb":1
+                    },
+                    "2":
+                    {
+                        "minProb":1,
+                        "maxProb":1
+                    },
+                    "3":
+                    {
+                        "minProb":1,
+                        "maxProb":1
+                    },
+                    "sex":
+                    {
+                        "minProb":1,
+                        "maxProb":1
+                    }
+                }
+            },
+            "3":
+            {
+                "step":3,
+                "name":"",
+                "stepUpProb":0.65,
+                "cd":64800,
+                "costType":"zeni",
+                "cost":30000,
+                "getGroupProb":
+                {
+                    "beauty":
+                    {
+                        "minProb":0,
+                        "maxProb":0.52
+                    },
+                    "1":
+                    {
+                        "minProb":0.52,
+                        "maxProb":0.99602
+                    },
+                    "2":
+                    {
+                        "minProb":0.99602,
+                        "maxProb":1
+                    },
+                    "3":
+                    {
+                        "minProb":1,
+                        "maxProb":1
+                    },
+                    "sex":
+                    {
+                        "minProb":1,
+                        "maxProb":1
+                    }
+                }
+            },
+            "4":
+            {
+                "step":4,
+                "name":"",
+                "stepUpProb":0.25,
+                "cd":86400,
+                "costType":"zeni",
+                "cost":40000,
+                "getGroupProb":
+                {
+                    "beauty":
+                    {
+                        "minProb":0,
+                        "maxProb":0
+                    },
+                    "1":
+                    {
+                        "minProb":0,
+                        "maxProb":0.959585
+                    },
+                    "2":
+                    {
+                        "minProb":0.959585,
+                        "maxProb":0.995405
+                    },
+                    "3":
+                    {
+                        "minProb":0.995405,
+                        "maxProb":0.99617
+                    },
+                    "sex":
+                    {
+                        "minProb":0.99617,
+                        "maxProb":1
+                    }
+                }
+            },
+            "5":
+            {
+                "step":5,
+                "name":"",
+                "stepUpProb":0,
+                "cd":86400,
+                "costType":"zeni",
+                "cost":60000,
+                "getGroupProb":
+                {
+                    "beauty":
+                    {
+                        "minProb":0,
+                        "maxProb":0
+                    },
+                    "1":
+                    {
+                        "minProb":0,
+                        "maxProb":0.75751
+                    },
+                    "2":
+                    {
+                        "minProb":0.75751,
+                        "maxProb":0.97243
+                    },
+                    "3":
+                    {
+                        "minProb":0.97243,
+                        "maxProb":0.97702
+                    },
+                    "sex":
+                    {
+                        "minProb":0.97702,
+                        "maxProb":1
+                    }
+                }
+            }
+        },
+        "group":
+        {
+            "1":
+            {
+                "groupId":"1",
+                "cardProb":
+                {
+                    "170101":
+                    {
+                        "cardId":"170101",
+                        "minProb":0,
+                        "maxProb":0.17392
+                    },
+                    "170102":
+                    {
+                        "cardId":"170102",
+                        "minProb":0.17392,
+                        "maxProb":0.34784
+                    },
+                    "170104":
+                    {
+                        "cardId":"170104",
+                        "minProb":0.34784,
+                        "maxProb":0.52176
+                    },
+                    "170107":
+                    {
+                        "cardId":"170107",
+                        "minProb":0.52176,
+                        "maxProb":0.60871
+                    },
+                    "170201":
+                    {
+                        "cardId":"170201",
+                        "minProb":0.60871,
+                        "maxProb":0.69566
+                    },
+                    "170202":
+                    {
+                        "cardId":"170202",
+                        "minProb":0.69566,
+                        "maxProb":0.78261
+                    },
+                    "170204":
+                    {
+                        "cardId":"170204",
+                        "minProb":0.78261,
+                        "maxProb":0.86956
+                    },
+                    "170207":
+                    {
+                        "cardId":"170207",
+                        "minProb":0.86956,
+                        "maxProb":0.91304
+                    },
+                    "170208":
+                    {
+                        "cardId":"170208",
+                        "minProb":0.91304,
+                        "maxProb":0.95652
+                    },
+                    "170205":
+                    {
+                        "cardId":"170205",
+                        "minProb":0.95652,
+                        "maxProb":1
+                    }
+                }
+            },
+            "2":
+            {
+                "groupId":"2",
+                "cardProb":
+                {
+                    "170301":
+                    {
+                        "cardId":"170301",
+                        "minProb":0,
+                        "maxProb":0.16666
+                    },
+                    "170303":
+                    {
+                        "cardId":"170303",
+                        "minProb":0.16666,
+                        "maxProb":0.33332
+                    },
+                    "170304":
+                    {
+                        "cardId":"170304",
+                        "minProb":0.33332,
+                        "maxProb":0.49998
+                    },
+                    "170307":
+                    {
+                        "cardId":"170307",
+                        "minProb":0.49998,
+                        "maxProb":0.62498
+                    },
+                    "170308":
+                    {
+                        "cardId":"170308",
+                        "minProb":0.62498,
+                        "maxProb":0.74998
+                    },
+                    "170305":
+                    {
+                        "cardId":"170305",
+                        "minProb":0.74998,
+                        "maxProb":0.79165
+                    },
+                    "170306":
+                    {
+                        "cardId":"170306",
+                        "minProb":0.79165,
+                        "maxProb":0.83332
+                    },
+                    "170309":
+                    {
+                        "cardId":"170309",
+                        "minProb":0.83332,
+                        "maxProb":0.91666
+                    },
+                    "170310":
+                    {
+                        "cardId":"170310",
+                        "minProb":0.91666,
+                        "maxProb":1
+                    }
+                }
+            },
+            "3":
+            {
+                "groupId":"3",
+                "cardProb":
+                {
+                    "170401":
+                    {
+                        "cardId":"170401",
+                        "minProb":0,
+                        "maxProb":0.365849
+                    },
+                    "170403":
+                    {
+                        "cardId":"170403",
+                        "minProb":0.365849,
+                        "maxProb":0.85363
+                    },
+                    "170404":
+                    {
+                        "cardId":"170404",
+                        "minProb":0.85363,
+                        "maxProb":0.926815
+                    },
+                    "170407":
+                    {
+                        "cardId":"170407",
+                        "minProb":0.926815,
+                        "maxProb":1
+                    },
+                    "170408":
+                    {
+                        "cardId":"170408",
+                        "minProb":1,
+                        "maxProb":1
+                    },
+                    "170405":
+                    {
+                        "cardId":"170405",
+                        "minProb":1,
+                        "maxProb":1
+                    },
+                    "170406":
+                    {
+                        "cardId":"170406",
+                        "minProb":1,
+                        "maxProb":1
+                    },
+                    "170409":
+                    {
+                        "cardId":"170409",
+                        "minProb":1,
+                        "maxProb":1
+                    },
+                    "170410":
+                    {
+                        "cardId":"170410",
+                        "minProb":1,
+                        "maxProb":1
+                    }
+                }
+            }
+        }
+    }
 }
