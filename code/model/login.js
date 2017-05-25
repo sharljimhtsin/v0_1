@@ -27,22 +27,24 @@ function getServerList(country, admin, callbackFn, preOpen) {
         for (var key in mServerList) {
             var mItem = mServerList[key];
             var mObj = {};
+            mObj["id"] = mItem["id"];
+            mObj["isOpen"] = 0;
+            mObj["openTime"] = mItem["sTime"] == undefined ? 0 : mItem["sTime"];
+
             if (mItem["merge"] && mItem["merge"] == "1") {
                 mObj["merge"] = "1";
             }
-            mObj["id"] = mItem["id"];
-            mObj["openTime"] = mItem["sTime"] == undefined?0:mItem["sTime"];
+
             if (typeof mItem["name"] == "object") {
                 mObj["name"] = mItem["name"];
             } else {
                 mObj["name"] = jutil.toBase64(mItem["name"]);
             }
-            mObj["isOpen"] = 0;
 
-            var openTime = preOpen?jutil.now() + preOpen: jutil.now();
+            var openTime = preOpen ? jutil.now() + preOpen : jutil.now();
             if (openList != null && openList[key] != null && openList[key] < openTime) { //如果数据库中标记了它已开启， 则开启
                 mObj["openTime"] = openList[key];
-                mObj["isOpen"] = openList[key] < jutil.now()?1:0;
+                mObj["isOpen"] = openList[key] < jutil.now() ? 1 : 0;
                 mArray.push(mObj);
             } else if (mItem["sTime"] == null || mItem["sTime"] < jutil.now() || admin == 1) {
                 mObj["isOpen"] = 1;
@@ -53,30 +55,19 @@ function getServerList(country, admin, callbackFn, preOpen) {
     });
 }
 
-
-var _serverOpenList = {}; //
-var _serverOpenListCacheTime = {}; //上次缓存此列表时间
-
-
 //取服务器开启列表
 function getServerOpenList(country, callbackFn) {
-    if (_serverOpenList[country] != null && jutil.nowMillisecond() - _serverOpenListCacheTime[country] < (1 * 60 * 1000) ) {
-        callbackFn(null, _serverOpenList[country]);
-    } else {
-        mysql.loginDB(country).query("SELECT * FROM serverlist where isClosed = 0", function (err, res) {
-            if (err || res == null) {
-                callbackFn(null, null);
-            } else {
-                var o = {};
-                for (var i = 0; i < res.length; i++) {
-                    o[res[i]["serverId"]] = res[i]["openTime"];
-                }
-                _serverOpenList[country] = o;
-                _serverOpenListCacheTime[country] = jutil.nowMillisecond();
-                callbackFn(null, o);
+    mysql.loginDB(country).query("SELECT * FROM serverlist where isClosed = 0", function (err, res) {
+        if (err || res == null) {
+            callbackFn(null, null);
+        } else {
+            var o = {};
+            for (var i = 0; i < res.length; i++) {
+                o[res[i]["serverId"]] = res[i]["openTime"];
             }
-        });
-    }
+            callbackFn(null, o);
+        }
+    });
 }
 
 

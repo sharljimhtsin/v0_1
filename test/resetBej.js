@@ -12,7 +12,7 @@ login.getServerCitys("r", 0, function (err, res) {
         console.log(jutil.formatTime("Y-m-d H:i:s", jutil.now()));
     }
     async.eachSeries(res, function (city, cb) {
-        bloodReward.bejDataRresh("r", city, function (err, res) {
+        bloodReward.bejDataRefresh("r", city, function (err, res) {
             console.log("doing", city, err, res);
             cb();
         });

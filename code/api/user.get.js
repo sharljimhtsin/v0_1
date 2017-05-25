@@ -30,6 +30,7 @@ var bahamutWish = require("../model/bahamutWish");
 var upStar = require("../model/upStar");
 var intB = require("../model/integralBattle");
 var nobleGet = require("../api/noble.get");
+var yearCard = require("../model/yearCard");
 
 function start(postData, response, query) {
     var userUid = query["userUid"];
@@ -45,6 +46,11 @@ function start(postData, response, query) {
             echoObj["userInfo"] = res;
             echoObj["userInfo"]["debris"] = {};
             cb(err);
+        });
+    }, function (cb) {
+        yearCard.isWork(userUid, function (isOwn) {
+            echoObj["yearCard"] = isOwn;//1 => 有 ,0 => 没有
+            cb();
         });
     }, function (cb) {
         hero.getHero(userUid, function (err, res) {
@@ -232,6 +238,8 @@ function start(postData, response, query) {
             monthCard.login(userUid);
             var quarterCard = require("../model/quarterCard");
             quarterCard.login(userUid);
+            var yearCard = require("../model/yearCard");
+            yearCard.login(userUid);
             var scoreMall = require("../model/scoreMall");
             scoreMall.login(userUid);
             var mail = require("../model/mail");

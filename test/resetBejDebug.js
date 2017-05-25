@@ -18,7 +18,7 @@ login.getServerCitys("r", 0, function (err, res) {
         console.log(jutil.formatTime("Y-m-d H:i:s", jutil.now()));
     }
     async.eachSeries(res, function (city, cb) {
-        bejDataRresh("r", city, function (err, res) {
+        bejDataRefresh("r", city, function (err, res) {
             console.log("doing", city, err, res);
             cb();
         });
@@ -29,7 +29,7 @@ login.getServerCitys("r", 0, function (err, res) {
 
 
 //宝石迷阵：过凌晨刷新数据
-function bejDataRresh(country, city, callbackFn) {
+function bejDataRefresh(country, city, callbackFn) {
     var users;
     var activityType = activityData.BEJEWELED;
     var config = configManager.createConfigFromCountry(country);

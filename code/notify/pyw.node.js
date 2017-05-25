@@ -12,9 +12,10 @@ var async = require("async");
 function start(postData, response, query) {
     var NAME = "pyw";
     fs.appendFile('payOrder.log', NAME + ":" + jutil.now() + " | " + JSON.stringify(postData) + "\n" + JSON.stringify(query) + "\n", 'utf8');
+    postData = JSON.parse(Object.keys(postData)[0]);// 处理特殊 HTTP_RAW_POST_DATA 数据
     console.log(NAME + "...POST...." + JSON.stringify(postData));
     console.log(NAME + "...GET...." + JSON.stringify(query));
-    if (jutil.postCheck(postData, "ver", "tid", "gamekey", "channel", "cp_orderid", "ch_orderid", "amount", "cp_param", "sign") == false) {
+    if (jutil.postCheck(postData, "tid", "gamekey", "channel", "cp_orderid", "ch_orderid", "amount", "cp_param", "sign") == false) {
         response.end(JSON.stringify({"ack": "0", "msg": "參數錯誤"}), "utf-8");
         return;
     }

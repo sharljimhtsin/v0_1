@@ -55,7 +55,7 @@ function start(postData, response, query) {
         },
         function(callback){
             quarterCard.getUserData(userUid,sTime,function(err,res){
-                if (err) cb(err);
+                if (err) callback(err);
                 else {
                     quarterData = res;
                     if(quarterCardTAB == null || quarterCardTAB["value"] == undefined ||quarterCardTAB["time"] <= jutil.now()){

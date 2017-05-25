@@ -1,3 +1,4 @@
+var mysql = require("./mysql");
 
 //左移操作  同 <<   支持大于int类型
 function leftShift(value, num) {
@@ -29,22 +30,28 @@ function slice(value, start, end) {
 
 /**
  * 解析用户ID  [0]=> 大分区码 a b c ...  [1]  分区id
- * @param userUid
- * @returns {Array}
  */
-function parseUserUid(userUid) {
+function parseUserUid(userUid, noConvert) {
     var returnArray = [];
 
     var mCountry = rightShift(userUid, 32);
-    if (mCountry <= 0) mCountry = 1;
-
+    if (mCountry <= 0) {
+        mCountry = 1;
+    }
     returnArray.push(String.fromCharCode(mCountry + 96));
 
     var mCity = slice(userUid, 32, 24);
-    if (mCity <= 0) mCity = 1;
-
+    if (mCity <= 0) {
+        mCity = 1;
+    }
     returnArray.push(mCity);
 
+    if (noConvert) {
+        return returnArray;
+    }
+
+    //处理合服
+    returnArray[1] = mysql.getMergedCity(returnArray[0], returnArray[1]);
     return returnArray;
 }
 

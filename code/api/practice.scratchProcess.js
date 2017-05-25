@@ -56,7 +56,7 @@ function start(postData, response, query) {
         }
         for(i in itemList){
             var itemId = itemList[i]["id"]+"";
-            if(itemId.substr(0,2) != 15){
+            if(itemId.substr(0,2) != 15 && itemId.substr(0,2) != 10){
                 var itemUids = [];
                 for(j in itemList[i]["itemUid"]){
                     if(itemUids.indexOf(itemList[i]["itemUid"][j]) != -1)continue;
@@ -117,7 +117,7 @@ function start(postData, response, query) {
                         for(var j = arr[key]["s"]; j <= arr[key]["e"]; j++){
                             for(var ii in itemList){
                                 var itemId = itemList[ii]["id"]+"";
-                                if(itemId.substr(0,2) != 15 && itemList[ii]["itemUid"].indexOf(res[i][key+j]) != -1){
+                                if(itemId.substr(0,2) != 15 && itemId.substr(0,2) != 10 && itemList[ii]["itemUid"].indexOf(res[i][key+j]) != -1){
                                     error = "isUsed";
                                 }
                             }

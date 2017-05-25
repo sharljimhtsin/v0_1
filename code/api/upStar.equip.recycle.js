@@ -16,6 +16,11 @@ var TAG = "upStar.equip.recycle";
 var DEBUG = true;
 
 function start(postData, response, query, noConcurrencyList) {
+    var n = jutil.getMinutesOfNow();
+    if (n < 3 || n > 58) {
+        response.echo(TAG, jutil.errorInfo("postError"));
+        return;
+    }
     noConcurrencyList[query["method"] + query["userUid"]] = "1";
     if (jutil.postCheck(postData, "equipmentUid") == false) {
         delete noConcurrencyList[query["method"] + query["userUid"]];

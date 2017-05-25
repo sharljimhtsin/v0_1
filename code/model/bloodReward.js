@@ -35,8 +35,7 @@ var pvpTopCross = require("../model/pvpTopCross");
 
 cron.addCron(0, 0, function (country, h, m, callbackFn) {
     login.getServerCitys(country, 0, function (err, res) {
-        var _citys = res;
-        async.eachSeries(_citys, function (city, cb) {
+        async.eachSeries(res, function (city, cb) {
             anAward(country, city, cb);
         }, function (err) {
             callbackFn(null);
@@ -47,9 +46,7 @@ cron.addCron(0, 0, function (country, h, m, callbackFn) {
 // 定时任务：激战排名奖励
 cron.addCron(21, 0, function (country, h, m, callbackFn) {
     login.getServerCitys(country, 0, function (err, res) {
-        if (err)console.log(jutil.formatTime("Y-m-d H:i:s", jutil.now()));
-        var _citys = res;
-        async.eachSeries(_citys, function (city, cb) {
+        async.eachSeries(res, function (city, cb) {
             pvpReward(country, city, cb);
         }, function (err, res) {
             callbackFn(null);
@@ -60,10 +57,8 @@ cron.addCron(21, 0, function (country, h, m, callbackFn) {
 // 定时任务：宝石迷阵 0点发奖
 cron.addCron(0, 3, function (country, h, m, callbackFn) {
     login.getServerCitys(country, 0, function (err, res) {
-        if (err)console.log(jutil.formatTime("Y-m-d H:i:s", jutil.now()));
-        var _citys = res;
-        async.eachSeries(_citys, function (city, cb) {
-            bejDataRresh(country, city, cb);
+        async.eachSeries(res, function (city, cb) {
+            bejDataRefresh(country, city, cb);
         }, function (err, res) {
             console.log("bejCron @ 0, 3");
             callbackFn(null);
@@ -74,9 +69,7 @@ cron.addCron(0, 3, function (country, h, m, callbackFn) {
 // 定时任务：折扣商店 9点刷新
 cron.addCron(9, 0, function (country, h, m, callbackFn) {
     login.getServerCitys(country, 0, function (err, res) {
-        if (err)console.log(jutil.formatTime("Y-m-d H:i:s", jutil.now()));
-        var _citys = res;
-        async.eachSeries(_citys, function (city, cb) {
+        async.eachSeries(res, function (city, cb) {
             var type = 1;
             forch(country, city, type, cb);
         }, function (err, res) {
@@ -89,9 +82,7 @@ cron.addCron(9, 0, function (country, h, m, callbackFn) {
 // 定时任务：折扣商店 12点刷新
 cron.addCron(12, 0, function (country, h, m, callbackFn) {
     login.getServerCitys(country, 0, function (err, res) {
-        if (err)console.log(jutil.formatTime("Y-m-d H:i:s", jutil.now()));
-        var _citys = res;
-        async.eachSeries(_citys, function (city, cb) {
+        async.eachSeries(res, function (city, cb) {
             var type = 1;
             forch(country, city, type, cb);
         }, function (err, res) {
@@ -104,9 +95,7 @@ cron.addCron(12, 0, function (country, h, m, callbackFn) {
 // 定时任务：折扣商店 18点刷新
 cron.addCron(18, 0, function (country, h, m, callbackFn) {
     login.getServerCitys(country, 0, function (err, res) {
-        if (err)console.log(jutil.formatTime("Y-m-d H:i:s", jutil.now()));
-        var _citys = res;
-        async.eachSeries(_citys, function (city, cb) {
+        async.eachSeries(res, function (city, cb) {
             var type = 1;
             forch(country, city, type, cb);
         }, function (err, res) {
@@ -119,9 +108,7 @@ cron.addCron(18, 0, function (country, h, m, callbackFn) {
 // 定时任务：折扣商店 21点刷新
 cron.addCron(21, 0, function (country, h, m, callbackFn) {
     login.getServerCitys(country, 0, function (err, res) {
-        if (err)console.log(jutil.formatTime("Y-m-d H:i:s", jutil.now()));
-        var _citys = res;
-        async.eachSeries(_citys, function (city, cb) {
+        async.eachSeries(res, function (city, cb) {
             var type = 1;
             forch(country, city, type, cb);
         }, function (err, res) {
@@ -134,9 +121,7 @@ cron.addCron(21, 0, function (country, h, m, callbackFn) {
 // 定时任务：折扣商店 24点刷新
 cron.addCron(0, 2, function (country, h, m, callbackFn) {
     login.getServerCitys(country, 0, function (err, res) {
-        if (err)console.log(jutil.formatTime("Y-m-d H:i:s", jutil.now()));
-        var _citys = res;
-        async.eachSeries(_citys, function (city, cb) {
+        async.eachSeries(res, function (city, cb) {
             var type = 2;
             forch(country, city, type, cb);
         }, function (err, res) {
@@ -149,9 +134,7 @@ cron.addCron(0, 2, function (country, h, m, callbackFn) {
 // 定时任务：限时礼包 12点刷新
 cron.addCron(12, 5, function (country, h, m, callbackFn) {
     login.getServerCitys(country, 0, function (err, res) {
-        if (err)console.log(jutil.formatTime("Y-m-d H:i:s", jutil.now()));
-        var _citys = res;
-        async.eachSeries(_citys, function (city, cb) {
+        async.eachSeries(res, function (city, cb) {
             limiC(country, city, cb);
         }, function (err, res) {
             console.log("cron @ 12, 5");
@@ -163,9 +146,7 @@ cron.addCron(12, 5, function (country, h, m, callbackFn) {
 // 定时任务：限时礼包 18点刷新
 cron.addCron(18, 5, function (country, h, m, callbackFn) {
     login.getServerCitys(country, 0, function (err, res) {
-        if (err)console.log(jutil.formatTime("Y-m-d H:i:s", jutil.now()));
-        var _citys = res;
-        async.eachSeries(_citys, function (city, cb) {
+        async.eachSeries(res, function (city, cb) {
             limiC(country, city, cb);
         }, function (err, res) {
             console.log("cron @ 18, 5");
@@ -177,9 +158,7 @@ cron.addCron(18, 5, function (country, h, m, callbackFn) {
 // 定时任务：限时礼包 21点刷新
 cron.addCron(21, 5, function (country, h, m, callbackFn) {
     login.getServerCitys(country, 0, function (err, res) {
-        if (err)console.log(jutil.formatTime("Y-m-d H:i:s", jutil.now()));
-        var _citys = res;
-        async.eachSeries(_citys, function (city, cb) {
+        async.eachSeries(res, function (city, cb) {
             limiC(country, city, cb);
         }, function (err, res) {
             console.log("cron @ 21, 5");
@@ -223,9 +202,6 @@ function limiC(country, city, callbackFn) {
 
 /**
  * 限时礼包 每日刷新（12,18,21点补货）
- * @param redisItem
- * @param country
- * @param city
  */
 function limChoose(userUid, callbackFn) {// country, city, type, callbackFn
     var returnData = {"data": 0, "dataTime": 0, "status": 0, "statusTime": 0, "arg": {}};
@@ -265,9 +241,7 @@ function limChoose(userUid, callbackFn) {// country, city, type, callbackFn
 // 定时任务：激战排名奖励 尝试补发一个小时后
 cron.addCron(22, 0, function (country, h, m, callbackFn) {
     login.getServerCitys(country, 0, function (err, res) {
-        if (err)console.log(jutil.formatTime("Y-m-d H:i:s", jutil.now()));
-        var _citys = res;
-        async.eachSeries(_citys, function (city, cb) {
+        async.eachSeries(res, function (city, cb) {
             pvpReward(country, city, cb);
         }, function (err, res) {
             callbackFn(null);
@@ -490,8 +464,7 @@ function integralDay(country, city, callbackFn) {
 for (var min = 5, hour = 0; hour < 24; hour += 2) {
     cron.addCron(hour, min, function (country, h, m, callbackFn) {
         login.getServerCitys(country, 0, function (err, res) {
-            var _citys = res;
-            async.eachSeries(_citys, function (city, cb) {
+            async.eachSeries(res, function (city, cb) {
                 leagueMap.auctionResult(country, city, h, m, cb);
             }, function (err) {
                 callbackFn(null);
@@ -510,8 +483,7 @@ for (var min = 3, hour = 0; hour < 24; min += 5) {
     }
     cron.addCron(hour, min, function (country, h, m, callbackFn) {
         login.getServerCitys(country, 0, function (err, res) {
-            var _citys = res;
-            async.eachSeries(_citys, function (city, cb) {
+            async.eachSeries(res, function (city, cb) {
                 pushCron.toPush(country, city, h, m, cb);
             }, function (err) {
                 callbackFn(null);
@@ -696,7 +668,7 @@ function getTopTwenty(redisT, type, day, callBack) { //获取前二十名
 }
 
 //宝石迷阵：过凌晨刷新数据
-function bejDataRresh(country, city, callbackFn) {
+function bejDataRefresh(country, city, callbackFn) {
     var users;
     var activityType = 57;//activityData.PRACTICE_REBATESHOP;
     var config = configManager.createConfigFromCountry(country);
@@ -899,9 +871,6 @@ function forch(country, city, type, callbackFn) {
 
 /**
  * 折扣商店 时间点刷新（刷新商城数据）
- * @param redisItem
- * @param country
- * @param city
  */
 function rebateShopFresh(userUid, type, callbackFn) {// country, city, type, callbackFn
     var returnData = {};//返回用户初始化数据集合
@@ -1043,9 +1012,6 @@ function rebateShopFresh(userUid, type, callbackFn) {// country, city, type, cal
 
 /**
  * 激战排名奖励（pvp前N名发送奖励）
- * @param redisItem
- * @param county
- * @param city
  */
 function pvpReward(county, city, callbackFn) {
     var configData = configManager.createConfigFromCountry(county);
@@ -1150,7 +1116,6 @@ function pvpReward(county, city, callbackFn) {
 
 /**
  * 设置连续进榜天数 +1
- * @param userUid
  */
 function setContinueTimes(userUid, callBack) {
     var oldData;
@@ -1205,4 +1170,4 @@ function addSever(c) {
 }
 exports.addSever = addSever;
 exports.bejFresh = bejFresh;
-exports.bejDataRresh = bejDataRresh;
+exports.bejDataRefresh = bejDataRefresh;

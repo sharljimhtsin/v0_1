@@ -34,8 +34,8 @@ var crypto = require('crypto');
 var async = require("async");
 
 function start(postData, response, query) {
-    var NAME = "185ios";
-    fs.appendFile('payOrder.log', NAME + ":" + jutil.now() + " | " + JSON.stringify(postData) + "\n" + JSON.stringify(query) + "\n", 'utf8');
+    var NAME = "185";
+    fs.appendFile('payOrder.log', NAME + "SUB:" + jutil.now() + " | " + JSON.stringify(postData) + "\n" + JSON.stringify(query) + "\n", 'utf8');
     console.log(NAME + "...POST...." + JSON.stringify(postData));
     console.log(NAME + "...GET...." + JSON.stringify(query));
     if (jutil.postCheck(query, "account", "serverid", "channel", "orderno", "vip", "playerName", "playerId", "value", "sign") == false) {
@@ -76,7 +76,7 @@ function start(postData, response, query) {
             var androidPay = payConfig["android"];
             for (var pay in androidPay) {
                 var payItem = androidPay[pay];
-                if (value == payItem["getImegga"]) {
+                if (value == payItem["getImegga"]) {//getImegga payMoney
                     theId = pay;
                     break;
                 }

@@ -12,6 +12,7 @@ var skill = require("../model/skill");
 var equipment = require("../model/equipment");
 var item = require("../model/item");
 var card = require("../model/card");
+var heroSoul = require("../model/heroSoul");
 var jutil = require("../utils/jutil");
 var ACTIVITY_CONFIG_NAME = "forge";
 
@@ -128,6 +129,14 @@ function checkItem(userUid, itemList, callbackFn) {
                     esCb(error);
                 });
                 break;
+            case "10":
+                heroSoul.getHeroSoulItem(userUid, itemData["id"], function (err, res) {
+                    if (!err && res != null && res["count"] - itemData["count"] >= 0) {
+                        error = null;
+                    }
+                    esCb(error);
+                });
+                break;
             default :
                 error = "postError";
                 esCb(error);
@@ -158,6 +167,9 @@ function processItem(userUid, itemList, callbackFn) {
                 break;
             case "17"://卡片
                 card.delCard(userUid, itemData["itemUid"], esCb);
+                break;
+            case "10":
+                heroSoul.delHeroSoulItem(userUid, itemData["id"], itemData["count"], esCb);
                 break;
             default :
                 esCb("postError");

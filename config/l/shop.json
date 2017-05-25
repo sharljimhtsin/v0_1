@@ -6764,6 +6764,17 @@
 			"canBuyVip":0,
 			"buyCountPerDay":0,
 			"buyCountTotal":0
+		},
+		"152296":{
+			"itemID":152296,
+			"type":"1",
+			"buyPriceType":"imegga",
+			"buyPrice":0,
+			"originPrice":0,
+			"timeLimit":0,
+			"canBuyVip":0,
+			"buyCountPerDay":0,
+			"buyCountTotal":0
 		}
 	}
 }

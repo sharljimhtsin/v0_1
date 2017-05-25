@@ -730,12 +730,14 @@
   "185": {
     "country": "s",
     "SecretKey": "101f250c25ffd4bcc3c4e0b17c62422b",
-    "AppID": 267
+    "AppID": 267,
+    "preOpen": 60485
   },
   "185ios": {
     "country": "s",
     "SecretKey": "a1e3d6d107a839edaa4c9d180127c9bf",
-    "AppID": 312
+    "AppID": 312,
+    "preOpen": 60485
   },
   "a8": {
     "country": "t",

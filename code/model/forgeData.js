@@ -27,7 +27,7 @@ function checkForgeElement(userUid, items, callbackFn) {
         getItemCount(userUid, item["id"], type, function (err, res) {
             if (err) {
                 cb(err);
-            } else if (res >= item["count"]) {
+            } else if (res >= parseInt(item["count"])) {
                 cb();
             } else {
                 cb("not enough");

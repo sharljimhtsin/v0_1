@@ -8,7 +8,8 @@ var redis = require("../code/alien/db/redis");
 var mysql = require("../code/alien/db/mysql");
 var configManager = require("../code/config/configManager");
 var async = require("async");
-var userList = [39527137646, 38721839192, 39007032809, 39191578950, 38788944374, 39560679035, 38889603657, 38671485006, 38889597307, 38805713044, 39527126752, 39007033605, 38923150639, 39560679749, 38822486541, 39409687518, 39577462878, 38956713289, 38772151440, 38839266732, 38805719266, 39241909344, 38906377754, 38889597203, 38822485399, 38889587753, 38889590198, 38805702106, 38906375664, 39543899206, 38671499503, 38721827489, 39074141987, 38671500525];
+var userList = [39476800443];
+var heroList = [1718006950408449, 1538815512555777, 1718006883299585, 1719821171437825, 1718007118180609, 1123796647948545, 1719821104328961, 1719821020442881];
 var line = 1;
 var updateData;
 
@@ -35,6 +36,9 @@ async.forEachSeries(userList, function (userUid, cb) {
         queueCb();
     }, function (queueCb) {
         var sql = "UPDATE `heroGravity` SET ? WHERE `userUid`=" + userUid;
+        if (heroList.length > 0) {
+            sql += " AND `heroUid` in (" + heroList.join(",") + ")";
+        }
         mysql.game(userUid).query(sql, updateData, function (err, res) {
             console.log(err, res, sql, updateData);
             queueCb();

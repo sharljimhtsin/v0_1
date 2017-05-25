@@ -267,29 +267,32 @@ function start(postData,response,query) {
                     if (res != null && res["platformUserId"] != null) {
                         platformUserId = res["platformUserId"];
                     }
-                    if(platformId=="ppzs") {//特处
+                    if (platformId == "ppzs") {//特处
                         platformId = "pp";
                     }
-                    if(platformId == "thaiios") {
+                    if (platformId == "thaiios") {
                         platformId = "thai";
                     }
-                    if(platformId == "kythaily") {
+                    if (platformId == "kythaily") {
                         platformId = "kythaily";
                     }
                     if (["ger", "gera", "fra", "fraa", "esp", "espa", "gergp", "fragp", "espgp", "ara", "araa", "aragp"].indexOf(platformId) != -1) {
                         platformId = "ger";
                     }
-                    if(platformId == "mo9") {
+                    if (platformId == "mo9") {
                         platformId = "mo9";
                     }
-                    if(["kingnetenglishios", "kingnetenglishiosoff", "kingnetenglishoff", "kingnetly", "kyxyzs", "gnetop", "kyeniosly","kingnetenglishiosoffthai"].indexOf(platformId) != -1) {
+                    if (["kingnetenglishios", "kingnetenglishiosoff", "kingnetenglishoff", "kingnetly", "kyxyzs", "gnetop", "kyeniosly", "kingnetenglishiosoffthai"].indexOf(platformId) != -1) {
                         platformId = "kingnetenglish";
                     }
                     if (["usaa", "usaaoff", "usaa1", "usagp", "usausa", "usaglobal", "usaaoffIns", "usaazb", "usabzb", "usaczb", "usadzb", "usaezb", "usaaoffnew", "usafzb", "usagzb", "usaagp"].indexOf(platformId) != -1) {
                         platformId = "usa";
                     }
-                    if(["yuenan", "yuenanlumi"].indexOf(platformId) != -1) {
+                    if (["yuenan", "yuenanlumi"].indexOf(platformId) != -1) {
                         platformId = "yuenan";
+                    }
+                    if (["185", "185ios"].indexOf(platformId) != -1) {
+                        platformId = "185";
                     }
                     cb();
                 }
@@ -351,11 +354,12 @@ function start(postData,response,query) {
                 var users = [];
                 async.eachSeries(gameUserUid, function (item, eCb) {
                     user.getUser(item, function (err, res) {
+                        res["server"] = bitUtil.parseUserUid(res["userUid"], true)[1];
                         users.push(res);
                         eCb(err);
                     });
                 }, function (err, res) {
-                    response.echo("user.getToken", users);
+                    response.echo("user.getToken", {"merge": 1, "users": users});
                     cb("user error");
                 });
             } else {

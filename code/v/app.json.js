@@ -43,9 +43,6 @@ var appJSON = {
 };
 
 var appJSONStr = JSON.stringify(appJSON, null, 2);
-var whitelist = null;
-var stringCache = {};
-var _time = 0;
 
 /***平台列表:
  * 国内安卓平台（android）: a91--p91android, a360--360android, anzhi--安智android, baidu--百度android, "dcn", sina--新浪android, ucweb--UCandroid,
@@ -103,14 +100,10 @@ function start(postData, response, query) {
     var p = query["p"];
     var h = query["h"] ? true : false;//https tag
     var lpath = getPname(query, "");
-    var cacheName = "";
-
-    if (Date.now() - _time > 120000) {
-        _time = Date.now();
-        clear();
-    }
-
     var echoString = null;
+    // var mPath = resolve(__dirname, "../../config/version/whitelist.json");
+    // var whitelistFile = fs.readFileSync(mPath, "utf-8");
+    // var whitelist = JSON.parse(whitelistFile);
     try {
         var pName = null;
         var isTest = false;
@@ -121,30 +114,23 @@ function start(postData, response, query) {
          103.242.168.71--WIFI网络
          */
         var gtIp = ["101.95.167.238", "180.168.107.74", "103.242.168.71", "210.65.163.107", "180.168.107.76", "180.168.133.34", "43.225.36.109"];
-        if ((udid != null && whitelist.indexOf(udid) != -1) || gtIp.indexOf(ip) != -1) {
+        if (gtIp.indexOf(ip) != -1) {
             pName = p + "_test";
             isTest = true;
         } else {
             pName = p;
             isTest = false;
         }
-        cacheName = lpath + pName;
-        if (stringCache[cacheName] != null) {
-            echoString = stringCache[cacheName];
-        } else {
-            var inList = false;
-            for (var file in _platformList) {
-                if (_platformList[file].indexOf(p) != -1) {
-                    echoString = version(isTest, p, lpath + file, h);
-                    stringCache[cacheName] = echoString;
-                    inList = true;
-                }
+        var inList = false;
+        for (var file in _platformList) {
+            if (_platformList[file].indexOf(p) != -1) {
+                echoString = version(isTest, p, lpath + file, h);
+                inList = true;
             }
-            if (!inList) {
-                var mPath = resolve(__dirname, "../../config/version/" + lpath + pName + ".json");
-                echoString = fs.readFileSync(mPath, "utf-8");
-                stringCache[cacheName] = echoString;
-            }
+        }
+        if (!inList) {
+            var mPath = resolve(__dirname, "../../config/version/" + lpath + pName + ".json");
+            echoString = fs.readFileSync(mPath, "utf-8");
         }
     } catch (err) {
         echoString = appJSONStr;
@@ -187,13 +173,6 @@ function version(isTest, p, file, isHttps) {
     }
 
     return echoString;
-}
-
-function clear() {
-    var mPath = resolve(__dirname, "../../config/version/whitelist.json");
-    var whitelistFile = fs.readFileSync(mPath, "utf-8");
-    whitelist = JSON.parse(whitelistFile);
-    stringCache = {};
 }
 
 function attachUpdateTag(p) {

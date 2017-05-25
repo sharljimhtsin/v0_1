@@ -4345,8 +4345,8 @@
 		},
 		"104108":{
 			"ID":"104108",
-			"name":"神龙(那美克星)",
-			"des":"那美克星的神龙，能实现你的一个强力愿望",
+			"name":"Shenron (Namek)",
+			"des":"Shenron del planeta Namek, puede otorgarte un Gran deseo",
 			"type":10,
 			"atlasShow":0,
 			"talentSkill":"114091",
@@ -4386,8 +4386,8 @@
 		},
 		"104109":{
 			"ID":"104109",
-			"name":"神龙(地球)",
-			"des":"地球的神龙，能实现你的三个普通愿望",
+			"name":"Shenron (Tierra)",
+			"des":"Shenron de la Tierra, puede otorgarte 3 deseos comunes",
 			"type":10,
 			"atlasShow":0,
 			"talentSkill":"114090",

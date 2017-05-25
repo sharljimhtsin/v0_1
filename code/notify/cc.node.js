@@ -37,7 +37,7 @@ function start(postData, response, query) {
     if (md5Sign == sign && statusCode == "0000") {//订单状态（0000表示支付成功，0002表示支付失败）
         console.log("sign matched");
         async.series([function (cb) {
-            order.updateOrder(args[0], partnerTransactionNo, NAME, appId, 1, orderPrice, 1, "", productId, JSON.stringify(postData), function (err, res) {
+            order.updateOrder(args[0], partnerTransactionNo, NAME, appId, 1, orderPrice, 1, "", args[1], JSON.stringify(postData), function (err, res) {
                 if (res == 1) {
                     console.log("order update ok");
                     cb();
@@ -66,18 +66,22 @@ function md5_chs(data) {
     return crypto.createHash("md5").update(str).digest("hex");
 }
 
-function genSign(paraList, key) {
-    paraList.sort();//按照a-z排序
+function genSign(paraList, keyWord) {
+    var keys = [];
+    for (var k in paraList) {
+        keys.push(k);
+    }
+    keys.sort();//按照a-z排序
+    console.log("keys:" + keys);
     var string = "";
-    for (var para in paraList) {
-        var value = paraList[para];
-        if (para == "sign" || value == "") {//注意：空字符串的参数不要拼接上，不参与签名。
+    for (var i = 0; i < keys.length; i++) {
+        var key = keys[i];
+        if (key == "sign" || paraList[key] == "")//注意：空字符串的参数不要拼接上，不参与签名。
             continue;
-        }
-        string = string + para + "=" + value + "&";
+        string = string + key + "=" + paraList[key] + "&";
     }
     //string = string.substr(0, string.length - 1);
-    return md5_chs(string + key);//最后拼接&，再拼接签名密钥后进行MD5计算。
+    return md5_chs(string + keyWord);//最后拼接&，再拼接签名密钥后进行MD5计算。
 }
 
 exports.start = start;

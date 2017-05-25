@@ -8,7 +8,10 @@ var practiceTotalConsume = require("../code/model/practiceTotalConsume");
 var activityData = require("../code/model/activityData");
 var jutil = require("../code/utils/jutil");
 var bitUtil = require("../code/alien/db/bitUtil");
+var mysql = require("../code/alien/db/mysql");
 var crypto = require("crypto");
+//var mysql = require("mysql");
+
 
 /*
  var res = {
@@ -236,17 +239,37 @@ var bList = {
   "card6": 0
  }
 };
+var aaa = 1;
+switch (aaa.toString()) {
+ case "0":
+  console.log("00000000");
+  break;
+ case "1":
+  console.log(1111);
+  break;
+ default:
+  console.log(22222);
+  break;
+}
+var str = "caonima";
+console.log(str.length,str.toString().substr(0,111),jutil.randomString());
+console.log(bitUtil.parseUserUid("77393302508 "),n);
+return;
+var d = new Date();
+var n = d.getMinutes();
+console.log(mysql.game("38721814529"));
+bList = [{"a":"v"}];
+for(var hehe in bList){
+ console.log(bList[hehe]);
+}
+return;
 var qs = require("querystring");
 var obj = {"{\"order_id\":\"1493023742906385757\",\"mem_id\":\"105757\",\"app_id\":\"60125\",\"money\":\"10.00\",\"order_status\":\"2\",\"paytime\":\"1493023742\",\"attach\":\"85916123139_95902371651e0f631c69f01a96023447_1\",\"sign\":\"ed6f7089273642c668fbd4649f63b031\"}":""};
 var obj2 = {"order_id":"1493023742906385757","mem_id":"105757","app_id":"60125","money":"10.00","order_status":"2","paytime":"1493023742","attach":"85916123139_95902371651e0f631c69f01a96023447_1","sign":"ed6f7089273642c668fbd4649f63b031"};
 console.log(JSON.stringify(qs.parse(JSON.stringify(obj2))));
 return;
 console.log(JSON.parse(Object.keys(obj)[0]));
-for(var hehe in bList){
- console.log(hehe);
-}
-console.log(bitUtil.parseUserUid("38889588413"));
-return;
+
 var a = '[111,222]';
 var aObj = JSON.parse(a);
 console.log(aObj);

@@ -40,7 +40,7 @@ function getPracticeList(userUid,callbackFn) {
         signIn, getFinancialPlanActivity, redRibbon, vitality, achievement, doubleFeast, groupPurchase, groupPurchase2, groupPurchase3, scoreMall, rechargeRanking,
         consumeRanking, cosmosEvaluation, cosmosLeague, forge, regress, dailyMustRecharge, smashEgg, gemCompose, practiceCross, messiah, tribute, wheel,
         vipClub, morphPromo, scratch, fire, catalyst, limitSummon, growSign, cashCow, luckyConvert, paradiseSearch, practiceEndorse, practiceDarker, slots,
-        blackSmith, rebateShop, mailBinding, bejeweled, quarterCard, pvpTopCross, foolishWheel
+        blackSmith, rebateShop, mailBinding, bejeweled, quarterCard, pvpTopCross, foolishWheel, yearCard
     ];//leagueTeam,gallants
     /*
     * doubleFeast--双节活动（za）;scoreMall--积分商城（za）;rechargeRanking--充值排行榜(za);consumeRanking--充值排行榜(za)
@@ -1182,6 +1182,17 @@ function quarterCard(userUid, callbackFn){
     });
 }
 
+function yearCard(userUid, callbackFn) {
+    userVariable.getVariableTime(userUid, "yearCard", function (err, res) {
+        if (err) {
+            callbackFn(err);
+        } else {
+            var mRewardTime = (res == null) ? 0 : (res['time'] || 0);
+            var isGet = res == null || mRewardTime > jutil.todayTime() ? true : false;
+            callbackFn(null, ["yearCard", true, {"status": isGet, "rewardTime": mRewardTime}]);
+        }
+    });
+}
 
 
 /**

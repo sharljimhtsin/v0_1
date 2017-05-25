@@ -48,13 +48,14 @@ async.eachSeries(keys, function (sql, esCb) {
                     continue;
                 }
                 if (key == "leagueName") {
-                    insertData[key] = row[key] + "0";
+                    insertData[key] = row[key].toString().substr(0, 8) + jutil.randomString(2); // total 10
                 } else {
                     insertData[key] = row[key];
                 }
             }
             conn.query(insertSql, insertData, function (err, res) {
-                eCb(err, res);
+                console.log(err);
+                eCb(null, res);
             });
         }, function (err, res) {
             cb(err, res);

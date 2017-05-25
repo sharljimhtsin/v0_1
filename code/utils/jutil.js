@@ -89,12 +89,12 @@ function errorInfo(name) {
 }
 
 /**
- * 随机一个16个字符长度的字符串
- * @returns {string}
+ * 随机一个默认16个字符长度的字符串
  */
-function randomString() {
+function randomString(len) {
     var token = "";
-    for (var i = 0; i < 16; i++) {
+    len = len || 16;
+    for (var i = 0; i < len; i++) {
         token += Math.ceil(Math.random() * 36).toString(36);
     }
     return token;
@@ -174,6 +174,12 @@ function todayTime() {
     date.setMinutes(0);
     date.setSeconds(0);
     return Math.floor(date.getTime() / 1000);
+}
+
+function getMinutesOfNow() {
+    var date = new Date(now() * 1000);
+    //var date = new Date();
+    return date.getMinutes();
 }
 
 function day() {
@@ -442,3 +448,4 @@ exports.pad = pad;
 exports.deepCopy = deepCopy;
 exports.getProperExpireTimeOfRedis = getProperExpireTimeOfRedis;
 exports.urlEncodePhpStyle = urlEncodePhpStyle;
+exports.getMinutesOfNow = getMinutesOfNow;

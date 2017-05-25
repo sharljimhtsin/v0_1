@@ -83,6 +83,7 @@ exports.UPSTAREQUIP = 69;//升星
 exports.UPSTAREQUIPREFINE = 70;//升星
 exports.UPSTARRECYCLE = 71;//升星
 exports.FOOLISHWHEEL = 72;//愚人节转盘
+exports.PRACTICE_YEARCARD = 73;//年卡
 
 
 /**

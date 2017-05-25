@@ -26,7 +26,7 @@ function start(postData, response, query, authorize) {
 
     setTimeout(function(){
         cdkey.addKeys(country, giftID, count, null);
-    },10)
+    },10);
 
     response.echo("cdkey.generate", "ok");
 }

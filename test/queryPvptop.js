@@ -13,6 +13,7 @@ var equipment = require("../code/model/equipment");
 var card = require("../code/model/card");
 var skill = require("../code/model/skill");
 var hero = require("../code/model/hero");
+var modelUtil = require("../code/model/modelUtil");
 var fs = require("fs");
 var countryList = ['r'];
 var dataSwap;
@@ -76,10 +77,14 @@ async.forEachSeries(countryList, function (country, forCb) {
                         dataCb(err);
                     });
                 }, function (dataCb) {
-                    card.getCardList(item["userUid"], function (err, res) {
+                    // card.getCardList(item["userUid"], function (err, res) {
+                    //     tmpCard = res;
+                    //     dataCb(err);
+                    // });
+                    modelUtil.getData("card", item["userUid"], function (err, res) {
                         tmpCard = res;
                         dataCb(err);
-                    });
+                    }, "cardUid");
                 }, function (dataCb) {
                     for (var form in tmpFormation) {
                         form = tmpFormation[form];
@@ -88,6 +93,7 @@ async.forEachSeries(countryList, function (country, forCb) {
                         rowArr.push(city);
                         rowArr.push(item["userUid"]);
                         rowArr.push(tmpHero[form["heroUid"]] ? tmpHero[form["heroUid"]]["heroId"] : "NULL");
+                        rowArr.push(tmpHero[form["heroUid"]] ? tmpHero[form["heroUid"]]["break"] : "NULL");
                         rowArr.push(tmpSkill[form["skill2"]] ? tmpSkill[form["skill2"]]["skillId"] : "NULL");
                         rowArr.push(tmpSkill[form["skill3"]] ? tmpSkill[form["skill3"]]["skillId"] : "NULL");
                         rowArr.push(tmpEquip[form["equip1"]] ? tmpEquip[form["equip1"]]["equipmentId"] : "NULL");
@@ -138,6 +144,6 @@ async.forEachSeries(countryList, function (country, forCb) {
     });
 }, function (err) {
     console.log(err);
-    fs.writeFileSync("tableExport.csv", csv);
+    fs.writeFileSync("pvpTopFormation.csv", csv);
     process.exit();
 });

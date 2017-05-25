@@ -196,26 +196,20 @@ function getTabletsUser(userUid, issueId, callbackFn) {
                     callbackFn(err ? err : "NULL", null);
                 } else {
                     var userData = res[0];
-                    var userName = userData["userName"];
-                    var serverName = userData["serverName"];
-
-                    userData["userName"] = jutil.toBase64(userData["userName"]);
-                    userData["serverName"] = jutil.toBase64(userData["serverName"]);
-                    redis.user(userUid).h(_getGSRedisKey(issueId,"userBattleInfo")).setObj(userData, function (err, res) {
-                        redis.user(userUid).h(_getGSRedisKey(issueId,"userBattleInfo")).expire(604800); //缓存90天
-
-                        //userData["userName"] = userName;
-                        //userData["serverName"] = serverName;
-                        getDefaultTabletsUserRedis(userUid,issueId,userData,function(err,res){
-                            callbackFn(err,res);
-                        })
+                    gsData.getUserServerInfo(userUid, function (err, res) {
+                        userData["serverName"] = res["name"];
+                        userData["userName"] = jutil.toBase64(userData["userName"]);
+                        userData["serverName"] = userData["serverName"];
+                        redis.user(userUid).h(_getGSRedisKey(issueId, "userBattleInfo")).setObj(userData, function (err, res) {
+                            redis.user(userUid).h(_getGSRedisKey(issueId, "userBattleInfo")).expire(604800); //缓存90天
+                            getDefaultTabletsUserRedis(userUid, issueId, userData, function (err, res) {
+                                callbackFn(err, res);
+                            })
+                        });
                     });
                 }
             });
         } else {
-            //res["userName"] = jutil.fromBase64(res["userName"]);
-            //res["serverName"] = jutil.fromBase64(res["serverName"]);
-
             getDefaultTabletsUserRedis(userUid,issueId,res,function(err,res){
                 callbackFn(err,res);
             })
@@ -254,7 +248,6 @@ function getDefaultTabletsUserRedis(userUid, issueId, userData,callbackFn){
 function addTabletsUser(userUid, issueId, callbackFn) {
     var serverName = '';
     var userName = '';
-    //var exp = '';
     var lv = 0;
     var newAddPoint = -1;//有序集合排序值
     var configData = configManager.createConfig(userUid);
@@ -271,7 +264,7 @@ function addTabletsUser(userUid, issueId, callbackFn) {
         },
         function (cb) {
             gsData.getUserServerInfo(userUid, function (err, res) {
-                if (err) cb(err)
+                if (err) cb(err);
                 else {
                     serverName = res["name"];
                     cb(null);
@@ -280,7 +273,7 @@ function addTabletsUser(userUid, issueId, callbackFn) {
         },
         function (cb) {
             user.getUser(userUid, function (err, res) {
-                if (err) cb(err)
+                if (err) cb(err);
                 else {
                     userName = res["userName"];
                     //exp = res["exp"];
@@ -295,16 +288,6 @@ function addTabletsUser(userUid, issueId, callbackFn) {
                 else newAddPoint = 0-res-1;
                 cb(null);
             });
-//            redis.loginFromUserUid(userUid).s(_getGSRedisKey(issueId, "gsTabletsUser:newAddPoint")).get(function (err, res) {
-//                if (err || res == null) {
-//                    newAddPoint = -1;
-//                    cb(null);
-//                }
-//                else {
-//                    newAddPoint = res;
-//                    cb(null);
-//                }
-//            });
         },
         function (cb) {
             var insertSql = "INSERT INTO gsTabletsUser SET ?";

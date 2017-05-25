@@ -96,7 +96,7 @@ function start(postData, response, query) {
                                     } else if (res == null || res["number"] - composeNeedCount < 0) {
                                         cb("noItem");//道具不存在或数量不足
                                     } else {
-                                        switch (ballId) {
+                                        switch (ballId.toString()) {
                                             case "0":
                                                 stats.events(userUid, "127.0.0.1", null, mongoStats.A_BAHAMUTWISH1);//一星龙珠激活次数统计
                                                 mongoStats.expendStats(debrisId, userUid, "127.0.0.1", null, mongoStats.A_BAHAMUTWISH9, composeNeedCount);//一星龙珠升级道具消耗

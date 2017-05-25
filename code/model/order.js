@@ -31,6 +31,7 @@ var userVariable = require("../model/userVariable");
 var bitUtil = require("../alien/db/bitUtil");
 var redis = require("../alien/db/redis");
 var mail = require("../model/mail");
+var yearCard = require("../model/yearCard");
 var quarterCard = require("../model/quarterCard");
 var monthCard = require("../model/monthCard");
 var foolishWheel = require("../model/foolishWheel");
@@ -581,14 +582,22 @@ function updateOrder(userUid, orderNo, platformId, uin, goodsCount, orderMoney, 
         },
         function (cb) {//季卡活动充值记录
             if (orderStatus != 1) {
-                quarterCard.addRecord(userUid, orderMoney, function (err) {
-                    {
-                        console.log("更新季卡活动记录!");
-                        cb(null);
-                    }
+                quarterCard.addRecord(userUid, orderMoney, function () {
+                    console.log("更新季卡活动记录!");
+                    cb();
                 });
             } else {
-                cb(null);
+                cb();
+            }
+        },
+        function (cb) {//年卡活动充值记录
+            if (orderStatus != 1) {
+                yearCard.addRecord(userUid, orderMoney, function () {
+                    console.log("更新年卡活动记录!");
+                    cb();
+                });
+            } else {
+                cb();
             }
         },
         function(cb) {//单笔充值活动记录2
