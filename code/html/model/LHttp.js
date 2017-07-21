@@ -89,6 +89,9 @@ Ext.define('LHttp', {
                     case 't':
                         port = 8923;
                         break;
+                    case 'u':
+                        port = 8924;
+                        break;
                 }
                 mUrl = "http://"+host+":"+port+LHttp.url+method+"&host="+host;
             }
@@ -119,7 +122,7 @@ Ext.define('LHttp', {
             return document.domain == "dbztest.gt.com";
         },
         isDev:function(){
-            var testList = ["dbztest.gt.com", "node.mysite.com", "test-df.gameforest.in.th", "detest.opogame.com", "183.129.161.38","127.0.0.1"];
+            var testList = ["dbztest.gt.com", "183.129.161.38", "127.0.0.1"];
             return testList.indexOf(document.domain) != -1 || document.domain.indexOf("172.24.16") != -1;
         }
     }

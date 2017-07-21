@@ -85,9 +85,9 @@ function start(postData, response, query) {
             });
         },
         function(cb){//判断是否已经拥有月卡
-            if(userData["ingot"] < quarterCardConfig["ingot"]){//ingot不足购买当前种类月卡
+            if (userData["ingot"] < quarterCardConfig["ingot"]) {//ingot不足购买当前种类月卡
                 cb('ingotNotEnough');
-            } else if(userCumulativePay < quarterCardConfig["payAll"]){
+            } else if (userCumulativePay < quarterCardConfig["payAll"] || userData["cumulativePay"] < quarterCardConfig["payAll"]) {
                 cb('needMoreRecharge');
             } else {
                 userCumulativePay = userData["cumulativePay"] - quarterCardConfig["payAll"];
@@ -111,7 +111,7 @@ function start(postData, response, query) {
                 if (res) {
                     returnData["userData"] = {'ingot': userData["ingot"], 'cumulativePay': userCumulativePay};
                 } else {
-                    returnData["userData"] = {'ingot': userData["ingot"]};
+                    returnData["userData"] = {'ingot': userData["ingot"], 'cumulativePay': userCumulativePay};
                 }
                 user.updateUser(userUid, returnData["userData"], function (err, res) {
                     if (err)

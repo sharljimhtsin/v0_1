@@ -22,6 +22,9 @@ async.forEachSeries(countryList, function (country, forCb) {
     var serverList = require("../config/" + country + "_server.json")["serverList"];
     var cityList = [];
     for (var city in serverList) {
+        if (serverList[city].hasOwnProperty("merge")) {
+            continue;
+        }
         cityList.push(city);
     }
     async.forEachSeries(cityList, function (city, cb) {

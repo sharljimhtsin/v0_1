@@ -4454,6 +4454,51 @@
 			"refineAdd":14,
 			"basePrice":960,
 			"salePrice":248800
+		},
+		"124069":{
+			"ID":"124069",
+			"type":12,
+			"name":"凛冽护手",
+			"atlasShow":1,
+			"star":4,
+			"des":"黑悟空所佩戴的护手",
+			"attr":104,
+			"attrAdd":5.8,
+			"power":560,
+			"powerAdd":5,
+			"refineAdd":6,
+			"basePrice":900,
+			"salePrice":182800
+		},
+		"134077":{
+			"ID":"134077",
+			"type":13,
+			"name":"凛冽服饰",
+			"atlasShow":1,
+			"star":4,
+			"des":"黑悟空专属战斗服",
+			"attr":159,
+			"attrAdd":7.6,
+			"power":892,
+			"powerAdd":7,
+			"refineAdd":5,
+			"basePrice":360,
+			"salePrice":112000
+		},
+		"144077":{
+			"ID":"144077",
+			"type":14,
+			"name":"凛冽耳环",
+			"atlasShow":1,
+			"star":4,
+			"des":"黑悟空特有的耳环",
+			"attr":311,
+			"attrAdd":18.3,
+			"power":1244,
+			"powerAdd":11,
+			"refineAdd":14,
+			"basePrice":960,
+			"salePrice":248800
 		}
 	}
 }

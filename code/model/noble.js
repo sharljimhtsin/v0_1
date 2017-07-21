@@ -90,7 +90,7 @@ function getAddition(userUid, cb) {
         }
         addCb();
     }], function (err, res) {
-        cb(err, addList);
+        cb(err == "dataError" ? null : err, addList);
     });
 }
 

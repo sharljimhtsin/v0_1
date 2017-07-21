@@ -75,13 +75,14 @@ function getTipInfo(userUid,callback){
     async.series([
         //玩家等级
         function(cb){
-            user.getUser(userUid,function(err,res){
-                if(err) cb(err);
-                else{
+            user.getUser(userUid, function (err, res) {
+                if (res) {
                     var exp = res["exp"];
                     userLevel = res["lv"] - 0;
                     createTime = res["createTime"];
-                    cb(null);
+                    cb(err);
+                } else {
+                    cb("userNotExist");
                 }
             });
         },

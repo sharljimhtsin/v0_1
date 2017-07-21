@@ -25,11 +25,9 @@ function start(postData, response, query) {
     var userUid = query["userUid"];
     var userName = postData["userName"];
     var selectedHeroId = postData["selectedHeroId"];
-
     var configData = configManager.createConfig(userUid);
     var platformId = "";
     var pUserId = "";
-
     var newHeroData;
     var userData;
 
@@ -39,50 +37,44 @@ function start(postData, response, query) {
         return;
     }
 
-
     async.series([
         function(callbackFn) {//判断是否可添加
             user.getUser(userUid,function(err,res) {
                 if (err) {
-                    console.error("user.create user.getUser", err.stack);
-                    callbackFn(new jutil.JError("userInvalid"),null);
+                    callbackFn(new jutil.JError("userInvalid"));
                 } else if (res != null) {
-                    //console.log("user.create user.getUser222", res);
-                    callbackFn(new jutil.JError("userInvalid"),null);
+                    callbackFn(new jutil.JError("userExist"));
                 } else {
-                    callbackFn(null,null);
+                    callbackFn();
                 }
             });
         },
         function(callbackFn) {//判断用户名是否可用
-            user.userNameIsExist(userUid, userName,function(err,res) {
+            user.userNameIsExist(userUid, userName, function (err, res) {
                 if (res == 1) {
-                    callbackFn(new jutil.JError("userNameInvalid"),null);
+                    callbackFn(new jutil.JError("userNameInvalid"));
                 } else {
-                    callbackFn(null,null);
+                    callbackFn();
                 }
             });
         },
         function(callbackFn) {
-            user.getUserPlatformId(userUid, function(err, res) {
+            user.getUserPlatformId(userUid, function (err, res) {
                 if (err || res == null) {
-                    console.error("user.create user.getUserPlatformId", err.stack);
-                    callbackFn(new jutil.JError("userInvalid"),null);
-                }
-                else {
+                    callbackFn(new jutil.JError("userInvalid"));
+                } else {
                     platformId = res["platformId"];
                     pUserId = res["pUserId"];
-                    callbackFn(null);
+                    callbackFn();
                 }
             });
         },
         function(callbackFn) { //添加用户
-            user.create(userUid,userName,platformId, pUserId, function(err,res) {
+            user.create(userUid, userName, platformId, pUserId, function (err, res) {
                 if (err) {
-                    console.error("user.create user.create", err.stack);
-                    callbackFn(new jutil.JError("userInvalid"),null);
+                    callbackFn(new jutil.JError("userInvalid"));
                 } else {
-                    callbackFn(null,null);
+                    callbackFn();
                 }
             });
         },
@@ -103,79 +95,75 @@ function start(postData, response, query) {
             var optionalHero = configData.getConfig("base")["optionalHero"];
             var selectedObj = optionalHero[selectedHeroId];
             if (selectedObj == null) {
-                console.error("配置错误");
-                callbackFn(new jutil.JError("userInvalid"),null);
+                callbackFn(new jutil.JError("userInvalid"));
             } else {
                 var heroId = selectedObj["heroId"];
                 var exp = selectedObj["exp"];
-                hero.addHero(userUid,heroId,exp,1,function(err,res) {
+                hero.addHero(userUid, heroId, exp, 1, function (err, res) {
                     if (err) {
-                        console.error("user.create hero.addHero ", err.stack);
-                        callbackFn(new jutil.JError("userInvalid"),null);
+                        callbackFn(new jutil.JError("userInvalid"));
                     } else {
                         newHeroData = res;
-                        callbackFn(null,null);
+                        callbackFn();
                     }
                 });
             }
         },
         function(callbackFn) {//加入编队
             var heroUid = newHeroData["heroUid"];
-            formation.addHeroToFormation(userUid,1,heroUid,function(err,res) {
+            formation.addHeroToFormation(userUid, 1, heroUid, function (err, res) {
                 if (err) {
-                    console.error("user.create formation.addHeroToFormation", err.stack);
-                    callbackFn(new jutil.JError("userInvalid"),null);
+                    callbackFn(new jutil.JError("userInvalid"));
                 } else {
-                    callbackFn(null,null);
+                    callbackFn();
                 }
             });
         },
         function(callbackFn) { //加入初始化物品
             var initList = configData.g("base")("initUser")("list")();
             if (initList == null) {
-                callbackFn(null);
+                callbackFn();
             } else {
-                async.forEach(initList, function(listItem,forCb) {
+                async.forEach(initList, function (listItem, forCb) {
                     var isPatch = 0;
-                    if(listItem["isPatch"]!=undefined) isPatch=listItem["isPatch"];
-
+                    if (listItem["isPatch"] != undefined) {
+                        isPatch = listItem["isPatch"];
+                    }
                     mongoStats.dropStats(listItem["id"], userUid, '127.0.0.1', null, mongoStats.USER_CREATE, listItem["count"]);
-                    modelUtil.addDropItemToDB(listItem["id"], listItem["count"], userUid, isPatch, 1, function(err, res) {
-                        forCb(null);
+                    modelUtil.addDropItemToDB(listItem["id"], listItem["count"], userUid, isPatch, 1, function () {
+                        forCb();
                     });
-                }, function(err) {
+                }, function () {
                     callbackFn();
                 });
             }
         },
         function(callbackFn) { //加入初始化激站积分
             var pvpRankPoint = configData.getConfig("base")["initUser"]["pvpRankPoint"];
-            if(pvpRankPoint==undefined || pvpRankPoint == null || pvpRankPoint == 0){
-                callbackFn(null);
+            if (pvpRankPoint == undefined || pvpRankPoint == null || pvpRankPoint == 0) {
+                callbackFn();
             } else {
                 userVariable.setVariableTime(userUid, "redeemPoint", pvpRankPoint, jutil.now(), function (err, res) {
                     if (err) {
-                        callbackFn(err,null);
+                        callbackFn(err);
                     } else {
-                        callbackFn(null);
+                        callbackFn();
                     }
                 });
             }
         },
         function(callbackFn) { //加入排行榜
-            pvptop.addNewUser(userUid,0,function(err,res) {
-                callbackFn(null);
+            pvptop.addNewUser(userUid, 0, function () {
+                callbackFn();
             });
         }
-
-    ],function(err,value) {
-        console.log(err,value);
+    ], function (err) {
         if (err) {
-            response.echo("user.create",jutil.errorInfo(err.info));//创建失败
+            response.echo("user.create", jutil.errorInfo(err.info));//创建失败
         } else {
             var userIP = response.response.socket.remoteAddress;
-            response.echo("user.create",{"result":1});
-            stats.userCreate(userUid, userIP, null);
+            response.echo("user.create", {"result": 1});
+            stats.userCreate(userUid, userIP);
         }
     });
 }

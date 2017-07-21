@@ -1,0 +1,152 @@
+{
+	"pictureFormation": {
+		"freeTime": 3,
+		"refreshCost": 100,
+		"vip": {
+			"1": 2,
+			"2": 2,
+			"3": 2,
+			"4": 2,
+			"5": 3,
+			"6": 3,
+			"7": 3,
+			"8": 4,
+			"9": 4,
+			"10": 4,
+			"11": 5,
+			"12": 5,
+			"13": 5,
+			"14": 5,
+			"15": 5
+		},
+		"easy": {
+			"hero": {
+				"id": "103016",
+				"attack": 2978,
+				"defence": 2081,
+				"hp": 3538,
+				"spirit": 3466,
+				"dodge": 0,
+				"hit": 0,
+				"crit": 0,
+				"tough": 0,
+				"break": 0,
+				"preventBreak": 0,
+				"critDamage": 12500
+			},
+			"reward": [
+				{
+					"id": "155900",
+					"count": 1
+				},
+				{
+					"id": "153678",
+					"count": 10
+				}
+			]
+		},
+		"normal": {
+			"hero": {
+				"id": "104001",
+				"attack": 7445,
+				"defence": 5202,
+				"hp": 8845,
+				"spirit": 8665,
+				"dodge": 0,
+				"hit": 0,
+				"crit": 0,
+				"tough": 0,
+				"break": 0,
+				"preventBreak": 0,
+				"critDamage": 12500
+			},
+			"reward": [
+				{
+					"id": "155901",
+					"count": 1
+				},
+				{
+					"id": "153678",
+					"count": 60
+				}
+			]
+		},
+		"hard": {
+			"hero": {
+				"id": "104059",
+				"attack": 25219,
+				"defence": 17623,
+				"hp": 29962,
+				"spirit": 29355,
+				"dodge": 0,
+				"hit": 100000000,
+				"crit": 100,
+				"tough": 0,
+				"break": 0,
+				"preventBreak": 0,
+				"critDamage": 12500000
+			},
+			"reward": [
+				{
+					"id": "155902",
+					"count": 1
+				},
+				{
+					"id": "153678",
+					"count": 400
+				}
+			]
+		},
+		"formation": {
+			"1": {
+				"content": [
+					{
+						"material": ["155900", "155901"],
+						"reward" :[
+							{"attrType": "attack", "attr": 50}
+						]
+					},
+					{
+						"material": ["155900", "155901", "155902"],
+						"reward" :[
+							{"attrType": "defence", "attr": 50},
+							{"attrRatioType": "attack", "attrRatio": 0.05}
+						]
+					}
+				]
+			},
+			"2": {
+				"open": 1,
+				"content": [
+					{
+						"material": ["155900", "155901"],
+						"reward" :[
+							{"attrType": "attack", "attr": 50}
+						]
+					},
+					{
+						"material": ["155900", "155901", "155902"],
+						"reward" :[
+							{"attrType": "defence", "attr": 50},
+							{"attrRatioType": "attack", "attrRatio": 0.05}
+						]
+					}
+				]
+			}
+		},
+		"ache": [
+			{
+				"complete": 25,
+				"reward": [
+					{"attrRatioType": "attack", "attrRatio": 0.1}
+				]
+			},
+			{
+				"complete": 50,
+				"Reward": [
+					{"attrRatioType": "defence", "attrRatio": 0.1}
+				]
+			}
+		]
+	}
+}

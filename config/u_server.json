@@ -1,0 +1,145 @@
+{
+	"loginDB": {
+		"redis": [{
+			"port": 6379,
+			"host": "dbztest.gt.com",
+			"select": 0
+		},
+		{
+			"port": 6379,
+			"host": "dbztest.gt.com",
+			"select": 0
+		}],
+		"mysql": [{
+			"host": "dbztest.gt.com",
+			"user": "admin",
+			"password": "zxw000123",
+			"port": 3306,
+			"database": "dragonlogin_u"
+		}]
+	},
+	"userToken": {
+		"redis": [{
+			"port": 6379,
+			"host": "dbztest.gt.com",
+			"select": 0
+		},
+		{
+			"port": 6379,
+			"host": "dbztest.gt.com",
+			"select": 1
+		},
+		{
+			"port": 6379,
+			"host": "dbztest.gt.com",
+			"select": 1
+		},
+		{
+			"port": 6379,
+			"host": "dbztest.gt.com",
+			"select": 1
+		}]
+	},
+	"redis": {
+		"list": {
+			"1": {
+				"port": 6379,
+				"host": "dbztest.gt.com",
+				"select": 0
+			}
+		}
+	},
+	"dynamic": {
+		"list": {
+			"1": {
+				"port": 6379,
+				"host": "dbztest.gt.com",
+				"select": 0
+			}
+		}
+	},
+	"difficulty": {
+		"list": {
+			"1": {
+				"port": 6379,
+				"host": "dbztest.gt.com",
+				"select": 0
+			}
+		}
+	},
+	"serverList": {
+		"1": {
+			"id": 1,
+			"name": "GM_A",
+			"sTime": 1448208000,
+			"redis": "1",
+			"dynamic": "1",
+			"difficulty": "1",
+			"mysql": {
+				"host": "dbztest.gt.com",
+				"user": "admin",
+				"password": "zxw000123",
+				"port": 3306,
+				"database": "dragongame_30"
+			},
+			"mongodb": "mongodb://dbztest.gt.com:27017/test21"
+		},
+		"2": {
+			"id": 2,
+			"name": "GM_B",
+			"sTime": 1448208000,
+			"redis": "1",
+			"dynamic": "1",
+			"difficulty": "1",
+			"mysql": {
+				"host": "dbztest.gt.com",
+				"user": "admin",
+				"password": "zxw000123",
+				"port": 3306,
+				"database": "dragongame_31"
+			},
+			"mongodb": "mongodb://dbztest.gt.com:27017/test22"
+		},
+		"3": {
+			"id": 3,
+			"name": "GM_C",
+			"sTime": 1448208000,
+			"redis": "1",
+			"dynamic": "1",
+			"difficulty": "1",
+			"mysql": {
+				"host": "dbztest.gt.com",
+				"user": "admin",
+				"password": "zxw000123",
+				"port": 3306,
+				"database": "dragongame_32"
+			},
+			"mongodb": "mongodb://dbztest.gt.com:27017/test23"
+		}
+	},
+	"configName": "u",
+	"adminDB": {
+		"host": "dbztest.gt.com",
+		"user": "admin",
+		"password": "zxw000123",
+		"port": 3306,
+		"database": "dragonadmin"
+	},
+	"rabbitmq": {
+		"conn": {
+			"host": "172.24.3.80",
+			"port": 5672,
+			"login": "guest",
+			"password": "guest"
+		},
+		"option": {
+			"type": "topic",
+			"durable": true,
+			"autoDelete": false,
+			"confirm": true
+		},
+		"exchange_name": "dbz_analy_ex_topic_",
+		"routing_key_name": "#log",
+		"queue_name": "dbz_analy_que_topic_"
+	}
+}

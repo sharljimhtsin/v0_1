@@ -181,6 +181,186 @@
 				"soulCost": 5,
 				"potentialAdd": 20,
 				"addAttribute": 15
+			},
+			"31": {
+				"breakThroughCount": 31,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 15.5
+			},
+			"32": {
+				"breakThroughCount": 32,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 16
+			},
+			"33": {
+				"breakThroughCount": 33,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 16.5
+			},
+			"34": {
+				"breakThroughCount": 34,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 17
+			},
+			"35": {
+				"breakThroughCount": 35,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 17.5
+			},
+			"36": {
+				"breakThroughCount": 36,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 18
+			},
+			"37": {
+				"breakThroughCount": 37,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 18.5
+			},
+			"38": {
+				"breakThroughCount": 38,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 19
+			},
+			"39": {
+				"breakThroughCount": 39,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 19.5
+			},
+			"40": {
+				"breakThroughCount": 40,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 20
+			},
+			"41": {
+				"breakThroughCount": 41,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 20.5
+			},
+			"42": {
+				"breakThroughCount": 42,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 21
+			},
+			"43": {
+				"breakThroughCount": 43,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 21.5
+			},
+			"44": {
+				"breakThroughCount": 44,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 22
+			},
+			"45": {
+				"breakThroughCount": 45,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 22.5
+			},
+			"46": {
+				"breakThroughCount": 46,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 23
+			},
+			"47": {
+				"breakThroughCount": 47,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 23.5
+			},
+			"48": {
+				"breakThroughCount": 48,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 24
+			},
+			"49": {
+				"breakThroughCount": 49,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 24.5
+			},
+			"50": {
+				"breakThroughCount": 50,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 25
+			},
+			"51": {
+				"breakThroughCount": 51,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 25.5
+			},
+			"52": {
+				"breakThroughCount": 52,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 26
+			},
+			"53": {
+				"breakThroughCount": 53,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 26.5
+			},
+			"54": {
+				"breakThroughCount": 54,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 27
+			},
+			"55": {
+				"breakThroughCount": 55,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 27.5
+			},
+			"56": {
+				"breakThroughCount": 56,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 28
+			},
+			"57": {
+				"breakThroughCount": 57,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 28.5
+			},
+			"58": {
+				"breakThroughCount": 58,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 29
+			},
+			"59": {
+				"breakThroughCount": 59,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 29.5
+			},
+			"60": {
+				"breakThroughCount": 60,
+				"soulCost": 5,
+				"potentialAdd": 20,
+				"addAttribute": 30
 			}
 		},
 		"2": {
@@ -364,6 +544,186 @@
 				"soulCost": 10,
 				"potentialAdd": 40,
 				"addAttribute": 30
+			},
+			"31": {
+				"breakThroughCount": 31,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 31
+			},
+			"32": {
+				"breakThroughCount": 32,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 32
+			},
+			"33": {
+				"breakThroughCount": 33,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 33
+			},
+			"34": {
+				"breakThroughCount": 34,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 34
+			},
+			"35": {
+				"breakThroughCount": 35,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 35
+			},
+			"36": {
+				"breakThroughCount": 36,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 36
+			},
+			"37": {
+				"breakThroughCount": 37,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 37
+			},
+			"38": {
+				"breakThroughCount": 38,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 38
+			},
+			"39": {
+				"breakThroughCount": 39,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 39
+			},
+			"40": {
+				"breakThroughCount": 40,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 40
+			},
+			"41": {
+				"breakThroughCount": 41,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 41
+			},
+			"42": {
+				"breakThroughCount": 42,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 42
+			},
+			"43": {
+				"breakThroughCount": 43,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 43
+			},
+			"44": {
+				"breakThroughCount": 44,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 44
+			},
+			"45": {
+				"breakThroughCount": 45,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 45
+			},
+			"46": {
+				"breakThroughCount": 46,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 46
+			},
+			"47": {
+				"breakThroughCount": 47,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 47
+			},
+			"48": {
+				"breakThroughCount": 48,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 48
+			},
+			"49": {
+				"breakThroughCount": 49,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 49
+			},
+			"50": {
+				"breakThroughCount": 50,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 50
+			},
+			"51": {
+				"breakThroughCount": 51,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 51
+			},
+			"52": {
+				"breakThroughCount": 52,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 52
+			},
+			"53": {
+				"breakThroughCount": 53,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 53
+			},
+			"54": {
+				"breakThroughCount": 54,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 54
+			},
+			"55": {
+				"breakThroughCount": 55,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 55
+			},
+			"56": {
+				"breakThroughCount": 56,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 56
+			},
+			"57": {
+				"breakThroughCount": 57,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 57
+			},
+			"58": {
+				"breakThroughCount": 58,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 58
+			},
+			"59": {
+				"breakThroughCount": 59,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 59
+			},
+			"60": {
+				"breakThroughCount": 60,
+				"soulCost": 10,
+				"potentialAdd": 40,
+				"addAttribute": 60
 			}
 		},
 		"3": {
@@ -547,6 +907,186 @@
 				"soulCost": 15,
 				"potentialAdd": 60,
 				"addAttribute": 45
+			},
+			"31": {
+				"breakThroughCount": 31,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 46.5
+			},
+			"32": {
+				"breakThroughCount": 32,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 48
+			},
+			"33": {
+				"breakThroughCount": 33,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 49.5
+			},
+			"34": {
+				"breakThroughCount": 34,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 51
+			},
+			"35": {
+				"breakThroughCount": 35,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 52.5
+			},
+			"36": {
+				"breakThroughCount": 36,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 54
+			},
+			"37": {
+				"breakThroughCount": 37,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 55.5
+			},
+			"38": {
+				"breakThroughCount": 38,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 57
+			},
+			"39": {
+				"breakThroughCount": 39,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 58.5
+			},
+			"40": {
+				"breakThroughCount": 40,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 60
+			},
+			"41": {
+				"breakThroughCount": 41,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 61.5
+			},
+			"42": {
+				"breakThroughCount": 42,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 63
+			},
+			"43": {
+				"breakThroughCount": 43,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 64.5
+			},
+			"44": {
+				"breakThroughCount": 44,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 66
+			},
+			"45": {
+				"breakThroughCount": 45,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 67.5
+			},
+			"46": {
+				"breakThroughCount": 46,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 69
+			},
+			"47": {
+				"breakThroughCount": 47,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 70.5
+			},
+			"48": {
+				"breakThroughCount": 48,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 72
+			},
+			"49": {
+				"breakThroughCount": 49,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 73.5
+			},
+			"50": {
+				"breakThroughCount": 50,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 75
+			},
+			"51": {
+				"breakThroughCount": 51,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 76.5
+			},
+			"52": {
+				"breakThroughCount": 52,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 78
+			},
+			"53": {
+				"breakThroughCount": 53,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 79.5
+			},
+			"54": {
+				"breakThroughCount": 54,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 81
+			},
+			"55": {
+				"breakThroughCount": 55,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 82.5
+			},
+			"56": {
+				"breakThroughCount": 56,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 84
+			},
+			"57": {
+				"breakThroughCount": 57,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 85.5
+			},
+			"58": {
+				"breakThroughCount": 58,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 87
+			},
+			"59": {
+				"breakThroughCount": 59,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 88.5
+			},
+			"60": {
+				"breakThroughCount": 60,
+				"soulCost": 15,
+				"potentialAdd": 60,
+				"addAttribute": 90
 			}
 		},
 		"4": {
@@ -910,6 +1450,186 @@
 				"soulCost": 30,
 				"potentialAdd": 80,
 				"addAttribute": 180
+			},
+			"61": {
+				"breakThroughCount": 61,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 183
+			},
+			"62": {
+				"breakThroughCount": 62,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 186
+			},
+			"63": {
+				"breakThroughCount": 63,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 189
+			},
+			"64": {
+				"breakThroughCount": 64,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 192
+			},
+			"65": {
+				"breakThroughCount": 65,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 195
+			},
+			"66": {
+				"breakThroughCount": 66,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 198
+			},
+			"67": {
+				"breakThroughCount": 67,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 201
+			},
+			"68": {
+				"breakThroughCount": 68,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 204
+			},
+			"69": {
+				"breakThroughCount": 69,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 207
+			},
+			"70": {
+				"breakThroughCount": 70,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 210
+			},
+			"71": {
+				"breakThroughCount": 71,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 213
+			},
+			"72": {
+				"breakThroughCount": 72,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 216
+			},
+			"73": {
+				"breakThroughCount": 73,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 219
+			},
+			"74": {
+				"breakThroughCount": 74,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 222
+			},
+			"75": {
+				"breakThroughCount": 75,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 225
+			},
+			"76": {
+				"breakThroughCount": 76,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 228
+			},
+			"77": {
+				"breakThroughCount": 77,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 231
+			},
+			"78": {
+				"breakThroughCount": 78,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 234
+			},
+			"79": {
+				"breakThroughCount": 79,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 237
+			},
+			"80": {
+				"breakThroughCount": 80,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 240
+			},
+			"81": {
+				"breakThroughCount": 81,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 243
+			},
+			"82": {
+				"breakThroughCount": 82,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 246
+			},
+			"83": {
+				"breakThroughCount": 83,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 249
+			},
+			"84": {
+				"breakThroughCount": 84,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 252
+			},
+			"85": {
+				"breakThroughCount": 85,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 255
+			},
+			"86": {
+				"breakThroughCount": 86,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 258
+			},
+			"87": {
+				"breakThroughCount": 87,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 261
+			},
+			"88": {
+				"breakThroughCount": 88,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 264
+			},
+			"89": {
+				"breakThroughCount": 89,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 267
+			},
+			"90": {
+				"breakThroughCount": 90,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 270
 			}
 		},
 		"5": {
@@ -1273,6 +1993,186 @@
 				"soulCost": 30,
 				"potentialAdd": 80,
 				"addAttribute": 180
+			},
+			"61": {
+				"breakThroughCount": 61,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 183
+			},
+			"62": {
+				"breakThroughCount": 62,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 186
+			},
+			"63": {
+				"breakThroughCount": 63,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 189
+			},
+			"64": {
+				"breakThroughCount": 64,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 192
+			},
+			"65": {
+				"breakThroughCount": 65,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 195
+			},
+			"66": {
+				"breakThroughCount": 66,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 198
+			},
+			"67": {
+				"breakThroughCount": 67,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 201
+			},
+			"68": {
+				"breakThroughCount": 68,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 204
+			},
+			"69": {
+				"breakThroughCount": 69,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 207
+			},
+			"70": {
+				"breakThroughCount": 70,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 210
+			},
+			"71": {
+				"breakThroughCount": 71,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 213
+			},
+			"72": {
+				"breakThroughCount": 72,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 216
+			},
+			"73": {
+				"breakThroughCount": 73,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 219
+			},
+			"74": {
+				"breakThroughCount": 74,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 222
+			},
+			"75": {
+				"breakThroughCount": 75,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 225
+			},
+			"76": {
+				"breakThroughCount": 76,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 228
+			},
+			"77": {
+				"breakThroughCount": 77,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 231
+			},
+			"78": {
+				"breakThroughCount": 78,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 234
+			},
+			"79": {
+				"breakThroughCount": 79,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 237
+			},
+			"80": {
+				"breakThroughCount": 80,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 240
+			},
+			"81": {
+				"breakThroughCount": 81,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 243
+			},
+			"82": {
+				"breakThroughCount": 82,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 246
+			},
+			"83": {
+				"breakThroughCount": 83,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 249
+			},
+			"84": {
+				"breakThroughCount": 84,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 252
+			},
+			"85": {
+				"breakThroughCount": 85,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 255
+			},
+			"86": {
+				"breakThroughCount": 86,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 258
+			},
+			"87": {
+				"breakThroughCount": 87,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 261
+			},
+			"88": {
+				"breakThroughCount": 88,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 264
+			},
+			"89": {
+				"breakThroughCount": 89,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 267
+			},
+			"90": {
+				"breakThroughCount": 90,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 270
 			}
 		},
 		"6": {
@@ -1636,6 +2536,186 @@
 				"soulCost": 30,
 				"potentialAdd": 80,
 				"addAttribute": 180
+			},
+			"61": {
+				"breakThroughCount": 61,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 183
+			},
+			"62": {
+				"breakThroughCount": 62,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 186
+			},
+			"63": {
+				"breakThroughCount": 63,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 189
+			},
+			"64": {
+				"breakThroughCount": 64,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 192
+			},
+			"65": {
+				"breakThroughCount": 65,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 195
+			},
+			"66": {
+				"breakThroughCount": 66,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 198
+			},
+			"67": {
+				"breakThroughCount": 67,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 201
+			},
+			"68": {
+				"breakThroughCount": 68,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 204
+			},
+			"69": {
+				"breakThroughCount": 69,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 207
+			},
+			"70": {
+				"breakThroughCount": 70,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 210
+			},
+			"71": {
+				"breakThroughCount": 71,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 213
+			},
+			"72": {
+				"breakThroughCount": 72,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 216
+			},
+			"73": {
+				"breakThroughCount": 73,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 219
+			},
+			"74": {
+				"breakThroughCount": 74,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 222
+			},
+			"75": {
+				"breakThroughCount": 75,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 225
+			},
+			"76": {
+				"breakThroughCount": 76,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 228
+			},
+			"77": {
+				"breakThroughCount": 77,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 231
+			},
+			"78": {
+				"breakThroughCount": 78,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 234
+			},
+			"79": {
+				"breakThroughCount": 79,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 237
+			},
+			"80": {
+				"breakThroughCount": 80,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 240
+			},
+			"81": {
+				"breakThroughCount": 81,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 243
+			},
+			"82": {
+				"breakThroughCount": 82,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 246
+			},
+			"83": {
+				"breakThroughCount": 83,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 249
+			},
+			"84": {
+				"breakThroughCount": 84,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 252
+			},
+			"85": {
+				"breakThroughCount": 85,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 255
+			},
+			"86": {
+				"breakThroughCount": 86,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 258
+			},
+			"87": {
+				"breakThroughCount": 87,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 261
+			},
+			"88": {
+				"breakThroughCount": 88,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 264
+			},
+			"89": {
+				"breakThroughCount": 89,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 267
+			},
+			"90": {
+				"breakThroughCount": 90,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 270
 			}
 		},
 		"7": {
@@ -1999,6 +3079,186 @@
 				"soulCost": 30,
 				"potentialAdd": 80,
 				"addAttribute": 180
+			},
+			"61": {
+				"breakThroughCount": 61,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 183
+			},
+			"62": {
+				"breakThroughCount": 62,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 186
+			},
+			"63": {
+				"breakThroughCount": 63,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 189
+			},
+			"64": {
+				"breakThroughCount": 64,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 192
+			},
+			"65": {
+				"breakThroughCount": 65,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 195
+			},
+			"66": {
+				"breakThroughCount": 66,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 198
+			},
+			"67": {
+				"breakThroughCount": 67,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 201
+			},
+			"68": {
+				"breakThroughCount": 68,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 204
+			},
+			"69": {
+				"breakThroughCount": 69,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 207
+			},
+			"70": {
+				"breakThroughCount": 70,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 210
+			},
+			"71": {
+				"breakThroughCount": 71,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 213
+			},
+			"72": {
+				"breakThroughCount": 72,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 216
+			},
+			"73": {
+				"breakThroughCount": 73,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 219
+			},
+			"74": {
+				"breakThroughCount": 74,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 222
+			},
+			"75": {
+				"breakThroughCount": 75,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 225
+			},
+			"76": {
+				"breakThroughCount": 76,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 228
+			},
+			"77": {
+				"breakThroughCount": 77,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 231
+			},
+			"78": {
+				"breakThroughCount": 78,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 234
+			},
+			"79": {
+				"breakThroughCount": 79,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 237
+			},
+			"80": {
+				"breakThroughCount": 80,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 240
+			},
+			"81": {
+				"breakThroughCount": 81,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 243
+			},
+			"82": {
+				"breakThroughCount": 82,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 246
+			},
+			"83": {
+				"breakThroughCount": 83,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 249
+			},
+			"84": {
+				"breakThroughCount": 84,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 252
+			},
+			"85": {
+				"breakThroughCount": 85,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 255
+			},
+			"86": {
+				"breakThroughCount": 86,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 258
+			},
+			"87": {
+				"breakThroughCount": 87,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 261
+			},
+			"88": {
+				"breakThroughCount": 88,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 264
+			},
+			"89": {
+				"breakThroughCount": 89,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 267
+			},
+			"90": {
+				"breakThroughCount": 90,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 270
 			}
 		},
 		"99": {
@@ -2542,6 +3802,186 @@
 				"soulCost": 30,
 				"potentialAdd": 80,
 				"addAttribute": 270
+			},
+			"91": {
+				"breakThroughCount": 91,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 273
+			},
+			"92": {
+				"breakThroughCount": 92,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 276
+			},
+			"93": {
+				"breakThroughCount": 93,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 279
+			},
+			"94": {
+				"breakThroughCount": 94,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 282
+			},
+			"95": {
+				"breakThroughCount": 95,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 285
+			},
+			"96": {
+				"breakThroughCount": 96,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 288
+			},
+			"97": {
+				"breakThroughCount": 97,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 291
+			},
+			"98": {
+				"breakThroughCount": 98,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 294
+			},
+			"99": {
+				"breakThroughCount": 99,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 297
+			},
+			"100": {
+				"breakThroughCount": 100,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 300
+			},
+			"101": {
+				"breakThroughCount": 101,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 303
+			},
+			"102": {
+				"breakThroughCount": 102,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 306
+			},
+			"103": {
+				"breakThroughCount": 103,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 309
+			},
+			"104": {
+				"breakThroughCount": 104,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 312
+			},
+			"105": {
+				"breakThroughCount": 105,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 315
+			},
+			"106": {
+				"breakThroughCount": 106,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 318
+			},
+			"107": {
+				"breakThroughCount": 107,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 321
+			},
+			"108": {
+				"breakThroughCount": 108,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 324
+			},
+			"109": {
+				"breakThroughCount": 109,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 327
+			},
+			"110": {
+				"breakThroughCount": 110,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 330
+			},
+			"111": {
+				"breakThroughCount": 111,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 333
+			},
+			"112": {
+				"breakThroughCount": 112,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 336
+			},
+			"113": {
+				"breakThroughCount": 113,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 339
+			},
+			"114": {
+				"breakThroughCount": 114,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 342
+			},
+			"115": {
+				"breakThroughCount": 115,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 345
+			},
+			"116": {
+				"breakThroughCount": 116,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 348
+			},
+			"117": {
+				"breakThroughCount": 117,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 351
+			},
+			"118": {
+				"breakThroughCount": 118,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 354
+			},
+			"119": {
+				"breakThroughCount": 119,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 357
+			},
+			"120": {
+				"breakThroughCount": 120,
+				"soulCost": 30,
+				"potentialAdd": 80,
+				"addAttribute": 360
 			}
 		}
 	}

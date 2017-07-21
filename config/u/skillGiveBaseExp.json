@@ -1,0 +1,28 @@
+{
+	"skillGiveBaseExp":{
+		"1":{
+			"skillStar":1,
+			"baseExp":0
+		},
+		"2":{
+			"skillStar":2,
+			"baseExp":2
+		},
+		"3":{
+			"skillStar":3,
+			"baseExp":3
+		},
+		"4":{
+			"skillStar":4,
+			"baseExp":4
+		},
+		"8":{
+			"skillStar":8,
+			"baseExp":8
+		},
+		"9":{
+			"skillStar":9,
+			"baseExp":12
+		}
+	}
+}

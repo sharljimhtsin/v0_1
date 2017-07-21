@@ -27,6 +27,8 @@ var financial = require("../model/financialPlan");
 var vitalityMod = require("../model/vitality");
 var achievementMod = require("../model/achievement");
 var activityData = require("../model/activityData");
+var pyramid = require("../model/pyramid");
+var practiceRegress = require("../model/practiceRegress");
 
 /**
  * @param userUid
@@ -40,7 +42,7 @@ function getPracticeList(userUid,callbackFn) {
         signIn, getFinancialPlanActivity, redRibbon, vitality, achievement, doubleFeast, groupPurchase, groupPurchase2, groupPurchase3, scoreMall, rechargeRanking,
         consumeRanking, cosmosEvaluation, cosmosLeague, forge, regress, dailyMustRecharge, smashEgg, gemCompose, practiceCross, messiah, tribute, wheel,
         vipClub, morphPromo, scratch, fire, catalyst, limitSummon, growSign, cashCow, luckyConvert, paradiseSearch, practiceEndorse, practiceDarker, slots,
-        blackSmith, rebateShop, mailBinding, bejeweled, quarterCard, pvpTopCross, foolishWheel, yearCard
+        blackSmith, rebateShop, mailBinding, bejeweled, quarterCard, pvpTopCross, foolishWheel, yearCard, pyramidIngot, pyramidItem
     ];//leagueTeam,gallants
     /*
     * doubleFeast--双节活动（za）;scoreMall--积分商城（za）;rechargeRanking--充值排行榜(za);consumeRanking--充值排行榜(za)
@@ -223,23 +225,11 @@ function cosmosLeague(userUid, callbackFn) {
  * @param callbackFn
  */
 function regress(userUid, callbackFn) {
-    activityConfig.getConfig(userUid, "regress", function (err, res) {
-        if (err || res == null) {
+    practiceRegress.checkCondition(userUid, function (err, res) {
+        if (err || !res) {
             callbackFn(null, ["regress", false, null]);
         } else {
-            if (res[0]) {
-                var sTime = res[4];
-                var currentConfig = res[2];
-                activityData.getActivityData(userUid, activityData.PRACTICE_REGRESS, function(err, res){
-                    if(!err && res != null && res["dataTime"] == sTime && res["status"] == 1){
-                        callbackFn(null, ["regress", true, currentConfig]);
-                    } else {
-                        callbackFn(null, ["regress", false, null]);
-                    }
-                });
-            } else {
-                callbackFn(null, ["regress", false, null]);
-            }
+            callbackFn(null, ["regress", true, null]);
         }
     });
 }
@@ -1194,6 +1184,47 @@ function yearCard(userUid, callbackFn) {
     });
 }
 
+function pyramidItem(userUid, callbackFn) {
+    activityConfig.getConfig(userUid, "pyramid:Item", function (err, res) {
+        if (err || res == null || res[0] == false) {
+            callbackFn(null, ["pyramid:Item", false, null]);
+        } else {
+            var config = jutil.deepCopy(res[2]);
+            config["sTime"] = res[4];
+            config["eTime"] = res[5];
+            pyramid.getPyramidData(userUid, res[4], config, false, function (err, data) {
+                config["userData"] = data;
+                var isAll = parseInt(config["isAll"]);
+                var key = config["key"];
+                pyramid.getRankList(userUid, isAll, key, config, function (err, rankList) {
+                    config["rankList"] = rankList;
+                    callbackFn(null, ["pyramid:Item", res[0], config]);
+                })
+            });
+        }
+    });
+}
+
+function pyramidIngot(userUid, callbackFn) {
+    activityConfig.getConfig(userUid, "pyramid:Ingot", function (err, res) {
+        if (err || res == null || res[0] == false) {
+            callbackFn(null, ["pyramid:Ingot", false, null]);
+        } else {
+            var config = jutil.deepCopy(res[2]);
+            config["sTime"] = res[4];
+            config["eTime"] = res[5];
+            pyramid.getPyramidData(userUid, res[4], config, true, function (err, data) {
+                config["userData"] = data;
+                var isAll = parseInt(config["isAll"]);
+                var key = config["key"];
+                pyramid.getRankList(userUid, isAll, key, config, function (err, rankList) {
+                    config["rankList"] = rankList;
+                    callbackFn(null, ["pyramid:Ingot", res[0], config]);
+                })
+            });
+        }
+    });
+}
 
 /**
  * 取吃豆 (吃鸡) 数据

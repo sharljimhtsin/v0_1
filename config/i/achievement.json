@@ -3807,6 +3807,36 @@
 					"complete":"104109",
 					"desc":"Reward: Shenron(Earth) Soul*600",
 					"reward":[{"id":"104109","count":600}]
+				},
+				{
+					"complete":"104117",
+					"desc":"Reward: Vados Soul*600",
+					"reward":[{"id":"104117","count":600}]
+				},
+				{
+					"complete":"104118",
+					"desc":"Reward: Champa Soul*600",
+					"reward":[{"id":"104118","count":600}]
+				},
+				{
+					"complete":"104119",
+					"desc":"Reward: Vegito（SS God) Soul*600",
+					"reward":[{"id":"104119","count":600}]
+				},
+				{
+					"complete":"104122",
+					"desc":"Reward: Hitto Soul*600",
+					"reward":[{"id":"104122","count":600}]
+				},
+				{
+					"complete":"104115",
+					"desc":"Reward: Goku SS3 (Evil) Soul*600",
+					"reward":[{"id":"104115","count":600}]
+				},
+				{
+					"complete":"104116",
+					"desc":"Reward: Gotenks SS3 (Evil) Soul*600",
+					"reward":[{"id":"104116","count":600}]
 				}
 			]
 		}

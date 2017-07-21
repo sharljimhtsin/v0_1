@@ -16,6 +16,7 @@ var card = require("../model/card");
 //var configData = require("../model/configData");
 var configManager = require("../config/configManager");
 var async = require("async");
+var fs = require("fs");
 var userVariable = require("../model/userVariable");
 var item = require("../model/item");
 var jutil = require("../utils/jutil");
@@ -277,6 +278,10 @@ function changeRank(userUid, aTop, bTop, callbackFn) {
                         var aSql = "UPDATE pvptop SET ? WHERE top=" + aTopData["top"];
                         var bSql = "UPDATE pvptop SET ? WHERE top=" + bTopData["top"];
                         mysql.game(userUid).query(aSql, aNewTopData, function (err, res) {
+                            var logObj = {};
+                            logObj[aSql] = aNewTopData;
+                            logObj[bSql] = bNewTopData;
+                            fs.appendFile('pvpRank.log', JSON.stringify(logObj) + "\n", 'utf8');
                             if (err) callbackFn(err, null);
                             else {
                                 mysql.game(userUid).query(bSql, bNewTopData, function (err, res) {

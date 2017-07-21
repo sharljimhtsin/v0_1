@@ -1825,11 +1825,11 @@ function CalculationDrop(userUid,mode,mapId,isWin,userData,callBackFun){
                     hasEatTeachTime = res == null ? 0 : res;
                 }
                 var teachL = teachList.length;
-                for(var i = 0 ; i < teachL ; i++ ){
+                for (var i = 0; i < teachL; i++) {
                     var item = teachList[i];
                     var level = item["level"];
-                    var teachItem = teachConfig["" + level];
-                    if(((item["time"] - 0) + (teachItem["time"] - 0)) > jutil.now()){   //正在倒计时
+                    var teachItem = teachConfig.hasOwnProperty(level.toString()) ? teachConfig[level.toString()] : null;
+                    if (teachItem && ((item["time"] - 0) + (teachItem["time"] - 0)) > jutil.now()) {   //正在倒计时
                         inTime++;
                     }
                 }

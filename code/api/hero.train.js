@@ -6,7 +6,6 @@
  */
 
 var jutil = require("../utils/jutil");
-//var configData = require("../model/configData");
 var configManager = require("../config/configManager");
 var user = require("../model/user");
 var hero = require("../model/hero");
@@ -19,7 +18,7 @@ var achievement = require("../model/achievement");
 
 /**
  * "heroUid" : 要培养的武将Uid
- * "trainType" :培养方式 1.普通培养  2.10次普通增养  3.元宝培养 4.10次元宝培养
+ * "trainType" :培养方式 1.普通培养  2.10次普通增养  3.元宝培养 4.10次元宝培养 5.100次普通增养 6.100次元宝培养
  * @param postData
  * @param response
  * @param query
@@ -32,11 +31,13 @@ function start(postData, response, query) {
     var userUid = query["userUid"];
     var heroUid = postData["heroUid"];
     var trainType = postData["trainType"];
+    trainType = trainType == "5" ? 4 : trainType; //类型容错
     var configData = configManager.createConfig(userUid);
 
     var trainItemId = "150901";//培养丹的ID
     var trainTypeNumber1 = 5;
     var trainTypeNumber10 = 50;
+    var trainTypeNumber100 = 500;
 
 
     var heroData = null;//要培养的武将的数据库数据
@@ -72,6 +73,9 @@ function start(postData, response, query) {
                     if ( trainType == 2 || trainType == 4) { //10次培养
                         needTrainItemNumber = trainTypeNumber10;
                     }
+                    if (trainType == 5 || trainType == 6) { //100次培养
+                        needTrainItemNumber = trainTypeNumber100;
+                    }
                     if (trainItemNumber < needTrainItemNumber) {
                         cb("noTrainItem", null);
                     } else {
@@ -81,7 +85,7 @@ function start(postData, response, query) {
             });
         },
         function(cb) { //如果是元宝培养，取元宝数量
-            if (trainType == 3 || trainType == 4) {
+            if (trainType == 3 || trainType == 4 || trainType == 6) {
                 user.getUser(userUid,function(err,res) {
                     if (err || res == null) cb("dbError",null);
                     else {
@@ -89,6 +93,7 @@ function start(postData, response, query) {
                         var ingot = userData["ingot"] - 0;
                         if (trainType == 3) needIngot = 1;
                         else if(trainType == 4) needIngot = 10;
+                        else if(trainType == 6) needIngot = 150;
 
                         if (ingot < needIngot) {
                             cb("noRMB",null);
@@ -119,18 +124,24 @@ function start(postData, response, query) {
             if (trainType == 2 || trainType == 4) {
                 randomDeductValue = randomDeductValue * 10; //如果是10次培养，X10
             }
+            if (trainType == 5 || trainType == 6) {
+                randomDeductValue = randomDeductValue * 100; //如果是100次培养，X100
+            }
             randomDeductValue = Math.min(randomDeductValue,heroAttrValue[deductTypeIndex]);//如果要减去值小于hero最小值 则选用最小值
 
             var addWeight = fosterWeightConfig["addWeight"];//减属性权重值
             var addTypeIndex = randomAddType(addWeight,attr,deductTypeIndex);
             var randomAddValue;
-            if (trainType == 1 || trainType == 2) {
+            if (trainType == 1 || trainType == 2 || trainType == 5) {
                 randomAddValue = Math.floor(Math.random() * 3) + 1;//随机出要减的数值
             } else {
                 randomAddValue = Math.floor(Math.random() * 5) + 2;//随机出要减的数值
             }
             if (trainType == 2 || trainType == 4) {
                 randomAddValue = randomAddValue * 10; //如果是10次培养，X10
+            }
+            if (trainType == 5 || trainType == 6) {
+                randomAddValue = randomAddValue * 100; //如果是100次培养，X100
             }
             var potentialValue = (cHeroConfig["potential"]  - 0) + (cHeroConfig["potentialAdd"] - 0) * (cLevel - 1) + (heroData["potential"] - 0);
             randomAddValue = Math.min(potentialValue,randomAddValue);//如果潜力不够则取潜力值
@@ -187,9 +198,15 @@ function start(postData, response, query) {
             }
             echoData["item"] = {};
             echoData["item"][trainItemId] = trainItemNumber - needTrainItemNumber;
-            var userIP = '127.0.0.1';//response.response.socket.remoteAddress;
-
-            var completeCnt = (trainType == 1 || trainType == 3) ? 1 : 10;
+            var userIP = '127.0.0.1';
+            var completeCnt;
+            if (trainType == 1 || trainType == 3) {
+                completeCnt = 1;
+            } else if (trainType == 2 || trainType == 4) {
+                completeCnt = 10;
+            } else {
+                completeCnt = 100;
+            }
 
             // 培养液消耗
             timeLimitActivity.brothUse(userUid, needTrainItemNumber, function(){
@@ -201,6 +218,8 @@ function start(postData, response, query) {
                     mongoStats.expendStats("ingot", userUid, userIP, userData, mongoStats.E_TRAIN_1, needIngot);
                 } else if (trainType == 4) {
                     mongoStats.expendStats("ingot", userUid, userIP, userData, mongoStats.E_TRAIN_10, needIngot);
+                } else if (trainType == 6) {
+                    mongoStats.expendStats("ingot", userUid, userIP, userData, mongoStats.E_TRAIN_100, needIngot);
                 }
             });
         }

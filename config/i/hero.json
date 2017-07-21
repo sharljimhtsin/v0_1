@@ -4017,7 +4017,7 @@
 		},
 		"104100":{
 			"ID":"104100",
-			"name":"Vegita-SS2-Evil",
+			"name":"Vegeta-SS2-Evil",
 			"des":"After Xeno Transform Vegeta-SS2 gets power and bad temper",
 			"type":10,
 			"atlasShow":0,
@@ -5136,6 +5136,47 @@
 			"yuan":[
 				"160124",
 				"160129"
+			]
+		},
+		"104128":{
+			"ID":"104128",
+			"name":"玫瑰黑悟空",
+			"des":"由黑悟空变成玫瑰色超级赛亚人，即将带来一场血腥的杀戮。",
+			"type":10,
+			"atlasShow":0,
+			"talentSkill":"114091",
+			"baseExp":168,
+			"star":99,
+			"frame":99,
+			"handId":"common",
+			"attack":330,
+			"defence":265,
+			"hp":375,
+			"spirit":418,
+			"attackAdd":16,
+			"defenceAdd":12,
+			"hpAdd":17,
+			"spiritAdd":12,
+			"crit":0,
+			"tough":0,
+			"dodge":0,
+			"hit":0,
+			"break":0,
+			"preventBreak":0,
+			"critDamage":12500,
+			"retreatType":"dodge",
+			"retreatBase":42,
+			"retreatAdd":8,
+			"soulCount":30, 
+			"potential":0,
+			"potentialAdd":20, 
+			"yuan":[
+				"161682",
+				"161683",
+				"161684",
+				"161685",
+				"161686",
+				"161687"
 			]
 		},
 		"103001":{

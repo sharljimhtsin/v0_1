@@ -185,18 +185,15 @@ function setHeroData(userUid, heroUid, heroData, callbackFn) {
 
 function delHeroData(userUid, heroUids, callbackFn) {
     var sql = "DELETE FROM heroGravity WHERE userUid=? AND heroUid IN(?)";
-    mysql.game(userUid).query(sql, heroUids, function (err,res) {
+    mysql.game(userUid).query(sql, [userUid, heroUids], function (err, res) {
         if (err) {
-            callbackFn(err,null);
+            callbackFn(err);
         } else {
-            for (var i = 0; i < heroUids.length; i++) {
-                redis.user(userUid).h("heroGravity").hdel(heroUids[i], function(err, res) {
-                    if (err) {
-                        redis.user(userUid).h("heroGravity").del();
-                    }
+            async.eachSeries(heroUids, function (heroUid, eaCb) {
+                redis.user(userUid).h("heroGravity").hdel(heroUid, function (err, res) {
+                    eaCb(err);
                 });
-            }
-            callbackFn(null);
+            }, callbackFn);
         }
     });
 }
@@ -432,10 +429,64 @@ function getHeroList(userUid, callbackFn) {
     });
 }
 
+function setVigour(userUid, heroUid, top, callbackFn) {
+    var configData = configManager.createConfig(userUid);
+    var gravityConfig = configData.getConfig("gravityTrain");
+    var heroData;
+    async.series([
+        function (cb) {//取英雄数据
+            getHero(userUid, heroUid, function (err, res) {
+                heroData = res;
+                cb(err);
+            });
+        },
+        function (cb) {//判断是否可以使用
+            var vigour = heroData["vigour"];
+            var bigVigour = heroData["bigVigour"];
+            var errMsg;
+            do {
+                if (gravityConfig["useGenki"][bigVigour] == undefined) {
+                    errMsg = "isBest";
+                    break;
+                } else {
+                    var vigourConfig = gravityConfig["useGenki"][bigVigour]["content"][vigour];
+                    if (vigourConfig == undefined) {
+                        errMsg = "configError";
+                        break;
+                    } else {
+                        vigour = vigour - 0 + 1;
+                        if (gravityConfig["useGenki"][bigVigour]["content"][vigour] == undefined) {
+                            bigVigour = bigVigour - 0 + 1;
+                            vigour = 0;
+                        }
+                        if (vigourConfig.hasOwnProperty("addAttrRatioType")) {
+                            heroData[vigourConfig["addAttrRatioType"] + "p"] = heroData[vigourConfig["addAttrRatioType"] + "p"] - 0 + vigourConfig["addAttrRatio"] * 10000;
+                        }
+                        heroData[vigourConfig["addAttrType"]] = heroData[vigourConfig["addAttrType"]] - 0 + vigourConfig["addAttr"];
+                        heroData["vigour"] = vigour;
+                        heroData["bigVigour"] = bigVigour;
+                        errMsg = null;
+                    }
+                }
+            } while (bigVigour < top && errMsg == null);
+            cb(errMsg);
+        },
+        function (cb) {//存英雄数据
+            setHeroData(userUid, heroUid, heroData, function (err, res) {
+                heroData = res;
+                cb(err);
+            });
+        }
+    ], function (err) {
+        callbackFn(err, {"heroData": heroData});
+    });
+}
+
 exports.getGravity = getGravity;
 exports.getHero = getHero;
 exports.charge = charge;
 exports.vigour = vigour;
+exports.setVigour = setVigour;
 exports.getHeroList = getHeroList;
 exports.setHeroData = setHeroData;
 exports.getHeroData = getHeroData;

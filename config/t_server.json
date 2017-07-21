@@ -138,8 +138,8 @@
 			"autoDelete": false,
 			"confirm": true
 		},
-		"exchange_name": "dbzsy_analy_ex_topic_",
+		"exchange_name": "dbz_analy_ex_topic_",
 		"routing_key_name": "#log",
-		"queue_name": "dbzsy_analy_que_topic_"
+		"queue_name": "dbz_analy_que_topic_"
 	}
 }

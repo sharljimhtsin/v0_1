@@ -776,109 +776,34 @@
                     "reward":[{"id":"150901","count":2320}]
                 },
                 {
-                    "complete":31,
-                    "desc":"Belohnung: Trainingstrank *2400",
-                    "reward":[{"id":"150901","count":2400}]
-                },
-                {
-                    "complete":32,
-                    "desc":"Belohnung: Trainingstrank *2480",
-                    "reward":[{"id":"150901","count":2480}]
-                },
-                {
-                    "complete":33,
-                    "desc":"Belohnung: Trainingstrank *2560",
-                    "reward":[{"id":"150901","count":2560}]
-                },
-                {
-                    "complete":34,
-                    "desc":"Belohnung: Trainingstrank *2640",
-                    "reward":[{"id":"150901","count":2640}]
-                },
-                {
                     "complete":35,
-                    "desc":"Belohnung: Trainingstrank *2720",
-                    "reward":[{"id":"150901","count":2720}]
-                },
-                {
-                    "complete":36,
-                    "desc":"Belohnung: Trainingstrank *2800",
-                    "reward":[{"id":"150901","count":2800}]
-                },
-                {
-                    "complete":37,
-                    "desc":"Belohnung: Trainingstrank *2880",
-                    "reward":[{"id":"150901","count":2880}]
-                },
-                {
-                    "complete":38,
-                    "desc":"Belohnung: Trainingstrank *2960",
-                    "reward":[{"id":"150901","count":2960}]
-                },
-                {
-                    "complete":39,
-                    "desc":"Belohnung: Trainingstrank *3040",
-                    "reward":[{"id":"150901","count":3040}]
+                    "desc":"Bonus: X-Seele*100",
+                    "reward":[{"id":"153401","count":100}]
                 },
                 {
                     "complete":40,
-                    "desc":"Belohnung: Trainingstrank *3120",
-                    "reward":[{"id":"150901","count":3120}]
-                },
-                {
-                    "complete":41,
-                    "desc":"Belohnung: Trainingstrank *3200",
-                    "reward":[{"id":"150901","count":3200}]
-                },
-                {
-                    "complete":42,
-                    "desc":"Belohnung: Trainingstrank *3280",
-                    "reward":[{"id":"150901","count":3280}]
-                },
-                {
-                    "complete":43,
-                    "desc":"Belohnung: Trainingstrank *3360",
-                    "reward":[{"id":"150901","count":3360}]
-                },
-                {
-                    "complete":44,
-                    "desc":"Belohnung: Trainingstrank *3440",
-                    "reward":[{"id":"150901","count":3440}]
+                    "desc":"Bonus: X-Seele*200",
+                    "reward":[{"id":"153401","count":200}]
                 },
                 {
                     "complete":45,
-                    "desc":"Belohnung: Trainingstrank *3520",
-                    "reward":[{"id":"150901","count":3520}]
-                },
-                {
-                    "complete":46,
-                    "desc":"Belohnung: Trainingstrank *3600",
-                    "reward":[{"id":"150901","count":3600}]
-                },
-                {
-                    "complete":47,
-                    "desc":"Belohnung: Trainingstrank *3680",
-                    "reward":[{"id":"150901","count":3680}]
-                },
-                {
-                    "complete":48,
-                    "desc":"Belohnung: Trainingstrank *3760",
-                    "reward":[{"id":"150901","count":3760}]
-                },
-                {
-                    "complete":49,
-                    "desc":"Belohnung: Trainingstrank *3840",
-                    "reward":[{"id":"150901","count":3840}]
+                    "desc":"Bonus: X-Seele*300",
+                    "reward":[{"id":"153401","count":300}]
                 },
                 {
                     "complete":50,
-                    "desc":"Belohnung: Trainingstrank *3920",
-                    "reward":[{"id":"150901","count":3920}]
+                    "desc":"Bonus: X-Seele*400",
+                    "reward":[{"id":"153401","count":400}]
                 },
                 {
-                    "complete":51,
-                    "desc":"Belohnung: Trainingstrank *4000",
-                    "reward":[{"id":"150901","count":4000}]
+                    "complete":55,
+                    "desc":"Bonus: X-Seele*500",
+                    "reward":[{"id":"153401","count":500}]
+                },
+                {
+                    "complete":60,
+                    "desc":"Bonus: X-Seele*600",
+                    "reward":[{"id":"153401","count":600}]
                 }
             ]
         },

@@ -84,6 +84,8 @@ exports.UPSTAREQUIPREFINE = 70;//升星
 exports.UPSTARRECYCLE = 71;//升星
 exports.FOOLISHWHEEL = 72;//愚人节转盘
 exports.PRACTICE_YEARCARD = 73;//年卡
+exports.PRACTICE_Pyramid_INGOT = 74;//卡林塔
+exports.PRACTICE_Pyramid_ITEM = 75;//神龙殿
 
 
 /**

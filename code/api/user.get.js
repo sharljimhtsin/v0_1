@@ -34,12 +34,10 @@ var yearCard = require("../model/yearCard");
 
 function start(postData, response, query) {
     var userUid = query["userUid"];
-    var configData = configManager.createConfig(userUid);
     var udid = "TEST";
     if (postData != null) {
         udid = postData["udid"] || "TEST";
     }
-    var kingnetSwitch = configData.getConfig("kingnetSwitch");
     var echoObj = {};
     async.series([function (cb) {
         user.getUser(userUid, function (err, res) {
@@ -188,11 +186,10 @@ function start(postData, response, query) {
                         chargeArr.push(charge);
                     }
                 }
-                kingnetSwitch["kingNetChargeArr"] = chargeArr;
-                echoObj["kingnetSwitch"] = kingnetSwitch;
-                cb(null);
+                echoObj["kingnetSwitch"] = chargeArr;
+                cb();
             } else {
-                cb(null);
+                cb();
             }
         });
     }, function (cb) {

@@ -251,9 +251,15 @@ switch (aaa.toString()) {
   console.log(22222);
   break;
 }
+async.eachLimit(Object.keys(bList),1,function (v, vCb) {
+console.log(v,jutil.nowMillisecond());
+ vCb();
+},function (err) {
+ console.log("end");
+});
 var str = "caonima";
 console.log(str.length,str.toString().substr(0,111),jutil.randomString());
-console.log(bitUtil.parseUserUid("77393302508 "),n);
+console.log(bitUtil.parseUserUid("26021463599"),n);
 return;
 var d = new Date();
 var n = d.getMinutes();

@@ -23,6 +23,7 @@ var battleModel = require("../model/battle");
 var title = require("../model/titleModel");
 var leagueDragon = require("../model/leagueDragon");
 var upStar = require("../model/upStar");
+var noble = require("../model/noble");
 
 function startBattle(userUid) {
     var isAll;
@@ -203,6 +204,11 @@ function doBattle(he, her, stage, isAll, key, stageReward, cb) {
             callback(err);
         });
     }, function (callback) {
+        noble.getAddition(hisUserUid, function (err, res) {
+            hisListData["nobleList"] = res;
+            callback(err);
+        });
+    }, function (callback) {
         battleModel.getUserTeamDataByUserId(hisUserUid, hisUserData, hisListData, function (err, targetData, defaultData) {
             if (err) {
                 errMan = hisUserUid;
@@ -235,6 +241,11 @@ function doBattle(he, her, stage, isAll, key, stageReward, cb) {
     }, function (callback) {
         upStar.getStarData(herUserUid, function (err, res) {
             herListData["starData"] = res;
+            callback(err);
+        });
+    }, function (callback) {
+        noble.getAddition(herUserUid, function (err, res) {
+            herListData["nobleList"] = res;
             callback(err);
         });
     }, function (callback) {

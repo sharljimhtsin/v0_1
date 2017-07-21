@@ -21,6 +21,7 @@ var userVariable = require("../model/userVariable");
 var gal = require("../model/gallants");//巡游活动
 var upStar = require("../model/upStar");
 var modelUtil = require("../model/modelUtil");
+var bitUtil = require("../alien/db/bitUtil");
 var fs = require('fs');
 
 
@@ -334,8 +335,16 @@ function start(postData, response, query, noConcurrencyList) {
                     if (err) {
                         cb(err);
                     } else {
-                        gravity.delHeroData(userUid, [heroUid], function (err, res) {
-                            cb();
+                        var toDelList = [heroUid];
+                        if (bitUtil.parseUserUid(userUid)[0] == "s" && gravityData["bigVigour"] > 4) {
+                            toDelList.push(targetHeroUid);
+                        }
+                        gravity.delHeroData(userUid, toDelList, function (err, res) {
+                            if (toDelList.length > 1) {
+                                gravity.setVigour(userUid, targetHeroUid, 5, cb);
+                            } else {
+                                cb();
+                            }
                         });
                     }
                 });

@@ -647,14 +647,6 @@ function UpDateDatabase(userData, formationList, heroList, isWin, cb) {//更新�
     var addMax = 0;
     async.series([
         function (callBack) {//更新精力，金币,声望
-            if (userData["monthCard"] == "fifty") {
-                addMax = 18;
-            } else {
-                addMax = 0;
-            }
-            var newPower = configData.getPvpPower(userData["pvpPower"] - 0, userData["lastRecoverPvpPower"] - 0, jutil.now(), addMax);
-            updateUser["pvpPower"] = (newPower[0] - 0) - 1;
-            updateUser["lastRecoverPvpPower"] = newPower[1];
             var getExp = playerConfig[userData["lv"]]["getPlayerExp"] - 0;
             if (isWin) {
                 updateUser["exp"] = (userData["exp"] - 0) + getExp;

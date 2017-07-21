@@ -277,6 +277,7 @@
 		"gravity_open":20,
 		"gem_open":21,
 		"difZone_open":10,
+		"scorepvp_open":40,
 		"residual_chapter":8,
 		"active_map2":7,
 		"successiveBattleCd":300,

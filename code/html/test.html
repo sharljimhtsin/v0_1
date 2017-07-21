@@ -304,10 +304,87 @@
 		var b = new Base64();
 	</script>
 	<script type="text/javascript">
-		var serverList = [["127.0.0.1:8900","开发服","a"],["dbztest.gt.com:8900","测试服"],["dbztest.gt.com:8906","国内越狱(测试服)"],["dbztest.gt.com:8907","国内IOS(测试服)"],["dbztest.gt.com:8908","国内安卓(测试服)"],["dbztest.gt.com:8909","台湾IOS(测试服)"],["dbztest.gt.com:8910","台湾安卓(测试服)"],["dbztest.gt.com:8911","凯英英文(测试服)"],["dbztest.gt.com:8912","北美(测试服)"],["dbztest.gt.com:8913","泰国(测试服)"],["dbztest.gt.com:8914","俄罗斯(测试服)"],["dbztest.gt.com:8915","赛亚(测试服)"],["dbztest.gt.com:8916","乐聚(测试服)"],["dbztest.gt.com:8917","巴西(测试服)"],["dbztest.gt.com:8918","越南(测试服)"],["dragonballt.gametrees.com","国内越狱"],["dragonballd.gametrees.com","国内IOS"],["dragonballf.gametrees.com","国内安卓"],["dbzhhpios.gametrees.com","台湾IOS"],["dbzhhp.gametrees.com","台湾安卓"],["dbzhhpen.gametrees.com","凯英英文"],["dbz.dbzgames.me","北美"],["dbz-df.gameforest.in.th","泰国"],["degame.opogame.com","俄罗斯"],["dbz.yeyoye.com","赛亚"],["lzgt.joyany.com","乐聚"]];
+		/*
+		 [root@DRon-DBdemo node]# find . -name "masterConfig.json" -exec grep port {} \; -print
+		 "port":8908,
+		 ./android/masterConfig.json
+		 "port":8919,
+		 ./kythaixy/masterConfig.json
+		 "port":8911,
+		 ./zkingneten/masterConfig.json
+		 "port":8913,
+		 ./thai/masterConfig.json
+		 "port":8909,
+		 ./zkingnet_ios/masterConfig.json
+		 "port":8914,
+		 ./rus/masterConfig.json
+		 "port":8910,
+		 ./zkingnet_a/masterConfig.json
+		 "port":8906,
+		 ./p91/masterConfig.json
+		 "port":8923,
+		 ./lianyun/masterConfig.json
+		 "port":8918,
+		 ./yuenan/masterConfig.json
+		 "port":8900,
+		 ./dev/masterConfig.json
+		 "port":8917,
+		 ./baxi/masterConfig.json
+		 "port":8921,
+		 ./sanguo/masterConfig.json
+		 "port":8915,
+		 ./saiya/masterConfig.json
+		 "port":8922,
+		 ./185/masterConfig.json
+		 "port":8912,
+		 ./europe/masterConfig.json
+		 "port":8916,
+		 ./leju/masterConfig.json
+		 "port":8907,
+		 ./ios/masterConfig.json
+		 * */
+		var serverList = {
+			"127.0.0.1:8900": "本地（开发服）",
+			"dbztest.gt.com:8900": "DEV(测试服)",
+			"dbztest.gt.com:8906": "国内越狱(测试服)",
+			"dbztest.gt.com:8907": "国内IOS(测试服)",
+			"dbztest.gt.com:8908": "国内安卓(测试服)",
+			"dbztest.gt.com:8909": "台湾IOS(测试服)",
+			"dbztest.gt.com:8910": "台湾安卓(测试服)",
+			"dbztest.gt.com:8911": "凯英英文(测试服)",
+			"dbztest.gt.com:8912": "北美(测试服)",
+			"dbztest.gt.com:8913": "泰国(测试服)",
+			"dbztest.gt.com:8914": "俄罗斯(测试服)",
+			"dbztest.gt.com:8915": "赛亚(测试服)",
+			"dbztest.gt.com:8916": "乐聚(测试服)",
+			"dbztest.gt.com:8917": "巴西(测试服)",
+			"dbztest.gt.com:8918": "越南(测试服)",
+			"dbztest.gt.com:8919": "kythaixy(测试服)",
+			"dbztest.gt.com:8921": "sanguo(测试服)",
+			"dbztest.gt.com:8922": "185(测试服)",
+			"dbztest.gt.com:8923": "lianyun(测试服)",
+			"dbztest.gt.com:8924": "gm(测试服)",
+			"dragonballt.gametrees.com": "国内越狱",
+			"dragonballd.gametrees.com": "国内IOS",
+			"dragonballf.gametrees.com": "国内安卓",
+			"dbzhhpios.gametrees.com": "台湾IOS",
+			"dbzhhp.gametrees.com": "台湾安卓",
+			"dbzhhpen.gametrees.com": "凯英英文",
+			"dbz.dbzgames.me": "北美",
+			"node.pocketgames.me": "三国",
+			"dbz185.gametrees.com": "185",
+			"dragonballe.gametrees.com": "联运",
+			"222.187.224.142:8900": "GM",
+			"dbz-df.gameforest.in.th": "泰国",
+			"degame.opogame.com": "俄罗斯",
+			"dbz.yeyoye.com": "赛亚",
+			"lzgt.joyany.com": "乐聚"
+		};
 		var html = '';
-		for(var i in serverList){
-			html += "<option value='"+serverList[i][0]+"' data-country='"+serverList[i][2]+"'>"+serverList[i][1]+"</option>";
+		var urls = Object.keys(serverList);
+		for (var i in urls) {
+			var url = urls[i];
+			html += "<option value='" + url + "'>" + serverList[url] + "</option>";
 		}
 		$('#server').html(html);
 	</script>

@@ -8,12 +8,12 @@
  */
 var jutil = require("../utils/jutil");
 var equipment = require("../model/equipment");
-//var configData = require("../model/configData");
 var configManager = require("../config/configManager");
 var user = require("../model/user");
 var async = require("async");
 var timeLimitActivityReward = require("../model/timeLimitActivityReward");
 var achievement = require("../model/achievement");
+var yearCard = require("../model/yearCard");
 
 function start(postData, response, query) {
     if (jutil.postCheck(postData,"equipUid") == false) {
@@ -51,15 +51,19 @@ function start(postData, response, query) {
         function(cb){
             user.getUser(userUid,function(err,res) { //获取用户信息
                 if (err || res == null) {
-                    response.echo("equipment.oneTime",jutil.errorInfo("dbError"));
+                    response.echo("equipment.oneTime", jutil.errorInfo("dbError"));
                     return;
                 } else {
                     userData = res;
-                    if(userData["monthCard"] == "fifty"){
-                        cb(null,null);
-                    }else{
-                        cb("monthCardEnough",null);
-                    }
+                    yearCard.isWork(userUid, function (isOk) {
+                        if (userData["monthCard"] == "fifty") {
+                            cb();
+                        } else if (isOk) {
+                            cb();
+                        } else {
+                            cb("monthCardOrYearCardEnough");
+                        }
+                    });
                 }
             });
         },

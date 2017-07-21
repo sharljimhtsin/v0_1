@@ -40,7 +40,7 @@ function reward(userUid, reward, callbackFn, isVip) {
     async.series([
         function (callback) {
             async.eachSeries(reward, function (item, forCb) {
-                mongoStats.dropStats(item["id"], userUid, '127.0.0.1', null, mongoStats.QUARTER_CARD, item['count']);
+                mongoStats.dropStats(item["id"], userUid, '127.0.0.1', null, isNaN(item["id"]) ? mongoStats.YEARCRAD2 : mongoStats.YEARCRAD3, item['count']);
                 modelUtil.addDropItemToDB(item["id"], item["count"], userUid, item["isPatch"], item["level"], function (err, res) {
                     if (err) {
                         forCb(err);
@@ -135,7 +135,7 @@ function rewardToMail(userUid, times, reward, type, callbackFn, language) {
                 rewardStr.push(rewardList[j]["name"] + "*" + rewardList[j]["count"] * times);
                 rewardNameList.push(rewardList[j]["name"]);
                 rewardIdList.push(rewardList[j]["id"]);
-                mongoStats.dropStats(rewardList[j]["id"], userUid, '127.0.0.1', null, mongoStats.QUARTER_CARD, rewardList[j]["count"]);
+                mongoStats.dropStats(rewardList[j]["id"], userUid, '127.0.0.1', null, isNaN(rewardList[j]["id"]) ? mongoStats.YEARCRAD2 : mongoStats.YEARCRAD3, rewardList[j]["count"]);
             }
             if (type == 0) {
                 message = mailConfig["yearCardReward"];

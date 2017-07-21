@@ -5,13 +5,11 @@
  * Time: 下午15:45
  */
 
-var user = require("../model/user");
 var specialTeam = require("../model/specialTeam");
 var item = require("../model/item");
 var configManager = require("../config/configManager");
 var async = require("async");
 var jutil = require("../utils/jutil");
-
 var timeLimitActivityReward = require("../model/timeLimitActivityReward");
 var achievement = require("../model/achievement");
 var stats = require("../model/stats");
@@ -26,11 +24,11 @@ function start(postData, response, query) {
     }
 
     var position = postData["position"];
+    var count = postData["count"] ? postData["count"] : 1;
     var configData = configManager.createConfig(userUid);
     var levelUpCost;
     var levelUpConfig;
     var specialTeamData;
-//    var itemId = position-0>10?(position-0<=20?153501:155401):152401;//特2：特3：特1
     var itemId;
     if(position<=10){
         itemId = 152401;
@@ -43,7 +41,6 @@ function start(postData, response, query) {
     }
 
     var itemData;
-
     var _posId = position; // 位置ID
     var _oldStrong = 0; // 旧等级
     var _newStrong = 0; // 新等级
@@ -62,64 +59,63 @@ function start(postData, response, query) {
                 }
             });
         },
-        function(callbackFn){//根据位置取配置表信息
-            var config = configData.getConfig("specialTeam");
-            if(config["levelUpCost"] == undefined){
-                callbackFn('postError');
-            } else if(config["level"][specialTeamData.level] == undefined){
-                callbackFn('postError');
-            } else if(config["level"][specialTeamData.level]['levelUpProb'][specialTeamData['times']+1] == undefined) {
-                callbackFn('strongest');
-            } else {
-                levelUpCost = config["levelUpCost"];
-                levelUpConfig = config["level"][specialTeamData.level];
-                callbackFn(null);
-            }
-        },
-        function(callbackFn){
-            item.getItem(userUid, itemId,function(err,res){
-                if(err || res == null){
-                    callbackFn("propsNotExist");
-                } else if(res['number'] < levelUpCost){
-                    callbackFn("propsNotExist");
-                } else {
-                    callbackFn(null);
-                }
-            });
-        },
-        function(callbackFn){//计算强化后数据
-            var len = levelUpConfig.randomValue.length;
-            //是否升级
-            var r = Math.floor(Math.random()*len);
-            //specialTeamData['strong'] = levelUpConfig.randomValue[r];//强化后的值
-            specialTeamData['times']++;
-            if(levelUpConfig['levelUpProb'][specialTeamData['times']] != undefined && specialTeamData['strong'] == levelUpConfig.randomValue[r]) {
-                if(levelUpConfig.randomValue[r+1] != undefined)
-                    r++;
-                else if(levelUpConfig.randomValue[r-1] != undefined)
-                    r--;
-            }
-            specialTeamData['strong'] = levelUpConfig.randomValue[r]
-            if(levelUpConfig['levelUpProb'][specialTeamData['times']] != undefined && Math.random() <= levelUpConfig['levelUpProb'][specialTeamData['times']]){
-                //升级
-                specialTeamData['times'] = 0;
-                specialTeamData['level']++;
-            }
-            _newStrong = specialTeamData['strong'];
-            callbackFn(null);
-        },
-        function(callbackFn){//更新勋章
-            item.updateItem(userUid, itemId, 0-levelUpCost, function(err,res){
-                if(err || res == null){
-                    callbackFn("propsNotExist");
-                }else{
-                    itemData = res;
-                    callbackFn(null, null);
-                }
-            });
+        function (callbackFn) {
+            async.timesSeries(count, function (n, nextCb) {
+                async.series([function (oneCb) {//根据位置取配置表信息
+                    var config = configData.getConfig("specialTeam");
+                    if (config["levelUpCost"] == undefined) {
+                        oneCb('postError');
+                    } else if (config["level"][specialTeamData.level] == undefined) {
+                        oneCb('postError');
+                    } else if (config["level"][specialTeamData.level]['levelUpProb'][specialTeamData['times'] + 1] == undefined) {
+                        oneCb('strongest');
+                    } else {
+                        levelUpCost = config["levelUpCost"];
+                        levelUpConfig = config["level"][specialTeamData.level];
+                        oneCb();
+                    }
+                }, function (oneCb) {
+                    item.getItem(userUid, itemId, function (err, res) {
+                        if (err || res == null) {
+                            oneCb("propsNotExist");
+                        } else if (res['number'] < levelUpCost) {
+                            oneCb("propsNotExist");
+                        } else {
+                            oneCb();
+                        }
+                    });
+                }, function (oneCb) {//计算强化后数据
+                    var len = levelUpConfig["randomValue"].length;
+                    //是否升级
+                    var r = Math.floor(Math.random() * len);
+                    specialTeamData['times']++;
+                    if (levelUpConfig['levelUpProb'][specialTeamData['times']] != undefined && specialTeamData['strong'] == levelUpConfig["randomValue"][r]) {
+                        if (levelUpConfig["randomValue"][r + 1] != undefined)
+                            r++;
+                        else if (levelUpConfig["randomValue"][r - 1] != undefined)
+                            r--;
+                    }
+                    specialTeamData['strong'] = levelUpConfig["randomValue"][r];
+                    if (levelUpConfig['levelUpProb'][specialTeamData['times']] != undefined && Math.random() <= levelUpConfig['levelUpProb'][specialTeamData['times']]) {
+                        //升级
+                        specialTeamData['times'] = 0;
+                        specialTeamData['level']++;
+                    }
+                    _newStrong = specialTeamData['strong'];
+                    oneCb();
+                }, function (oneCb) {//更新勋章
+                    item.updateItem(userUid, itemId, 0 - levelUpCost, function (err, res) {
+                        if (err || res == null) {
+                            oneCb("propsNotExist");
+                        } else {
+                            itemData = res;
+                            oneCb();
+                        }
+                    });
+                }], nextCb);
+            }, callbackFn);
         },
         function(callbackFn){//更新特战队数据
-            //specialTeamData['heroUid'] = heroUid;
             specialTeam.updateByPosition(userUid, position, specialTeamData, function (err, res) {
                 //TODO: 根据 position 分支
                 stats.recordWithLevelIndex(position, [mongoStats.specialTeamStrong1, mongoStats.specialTeamStrong2, mongoStats.specialTeamStrong3, mongoStats.specialTeamStrong4, mongoStats.specialTeamStrong5,
@@ -134,13 +130,14 @@ function start(postData, response, query) {
                 callbackFn(err, null);
             });
         }
-    ],function(err,res){
-        if(err){
-            response.echo("specialTeam.strong",jutil.errorInfo(err));
+    ], function (err, res) {
+        if (err) {
+            response.echo("specialTeam.strong", jutil.errorInfo(err));
         } else {
-            achievement.specialTeamLevelUp(userUid, _newStrong, function(){});
-            timeLimitActivityReward.specialTeamLevelUp(userUid, _posId, _oldStrong, _newStrong, function(){
-                response.echo("specialTeam.strong",{'specialTeamData':specialTeamData, 'itemData':itemData});
+            achievement.specialTeamLevelUp(userUid, _newStrong, function () {
+            });
+            timeLimitActivityReward.specialTeamLevelUp(userUid, _posId, _oldStrong, _newStrong, function () {
+                response.echo("specialTeam.strong", {'specialTeamData': specialTeamData, 'itemData': itemData});
             });
         }
     });

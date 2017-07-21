@@ -144,19 +144,8 @@
             "autoDelete": false,
             "confirm": true
         },
-        "exchange_name": "dbzsy_analy_ex_topic_",
+        "exchange_name": "dbz_analy_ex_topic_",
         "routing_key_name": "#log",
-        "queue_name": "dbzsy_analy_que_topic_"
-    },
-    "iosDB": {
-        "mysql": [
-            {
-                "host": "dbztest.gt.com",
-                "user": "admin",
-                "password": "zxw000123",
-                "port": 3306,
-                "database": "dragonballios"
-            }
-        ]
+        "queue_name": "dbz_analy_que_topic_"
     }
 }

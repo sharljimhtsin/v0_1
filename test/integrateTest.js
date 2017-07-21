@@ -9,6 +9,21 @@ var jutil = require("../code/utils/jutil");
 var conn = mysql.createPool({"host": "dbztest.gt.com", "user": "admin", "password": "zxw000123", "port": 3306});
 var mergedDb = "dragongame_10";
 var dbs = ['dragongame_8', 'dragongame_9'];
+var autoIdMap = {
+    "activityConfig": "id",
+    "debris": "id",
+    "freesummon": "id",
+    "heroSoul": "id",
+    "item": "id",
+    "leagueMap": "leagueMapId",
+    "leagueMapAuction": "auctionId",
+    "leagueMapLoot": "lootId",
+    "mail": "id",
+    "map": "id",
+    "payOrder": "id",
+    "serverData": "id",
+    "userGenerate": "id"
+};
 /**
  * achievement,activityConfig,activityData,backpack,bigMap,box,budokai,buyLog,card,cdkeyOwner,compensateReceive,debris,equipment,formation,freesummon,
  * friend,fuse,globalFormation,hero,heroGravity,heroSoul,item,league,leagueDragon,leagueMap,leagueMapAuction,leagueMapLoot,leagueMember,leagueStar,mail,map,
@@ -24,13 +39,21 @@ for (var db in dbs) {
     db = dbs[db];
     for (var tb in tbs) {
         tb = tbs[tb];
+        if (autoIdMap.hasOwnProperty(tb)) {
+            sql = "SELECT MAX(" + autoIdMap[tb] + ") as theId FROM `" + mergedDb + "`.`" + tb + "` where 1=1 OR " + autoIdMap[tb] + "='" + jutil.randomString() + "'";
+            sqls[sql] = "maxId";
+        }
         var sql = "SELECT * FROM `" + db + "`.`" + tb + "`";
         sqls[sql] = tb;
     }
 }
 var keys = Object.keys(sqls);
+var taskLimit = 1000;
+var maxId = 0;
+var isAuto = false;
 async.eachSeries(keys, function (sql, esCb) {
     var data;
+    var tb = sqls[sql];
     console.log(sql);
     async.series([function (cb) {
         conn.query(sql, function (err, res) {
@@ -38,13 +61,25 @@ async.eachSeries(keys, function (sql, esCb) {
             cb(err);
         });
     }, function (cb) {
-        async.eachSeries(data, function (row, eCb) {
-            var tb = sqls[sql];
+        if (tb == "maxId") {
+            maxId = isNaN(parseInt(data[0]["theId"])) ? 0 : parseInt(data[0]["theId"]);
+            isAuto = true;
+            cb("skip");
+        } else {
+            cb();
+        }
+    }, function (cb) {
+        async.eachLimit(data, taskLimit, function (row, eCb) {
+            if (isAuto) {
+                maxId++;
+            }
+            var newId = maxId;
             var insertSql = "INSERT INTO " + mergedDb + "." + tb + " SET ?";
             var insertData = {};
             console.log(insertSql, jutil.nowMillisecond());
             for (var key in row) {
                 if (key == "id" || key == "leagueMapId" || key == "auctionId" || key == "lootId") {
+                    insertData[key] = newId;
                     continue;
                 }
                 if (key == "leagueName") {
@@ -58,11 +93,13 @@ async.eachSeries(keys, function (sql, esCb) {
                 eCb(null, res);
             });
         }, function (err, res) {
+            isAuto = false;
             cb(err, res);
         });
     }, function (cb) {
         var sqlz = ['delete from ' + mergedDb + '.variable where name = "pvpTaskReward";',
             'delete from ' + mergedDb + '.variable where name = "pvpHighest";',
+            'delete from ' + mergedDb + '.variable where name = "redeemPoint";',
             'delete from ' + mergedDb + '.variable where name = "pvpChangeTime";'];
         async.eachSeries(sqlz, function (sql, eCb) {
             console.log(sql, jutil.nowMillisecond());
@@ -73,7 +110,7 @@ async.eachSeries(keys, function (sql, esCb) {
             cb(err, res);
         });
     }], function (err, res) {
-        esCb(err, res);
+        esCb("skip" == err ? null : err, res);
     });
 }, function (err, res) {
     console.log(err, res, "end");

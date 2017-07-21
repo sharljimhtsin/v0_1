@@ -7,7 +7,6 @@
  */
 var fs = require("fs");
 var resolve = require("path").resolve;
-var redis = require("../alien/db/redis");
 var appJSON = {
     "version": "0.0.1",
     "list": {
@@ -76,7 +75,7 @@ var _platformList = {
     "kythaixy": ["kythaixy"],
     "baxi": ["baxi", "baxiA", "baxiios"],
     "saiya": ["meizu", "youku", "lenovo", "i4", "xyzs"],
-    "usa": ["usa", "usaa", "usaa1", "usagp", "usaaoff", "usausa", "usaglobal", "usaaoffIns", "usaazb", "usabzb", "usaczb", "usadzb", "usaezb", "usaaoffnew", "usafzb", "usagzb", "usaagp"],
+    "usa": ["usa", "usaa", "usaa1", "usagp", "usaaoff", "usausa", "usaglobal", "usaaoffIns", "usaazb", "usabzb", "usaczb", "usadzb", "usaezb", "usaaoffnew", "usafzb", "usagzb", "usaagp", "usagpb", "usahzb"],
     "leju": ["ljxyzs", "ljoppo", "ljmi", "ljxiongmao", "lj360", "ljhtc", "ljlenovo", "ljmeizu", "ljguopan", "ljguopana", "ljguopani", "ljhuawei", "ljkuaiyong", "ljxiaomi", "ljyoulu", "ljtbt", "ljjinli", "ljwdj", "ljitools", "ljhaimai", "ljhaimaa", "ljvivo", "ljanzhi"],
     "yuenan": ["yuenan", "yuenanlumi"],
     "ger": ["ger", "gera", "gergp"],
@@ -86,7 +85,8 @@ var _platformList = {
     "rus": ["rus", "rusen"],
     "rusios": ["rusios", "rusiosen"],
     "185": ["a185", "185", "185ios"],
-    "lianyun": ["3733", "cc", "a8", "dm", "damai", "1sdk", "pyw"]
+    "lianyun": ["3733", "cc", "a8", "dm", "damai", "1sdk", "pyw"],
+    "gm": ["gm", "gmios"]
 };
 
 function start(postData, response, query) {

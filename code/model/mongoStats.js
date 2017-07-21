@@ -70,6 +70,7 @@ exports.E_SUMMON_ROLL_3 = 100011;//招募 万
 exports.E_SUMMON_ROLL_10 = 100046;//招募 万
 exports.E_TRAIN_1 = 100012;//培养
 exports.E_TRAIN_10 = 100013;//十次培养
+exports.E_TRAIN_100 = 100013;//百次培养
 exports.E_CARD = 100014;//卡片
 exports.E_ACTIVITY_MAP = 100015;//活动副本
 exports.E_FUND = 100020; // 基金
@@ -904,3 +905,7 @@ exports.FOOLISH5 = 5200004;//节日转盘商店道具获得
 exports.FOOLISH6 = 5200005;//节日转转盘道具获得
 exports.FOOLISH7 = 5200006;//节日转转盘道具消耗
 exports.FOOLISH8 = 5200007;//节日商店兑换消耗
+
+exports.YEARCRAD1 = 5210001;//年卡金币消耗
+exports.YEARCRAD2 = 5210002;//年卡金币获得
+exports.YEARCRAD3 = 5210003;//年卡道具获得

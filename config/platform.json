@@ -374,6 +374,14 @@
     "country": "i",
     "appKey": "9p4vj5GFR9ChvS9d"
   },
+  "usagpb": {
+    "country": "i",
+    "appKey": "9p4vj5GFR9ChvS9d"
+  },
+  "usahzb": {
+    "country": "i",
+    "appKey": "9p4vj5GFR9ChvS9d"
+  },
   "sinawx": {
     "country": "f",
     "sinaCid": 10961003
@@ -773,5 +781,18 @@
     "country": "t",
     "id": "f483f24c",
     "key": "536fbf0986f23125"
+  },
+  "gm": {
+    "country": "u",
+    "SecretKey": "701a237d0q3bb30a0f426759a88f347c1",
+    "AppID": 1000001
+  },
+  "gmios": {
+    "country": "u",
+    "SecretKey": "701a237d0q3bb30a0f426759a88f347c1",
+    "AppID": 1000001
+  },
+  "sanguo": {
+    "country": "r"
   }
 }

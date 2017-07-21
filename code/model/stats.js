@@ -594,7 +594,11 @@ var _platformIdCode = {
     "damai": 162,
     "dm": 163,
     "1sdk": 164,
-    "pyw": 165
+    "pyw": 165,
+    "gm": 166,
+    "gmios": 167,
+    "usagpb": 168,
+    "usahzb": 169
 };
 /**
  *  平台ID码

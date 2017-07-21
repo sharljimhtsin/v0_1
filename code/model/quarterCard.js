@@ -324,6 +324,15 @@ function addRecord(userUid, pay, callbackFn) {
     });
 }
 
+function isWork(userUid, callbackFn) {
+    userVariable.getVariableTime(userUid, 'quarterCardTAB', function (err, res) {
+        if (res != null && res['value'] == "ninety" && res['time'] > jutil.todayTime()) {
+            callbackFn(1);
+        } else {
+            callbackFn(0);
+        }
+    });
+}
 
 exports.reward = reward;
 exports.rewardToMail = rewardToMail;
@@ -332,3 +341,4 @@ exports.getConfig = getConfig;
 exports.getUserData = getUserData;
 exports.setUserData = setUserData;
 exports.addRecord = addRecord;
+exports.isWork = isWork;

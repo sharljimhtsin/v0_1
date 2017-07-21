@@ -776,109 +776,34 @@
                     "reward":[{"id":"150901","count":2320}]
                 },
                 {
-                    "complete":31,
-                    "desc":"Bonus: Poción de Formación*2400",
-                    "reward":[{"id":"150901","count":2400}]
-                },
-                {
-                    "complete":32,
-                    "desc":"Bonus: Poción de Formación*2480",
-                    "reward":[{"id":"150901","count":2480}]
-                },
-                {
-                    "complete":33,
-                    "desc":"Bonus: Poción de Formación*2560",
-                    "reward":[{"id":"150901","count":2560}]
-                },
-                {
-                    "complete":34,
-                    "desc":"Bonus: Poción de Formación*2640",
-                    "reward":[{"id":"150901","count":2640}]
-                },
-                {
                     "complete":35,
-                    "desc":"Bonus: Poción de Formación*2720",
-                    "reward":[{"id":"150901","count":2720}]
-                },
-                {
-                    "complete":36,
-                    "desc":"Bonus: Poción de Formación*2800",
-                    "reward":[{"id":"150901","count":2800}]
-                },
-                {
-                    "complete":37,
-                    "desc":"Bonus: Poción de Formación*2880",
-                    "reward":[{"id":"150901","count":2880}]
-                },
-                {
-                    "complete":38,
-                    "desc":"Bonus: Poción de Formación*2960",
-                    "reward":[{"id":"150901","count":2960}]
-                },
-                {
-                    "complete":39,
-                    "desc":"Bonus: Poción de Formación*3040",
-                    "reward":[{"id":"150901","count":3040}]
+                    "desc":"Bonus: X-Alma*100",
+                    "reward":[{"id":"153401","count":100}]
                 },
                 {
                     "complete":40,
-                    "desc":"Bonus: Poción de Formación*3120",
-                    "reward":[{"id":"150901","count":3120}]
-                },
-                {
-                    "complete":41,
-                    "desc":"Bonus: Poción de Formación*3200",
-                    "reward":[{"id":"150901","count":3200}]
-                },
-                {
-                    "complete":42,
-                    "desc":"Bonus: Poción de Formación*3280",
-                    "reward":[{"id":"150901","count":3280}]
-                },
-                {
-                    "complete":43,
-                    "desc":"Bonus: Poción de Formación*3360",
-                    "reward":[{"id":"150901","count":3360}]
-                },
-                {
-                    "complete":44,
-                    "desc":"Bonus: Poción de Formación*3440",
-                    "reward":[{"id":"150901","count":3440}]
+                    "desc":"Bonus: X-Alma*200",
+                    "reward":[{"id":"153401","count":200}]
                 },
                 {
                     "complete":45,
-                    "desc":"Bonus: Poción de Formación*3520",
-                    "reward":[{"id":"150901","count":3520}]
-                },
-                {
-                    "complete":46,
-                    "desc":"Bonus: Poción de Formación*3600",
-                    "reward":[{"id":"150901","count":3600}]
-                },
-                {
-                    "complete":47,
-                    "desc":"Bonus: Poción de Formación*3680",
-                    "reward":[{"id":"150901","count":3680}]
-                },
-                {
-                    "complete":48,
-                    "desc":"Bonus: Poción de Formación*3760",
-                    "reward":[{"id":"150901","count":3760}]
-                },
-                {
-                    "complete":49,
-                    "desc":"Bonus: Poción de Formación*3840",
-                    "reward":[{"id":"150901","count":3840}]
+                    "desc":"Bonus: X-Alma*300",
+                    "reward":[{"id":"153401","count":300}]
                 },
                 {
                     "complete":50,
-                    "desc":"Bonus: Poción de Formación*3920",
-                    "reward":[{"id":"150901","count":3920}]
+                    "desc":"Bonus: X-Alma*400",
+                    "reward":[{"id":"153401","count":400}]
                 },
                 {
-                    "complete":51,
-                    "desc":"Bonus: Poción de Formación*4000",
-                    "reward":[{"id":"150901","count":4000}]
+                    "complete":55,
+                    "desc":"Bonus: X-Alma*500",
+                    "reward":[{"id":"153401","count":500}]
+                },
+                {
+                    "complete":60,
+                    "desc":"Bonus: X-Alma*600",
+                    "reward":[{"id":"153401","count":600}]
                 }
             ]
         },

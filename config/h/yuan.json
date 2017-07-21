@@ -1,4 +1,4 @@
-{
+ {
 	"yuan":{
 		"160001":{
 			"ID":"160001",
@@ -15475,6 +15475,73 @@
 			"attrType":"defence",
 			"relationIds":[
 				"104120"
+			]
+		},
+		"161682":{
+			"ID":"161682",
+			"type":16,
+			"yuanType":"or",
+			"name":"凛冽护手",
+			"value":"0.26",
+			"attrType":"attack",
+			"relationIds":[
+				"124069"
+			]
+		},
+		"161683":{
+			"ID":"161683",
+			"type":16,
+			"yuanType":"or",
+			"name":"凛冽服饰",
+			"value":"0.22",
+			"attrType":"defence",
+			"relationIds":[
+				"134077"
+			]
+		},
+		"161684":{
+			"ID":"161684",
+			"type":16,
+			"yuanType":"or",
+			"name":"凛冽耳环",
+			"value":"0.23",
+			"attrType":"attack",
+			"relationIds":[
+				"144077"
+			]
+		},
+		"161685":{
+			"ID":"161685",
+			"type":16,
+			"yuanType":"or",
+			"name":"赛亚人玫瑰",
+			"value":"0.21",
+			"attrType":"attack",
+			"relationIds":[
+				"114109"
+			]
+		},
+		"161686":{
+			"ID":"161686",
+			"type":16,
+			"yuanType":"and",
+			"name":"超神激斗",
+			"value":"0.25",
+			"attrType":"defence",
+			"relationIds":[
+				"104119",
+				"104111"
+			]
+		},
+		"161687":{
+			"ID":"161687",
+			"type":16,
+			"yuanType":"and",
+			"name":"再战黑悟空",
+			"value":"0.22",
+			"attrType":"attack",
+			"relationIds":[
+				"104123"
 			]
 		}
 	}

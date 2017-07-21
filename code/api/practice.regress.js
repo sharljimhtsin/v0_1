@@ -7,52 +7,61 @@
 var jutil = require("../utils/jutil");
 var practiceRegress = require("../model/practiceRegress");
 var async = require("async");
-var user = require("../model/user");
 var mongoStats = require("../model/mongoStats");
 var modelUtil = require("../model/modelUtil");
-var activityData = require("../model/activityData");
-var userVariable = require("../model/userVariable");
-var rewardList = [];
+var TAG = "practice.regress";
 
 function start(postData, response, query) {
-    if (jutil.postCheck(postData) == false) {
-        response.echo("practice.regress", jutil.errorInfo("postError"));
-        return false;
-    }
     var userUid = query["userUid"];
     var sTime = 0;
+    var eTime = 0;
+    var key;
+    var reward;
     var currentConfig;//回归活动配置
     var rewardList = [];
     async.series([
         function (cb) {//取配置
             practiceRegress.getConfig(userUid, function (err, res) {
-                if (err) cb(err);
-                else {
-                    sTime = res[0];
-                    currentConfig = res[2];
-                    cb(null);
-                }
-            });
-        },
-        function (cb) {//取状态
-            practiceRegress.getRewardStatus(userUid, sTime, function (err, res) {
-                if (err || res == 0) {
-                    cb("notOldFriend");
-                } else if (res == 2) {//已领取 haveReceive
-                    cb("haveReceive");
+                if (err) {
+                    cb(err);
                 } else {
-                    cb(null);
+                    sTime = res[0];
+                    eTime = res[1];
+                    currentConfig = res[2];
+                    key = currentConfig["key"];
+                    reward = currentConfig["reward"];
+                    cb();
                 }
             });
         },
         function (cb) {
-            async.eachSeries(currentConfig["reward"], function (item, forCb) {
-                mongoStats.dropStats(item["id"], userUid, "127.0.0.1", null, mongoStats.P_REGRESS, item["count"], item["level"], item["isPatch"]);
-                mongoStats.dropStats(item["id"], userUid, "127.0.0.1", null, mongoStats.REGRESS, item["count"], item["level"], item["isPatch"]);
-                modelUtil.addDropItemToDB(item["id"], item["count"], userUid, item["isPatch"], item["level"], function (err, res) {
+            if (sTime <= jutil.now() && eTime >= jutil.now()) {
+                cb();
+            } else {
+                cb("TIME ERROR");
+            }
+        },
+        function (cb) {
+            practiceRegress.checkCondition(userUid, function (err, res) {
+                cb(err ? err : (res ? null : "Deny"));
+            });
+        },
+        function (cb) {//取状态
+            practiceRegress.getRewardStatus(userUid, key, function (err, res) {
+                if (err) {
+                    cb(err);
+                } else if (res == false) {
+                    cb("got yet");
+                } else {
+                    cb();
+                }
+            });
+        },
+        function (cb) {
+            async.eachSeries(reward, function (item, forCb) {
+                modelUtil.addDropItemToDB(item["id"], item["count"], userUid, 0, 1, function (err, res) {
                     if (err) {
                         forCb(err);
-                        console.error(item["id"], item["count"], item["isPatch"], item["level"], err.stack);
                     } else {
                         if (res instanceof Array) {
                             for (var i in res) {
@@ -61,22 +70,23 @@ function start(postData, response, query) {
                         } else {
                             rewardList.push(res);
                         }
-                        forCb(null);
+                        forCb();
+                        mongoStats.dropStats(item["id"], userUid, "127.0.0.1", null, mongoStats.P_REGRESS, item["count"]);
+                        mongoStats.dropStats(item["id"], userUid, "127.0.0.1", null, mongoStats.REGRESS, item["count"]);
                     }
                 });
-            }, function (err, res) {
-                cb(err, res);
-            });
+            }, cb);
         },
         function (cb) {//设置领取状态
-            practiceRegress.setRewardStatus(userUid, cb);
+            practiceRegress.setRewardStatus(userUid, key, cb);
         }
     ], function (err, res) {
         if (err) {
-            response.echo("practice.regress", jutil.errorInfo(err));
+            response.echo(TAG, jutil.errorInfo(err));
         } else {
-            response.echo("practice.regress", {"rewardList": rewardList});
+            response.echo(TAG, {"rewardList": rewardList});
         }
     });
 }
+
 exports.start = start;

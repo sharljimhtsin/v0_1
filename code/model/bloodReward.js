@@ -23,15 +23,15 @@ var gsTabletsUser = require("../model/gsTabletsUser");
 var leagueDragon = require("../model/leagueDragon");
 var reShop = require("../model/practiceRebateShop");
 var bej = require("../model/practiceBejeweled");
-var modelUtil = require("../model/modelUtil");
 var formation = require("../model/formation");
-var user = require("../model/user");
 var lc = require("../model/practiceLimitChoose");
 var intB = require("../model/integralBattle");
 var activityConfig = require("../model/activityConfig");
 var fs = require('fs');
 var mysql = require("../alien/db/mysql");
 var pvpTopCross = require("../model/pvpTopCross");
+var pyramid = require("../model/pyramid");
+var mongoStats = require("../model/mongoStats");
 
 cron.addCron(0, 0, function (country, h, m, callbackFn) {
     login.getServerCitys(country, 0, function (err, res) {
@@ -300,6 +300,104 @@ cron.addCron(12, 11, function (country, h, m, callbackFn) {
 cron.addCron(0, 1, function (country, h, m, callbackFn) {
     gsTabletsUser.tabletsTaskDailyReward(country, callbackFn);
 });
+
+// 定时任务：发送排行榜奖励邮件
+cron.addCron(0, 11, function (country, h, m, callbackFn) {
+    login.getServerCitys(country, 0, function (err, res) {
+        async.eachSeries(res, function (city, cb) {
+            pyramidReward(country, city, true, cb);
+        }, function () {
+            console.log("pyramidCron @ 0, 11");
+            callbackFn();
+        });
+    });
+});
+
+// 定时任务：发送排行榜奖励邮件
+cron.addCron(0, 12, function (country, h, m, callbackFn) {
+    login.getServerCitys(country, 0, function (err, res) {
+        async.eachSeries(res, function (city, cb) {
+            pyramidReward(country, city, false, cb);
+        }, function () {
+            console.log("pyramidCron @ 0, 12");
+            callbackFn();
+        });
+    });
+});
+
+//神龙殿 卡林塔：活动结束 发送奖励邮件
+function pyramidReward(country, city, isIngot, callbackFn) {
+    var fakeUserUid = bitUtil.createUserUid(country, city, 1);
+    var isAll = 0;
+    var key = "";
+    var currentConfig;
+    var sTime;
+    var eTime;
+    var rankList = [];
+    var TAG = pyramid.getName(isIngot);
+    var rDB = redis.domain(country, city);
+    var getKey = "cronRun:pyramidReward" + ":" + TAG + ":" + jutil.day();
+    rDB.s(getKey).setnx(jutil.now(), function (err, res) {
+        if (err || res == 0) {
+            callbackFn();
+        } else {
+            async.series([function (cb) {
+                activityConfig.getConfig(fakeUserUid, TAG, function (err, res) {
+                    if (err) {
+                        cb(err);
+                    } else {
+                        sTime = res[4];
+                        eTime = res[5];
+                        currentConfig = res[2];
+                        isAll = parseInt(currentConfig["isAll"]);
+                        key = currentConfig["key"];
+                        var time = eTime - 86400;
+                        if (jutil.now() >= time && jutil.now() <= eTime) {
+                            cb();
+                        } else {
+                            cb("timeNotMatch");
+                        }
+                    }
+                });
+            }, function (cb) {
+                var rk = isAll ? (isAll == 2 ? "loginFromUserUid" : "difficulty") : "domain";//210--跨服|全平台|单服
+                redis[rk](fakeUserUid).s(getKey).setnx(jutil.now(), function (err, res) {
+                    if (err || res == 0) {
+                        cb("SKIP");
+                    } else {
+                        cb();
+                    }
+                });
+            }, function (cb) {
+                pyramid.getRankList(fakeUserUid, isAll, key, currentConfig, function (err, res) {
+                    rankList = res;
+                    cb(err);
+                });
+            }, function (cb) {//发送邮件奖励
+                async.eachSeries(rankList, function (item, eCb) {
+                    var userUid = item["userUid"];
+                    var reward = item["reward"];
+                    var mailStr = isIngot ? "Karin-Sama Tower Ranking Reward" : "Shenron Tample Ranking Reward";
+                    if (reward.length > 0) {
+                        mail.addMail(userUid, -1, mailStr, JSON.stringify(reward), "156003", function (err, res) {
+                            if (!err) {
+                                for (var item in reward) {
+                                    item = reward[item];
+                                    mongoStats.dropStats(item["id"], userUid, '127.0.0.1', null, mongoStats.E_INTEBATTLE7, item["count"]);
+                                }
+                            }
+                            eCb();
+                        });
+                    } else {
+                        eCb();
+                    }
+                }, cb);
+            }], function () {
+                callbackFn();
+            });
+        }
+    });
+}
 
 // 定时任务：擂台赛积分战 每周任务：发送排行榜奖励邮件
 cron.addCron(0, 10, function (country, h, m, callbackFn) {

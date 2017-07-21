@@ -15,7 +15,7 @@
 		"reviveBuffCostAdd":5,
 		"reviveBuffMaxCost":50,
 		"reviveBuffAttackAdd":0.2,
-		"openHours":12,
+		"openHours":21,
 		"openMinutes":30,
 		"bossName":"比鲁斯",
 		"bossIcon":"104041",

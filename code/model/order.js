@@ -35,6 +35,7 @@ var yearCard = require("../model/yearCard");
 var quarterCard = require("../model/quarterCard");
 var monthCard = require("../model/monthCard");
 var foolishWheel = require("../model/foolishWheel");
+var pyramid = require("../model/pyramid");
 
 function addOrder(orderNo, userId, productId, callbackFn, order_id) {
     order_id = order_id == undefined ? '' : order_id;
@@ -118,7 +119,7 @@ function updateOrder(userUid, orderNo, platformId, uin, goodsCount, orderMoney, 
                     if (res1) {
                         orderStatus = res1["status"];
                         var gId = res1["productId"];
-                        if (["ljyoulu", "youku", "meizu", "i4", "ljxiaomi", "ljhuawei", "lj360", "ljhtc", "ljguopana", "ljguopani", "ljxiongmao", "baxi", "yuenan", "ger", "fra", "esp", "ara", "gera", "fraa", "espa", "araa", "RayCreator", "yuenanlumi", "yuenanlumiAlt", "yuenanlumiCus", "MOL", "MyCard", "a185", "a8", "3733", "cc", "185", "185ios", "dm", "damai", "1sdk", "pyw"].indexOf(platformId) >= 0) {
+                        if (["ljyoulu", "youku", "meizu", "i4", "ljxiaomi", "ljhuawei", "lj360", "ljhtc", "ljguopana", "ljguopani", "ljxiongmao", "baxi", "yuenan", "ger", "fra", "esp", "ara", "gera", "fraa", "espa", "araa", "RayCreator", "yuenanlumi", "yuenanlumiAlt", "yuenanlumiCus", "MOL", "MyCard", "a185", "a8", "3733", "cc", "185", "185ios", "dm", "damai", "1sdk", "pyw", "gm", "gmios", "usagpb", "usaagp", "usagzb", "usafzb", "usahzb"].indexOf(platformId) >= 0) {
                             goodsId = gId;
                         }
                         if (gId != goodsId && ingot == undefined)//购买的产品id不一致 如果是kingnet的话会传ingot参数 没有goodsId
@@ -362,8 +363,10 @@ function updateOrder(userUid, orderNo, platformId, uin, goodsCount, orderMoney, 
                         var baseAmount = goodsConfig["getImegga"] + goodsConfig["getMoreImegga"];
                         var configOrderMoney = goodsConfig["payMoney"];
                         if (parseFloat(configOrderMoney) != parseFloat(orderMoney)) {
-                            baseAmount = orderMoney * 10;
-                            chargeBaseAmount = baseAmount;
+                            cb("amount to payMoney error");
+                            return;
+                            //baseAmount = orderMoney * 10;
+                            //chargeBaseAmount = baseAmount;
                         }
                     }
                 }
@@ -914,21 +917,47 @@ function updateOrder(userUid, orderNo, platformId, uin, goodsCount, orderMoney, 
                 foolishWheel.payWithReward(userUid, singleIngot, function (err, res) {
                     if (err) {
                         console.log("愚人节转盘活动充值错误！");
-                        cb();
                     } else {
                         console.log("更新愚人节转盘活动充值成功!");
-                        cb();
                     }
                 });
+                pyramid.payWithReward(userUid, singleIngot, function (err, res) {
+                    if (err) {
+                        console.log("神龙殿活动充值错误！");
+                    } else {
+                        console.log("更新神龙殿活动充值成功!");
+                    }
+                });
+                cb();
             } else {
                 cb();
             }
         },
         function(cb) {//更新玩家充值记录
             if (orderStatus != 1) {
-                monthCard.isWork(userUid, function (err, res, obj) {
-                    if (res) {
-                        var cumulativePay = obj["cumulativePay"] - 0;
+                var noMonthCard = false;
+                var hasYearCard = false;
+                var hasQuarterCard = false;
+                var userData;
+                async.series([function (cardCb) {
+                    monthCard.isWork(userUid, function (err, res, obj) {
+                        noMonthCard = res;
+                        userData = obj;
+                        cardCb();
+                    });
+                }, function (cardCb) {
+                    yearCard.isWork(userUid, function (isAva) {
+                        hasYearCard = isAva;
+                        cardCb();
+                    });
+                }, function (cardCb) {
+                    quarterCard.isWork(userUid, function (isAva) {
+                        hasQuarterCard = isAva;
+                        cardCb();
+                    })
+                }], function () {
+                    if (noMonthCard || !hasYearCard || !hasQuarterCard) {
+                        var cumulativePay = userData["cumulativePay"] - 0;
                         var newCumulativePay = parseInt((cumulativePay + parseFloat(orderMoney)) * 100) / 100;
                         var newUserData = {"cumulativePay": newCumulativePay};
                         user.updateUser(userUid, newUserData, function (err, res) {
@@ -936,15 +965,15 @@ function updateOrder(userUid, orderNo, platformId, uin, goodsCount, orderMoney, 
                                 cb(err);
                             } else {
                                 console.log("updateUser啦！！！！");
-                                cb(null);
+                                cb();
                             }
                         });
                     } else {
-                        cb(null);
+                        cb();
                     }
                 });
             } else {
-                cb(null);
+                cb();
             }
         },
         function(cb) {//更新订单状态

@@ -80,7 +80,7 @@ function start(postData, response, query) {
     }, function (cb) {//判断是否已经拥有月卡
         if (userData["ingot"] < yearCardConfig["ingot"]) {//ingot不足购买当前种类月卡
             cb('ingotNotEnough');
-        } else if (userCumulativePay < yearCardConfig["payAll"]) {
+        } else if (userCumulativePay < yearCardConfig["payAll"] || userData["cumulativePay"] < yearCardConfig["payAll"]) {
             cb('needMoreRecharge');
         } else {
             userCumulativePay = userData["cumulativePay"] - yearCardConfig["payAll"];
@@ -102,13 +102,13 @@ function start(postData, response, query) {
             if (res) {
                 returnData["userData"] = {'ingot': userData["ingot"], 'cumulativePay': userCumulativePay};
             } else {
-                returnData["userData"] = {'ingot': userData["ingot"]};
+                returnData["userData"] = {'ingot': userData["ingot"], 'cumulativePay': userCumulativePay};
             }
             user.updateUser(userUid, returnData["userData"], function (err, res) {
                 if (err)
                     cb("dbError");
                 else {//統計累消
-                    mongoStats.expendStats("ingot", userUid, '127.0.0.1', userData, mongoStats.E_QUARTERCARD, yearCardConfig["ingot"]);
+                    mongoStats.expendStats("ingot", userUid, '127.0.0.1', userData, mongoStats.YEARCRAD1, yearCardConfig["ingot"]);
                     cb();
                 }
             });

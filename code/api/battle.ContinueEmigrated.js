@@ -138,12 +138,13 @@ function start(postData, response, query) {
             });
         }],
         "updateDb": ["judgeCanFight", "calculateReward", function (cb) {//更新数据库
-            userUpdateData["exp"] = (userData["exp"] - 0)
+            userUpdateData["exp"] = (userData["exp"] - 0);
             userUpdateData["gold"] = (userData["gold"] - 0);
             for (var i = 0; i < mapReward.length; i++) {
                 var itemReward = mapReward[i];
                 userUpdateData["exp"] += (itemReward["userData"]["exp"] - 0);
                 userUpdateData["gold"] += (itemReward["userData"]["gold"] - 0);
+                mongoStats.dropStats("gold", userData["userUid"], '127.0.0.1', userData, mongoStats.BATTLE_PVES, itemReward["userData"]["gold"]);
             }
             returnData["updateUser"] = userUpdateData;
             returnData["mapUpdate"] = mapUpdateData;

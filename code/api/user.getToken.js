@@ -79,6 +79,8 @@ function start(postData,response,query) {
         case "damai":
         case "1sdk":
         case "pyw":
+        case "gm":
+        case "gmios":
             checkFn = require("../controller/uc").check;
             break;
         case "uc":
@@ -285,7 +287,7 @@ function start(postData,response,query) {
                     if (["kingnetenglishios", "kingnetenglishiosoff", "kingnetenglishoff", "kingnetly", "kyxyzs", "gnetop", "kyeniosly", "kingnetenglishiosoffthai"].indexOf(platformId) != -1) {
                         platformId = "kingnetenglish";
                     }
-                    if (["usaa", "usaaoff", "usaa1", "usagp", "usausa", "usaglobal", "usaaoffIns", "usaazb", "usabzb", "usaczb", "usadzb", "usaezb", "usaaoffnew", "usafzb", "usagzb", "usaagp"].indexOf(platformId) != -1) {
+                    if (["usaa", "usaaoff", "usaa1", "usagp", "usausa", "usaglobal", "usaaoffIns", "usaazb", "usabzb", "usaczb", "usadzb", "usaezb", "usaaoffnew", "usafzb", "usagzb", "usaagp", "usagpb", "usahzb"].indexOf(platformId) != -1) {
                         platformId = "usa";
                     }
                     if (["yuenan", "yuenanlumi"].indexOf(platformId) != -1) {
@@ -293,6 +295,9 @@ function start(postData,response,query) {
                     }
                     if (["185", "185ios"].indexOf(platformId) != -1) {
                         platformId = "185";
+                    }
+                    if (["gm", "gmios"].indexOf(platformId) != -1) {
+                        platformId = "gm";
                     }
                     cb();
                 }
@@ -354,6 +359,9 @@ function start(postData,response,query) {
                 var users = [];
                 async.eachSeries(gameUserUid, function (item, eCb) {
                     user.getUser(item, function (err, res) {
+                        if (!res) {
+                            res = {"userUid": item, "userName": "unknown"};
+                        }
                         res["server"] = bitUtil.parseUserUid(res["userUid"], true)[1];
                         users.push(res);
                         eCb(err);
@@ -366,33 +374,16 @@ function start(postData,response,query) {
                 cb();
             }
         },
-        function(cb){
-            userVariable.getVariableTime(gameUserUid,"loginLog",function(err,res){
-                if(err)cb(err);
-                else{
-                    if(res == null||res["time"] == 0||res["time"] == undefined){
-                        isTomorrow = jutil.now();
-                    }else{
-                        isTomorrow = res["time"];
-                    }
-                    practiceRegress.setLastLoginTime(gameUserUid,isTomorrow);
-                    practiceRegress.regressFresh(gameUserUid,cb);
-                }
-            });
+        function (cb) {
+            practiceRegress.setLastLoginTime(gameUserUid, jutil.todayTime(), cb);
         },
-        function (cb) { //记录每天第一次登录的时间，并返回给前端
-            cb();
-            //TODO 与回归活动是否冲突
-            //userVariable.setVariableTime(gameUserUid,"loginLog",1,isTomorrow,cb);
-        },
-        function(cb) { //取token
-            userToken.getToken(gameUserUid,function(err,res) {
+        function (cb) { //取token
+            userToken.getToken(gameUserUid, function (err, res) {
                 if (err) {
                     cb("dbError");
-                    console.error("getToken:getToken", err.stack);
                 } else {
                     gameUserToken = res;
-                    cb(null);
+                    cb();
                 }
             });
         },
@@ -402,7 +393,7 @@ function start(postData,response,query) {
         function(cb) {
             login.getStopAccountList(mCountry, serverId, function(err, res){
                 userUidList = res;
-                cb(null);
+                cb();
             });
         },
         function(cb) { // 记录用户系统语言
@@ -416,14 +407,14 @@ function start(postData,response,query) {
             var country = bitUtil.parseUserUid(gameUserUid)[0];
             var rDB = redis.login(country);
             rDB.s("package:"+gameUserUid).setex(604800, query["packet"],function(err,res){
-                cb(null);
+                cb();
             });
         }
     ], function(err) {
         if (err) {
             response.echo("user.getToken", jutil.errorInfo(err));
         } else {
-            var heroList = [104088, 104084, 104088, 104084, 104085, 104083, 104100, 104101, 104102, 104103, 104089, 104090, 104091, 104092, 104093, 104094, 104095, 104096, 104110, 104111, 104108, 104109];
+            var heroList = [104088, 104084, 104088, 104084, 104085, 104083, 104100, 104101, 104102, 104103, 104089, 104090, 104091, 104092, 104093, 104094, 104095, 104096, 104110, 104111, 104108, 104109, 104117, 104118, 104119, 104122, 104115, 104116];
             hero.isOwn(gameUserUid, heroList, function (err, res) {
                 if (err || res == null || res.length == 0) {
                     //do nothing

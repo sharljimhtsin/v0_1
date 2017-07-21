@@ -116,7 +116,8 @@ var testRun = {
         "o": "node /data/node/dev/v0_1/test/tool/fenli.js YUENAN /data/htdocs/src/yuenan/ /data/svnCode/code/",
         "r": "node /data/node/dev/v0_1/test/tool/fenli.js SANGUO /data/htdocs/src/sanguo/ /data/svnCode/code/",
         "s": "node /data/node/dev/v0_1/test/tool/fenli.js 185 /data/htdocs/src/185/ /data/svnCode/code/",
-        "t": "node /data/node/dev/v0_1/test/tool/fenli.js LIANYUN /data/htdocs/src/lianyun/ /data/svnCode/code/"
+        "t": "node /data/node/dev/v0_1/test/tool/fenli.js LIANYUN /data/htdocs/src/lianyun/ /data/svnCode/code/",
+        "u": "node /data/node/dev/v0_1/test/tool/fenli.js GM /data/htdocs/src/gm/ /data/svnCode/code/"
     },
     "codepacket": {
         "c": "node /data/node/dev/v0_1/test/tool/dabao.js CHS /data/htdocs/packet/p91/ /data/svnCode/code/",
@@ -141,8 +142,8 @@ var testRun = {
         "o": "node /data/node/dev/v0_1/test/tool/dabao.js YUENAN /data/htdocs/packet/yuenan/ /data/svnCode/code/",
         "r": "node /data/node/dev/v0_1/test/tool/dabao.js SANGUO /data/htdocs/packet/sanguo/ /data/svnCode/code/",
         "s": "node /data/node/dev/v0_1/test/tool/dabao.js 185 /data/htdocs/packet/185/ /data/svnCode/code/",
-        "t": "node /data/node/dev/v0_1/test/tool/dabao.js LIANYUN /data/htdocs/packet/lianyun/ /data/svnCode/code/"
-
+        "t": "node /data/node/dev/v0_1/test/tool/dabao.js LIANYUN /data/htdocs/packet/lianyun/ /data/svnCode/code/",
+        "u": "node /data/node/dev/v0_1/test/tool/dabao.js GM /data/htdocs/packet/gm/ /data/svnCode/code/"
     },
     "overwritenode": {
         "c": "rsync -aq --exclude-from=/data/node/dev/v0_1/test/tool/rsync.exclude /data/svnCode/node/v0_1/ /data/node/p91/v0_1/",
@@ -160,7 +161,8 @@ var testRun = {
         "o": "rsync -aq --exclude-from=/data/node/dev/v0_1/test/tool/rsync.exclude /data/svnCode/node/v0_1/ /data/node/yuenan/v0_1/",
         "r": "rsync -aq --exclude-from=/data/node/dev/v0_1/test/tool/rsync.exclude /data/svnCode/node/v0_1/ /data/node/sanguo/v0_1/",
         "s": "rsync -aq --exclude-from=/data/node/dev/v0_1/test/tool/rsync.exclude /data/svnCode/node/v0_1/ /data/node/185/v0_1/",
-        "t": "rsync -aq --exclude-from=/data/node/dev/v0_1/test/tool/rsync.exclude /data/svnCode/node/v0_1/ /data/node/lianyun/v0_1/"
+        "t": "rsync -aq --exclude-from=/data/node/dev/v0_1/test/tool/rsync.exclude /data/svnCode/node/v0_1/ /data/node/lianyun/v0_1/",
+        "u": "rsync -aq --exclude-from=/data/node/dev/v0_1/test/tool/rsync.exclude /data/svnCode/node/v0_1/ /data/node/gm/v0_1/"
     },
     "publishcode": {
         "c": "sh /data/shell/rsync_p91_dragonballsrc",
@@ -185,7 +187,8 @@ var testRun = {
         "o": "sh /data/shell/rsync_yuenan_dragonballsrc",
         "r": "sh /data/shell/rsync_sanguo_dragonballsrc",
         "s": "sh /data/shell/rsync_185_dragonballsrc",
-        "t": "sh /data/shell/rsync_lianyun_dragonballsrc"
+        "t": "sh /data/shell/rsync_lianyun_dragonballsrc",
+        "u": "sh /data/shell/rsync_gm_dragonballsrc"
     },
     "publishnode": {
         "c": "sh /data/shell/rsync_p91_nodesrc",
@@ -207,7 +210,8 @@ var testRun = {
         "o": "sh /data/shell/rsync_yuenan_nodesrc",
         "r": "sh /data/shell/rsync_sanguo_nodesrc",
         "s": "sh /data/shell/rsync_185_nodesrc",
-        "t": "sh /data/shell/rsync_lianyun_nodesrc"
+        "t": "sh /data/shell/rsync_lianyun_nodesrc",
+        "u": "sh /data/shell/rsync_gm_nodesrc"
     },
     "noderestart": {
         "c": "sh /data/node/p91/appctl.sh restart",
@@ -225,7 +229,8 @@ var testRun = {
         "o": "sh /data/node/yuenan/appctl.sh restart",
         "r": "sh /data/node/sanguo/appctl.sh restart",
         "s": "sh /data/node/185/appctl.sh restart",
-        "t": "sh /data/node/lianyun/appctl.sh restart"
+        "t": "sh /data/node/lianyun/appctl.sh restart",
+        "u": "sh /data/node/gm/appctl.sh restart"
     },
     "versiondev": {
         "c": "node /data/node/dev/v0_1/test/tool/version.js dev p91",
@@ -250,7 +255,8 @@ var testRun = {
         "o": "node /data/node/dev/v0_1/test/tool/version.js dev yuenan",
         "r": "node /data/node/dev/v0_1/test/tool/version.js dev sanguo",
         "s": "node /data/node/dev/v0_1/test/tool/version.js dev 185",
-        "t": "node /data/node/dev/v0_1/test/tool/version.js dev lianyun"
+        "t": "node /data/node/dev/v0_1/test/tool/version.js dev lianyun",
+        "u": "node /data/node/dev/v0_1/test/tool/version.js dev gm"
     },
     "versiontest": {
         "c": "node /data/node/dev/v0_1/test/tool/version.js p91 p91_test p91",
@@ -275,7 +281,8 @@ var testRun = {
         "o": "node /data/node/dev/v0_1/test/tool/version.js yuenan yuenan_test yuenan",
         "r": "node /data/node/dev/v0_1/test/tool/version.js sanguo sanguo_test sanguo",
         "s": "node /data/node/dev/v0_1/test/tool/version.js 185 185_test 185",
-        "t": "node /data/node/dev/v0_1/test/tool/version.js lianyun lianyun_test lianyun"
+        "t": "node /data/node/dev/v0_1/test/tool/version.js lianyun lianyun_test lianyun",
+        "u": "node /data/node/dev/v0_1/test/tool/version.js gm gm_test gm"
     },
     "versionline": {
         "c": "sh /data/node/dev/v0_1/test/tool/version.js p91 p91 p91",
@@ -300,7 +307,8 @@ var testRun = {
         "o": "node /data/node/dev/v0_1/test/tool/version.js yuenan yuenan yuenan",
         "r": "node /data/node/dev/v0_1/test/tool/version.js sanguo sanguo sanguo",
         "s": "node /data/node/dev/v0_1/test/tool/version.js 185 185 185",
-        "t": "node /data/node/dev/v0_1/test/tool/version.js lianyun lianyun lianyun"
+        "t": "node /data/node/dev/v0_1/test/tool/version.js lianyun lianyun lianyun",
+        "u": "node /data/node/dev/v0_1/test/tool/version.js gm gm gm"
     },
     "doalltest": "svncodeup,codepacket,versiontest,svnnodeup,overwritenode,noderestart",
     "doallline": "",
@@ -366,7 +374,8 @@ var nodePath = {
     "o": "yuenan",
     "r": "sanguo",
     "s": "185",
-    "t": "lianyun"
+    "t": "lianyun",
+    "u": "gm"
 };
 
 var codePath = {
@@ -394,7 +403,8 @@ var codePath = {
     "o": "yuenan",
     "r": "sanguo",
     "s": "185",
-    "t": "lianyun"
+    "t": "lianyun",
+    "u": "gm"
 };
 
 var version = '';

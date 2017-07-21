@@ -346,13 +346,14 @@ function start(postData, response, query) {
             async.series([
                 function (callback) {       //更新玩家信息
                     user.updateUser(userUid, userUpdate, function (err, res) {
+                        mongoStats.dropStats("gold", userUid, "127.0.0.1", userData, mongoStats.BATTLE_PVE, gold);
                         if (err) {
                             callback(err);
                         } else {
                             returnData["updateUser"] = userUpdate;
                             callback(null);
                         }
-                    })
+                    });
                 },
                 function (callback) {       //更新技能信息
                     battleModel.upDataSkillInfo(updateSkillTeam, userUid, function (err, res) {
