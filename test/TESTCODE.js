@@ -239,6 +239,17 @@ var bList = {
   "card6": 0
  }
 };
+
+console.log(bitUtil.parseUserUid(39527126752));
+
+var str = JSON.stringify(bList);
+var i = str.lastIndexOf("}");
+var str1 = str.substring(0,i+1);
+var str2 = str.substr(0,i+1);
+console.log(str);
+console.log(str1);
+console.log(str2);
+
 var aaa = 1;
 switch (aaa.toString()) {
  case "0":

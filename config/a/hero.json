@@ -5094,7 +5094,7 @@
 		"104127":{
 			"ID":"104127",
 			"name":"莫纳卡",
-			"des":"The morst powerful fighter in the universe,haha",
+			"des":"莫纳卡受第7宇宙破坏神比鲁斯之邀，和孙悟空、贝吉塔、比克、布欧组成五人战队，与第6宇宙开展5VS5大战",
 			"type":10,
 			"atlasShow":0,
 			"talentSkill":"114004",
@@ -5124,8 +5124,8 @@
 			"potential":0,
 			"potentialAdd":20, 
 			"yuan":[
-				"160124",
-				"160129"
+				"161688",
+				"161689"
 			]
 		},
 		"104128":{

@@ -157,6 +157,11 @@ function version(isTest, p, file, isHttps) {
         var tag = attachUpdateTag(p);
         if (tag[0]) {
             jsonObj["version"] = tag[1]["version"];
+            jsonObj["list"]["configlist"]["version"] = tag[1]["version"];
+            jsonObj["list"]["material"]["version"] = tag[1]["version"];
+            jsonObj["list"]["oui"]["version"] = tag[1]["version"];
+            jsonObj["list"]["scripts"]["version"] = tag[1]["version"];
+            jsonObj["list"]["resources"]["version"] = tag[1]["version"];
             jsonObj["isView"] = tag[1]["tag"];
         }
         echoString = JSON.stringify(jsonObj, null, 2);

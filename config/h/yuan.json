@@ -1,4 +1,4 @@
- {
+{
 	"yuan":{
 		"160001":{
 			"ID":"160001",
@@ -15542,6 +15542,28 @@
 			"attrType":"attack",
 			"relationIds":[
 				"104123"
+			]
+		},
+		"161688":{
+			"ID":"161688",
+			"type":16,
+			"yuanType":"and",
+			"name":"Top Finals",
+			"value":"0.45",
+			"attrType":"spirit",
+			"relationIds":[
+				"104125"
+			]
+		},
+		"161689":{
+			"ID":"161689",
+			"type":16,
+			"yuanType":"and",
+			"name":"Inseperable",
+			"value":"0.45",
+			"attrType":"spirit",
+			"relationIds":[
+				"104121"
 			]
 		}
 	}

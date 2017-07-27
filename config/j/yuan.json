@@ -15543,6 +15543,28 @@
 			"relationIds":[
 				"104123"
 			]
+		},
+		"161688":{
+			"ID":"161688",
+			"type":16,
+			"yuanType":"and",
+			"name":"ปะทะมาร",
+			"value":"0.45",
+			"attrType":"spirit",
+			"relationIds":[
+				"104125"
+			]
+		},
+		"161689":{
+			"ID":"161689",
+			"type":16,
+			"yuanType":"and",
+			"name":"ฝีมือสูสี",
+			"value":"0.45",
+			"attrType":"spirit",
+			"relationIds":[
+				"104121"
+			]
 		}
 	}
 }

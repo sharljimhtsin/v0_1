@@ -26,14 +26,12 @@ function start(postData, response, query) {
     var itemCount = postData["itemCount"] ? postData["itemCount"] : 1;
 
     var configData = configManager.createConfig(userUid);
-//console.log(userUid,teachUid,heroUid,itemCount,"23423423");
     var userLevel = 0;
     var gTeachLevel = 1;
     var gHeroData = null;
     var gNewHeroData = null;
     var addExp = 0;
     var updateItem = [];
-    var hExp = 0;
     var itemConfig = configData.getConfig("item");
     var recItem = itemConfig[teachUid];
     var maxExp = 0;
