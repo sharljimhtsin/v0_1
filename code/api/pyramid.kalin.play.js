@@ -9,6 +9,8 @@ var item = require("../model/item");
 var user = require("../model/user");
 var forgeData = require("../model/forgeData");
 var modelUtil = require("../model/modelUtil");
+var mongoStats = require("../model/mongoStats");
+var stats = require("../model/stats");
 var listApi = require("../api/pyramid.kalin.achievement.list");
 var TAG = "pyramid.kalin.play";
 
@@ -27,6 +29,9 @@ function start(postData, response, query) {
     var costItemNumber = "";
     var discount = playCount == 10 ? 0.9 : 1;
     var costResult = {};
+    var rankLine;
+    var isAll;
+    var key;
     async.series([function (cb) {
         pyramid.getConfig(userUid, isIngot, function (err, res) {
             if (err) {
@@ -71,6 +76,7 @@ function start(postData, response, query) {
                     costResult["ingot"] = ingotCost;
                     var newUser = {};
                     newUser[playCost["id"]] = userIngot + ingotCost;
+                    mongoStats.expendStats(playCost["id"], userUid, "", null, mongoStats.PYRAMID1, ingotCost * -1);
                     user.updateUser(userUid, newUser, costCb);
                 } else {
                     costCb("ingotNotEnough");
@@ -81,6 +87,7 @@ function start(postData, response, query) {
             async.series([function (costCb) {
                 pyramid.checkIfEnough(userUid, costObj, function (err, isOK) {
                     if (isOK) {
+                        mongoStats.expendStats(costObj["id"], userUid, "", null, mongoStats.PYRAMID1, costObj["count"]);
                         costResult["ingot"] = costObj["count"];
                         costCb(err);
                     } else {
@@ -141,6 +148,16 @@ function start(postData, response, query) {
     }, function (cb) {
         returnData["rewardList"] = [];
         async.eachSeries(returnData["reward"], function (item, eCb) {
+            switch (item["id"]) {
+                case "ingot":
+                    mongoStats.dropStats(item["id"], userUid, "127.0.0.1", null, mongoStats.PYRAMID3, item["count"]);
+                    break;
+                case "gold":
+                    mongoStats.dropStats(item["id"], userUid, "127.0.0.1", null, mongoStats.PYRAMID9, item["count"]);
+                    break;
+                default:
+                    mongoStats.dropStats(item["id"], userUid, "127.0.0.1", null, mongoStats.PYRAMID15, item["count"]);
+            }
             modelUtil.addDropItemToDB(item["id"], item["count"], userUid, false, 1, function (err, res) {
                 if (err) {
                     eCb(err);
@@ -152,15 +169,14 @@ function start(postData, response, query) {
                     } else {
                         returnData["rewardList"].push(res);
                     }
-                    //mongoStats.dropStats(item["id"], userUid, "127.0.0.1", null, mongoStats.FOOLISH6, item["count"]);
                     eCb();
                 }
             });
         }, cb);
     }, function (cb) {
-        var rankLine = currentConfig["rankLine"];
-        var isAll = parseInt(currentConfig["isAll"]);
-        var key = currentConfig["key"];
+        rankLine = currentConfig["rankLine"];
+        isAll = parseInt(currentConfig["isAll"]);
+        key = currentConfig["key"];
         pyramid.getConfig(userUid, !isIngot, function (err, res) {
             if (err) {
                 pyramid.addToRank(userUid, userData["score"], rankLine, eTime, isAll, key, cb);
@@ -169,6 +185,11 @@ function start(postData, response, query) {
                     pyramid.addToRank(userUid, userData["score"] + res["score"], rankLine, eTime, isAll, key, cb);
                 });
             }
+        });
+    }, function (cb) {
+        pyramid.getRankList(userUid, isAll, key, currentConfig, function (err, res) {
+            returnData["rankList"] = res;
+            cb(err);
         });
     }, function (cb) {
         var rs = new Response();
@@ -182,6 +203,11 @@ function start(postData, response, query) {
             cb(err);
         });
     }], function (err, res) {
+        if (playCount == 1) {
+            stats.events(userUid, "127.0.0.1", null, mongoStats.PYRAMID23);
+        } else {
+            stats.events(userUid, "127.0.0.1", null, mongoStats.PYRAMID24);
+        }
         echo(err, returnData);
     });
 

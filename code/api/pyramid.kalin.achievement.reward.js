@@ -6,6 +6,8 @@ var jutil = require("../utils/jutil");
 var async = require("async");
 var pyramid = require("../model/pyramid");
 var modelUtil = require("../model/modelUtil");
+var mongoStats = require("../model/mongoStats");
+var stats = require("../model/stats");
 var TAG = "pyramid.kalin.achievement.reward";
 
 function start(postData, response, query) {
@@ -62,6 +64,16 @@ function start(postData, response, query) {
         pyramid.setPyramidData(userUid, sTime, userData, isIngot, cb);
     }, function (cb) {
         async.eachSeries(returnData["reward"], function (item, eCb) {
+            switch (item["id"]) {
+                case "ingot":
+                    mongoStats.dropStats(item["id"], userUid, "127.0.0.1", null, mongoStats.PYRAMID4, item["count"]);
+                    break;
+                case "gold":
+                    mongoStats.dropStats(item["id"], userUid, "127.0.0.1", null, mongoStats.PYRAMID10, item["count"]);
+                    break;
+                default:
+                    mongoStats.dropStats(item["id"], userUid, "127.0.0.1", null, mongoStats.PYRAMID16, item["count"]);
+            }
             modelUtil.addDropItemToDB(item["id"], item["count"], userUid, false, 1, function (err, res) {
                 if (err) {
                     eCb(err);
@@ -73,7 +85,6 @@ function start(postData, response, query) {
                     } else {
                         returnData["rewardList"].push(res);
                     }
-                    //mongoStats.dropStats(item["id"], userUid, "127.0.0.1", null, mongoStats.FOOLISH6, item["count"]);
                     eCb();
                 }
             });

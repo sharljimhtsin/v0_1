@@ -6,6 +6,8 @@ var jutil = require("../utils/jutil");
 var async = require("async");
 var pyramid = require("../model/pyramid");
 var modelUtil = require("../model/modelUtil");
+var mongoStats = require("../model/mongoStats");
+var stats = require("../model/stats");
 var TAG = "pyramid.dragon.mall.exchange";
 
 function start(postData, response, query) {
@@ -79,6 +81,7 @@ function start(postData, response, query) {
                     cb(err);
                 } else if (isOk) {
                     modelUtil.addDropItemToDB(costId, shopItem["cost"] * buyCount * -1, userUid, 1, 1, function (err, res) {
+                        mongoStats.expendStats(costId, userUid, "127.0.0.1", null, mongoStats.PYRAMID22, shopItem["cost"] * buyCount);
                         returnData.push(res);
                         cb(err);
                     });
@@ -91,6 +94,16 @@ function start(postData, response, query) {
         }, function (cb) {
             var mItemId = shopItem["id"];
             modelUtil.addDropItemToDB(mItemId, buyCount * shopItem["count"], userUid, false, 1, function (err, res) {
+                switch (mItemId) {
+                    case "ingot":
+                        mongoStats.dropStats(mItemId, userUid, "127.0.0.1", null, mongoStats.PYRAMID8, buyCount * shopItem["count"]);
+                        break;
+                    case "gold":
+                        mongoStats.dropStats(mItemId, userUid, "127.0.0.1", null, mongoStats.PYRAMID14, buyCount * shopItem["count"]);
+                        break;
+                    default:
+                        mongoStats.dropStats(mItemId, userUid, "127.0.0.1", null, mongoStats.PYRAMID20, buyCount * shopItem["count"]);
+                }
                 buyResult = res;
                 cb();
             });

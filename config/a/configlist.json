@@ -68,6 +68,7 @@
     {"url":"gem.json","type":"json","name":"gem","key":"xxxx"},
     {"url":"cosmosBoss.json","type":"json","name":"cosmosBoss","key":"xxxx"},
     {"url":"morphEvolve.json","type":"json","name":"morphEvolve","key":"xxxx"},
+    {"url":"equipXiaohang.json","type":"json","name":"equipXiaohang","key":"xxxx"},
 	{"url":"morphTransform.json","type":"json","name":"morphTransform","key":"xxxx"},
 	{"url":"starCraft.json","type":"json","name":"starCraft","key":"xxxx"},
     {"url":"dragonBuff.json","type":"json","name":"dragonBuff","key":"xxxx"},

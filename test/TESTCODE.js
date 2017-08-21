@@ -240,7 +240,7 @@ var bList = {
  }
 };
 
-console.log(bitUtil.parseUserUid(39527126752));
+console.log(bitUtil.parseUserUid(39527126752),jutil.day());
 
 var str = JSON.stringify(bList);
 var i = str.lastIndexOf("}");

@@ -5,7 +5,6 @@
  * Time: 下午6:08
  */
 var jutil = require("../utils/jutil");
-//var configData = require("../model/configData");
 var configManager = require("../config/configManager");
 var teach = require("../model/teach");
 var item = require("../model/item");
@@ -136,7 +135,6 @@ function start(postData, response, query) {
             }
         },
         function (cb) { //加经验值
-            //var addExp = (expRatioConfig[gTeachLevel + 1] - expRatioConfig[gTeachLevel]) * 100;
             if(newHeroExp > maxExp){
                 newHeroExp = maxExp;
             }
@@ -166,7 +164,6 @@ exports.start = start;
 function usedWorldBossTeach(userUid, teachUid, callbackFn){
     var configData = configManager.createConfig(userUid);
     var expRatioConfig = configData.getConfig("expRatio");
-
     var gTeachLevel = 1;
     var addExp = 0;
 

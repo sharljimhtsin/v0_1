@@ -7,6 +7,8 @@ var async = require("async");
 var pyramid = require("../model/pyramid");
 var modelUtil = require("../model/modelUtil");
 var user = require("../model/user");
+var mongoStats = require("../model/mongoStats");
+var stats = require("../model/stats");
 var TAG = "pyramid.kalin.mall.refresh";
 
 function start(postData, response, query) {
@@ -58,6 +60,7 @@ function start(postData, response, query) {
             });
         }, function (cb) {
             modelUtil.addDropItemToDB(costItem["id"], costItem["count"] * -1, userUid, false, 1, function (err, res) {
+                mongoStats.expendStats(costItem["id"], userUid, "127.0.0.1", null, mongoStats.PYRAMID27, costItem["count"]);
                 returnData = res;
                 cb(err);
             });
